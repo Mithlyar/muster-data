@@ -241,7 +241,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "determined-acquisition",
@@ -284,7 +286,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "immovable-object",
@@ -333,7 +337,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "inescapable-dominion",
@@ -404,7 +410,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "purge-and-secure",
@@ -472,7 +480,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "unstoppable-force",
@@ -539,7 +549,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "punishment",
@@ -640,7 +652,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "meatgrinder",
@@ -724,7 +738,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "destroyers-wrath",
@@ -808,7 +824,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "consecrate",
@@ -927,7 +945,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "death-trap",
@@ -1012,7 +1032,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "outmanoeuvre",
@@ -1072,7 +1094,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "delaying-action",
@@ -1137,7 +1161,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "locate-and-deny",
@@ -1252,7 +1278,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "smoke-and-mirrors",
@@ -1339,7 +1367,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "secure-asset",
@@ -1434,7 +1464,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "extract-relic",
@@ -1558,7 +1590,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "vital-link",
@@ -1675,7 +1709,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "sabotage",
@@ -1739,7 +1775,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "vanguard-operation",
@@ -1831,7 +1869,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "reconnaissance-sweep",
@@ -1895,7 +1935,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "surveil-the-foe",
@@ -2010,7 +2052,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "triangulation",
@@ -2139,7 +2183,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "search-and-scour",
@@ -2203,7 +2249,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     },
     {
       "id": "gather-intel",
@@ -2311,7 +2359,9 @@
         }
       ],
       "vpGameCap": 45,
-      "vpRoundCap": 15
+      "vpRoundCap": 15,
+      "secondaryGameCap": 45,
+      "secondaryRoundCap": 15
     }
   ],
   "secondaries": [
