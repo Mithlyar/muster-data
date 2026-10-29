@@ -1,5 +1,952 @@
 [
   {
+    "dataVersion": "4d2f57e-82d4b943",
+    "previousDataVersion": "95a3ef0-14f0ffd2",
+    "date": "2026-10-29T09:40:15.408Z",
+    "entries": [
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Venatari with Kinetic Destroyers: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Venatari with Verutum Lances: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "agents-of-the-imperium",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "agents-of-the-imperium",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Battle Tank: 2 Multi-meltas 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Battle Tank: 2 Plasma Cannons 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Leman Russ Battle Tank: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Commander: 2 Multi-meltas 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Commander: 2 Plasma cannons 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Leman Russ Commander: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Demolisher: 2 Multi-meltas 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Demolisher: 2 Plasma Cannons 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Leman Russ Demolisher: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Eradicator: 2 Multi-meltas 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Eradicator: 2 Plasma Cannons 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Leman Russ Eradicator: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Executioner: 2 Multi-meltas 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Executioner: 2 Plasma Cannons 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Leman Russ Executioner: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Exterminator: 2 Multi-meltas 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Exterminator: 2 Plasma Cannons 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Leman Russ Exterminator: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Punisher: 2 Multi-meltas 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Punisher: 2 Plasma Cannons 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Leman Russ Punisher: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Vanquisher: 2 Multi-meltas 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Leman Russ Vanquisher: 2 Plasma Cannons 0 → 10"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Leman Russ Vanquisher: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Knight Despoiler: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Knight Despoiler: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "points",
+        "text": "Forgefiend: 2 ectoplasma cannons 0 → 10"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "points",
+        "text": "Forgefiend: Ectoplasma cannon and limbs 0 → 5"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Forgefiend: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Knight Despoiler: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "points",
+        "text": "Deathwing Terminator Squad: Cyclone Missile Launcher & Storm Bolter 0 → 10"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Deathwing Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Knight Despoiler: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "changed",
+        "text": "Knight Despoiler: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "points",
+        "text": "Stormraven Gunship: 2 Hurricane bolters 0 → 20"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Stormraven Gunship: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "points",
+        "text": "Wolf Guard Terminators: Storm Shield & Master-crafted Power Weapon 0 → 5"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Guard Terminators: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "points",
+        "text": "Forgefiend: 2 ectoplasma cannons 0 → 10"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "points",
+        "text": "Forgefiend: Ectoplasma cannon and claws 0 → 5"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Forgefiend: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Knight Despoiler: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Cyclone Missile Launcher, Storm Bolter and/or melee weapon 0 → 10"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "points",
+        "text": "Deathwatch Terminator Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "points",
+        "text": "Knight Crusader: Rapid-fire battlecannon and Questoris heavy stubber 0 → 15"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Knight Crusader: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "points",
+        "text": "Terminator Assault Squad: Thunder Hammer & Storm Shield 0 → 5"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "points",
+        "text": "Forgefiend: 2 ectoplasma cannons 0 → 10"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "points",
+        "text": "Forgefiend: Ectoplasma cannon and claws 0 → 5"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Forgefiend: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "points",
+        "text": "Knight Despoiler: Gatling cannon and flamer 0 → 25"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "points",
+        "text": "Knight Despoiler: Battle cannon and heavy stubber 0 → 10"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Knight Despoiler: datasheet changed"
+      }
+    ]
+  },
+  {
     "dataVersion": "95a3ef0-14f0ffd2",
     "previousDataVersion": "95a3ef0-2c39b2af",
     "date": "2026-10-29T00:54:42.111Z",

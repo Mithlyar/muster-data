@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "95a3ef032c0178001976e2e54d410456ba4ae482",
+    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
     "file": "Chaos - Emperor's Children.json",
     "gameSystemRevision": 18
   },
@@ -10781,7 +10781,7 @@
                 "89c4-132e-6ad6-2a08",
                 "f4a1-7f17-ec57-6c69"
               ],
-              "points": 0
+              "points": 25
             },
             {
               "id": "eb49-0962-11ba-83c7",
@@ -10790,7 +10790,7 @@
                 "a0e9-d24d-0927-8670",
                 "dfe8-cea0-8d16-db95"
               ],
-              "points": 0
+              "points": 10
             },
             {
               "id": "b862-bf16-4b95-f802",
@@ -10825,7 +10825,7 @@
                 "89c4-132e-6ad6-2a08",
                 "f4a1-7f17-ec57-6c69"
               ],
-              "points": 0
+              "points": 25
             },
             {
               "id": "4379-207c-54b4-722a",
@@ -10834,7 +10834,7 @@
                 "a0e9-d24d-0927-8670",
                 "dfe8-cea0-8d16-db95"
               ],
-              "points": 0
+              "points": 10
             },
             {
               "id": "0943-19c0-9efa-e46c",

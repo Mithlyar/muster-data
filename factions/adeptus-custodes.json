@@ -5,11 +5,11 @@
     "name": "Adeptus Custodes",
     "keyword": "Adeptus Custodes",
     "catalogueId": "1f19-6509-d906-ca10",
-    "catalogueRevision": 26
+    "catalogueRevision": 27
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "95a3ef032c0178001976e2e54d410456ba4ae482",
+    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
     "file": "Imperium - Adeptus Custodes.json",
     "gameSystemRevision": 18
   },
@@ -18845,7 +18845,7 @@
                 "eedf-6059-a15-3c86",
                 "d6c0-4d42-c3c4-db8a"
               ],
-              "points": 0
+              "points": 15
             },
             {
               "id": "ef24-c94e-d430-2af",
@@ -29955,7 +29955,7 @@
             "T": "7",
             "Sv": "2+",
             "W": "5",
-            "Ld": "6+",
+            "Ld": "5+",
             "OC": "2",
             "InvSv": "4+",
             "base": "40mm"
@@ -30089,7 +30089,7 @@
             "T": "7",
             "Sv": "2+",
             "W": "5",
-            "Ld": "6+",
+            "Ld": "5+",
             "OC": "2",
             "InvSv": "4+",
             "base": "40mm"

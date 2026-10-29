@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "95a3ef032c0178001976e2e54d410456ba4ae482",
+    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
     "file": "Imperium - Dark Angels.json",
     "gameSystemRevision": 18
   },
@@ -22805,7 +22805,7 @@
               "weaponIds": [
                 "ff14-7e0a-4b32-6fc1"
               ],
-              "points": 0
+              "points": 5
             },
             {
               "id": "7adb-f0b7-a934-18ad",
@@ -22981,7 +22981,7 @@
               "weaponIds": [
                 "da0b-ae86-a275-13f1"
               ],
-              "points": 0,
+              "points": 10,
               "options": [
                 {
                   "id": "094b-ecdd-1664-84ec",
@@ -23006,7 +23006,7 @@
                       "weaponIds": [
                         "ff14-7e0a-4b32-6fc1"
                       ],
-                      "points": 0
+                      "points": 5
                     },
                     {
                       "id": "7adb-f0b7-a934-18ad",
@@ -23063,7 +23063,7 @@
               "weaponIds": [
                 "ff14-7e0a-4b32-6fc1"
               ],
-              "points": 0
+              "points": 5
             },
             {
               "id": "7adb-f0b7-a934-18ad",
@@ -25074,7 +25074,7 @@
                 "da0b-ae86-a275-13f1",
                 "eb61-5cd0-5242-74cc"
               ],
-              "points": 0
+              "points": 10
             },
             {
               "id": "c8bf-b585-9ca0-26da",
@@ -42837,7 +42837,7 @@
                 "eedf-6059-a15-3c86",
                 "d6c0-4d42-c3c4-db8a"
               ],
-              "points": 0
+              "points": 15
             },
             {
               "id": "ef24-c94e-d430-2af",
@@ -74266,7 +74266,7 @@
               "weaponIds": [
                 "902b-d9c3-cd69-e057"
               ],
-              "points": 0
+              "points": 5
             },
             {
               "id": "fede-6969-007b-65da",
