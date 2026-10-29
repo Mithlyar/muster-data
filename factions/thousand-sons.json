@@ -8519,6 +8519,17 @@
         "unitIds": [
           "5d3d-e13b-8b76-dad3"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "InvSv",
+            "op": "atMost",
+            "value": 4,
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -11703,6 +11714,24 @@
       "leader": {
         "unitIds": [
           "5d3d-e13b-8b76-dad3"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
         ]
       }
     },
@@ -21673,6 +21702,24 @@
         "unitIds": [
           "5d3d-e13b-8b76-dad3"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -21898,6 +21945,24 @@
       "leader": {
         "unitIds": [
           "b1cf-c5-5121-92a4"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
         ]
       }
     },

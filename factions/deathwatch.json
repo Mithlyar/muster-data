@@ -21996,6 +21996,17 @@
           "6ba0-cede-e278-f86b",
           "f1b9-b2e8-4ccf-d6cb"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Assault",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -30450,6 +30461,17 @@
           "a40-ff3f-c1ea-fea7",
           "b5e8-c34b-566b-8bda"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "InvSv",
+            "op": "atMost",
+            "value": 4,
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -30879,6 +30901,24 @@
       "leader": {
         "unitIds": [
           "9e9c-bf4d-2d40-be82"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "S",
+            "op": "add",
+            "value": 1,
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "AP",
+            "op": "add",
+            "value": -1,
+            "fromText": true
+          }
         ]
       }
     },

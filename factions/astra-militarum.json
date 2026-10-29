@@ -1156,6 +1156,17 @@
         "unitIds": [
           "fe5a-764e-37ed-7cef"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -8283,6 +8294,17 @@
         "unitIds": [
           "a2aa-7688-dcb1-4132",
           "abe4-ca71-d5a7-3883"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
         ]
       }
     },
@@ -30320,6 +30342,17 @@
           "73fc-a193-7da1-d9c4",
           "6db9-cede-3810-f1f0"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Psyker 4+",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -32129,6 +32162,17 @@
       "leader": {
         "unitIds": [
           "4469-7239-717e-9abd"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
         ]
       }
     },
@@ -47745,6 +47789,17 @@
           "3e90-9359-2aaa-205e",
           "679b-f37f-2388-748"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -47930,6 +47985,17 @@
           "73fc-a193-7da1-d9c4",
           "6db9-cede-3810-f1f0",
           "d44c-5cde-cb79-3ec3"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
         ]
       }
     },
@@ -49865,6 +49931,14 @@
           "3e90-9359-2aaa-205e",
           "679b-f37f-2388-748"
         ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+ against Psychic Attacks",
+            "text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+          }
+        ]
       }
     },
     {
@@ -50959,6 +51033,24 @@
       "leader": {
         "unitIds": [
           "8293-a070-2c87-de30"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "Ld",
+            "op": "add",
+            "value": -1,
+            "fromText": true
+          },
+          {
+            "on": "unit",
+            "stat": "OC",
+            "op": "add",
+            "value": 1,
+            "fromText": true
+          }
         ]
       }
     },

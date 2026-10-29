@@ -1450,6 +1450,24 @@
           "8467-b3a2-2597-de0d"
         ],
         "extra": true
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -13847,6 +13865,17 @@
           "8467-b3a2-2597-de0d"
         ],
         "extra": true
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "OC",
+            "op": "add",
+            "value": 1,
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -18658,6 +18687,17 @@
         "unitIds": [
           "5b4e-dcf1-5c6f-4d35",
           "83e8-ebb7-785a-2115"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1, Lance",
+            "fromText": true
+          }
         ]
       }
     },

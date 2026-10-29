@@ -1924,6 +1924,24 @@
         "unitIds": [
           "853e-48b8-4cc5-3704"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -9395,6 +9413,24 @@
         "unitIds": [
           "5815-871c-9260-287a",
           "a125-b6fb-2945-56a"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
         ]
       }
     },
@@ -16915,6 +16951,24 @@
           "9ce8-7a63-15c3-0347",
           "5815-871c-9260-287a",
           "a125-b6fb-2945-56a"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
         ]
       }
     },

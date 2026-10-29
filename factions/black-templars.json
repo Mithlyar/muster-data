@@ -25249,6 +25249,17 @@
           "6ba0-cede-e278-f86b",
           "f1b9-b2e8-4ccf-d6cb"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Assault",
+            "fromText": true
+          }
+        ]
       }
     },
     {

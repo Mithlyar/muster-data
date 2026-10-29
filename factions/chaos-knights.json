@@ -2742,6 +2742,17 @@
           "e7b8-aa40-6da7-778e",
           "b795-b936-ad61-e407"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -4497,6 +4508,14 @@
       "leader": {
         "unitIds": [
           "41c2-d2e6-ae43-3beb"
+        ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+ against mortal wounds and Psychic Attacks",
+            "text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks."
+          }
         ]
       }
     },
@@ -8360,6 +8379,17 @@
         "unitIds": [
           "d1eb-b092-d944-e729"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "InvSv",
+            "op": "atMost",
+            "value": 4,
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -8524,6 +8554,17 @@
       "leader": {
         "unitIds": [
           "5f23-4d6-f2f9-5973"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Assault",
+            "fromText": true
+          }
         ]
       }
     },
@@ -8714,6 +8755,17 @@
       "leader": {
         "unitIds": [
           "550b-c5ab-5e27-f59b"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
         ]
       }
     },
@@ -10752,6 +10804,17 @@
       "leader": {
         "unitIds": [
           "112d-8078-777f-76a5"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "AP",
+            "op": "add",
+            "value": -1,
+            "fromText": true
+          }
         ]
       }
     },
@@ -18328,6 +18391,17 @@
       "leader": {
         "unitIds": [
           "4ecc-6aa5-da28-2c57"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true
+          }
         ]
       }
     },

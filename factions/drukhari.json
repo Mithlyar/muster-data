@@ -13184,6 +13184,17 @@
         "unitIds": [
           "edca-1a1b-902d-421a"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
+        ]
       }
     },
     {

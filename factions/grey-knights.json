@@ -3184,6 +3184,17 @@
           "a037-a89c-f59f-8b1e",
           "6528-4634-c2cf-2840"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -3795,6 +3806,14 @@
         "unitIds": [
           "a037-a89c-f59f-8b1e",
           "6528-4634-c2cf-2840"
+        ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+ against Psychic Attacks",
+            "text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+          }
         ]
       }
     },
@@ -19703,6 +19722,17 @@
           "73fc-a193-7da1-d9c4",
           "6db9-cede-3810-f1f0"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Psyker 4+",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -21800,6 +21830,17 @@
         "unitIds": [
           "4469-7239-717e-9abd"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -21956,6 +21997,14 @@
         "unitIds": [
           "a037-a89c-f59f-8b1e",
           "6528-4634-c2cf-2840"
+        ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+ against mortal wounds",
+            "text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds"
+          }
         ]
       }
     },
@@ -28141,6 +28190,17 @@
           "73fc-a193-7da1-d9c4",
           "6db9-cede-3810-f1f0",
           "d44c-5cde-cb79-3ec3"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
         ]
       }
     },

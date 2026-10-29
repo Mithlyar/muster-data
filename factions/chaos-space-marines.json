@@ -4328,6 +4328,17 @@
           "e7b8-aa40-6da7-778e",
           "b795-b936-ad61-e407"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -8457,6 +8468,17 @@
         "unitIds": [
           "7373-47b7-11a3-2b48"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Assault",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -8912,6 +8934,14 @@
         "unitIds": [
           "4e85-615b-5d49-dfa4",
           "615-e6bf-cfd2-9384"
+        ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+ against mortal wounds",
+            "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds."
+          }
         ]
       }
     },
@@ -14855,6 +14885,14 @@
       "leader": {
         "unitIds": [
           "41c2-d2e6-ae43-3beb"
+        ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+ against mortal wounds and Psychic Attacks",
+            "text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks."
+          }
         ]
       }
     },
@@ -21296,6 +21334,17 @@
         "unitIds": [
           "d1eb-b092-d944-e729"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "InvSv",
+            "op": "atMost",
+            "value": 4,
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -22778,6 +22827,17 @@
         "unitIds": [
           "5f23-4d6-f2f9-5973"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Assault",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -22977,6 +23037,26 @@
           "615-e6bf-cfd2-9384",
           "9238-473a-54ee-6b0e",
           "2078-97ce-8793-3382"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "S",
+            "op": "add",
+            "value": 1,
+            "fromText": true,
+            "bodyguardOnly": true
+          },
+          {
+            "on": "unit",
+            "stat": "T",
+            "op": "add",
+            "value": 1,
+            "fromText": true,
+            "bodyguardOnly": true
+          }
         ]
       }
     },
@@ -23611,6 +23691,17 @@
       "leader": {
         "unitIds": [
           "550b-c5ab-5e27-f59b"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
         ]
       }
     },
@@ -28818,6 +28909,17 @@
       "leader": {
         "unitIds": [
           "112d-8078-777f-76a5"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "AP",
+            "op": "add",
+            "value": -1,
+            "fromText": true
+          }
         ]
       }
     },
@@ -48095,6 +48197,14 @@
           "478-9d24-e5c8-c6f7",
           "9238-473a-54ee-6b0e"
         ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+ against Psychic Attacks",
+            "text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+          }
+        ]
       }
     },
     {
@@ -51046,6 +51156,17 @@
         "unitIds": [
           "4ecc-6aa5-da28-2c57"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -53017,6 +53138,17 @@
           "4e85-615b-5d49-dfa4",
           "615-e6bf-cfd2-9384"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Ignores Cover",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -53428,6 +53560,24 @@
           "4e85-615b-5d49-dfa4",
           "615-e6bf-cfd2-9384"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -53837,6 +53987,24 @@
       "leader": {
         "unitIds": [
           "7373-47b7-11a3-2b48"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "M",
+            "op": "set",
+            "value": "14\"",
+            "fromText": true
+          },
+          {
+            "on": "unit",
+            "stat": "InvSv",
+            "op": "atMost",
+            "value": 4,
+            "fromText": true
+          }
         ]
       }
     },

@@ -10312,6 +10312,17 @@
           "d929-b22d-3040-9707",
           "c49d-f150-4b3-c118"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "OC",
+            "op": "add",
+            "value": 1,
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -13887,6 +13898,14 @@
           "c49d-f150-4b3-c118",
           "4269-a229-1461-67d0"
         ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+          }
+        ]
       }
     },
     {
@@ -14041,6 +14060,24 @@
           "5d01-db4e-c389-a0bc",
           "d929-b22d-3040-9707",
           "c49d-f150-4b3-c118"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "Sv",
+            "op": "set",
+            "value": "2+",
+            "fromText": true
+          },
+          {
+            "on": "unit",
+            "stat": "InvSv",
+            "op": "atMost",
+            "value": 4,
+            "fromText": true
+          }
         ]
       }
     },
@@ -16513,6 +16550,17 @@
           "4e74-3710-7a66-9d6c",
           "73fc-a193-7da1-d9c4",
           "6db9-cede-3810-f1f0"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Psyker 4+",
+            "fromText": true
+          }
         ]
       }
     },
@@ -19375,6 +19423,17 @@
       "leader": {
         "unitIds": [
           "4469-7239-717e-9abd"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
         ]
       }
     },
@@ -25830,6 +25889,17 @@
           "6db9-cede-3810-f1f0",
           "d44c-5cde-cb79-3ec3"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -26800,6 +26870,24 @@
           "d929-b22d-3040-9707",
           "c49d-f150-4b3-c118",
           "4269-a229-1461-67d0"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
         ]
       }
     },

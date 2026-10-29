@@ -1,5 +1,842 @@
 [
   {
+    "dataVersion": "4d2f57e-5e40f852",
+    "previousDataVersion": "4d2f57e-a0534b3e",
+    "date": "2026-10-29T16:59:09.515Z",
+    "entries": [
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Dogmata: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Hospitaller: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Imagifier: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Palatine: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Tech-Priest Dominus: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Tech-Priest Manipulus: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Technoarcheologist: datasheet changed"
+      },
+      {
+        "factionId": "agents-of-the-imperium",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "agents-of-the-imperium",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "agents-of-the-imperium",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "‘Iron Hand’ Straken: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Cadian Castellan: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Primaris Psyker: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Provisionally Prepared: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Brother Corbulo: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Sanguinary Priest with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Changecaster: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Contorted Epitome: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Epidemius: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Exalted Flamer: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Fateskimmer: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Herald of Slaanesh on Steed of Slaanesh: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Skulltaker: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Changecaster: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Contorted Epitome: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Epidemius: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Exalted Flamer: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Fateskimmer: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Herald of Slaanesh on Steed of Slaanesh: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Skulltaker: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Changecaster: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Chaos Lord on Bike: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Chaos Lord on Disc of Tzeentch: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Contorted Epitome: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Epidemius: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Exalted Flamer: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Fabius Bile: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Fateskimmer: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Herald of Slaanesh on Steed of Slaanesh: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Rogue Psyker: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Skulltaker: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Sorcerer on Disc of Tzeentch: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Sorcerer on Palanquin of Nurgle: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Sorcerer on Steed of Slaanesh: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Fuegan: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Succubus: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Biologus Putrifier: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Icon Bearer: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Lord of Contagion: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Succubus: datasheet changed"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "changed",
+        "text": "Lord Exultant: datasheet changed"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "changed",
+        "text": "Lord Kakophonist: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Acolyte Iconward: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Benefictus: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Biophagus: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Patriarch: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Brother-Captain: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Brotherhood Librarian: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Kaldor Draigo: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Tech-Priest Dominus: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Tech-Priest Manipulus: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "leagues-of-votann",
+        "kind": "changed",
+        "text": "Grimnyr: datasheet changed"
+      },
+      {
+        "factionId": "leagues-of-votann",
+        "kind": "changed",
+        "text": "Kâhl: datasheet changed"
+      },
+      {
+        "factionId": "leagues-of-votann",
+        "kind": "changed",
+        "text": "Ûthar the Destined: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Lord: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Orikan the Diviner: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Skorpekh Lord: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Technomancer: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Canis Wolfborn: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Aun'shi: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Cadre Fireblade: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Commander in Coldstar Battlesuit: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Ethereal: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Kroot Flesh Shaper: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Shas'nel [Crucible]: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Shas'o R'alai: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Exalted Sorcerer: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Infernal Master: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Sorcerer: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Sorcerer in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Broodlord: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Node Organism [Crucible]: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Winged Tyranid Prime: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Inquisitor Greyfax: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Jokaero Weaponsmith: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      }
+    ]
+  },
+  {
     "dataVersion": "4d2f57e-a0534b3e",
     "previousDataVersion": "4d2f57e-0f262680",
     "date": "2026-10-29T16:05:06.168Z",

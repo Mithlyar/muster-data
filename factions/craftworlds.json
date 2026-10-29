@@ -10390,6 +10390,26 @@
         "unitIds": [
           "5374-9e93-8af2-819e"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "range",
+            "op": "add",
+            "value": 6,
+            "fromText": true,
+            "weaponName": "melta"
+          },
+          {
+            "on": "melee",
+            "stat": "range",
+            "op": "add",
+            "value": 6,
+            "fromText": true,
+            "weaponName": "melta"
+          }
+        ]
       }
     },
     {
@@ -25923,6 +25943,17 @@
       "leader": {
         "unitIds": [
           "36fd-7c3f-b728-c5d4"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
         ]
       }
     },

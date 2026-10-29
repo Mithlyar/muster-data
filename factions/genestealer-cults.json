@@ -1994,6 +1994,14 @@
           "8a84-a8fd-977e-9118",
           "b5d2-8681-6bba-f05b"
         ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+          }
+        ]
       }
     },
     {
@@ -4835,6 +4843,17 @@
           "8a84-a8fd-977e-9118",
           "b5d2-8681-6bba-f05b"
         ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
+        ]
       }
     },
     {
@@ -4997,6 +5016,17 @@
       "support": {
         "unitIds": [
           "f51d-bc51-f301-9dee"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Lethal Hits",
+            "fromText": true
+          }
         ]
       }
     },
@@ -14042,6 +14072,17 @@
       "leader": {
         "unitIds": [
           "965b-496a-3a1b-22a8"
+        ]
+      },
+      "leading": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true
+          }
         ]
       }
     },
