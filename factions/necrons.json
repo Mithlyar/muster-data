@@ -3060,6 +3060,7 @@
           },
           "loadout": [
             "3dcb-6d4a-632b-b2c5",
+            "3dcb-6d4a-632b-b2c5",
             "4dec-6404-8188-646a"
           ]
         }
@@ -3394,6 +3395,7 @@
               "id": "a797-f585-4ad5-d786",
               "name": "Two particle beamers",
               "weaponIds": [
+                "cba8-5b8b-824-30b6",
                 "cba8-5b8b-824-30b6"
               ],
               "points": 0
@@ -5693,6 +5695,7 @@
           "loadout": [
             "6767-c738-31be-b32a",
             "c9e6-b252-d410-4ce3",
+            "c9e6-b252-d410-4ce3",
             "927a-5f3d-6d88-260"
           ]
         }
@@ -5855,7 +5858,9 @@
             "InvSv": "4+",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "11de-f0cf-17fa-a10c"
+          ]
         }
       ],
       "weapons": [
@@ -6229,7 +6234,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "a7d6-c417-375e-90ec",
           "choices": [
             {
               "id": "a7d6-c417-375e-90ec",
@@ -6353,7 +6358,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "11de-f0cf-17fa-a10c",
           "choices": [
             {
               "id": "11de-f0cf-17fa-a10c",
@@ -6535,6 +6540,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "e55-db9a-8f67-b41f",
             "e55-db9a-8f67-b41f"
           ]
         }
@@ -7399,6 +7405,7 @@
           },
           "loadout": [
             "f97d-ed16-324f-ef9f",
+            "f97d-ed16-324f-ef9f",
             "927a-5f3d-6d88-260"
           ]
         }
@@ -7806,7 +7813,9 @@
             "OC": "1",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "1fb6-98ea-c83c-6352"
+          ]
         }
       ],
       "weapons": [
@@ -8235,7 +8244,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "eea9-53b5-b23e-59f5",
           "choices": [
             {
               "id": "eea9-53b5-b23e-59f5",
@@ -8425,7 +8434,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "1fb6-98ea-c83c-6352",
           "choices": [
             {
               "id": "1fb6-98ea-c83c-6352",
@@ -9129,6 +9138,8 @@
           },
           "loadout": [
             "412e-da68-5020-dd05",
+            "412e-da68-5020-dd05",
+            "9c32-9f63-8d26-8ec9",
             "9c32-9f63-8d26-8ec9"
           ]
         }
@@ -10421,6 +10432,9 @@
           "loadout": [
             "713c-56a-6daf-39",
             "828c-60df-8e28-7d4c",
+            "8a4d-6b24-a4ff-a37",
+            "8a4d-6b24-a4ff-a37",
+            "8a4d-6b24-a4ff-a37",
             "8a4d-6b24-a4ff-a37"
           ]
         }
@@ -10519,6 +10533,9 @@
               "id": "38b2-6df5-3b2a-ec",
               "name": "Four death rays",
               "weaponIds": [
+                "c6d1-a1e4-774c-9f24",
+                "c6d1-a1e4-774c-9f24",
+                "c6d1-a1e4-774c-9f24",
                 "c6d1-a1e4-774c-9f24"
               ],
               "points": 0
@@ -10527,6 +10544,9 @@
               "id": "266f-c700-199-e196",
               "name": "Four gauss flux arcs",
               "weaponIds": [
+                "8a4d-6b24-a4ff-a37",
+                "8a4d-6b24-a4ff-a37",
+                "8a4d-6b24-a4ff-a37",
                 "8a4d-6b24-a4ff-a37"
               ],
               "points": 0
@@ -11429,6 +11449,9 @@
           },
           "loadout": [
             "ddbc-8eca-bda7-2bf2",
+            "e0a6-ce43-b479-de3b",
+            "e0a6-ce43-b479-de3b",
+            "e0a6-ce43-b479-de3b",
             "e0a6-ce43-b479-de3b"
           ]
         }
@@ -13547,6 +13570,7 @@
           },
           "loadout": [
             "9be5-1d97-4957-fd73",
+            "7d24-b5d-c2b5-c041",
             "7d24-b5d-c2b5-c041"
           ]
         }
@@ -13653,6 +13677,7 @@
               "id": "237f-84f1-139b-e9ec",
               "name": "Two singularity generators",
               "weaponIds": [
+                "7d24-b5d-c2b5-c041",
                 "7d24-b5d-c2b5-c041"
               ],
               "points": 0
@@ -13662,6 +13687,8 @@
               "name": "Two synaptic obliterators and two transdimensional projectors",
               "weaponIds": [
                 "531b-e85d-aee1-6431",
+                "531b-e85d-aee1-6431",
+                "d1f3-4c73-7af8-afb9",
                 "d1f3-4c73-7af8-afb9"
               ],
               "points": 0
@@ -14390,6 +14417,7 @@
           "loadout": [
             "d326-f3d9-8bc1-153",
             "b5f2-968c-9daa-9f00",
+            "b5f2-968c-9daa-9f00",
             "927a-5f3d-6d88-260"
           ]
         }
@@ -14520,6 +14548,7 @@
               "id": "a83d-addc-d927-7f52",
               "name": "Two gauss cannons",
               "weaponIds": [
+                "ac0e-5410-19a7-9334",
                 "ac0e-5410-19a7-9334"
               ],
               "points": 0
@@ -14528,6 +14557,7 @@
               "id": "e442-690e-fc30-5ed9",
               "name": "Two particle beamers",
               "weaponIds": [
+                "5a10-cad8-d536-a413",
                 "5a10-cad8-d536-a413"
               ],
               "points": 0
@@ -14536,6 +14566,7 @@
               "id": "f97d-e878-7468-c1b8",
               "name": "Two tesla cannons",
               "weaponIds": [
+                "b5f2-968c-9daa-9f00",
                 "b5f2-968c-9daa-9f00"
               ],
               "points": 0
@@ -14634,6 +14665,9 @@
           },
           "loadout": [
             "df62-ee85-5169-327e",
+            "68e9-a3fc-4ef2-b655",
+            "68e9-a3fc-4ef2-b655",
+            "68e9-a3fc-4ef2-b655",
             "68e9-a3fc-4ef2-b655"
           ]
         }
@@ -16362,7 +16396,9 @@
             "InvSv": "4+",
             "base": "-"
           },
-          "loadout": []
+          "loadout": [
+            "11de-f0cf-17fa-a10c"
+          ]
         }
       ],
       "weapons": [
@@ -16728,7 +16764,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "a7d6-c417-375e-90ec",
           "choices": [
             {
               "id": "a7d6-c417-375e-90ec",
@@ -16876,7 +16912,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "11de-f0cf-17fa-a10c",
           "choices": [
             {
               "id": "11de-f0cf-17fa-a10c",

@@ -2139,7 +2139,10 @@
             "OC": "1",
             "base": "50mm"
           },
-          "loadout": []
+          "loadout": [
+            "673b-c3e-6682-ae28",
+            "df3a-0414-6edc-005a"
+          ]
         }
       ],
       "weapons": [
@@ -2236,7 +2239,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "673b-c3e-6682-ae28",
           "choices": [
             {
               "id": "673b-c3e-6682-ae28",
@@ -2262,7 +2265,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "df3a-0414-6edc-005a",
           "choices": [
             {
               "id": "df3a-0414-6edc-005a",
@@ -2508,6 +2511,7 @@
             "base": "40mm"
           },
           "loadout": [
+            "39d9-1036-73d6-6bab",
             "f65e-dc30-e7c0-7e47"
           ]
         }
@@ -2725,7 +2729,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "39d9-1036-73d6-6bab",
           "choices": [
             {
               "id": "39d9-1036-73d6-6bab",
@@ -2970,6 +2974,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "bab8-ecdc-4ff6-71d4",
             "bab8-ecdc-4ff6-71d4",
             "c20a-6327-4743-4114"
           ]
@@ -4624,6 +4629,7 @@
           },
           "loadout": [
             "5987-fa47-5ae9-93d2",
+            "5987-fa47-5ae9-93d2",
             "8fca-90dd-a784-b5c0"
           ]
         }
@@ -4854,6 +4860,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "bab8-ecdc-4ff6-71d4",
             "050a-60ad-b309-77f5"
           ]
         }
@@ -5006,7 +5013,7 @@
           "model": "Spanner",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "a9df-663e-ce85-1937",
           "choices": [
             {
               "id": "a9df-663e-ce85-1937",
@@ -6001,6 +6008,7 @@
           },
           "loadout": [
             "958c-b8ab-d7af-24d9",
+            "7c7-2cc-12e-c710",
             "7c7-2cc-12e-c710"
           ]
         }
@@ -6877,6 +6885,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "e55-db9a-8f67-b41f",
             "e55-db9a-8f67-b41f"
           ]
         }
@@ -7835,7 +7844,9 @@
             "75fe-1d78-6e54-db74",
             "c7a9-3d8d-b20-587d",
             "9347-969c-e16f-67ef",
+            "9347-969c-e16f-67ef",
             "d9d3-f0ca-f950-69b2",
+            "9d75-a79d-1adb-64f5",
             "9d75-a79d-1adb-64f5"
           ]
         }
@@ -8180,6 +8191,7 @@
           "loadout": [
             "1ebb-4e0a-9896-734f",
             "cd6a-9500-bb1b-c525",
+            "e81a-4309-ab7f-12b3",
             "e81a-4309-ab7f-12b3"
           ]
         }
@@ -8562,6 +8574,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "f086-cf02-b348-8fd1",
             "f086-cf02-b348-8fd1",
             "7bbb-6f6f-3d95-d093"
           ]
@@ -9436,7 +9449,9 @@
             "OC": "1",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "3d1d-54d6-45fb-669f"
+          ]
         }
       ],
       "weapons": [
@@ -10405,7 +10420,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "f7e6-6ed8-ed52-2700",
           "choices": [
             {
               "id": "f7e6-6ed8-ed52-2700",
@@ -10656,7 +10671,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "3d1d-54d6-45fb-669f",
           "choices": [
             {
               "id": "3d1d-54d6-45fb-669f",
@@ -11088,6 +11103,8 @@
           },
           "loadout": [
             "412e-da68-5020-dd05",
+            "412e-da68-5020-dd05",
+            "9c32-9f63-8d26-8ec9",
             "9c32-9f63-8d26-8ec9"
           ]
         }
@@ -11701,6 +11718,7 @@
           },
           "loadout": [
             "bab8-ecdc-4ff6-71d4",
+            "bab8-ecdc-4ff6-71d4",
             "e53c-2190-e5c7-2263",
             "ae0b-205a-2f7c-c502"
           ]
@@ -11947,6 +11965,7 @@
               "id": "1518-4c71-c79c-a42e",
               "name": "2 Big Shootas",
               "weaponIds": [
+                "bab8-ecdc-4ff6-71d4",
                 "bab8-ecdc-4ff6-71d4"
               ],
               "points": 0
@@ -11955,6 +11974,7 @@
               "id": "5113-76ee-1ef7-8ade",
               "name": "2 Rokkit Launchas",
               "weaponIds": [
+                "6318-d7d7-ea26-8302",
                 "6318-d7d7-ea26-8302"
               ],
               "points": 0
@@ -11963,6 +11983,7 @@
               "id": "18dc-d4b9-d4a8-ddd0",
               "name": "2 Skorchas",
               "weaponIds": [
+                "d9d3-f0ca-f950-69b2",
                 "d9d3-f0ca-f950-69b2"
               ],
               "points": 0
@@ -12878,6 +12899,7 @@
               "id": "c2cf-f1a9-e5d7-20de",
               "name": "2 Big Shootas",
               "weaponIds": [
+                "bab8-ecdc-4ff6-71d4",
                 "bab8-ecdc-4ff6-71d4"
               ],
               "points": 0
@@ -12886,6 +12908,7 @@
               "id": "befd-b1f1-66e6-e5b3",
               "name": "2 Rokkit Launchas",
               "weaponIds": [
+                "6318-d7d7-ea26-8302",
                 "6318-d7d7-ea26-8302"
               ],
               "points": 0
@@ -14322,7 +14345,9 @@
             "4d14-52f3-b6dd-b10c",
             "a551-a1e2-3fcd-4f4b",
             "7843-55c3-4500-18a6",
+            "7843-55c3-4500-18a6",
             "e0c6-58cd-a822-8b84",
+            "cfd3-d969-b6ca-1d7e",
             "cfd3-d969-b6ca-1d7e"
           ]
         }
@@ -16826,6 +16851,10 @@
             "6e92-6712-f0a8-94ee",
             "16a0-ea92-9a11-a855",
             "bab8-ecdc-4ff6-71d4",
+            "bab8-ecdc-4ff6-71d4",
+            "bab8-ecdc-4ff6-71d4",
+            "bab8-ecdc-4ff6-71d4",
+            "bab8-ecdc-4ff6-71d4",
             "8e99-adf-bad4-e07f"
           ]
         }
@@ -17280,6 +17309,8 @@
             "base": "32mm"
           },
           "loadout": [
+            "811f-e844-83ab-78a4",
+            "811f-e844-83ab-78a4",
             "8fca-90dd-a784-b5c0"
           ]
         },
@@ -17315,6 +17346,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "7819-56c3-cf02-6cdb",
             "7819-56c3-cf02-6cdb",
             "9707-82cf-9501-fb43"
           ]
@@ -17466,7 +17498,7 @@
           "model": "Nob",
           "min": 2,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "811f-e844-83ab-78a4",
           "choices": [
             {
               "id": "811f-e844-83ab-78a4",
@@ -17918,7 +17950,9 @@
             "OC": "2",
             "base": "~25mm"
           },
-          "loadout": []
+          "loadout": [
+            "3d1d-54d6-45fb-669f"
+          ]
         }
       ],
       "weapons": [
@@ -18887,7 +18921,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "f7e6-6ed8-ed52-2700",
           "choices": [
             {
               "id": "f7e6-6ed8-ed52-2700",
@@ -19138,7 +19172,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "3d1d-54d6-45fb-669f",
           "choices": [
             {
               "id": "3d1d-54d6-45fb-669f",
@@ -21079,7 +21113,9 @@
             "OC": "1",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "3d1d-54d6-45fb-669f"
+          ]
         }
       ],
       "weapons": [
@@ -22048,7 +22084,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "f7e6-6ed8-ed52-2700",
           "choices": [
             {
               "id": "f7e6-6ed8-ed52-2700",
@@ -22299,7 +22335,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "3d1d-54d6-45fb-669f",
           "choices": [
             {
               "id": "3d1d-54d6-45fb-669f",

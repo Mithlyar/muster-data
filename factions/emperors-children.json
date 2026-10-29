@@ -2450,7 +2450,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "f304-3b21-c5da-357f",
           "choices": [
             {
               "id": "f304-3b21-c5da-357f",
@@ -2799,7 +2799,9 @@
           },
           "loadout": [
             "a895-55eb-d2ea-6b87",
+            "a895-55eb-d2ea-6b87",
             "506b-fe3c-9d9f-1d55",
+            "1e7e-f373-3db1-a768",
             "1e7e-f373-3db1-a768",
             "28a-8545-4104-4ffa"
           ]
@@ -2972,7 +2974,9 @@
           },
           "loadout": [
             "ab22-ae06-7c8c-48c5",
+            "ab22-ae06-7c8c-48c5",
             "2bd3-2771-a737-adee",
+            "ba14-8cac-6b19-4318",
             "ba14-8cac-6b19-4318",
             "28a-8545-4104-4ffa"
           ]
@@ -3892,6 +3896,7 @@
           },
           "loadout": [
             "61b6-4d0d-039d-6efc",
+            "2e62-00e4-8585-c884",
             "2e62-00e4-8585-c884",
             "b16a-3c62-69d6-5c90"
           ]
@@ -5035,7 +5040,10 @@
             "InvSv": "4+",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "67b2-85df-2416-e2c1",
+            "8aed-68aa-c825-f692"
+          ]
         },
         {
           "name": "Power fist and combi-bolter",
@@ -5347,7 +5355,7 @@
           "model": "Heavy weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "67b2-85df-2416-e2c1",
           "choices": [
             {
               "id": "67b2-85df-2416-e2c1",
@@ -5373,7 +5381,7 @@
           "model": "Heavy weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "8aed-68aa-c825-f692",
           "choices": [
             {
               "id": "8aed-68aa-c825-f692",
@@ -5963,6 +5971,7 @@
             "abeb-fd42-d013-6b96",
             "6eff-4b50-7611-42c5",
             "4376-3a66-d9f7-8105",
+            "bd01-88b9-7d60-b49a",
             "bd01-88b9-7d60-b49a"
           ]
         }
@@ -6326,6 +6335,7 @@
               "id": "23ce-dba1-8242-532d",
               "name": "Two excruciator cannons",
               "weaponIds": [
+                "bd01-88b9-7d60-b49a",
                 "bd01-88b9-7d60-b49a"
               ],
               "points": 0
@@ -6334,6 +6344,7 @@
               "id": "cf33-9c7b-1f90-74f7",
               "name": "Two magma cutters",
               "weaponIds": [
+                "969d-3183-3e99-ff8e",
                 "969d-3183-3e99-ff8e"
               ],
               "points": 0
@@ -6954,7 +6965,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "f304-3b21-c5da-357f",
           "choices": [
             {
               "id": "f304-3b21-c5da-357f",
@@ -7445,6 +7456,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "e55-db9a-8f67-b41f",
             "e55-db9a-8f67-b41f"
           ]
         }
@@ -8269,7 +8281,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "f304-3b21-c5da-357f",
           "choices": [
             {
               "id": "f304-3b21-c5da-357f",
@@ -9267,6 +9279,8 @@
           },
           "loadout": [
             "412e-da68-5020-dd05",
+            "412e-da68-5020-dd05",
+            "9c32-9f63-8d26-8ec9",
             "9c32-9f63-8d26-8ec9"
           ]
         }
@@ -11330,6 +11344,8 @@
           "loadout": [
             "52fe-84a1-27cf-c9ce",
             "65a3-e04c-fa08-2a01",
+            "65a3-e04c-fa08-2a01",
+            "fb24-d907-e7e7-04f7",
             "fb24-d907-e7e7-04f7",
             "6a8b-6d2e-fd7b-5e12",
             "da60-a5c3-ed49-2cc9",
@@ -11551,6 +11567,7 @@
               "name": "2 Gheiststrike missile launchers and 1 twin desecrator cannon",
               "weaponIds": [
                 "fb24-d907-e7e7-04f7",
+                "fb24-d907-e7e7-04f7",
                 "6a8b-6d2e-fd7b-5e12"
               ],
               "points": 0
@@ -11560,6 +11577,7 @@
               "name": "2 twin desecrator cannons and 1 gheiststrike missile launcher",
               "weaponIds": [
                 "fb24-d907-e7e7-04f7",
+                "6a8b-6d2e-fd7b-5e12",
                 "6a8b-6d2e-fd7b-5e12"
               ],
               "points": 0
@@ -12577,6 +12595,7 @@
               "id": "9ef8-1cb6-2f19-cc1b",
               "name": "2 magma cutters",
               "weaponIds": [
+                "bd33-fe8e-fe90-2bb7",
                 "bd33-fe8e-fe90-2bb7"
               ],
               "points": 0
@@ -15765,6 +15784,7 @@
           },
           "loadout": [
             "7193-1dfe-7721-ecbd",
+            "7193-1dfe-7721-ecbd",
             "dfe8-cea0-8d16-db95",
             "6638-278a-5331-d1ff"
           ]
@@ -16344,6 +16364,8 @@
             "base": "100mm"
           },
           "loadout": [
+            "82bb-5188-3701-a846",
+            "82bb-5188-3701-a846",
             "6638-278a-5331-d1ff"
           ]
         }
@@ -16493,7 +16515,7 @@
           "model": null,
           "min": 2,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "82bb-5188-3701-a846",
           "choices": [
             {
               "id": "82bb-5188-3701-a846",

@@ -1147,7 +1147,9 @@
             "InvSv": "4+",
             "base": "~32mm"
           },
-          "loadout": []
+          "loadout": [
+            "f56c-a42e-3951-b9c0"
+          ]
         }
       ],
       "weapons": [
@@ -1653,7 +1655,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "5fd9-04cf-ea8c-68cd",
           "choices": [
             {
               "id": "5fd9-04cf-ea8c-68cd",
@@ -1848,7 +1850,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "f56c-a42e-3951-b9c0",
           "choices": [
             {
               "id": "f56c-a42e-3951-b9c0",
@@ -4212,6 +4214,7 @@
             "base": "28.5mm"
           },
           "loadout": [
+            "3554-3b1d-63cc-7c6b",
             "6f5b-87a7-49f0-9721"
           ]
         },
@@ -4549,7 +4552,7 @@
           "model": "Voidreaver with Heavy weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "3554-3b1d-63cc-7c6b",
           "choices": [
             {
               "id": "3554-3b1d-63cc-7c6b",
@@ -4845,6 +4848,7 @@
             "base": "28.5mm"
           },
           "loadout": [
+            "e4e7-a36f-2ac9-32b6",
             "d945-f22d-d010-5525"
           ]
         },
@@ -4880,6 +4884,7 @@
             "base": "28.5mm"
           },
           "loadout": [
+            "57eb-8686-28ce-4ad7",
             "d945-f22d-d010-5525"
           ]
         },
@@ -5287,7 +5292,7 @@
           "model": "Voidscarred with heavy weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "e4e7-a36f-2ac9-32b6",
           "choices": [
             {
               "id": "e4e7-a36f-2ac9-32b6",
@@ -5313,7 +5318,7 @@
           "model": "Voidscarred with special weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "57eb-8686-28ce-4ad7",
           "choices": [
             {
               "id": "57eb-8686-28ce-4ad7",
@@ -6196,7 +6201,9 @@
             "InvSv": "6+",
             "base": "25mm"
           },
-          "loadout": []
+          "loadout": [
+            "f56c-a42e-3951-b9c0"
+          ]
         }
       ],
       "weapons": [
@@ -6637,7 +6644,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "5fd9-04cf-ea8c-68cd",
           "choices": [
             {
               "id": "5fd9-04cf-ea8c-68cd",
@@ -6832,7 +6839,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "f56c-a42e-3951-b9c0",
           "choices": [
             {
               "id": "f56c-a42e-3951-b9c0",
@@ -7357,6 +7364,7 @@
             "base": "25mm"
           },
           "loadout": [
+            "f887-5128-1826-8bb2",
             "6f5b-87a7-49f0-9721"
           ]
         },
@@ -7929,7 +7937,7 @@
           "model": "Kabalite Agent with heavy weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "f887-5128-1826-8bb2",
           "choices": [
             {
               "id": "f887-5128-1826-8bb2",
@@ -8426,7 +8434,9 @@
             "InvSv": "5+",
             "base": "28.5mm"
           },
-          "loadout": []
+          "loadout": [
+            "694a-1b90-4195-2d3f"
+          ]
         }
       ],
       "weapons": [
@@ -8524,7 +8534,7 @@
           "model": "Klaivex",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "694a-1b90-4195-2d3f",
           "choices": [
             {
               "id": "694a-1b90-4195-2d3f",
@@ -10104,6 +10114,8 @@
           },
           "loadout": [
             "a105-1988-7e9b-a77d",
+            "8c0f-1bd-db16-bd1a",
+            "8c0f-1bd-db16-bd1a",
             "8c0f-1bd-db16-bd1a"
           ]
         }
@@ -10265,6 +10277,7 @@
           "loadout": [
             "dd07-325a-57d6-6f00",
             "ad96-8ab8-d38-9d4a",
+            "ad96-8ab8-d38-9d4a",
             "a505-80d8-8b35-6343"
           ]
         }
@@ -10398,6 +10411,7 @@
           "loadout": [
             "ed56-19ca-76b1-7c82",
             "3a02-5934-ef63-df89",
+            "cf55-faf2-b217-333b",
             "cf55-faf2-b217-333b",
             "34ab-c084-d4f9-143"
           ]
@@ -10557,6 +10571,7 @@
               "id": "4b8b-8747-c47d-ed1b",
               "name": "Two dark lances",
               "weaponIds": [
+                "cf55-faf2-b217-333b",
                 "cf55-faf2-b217-333b"
               ],
               "points": 0
@@ -10565,6 +10580,7 @@
               "id": "76a4-6255-a45c-10e4",
               "name": "Two disintegrator cannons",
               "weaponIds": [
+                "be26-b68f-94c2-83fe",
                 "be26-b68f-94c2-83fe"
               ],
               "points": 0
@@ -11964,7 +11980,8 @@
             "base": "32mm"
           },
           "loadout": [
-            "c86a-5cf3-6138-96c1"
+            "c86a-5cf3-6138-96c1",
+            "a1da-6e01-938a-89c7"
           ]
         }
       ],
@@ -12245,7 +12262,7 @@
           "model": "Solarite",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "a1da-6e01-938a-89c7",
           "choices": [
             {
               "id": "a1da-6e01-938a-89c7",
@@ -13042,6 +13059,7 @@
           },
           "loadout": [
             "273-cae3-c7fa-fa24",
+            "3924-7fd-61b4-f4ec",
             "3924-7fd-61b4-f4ec"
           ]
         }
@@ -15031,6 +15049,7 @@
           },
           "loadout": [
             "3342-58c4-339-2309",
+            "c457-283d-813b-2f92",
             "c457-283d-813b-2f92"
           ]
         }
@@ -15154,6 +15173,7 @@
               "id": "117c-d05f-c3ed-b28a",
               "name": "2 Void Lances",
               "weaponIds": [
+                "c457-283d-813b-2f92",
                 "c457-283d-813b-2f92"
               ],
               "points": 0
@@ -15162,6 +15182,7 @@
               "id": "a855-c06-eb97-be9",
               "name": "2 Dark Scythes",
               "weaponIds": [
+                "0e6e-5591-8715-e687",
                 "0e6e-5591-8715-e687"
               ],
               "points": 0
@@ -15247,6 +15268,7 @@
           "loadout": [
             "9b6a-5658-e114-b9a1",
             "49a7-3388-c32f-788d",
+            "3924-7fd-61b4-f4ec",
             "3924-7fd-61b4-f4ec"
           ]
         }

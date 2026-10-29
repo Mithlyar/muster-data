@@ -5335,6 +5335,7 @@
             "base": "28.5mm"
           },
           "loadout": [
+            "3554-3b1d-63cc-7c6b",
             "6f5b-87a7-49f0-9721"
           ]
         },
@@ -5672,7 +5673,7 @@
           "model": "Voidreaver with Heavy weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "3554-3b1d-63cc-7c6b",
           "choices": [
             {
               "id": "3554-3b1d-63cc-7c6b",
@@ -5964,6 +5965,7 @@
             "base": "28.5mm"
           },
           "loadout": [
+            "e4e7-a36f-2ac9-32b6",
             "d945-f22d-d010-5525"
           ]
         },
@@ -5999,6 +6001,7 @@
             "base": "28.5mm"
           },
           "loadout": [
+            "57eb-8686-28ce-4ad7",
             "d945-f22d-d010-5525"
           ]
         },
@@ -6406,7 +6409,7 @@
           "model": "Voidscarred with heavy weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "e4e7-a36f-2ac9-32b6",
           "choices": [
             {
               "id": "e4e7-a36f-2ac9-32b6",
@@ -6432,7 +6435,7 @@
           "model": "Voidscarred with special weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "57eb-8686-28ce-4ad7",
           "choices": [
             {
               "id": "57eb-8686-28ce-4ad7",
@@ -6633,7 +6636,9 @@
             "InvSv": "4+",
             "base": "32mm"
           },
-          "loadout": []
+          "loadout": [
+            "bc84-759e-19ad-32b5"
+          ]
         }
       ],
       "weapons": [
@@ -7078,7 +7083,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "5553-9c59-c78c-e6c3",
           "choices": [
             {
               "id": "5553-9c59-c78c-e6c3",
@@ -7144,7 +7149,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "bc84-759e-19ad-32b5",
           "choices": [
             {
               "id": "bc84-759e-19ad-32b5",
@@ -7334,6 +7339,7 @@
           "loadout": [
             "e8b5-20aa-b1db-d67",
             "69d8-4688-5098-a4ba",
+            "9b9c-6662-0e42-9ccd",
             "9b9c-6662-0e42-9ccd"
           ]
         }
@@ -7424,6 +7430,7 @@
               "id": "a333-ffe0-66ef-d64f",
               "name": "2 Starcannons",
               "weaponIds": [
+                "9b9c-6662-0e42-9ccd",
                 "9b9c-6662-0e42-9ccd"
               ],
               "points": 0
@@ -7432,6 +7439,7 @@
               "id": "92fd-dbc8-7ba4-e705",
               "name": "2 Bright Lances",
               "weaponIds": [
+                "8f2e-65ee-4cc5-318f",
                 "8f2e-65ee-4cc5-318f"
               ],
               "points": 0
@@ -8305,6 +8313,7 @@
               "id": "caf3-8f76-d54f-2895",
               "name": "Two Avenger Shuriken Catapults",
               "weaponIds": [
+                "e007-ad30-b419-57b4",
                 "e007-ad30-b419-57b4"
               ],
               "points": 0
@@ -10098,7 +10107,8 @@
           },
           "loadout": [
             "8c49-fd52-2c96-838d",
-            "7f63-7496-69cc-25b"
+            "7f63-7496-69cc-25b",
+            "495d-9b0f-1bc3-e07"
           ]
         }
       ],
@@ -10186,7 +10196,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "495d-9b0f-1bc3-e07",
           "choices": [
             {
               "id": "495d-9b0f-1bc3-e07",
@@ -10422,7 +10432,9 @@
             "OC": "3",
             "base": "60mm"
           },
-          "loadout": []
+          "loadout": [
+            "bc84-759e-19ad-32b5"
+          ]
         }
       ],
       "weapons": [
@@ -10884,7 +10896,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "0d23-43bb-9d76-13a0",
           "choices": [
             {
               "id": "0d23-43bb-9d76-13a0",
@@ -10909,7 +10921,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "bc84-759e-19ad-32b5",
           "choices": [
             {
               "id": "bc84-759e-19ad-32b5",
@@ -11431,6 +11443,7 @@
             "base": "120x92mm"
           },
           "loadout": [
+            "a9bd-cba0-4b8-1c66",
             "a9bd-cba0-4b8-1c66"
           ]
         }
@@ -11520,6 +11533,7 @@
             "base": "120x92mm"
           },
           "loadout": [
+            "7170-82b3-50f1-4f0",
             "7170-82b3-50f1-4f0"
           ]
         }
@@ -14016,6 +14030,7 @@
               "name": "2 Phantom starcannons & 1 wraith glaive",
               "weaponIds": [
                 "119-ff8d-e115-3e1",
+                "119-ff8d-e115-3e1",
                 "7e4b-a6c7-4009-5e4a"
               ],
               "points": 0
@@ -14024,6 +14039,7 @@
               "id": "1fa2-b693-52d3-faaf",
               "name": "2 pulse lasers & 1 wraith glaive",
               "weaponIds": [
+                "ee5e-7281-3cc1-1f1e",
                 "ee5e-7281-3cc1-1f1e",
                 "7e4b-a6c7-4009-5e4a"
               ],
@@ -14070,6 +14086,7 @@
               "name": "2 Phantom starcannons & 1 wraith glaive",
               "weaponIds": [
                 "119-ff8d-e115-3e1",
+                "119-ff8d-e115-3e1",
                 "7e4b-a6c7-4009-5e4a"
               ],
               "points": 0
@@ -14078,6 +14095,7 @@
               "id": "c17b-b0aa-4128-4b2d",
               "name": "2 pulse lasers & 1 wraith glaive",
               "weaponIds": [
+                "ee5e-7281-3cc1-1f1e",
                 "ee5e-7281-3cc1-1f1e",
                 "7e4b-a6c7-4009-5e4a"
               ],
@@ -16605,7 +16623,9 @@
             "InvSv": "4+",
             "base": "60x35.5mm"
           },
-          "loadout": []
+          "loadout": [
+            "bc84-759e-19ad-32b5"
+          ]
         }
       ],
       "weapons": [
@@ -17061,7 +17081,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "5553-9c59-c78c-e6c3",
           "choices": [
             {
               "id": "5553-9c59-c78c-e6c3",
@@ -17127,7 +17147,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "bc84-759e-19ad-32b5",
           "choices": [
             {
               "id": "bc84-759e-19ad-32b5",
@@ -17946,6 +17966,7 @@
           },
           "loadout": [
             "273-cae3-c7fa-fa24",
+            "3924-7fd-61b4-f4ec",
             "3924-7fd-61b4-f4ec"
           ]
         }
@@ -20141,6 +20162,7 @@
           "loadout": [
             "8111-3af8-4298-b57f",
             "d2fe-ab04-e49f-1400",
+            "d2fe-ab04-e49f-1400",
             "c891-819d-11d0-5e8f",
             "ceef-306b-c8b-10a4"
           ]
@@ -20292,6 +20314,7 @@
           },
           "loadout": [
             "8f06-6bfb-b366-6595",
+            "8194-7e89-dbfc-a042",
             "8194-7e89-dbfc-a042",
             "757-7ff8-750f-409c"
           ]
@@ -20560,6 +20583,7 @@
           "loadout": [
             "9b6a-5658-e114-b9a1",
             "49a7-3388-c32f-788d",
+            "3924-7fd-61b4-f4ec",
             "3924-7fd-61b4-f4ec"
           ]
         }
@@ -24205,6 +24229,7 @@
           },
           "loadout": [
             "d06a-5348-e773-89b3",
+            "fa35-8240-73b7-e8e2",
             "fa35-8240-73b7-e8e2"
           ]
         }

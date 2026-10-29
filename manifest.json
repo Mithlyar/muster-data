@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "95a3ef0-2c39b2af",
-  "date": "2026-10-28T23:41:39.943Z",
+  "dataVersion": "95a3ef0-14f0ffd2",
+  "date": "2026-10-29T00:54:42.111Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "95a3ef032c0178001976e2e54d410456ba4ae482"
@@ -11,273 +11,273 @@
       "id": "adepta-sororitas",
       "name": "Adepta Sororitas",
       "file": "factions/adepta-sororitas.json",
-      "sha256": "9d9076d7d7837ef69077b714a303c6c0f09183419f624a8a400bab9cea9fd5ec",
+      "sha256": "02223351662b4cf3de39f042ef8ab39eb022512478b2b4d85af3c3a51d546db6",
       "units": 112,
-      "sourceSha256": "c5f5c2cdc4f4a8517030230344858f9af4577fef4ba0086445d53e7978441596"
+      "sourceSha256": "f57d65ef6c1a57157591712ab5ae8f424e3348ff6428e6a3639ccc1a7f34891a"
     },
     {
       "id": "adeptus-custodes",
       "name": "Adeptus Custodes",
       "file": "factions/adeptus-custodes.json",
-      "sha256": "97705bba913f9a0099ee972c581f91587cba66804703e6e98346f75c17958af2",
+      "sha256": "e39ca2860e95a07c98245631941604421e703048f9bb03f04dbb42fa8033103d",
       "units": 110,
-      "sourceSha256": "cd29a779e4947dfd3e6341bd118b155a478969b317f1787fc4342fba0ac46fe8"
+      "sourceSha256": "75479b94bd20cdb902190cc981f3f45e75f62b25ddcd475c2d914fe6bbe70a8d"
     },
     {
       "id": "adeptus-mechanicus",
       "name": "Adeptus Mechanicus",
       "file": "factions/adeptus-mechanicus.json",
-      "sha256": "395077dbf4576b75dd179b9be23ecda24fcc57b6bc49cfcb8df2b086cb0e26d8",
+      "sha256": "26a8547e50a8404fe256ebf632afe0f94b6d09184be198d36e58e6c3b1d6cb4c",
       "units": 112,
-      "sourceSha256": "1ea0e984b19a8f43a634b2a4d661e8fd23d841fe8cc480ff8dae4673de83b6fe"
+      "sourceSha256": "43df0cb3bfe5d032292c1788646ffa0174559766912bc6a25e951319670e848b"
     },
     {
       "id": "agents-of-the-imperium",
       "name": "Agents of the Imperium",
       "file": "factions/agents-of-the-imperium.json",
-      "sha256": "a90ceb37eca139818e0c4b97d30fe66e1b86933a687cdeb3e470f9cbc57a098a",
+      "sha256": "79c5030a68c2809dcea67c50e19126d4152b46779e695d3e60ab76fd6d10c5de",
       "units": 94,
-      "sourceSha256": "1e9dac846dd29df033baf77ac2f603d2427df67645b96ea472e4a191378b1e7a"
+      "sourceSha256": "762c84642d4afc9a4e1190ab7d40a81b31b05d7b4ee1bcfe9b579ff3dd05f66e"
     },
     {
       "id": "astra-militarum",
       "name": "Astra Militarum",
       "file": "factions/astra-militarum.json",
-      "sha256": "a99a46ac412615bfc9f530d81bbe24384e89bf9e30e235ddfdd08ec0f86be6d0",
+      "sha256": "55198b5789bcae0ef77028f3dd65d2d3f8121e22053cbab5d637bc5b4e2f0a10",
       "units": 209,
-      "sourceSha256": "4581ee79b30b6ef87db2e7b4f4bb112e33f734e888711fe45375344468ab1f03"
+      "sourceSha256": "53cec8703316499df7ddbe31828dccbf3613a81f09d4145363b5b3c902c388c7"
     },
     {
       "id": "black-templars",
       "name": "Black Templars",
       "file": "factions/black-templars.json",
-      "sha256": "51b98b7bb510487129c49617de528875d6d3096bae92c50ec1a4b3c1c342101f",
+      "sha256": "421471187b0cc1b222191200309325446104387030e7d0ac85a328e6e0ee846f",
       "units": 169,
-      "sourceSha256": "c02527306d06ac01cd137d0a60b2a45e0968a9810dc2c14849a441a6bbfa40dd"
+      "sourceSha256": "9f80bee49a2287d97249fa8a522905e514e9cc4bbdc776e925b120c1f3156aff"
     },
     {
       "id": "blood-angels",
       "name": "Blood Angels",
       "file": "factions/blood-angels.json",
-      "sha256": "eeec482d4cd1dfae67b28bed2f44afb4baaba495b70ca9221e718a11fa213cad",
+      "sha256": "85501769806002126c31fd92f1ee54654402362ccd326d99505e8191800c93f9",
       "units": 261,
-      "sourceSha256": "1e2fd1c19b54b15eecbb9572168de2c318e75c5c04483512b125e235138eadaa"
+      "sourceSha256": "0f074612ac4102ec1e5b4273c1d76ff0fe054c53b371fe5b900908431b967ea5"
     },
     {
       "id": "chaos-daemons",
       "name": "Chaos Daemons",
       "file": "factions/chaos-daemons.json",
-      "sha256": "39196be04e3a4b90be00f0f6d0bca5f3a24cbccaafd4017cc83a5223541661a9",
+      "sha256": "475a70b98db7a48833ea30206c4b3941d4be7280047ed92410e55b37edab829d",
       "units": 115,
-      "sourceSha256": "da6d7bd177cde4673c9c738be5bb20ee0fbad5252722b102058580b040643c7b"
+      "sourceSha256": "d9149470a4f3ed6ed70e701135726c871cf27891d9ed1092f6bd63835e8646f5"
     },
     {
       "id": "chaos-knights",
       "name": "Chaos Knights",
       "file": "factions/chaos-knights.json",
-      "sha256": "2ebb742c3286e06ccba9b8f3862f51418d4f54904ea66ddb40b59f0b050d8a3e",
+      "sha256": "f94904e57c82f57a5880357c6a6563ebfea3c4809ced05061e3b0360c75ab7a7",
       "units": 101,
-      "sourceSha256": "a2146020f98eb4972c3c64567a41a8a9b6164b39222780ed4571c0b55b97bf7e"
+      "sourceSha256": "6d59f582b384452489a78120617c28413c0f9748d5b1c9c7ad0fda3cd61ca964"
     },
     {
       "id": "chaos-space-marines",
       "name": "Chaos Space Marines",
       "file": "factions/chaos-space-marines.json",
-      "sha256": "a3c211c17ce9f36c4de99009dbaef4e50c476229132c032c4eb0563f73f372be",
+      "sha256": "508c5327258dd8cc70e857f4632c4d2110c4aa81cba0a7f70505ccef239b7232",
       "units": 207,
-      "sourceSha256": "7cde0ae2549dafb7c8c3ea43ec7d7384643a28214dbc11a5caf553560a23aa0e"
+      "sourceSha256": "0a6816f3c41b531bd53adb0e351a6d0f0f562043d6e1da2a0c53c796e6834281"
     },
     {
       "id": "craftworlds",
       "name": "Craftworlds",
       "file": "factions/craftworlds.json",
-      "sha256": "9640eb26d5811ffa0ea5dc7ca1e0609752cc11a484b6e51929d5d3acab581eb9",
+      "sha256": "5a8c1235814f24c8c0040281a70c7cf8994d3c67b5ead013fb332d4ff2303a4e",
       "units": 96,
-      "sourceSha256": "b567fcb2651ce2e49fbe800ca99be5d69bcbaf3561f4f8b9410e28fa278a1e54"
+      "sourceSha256": "b868b1ec6838d683a810c84f8e73ff21872bff661da6429c306adc1cd196479e"
     },
     {
       "id": "dark-angels",
       "name": "Dark Angels",
       "file": "factions/dark-angels.json",
-      "sha256": "27552b1551b3cc2b2836dd658564baa639ea6e17b073360312d0be4b8543e1de",
+      "sha256": "34b57fd59ad5ebf3acef43becbe1e6e81dace529e667f5b518192d86d54088bb",
       "units": 253,
-      "sourceSha256": "e5d0edd98cb0eda25d72ed8ca678cd8af381eeb36d1566e88913297614ed3b4b"
+      "sourceSha256": "0681fab0d4f91960b2eba8ec6a5f721088962930c47466872307f3438ce7e4b2"
     },
     {
       "id": "death-guard",
       "name": "Death Guard",
       "file": "factions/death-guard.json",
-      "sha256": "cd38b24b4e12a5fb894bd2d7120d9c191ddcedf87d8c19731fa3db126bbd127a",
+      "sha256": "346c66cdef269a87b9b5ef63d022d876b4e4db756ae1a8cb057df336d7efa420",
       "units": 121,
-      "sourceSha256": "2b361c1b9f187556df19e0d5e2f33c28df61853a871796f10f6b2de38741116d"
+      "sourceSha256": "8e27e8fd513543216e04d0c5cd7c3d729339d1c0edec3c2c8d7fbf41c5d0ddf4"
     },
     {
       "id": "deathwatch",
       "name": "Deathwatch",
       "file": "factions/deathwatch.json",
-      "sha256": "f7495c031f4820365f351731e70048c9724d43697eee5c07dec4c0f4e58bdb01",
+      "sha256": "68acedff579832f4ada4457c108ed15c7d040bb6af206b32f33ccd5984e35380",
       "units": 157,
-      "sourceSha256": "09799d48c0b215abf43f044d13d2875b2c82f1ca2bd3ade39637dc392f981930"
+      "sourceSha256": "c902404db616e683696c81599bd305ee275af720c3b3e27d987b91ea8e84fe87"
     },
     {
       "id": "drukhari",
       "name": "Drukhari",
       "file": "factions/drukhari.json",
-      "sha256": "08c670b0797e22d08ae6ec3149f652d99fc428098d1b3f73408d1d992b515fc4",
+      "sha256": "84f1dce8f05d586cb637b5a04363eeeb2e7864524e2f157e4a3a5c85f65214a5",
       "units": 48,
-      "sourceSha256": "2c299cdf86f32bb961d080bfeb4ccf7a0dc780c2fc1ffad964a28fd4f443fca6"
+      "sourceSha256": "a628c781f3e72473b4842ea5e04202a46ea9d960473162821de0a3db5284e43f"
     },
     {
       "id": "emperors-children",
       "name": "Emperor's Children",
       "file": "factions/emperors-children.json",
-      "sha256": "e7d5abde773631325290e3f324ceda176551123edaa3c7e57ae78cfc6765976d",
+      "sha256": "ac6f34fb8a7b8a73582cd1a74fae0a2c45c0e043d032eaa2309fb477a3ece6f2",
       "units": 69,
-      "sourceSha256": "223cc42eb828beda79449e94ef28f3aa0946315d94905716a60f8e9670856fdc"
+      "sourceSha256": "9a786db0c648c108e9f5e212cda055db04382f14b8e89a6670cd2eb0fc1c29ba"
     },
     {
       "id": "genestealer-cults",
       "name": "Genestealer Cults",
       "file": "factions/genestealer-cults.json",
-      "sha256": "9cabad4d9d324fbf9c538b676c713c27abd97795545014e2609584219691a051",
+      "sha256": "141cdc9f1a5eb65991980bd35285e33c1e1b11d26c08c415ed83eeea3d39df59",
       "units": 79,
-      "sourceSha256": "65ea875b43b6b8ac18619c2122b13aa695274e72d37417757c2750dace77e159"
+      "sourceSha256": "147406709bf3237b29f73e767c04647b922e44e12519ff2a46d0156c2da71738"
     },
     {
       "id": "grey-knights",
       "name": "Grey Knights",
       "file": "factions/grey-knights.json",
-      "sha256": "4bb2e7a9e0f2579f5f9d1eae214f51243e04477f95acf62b0ff766e6e6e3f189",
+      "sha256": "5b1ca8e81f52d4cf5da90dc91426ec242a7b89e5e924c41e91c86fe80f9e98f8",
       "units": 128,
-      "sourceSha256": "a82489668de089a4e9180eb4b5140abee7351035f827c3c4082b3911f517302b"
+      "sourceSha256": "51222a53bcb07830c7124ec4f2d314a90901c497ac2de237f1d1ba8315a3c97f"
     },
     {
       "id": "imperial-fists",
       "name": "Imperial Fists",
       "file": "factions/imperial-fists.json",
-      "sha256": "b1e00702ccaa141b3c5cd2c627255e32c50840e44d2f26bb1629391c6a54e6cb",
+      "sha256": "a87b77b333648b3e6a9e5e119d82c25ce05f2313eace5d733d6ed1bbbc85276f",
       "units": 217,
-      "sourceSha256": "e846d9290b953750be93edd37921755d9c90d21caaab9cb77c0b500dd8d1808a"
+      "sourceSha256": "7dcd67b6d15fcc95f8d96390376a69c23c6a5ae4573672623d74761f2f44d535"
     },
     {
       "id": "imperial-knights",
       "name": "Imperial Knights",
       "file": "factions/imperial-knights.json",
-      "sha256": "3114e361dfd80d73b7b3505e312db20144db6021cc3b724d0c773eed00100369",
+      "sha256": "1e259dce811eab7962c7df96b85f15823e70b5835f41063105107d0f68a46a7d",
       "units": 76,
-      "sourceSha256": "66d7528eddc75c988dbe6d199d62ae0ccad56ac802403e6804a940e49b4c75f7"
+      "sourceSha256": "54b00addc66d1b758648d72e2264342bae06ebfb48becc35a6a58137f92d36f3"
     },
     {
       "id": "iron-hands",
       "name": "Iron Hands",
       "file": "factions/iron-hands.json",
-      "sha256": "f467cd614a47d30150354b128a6db381498d64afd4bbe0c25b0e4318ba02f5da",
+      "sha256": "fa5b48daa1d18585635ac126bcdfe25eb5be284528821eac107cac979d3bccf6",
       "units": 239,
-      "sourceSha256": "e07dd3cdff814d3d23bf32bd9fd2b05d73dcf82241e91f01d784cacdaa0ae189"
+      "sourceSha256": "4bc3ff0ebcf89ae70659f0a60fa78b018e168bf67fcf839bc96bf26341f2677a"
     },
     {
       "id": "leagues-of-votann",
       "name": "Leagues of Votann",
       "file": "factions/leagues-of-votann.json",
-      "sha256": "fcb530f168e8c3c256fee51ac4503b4aa64cfc21e73d6ab266ca175fd7aad496",
+      "sha256": "0d5c282ffaef43eea82936ded4ee12e76f9c5beea30cf7d9b6d7da9d5418089b",
       "units": 48,
-      "sourceSha256": "4f6ad04c4f78f5fe10e15e4da949a00de0fe6dcf2408567faa8660a8e80e788d"
+      "sourceSha256": "ef5e8f40435c9d991f1a748fdd44ec07bbf1def226a3d2d760adffbd53081db2"
     },
     {
       "id": "necrons",
       "name": "Necrons",
       "file": "factions/necrons.json",
-      "sha256": "aaa14337718c62fbf40670f72359d751b4913d0fc8987026a118cf75e48d17c8",
+      "sha256": "915c967984a07a7c873e634b5ce883f39ca4005fb52c9eef3cfaffff34ed6910",
       "units": 90,
-      "sourceSha256": "2f9711313cdd01d6045b17746fd779e8636326de1e188549efc855b0316ecad1"
+      "sourceSha256": "c8c7378d863e2eb3faddd1cf989c94b347905173819012747fc8a4e94a5869f0"
     },
     {
       "id": "orks",
       "name": "Orks",
       "file": "factions/orks.json",
-      "sha256": "4fc6bb665fcd63fe498f5c0f9da20b67894feb92ccc300066c9fc97210df01ea",
+      "sha256": "2a30dc5debcceeb682dcc345bd09081a9f5ebd6d43158b3b4cee18a286bea004",
       "units": 96,
-      "sourceSha256": "9a34c45b1e30189dae9e67e2009a068b84475ad7825bad42417ff467050879f0"
+      "sourceSha256": "3f5ab8bee83ce07df9e88e7e15f10735cc4cf18220b3c1934be99da6bec675b2"
     },
     {
       "id": "raven-guard",
       "name": "Raven Guard",
       "file": "factions/raven-guard.json",
-      "sha256": "bc96579fc1e2b61f0955884c98723c5191977e70bb9198a5828e801bc336504a",
+      "sha256": "f614497de53e45ea907083c1efa359d646a7149236b8674c59fbe8dfc5528aec",
       "units": 239,
-      "sourceSha256": "302072973a96eb738ef6390c8734be01e6053f30395c20e7905a9d7383447516"
+      "sourceSha256": "454be6561c356f776aeb7a7750c23c0627ace4b75dd8a02c83aa12578d0ecb9a"
     },
     {
       "id": "salamanders",
       "name": "Salamanders",
       "file": "factions/salamanders.json",
-      "sha256": "ec242e6f379567ae41a7748a8eb4238f5cc55ba37c0404a188b0d6edb6ad1816",
+      "sha256": "b073076d7b56aeae7d54aa5089c95dc282e6d790e31b92af44d4d79d0f666cf5",
       "units": 217,
-      "sourceSha256": "da81de481e4adbbf059be0be1129ad7e2b226c9e3e1b5309a85c9197fcb2a375"
+      "sourceSha256": "dee5770135560a2941b7a7ab31f73526515fdaedaa6d46f9efa6548b1bde1549"
     },
     {
       "id": "space-marines",
       "name": "Space Marines",
       "file": "factions/space-marines.json",
-      "sha256": "4612025fc702af2e3c63587d4d1eb6e06f88f163a8c2ae1df6a8b8317b13df94",
+      "sha256": "aa4f4d7cd290ad0973619060dc637e9b9aaae41543cb6d7b24e302dda3a11c1a",
       "units": 237,
-      "sourceSha256": "4cb8fb7001ac71b98d75757f3f8e10e6bccf19961e8840d3217d0b6d4b845c17"
+      "sourceSha256": "a8c32aee67c2e0a3c74deced054c078251555e65ac14f42686b6dbe80a5c48ca"
     },
     {
       "id": "space-wolves",
       "name": "Space Wolves",
       "file": "factions/space-wolves.json",
-      "sha256": "0aedb27ceb6f999bbd9d5bff42a6fd45bef47c5195596a3c68581db43d0a0083",
+      "sha256": "05be8b0a66bd3727af553c3fe45b3968257241ce2e1e85fb11e67443d4d4670f",
       "units": 274,
-      "sourceSha256": "496ff576b4db7c75754290adfb76233647fe06f2495ade90151d636b2fcb245e"
+      "sourceSha256": "259ac10478415a2e37b9c81c182db89fc159874230c11407dac34b2898d57eb4"
     },
     {
       "id": "tau-empire",
       "name": "T'au Empire",
       "file": "factions/tau-empire.json",
-      "sha256": "98b140212d4b534aae058f2313e19077149873a52cc8e3cf8857ac6250ae130c",
+      "sha256": "8bf14482fbf25c217a5109f692da9eb9a7135fda8006182bb4fb82662459e6ba",
       "units": 89,
-      "sourceSha256": "52888f40241cd573562f4c19e50ad6ca3ca0fa651d3d5bce5c32adc29f800691"
+      "sourceSha256": "e57d854042e201fbd46b7b5eabd7649dddb9efd50c183fb54623c85efafbbcbc"
     },
     {
       "id": "thousand-sons",
       "name": "Thousand Sons",
       "file": "factions/thousand-sons.json",
-      "sha256": "ee37b4101e403b0e3b24be47acea689dc750f8640ec459ff1ad0f04defcb1a52",
+      "sha256": "3bebca08baff5b51392f3bfc868089a04be186ecb9e5939369319321c0741ce3",
       "units": 108,
-      "sourceSha256": "f5899da12f00bcf7d033857103fd6e431451fb17b479c30a47fa26cb2fd037df"
+      "sourceSha256": "678dca698b1aad8134f0976d5561097760847c47efc48525a19527a00e530cf2"
     },
     {
       "id": "tyranids",
       "name": "Tyranids",
       "file": "factions/tyranids.json",
-      "sha256": "9538f22d25eebdbff2c61455f60ac30be4bffe587e309625db04800c80d0887d",
+      "sha256": "9e981793033632570e55cf9e72985f01d013d52446a8e47cfc0a57fc7857d635",
       "units": 87,
-      "sourceSha256": "9000f41ef4f965795c7c1a38e721c713f209d4f6c733a88b16ca60250e49ebf6"
+      "sourceSha256": "02f128989ef91a40ddea4dcf24b282d9adea86eeadb8583c13c0b3045cd71164"
     },
     {
       "id": "ultramarines",
       "name": "Ultramarines",
       "file": "factions/ultramarines.json",
-      "sha256": "8d3e74675d7e38431c652b703b6195a7dad6e5b1b050b30ee5bd9ae9398742ae",
+      "sha256": "4448725816ec28e47431d870e943748a65c7d1e0d45587994cd4d4486ba74e55",
       "units": 245,
-      "sourceSha256": "816aebea3ffa7c80cdd22ddb714d2e0208fe268df42f29a03d5a7db288d2843a"
+      "sourceSha256": "8d0f14098f7ee6f40a7109216bb736ea55858e204d757a016da63d23d51b42ba"
     },
     {
       "id": "white-scars",
       "name": "White Scars",
       "file": "factions/white-scars.json",
-      "sha256": "6cbe2957d8f3c302e44fe5dc5dddaa385c446fcbd93af90c62e74e211ba1922c",
+      "sha256": "4c4ad60f460e87392dd645d68b1d66e1e6d0e2c312079ecce18530211e0e8818",
       "units": 239,
-      "sourceSha256": "1fb2f6ac66824c4c6a0891f704991d73a2990a77895f3f344d2bb469c5a3651e"
+      "sourceSha256": "0e7a3cab92912a45857d9016c518298ba4672b03c6a309c7958aebbfcae7cc6c"
     },
     {
       "id": "world-eaters",
       "name": "World Eaters",
       "file": "factions/world-eaters.json",
-      "sha256": "70c7213510ca985a8255167bb8feb5ebdd60ff2b421f348cb0db669cc0cc25c3",
+      "sha256": "734deaed83cdfcfed4395f9504556b9c9362173888356e8ca6b8d7083e69e680",
       "units": 107,
-      "sourceSha256": "8e478a7e8f794fa0102d648a3fc72695eaecfc01e5df5a1ec7ba6ef676728df2"
+      "sourceSha256": "9f8ab810bb6c2b8f909631fea5c6f0bc6d829767e6241e97c555ab7441a069a8"
     }
   ]
 }

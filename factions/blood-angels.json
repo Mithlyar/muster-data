@@ -1336,6 +1336,8 @@
           },
           "loadout": [
             "4287-98aa-9723-71c5",
+            "4287-98aa-9723-71c5",
+            "3104-b624-a035-82f5",
             "3104-b624-a035-82f5",
             "6a9c-1e8b-698b-5640",
             "3a05-e1f7-7966-ce43"
@@ -1509,6 +1511,8 @@
           },
           "loadout": [
             "1d9a-57f1-78bd-f342",
+            "1d9a-57f1-78bd-f342",
+            "1961-5261-ccc4-f070",
             "1961-5261-ccc4-f070",
             "845c-f07d-7d-b5f9",
             "3a05-e1f7-7966-ce43"
@@ -1682,6 +1686,7 @@
               "id": "5621-3b42-f51b-e40c",
               "name": "2 Acastus autocannons",
               "weaponIds": [
+                "1961-5261-ccc4-f070",
                 "1961-5261-ccc4-f070"
               ],
               "points": 0
@@ -1699,6 +1704,7 @@
               "id": "84b4-a59b-3e71-6a0f",
               "name": "2 Lascannons",
               "weaponIds": [
+                "c4da-ff52-1481-95b5",
                 "c4da-ff52-1481-95b5"
               ],
               "points": 0
@@ -2107,6 +2113,7 @@
             "base": "40mm"
           },
           "loadout": [
+            "e1b5-a74f-b2ec-c7ed",
             "18b0-8c2-173f-5",
             "3a9a-05a5-41e6-7e70"
           ]
@@ -2220,7 +2227,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "00c4-0315-3191-fcd1",
           "choices": [
             {
               "id": "00c4-0315-3191-fcd1",
@@ -2445,6 +2452,7 @@
             "base": "90x52.5mm"
           },
           "loadout": [
+            "f8d8-7e77-4b71-faac",
             "c1b9-f39d-7390-d4cb",
             "a578-8e45-2a54-509d"
           ]
@@ -2719,7 +2727,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "c6ab-4da4-5051-f3df",
           "choices": [
             {
               "id": "c6ab-4da4-5051-f3df",
@@ -3888,6 +3896,7 @@
           },
           "loadout": [
             "d0c7-36d4-2d50-f975",
+            "d0c7-36d4-2d50-f975",
             "eedf-6059-a15-3c86",
             "541e-cd89-cb31-4ee6"
           ]
@@ -4073,6 +4082,8 @@
             "base": "100mm"
           },
           "loadout": [
+            "d21e-d3c2-dfff-ec6d",
+            "d21e-d3c2-dfff-ec6d",
             "541e-cd89-cb31-4ee6"
           ]
         }
@@ -4225,7 +4236,7 @@
           "model": null,
           "min": 2,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "d21e-d3c2-dfff-ec6d",
           "choices": [
             {
               "id": "d21e-d3c2-dfff-ec6d",
@@ -5282,7 +5293,10 @@
             "OC": "1",
             "base": "32mm"
           },
-          "loadout": []
+          "loadout": [
+            "25c2-104f-fa0c-809e",
+            "efcd-180-d07-b4d6"
+          ]
         },
         {
           "name": "Assault Marine",
@@ -5811,7 +5825,7 @@
           "model": "Assault Marine w/ Special Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "7970-cbbc-9166-26b8",
           "choices": [
             {
               "id": "7970-cbbc-9166-26b8",
@@ -5916,6 +5930,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "18b0-8c2-173f-5",
             "efcd-180-d07-b4d6"
           ]
         },
@@ -5933,6 +5948,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "18b0-8c2-173f-5",
             "515e-8dca-b455-dc02"
           ]
         },
@@ -5949,7 +5965,10 @@
             "OC": "1",
             "base": "32mm"
           },
-          "loadout": []
+          "loadout": [
+            "25c2-104f-fa0c-809e",
+            "efcd-180-d07-b4d6"
+          ]
         },
         {
           "name": "Assault Marine with Jump Pack",
@@ -6320,7 +6339,7 @@
           "model": "Assault Sergeant with Jump Pack",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "d1d1-b62a-20f4-78ab",
           "choices": [
             {
               "id": "d1d1-b62a-20f4-78ab",
@@ -6452,7 +6471,7 @@
           "model": "Assault Marine with Jump Pack w/ Eviscerator",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "a96d-cee1-20f5-4400",
           "choices": [
             {
               "id": "a96d-cee1-20f5-4400",
@@ -6478,7 +6497,7 @@
           "model": "Assault Marine with Jump Pack w/ Special Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "ac53-8c82-de99-c8d1",
           "choices": [
             {
               "id": "ac53-8c82-de99-c8d1",
@@ -6598,7 +6617,8 @@
             "base": "~25mm"
           },
           "loadout": [
-            "259f-465a-2f71-4dd0"
+            "259f-465a-2f71-4dd0",
+            "58c-876b-8430-a0e6"
           ]
         }
       ],
@@ -6725,7 +6745,7 @@
           "model": "Astartes Servitor w/ Heavy Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "1de-cf40-1854-b7dd",
           "choices": [
             {
               "id": "1de-cf40-1854-b7dd",
@@ -6933,6 +6953,7 @@
           "loadout": [
             "a9c6-5574-8a3e-1bdf",
             "d107-1e89-9d3f-c9c7",
+            "5e7d-e4a3-1407-eddf",
             "5e7d-e4a3-1407-eddf",
             "3b59-048c-5410-33fe",
             "1c66-4903-10ca-2a27",
@@ -7154,6 +7175,7 @@
               "id": "31a8-32e4-d39f-cd1e",
               "name": "Two Astraeus las-rippers",
               "weaponIds": [
+                "5e7d-e4a3-1407-eddf",
                 "5e7d-e4a3-1407-eddf"
               ],
               "points": 0
@@ -7162,6 +7184,7 @@
               "id": "a268-ee79-2774-264a",
               "name": "Two plasma eradicators",
               "weaponIds": [
+                "9d52-88c2-e2d6-4637",
                 "9d52-88c2-e2d6-4637"
               ],
               "points": 0
@@ -7664,6 +7687,7 @@
               "id": "f126-f2a2-ed42-1efc",
               "name": "2 Heavy Flamers",
               "weaponIds": [
+                "51cd-b22d-18eb-0d18",
                 "51cd-b22d-18eb-0d18"
               ],
               "points": 0
@@ -7672,6 +7696,7 @@
               "id": "6397-897d-d959-af25",
               "name": "2 Heavy Bolters",
               "weaponIds": [
+                "3ec7-911e-679f-291a",
                 "3ec7-911e-679f-291a"
               ],
               "points": 0
@@ -7984,6 +8009,7 @@
             "base": "75x42mm"
           },
           "loadout": [
+            "7b46-de5b-2c60-4597",
             "18b0-8c2-173f-5",
             "6c7d-af5b-482-6fbe",
             "a578-8e45-2a54-509d"
@@ -8060,6 +8086,7 @@
             "base": "75x42mm"
           },
           "loadout": [
+            "469c-6259-59a5-64c1",
             "a578-8e45-2a54-509d",
             "b3b-a615-f023-94ef"
           ]
@@ -8561,7 +8588,7 @@
           "model": "Attack Bike",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "b130-ae7f-b7ff-42ce",
           "choices": [
             {
               "id": "b130-ae7f-b7ff-42ce",
@@ -8693,7 +8720,7 @@
           "model": "Space Marine Bikers w/  Special Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "bf76-42b6-7d-76be",
           "choices": [
             {
               "id": "bf76-42b6-7d-76be",
@@ -10341,7 +10368,8 @@
           },
           "loadout": [
             "eca4-d5d2-18a1-01a8",
-            "c3bc-26b4-6fa0-bd39"
+            "c3bc-26b4-6fa0-bd39",
+            "99de-5985-8cb8-f571"
           ]
         }
       ],
@@ -10517,7 +10545,7 @@
                   "model": null,
                   "min": 1,
                   "max": 1,
-                  "defaultChoiceId": null,
+                  "defaultChoiceId": "667f-2fe-d8c8-c6f7",
                   "choices": [
                     {
                       "id": "667f-2fe-d8c8-c6f7",
@@ -10560,7 +10588,7 @@
                   "model": null,
                   "min": 1,
                   "max": 1,
-                  "defaultChoiceId": null,
+                  "defaultChoiceId": "be25-b3d6-a644-d3d6",
                   "choices": [
                     {
                       "id": "be25-b3d6-a644-d3d6",
@@ -10586,7 +10614,7 @@
                   "model": null,
                   "min": 1,
                   "max": 1,
-                  "defaultChoiceId": null,
+                  "defaultChoiceId": "d2a4-170e-4e16-e9e",
                   "choices": [
                     {
                       "id": "d2a4-170e-4e16-e9e",
@@ -12244,6 +12272,9 @@
             "8c18-2cf3-d1a6-e272",
             "7b46-de5b-2c60-4597",
             "b3e6-f7a7-8357-2055",
+            "b3e6-f7a7-8357-2055",
+            "2523-36d-531f-9910",
+            "2523-36d-531f-9910",
             "2523-36d-531f-9910",
             "4641-242b-9584-c54a"
           ]
@@ -12550,7 +12581,7 @@
           "model": "Assault Centurion Sergeant",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "bf98-e70e-8b4e-bcad",
           "choices": [
             {
               "id": "bf98-e70e-8b4e-bcad",
@@ -12726,6 +12757,7 @@
             "base": "50mm"
           },
           "loadout": [
+            "953c-b525-10be-f7cd",
             "f6a1-a037-fa1c-4cb5",
             "90b8-aced-49e6-c2ae"
           ]
@@ -12878,7 +12910,7 @@
           "model": "Devastator Centurion Sergeant",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "b684-2f1c-016f-4369",
           "choices": [
             {
               "id": "b684-2f1c-016f-4369",
@@ -13926,6 +13958,7 @@
               "id": "4e96-d389-85b6-b104",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -13934,6 +13967,7 @@
               "id": "8058-42ea-8332-ee32",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -14002,7 +14036,9 @@
             "OC": "1",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "4f1c-4227-37d9-6583"
+          ]
         }
       ],
       "weapons": [
@@ -15458,7 +15494,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "c913-6d62-178c-e1ff",
           "choices": [
             {
               "id": "c913-6d62-178c-e1ff",
@@ -15940,7 +15976,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "4f1c-4227-37d9-6583",
           "choices": [
             {
               "id": "4f1c-4227-37d9-6583",
@@ -16789,6 +16825,10 @@
             "base": "~60mm"
           },
           "loadout": [
+            "2693-7478-d47c-9699",
+            "b3e6-f7a7-8357-2055",
+            "2693-7478-d47c-9699",
+            "b3e6-f7a7-8357-2055",
             "d961-1269-6476-6f8c"
           ]
         }
@@ -17023,7 +17063,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "687b-fbe4-e56c-3ac1",
           "choices": [
             {
               "id": "687b-fbe4-e56c-3ac1",
@@ -17082,7 +17122,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "29cd-bc09-eb7a-6bd8",
           "choices": [
             {
               "id": "29cd-bc09-eb7a-6bd8",
@@ -19243,6 +19283,8 @@
             "base": "75x42mm"
           },
           "loadout": [
+            "beac-9df8-7247-c8ab",
+            "efcd-180-d07-b4d6",
             "a578-8e45-2a54-509d"
           ]
         },
@@ -19634,7 +19676,7 @@
           "model": "Veteran Biker Sergeant",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "20e2-e4ef-4621-19ef",
           "choices": [
             {
               "id": "20e2-e4ef-4621-19ef",
@@ -19692,7 +19734,7 @@
           "model": "Veteran Biker Sergeant",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "49f-1560-935d-49d0",
           "choices": [
             {
               "id": "49f-1560-935d-49d0",
@@ -19734,7 +19776,7 @@
           "model": "Veteran Bikers",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "1ce8-d0af-507a-7143",
           "choices": [
             {
               "id": "1ce8-d0af-507a-7143",
@@ -19838,7 +19880,7 @@
           "model": "Veteran Bikers",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "38e1-5394-5117-f7d",
           "choices": [
             {
               "id": "38e1-5394-5117-f7d",
@@ -19968,6 +20010,8 @@
             "base": "120x92mm"
           },
           "loadout": [
+            "db4a-a4e4-cfe9-7624",
+            "e1bb-7422-d97a-8392",
             "e1bb-7422-d97a-8392",
             "a879-624d-42ab-2b43"
           ]
@@ -20112,7 +20156,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "bec1-3ae1-84d2-6990",
           "choices": [
             {
               "id": "bec1-3ae1-84d2-6990",
@@ -20144,6 +20188,7 @@
               "id": "659f-cdb6-c687-5096",
               "name": "2 Blackstar rocket launchers",
               "weaponIds": [
+                "e1bb-7422-d97a-8392",
                 "e1bb-7422-d97a-8392"
               ],
               "points": 0
@@ -20152,6 +20197,7 @@
               "id": "f01a-6492-a57e-31e8",
               "name": "2 Stormstrike missile launchers",
               "weaponIds": [
+                "8d31-e74f-7724-1f53",
                 "8d31-e74f-7724-1f53"
               ],
               "points": 0
@@ -20253,7 +20299,10 @@
             "base": "120x92mm"
           },
           "loadout": [
-            "e56f-45e7-fc59-0814"
+            "e56f-45e7-fc59-0814",
+            "dbfb-a0f3-e4b6-0dfd",
+            "764e-bb7a-1590-2168",
+            "764e-bb7a-1590-2168"
           ]
         }
       ],
@@ -20396,7 +20445,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "dbfb-a0f3-e4b6-0dfd",
           "choices": [
             {
               "id": "dbfb-a0f3-e4b6-0dfd",
@@ -20422,12 +20471,13 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "bb47-b401-917e-a7be",
           "choices": [
             {
               "id": "bb47-b401-917e-a7be",
               "name": "2 Blackstar rocket launchers",
               "weaponIds": [
+                "764e-bb7a-1590-2168",
                 "764e-bb7a-1590-2168"
               ],
               "points": 0
@@ -20436,6 +20486,7 @@
               "id": "8817-444f-e500-aeef",
               "name": "2 Stormstrike missile launchers",
               "weaponIds": [
+                "5b9e-365b-10dd-a51e",
                 "5b9e-365b-10dd-a51e"
               ],
               "points": 0
@@ -20854,6 +20905,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "ed36-2443-653e-d0c6",
             "e4a8-6ca4-df44-fc52"
           ]
         },
@@ -20872,6 +20924,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "ff52-c5d-6739-f1e1",
             "e4a8-6ca4-df44-fc52"
           ]
         }
@@ -21273,7 +21326,7 @@
           "model": "Legionnaire w/ heavy weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "0325-ea4d-6f67-d7e0",
           "choices": [
             {
               "id": "0325-ea4d-6f67-d7e0",
@@ -21299,7 +21352,7 @@
           "model": "Legionnaire w/ special weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "ff52-c5d-6739-f1e1",
           "choices": [
             {
               "id": "ff52-c5d-6739-f1e1",
@@ -22000,6 +22053,8 @@
             "base": "90mm"
           },
           "loadout": [
+            "1ddc-f7b3-9fef-606d",
+            "f807-ce4e-eb5f-a0f6",
             "470b-e58c-3068-b640",
             "6c9-da5-cea7-f3c9"
           ]
@@ -22134,7 +22189,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "0260-6bc1-1c2e-5bd1",
           "choices": [
             {
               "id": "0260-6bc1-1c2e-5bd1",
@@ -23594,7 +23649,10 @@
             "OC": "1",
             "base": "32mm"
           },
-          "loadout": []
+          "loadout": [
+            "beac-9df8-7247-c8ab",
+            "6c7d-af5b-482-6fbe"
+          ]
         }
       ],
       "weapons": [
@@ -23841,7 +23899,7 @@
           "model": "Death Company Marine",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "76db-4479-947f-6c1c",
           "choices": [
             {
               "id": "76db-4479-947f-6c1c",
@@ -23864,7 +23922,7 @@
                   "model": null,
                   "min": 1,
                   "max": 1,
-                  "defaultChoiceId": null,
+                  "defaultChoiceId": "ecb0-c2bf-e9c6-04ec",
                   "choices": [
                     {
                       "id": "ecb0-c2bf-e9c6-04ec",
@@ -23898,7 +23956,7 @@
                   "model": null,
                   "min": 1,
                   "max": 1,
-                  "defaultChoiceId": null,
+                  "defaultChoiceId": "b836-f673-e4e7-dc53",
                   "choices": [
                     {
                       "id": "b836-f673-e4e7-dc53",
@@ -24685,7 +24743,9 @@
             "InvSv": "4+",
             "base": "32mm"
           },
-          "loadout": []
+          "loadout": [
+            "46e6-8a9d-ec8b-2a0d"
+          ]
         }
       ],
       "weapons": [
@@ -25358,7 +25418,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "743e-f925-372a-bc5a",
           "choices": [
             {
               "id": "743e-f925-372a-bc5a",
@@ -25644,7 +25704,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "46e6-8a9d-ec8b-2a0d",
           "choices": [
             {
               "id": "46e6-8a9d-ec8b-2a0d",
@@ -27092,7 +27152,10 @@
             "InvSv": "4+",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "3769-e91f-7da3-a8f0",
+            "2ad0-becb-76b7-cfdf"
+          ]
         },
         {
           "name": "Deathwatch Terminator",
@@ -27108,7 +27171,10 @@
             "InvSv": "4+",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "3769-e91f-7da3-a8f0",
+            "2ad0-becb-76b7-cfdf"
+          ]
         },
         {
           "name": "Deathwatch Terminator w/ Heavy Weapon",
@@ -27124,7 +27190,10 @@
             "InvSv": "4+",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "be34-7406-10cd-c6e2",
+            "2ad0-becb-76b7-cfdf"
+          ]
         }
       ],
       "weapons": [
@@ -27428,7 +27497,7 @@
           "model": "Deathwatch Terminator Sergeant",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "5e57-9fe0-7609-5b43",
           "choices": [
             {
               "id": "5e57-9fe0-7609-5b43",
@@ -27481,7 +27550,7 @@
           "model": "Deathwatch Terminator",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "e81c-f4bc-7e09-dc42",
           "choices": [
             {
               "id": "e81c-f4bc-7e09-dc42",
@@ -27534,7 +27603,7 @@
           "model": "Deathwatch Terminator w/ Heavy Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "f3f8-0363-7df1-aa4e",
           "choices": [
             {
               "id": "f3f8-0363-7df1-aa4e",
@@ -28467,6 +28536,8 @@
             "base": "40mm"
           },
           "loadout": [
+            "7c66-f2f6-a3fc-0867",
+            "ef0a-b1da-8926-b298",
             "18b0-8c2-173f-5",
             "b552-e2fb-4634-b098"
           ]
@@ -28939,7 +29010,7 @@
           "model": "Gravis Veteran w/ infernus heavy bolter",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "e2b3-c14f-5a6a-b660",
           "choices": [
             {
               "id": "e2b3-c14f-5a6a-b660",
@@ -29028,6 +29099,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "12ec-4c95-56aa-385e",
             "d3da-d5f3-70a9-50ed"
           ]
         }
@@ -29271,6 +29343,7 @@
               "id": "698f-e165-4eec-6a80",
               "name": "2 Lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -29279,6 +29352,7 @@
               "id": "6639-aa90-e30-447c",
               "name": "2 Heavy Bolters",
               "weaponIds": [
+                "7b46-de5b-2c60-4597",
                 "7b46-de5b-2c60-4597"
               ],
               "points": 0
@@ -29287,6 +29361,7 @@
               "id": "f9b7-9115-2a7a-c8ae",
               "name": "2 Heavy Flamers",
               "weaponIds": [
+                "b3e6-f7a7-8357-2055",
                 "b3e6-f7a7-8357-2055"
               ],
               "points": 0
@@ -29299,7 +29374,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "12ec-4c95-56aa-385e",
           "choices": [
             {
               "id": "12ec-4c95-56aa-385e",
@@ -30902,7 +30977,9 @@
             "InvSv": "4+",
             "base": "-"
           },
-          "loadout": []
+          "loadout": [
+            "46e6-8a9d-ec8b-2a0d"
+          ]
         }
       ],
       "weapons": [
@@ -31620,7 +31697,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "743e-f925-372a-bc5a",
           "choices": [
             {
               "id": "743e-f925-372a-bc5a",
@@ -31906,7 +31983,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "46e6-8a9d-ec8b-2a0d",
           "choices": [
             {
               "id": "46e6-8a9d-ec8b-2a0d",
@@ -33018,6 +33095,7 @@
             "be4a-1ec1-f4d5-f88",
             "f1a6-b394-5bc5-a3cb",
             "f1cc-ea5e-b57a-92bf",
+            "f1cc-ea5e-b57a-92bf",
             "3013-a16f-26c5-21fa"
           ]
         }
@@ -33305,6 +33383,7 @@
               "id": "d31c-6769-24dc-f79a",
               "name": "Two quad lascannons",
               "weaponIds": [
+                "f1cc-ea5e-b57a-92bf",
                 "f1cc-ea5e-b57a-92bf"
               ],
               "points": 0
@@ -33313,6 +33392,7 @@
               "id": "5798-110c-77e-4cc7",
               "name": "Two laser destroyers",
               "weaponIds": [
+                "354-1a1d-f6a2-50b0",
                 "354-1a1d-f6a2-50b0"
               ],
               "points": 0
@@ -33518,6 +33598,8 @@
           "loadout": [
             "db27-8efc-265a-ffda",
             "9f56-5d6e-54a6-9b94",
+            "9f56-5d6e-54a6-9b94",
+            "91af-5656-a301-8e2b",
             "91af-5656-a301-8e2b",
             "3fc0-1753-fefb-89b5"
           ]
@@ -33655,6 +33737,7 @@
               "id": "eb13-ff43-e33a-1d92",
               "name": "Two twin autocannons",
               "weaponIds": [
+                "9f56-5d6e-54a6-9b94",
                 "9f56-5d6e-54a6-9b94"
               ],
               "points": 0
@@ -33663,6 +33746,7 @@
               "id": "e4c4-2df9-a4e6-c92",
               "name": "Two quad heavy bolters",
               "weaponIds": [
+                "123b-9895-596e-bea1",
                 "123b-9895-596e-bea1"
               ],
               "points": 0
@@ -33681,6 +33765,7 @@
               "id": "831-7d99-a4e8-60df",
               "name": "Two twin hellstrike launchers",
               "weaponIds": [
+                "91af-5656-a301-8e2b",
                 "91af-5656-a301-8e2b"
               ],
               "points": 0
@@ -33689,6 +33774,7 @@
               "id": "e2ba-d167-3412-3277",
               "name": "Two twin lascannons",
               "weaponIds": [
+                "c36c-6247-f673-fe00",
                 "c36c-6247-f673-fe00"
               ],
               "points": 0
@@ -34730,6 +34816,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "55e4-ab4b-a3e2-5715",
             "d831-660c-e45b-6b30",
             "67eb-7f8c-353b-442e"
           ]
@@ -34749,6 +34836,7 @@
           },
           "loadout": [
             "8a4f-eb03-8135-d35c",
+            "d831-660c-e45b-6b30",
             "67eb-7f8c-353b-442e"
           ]
         },
@@ -35156,7 +35244,7 @@
           "model": "Kill Team Intercessor w/ Special Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "55e4-ab4b-a3e2-5715",
           "choices": [
             {
               "id": "55e4-ab4b-a3e2-5715",
@@ -35206,7 +35294,7 @@
           "model": "Kill Team Intercessor w/ Melee Option",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "0cb4-f20b-0f80-5da5",
           "choices": [
             {
               "id": "0cb4-f20b-0f80-5da5",
@@ -35329,7 +35417,11 @@
             "OC": "3",
             "base": "~60mm"
           },
-          "loadout": []
+          "loadout": [
+            "1d38-4d59-39af-5c87",
+            "475a-5ef9-b4ea-96bf",
+            "eb61-5cd0-5242-74cc"
+          ]
         }
       ],
       "weapons": [
@@ -35487,7 +35579,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "28d7-3dc4-b3be-bfed",
           "choices": [
             {
               "id": "28d7-3dc4-b3be-bfed",
@@ -35540,7 +35632,7 @@
                   "model": null,
                   "min": 2,
                   "max": 2,
-                  "defaultChoiceId": null,
+                  "defaultChoiceId": "fa86-4631-b0dc-edfb",
                   "choices": [
                     {
                       "id": "fa86-4631-b0dc-edfb",
@@ -35584,7 +35676,7 @@
                   "model": null,
                   "min": 2,
                   "max": 2,
-                  "defaultChoiceId": null,
+                  "defaultChoiceId": "46c7-1b00-3027-c45e",
                   "choices": [
                     {
                       "id": "46c7-1b00-3027-c45e",
@@ -36101,6 +36193,7 @@
             "d2a1-b5b4-435c-59b2",
             "a879-624d-42ab-2b43",
             "da38-da4f-dc42-7758",
+            "da38-da4f-dc42-7758",
             "12c2-d0b7-ca22-3da0"
           ]
         }
@@ -36295,6 +36388,7 @@
             "base": "40mm"
           },
           "loadout": [
+            "6a85-acaa-5393-3946",
             "a3a7-20c8-4d26-8d37"
           ]
         },
@@ -36454,7 +36548,7 @@
           "model": "Terminator w/ heavy weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "6a85-acaa-5393-3946",
           "choices": [
             {
               "id": "6a85-acaa-5393-3946",
@@ -36556,7 +36650,8 @@
             "base": "Hull"
           },
           "loadout": [
-            "ee9c-342d-9e69-8d35"
+            "ee9c-342d-9e69-8d35",
+            "2366-64fb-41f8-5612"
           ]
         }
       ],
@@ -36642,7 +36737,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "2366-64fb-41f8-5612",
           "choices": [
             {
               "id": "2366-64fb-41f8-5612",
@@ -36973,6 +37068,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "18b0-8c2-173f-5",
             "0bb3-01f1-8be5-f285",
             "bb24-ed3f-7468-4f61"
           ]
@@ -37123,7 +37219,7 @@
           "model": "Hellblaster Sergeant",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "64d9-976-6c0a-d06f",
           "choices": [
             {
               "id": "64d9-976-6c0a-d06f",
@@ -38298,6 +38394,7 @@
             "base": "100mm"
           },
           "loadout": [
+            "fedc-acc8-b8b7-09da",
             "a879-624d-42ab-2b43"
           ]
         }
@@ -38501,7 +38598,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "ddc4-bc6f-8795-f560",
           "choices": [
             {
               "id": "ddc4-bc6f-8795-f560",
@@ -38621,6 +38718,7 @@
             "base": "40mm"
           },
           "loadout": [
+            "b2c5-40c3-e755-48a5",
             "0bb3-01f1-8be5-f285"
           ]
         },
@@ -38793,7 +38891,7 @@
           "model": "Inceptor Sergeant",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "b2c5-40c3-e755-48a5",
           "choices": [
             {
               "id": "b2c5-40c3-e755-48a5",
@@ -44590,6 +44688,7 @@
               "id": "4257-b0c1-712b-b412",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -45632,6 +45731,8 @@
             "4a7e-57b0-1b1a-b226",
             "288c-1cbc-8340-9c0a",
             "65ed-f9fa-c767-15d",
+            "65ed-f9fa-c767-15d",
+            "58a1-cee7-82ae-f860",
             "58a1-cee7-82ae-f860",
             "5235-ab7-8eda-29b7"
           ]
@@ -45803,6 +45904,7 @@
               "name": "2 shieldbreaker missile launchers and twin siegebreaker cannon",
               "weaponIds": [
                 "58a1-cee7-82ae-f860",
+                "58a1-cee7-82ae-f860",
                 "5235-ab7-8eda-29b7"
               ],
               "points": 0
@@ -45812,6 +45914,7 @@
               "name": "Shieldbreaker missile launcher and 2 twin siegebreaker cannons",
               "weaponIds": [
                 "58a1-cee7-82ae-f860",
+                "5235-ab7-8eda-29b7",
                 "5235-ab7-8eda-29b7"
               ],
               "points": 0
@@ -48453,6 +48556,8 @@
             "9a45-74ba-e166-9692",
             "288c-1cbc-8340-9c0a",
             "65ed-f9fa-c767-15d",
+            "65ed-f9fa-c767-15d",
+            "58a1-cee7-82ae-f860",
             "58a1-cee7-82ae-f860",
             "5235-ab7-8eda-29b7"
           ]
@@ -48613,6 +48718,7 @@
               "name": "2 shieldbreaker missile launchers and twin siegebreaker cannon",
               "weaponIds": [
                 "58a1-cee7-82ae-f860",
+                "58a1-cee7-82ae-f860",
                 "5235-ab7-8eda-29b7"
               ],
               "points": 0
@@ -48622,6 +48728,7 @@
               "name": "Shieldbreaker missile launcher and 2 twin siegebreaker cannons",
               "weaponIds": [
                 "58a1-cee7-82ae-f860",
+                "5235-ab7-8eda-29b7",
                 "5235-ab7-8eda-29b7"
               ],
               "points": 0
@@ -49132,7 +49239,10 @@
           },
           "loadout": [
             "d243-77eb-2a1-ff34",
+            "d243-77eb-2a1-ff34",
             "b1cf-f87f-1e33-ef14",
+            "d243-77eb-2a1-ff34",
+            "d243-77eb-2a1-ff34",
             "3013-a16f-26c5-21fa",
             "ed2f-5baf-1eec-40c5"
           ]
@@ -49463,6 +49573,7 @@
               "id": "6211-a2c4-7e3d-a946",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -49471,6 +49582,7 @@
               "id": "124f-5c13-e31a-8e55",
               "name": "Two volkite calivers",
               "weaponIds": [
+                "9ec4-bdfd-a6a2-e432",
                 "9ec4-bdfd-a6a2-e432"
               ],
               "points": 0
@@ -49479,6 +49591,7 @@
               "id": "6c7d-c96a-7c25-d7f9",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -49487,6 +49600,7 @@
               "id": "a65a-9c08-158a-3b47",
               "name": "Two autocannons",
               "weaponIds": [
+                "ed2f-5baf-1eec-40c5",
                 "ed2f-5baf-1eec-40c5"
               ],
               "points": 0
@@ -49597,6 +49711,7 @@
               "id": "374d-b89b-6a26-46e4",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -49605,6 +49720,7 @@
               "id": "a7f1-94af-bf64-a0e1",
               "name": "Two volkite culverins",
               "weaponIds": [
+                "8501-6da6-f8bd-d8d5",
                 "8501-6da6-f8bd-d8d5"
               ],
               "points": 0
@@ -49613,6 +49729,7 @@
               "id": "cdd-2ca7-be0d-1cd4",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -49621,6 +49738,7 @@
               "id": "dd0-912b-332b-7ce7",
               "name": "Two heavy flamers",
               "weaponIds": [
+                "bcef-39ba-a990-5490",
                 "bcef-39ba-a990-5490"
               ],
               "points": 0
@@ -49993,6 +50111,7 @@
           "loadout": [
             "4709-be86-dece-75c8",
             "5030-c511-fac-674f",
+            "5030-c511-fac-674f",
             "3013-a16f-26c5-21fa"
           ]
         }
@@ -50271,6 +50390,7 @@
               "id": "5d97-1777-a27e-c54f",
               "name": "Two twin volkite culverins",
               "weaponIds": [
+                "5030-c511-fac-674f",
                 "5030-c511-fac-674f"
               ],
               "points": 0
@@ -50279,6 +50399,7 @@
               "id": "f4d3-14b4-208e-91b4",
               "name": "Two twin multi-meltas",
               "weaponIds": [
+                "2fe0-75a1-6ab0-f2d1",
                 "2fe0-75a1-6ab0-f2d1"
               ],
               "points": 0
@@ -50392,6 +50513,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "4b23-8457-f162-823c",
             "4b23-8457-f162-823c",
             "eaa5-a41b-9e59-a5f3",
             "db4a-a4e4-cfe9-7624"
@@ -50658,6 +50780,7 @@
           "loadout": [
             "8889-46f2-34f0-9f21",
             "eaa5-a41b-9e59-a5f3",
+            "3fd3-6ae-e4fe-c09b",
             "3fd3-6ae-e4fe-c09b"
           ]
         }
@@ -50962,6 +51085,7 @@
           "loadout": [
             "eaa5-a41b-9e59-a5f3",
             "3fd3-6ae-e4fe-c09b",
+            "3fd3-6ae-e4fe-c09b",
             "3b55-531c-e7d2-f7d9"
           ]
         }
@@ -51177,6 +51301,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "acc0-4dba-792c-fbea",
             "acc0-4dba-792c-fbea",
             "eaa5-a41b-9e59-a5f3",
             "395-4b75-b9b2-7a5c"
@@ -51401,6 +51526,7 @@
           },
           "loadout": [
             "3013-a16f-26c5-21fa",
+            "c36c-6247-f673-fe00",
             "c36c-6247-f673-fe00"
           ]
         }
@@ -51748,6 +51874,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "c081-8478-95db-d783",
             "c081-8478-95db-d783",
             "eaa5-a41b-9e59-a5f3",
             "db4a-a4e4-cfe9-7624"
@@ -52512,6 +52639,7 @@
             "base": "~105x70mm"
           },
           "loadout": [
+            "395-4b75-b9b2-7a5c",
             "2de6-ff2-dc37-b20d",
             "6c7d-af5b-482-6fbe"
           ]
@@ -52630,7 +52758,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "c29e-9c50-9ba8-a373",
           "choices": [
             {
               "id": "c29e-9c50-9ba8-a373",
@@ -53075,6 +53203,8 @@
           },
           "loadout": [
             "3284-b760-6813-9b07",
+            "3284-b760-6813-9b07",
+            "bcef-39ba-a990-5490",
             "bcef-39ba-a990-5490",
             "d961-1269-6476-6f8c"
           ]
@@ -53352,6 +53482,7 @@
               "id": "7602-421-33cd-63c3",
               "name": "Two heavy flamers",
               "weaponIds": [
+                "bcef-39ba-a990-5490",
                 "bcef-39ba-a990-5490"
               ],
               "points": 0
@@ -53360,6 +53491,7 @@
               "id": "2b7e-c82a-3700-1bc0",
               "name": "Two twin volkite calivers",
               "weaponIds": [
+                "6380-4fa2-1531-ff9a",
                 "6380-4fa2-1531-ff9a"
               ],
               "points": 0
@@ -55114,7 +55246,9 @@
             "OC": "1",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "4f1c-4227-37d9-6583"
+          ]
         }
       ],
       "weapons": [
@@ -56634,7 +56768,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "c913-6d62-178c-e1ff",
           "choices": [
             {
               "id": "c913-6d62-178c-e1ff",
@@ -57138,7 +57272,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "4f1c-4227-37d9-6583",
           "choices": [
             {
               "id": "4f1c-4227-37d9-6583",
@@ -57376,7 +57510,8 @@
           },
           "loadout": [
             "b273-b85e-4018-a0cd",
-            "f3c7-067a-894a-cc3a"
+            "f3c7-067a-894a-cc3a",
+            "4666-e7ad-cd04-971d"
           ]
         }
       ],
@@ -57627,7 +57762,7 @@
                   "model": null,
                   "min": 1,
                   "max": 1,
-                  "defaultChoiceId": null,
+                  "defaultChoiceId": "b9ae-4969-6cee-ac83",
                   "choices": [
                     {
                       "id": "b9ae-4969-6cee-ac83",
@@ -57729,7 +57864,7 @@
                   "model": null,
                   "min": 1,
                   "max": 1,
-                  "defaultChoiceId": null,
+                  "defaultChoiceId": "4666-e7ad-cd04-971d",
                   "choices": [
                     {
                       "id": "4666-e7ad-cd04-971d",
@@ -58182,7 +58317,9 @@
             "InvSv": "5+",
             "base": "32mm"
           },
-          "loadout": []
+          "loadout": [
+            "46e6-8a9d-ec8b-2a0d"
+          ]
         }
       ],
       "weapons": [
@@ -58834,7 +58971,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "743e-f925-372a-bc5a",
           "choices": [
             {
               "id": "743e-f925-372a-bc5a",
@@ -59096,7 +59233,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "46e6-8a9d-ec8b-2a0d",
           "choices": [
             {
               "id": "46e6-8a9d-ec8b-2a0d",
@@ -59224,6 +59361,8 @@
             "8460-d306-cb15-35be",
             "c64f-3fda-5129-e338",
             "bcef-39ba-a990-5490",
+            "bcef-39ba-a990-5490",
+            "8676-2808-bf8f-a6af",
             "8676-2808-bf8f-a6af",
             "3013-a16f-26c5-21fa"
           ]
@@ -59380,6 +59519,7 @@
               "id": "6e58-2f4-8f80-ec72",
               "name": "Two heavy flamers",
               "weaponIds": [
+                "bcef-39ba-a990-5490",
                 "bcef-39ba-a990-5490"
               ],
               "points": 0
@@ -59388,6 +59528,7 @@
               "id": "de39-9151-7dee-ff9",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -59396,6 +59537,7 @@
               "id": "962a-9b21-e68e-6b75",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -59404,6 +59546,7 @@
               "id": "f8cd-614f-4146-a7a1",
               "name": "Two volkite culverins",
               "weaponIds": [
+                "22d5-4f9d-ae18-7734",
                 "22d5-4f9d-ae18-7734"
               ],
               "points": 0
@@ -59422,6 +59565,7 @@
               "id": "12cf-6807-175d-9d19",
               "name": "Two heavy flamers",
               "weaponIds": [
+                "bcef-39ba-a990-5490",
                 "bcef-39ba-a990-5490"
               ],
               "points": 0
@@ -59430,6 +59574,7 @@
               "id": "a42b-52d1-3756-746",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -59438,6 +59583,7 @@
               "id": "8837-1038-5f95-14b6",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -59446,6 +59592,7 @@
               "id": "6c2e-cb35-e6e3-b633",
               "name": "Two volkite culverins",
               "weaponIds": [
+                "22d5-4f9d-ae18-7734",
                 "22d5-4f9d-ae18-7734"
               ],
               "points": 0
@@ -59695,7 +59842,9 @@
             "base": "~60mm"
           },
           "loadout": [
-            "e8ef-e4e0-2d1a-be95"
+            "e8ef-e4e0-2d1a-be95",
+            "2de6-ff2-dc37-b20d",
+            "2de6-ff2-dc37-b20d"
           ]
         }
       ],
@@ -59915,12 +60064,13 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "3673-7606-2e14-a851",
           "choices": [
             {
               "id": "3673-7606-2e14-a851",
               "name": "2 Assault Cannons",
               "weaponIds": [
+                "2de6-ff2-dc37-b20d",
                 "2de6-ff2-dc37-b20d"
               ],
               "points": 0
@@ -59929,6 +60079,7 @@
               "id": "8401-1490-e6aa-7044",
               "name": "2 Dreadnought Inferno Cannons",
               "weaponIds": [
+                "57e6-cc22-1cd7-a64c",
                 "57e6-cc22-1cd7-a64c"
               ],
               "points": 0
@@ -59937,6 +60088,7 @@
               "id": "344b-ff81-9a33-a760",
               "name": "2 Heavy Plasma Cannons",
               "weaponIds": [
+                "6a16-65ff-b6a2-f359",
                 "6a16-65ff-b6a2-f359"
               ],
               "points": 0
@@ -59945,6 +60097,7 @@
               "id": "e1e2-802d-6dbf-88f0",
               "name": "2 Missile Launchers",
               "weaponIds": [
+                "6d4f-7306-c14a-f76c",
                 "6d4f-7306-c14a-f76c"
               ],
               "points": 0
@@ -59953,6 +60106,7 @@
               "id": "fb5b-f613-1599-8906",
               "name": "2 Multi-Meltas",
               "weaponIds": [
+                "395-4b75-b9b2-7a5c",
                 "395-4b75-b9b2-7a5c"
               ],
               "points": 0
@@ -59961,6 +60115,7 @@
               "id": "2aab-14d-3578-afbe",
               "name": "2 Twin Autocannons",
               "weaponIds": [
+                "9f56-5d6e-54a6-9b94",
                 "9f56-5d6e-54a6-9b94"
               ],
               "points": 0
@@ -59969,6 +60124,7 @@
               "id": "27f0-78e8-4353-65ce",
               "name": "2 Twin Lascannons",
               "weaponIds": [
+                "e008-470a-83cb-c5e6",
                 "e008-470a-83cb-c5e6"
               ],
               "points": 0
@@ -59977,6 +60133,7 @@
               "id": "6a57-dd34-8f66-f94e",
               "name": "2 Twin Heavy Bolters",
               "weaponIds": [
+                "d107-1e89-9d3f-c9c7",
                 "d107-1e89-9d3f-c9c7"
               ],
               "points": 0
@@ -60330,6 +60487,7 @@
             "base": "90x52.5mm"
           },
           "loadout": [
+            "efcd-180-d07-b4d6",
             "83a1-feb8-d495-aa28",
             "3451-a59-ad9d-cc65"
           ]
@@ -60507,7 +60665,7 @@
           "model": "Outrider Sergeant",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "6c57-6ffc-2df8-feb3",
           "choices": [
             {
               "id": "6c57-6ffc-2df8-feb3",
@@ -60759,6 +60917,7 @@
               "id": "9986-6f4c-d991-130d",
               "name": "2 Lascannons",
               "weaponIds": [
+                "200b-3f66-2458-aa0f",
                 "200b-3f66-2458-aa0f"
               ],
               "points": 0
@@ -60767,6 +60926,7 @@
               "id": "488e-3940-f77b-c27b",
               "name": "2 Heavy Bolters",
               "weaponIds": [
+                "7b46-de5b-2c60-4597",
                 "7b46-de5b-2c60-4597"
               ],
               "points": 0
@@ -61021,6 +61181,7 @@
               "id": "dc9d-797c-f683-93c",
               "name": "2 Lascannons",
               "weaponIds": [
+                "200b-3f66-2458-aa0f",
                 "200b-3f66-2458-aa0f"
               ],
               "points": 0
@@ -61029,6 +61190,7 @@
               "id": "f94a-7ea8-501-3e8b",
               "name": "2 Heavy Bolters",
               "weaponIds": [
+                "7b46-de5b-2c60-4597",
                 "7b46-de5b-2c60-4597"
               ],
               "points": 0
@@ -61315,7 +61477,10 @@
             "OC": "1",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "3769-e91f-7da3-a8f0",
+            "2ad0-becb-76b7-cfdf"
+          ]
         },
         {
           "name": "Kill Team Terminator w/ Heavy Weapon",
@@ -61330,7 +61495,10 @@
             "OC": "1",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "be34-7406-10cd-c6e2",
+            "2ad0-becb-76b7-cfdf"
+          ]
         },
         {
           "name": "Kill Team Veteran w/ Jump Pack",
@@ -61398,7 +61566,10 @@
             "OC": "2",
             "base": "32mm"
           },
-          "loadout": []
+          "loadout": [
+            "e8e5-892a-7287-5441",
+            "d831-660c-e45b-6b30"
+          ]
         }
       ],
       "weapons": [
@@ -61874,7 +62045,7 @@
           "model": "Kill Team Terminator",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "2b20-2099-5bf8-a277",
           "choices": [
             {
               "id": "2b20-2099-5bf8-a277",
@@ -61927,7 +62098,7 @@
           "model": "Kill Team Terminator w/ Heavy Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "082e-c728-6edb-f9bd",
           "choices": [
             {
               "id": "082e-c728-6edb-f9bd",
@@ -62109,7 +62280,7 @@
           "model": "Kill Team Veteran w/ Heavy Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "fb69-f9eb-baa9-dd81",
           "choices": [
             {
               "id": "fb69-f9eb-baa9-dd81",
@@ -63262,7 +63433,8 @@
           "loadout": [
             "9b0e-daf8-e5a-5bce",
             "39fe-deb4-dde-2c1a",
-            "b3e6-f7a7-8357-2055"
+            "b3e6-f7a7-8357-2055",
+            "836c-fa5c-db9d-7566"
           ]
         }
       ],
@@ -63503,7 +63675,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "dabd-8e3f-970d-e305",
           "choices": [
             {
               "id": "dabd-8e3f-970d-e305",
@@ -63829,6 +64001,7 @@
             "base": "~60mm"
           },
           "loadout": [
+            "237e-98ae-ee39-1a92",
             "237e-98ae-ee39-1a92",
             "d961-1269-6476-6f8c"
           ]
@@ -64394,6 +64567,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "4641-242b-9584-c54a",
             "d3da-d5f3-70a9-50ed"
           ]
         }
@@ -64551,7 +64725,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "b9f4-d7e0-da29-2531",
           "choices": [
             {
               "id": "b9f4-d7e0-da29-2531",
@@ -64786,6 +64960,7 @@
             "base": "~40mm"
           },
           "loadout": [
+            "8306-7e81-3768-7def",
             "f8d8-7e77-4b71-faac"
           ]
         }
@@ -65104,7 +65279,7 @@
           "model": "Relic Terminator w/ Heavy Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "8306-7e81-3768-7def",
           "choices": [
             {
               "id": "8306-7e81-3768-7def",
@@ -66498,6 +66673,7 @@
           },
           "loadout": [
             "1212-3a92-d112-1ab0",
+            "3035-91a8-7c70-8f9c",
             "3035-91a8-7c70-8f9c"
           ]
         },
@@ -67379,6 +67555,7 @@
           },
           "loadout": [
             "a578-8e45-2a54-509d",
+            "18b0-8c2-173f-5",
             "8c75-384d-a10-a451",
             "030c-2b25-de63-53b9"
           ]
@@ -67796,7 +67973,7 @@
           "model": "Scout Biker Sergeant",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "dbd9-d93d-1e49-eda7",
           "choices": [
             {
               "id": "dbd9-d93d-1e49-eda7",
@@ -68237,6 +68414,7 @@
             "base": "28.5mm"
           },
           "loadout": [
+            "58c-876b-8430-a0e6",
             "18b0-8c2-173f-5",
             "4094-85eb-397a-588d"
           ]
@@ -68498,7 +68676,7 @@
           "model": "Scout w/ Heavy Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "a651-281-d9b3-296e",
           "choices": [
             {
               "id": "a651-281-d9b3-296e",
@@ -68724,6 +68902,7 @@
               "id": "59c9-d812-1946-b26a",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -68732,6 +68911,7 @@
               "id": "2047-f16e-efed-4574",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -68968,6 +69148,7 @@
               "id": "23b4-d4f8-4af3-670",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -68976,6 +69157,7 @@
               "id": "ad1f-3a75-6cd9-d065",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -69226,6 +69408,7 @@
               "id": "2606-d34b-3477-460d",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -69234,6 +69417,7 @@
               "id": "c83d-9204-6fc6-761",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -69470,6 +69654,7 @@
               "id": "6634-dce0-e91c-6f8a",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -69478,6 +69663,7 @@
               "id": "b396-5ea-699e-34e3",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -69714,6 +69900,7 @@
               "id": "5f9e-9280-4d16-c67d",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -69722,6 +69909,7 @@
               "id": "560-6f5b-a15b-328",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -69829,6 +70017,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "19b7-6386-4bb6-64b1",
             "4d82-568a-e3fe-59f3",
             "9011-f8c8-b4de-3a18"
           ]
@@ -69967,7 +70156,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "19b7-6386-4bb6-64b1",
           "choices": [
             {
               "id": "19b7-6386-4bb6-64b1",
@@ -70147,6 +70336,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "20ba-f744-916c-19f4",
             "5314-726f-72ba-9014",
             "5966-8ea2-54a-1edb"
           ]
@@ -70166,6 +70356,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "3e87-7694-4199-d1bc",
             "5314-726f-72ba-9014",
             "5966-8ea2-54a-1edb"
           ]
@@ -70633,7 +70824,7 @@
           "model": "Battle Sister w/ Special or Heavy Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "20ba-f744-916c-19f4",
           "choices": [
             {
               "id": "20ba-f744-916c-19f4",
@@ -70691,7 +70882,7 @@
           "model": "Battle Sister w/ Special Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "4ed8-61a0-9b4d-59ca",
           "choices": [
             {
               "id": "4ed8-61a0-9b4d-59ca",
@@ -70787,6 +70978,11 @@
             "93b0-215d-c6c7-c486",
             "8c2f-4857-d961-b4d3",
             "f1a6-b394-5bc5-a3cb",
+            "f1a6-b394-5bc5-a3cb",
+            "f1a6-b394-5bc5-a3cb",
+            "c36c-6247-f673-fe00",
+            "c36c-6247-f673-fe00",
+            "c36c-6247-f673-fe00",
             "c36c-6247-f673-fe00"
           ]
         }
@@ -70940,6 +71136,7 @@
           },
           "loadout": [
             "f1a6-b394-5bc5-a3cb",
+            "9620-50d5-5d5-4edd",
             "9620-50d5-5d5-4edd",
             "3013-a16f-26c5-21fa"
           ]
@@ -71208,6 +71405,7 @@
               "id": "534c-5208-d3b1-3f1f",
               "name": "Two quad lascannons",
               "weaponIds": [
+                "9620-50d5-5d5-4edd",
                 "9620-50d5-5d5-4edd"
               ],
               "points": 0
@@ -71216,6 +71414,7 @@
               "id": "e879-93f9-634-422c",
               "name": "Two laser destroyers",
               "weaponIds": [
+                "95f5-8836-ae55-6f38",
                 "95f5-8836-ae55-6f38"
               ],
               "points": 0
@@ -72328,6 +72527,7 @@
           },
           "loadout": [
             "3a4f-77a8-b363-9f0a",
+            "3a4f-77a8-b363-9f0a",
             "d3da-d5f3-70a9-50ed"
           ]
         }
@@ -72564,6 +72764,7 @@
             "base": "32mm"
           },
           "loadout": [
+            "d941-c4cd-8b82-c453",
             "18b0-8c2-173f-5",
             "3a9a-05a5-41e6-7e70"
           ]
@@ -72805,7 +73006,7 @@
           "model": "Sternguard Veteran w/ Special Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "a964-77e5-8f5b-8a54",
           "choices": [
             {
               "id": "a964-77e5-8f5b-8a54",
@@ -72892,6 +73093,7 @@
           "loadout": [
             "f80d-f7d7-96a7-d12e",
             "f1a6-b394-5bc5-a3cb",
+            "e982-dc3e-d888-951f",
             "e982-dc3e-d888-951f",
             "3fc0-1753-fefb-89b5"
           ]
@@ -73100,6 +73302,7 @@
               "id": "c17f-6d45-d136-d0a0",
               "name": "Two twin hellstrike launchers",
               "weaponIds": [
+                "e982-dc3e-d888-951f",
                 "e982-dc3e-d888-951f"
               ],
               "points": 0
@@ -73108,6 +73311,7 @@
               "id": "4d94-f41-33f5-b5fc",
               "name": "Two twin lascannons",
               "weaponIds": [
+                "c36c-6247-f673-fe00",
                 "c36c-6247-f673-fe00"
               ],
               "points": 0
@@ -73959,6 +74163,7 @@
           },
           "loadout": [
             "8a3a-15b2-ffdf-dfb9",
+            "8a3a-15b2-ffdf-dfb9",
             "4641-242b-9584-c54a",
             "680d-646b-330b-4a8c",
             "3b59-048c-5410-33fe"
@@ -74186,6 +74391,7 @@
               "id": "20b0-bcf0-109b-5267",
               "name": "2 Hurricane Bolters",
               "weaponIds": [
+                "7a12-df2-b214-30be",
                 "7a12-df2-b214-30be"
               ],
               "points": 0
@@ -75618,6 +75824,10 @@
           "loadout": [
             "23ac-b0be-8e28-be7f",
             "b273-b85e-4018-a0cd",
+            "affc-b08e-4a60-d492",
+            "cd5a-f09d-fd9a-e7f6",
+            "cd5a-f09d-fd9a-e7f6",
+            "469c-6259-59a5-64c1",
             "a578-8e45-2a54-509d"
           ]
         }
@@ -76080,13 +76290,14 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "c258-940b-73ec-99dc",
           "choices": [
             {
               "id": "c258-940b-73ec-99dc",
               "name": "Servo Harness",
               "weaponIds": [
                 "affc-b08e-4a60-d492",
+                "cd5a-f09d-fd9a-e7f6",
                 "cd5a-f09d-fd9a-e7f6",
                 "469c-6259-59a5-64c1"
               ],
@@ -76507,6 +76718,8 @@
             "base": "40mm"
           },
           "loadout": [
+            "eb61-5cd0-5242-74cc",
+            "da0b-ae86-a275-13f1",
             "f8d8-7e77-4b71-faac"
           ]
         }
@@ -76723,7 +76936,7 @@
           "model": "Terminator w/ Heavy Weapon",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "3bbd-5600-dd34-3e86",
           "choices": [
             {
               "id": "3bbd-5600-dd34-3e86",
@@ -76851,7 +77064,10 @@
           },
           "loadout": [
             "efa5-85a6-f99d-9819",
+            "efa5-85a6-f99d-9819",
+            "efa5-85a6-f99d-9819",
             "eaa5-a41b-9e59-a5f3",
+            "8676-2808-bf8f-a6af",
             "8676-2808-bf8f-a6af"
           ]
         }
@@ -77119,6 +77335,7 @@
           "loadout": [
             "773e-f672-905b-f131",
             "59a-f291-1d11-9f4b",
+            "7eb4-c21c-d0a2-39df",
             "7eb4-c21c-d0a2-39df"
           ]
         }
@@ -77241,6 +77458,7 @@
               "id": "5904-26c3-d1e5-db10",
               "name": "Two storm bolters",
               "weaponIds": [
+                "7eb4-c21c-d0a2-39df",
                 "7eb4-c21c-d0a2-39df"
               ],
               "points": 0
@@ -77249,6 +77467,7 @@
               "id": "e42e-2d16-71a4-42bb",
               "name": "Two heavy flamers",
               "weaponIds": [
+                "bcef-39ba-a990-5490",
                 "bcef-39ba-a990-5490"
               ],
               "points": 0
@@ -77257,6 +77476,7 @@
               "id": "fd6a-d7ac-c3f5-7765",
               "name": "Two twin volkite chargers",
               "weaponIds": [
+                "e031-2c5b-f0b-4b2d",
                 "e031-2c5b-f0b-4b2d"
               ],
               "points": 0
@@ -77660,6 +77880,10 @@
             "646-ee2b-5723-7938",
             "3fc0-1753-fefb-89b5",
             "8676-2808-bf8f-a6af",
+            "8676-2808-bf8f-a6af",
+            "d107-1e89-9d3f-c9c7",
+            "d107-1e89-9d3f-c9c7",
+            "d107-1e89-9d3f-c9c7",
             "d107-1e89-9d3f-c9c7"
           ]
         }
@@ -77928,6 +78152,9 @@
           "loadout": [
             "7ad3-b0fb-b372-2c59",
             "e14d-643a-201e-e865",
+            "f1a6-b394-5bc5-a3cb",
+            "f1a6-b394-5bc5-a3cb",
+            "f1a6-b394-5bc5-a3cb",
             "f1a6-b394-5bc5-a3cb"
           ]
         }
@@ -78420,6 +78647,7 @@
               "id": "bff6-4ea3-f21b-7d20",
               "name": "Two heavy bolters",
               "weaponIds": [
+                "d243-77eb-2a1-ff34",
                 "d243-77eb-2a1-ff34"
               ],
               "points": 0
@@ -78428,6 +78656,7 @@
               "id": "e6e4-347-fe2e-c1fd",
               "name": "Two lascannons",
               "weaponIds": [
+                "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
               ],
               "points": 0
@@ -79392,7 +79621,12 @@
             "OC": "4",
             "base": "90mm"
           },
-          "loadout": []
+          "loadout": [
+            "1908-4520-8fe2-e10e",
+            "463b-247b-08f0-7e1f",
+            "b5ca-a53e-18aa-4cbd",
+            "6dc4-7a6f-324f-5b5b"
+          ]
         }
       ],
       "weapons": [
@@ -79782,7 +80016,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "c5cf-82b7-d06c-deae",
           "choices": [
             {
               "id": "c5cf-82b7-d06c-deae",
@@ -79836,7 +80070,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "b5ca-a53e-18aa-4cbd",
           "choices": [
             {
               "id": "b5ca-a53e-18aa-4cbd",
@@ -79873,7 +80107,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "6dc4-7a6f-324f-5b5b",
           "choices": [
             {
               "id": "6dc4-7a6f-324f-5b5b",
@@ -79939,7 +80173,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "c913-6d62-178c-e1ff",
           "choices": [
             {
               "id": "c913-6d62-178c-e1ff",
@@ -83717,6 +83951,7 @@
           "loadout": [
             "f043-6434-63a0-a906",
             "a0-6c89-9642-47ad",
+            "c36c-6247-f673-fe00",
             "c36c-6247-f673-fe00"
           ]
         }

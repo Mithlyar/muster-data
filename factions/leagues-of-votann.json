@@ -3039,7 +3039,9 @@
           },
           "loadout": [
             "ab6b-a217-10b3-e748",
-            "dd59-d693-8751-7306"
+            "dd59-d693-8751-7306",
+            "dd59-d693-8751-7306",
+            "9170-fbc8-e679-4182"
           ]
         }
       ],
@@ -3130,7 +3132,7 @@
           "model": "Cthonian Earthshaker",
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "9170-fbc8-e679-4182",
           "choices": [
             {
               "id": "9170-fbc8-e679-4182",
@@ -3911,6 +3913,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "e55-db9a-8f67-b41f",
             "e55-db9a-8f67-b41f"
           ]
         }
@@ -5524,6 +5527,7 @@
             "8376-0494-75e0-8ea2",
             "542-3f3e-969b-c932",
             "43cd-5e9f-e550-83e0",
+            "43cd-5e9f-e550-83e0",
             "8d16-a849-dd95-997f"
           ]
         }
@@ -6485,6 +6489,8 @@
           },
           "loadout": [
             "412e-da68-5020-dd05",
+            "412e-da68-5020-dd05",
+            "9c32-9f63-8d26-8ec9",
             "9c32-9f63-8d26-8ec9"
           ]
         }
@@ -7759,7 +7765,9 @@
             "InvSv": "4+",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "6b2b-4115-7418-4bfc"
+          ]
         }
       ],
       "weapons": [
@@ -8305,7 +8313,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "0030-be43-a831-1a88",
           "choices": [
             {
               "id": "0030-be43-a831-1a88",
@@ -8491,7 +8499,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "6b2b-4115-7418-4bfc",
           "choices": [
             {
               "id": "6b2b-4115-7418-4bfc",
@@ -8633,7 +8641,9 @@
             "InvSv": "4+",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "ef07-32f4-dc06-3a43"
+          ]
         }
       ],
       "weapons": [
@@ -9132,7 +9142,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "b6e9-7591-fb93-2600",
           "choices": [
             {
               "id": "b6e9-7591-fb93-2600",
@@ -9340,7 +9350,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "ef07-32f4-dc06-3a43",
           "choices": [
             {
               "id": "ef07-32f4-dc06-3a43",
@@ -10877,7 +10887,9 @@
             "OC": "1",
             "base": "40mm"
           },
-          "loadout": []
+          "loadout": [
+            "6b2b-4115-7418-4bfc"
+          ]
         }
       ],
       "weapons": [
@@ -11292,7 +11304,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "0030-be43-a831-1a88",
           "choices": [
             {
               "id": "0030-be43-a831-1a88",
@@ -11494,7 +11506,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "6b2b-4115-7418-4bfc",
           "choices": [
             {
               "id": "6b2b-4115-7418-4bfc",

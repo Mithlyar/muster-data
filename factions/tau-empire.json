@@ -1047,6 +1047,8 @@
           "loadout": [
             "65a0-3c61-2bd3-6be4",
             "1790-25b7-8264-f6ba",
+            "1790-25b7-8264-f6ba",
+            "8290-c852-cce9-d50e",
             "8290-c852-cce9-d50e",
             "f2bd-0132-eee3-7311"
           ]
@@ -1190,6 +1192,7 @@
               "id": "efc7-7546-a4eb-d2e4",
               "name": "2 burst cannons",
               "weaponIds": [
+                "1790-25b7-8264-f6ba",
                 "1790-25b7-8264-f6ba"
               ],
               "points": 0
@@ -1198,6 +1201,7 @@
               "id": "8281-77cf-faf9-d0c2",
               "name": "2 cyclic ion blasters",
               "weaponIds": [
+                "a61f-1cca-4962-c60b",
                 "a61f-1cca-4962-c60b"
               ],
               "points": 0
@@ -1301,6 +1305,8 @@
           "loadout": [
             "3542-2950-5fa0-d109",
             "5d4f-54d1-c5b5-6be4",
+            "5d4f-54d1-c5b5-6be4",
+            "8290-c852-cce9-d50e",
             "8290-c852-cce9-d50e",
             "f2bd-0132-eee3-7311"
           ]
@@ -1524,6 +1530,7 @@
               "id": "3793-76b5-1a5-4988",
               "name": "2 Long-barrelled burst cannons",
               "weaponIds": [
+                "5d4f-54d1-c5b5-6be4",
                 "5d4f-54d1-c5b5-6be4"
               ],
               "points": 0
@@ -1532,6 +1539,7 @@
               "id": "f765-770f-c441-a832",
               "name": "2 Cyclic ion blasters",
               "weaponIds": [
+                "a61f-1cca-4962-c60b",
                 "a61f-1cca-4962-c60b"
               ],
               "points": 0
@@ -1827,7 +1835,9 @@
             "InvSv": "4+",
             "base": "50mm"
           },
-          "loadout": []
+          "loadout": [
+            "5bc4-3780-d71b-a273"
+          ]
         }
       ],
       "weapons": [
@@ -2760,7 +2770,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "20d4-90be-3d90-d355",
           "choices": [
             {
               "id": "20d4-90be-3d90-d355",
@@ -3070,7 +3080,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "5bc4-3780-d71b-a273",
           "choices": [
             {
               "id": "5bc4-3780-d71b-a273",
@@ -6421,6 +6431,7 @@
           "loadout": [
             "ee6f-f3d5-5c7c-ca39",
             "891-9245-4641-6e5a",
+            "891-9245-4641-6e5a",
             "cc93-2b4c-bc20-79d2",
             "89db-d5e9-481d-d6c6",
             "ba81-87dc-de58-d901"
@@ -7254,6 +7265,8 @@
             "base": "50mm"
           },
           "loadout": [
+            "a9c5-8f1f-cbad-f1d3",
+            "a9c5-8f1f-cbad-f1d3",
             "d357-859f-3b61-42f1"
           ]
         },
@@ -7271,6 +7284,8 @@
             "base": "50mm"
           },
           "loadout": [
+            "8290-c852-cce9-d50e",
+            "8290-c852-cce9-d50e",
             "d357-859f-3b61-42f1"
           ]
         }
@@ -7359,7 +7374,7 @@
           "model": "Crisis Fireknife Shas’ui",
           "min": 2,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "3b76-4791-cbc3-2534",
           "choices": [
             {
               "id": "3b76-4791-cbc3-2534",
@@ -7439,7 +7454,7 @@
           "model": "Crisis Fireknife Shas’vre",
           "min": 2,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "0926-4604-2901-2eae",
           "choices": [
             {
               "id": "0926-4604-2901-2eae",
@@ -7588,6 +7603,8 @@
             "base": "50mm"
           },
           "loadout": [
+            "1790-25b7-8264-f6ba",
+            "1790-25b7-8264-f6ba",
             "d357-859f-3b61-42f1"
           ]
         },
@@ -7605,6 +7622,8 @@
             "base": "50mm"
           },
           "loadout": [
+            "1790-25b7-8264-f6ba",
+            "1790-25b7-8264-f6ba",
             "d357-859f-3b61-42f1"
           ]
         }
@@ -7700,7 +7719,7 @@
           "model": "Crisis Starscythe Shas’ui",
           "min": 2,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "e0ad-d61c-64db-98f5",
           "choices": [
             {
               "id": "e0ad-d61c-64db-98f5",
@@ -7780,7 +7799,7 @@
           "model": "Crisis Starscythe Shas’vre",
           "min": 2,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "2b4b-6b4e-001a-4c3c",
           "choices": [
             {
               "id": "2b4b-6b4e-001a-4c3c",
@@ -7931,6 +7950,7 @@
           },
           "loadout": [
             "d357-859f-3b61-42f1",
+            "f836-d31-4688-d623",
             "f836-d31-4688-d623"
           ]
         },
@@ -7949,6 +7969,7 @@
             "base": "50mm"
           },
           "loadout": [
+            "f836-d31-4688-d623",
             "f836-d31-4688-d623",
             "d357-859f-3b61-42f1"
           ]
@@ -8327,6 +8348,7 @@
           },
           "loadout": [
             "f532-7ffd-02fe-6af8",
+            "f532-7ffd-02fe-6af8",
             "e5b9-7fe9-4792-3e31",
             "f2bd-0132-eee3-7311"
           ]
@@ -8439,6 +8461,7 @@
               "id": "e2b9-ad4b-5f60-db9e",
               "name": "2 Twin pulse carbines",
               "weaponIds": [
+                "f532-7ffd-02fe-6af8",
                 "f532-7ffd-02fe-6af8"
               ],
               "points": 0
@@ -8447,6 +8470,7 @@
               "id": "c669-45e-85aa-4252",
               "name": "2 Smart missile systems",
               "weaponIds": [
+                "0e88-5a0e-bf04-1937",
                 "0e88-5a0e-bf04-1937"
               ],
               "points": 0
@@ -9090,6 +9114,7 @@
             "base": "Hull"
           },
           "loadout": [
+            "e55-db9a-8f67-b41f",
             "e55-db9a-8f67-b41f"
           ]
         }
@@ -10158,6 +10183,7 @@
           "loadout": [
             "fc2c-78c4-4617-ec8d",
             "bbee-14d9-45a4-02d9",
+            "bbee-14d9-45a4-02d9",
             "f2bd-0132-eee3-7311"
           ]
         }
@@ -10365,6 +10391,7 @@
               "id": "731d-5afd-9039-d4f5",
               "name": "2 Accelerator burst cannons",
               "weaponIds": [
+                "e5b9-7fe9-4792-3e31",
                 "e5b9-7fe9-4792-3e31"
               ],
               "points": 0
@@ -10373,6 +10400,7 @@
               "id": "f83b-f22d-da93-8f4b",
               "name": "2 Twin pulse carbines",
               "weaponIds": [
+                "bbee-14d9-45a4-02d9",
                 "bbee-14d9-45a4-02d9"
               ],
               "points": 0
@@ -10381,6 +10409,7 @@
               "id": "b68a-bdff-3d5c-7b63",
               "name": "2 Smart missile systems",
               "weaponIds": [
+                "0e88-5a0e-bf04-1937",
                 "0e88-5a0e-bf04-1937"
               ],
               "points": 0
@@ -10598,6 +10627,8 @@
           },
           "loadout": [
             "412e-da68-5020-dd05",
+            "412e-da68-5020-dd05",
+            "9c32-9f63-8d26-8ec9",
             "9c32-9f63-8d26-8ec9"
           ]
         }
@@ -10805,7 +10836,9 @@
             "OC": "1",
             "base": "32mm"
           },
-          "loadout": []
+          "loadout": [
+            "5bc4-3780-d71b-a273"
+          ]
         }
       ],
       "weapons": [
@@ -11738,7 +11771,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "20d4-90be-3d90-d355",
           "choices": [
             {
               "id": "20d4-90be-3d90-d355",
@@ -12048,7 +12081,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "5bc4-3780-d71b-a273",
           "choices": [
             {
               "id": "5bc4-3780-d71b-a273",
@@ -14143,6 +14176,7 @@
           "loadout": [
             "ba71-73aa-e99e-1a26",
             "f532-7ffd-02fe-6af8",
+            "f532-7ffd-02fe-6af8",
             "f2bd-0132-eee3-7311"
           ]
         }
@@ -14351,6 +14385,7 @@
               "id": "7beb-936e-dd45-2919",
               "name": "2 Accelerator burst cannons",
               "weaponIds": [
+                "e5b9-7fe9-4792-3e31",
                 "e5b9-7fe9-4792-3e31"
               ],
               "points": 0
@@ -14359,6 +14394,7 @@
               "id": "2c92-4ef8-c103-91cb",
               "name": "2 Twin pulse carbines",
               "weaponIds": [
+                "f532-7ffd-02fe-6af8",
                 "f532-7ffd-02fe-6af8"
               ],
               "points": 0
@@ -14367,6 +14403,7 @@
               "id": "d66a-ebfd-f1fc-a462",
               "name": "2 Smart missile systems",
               "weaponIds": [
+                "0e88-5a0e-bf04-1937",
                 "0e88-5a0e-bf04-1937"
               ],
               "points": 0
@@ -14606,9 +14643,26 @@
           "loadout": [
             "c1a6-3a75-d0fb-ed95",
             "d909-7fc2-da32-a4be",
+            "d909-7fc2-da32-a4be",
+            "150d-3afa-7676-a225",
             "150d-3afa-7676-a225",
             "fa79-3ad1-a29b-e16e",
+            "fa79-3ad1-a29b-e16e",
+            "fa79-3ad1-a29b-e16e",
+            "fa79-3ad1-a29b-e16e",
+            "fa79-3ad1-a29b-e16e",
+            "fa79-3ad1-a29b-e16e",
             "3a30-cb51-c88c-255f",
+            "3a30-cb51-c88c-255f",
+            "3a30-cb51-c88c-255f",
+            "3a30-cb51-c88c-255f",
+            "3a30-cb51-c88c-255f",
+            "3a30-cb51-c88c-255f",
+            "3a30-cb51-c88c-255f",
+            "3a30-cb51-c88c-255f",
+            "3a30-cb51-c88c-255f",
+            "3a30-cb51-c88c-255f",
+            "8290-c852-cce9-d50e",
             "8290-c852-cce9-d50e"
           ]
         }
@@ -14821,6 +14875,7 @@
           },
           "loadout": [
             "21be-4e8d-5d3e-4f2d",
+            "221c-5838-2b54-b36c",
             "221c-5838-2b54-b36c",
             "8290-c852-cce9-d50e"
           ]
@@ -15496,6 +15551,7 @@
           "loadout": [
             "af16-2b3c-31c7-a7b8",
             "b77b-33fb-425d-60de",
+            "f532-7ffd-02fe-6af8",
             "f532-7ffd-02fe-6af8"
           ]
         }
@@ -16286,6 +16342,7 @@
           },
           "loadout": [
             "38d1-fd46-bf47-d179",
+            "38d1-fd46-bf47-d179",
             "97a2-336f-a2a9-f28d"
           ]
         }
@@ -16440,6 +16497,7 @@
           "loadout": [
             "4124-9c2b-ec89-c63",
             "e5b9-7fe9-4792-3e31",
+            "3a30-cb51-c88c-255f",
             "3a30-cb51-c88c-255f",
             "f2bd-0132-eee3-7311"
           ]
@@ -16644,6 +16702,7 @@
           },
           "loadout": [
             "5df7-f7d-a1b0-7d5f",
+            "ecd5-3d50-34b2-9c0c",
             "ecd5-3d50-34b2-9c0c",
             "75c5-58a5-ced5-6105"
           ]
@@ -17271,7 +17330,9 @@
             "OC": "1",
             "base": "25mm"
           },
-          "loadout": []
+          "loadout": [
+            "5bc4-3780-d71b-a273"
+          ]
         }
       ],
       "weapons": [
@@ -18204,7 +18265,7 @@
           "model": null,
           "min": 1,
           "max": 1,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "20d4-90be-3d90-d355",
           "choices": [
             {
               "id": "20d4-90be-3d90-d355",
@@ -18514,7 +18575,7 @@
           "model": null,
           "min": 1,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "5bc4-3780-d71b-a273",
           "choices": [
             {
               "id": "5bc4-3780-d71b-a273",
@@ -18793,6 +18854,7 @@
           "loadout": [
             "cd24-168c-be83-b8d8",
             "f532-7ffd-02fe-6af8",
+            "f532-7ffd-02fe-6af8",
             "f2bd-0132-eee3-7311"
           ]
         }
@@ -18904,6 +18966,7 @@
               "id": "0e94-3f4c-9564-beff",
               "name": "2 Accelerator burst cannons",
               "weaponIds": [
+                "e5b9-7fe9-4792-3e31",
                 "e5b9-7fe9-4792-3e31"
               ],
               "points": 0
@@ -18912,6 +18975,7 @@
               "id": "7ad3-2853-6bba-c6b4",
               "name": "2 Twin pulse carbines",
               "weaponIds": [
+                "f532-7ffd-02fe-6af8",
                 "f532-7ffd-02fe-6af8"
               ],
               "points": 0
@@ -18920,6 +18984,7 @@
               "id": "17e3-c0a4-7de9-5c78",
               "name": "2 Smart missile systems",
               "weaponIds": [
+                "0e88-5a0e-bf04-1937",
                 "0e88-5a0e-bf04-1937"
               ],
               "points": 0
@@ -19549,6 +19614,7 @@
             "cf60-7be2-e5a8-767",
             "6e13-c32e-d336-c",
             "b413-48c2-13c8-9194",
+            "c1b5-d3b5-9765-7eb0",
             "c1b5-d3b5-9765-7eb0",
             "317-c1c4-e623-8890",
             "01e5-d685-1b0e-27d6"
@@ -20200,7 +20266,9 @@
           },
           "loadout": [
             "7072-c47d-79b2-f80b",
+            "7072-c47d-79b2-f80b",
             "8290-c852-cce9-d50e",
+            "3a30-cb51-c88c-255f",
             "3a30-cb51-c88c-255f",
             "f2bd-0132-eee3-7311"
           ]
@@ -20410,8 +20478,18 @@
           },
           "loadout": [
             "8ce0-aef-a22a-959a",
+            "88f3-ea64-a043-fe7a",
+            "88f3-ea64-a043-fe7a",
+            "8230-fd44-d610-eee3",
+            "8230-fd44-d610-eee3",
             "8230-fd44-d610-eee3",
             "1790-25b7-8264-f6ba",
+            "1790-25b7-8264-f6ba",
+            "1790-25b7-8264-f6ba",
+            "1790-25b7-8264-f6ba",
+            "0e88-5a0e-bf04-1937",
+            "0e88-5a0e-bf04-1937",
+            "0e88-5a0e-bf04-1937",
             "0e88-5a0e-bf04-1937"
           ]
         }
@@ -20611,7 +20689,7 @@
           "model": null,
           "min": 2,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "88f3-ea64-a043-fe7a",
           "choices": [
             {
               "id": "88f3-ea64-a043-fe7a",
@@ -20643,6 +20721,8 @@
               "id": "d8f2-2ad3-7c20-8c52",
               "name": "3 Pulse ordnance drivers",
               "weaponIds": [
+                "8230-fd44-d610-eee3",
+                "8230-fd44-d610-eee3",
                 "8230-fd44-d610-eee3"
               ],
               "points": 0
@@ -20651,6 +20731,7 @@
               "id": "5ecc-3699-7437-9378",
               "name": "2 Nexus missile launchers",
               "weaponIds": [
+                "e79a-8717-2851-a335",
                 "e79a-8717-2851-a335"
               ],
               "points": 0
@@ -20854,6 +20935,7 @@
           },
           "loadout": [
             "d117-85cc-d18d-61fb",
+            "b0cc-6a4b-ccbe-2668",
             "b0cc-6a4b-ccbe-2668"
           ]
         }
@@ -21647,8 +21729,11 @@
           },
           "loadout": [
             "1790-25b7-8264-f6ba",
+            "1790-25b7-8264-f6ba",
+            "00c8-825e-2bc4-bba5",
             "00c8-825e-2bc4-bba5",
             "f2bd-0132-eee3-7311",
+            "8290-c852-cce9-d50e",
             "8290-c852-cce9-d50e"
           ]
         }
@@ -21860,6 +21945,7 @@
               "id": "7014-fcdc-d295-68e8",
               "name": "2 cyclic ion blasters",
               "weaponIds": [
+                "a61f-1cca-4962-c60b",
                 "a61f-1cca-4962-c60b"
               ],
               "points": 0
@@ -21868,6 +21954,7 @@
               "id": "4ee6-3e8-4a53-a102",
               "name": "2 burst cannons",
               "weaponIds": [
+                "1790-25b7-8264-f6ba",
                 "1790-25b7-8264-f6ba"
               ],
               "points": 0
@@ -21886,6 +21973,7 @@
               "id": "6b2e-e5b6-db54-1c42",
               "name": "2 Ion cannons",
               "weaponIds": [
+                "00c8-825e-2bc4-bba5",
                 "00c8-825e-2bc4-bba5"
               ],
               "points": 0
@@ -21894,6 +21982,7 @@
               "id": "6d35-9c23-5e6e-ff1",
               "name": "2 Swiftstrike burst cannons",
               "weaponIds": [
+                "ce5b-bb3b-b361-c013",
                 "ce5b-bb3b-b361-c013"
               ],
               "points": 0
@@ -21902,6 +21991,7 @@
               "id": "4c36-ef94-5175-494",
               "name": "2 Swiftstrike railguns",
               "weaponIds": [
+                "b9cb-4c3c-e541-d651",
                 "b9cb-4c3c-e541-d651"
               ],
               "points": 0
@@ -21952,6 +22042,7 @@
               "id": "1194-9499-3f75-d373",
               "name": "2 Skyspear missile racks",
               "weaponIds": [
+                "ff63-a88d-6c9e-b55a",
                 "ff63-a88d-6c9e-b55a"
               ],
               "points": 0
@@ -22029,6 +22120,7 @@
             "base": "120x92mm"
           },
           "loadout": [
+            "a9c5-8f1f-cbad-f1d3",
             "a9c5-8f1f-cbad-f1d3",
             "b77b-33fb-425d-60de"
           ]
@@ -22145,6 +22237,7 @@
               "id": "e681-5e-2bab-9b2c",
               "name": "2 Plasma rifles",
               "weaponIds": [
+                "a9c5-8f1f-cbad-f1d3",
                 "a9c5-8f1f-cbad-f1d3"
               ],
               "points": 0
@@ -22153,6 +22246,7 @@
               "id": "b99d-2c6c-bb1-3671",
               "name": "2 Fusion blasters",
               "weaponIds": [
+                "f836-d31-4688-d623",
                 "f836-d31-4688-d623"
               ],
               "points": 0
@@ -22161,6 +22255,7 @@
               "id": "f9a4-449f-7a0d-e217",
               "name": "2 Missile pods",
               "weaponIds": [
+                "8290-c852-cce9-d50e",
                 "8290-c852-cce9-d50e"
               ],
               "points": 0
@@ -22169,6 +22264,7 @@
               "id": "dc67-69a8-fdc4-3ed5",
               "name": "2 Rail rifles",
               "weaponIds": [
+                "8f1-22ac-821b-328a",
                 "8f1-22ac-821b-328a"
               ],
               "points": 0
@@ -23242,6 +23338,8 @@
             "base": "60mm"
           },
           "loadout": [
+            "58f6-415d-a677-f4ce",
+            "58f6-415d-a677-f4ce",
             "d357-859f-3b61-42f1"
           ]
         }
@@ -23413,7 +23511,7 @@
           "model": "XV9 Hazard Battlesuit",
           "min": 2,
           "max": 2,
-          "defaultChoiceId": null,
+          "defaultChoiceId": "58f6-415d-a677-f4ce",
           "choices": [
             {
               "id": "58f6-415d-a677-f4ce",
