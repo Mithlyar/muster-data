@@ -7737,12 +7737,6 @@
                 "keywords": [
                   "Ordo Hereticus",
                   "Inquisitor"
-                ],
-                "abilities": [
-                  {
-                    "name": "Leader",
-                    "text": "This model can be attached to the following units: ^^**Exaction Squad, Imperium Battleline, Imperial Navy Breachers, Inquisitorial Agents, Sisters of Battle Squad, Subductor Squad, Vigilant Squad**^^"
-                  }
                 ]
               }
             },
@@ -7755,12 +7749,6 @@
                 "keywords": [
                   "Ordo Malleus",
                   "Inquisitor"
-                ],
-                "abilities": [
-                  {
-                    "name": "Leader",
-                    "text": "This model can be attached to the following units: ^^**Exaction Squad, Grey Knights Terminator Squad, Imperium Battleline, Imperial Navy Breachers, Inquisitorial Agents, Subductor Squad, Vigilant Squad**^^"
-                  }
                 ]
               }
             },
@@ -7773,12 +7761,6 @@
                 "keywords": [
                   "Ordo Xenos",
                   "Inquisitor"
-                ],
-                "abilities": [
-                  {
-                    "name": "Leader",
-                    "text": "This model can be attached to the following units: ^^**Deathwatch Kill Team, Exaction Squad, Imperium Battleline, Imperial Navy Breachers, Inquisitorial Agents, Subductor Squad, Vigilant Squad**^^"
-                  }
                 ]
               }
             },
@@ -7791,12 +7773,6 @@
                 "keywords": [
                   "Voidfarers",
                   "Rogue Trader"
-                ],
-                "abilities": [
-                  {
-                    "name": "Leader",
-                    "text": "This model can be attached to the following units: ^^**Imperial Navy Breachers, Voidsmen-at-Arms**^^"
-                  }
                 ]
               }
             }

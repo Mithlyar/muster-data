@@ -830,32 +830,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -865,23 +841,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -891,23 +852,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -917,32 +863,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -1156,10 +1078,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -1282,10 +1200,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -1447,10 +1361,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -1569,10 +1479,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -1781,10 +1687,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -1960,10 +1862,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -2069,10 +1967,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -2375,10 +2269,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -2512,10 +2402,6 @@
         {
           "id": "c05d-f4c3-f091-4938",
           "name": "Infiltrators"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -2678,10 +2564,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -2839,10 +2721,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -4592,10 +4470,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -4733,32 +4607,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -4768,23 +4618,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -4794,23 +4629,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -4820,32 +4640,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -5095,32 +4891,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -5130,23 +4902,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -5156,23 +4913,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -5182,32 +4924,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -5620,10 +5338,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -5818,10 +5532,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -6020,10 +5730,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "24-c886-e8ba-5a89",
@@ -7123,10 +6829,6 @@
           "name": "Leader"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -8186,10 +7888,6 @@
           "name": "Leader"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -8462,23 +8160,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -8488,23 +8171,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -8514,32 +8182,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -8702,10 +8346,6 @@
           "name": "Leader"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -8865,10 +8505,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -9061,10 +8697,6 @@
           "name": "Leader"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -9153,10 +8785,6 @@
         {
           "id": "c05d-f4c3-f091-4938",
           "name": "Infiltrators"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -9501,32 +9129,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -9536,23 +9140,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -9562,23 +9151,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -9588,32 +9162,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -9770,10 +9320,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -9967,10 +9513,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -10117,10 +9659,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -10281,10 +9819,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -10457,10 +9991,6 @@
       ],
       "rules": [
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
         },
@@ -10620,10 +10150,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
         {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
@@ -10901,10 +10427,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -11076,10 +10598,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -11222,10 +10740,6 @@
           "name": "Leader"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -11351,10 +10865,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -12534,10 +12044,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -12690,10 +12196,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -12865,10 +12367,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -12999,10 +12497,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -13281,10 +12775,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -13498,10 +12988,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -15417,10 +14903,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -15638,10 +15120,6 @@
           "name": "Deadly Demise D3"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -15745,10 +15223,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -15931,10 +15405,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -16226,10 +15696,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -16350,10 +15816,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -16536,10 +15998,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
         {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
@@ -16745,10 +16203,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -16852,10 +16306,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -17279,10 +16729,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -17438,10 +16884,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -17585,10 +17027,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -17688,10 +17126,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -17843,10 +17277,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -18089,10 +17519,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -18291,10 +17717,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -18436,10 +17858,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -18516,10 +17934,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
         {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
@@ -18654,10 +18068,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         }
@@ -18789,10 +18199,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
         },
@@ -18903,10 +18309,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -19128,10 +18530,6 @@
           "name": "Deadly Demise D3"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -19247,10 +18645,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -19431,10 +18825,6 @@
           "name": "Warp Rifts"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "bec5-4288-34a6-ccfa",
           "name": "Stealth"
         }
@@ -19566,10 +18956,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -19752,10 +19138,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -19861,10 +19243,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -20009,10 +19387,6 @@
       ],
       "rules": [
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -20125,10 +19499,6 @@
         {
           "id": "24-c886-e8ba-5a89",
           "name": "Fights First"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -20317,10 +19687,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -20477,32 +19843,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -20512,23 +19854,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -20538,23 +19865,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -20564,32 +19876,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -21067,32 +20355,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -21102,23 +20366,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -21128,23 +20377,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -21154,32 +20388,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -21380,10 +20590,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -21605,10 +20811,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
         },
         {
           "id": "877e-cc0c-8a1d-be46",
@@ -23283,7 +22485,7 @@
         },
         {
           "name": "Titanic Fire Support",
-          "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+          "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "Striding Colossus",
@@ -24076,10 +23278,6 @@
           "name": "Deep Strike"
         },
         {
-          "id": "a312-a2f1-e1c0-30ed",
-          "name": "The Shadow of Chaos"
-        },
-        {
           "id": "877e-cc0c-8a1d-be46",
           "name": "Warp Rifts"
         },
@@ -24251,11 +23449,6 @@
       "id": "1897-c22c-9597-12b1",
       "name": "Sustained Hits",
       "text": "This ability always takes the form **[SUSTAINED HITS X]**. Each time an attack made with a **[SUSTAINED HITS]** weapon results in a **critical hit**, that attack results in a number of additional hits on the target as denoted by **X**.\n***Example:** An attack made with a **[SUSTAINED HITS 2]** weapon results in a **critical hit**. That attack therefore hits the target three times (once from the **critical hit**, and twice more from the **[SUSTAINED HITS 2]** ability).*"
-    },
-    {
-      "id": "a312-a2f1-e1c0-30ed",
-      "name": "The Shadow of Chaos",
-      "text": "If your Army Faction is LEGIONES DAEMONICA, certain areas of the battlefield are considered to be within your army’s Shadow of Chaos, as follows: \n■ Your deployment zone is always within your army’s Shadow of Chaos.\n■ At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Shadow of Chaos.\n■ At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Shadow of Chaos.\n\nDAEMONIC MANIFESTATION\nWhile a friendly LEGIONES DAEMONICA unit is within your army’s Shadow of Chaos, each time that unit makes a battle-shock roll, that unit has +1 to that battle-shock roll and, if that roll is successful, one model in that unit heals D3 wounds (if that unit is a BATTLELINE unit and that roll is successful, up to D3 destroyed models (excluding CHARACTER models) can be returned to that unit instead).\n\nDAEMONIC TERROR\nWhile an enemy unit is within your army’s Shadow of Chaos and/or it is within 6\" of one or more BLOODTHIRSTER, GREAT UNCLEAN ONE, KAIROS FATEWEAVER, KEEPER OF SECRETS, LORD OF CHANGE, ROTIGUS, SHALAXI HELBANE or SKARBRAND units from your army, each time that unit takes a Battle-shock test, subtract 1 from that test and, if that test is failed, that enemy unit suffers D3 mortal wounds."
     },
     {
       "id": "5edf-d619-23e0-9b56",

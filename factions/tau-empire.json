@@ -9793,7 +9793,10 @@
         },
         {
           "name": "Localised Stealth Projectors (Aura)",
-          "text": "When a friendly **KROOT/VESPID STINGWINGS** unit within 6\" of this unit has shot, those attacks do not prevent that unit from being **hidden**."
+          "text": "When a friendly **KROOT/VESPID STINGWINGS** unit within 6\" of this unit has shot, those attacks do not prevent that unit from being **hidden**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -10004,7 +10007,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -12146,7 +12152,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -12281,7 +12290,10 @@
       "abilities": [
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         },
         {
           "name": "Thunderous Pounce",
@@ -12539,7 +12551,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -12940,7 +12955,10 @@
       "abilities": [
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         },
         {
           "name": "Bounty Hunters",
@@ -13088,7 +13106,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -13202,7 +13223,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -13418,7 +13442,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -13546,7 +13573,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -13759,7 +13789,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -13921,7 +13954,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -14119,7 +14155,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -19513,7 +19552,10 @@
         },
         {
           "name": "Localised Stealth Projectors (Aura)",
-          "text": "When a friendly **KROOT/VESPID STINGWINGS** unit within 6\" of this unit has shot, those attacks do not prevent that unit from being **hidden**."
+          "text": "When a friendly **KROOT/VESPID STINGWINGS** unit within 6\" of this unit has shot, those attacks do not prevent that unit from being **hidden**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [
@@ -22716,7 +22758,10 @@
         },
         {
           "name": "Harnessed Alien Instincts",
-          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**.",
+          "detachmentIds": [
+            "97bc-1349-fb9d-c04f"
+          ]
         }
       ],
       "rules": [

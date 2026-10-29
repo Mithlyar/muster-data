@@ -15175,10 +15175,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "86aa-437f-260b-5cad",
-          "name": "Synapse"
         }
       ],
       "alliedFrom": "Tyranids",
@@ -20084,11 +20080,6 @@
       "id": "1897-c22c-9597-12b1",
       "name": "Sustained Hits",
       "text": "This ability always takes the form **[SUSTAINED HITS X]**. Each time an attack made with a **[SUSTAINED HITS]** weapon results in a **critical hit**, that attack results in a number of additional hits on the target as denoted by **X**.\n***Example:** An attack made with a **[SUSTAINED HITS 2]** weapon results in a **critical hit**. That attack therefore hits the target three times (once from the **critical hit**, and twice more from the **[SUSTAINED HITS 2]** ability).*"
-    },
-    {
-      "id": "86aa-437f-260b-5cad",
-      "name": "Synapse",
-      "text": "If your Army Faction is **TYRANIDS**, while a **TYRANIDS** unit from your army is within 6\" of one or more friendly **SYNAPSE** models, that **TYRANIDS** unit is said to be within Synapse Range of that model and of your army. While a **TYRANIDS** unit from your army is within Synapse Range of your army:\n▪ Each time that unit takes a Battle‑shock test, take that test on 3D6 instead of 2D6.\n▪ Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack."
     },
     {
       "id": "5edf-d619-23e0-9b56",

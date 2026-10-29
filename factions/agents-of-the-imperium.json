@@ -635,10 +635,6 @@
         {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         }
       ],
       "alliedFrom": "Imperial Knights",
@@ -947,10 +943,6 @@
         {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         },
         {
           "id": "d1d1-611e-5191-1095",
@@ -1775,10 +1767,6 @@
         {
           "id": "ed36-3471-e179-07f0",
           "name": "Kill Team"
-        },
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
         }
       ],
       "maxInArmy": {
@@ -1961,10 +1949,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         }
       ],
       "alliedFrom": "Imperial Knights",
@@ -2232,10 +2216,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         }
       ],
       "alliedFrom": "Imperial Knights",
@@ -2440,10 +2420,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         }
       ],
       "alliedFrom": "Imperial Knights",
@@ -2900,10 +2876,6 @@
       ],
       "rules": [
         {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
-        {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
         },
@@ -3145,10 +3117,6 @@
         {
           "id": "6c1f-1cf7-ff25-c99e",
           "name": "Blast"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         },
         {
           "id": "a8a0-8fe7-898-e0f3",
@@ -3814,10 +3782,6 @@
       ],
       "rules": [
         {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
-        },
-        {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6+2"
         },
@@ -4010,10 +3974,6 @@
       ],
       "rules": [
         {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
-        },
-        {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6+2"
         },
@@ -4167,10 +4127,6 @@
           "name": "Deadly Demise D6+2"
         },
         {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
-        },
-        {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
         },
@@ -4312,10 +4268,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6+2"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         },
         {
           "id": "5e13-1624-d280-418d",
@@ -4604,10 +4556,6 @@
           "name": "Stealth"
         },
         {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
-        {
           "id": "4640-43e7-30b-215a",
           "name": "Ignores Cover"
         }
@@ -4768,10 +4716,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "a8a0-8fe7-898-e0f3",
           "name": "Lone Operative"
@@ -5473,10 +5417,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
@@ -6570,10 +6510,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
         }
       ],
       "narrative": "Crucible",
@@ -7116,12 +7052,7 @@
           "text": "This model has a 4+ InSv."
         }
       ],
-      "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        }
-      ],
+      "rules": [],
       "maxInArmy": {
         "incursion": 4,
         "strike-force": 6,
@@ -8546,12 +8477,6 @@
                 "keywords": [
                   "Ordo Hereticus",
                   "Inquisitor"
-                ],
-                "abilities": [
-                  {
-                    "name": "Leader",
-                    "text": "This model can be attached to the following units: ^^**Exaction Squad, Imperium Battleline, Imperial Navy Breachers, Inquisitorial Agents, Sisters of Battle Squad, Subductor Squad, Vigilant Squad**^^"
-                  }
                 ]
               }
             },
@@ -8564,12 +8489,6 @@
                 "keywords": [
                   "Ordo Malleus",
                   "Inquisitor"
-                ],
-                "abilities": [
-                  {
-                    "name": "Leader",
-                    "text": "This model can be attached to the following units: ^^**Exaction Squad, Grey Knights Terminator Squad, Imperium Battleline, Imperial Navy Breachers, Inquisitorial Agents, Subductor Squad, Vigilant Squad**^^"
-                  }
                 ]
               }
             },
@@ -8582,12 +8501,6 @@
                 "keywords": [
                   "Ordo Xenos",
                   "Inquisitor"
-                ],
-                "abilities": [
-                  {
-                    "name": "Leader",
-                    "text": "This model can be attached to the following units: ^^**Deathwatch Kill Team, Exaction Squad, Imperium Battleline, Imperial Navy Breachers, Inquisitorial Agents, Subductor Squad, Vigilant Squad**^^"
-                  }
                 ]
               }
             },
@@ -8600,12 +8513,6 @@
                 "keywords": [
                   "Voidfarers",
                   "Rogue Trader"
-                ],
-                "abilities": [
-                  {
-                    "name": "Leader",
-                    "text": "This model can be attached to the following units: ^^**Imperial Navy Breachers, Voidsmen-at-Arms**^^"
-                  }
                 ]
               }
             }
@@ -8968,10 +8875,6 @@
       ],
       "rules": [
         {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
-        {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise 1"
         }
@@ -9122,10 +9025,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "a8a0-8fe7-898-e0f3",
           "name": "Lone Operative"
@@ -9581,10 +9480,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "9bf4-280f-bbe2-6fbb",
           "name": "Feel No Pain"
@@ -10949,10 +10844,6 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
-        },
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
         }
       ],
       "maxInArmy": {
@@ -12002,10 +11893,6 @@
       ],
       "rules": [
         {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
-        {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
         },
@@ -12837,10 +12724,6 @@
       ],
       "rules": [
         {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
-        {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
         }
@@ -13002,10 +12885,6 @@
       ],
       "rules": [
         {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
-        {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
         }
@@ -13155,10 +13034,6 @@
       ],
       "rules": [
         {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
-        {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
         }
@@ -13306,10 +13181,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
@@ -13470,10 +13341,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
@@ -13818,10 +13685,6 @@
       ],
       "rules": [
         {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
-        {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
         },
@@ -13951,10 +13814,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise 1"
@@ -14109,10 +13968,6 @@
         {
           "id": "ada6-bac1-ffe0-d6f7",
           "name": "Scouts 6\""
-        },
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
         }
       ],
       "maxInArmy": {
@@ -14266,10 +14121,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
@@ -14675,10 +14526,6 @@
         {
           "name": "Loyal Henchmen",
           "text": "While an INQUISITOR model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
-        },
-        {
-          "name": "Inquisitorial Henchmen",
-          "text": "If your Army Faction is not AGENTS OF THE IMPERIUM, then for each INQUISITOR unit you include in your army, you can include one INQUISITORIAL AGENTS unit in your army that does not count towards the number of RETINUE units your army can include."
         }
       ],
       "rules": [],
@@ -15013,10 +14860,6 @@
         {
           "id": "13b2-6518-dab3-7ea1",
           "name": "Firing Deck 2"
-        },
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
         }
       ],
       "maxInArmy": {
@@ -15144,10 +14987,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
@@ -16108,10 +15947,6 @@
         {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         }
       ],
       "alliedFrom": "Imperial Knights",
@@ -16521,10 +16356,6 @@
           "name": "Super-Heavy Walker"
         },
         {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
-        },
-        {
           "id": "1897-c22c-9597-12b1",
           "name": "Sustained Hits"
         },
@@ -16743,10 +16574,6 @@
         {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         },
         {
           "id": "f5a5-d4cf-3b72-ed02",
@@ -17073,10 +16900,6 @@
         {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         }
       ],
       "alliedFrom": "Imperial Knights",
@@ -17458,10 +17281,6 @@
           "name": "Super-Heavy Walker"
         },
         {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
-        },
-        {
           "id": "fc8a-8c24-bae9-cc1c",
           "name": "Assault"
         },
@@ -17804,10 +17623,6 @@
         {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         },
         {
           "id": "f5a5-d4cf-3b72-ed02",
@@ -18212,10 +18027,6 @@
         {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         },
         {
           "id": "d1d1-611e-5191-1095",
@@ -18648,10 +18459,6 @@
           "name": "Super-Heavy Walker"
         },
         {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
-        },
-        {
           "id": "f5a5-d4cf-3b72-ed02",
           "name": "Bondsman"
         }
@@ -18922,10 +18729,6 @@
         {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         }
       ],
       "alliedFrom": "Imperial Knights",
@@ -19325,10 +19128,6 @@
         {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         },
         {
           "id": "be1e-ac8e-1e2c-3528",
@@ -20534,10 +20333,6 @@
           "name": "Leader"
         },
         {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
-        {
           "id": "a8a0-8fe7-898-e0f3",
           "name": "Lone Operative"
         }
@@ -20836,10 +20631,6 @@
       ],
       "rules": [
         {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
-        {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
         }
@@ -20959,10 +20750,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
@@ -22753,10 +22540,6 @@
           "name": "Super-Heavy Walker"
         },
         {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
-        },
-        {
           "id": "f5a5-d4cf-3b72-ed02",
           "name": "Bondsman"
         },
@@ -23009,10 +22792,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6"
-        },
-        {
-          "id": "cbd-943-bc7b-20ec",
-          "name": "Code Chivalric"
         },
         {
           "id": "5e13-1624-d280-418d",
@@ -23830,10 +23609,6 @@
         {
           "id": "ada6-bac1-ffe0-d6f7",
           "name": "Scouts 6\""
-        },
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
         }
       ],
       "bodyguard": {
@@ -25840,12 +25615,7 @@
           "text": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
         }
       ],
-      "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        }
-      ],
+      "rules": [],
       "maxInArmy": {
         "incursion": 2,
         "strike-force": 3,
@@ -26056,10 +25826,6 @@
         {
           "id": "a8a0-8fe7-898-e0f3",
           "name": "Lone Operative"
-        },
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
         }
       ]
     },
@@ -26867,12 +26633,7 @@
           "text": "Each time a model in this unit makes a ranged attack that targets a unit that is Below Half-strength, add 1 to the Wound roll."
         }
       ],
-      "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        }
-      ],
+      "rules": [],
       "maxInArmy": {
         "incursion": 4,
         "strike-force": 6,
@@ -27037,10 +26798,6 @@
         }
       ],
       "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        },
         {
           "id": "a8a0-8fe7-898-e0f3",
           "name": "Lone Operative"
@@ -27364,18 +27121,9 @@
         {
           "name": "Masters of Close Confines",
           "text": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability."
-        },
-        {
-          "name": "Navy Bodyguards",
-          "text": "If your Army Faction is not AGENTS OF THE IMPERIUM, then for each VOIDFARERS CHARACTER unit you include in your army, you can include one VOIDSMEN-AT-ARMS unit in your army that does not count towards the number of RETINUE units your army can include."
         }
       ],
-      "rules": [
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
-        }
-      ],
+      "rules": [],
       "maxInArmy": {
         "incursion": 2,
         "strike-force": 3,
@@ -27948,10 +27696,6 @@
         {
           "id": "676c-ecb5-d24d-3540",
           "name": "Feel No Pain 6+"
-        },
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
         }
       ],
       "maxInArmy": {
@@ -28076,10 +27820,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "58c1-ec7a-74f5-26b9",
-          "name": "Assigned Agents"
         }
       ],
       "maxInArmy": {
@@ -28112,11 +27852,6 @@
       "text": "Units containing one or more models with an **[ASSAULT]** weapon can shoot using **assault shooting** (10.05)."
     },
     {
-      "id": "58c1-ec7a-74f5-26b9",
-      "name": "Assigned Agents",
-      "text": "If your army Faction is not AGENTS OF THE IMPERIUM, but every model in your army has the IMPERIUM keyword, you can include AGENTS OF THE IMPERIUM units in your army even if they do not have the Faction keyword you selected in the Select Army Faction step. In this case, the maximum number of AGENTS OF THE IMPERIUM units you can include in your army depends on the battle size, as shown below.\n\nIncursion: 1 RETINUE, 1 CHARACTER, 1 REQUISITIONED\nStrike Force: 2 RETINUE, 2 CHARACTER, 1 REQUISITIONED\nOnslaught: 3 RETINUE, 3 CHARACTER, 2 REQUISITIONED\n\n\nNote that you can include AGENTS OF THE IMPERIUM DEDICATED TRANSPORT units in such an army as normal, but each unit must start the battle with one or more units embarked within it, or it cannot be deployed for that battle and will count as having been destroyed during the first battle round."
-    },
-    {
       "id": "6c1f-1cf7-ff25-c99e",
       "name": "Blast",
       "text": "Each time you gather attack dice for a **[BLAST]** weapon, add one additional **attack dice** for every five models that were in the target unit in the Select Targets step (rounding down). If this ability takes the form **[BLAST X]**, each time you gather **attack dice** for such a weapon, add **X** additional **attack dice** for every five models that were in the target unit in the Select Targets step (rounding down) instead. \n***Example:** If a **[BLAST 2]** weapon with an **A** characteristic of 3 targets a unit containing 12 models, you would gather four additional **attack dice** for that weapon (for a total of seven for that weapon).*"
@@ -28130,11 +27865,6 @@
       "id": "5238-5ad4-52f7-6eb4",
       "name": "Close-quarters",
       "text": "Units containing one or more models with a **[CLOSE-QUARTERS]** weapon can shoot using **close-quarters shooting** (10.06). When using another **shooting type**, for each model in that unit (excluding **MONSTER/VEHICLE** models), you can only select one of the following to make attacks with: \n- One or more of its **[CLOSE-QUARTERS]** weapons. \n- One or more of its other ranged weapons."
-    },
-    {
-      "id": "cbd-943-bc7b-20ec",
-      "name": "Code Chivalric",
-      "text": "If your Army Faction is **^^Imperial Knights^^**, at the end of the Read Mission Objectives step, you must determine your army's Oath for the coming battle. An Oath consists of two parts - one Deed and one Quality. There are three options for each part.\n\nTo determine your army's Deed, you can either select one Deed or you can randomly select one Deed by rolling a D6 and consulting the relevant table. The selected Deed will describe what needs to be achieved in order to complete that Deed.\n\nTo determine your army's Quality, you can either select one Quality or you can randomly select one Quality by rolling a D6 and consulting the relevant table. Until the end of the battle, the ability described in the Quality selected applies to all models in your army with this ability.\n\nThe first time your selected Deed is completed your Oath is fulfilled and, until the end of the battle, your army becomes Honoured and you gain 2CP, or 3CP if you randomly selected your Deed and/or Quality (CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1)."
     },
     {
       "id": "575e-d58f-fa50-d127",

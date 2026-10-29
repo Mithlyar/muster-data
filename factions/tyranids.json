@@ -2899,7 +2899,10 @@
         },
         {
           "name": "Hunter Organism",
-          "text": "This model cannot be your Warlord"
+          "text": "This model cannot be your Warlord",
+          "notWithDetachmentIds": [
+            "f773-f91c-2999-c7e1"
+          ]
         },
         {
           "name": "Feeder Tendrils",
@@ -2929,7 +2932,10 @@
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
-          "name": "Deep Strike"
+          "name": "Deep Strike",
+          "detachmentIds": [
+            "cf1b-eb18-c465-27a5"
+          ]
         }
       ],
       "maxInArmy": {
@@ -5720,7 +5726,10 @@
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
-          "name": "Deep Strike"
+          "name": "Deep Strike",
+          "detachmentIds": [
+            "cf1b-eb18-c465-27a5"
+          ]
         }
       ],
       "maxInArmy": {
@@ -7895,7 +7904,10 @@
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
-          "name": "Deep Strike"
+          "name": "Deep Strike",
+          "detachmentIds": [
+            "cf1b-eb18-c465-27a5"
+          ]
         }
       ],
       "maxInArmy": {
@@ -9497,7 +9509,10 @@
         },
         {
           "name": "Protean Purpose",
-          "text": "(Once per battle, per unit) In your Command phase, you can use this ability. If you do, this unit can make a selection for its **Singular Purpose** ability (this replaces the previous selection)."
+          "text": "(Once per battle, per unit) In your Command phase, you can use this ability. If you do, this unit can make a selection for its **Singular Purpose** ability (this replaces the previous selection).",
+          "detachmentIds": [
+            "8d8b-a030-83d5-f4e6"
+          ]
         }
       ],
       "rules": [
@@ -9673,7 +9688,10 @@
         },
         {
           "name": "Protean Purpose",
-          "text": "(Once per battle, per unit) In your Command phase, you can use this ability. If you do, this unit can make a selection for its **Singular Purpose** ability (this replaces the previous selection)."
+          "text": "(Once per battle, per unit) In your Command phase, you can use this ability. If you do, this unit can make a selection for its **Singular Purpose** ability (this replaces the previous selection).",
+          "detachmentIds": [
+            "8d8b-a030-83d5-f4e6"
+          ]
         },
         {
           "name": "Unnatural Resistance",

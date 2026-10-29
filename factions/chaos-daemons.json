@@ -976,32 +976,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -1011,23 +987,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -1037,23 +998,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -1063,32 +1009,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -1113,7 +1035,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -1311,7 +1236,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "notWithDetachmentIds": [
@@ -1441,7 +1369,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -1592,7 +1523,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -1606,7 +1540,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
@@ -1716,7 +1653,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -1730,7 +1670,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -1925,7 +1868,10 @@
         },
         {
           "name": "Murderer's Cowl",
-          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -1939,7 +1885,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -2103,7 +2052,10 @@
         },
         {
           "name": "Murderer's Cowl",
-          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -2117,7 +2069,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -2213,7 +2168,10 @@
         },
         {
           "name": "Murderer's Cowl",
-          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -2227,7 +2185,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -2512,7 +2473,10 @@
         },
         {
           "name": "Murderer's Cowl",
-          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -2530,7 +2494,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -2650,7 +2617,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -2668,11 +2638,17 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "maxInArmy": {
@@ -2817,7 +2793,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -2831,11 +2810,17 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "maxInArmy": {
@@ -2975,7 +2960,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -2993,11 +2981,17 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "maxInArmy": {
@@ -3164,10 +3158,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise 2D6"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         },
         {
           "id": "5e13-1624-d280-418d",
@@ -3433,10 +3423,6 @@
           "name": "Deadly Demise 2D6"
         },
         {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
-        },
-        {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
         }
@@ -3606,10 +3592,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6+2"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         },
         {
           "id": "5e13-1624-d280-418d",
@@ -3800,10 +3782,6 @@
           "name": "Deadly Demise D6+2"
         },
         {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
-        },
-        {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
         }
@@ -3950,10 +3928,6 @@
           "name": "Deadly Demise D6+2"
         },
         {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
-        },
-        {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
         }
@@ -4088,10 +4062,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6+2"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         },
         {
           "id": "5e13-1624-d280-418d",
@@ -4354,32 +4324,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -4389,23 +4335,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -4415,23 +4346,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -4441,32 +4357,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -4499,7 +4391,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -4792,32 +4687,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -4827,23 +4698,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -4853,23 +4709,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -4879,32 +4720,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -4937,7 +4754,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -5217,32 +5037,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -5252,23 +5048,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -5278,23 +5059,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -5304,32 +5070,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -5362,7 +5104,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -5626,10 +5371,6 @@
           "name": "Deadly Demise D6"
         },
         {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
-        },
-        {
           "id": "5e13-1624-d280-418d",
           "name": "Super-Heavy Walker"
         }
@@ -5880,10 +5621,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         },
         {
           "id": "5e13-1624-d280-418d",
@@ -6300,32 +6037,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -6335,23 +6048,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -6361,23 +6059,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -6387,32 +6070,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -6746,7 +6405,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -7218,32 +6880,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -7253,23 +6891,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -7279,23 +6902,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -7305,32 +6913,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -7646,7 +7230,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -7866,11 +7453,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -7884,7 +7477,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -8020,32 +7616,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -8055,23 +7627,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -8081,23 +7638,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -8107,32 +7649,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -8165,7 +7683,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -8387,32 +7908,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -8422,23 +7919,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -8448,23 +7930,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -8474,32 +7941,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -8713,7 +8156,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -8876,7 +8322,10 @@
                 "abilities": [
                   {
                     "name": "Seductive Gambit",
-                    "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+                    "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+                    "detachmentIds": [
+                      "24f0-3c89-41be-0675"
+                    ]
                   }
                 ]
               }
@@ -8921,7 +8370,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -9082,7 +8534,10 @@
                 "abilities": [
                   {
                     "name": "Seductive Gambit",
-                    "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+                    "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+                    "detachmentIds": [
+                      "24f0-3c89-41be-0675"
+                    ]
                   }
                 ]
               }
@@ -9123,7 +8578,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -9309,11 +8767,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -9331,7 +8795,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -9835,7 +9302,10 @@
                 "abilities": [
                   {
                     "name": "Murderer's Cowl",
-                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -9861,7 +9331,10 @@
                 "abilities": [
                   {
                     "name": "Shadow's Caress",
-                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -9893,7 +9366,10 @@
                 "abilities": [
                   {
                     "name": "Gloam Rot",
-                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -9919,7 +9395,10 @@
                 "abilities": [
                   {
                     "name": "Penumbral Puppetry",
-                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -10427,7 +9906,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "narrative": "Crucible",
@@ -10796,7 +10278,10 @@
                 "abilities": [
                   {
                     "name": "Murderer's Cowl",
-                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -10822,7 +10307,10 @@
                 "abilities": [
                   {
                     "name": "Shadow's Caress",
-                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -10854,7 +10342,10 @@
                 "abilities": [
                   {
                     "name": "Gloam Rot",
-                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -10880,7 +10371,10 @@
                 "abilities": [
                   {
                     "name": "Penumbral Puppetry",
-                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -11489,7 +10983,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "narrative": "Crucible",
@@ -11641,32 +11138,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -11676,23 +11149,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -11702,23 +11160,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -11728,32 +11171,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -11790,7 +11209,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -12082,23 +11504,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -12108,23 +11515,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -12134,32 +11526,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -12192,7 +11560,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         },
         {
           "name": "Chaos icon",
@@ -12331,7 +11702,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "notWithDetachmentIds": [
@@ -12480,7 +11854,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -12498,11 +11875,17 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "maxInArmy": {
@@ -12673,7 +12056,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -12691,11 +12077,17 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "maxInArmy": {
@@ -12770,7 +12162,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -12784,7 +12179,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -13125,32 +12523,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -13160,23 +12534,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -13186,23 +12545,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -13212,32 +12556,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -13288,7 +12608,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -13387,11 +12710,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -13405,7 +12734,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -13585,7 +12917,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -13599,11 +12934,17 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "maxInArmy": {
@@ -13732,7 +13073,10 @@
         },
         {
           "name": "Murderer's Cowl",
-          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         },
         {
           "name": "Collar of Khorne",
@@ -13750,7 +13094,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "9bf4-280f-bbe2-6fbb",
@@ -13895,7 +13242,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -13913,7 +13263,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
@@ -14019,7 +13372,10 @@
                 "abilities": [
                   {
                     "name": "Murderer's Cowl",
-                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -14033,7 +13389,10 @@
                 "abilities": [
                   {
                     "name": "Gloam Rot",
-                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -14047,11 +13406,17 @@
                 "abilities": [
                   {
                     "name": "Seductive Gambit",
-                    "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+                    "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+                    "detachmentIds": [
+                      "24f0-3c89-41be-0675"
+                    ]
                   },
                   {
                     "name": "Shadow's Caress",
-                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -14065,7 +13430,10 @@
                 "abilities": [
                   {
                     "name": "Penumbral Puppetry",
-                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -14090,7 +13458,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ]
     },
@@ -14174,7 +13545,10 @@
                 "abilities": [
                   {
                     "name": "Murderer's Cowl",
-                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -14188,7 +13562,10 @@
                 "abilities": [
                   {
                     "name": "Gloam Rot",
-                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -14202,11 +13579,17 @@
                 "abilities": [
                   {
                     "name": "Seductive Gambit",
-                    "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+                    "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+                    "detachmentIds": [
+                      "24f0-3c89-41be-0675"
+                    ]
                   },
                   {
                     "name": "Shadow's Caress",
-                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -14228,7 +13611,10 @@
                 "abilities": [
                   {
                     "name": "Penumbral Puppetry",
-                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -14249,7 +13635,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -14510,7 +13899,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -14528,7 +13920,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "9bf4-280f-bbe2-6fbb",
@@ -15023,32 +14418,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -15058,23 +14429,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -15084,23 +14440,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -15110,32 +14451,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -15260,7 +14577,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -15422,11 +14742,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -15440,7 +14766,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -15563,11 +14892,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -15585,7 +14920,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "ada6-bac1-ffe0-d6f7",
@@ -15715,7 +15053,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -16281,7 +15622,10 @@
                 "abilities": [
                   {
                     "name": "Murderer's Cowl",
-                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -16307,7 +15651,10 @@
                 "abilities": [
                   {
                     "name": "Shadow's Caress",
-                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -16339,7 +15686,10 @@
                 "abilities": [
                   {
                     "name": "Gloam Rot",
-                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -16365,7 +15715,10 @@
                 "abilities": [
                   {
                     "name": "Penumbral Puppetry",
-                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -16898,7 +16251,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -17037,11 +16393,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -17055,7 +16417,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -17227,7 +16592,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "notWithDetachmentIds": [
@@ -17365,7 +16733,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "9bf4-280f-bbe2-6fbb",
@@ -17625,11 +16996,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -17647,7 +17024,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -17851,7 +17231,10 @@
         },
         {
           "name": "Murderer's Cowl",
-          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -17865,7 +17248,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -18048,10 +17434,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -18279,10 +17661,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -18813,10 +18191,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -19007,10 +18381,6 @@
         {
           "id": "1897-c22c-9597-12b1",
           "name": "Sustained Hits"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -19186,10 +18556,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -19545,10 +18911,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D6+2"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -20252,32 +19614,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -20287,23 +19625,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -20313,23 +19636,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -20339,32 +19647,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -20596,7 +19880,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -20880,7 +20167,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -20898,11 +20188,17 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "maxInArmy": {
@@ -21074,23 +20370,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -21100,23 +20381,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -21126,32 +20392,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -21184,7 +20426,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -21401,7 +20646,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -21415,7 +20663,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -21509,7 +20760,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -21523,7 +20777,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "c05d-f4c3-f091-4938",
@@ -21694,7 +20951,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -21708,11 +20968,17 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "maxInArmy": {
@@ -21986,7 +21252,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -22000,7 +21269,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -22111,7 +21383,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -22125,7 +21400,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ]
     },
@@ -22299,7 +21577,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -22309,7 +21590,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -22406,32 +21690,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -22441,23 +21701,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -22467,23 +21712,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -22493,32 +21723,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -22567,7 +21773,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -22772,7 +21981,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -22786,7 +21998,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ]
     },
@@ -22880,7 +22095,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -22894,7 +22112,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "9bf4-280f-bbe2-6fbb",
@@ -23424,32 +22645,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -23459,23 +22656,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -23485,23 +22667,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -23511,32 +22678,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -23625,7 +22768,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -24116,7 +23262,10 @@
         },
         {
           "name": "Murderer's Cowl",
-          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -24130,7 +23279,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -24288,7 +23440,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "9bf4-280f-bbe2-6fbb",
@@ -24437,7 +23592,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "9bf4-280f-bbe2-6fbb",
@@ -24530,7 +23688,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -24544,11 +23705,17 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "maxInArmy": {
@@ -24680,11 +23847,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -24698,7 +23871,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -24923,11 +24099,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -24941,7 +24123,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "ada6-bac1-ffe0-d6f7",
@@ -25124,7 +24309,10 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         }
       ],
       "rules": [
@@ -25142,7 +24330,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "notWithDetachmentIds": [
@@ -25289,7 +24480,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "notWithDetachmentIds": [
@@ -25362,7 +24556,10 @@
         },
         {
           "name": "Murderer's Cowl",
-          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -25372,7 +24569,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -25494,7 +24694,10 @@
         },
         {
           "name": "Murderer's Cowl",
-          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -25508,7 +24711,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -25628,7 +24834,10 @@
         },
         {
           "name": "Murderer's Cowl",
-          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+          "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -25646,7 +24855,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -25757,7 +24969,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -25964,11 +25179,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -25982,7 +25203,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -26084,7 +25308,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -26102,7 +25329,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -26269,23 +25499,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -26295,23 +25510,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -26321,32 +25521,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -26379,7 +25555,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -26635,23 +25814,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -26661,23 +25825,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -26687,32 +25836,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -26745,7 +25870,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -26857,7 +25985,10 @@
                 "abilities": [
                   {
                     "name": "Murderer's Cowl",
-                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+                    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -26871,7 +26002,10 @@
                 "abilities": [
                   {
                     "name": "Gloam Rot",
-                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+                    "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -26885,11 +26019,17 @@
                 "abilities": [
                   {
                     "name": "Seductive Gambit",
-                    "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+                    "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+                    "detachmentIds": [
+                      "24f0-3c89-41be-0675"
+                    ]
                   },
                   {
                     "name": "Shadow's Caress",
-                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+                    "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -26911,7 +26051,10 @@
                 "abilities": [
                   {
                     "name": "Penumbral Puppetry",
-                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                    "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+                    "detachmentIds": [
+                      "5063-25bd-d22e-665b"
+                    ]
                   }
                 ]
               }
@@ -26926,7 +26069,10 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         }
       ],
       "rules": [
@@ -26936,7 +26082,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "a312-a2f1-e1c0-30ed",
@@ -26944,7 +26093,10 @@
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ]
     },
@@ -27062,7 +26214,10 @@
         },
         {
           "name": "Gloam Rot",
-          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll."
+          "text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -27080,7 +26235,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         }
       ],
       "maxInArmy": {
@@ -27249,7 +26407,10 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         }
       ],
       "rules": [
@@ -27263,7 +26424,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -27376,7 +26540,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "a8a0-8fe7-898-e0f3",
@@ -27524,7 +26691,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -27630,7 +26800,10 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         }
       ],
       "rules": [
@@ -27644,7 +26817,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -27818,11 +26994,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -27836,7 +27018,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -27991,32 +27176,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -28026,23 +27187,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -28052,23 +27198,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -28078,32 +27209,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -28136,7 +27243,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -28586,32 +27696,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -28621,23 +27707,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -28647,23 +27718,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -28673,32 +27729,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -28783,7 +27815,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -28892,11 +27927,17 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         },
         {
           "name": "Shadow's Caress",
-          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+          "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -28910,7 +27951,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -29120,7 +28164,10 @@
         },
         {
           "name": "Penumbral Puppetry",
-          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -29134,7 +28181,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -29142,7 +28192,10 @@
         },
         {
           "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
+          "name": "Stealth",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "maxInArmy": {
@@ -29349,10 +28402,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -29536,10 +28585,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -29739,10 +28784,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -29930,10 +28971,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -30198,10 +29235,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         }
       ],
       "alliedFrom": "Chaos Knights",
@@ -30488,10 +29521,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise D3"
-        },
-        {
-          "id": "d71a-a59f-aafd-3723",
-          "name": "Harbingers of Dread"
         },
         {
           "id": "ada6-bac1-ffe0-d6f7",
@@ -30810,7 +29839,7 @@
         },
         {
           "name": "Titanic Fire Support",
-          "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+          "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "Striding Colossus",
@@ -31577,32 +30606,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "S",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true,
-                    "weaponName": "hellforged"
-                  }
-                ],
                 "keywords": [
                   "Khorne"
-                ],
-                "abilities": [
-                  {
-                    "name": "Khorne",
-                    "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
-                  }
                 ]
               }
             },
@@ -31612,23 +30617,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "T",
-                    "op": "add",
-                    "value": 1,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Nurgle"
-                ],
-                "abilities": [
-                  {
-                    "name": "Nurgle",
-                    "text": "Add 1 to this model's Toughness characteristic."
-                  }
                 ]
               }
             },
@@ -31638,23 +30628,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "unit",
-                    "stat": "M",
-                    "op": "add",
-                    "value": 2,
-                    "fromText": true
-                  }
-                ],
                 "keywords": [
                   "Slaanesh"
-                ],
-                "abilities": [
-                  {
-                    "name": "Slaanesh",
-                    "text": "Add 2\" to this model's Move characteristic."
-                  }
                 ]
               }
             },
@@ -31664,32 +30639,8 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
-                "stats": [
-                  {
-                    "on": "ranged",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  },
-                  {
-                    "on": "melee",
-                    "stat": "A",
-                    "op": "add",
-                    "value": 3,
-                    "fromText": true,
-                    "weaponName": "infernal cannon"
-                  }
-                ],
                 "keywords": [
                   "Tzeentch"
-                ],
-                "abilities": [
-                  {
-                    "name": "Tzeentch",
-                    "text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
-                  }
                 ]
               }
             },
@@ -31714,7 +30665,10 @@
         },
         {
           "name": "Disciples of Be'lakor",
-          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+          "text": "- This unit has the Dark Pacts army rule, and can use it as described in _Codex: Chaos Space Marines_, even though your Army Faction is not Heretic Astartes. If this unit is Be’lakor, it automatically passes the Leadership test required for Dark Pacts. \n- Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability.",
+          "detachmentIds": [
+            "5063-25bd-d22e-665b"
+          ]
         }
       ],
       "rules": [
@@ -31886,7 +30840,10 @@
         },
         {
           "name": "Seductive Gambit",
-          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1."
+          "text": "Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re‑roll the Hit roll and you can re‑roll a Wound roll of 1.",
+          "detachmentIds": [
+            "24f0-3c89-41be-0675"
+          ]
         }
       ],
       "rules": [
@@ -31900,7 +30857,10 @@
         },
         {
           "id": "877e-cc0c-8a1d-be46",
-          "name": "Warp Rifts"
+          "name": "Warp Rifts",
+          "detachmentIds": [
+            "a7cf-90fa-4093-6047"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -31972,11 +30932,6 @@
       "id": "24-c886-e8ba-5a89",
       "name": "Fights First",
       "text": "While every model in a unit has this ability, that unit is a **Fights First** unit. \nSee the Resolve Fights First Combats step in the Fight phase (12.04)."
-    },
-    {
-      "id": "d71a-a59f-aafd-3723",
-      "name": "Harbingers of Dread",
-      "text": "If your Army Faction is ^^**Chaos Knights^^**, each model from your army with this ability gains Dread abilities, depending which are active for your army. The Deathly Terror ability is active for your army from the start of the battle. In addition, at the start of the first, third and fifth battle rounds, you can either select one of the other Dread abilities or randomly select two Dread abilities to apply by rolling two D6 and applying the results rolled, from those numbered 1-6 below.\n\nAny Dread abilities that have been selected are active until the end of the battle. You cannot select the same Dread ability more than once, and any duplicated Dread abilities (as a result of randomly selecting them) have no additional effect.\n\n\n**N/A - Deathly Terror (Aura)**\nWhile an enemy unit is within 9\" of this model, worsen the Leadership characteristic of models in that unit by 1.\n\n**1 - Despair (Aura)**\nWhile an enemy unit is within 9\" of this model, worsen the Leadership characteristic of models in that unit by 1. This is cumulative with the Deathly Terror ability (see above).\n\n**2 - Doom**\nEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.\n\n**3 - Darkness**\nThis model has **Stealth**.\n\n**4 - Dismay (Aura)**\nIn the Battle-shock step of your opponent's Command phase, for each enemy unit that is below its Starting Strength and within 9\" of this model, that enemy unit must take a Battle-shock test.\n\n**5 - Delirium (Aura)**\nWhile an enemy unit that is Below Half-strength is within 9\" of this model, each time that model fails a Battle-shock test, it suffers D3 mortal wounds.\n\n**6 - Dominion**\nAdd 3\" to the range of this model's Aura abilities."
     },
     {
       "id": "8367-374c-f87-c627",

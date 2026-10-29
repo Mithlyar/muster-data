@@ -1371,35 +1371,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -1518,35 +1542,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -2005,41 +2053,68 @@
         },
         {
           "name": "Distortion Fields (Aura)",
-          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\"."
+          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\".",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ],
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -2204,41 +2279,68 @@
         },
         {
           "name": "Distortion Fields (Aura)",
-          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\"."
+          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\".",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ],
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -2435,41 +2537,68 @@
         },
         {
           "name": "Distortion Fields (Aura)",
-          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\"."
+          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\".",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ],
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -2588,35 +2717,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -2747,35 +2900,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -2984,35 +3161,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ],
       "maxInArmy": {
@@ -3111,35 +3312,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -3233,35 +3458,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -3436,35 +3685,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -3576,35 +3849,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ],
       "maxInArmy": {
@@ -3702,7 +3999,10 @@
         },
         {
           "name": "Distortion Fields (Aura)",
-          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\"."
+          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\".",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "name": "Gloom Prism (Aura)",
@@ -3712,35 +4012,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -3843,7 +4167,10 @@
         },
         {
           "name": "Distortion Fields (Aura)",
-          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\"."
+          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\".",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "name": "Gloom Prism (Aura)",
@@ -3861,35 +4188,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ]
     },
@@ -4118,35 +4469,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -4903,35 +5278,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -5041,35 +5440,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -5189,35 +5612,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -5321,35 +5768,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -5452,35 +5923,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -5614,35 +6109,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -5773,35 +6292,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -6456,35 +6999,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ],
       "narrative": "Crucible",
@@ -6833,35 +7400,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -7175,35 +7766,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ]
     },
@@ -7318,35 +7933,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "3342-2180-9c5d-925f",
@@ -7459,35 +8098,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -7731,35 +8394,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -8552,35 +9239,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ],
       "narrative": "Crucible",
@@ -8708,35 +9419,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -8890,35 +9625,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -9058,35 +9817,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ],
       "leader": {
@@ -9414,35 +10197,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -9591,35 +10398,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -9821,35 +10652,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -10035,35 +10890,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -10202,35 +11081,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -10567,35 +11470,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -10750,35 +11677,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -10925,35 +11876,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -11062,35 +12037,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -11217,35 +12216,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -11376,35 +12399,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ]
     },
@@ -11509,35 +12556,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -11634,35 +12705,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -11773,35 +12868,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "3342-2180-9c5d-925f",
@@ -12032,35 +13151,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -12175,35 +13318,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -12443,35 +13610,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "3342-2180-9c5d-925f",
@@ -13026,35 +14217,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "3342-2180-9c5d-925f",
@@ -13172,35 +14387,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -13496,35 +14735,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ]
     },
@@ -13713,35 +14976,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -13834,35 +15121,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -14008,35 +15319,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "b4dd-3e1f-41cb-218f",
@@ -14327,35 +15662,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "3342-2180-9c5d-925f",
@@ -14583,35 +15942,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -14724,35 +16107,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -15083,35 +16490,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -15378,35 +16809,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -15418,7 +16873,10 @@
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
-          "name": "Deep Strike"
+          "name": "Deep Strike",
+          "detachmentIds": [
+            "51c2-e233-ea51-14df"
+          ]
         }
       ],
       "extraCopyCost": [
@@ -15568,35 +17026,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ]
     },
@@ -15744,41 +17226,68 @@
         },
         {
           "name": "Distortion Fields (Aura)",
-          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\"."
+          "text": "While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\".",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         }
       ],
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -15892,35 +17401,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -16079,35 +17612,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -16300,35 +17857,59 @@
       "rules": [
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",
@@ -17010,35 +18591,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "b68a-5ded-65ac-98c",
@@ -17143,35 +18748,59 @@
         },
         {
           "id": "cb2f-c68b-f66e-93ae",
-          "name": "Annihilation Protocol"
+          "name": "Annihilation Protocol",
+          "detachmentIds": [
+            "6493-9079-727d-d95f"
+          ]
         },
         {
           "id": "388f-814a-df25-c988",
-          "name": "Command Protocols"
+          "name": "Command Protocols",
+          "detachmentIds": [
+            "9ebf-2bbd-6059-1d40"
+          ]
         },
         {
           "id": "bf08-bb20-d69d-1063",
-          "name": "Hyperphasing"
+          "name": "Hyperphasing",
+          "detachmentIds": [
+            "8861-5385-8fd1-dfee"
+          ]
         },
         {
           "id": "5aff-abb1-f06d-23a5",
-          "name": "Power Matrix"
+          "name": "Power Matrix",
+          "detachmentIds": [
+            "aed9-cb3b-1d0c-f87d"
+          ]
         },
         {
           "id": "a0f8-2836-4418-50a4",
-          "name": "Worthy Foes"
+          "name": "Worthy Foes",
+          "detachmentIds": [
+            "163f-63bd-f2e1-5e7"
+          ]
         },
         {
           "id": "666e-a57a-9fe0-65e6",
-          "name": "Technosorcerous Augmentations"
+          "name": "Technosorcerous Augmentations",
+          "detachmentIds": [
+            "1de5-2462-f59c-db94"
+          ]
         },
         {
           "id": "6033-8abb-9299-a5dc",
-          "name": "Cold Fervour"
+          "name": "Cold Fervour",
+          "detachmentIds": [
+            "c4ee-83c7-812c-5ff0"
+          ]
         },
         {
           "id": "9f16-c77e-568e-a88a",
-          "name": "Cosmic Distortion"
+          "name": "Cosmic Distortion",
+          "detachmentIds": [
+            "1707-57c5-676e-90d9"
+          ]
         },
         {
           "id": "a511-d9ca-17d0-42c5",

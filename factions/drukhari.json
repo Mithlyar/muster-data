@@ -4145,10 +4145,6 @@
       ],
       "rules": [
         {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
           "id": "ada6-bac1-ffe0-d6f7",
           "name": "Scouts 7\""
         },
@@ -4649,10 +4645,6 @@
         {
           "id": "ada6-bac1-ffe0-d6f7",
           "name": "Scouts 7\""
-        },
-        {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
         },
         {
           "id": "24-c886-e8ba-5a89",
@@ -5425,10 +5417,6 @@
           "name": "Scouts 7\""
         },
         {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
           "id": "24-c886-e8ba-5a89",
           "name": "Fights First"
         }
@@ -6024,14 +6012,6 @@
         {
           "id": "a8a0-8fe7-898-e0f3",
           "name": "Lone Operative"
-        },
-        {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
-          "id": "10d8-3547-47ae-baab",
-          "name": "Disparate Paths"
         }
       ],
       "alliedFrom": "Harlequins",
@@ -9260,10 +9240,6 @@
           "name": "Scouts 7\""
         },
         {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
         }
@@ -9850,10 +9826,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
         },
         {
           "id": "ada6-bac1-ffe0-d6f7",
@@ -12507,14 +12479,6 @@
           "name": "Leader"
         },
         {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
-          "id": "10d8-3547-47ae-baab",
-          "name": "Disparate Paths"
-        },
-        {
           "id": "c05d-f4c3-f091-4938",
           "name": "Infiltrators"
         }
@@ -12741,14 +12705,6 @@
       ],
       "rules": [
         {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
-          "id": "10d8-3547-47ae-baab",
-          "name": "Disparate Paths"
-        },
-        {
           "id": "bec5-4288-34a6-ccfa",
           "name": "Stealth"
         }
@@ -12852,16 +12808,8 @@
           "name": "Lone Operative"
         },
         {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
           "id": "bec5-4288-34a6-ccfa",
           "name": "Stealth"
-        },
-        {
-          "id": "10d8-3547-47ae-baab",
-          "name": "Disparate Paths"
         }
       ],
       "alliedFrom": "Harlequins",
@@ -12991,10 +12939,6 @@
       ],
       "rules": [
         {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise 1"
         },
@@ -13117,14 +13061,6 @@
         {
           "id": "13b2-6518-dab3-7ea1",
           "name": "Firing Deck 6"
-        },
-        {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
-          "id": "10d8-3547-47ae-baab",
-          "name": "Disparate Paths"
         }
       ],
       "alliedFrom": "Harlequins",
@@ -14328,10 +14264,6 @@
       ],
       "rules": [
         {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
           "id": "c05d-f4c3-f091-4938",
           "name": "Infiltrators"
         },
@@ -14641,16 +14573,8 @@
       ],
       "rules": [
         {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "10d8-3547-47ae-baab",
-          "name": "Disparate Paths"
         }
       ],
       "alliedFrom": "Harlequins",
@@ -15399,14 +15323,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise 1"
-        },
-        {
-          "id": "c324-e193-e23c-7d2e",
-          "name": "Battle Focus"
-        },
-        {
-          "id": "10d8-3547-47ae-baab",
-          "name": "Disparate Paths"
         },
         {
           "id": "bec5-4288-34a6-ccfa",
@@ -16219,11 +16135,6 @@
       "text": "Units containing one or more models with an **[ASSAULT]** weapon can shoot using **assault shooting** (10.05)."
     },
     {
-      "id": "c324-e193-e23c-7d2e",
-      "name": "Battle Focus",
-      "text": "If your Army Faction is **^^Asuryani^^**, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown below:\n\n■ Incursion - 2\n■ Strike Force - 4\n■ Onslaught - 6\n\nEach time one of the triggers shown in the Agile Manoeuvres section of your codex occurs, you can spend one Battle focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost."
-    },
-    {
       "id": "6c1f-1cf7-ff25-c99e",
       "name": "Blast",
       "text": "Each time you gather attack dice for a **[BLAST]** weapon, add one additional **attack dice** for every five models that were in the target unit in the Select Targets step (rounding down). If this ability takes the form **[BLAST X]**, each time you gather **attack dice** for such a weapon, add **X** additional **attack dice** for every five models that were in the target unit in the Select Targets step (rounding down) instead. \n***Example:** If a **[BLAST 2]** weapon with an **A** characteristic of 3 targets a unit containing 12 models, you would gather four additional **attack dice** for that weapon (for a total of seven for that weapon).*"
@@ -16247,11 +16158,6 @@
       "id": "be1e-ac8e-1e2c-3528",
       "name": "Devastating Wounds",
       "text": "Each time an attack made with a **[DEVASTATING WOUNDS]** weapon results in a **critical wound**, the attack sequence for that attack ends and the target unit suffers a number of **mortal wounds** equal to the **D** characteristic of that weapon. These are inflicted after resolving any normal damage inflicted by those attacks. \n**Mortal wounds** inflicted by **[DEVASTATING WOUNDS]** weapons can damage a maximum of one model for each **critical wound**; any remaining **mortal wounds** inflicted by that attack are lost. \n***Example:** An attack made with a **[DEVASTATING WOUNDS]** weapon with a **D** characteristic of 3 results in a **critical wound** against an Intercessor Squad, so inflicts 3 **mortal wounds**. The first 2 **mortal wounds** are sufficient to **destroy** 1 Intercessor model, so the remaining **mortal wound** is lost.*"
-    },
-    {
-      "id": "10d8-3547-47ae-baab",
-      "name": "Disparate Paths",
-      "text": "When mustering you army, you can include Harlequins units in your army, even though they do not have the Asuryani Faction keyword. Unless otherwise stated, you cannot select Harlequins or Ynnari as your Army Faction."
     },
     {
       "id": "115b-79dc-f723-d761",
