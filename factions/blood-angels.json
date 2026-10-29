@@ -2264,6 +2264,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a3ea-7a0d-fef8-23bf",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "7102-b3a4-9bfc-1b84",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -2391,6 +2406,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "390e-706b-a059-378b",
+          "0b74-440c-ee1d-ca50",
+          "ae9a-10e3-8091-20",
+          "4808-a80b-309a-7933"
+        ]
       }
     },
     {
@@ -2957,6 +2980,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "2f2e-d99b-b235-163a",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a3ea-7a0d-fef8-23bf",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "7102-b3a4-9bfc-1b84",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21"
+        ]
       }
     },
     {
@@ -3072,6 +3111,16 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "129d-2da5-66f3-f4ec",
+          "3bc7-8328-a080-3958",
+          "c570-c6ba-c9dc-5a44",
+          "7324-e591-939b-b675",
+          "6cb-912c-c43-210b",
+          "c538-aaf0-5788-5c07"
+        ]
       }
     },
     {
@@ -8825,6 +8874,11 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "7044-bf1-f949-c32d"
+        ]
       }
     },
     {
@@ -9311,6 +9365,15 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "leader": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "2f2e-d99b-b235-163a",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21"
+        ]
       }
     },
     {
@@ -9429,6 +9492,15 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
+      },
+      "leader": {
+        "unitIds": [
+          "ca4e-47d5-a704-8e5a",
+          "a10b-fbfe-b1fa-6f0c",
+          "907f-11-c4d1-ec21",
+          "6ba0-cede-e278-f86b",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -10571,6 +10643,23 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "leader": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "2f2e-d99b-b235-163a",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a3ea-7a0d-fef8-23bf",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "7102-b3a4-9bfc-1b84",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -11725,6 +11814,16 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
+      },
+      "leader": {
+        "unitIds": [
+          "ca4e-47d5-a704-8e5a",
+          "78ae-14b4-56d0-cc9d",
+          "a10b-fbfe-b1fa-6f0c",
+          "907f-11-c4d1-ec21",
+          "2f2e-d99b-b235-163a",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -16463,6 +16562,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "leader": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "3825-ac3a-75ec-fa0d",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "7102-b3a4-9bfc-1b84",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21"
+        ]
       }
     },
     {
@@ -18664,6 +18778,14 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
+      },
+      "leader": {
+        "unitIds": [
+          "bfe7-b726-9158-d5ad",
+          "25e4-ead-faac-2531",
+          "9e9c-bf4d-2d40-be82",
+          "cdd9-efda-95-e7b2"
+        ]
       }
     },
     {
@@ -35637,6 +35759,17 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
+      },
+      "leader": {
+        "unitIds": [
+          "ca4e-47d5-a704-8e5a",
+          "78ae-14b4-56d0-cc9d",
+          "f1b9-b2e8-4ccf-d6cb",
+          "a10b-fbfe-b1fa-6f0c",
+          "2f2e-d99b-b235-163a",
+          "907f-11-c4d1-ec21",
+          "7044-bf1-f949-c32d"
+        ]
       }
     },
     {
@@ -38092,6 +38225,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "ca4e-47d5-a704-8e5a",
+          "78ae-14b4-56d0-cc9d",
+          "6ba0-cede-e278-f86b",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -44708,6 +44849,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -44837,6 +44992,19 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "leader": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21"
+        ]
       }
     },
     {
@@ -52783,6 +52951,11 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
+      },
+      "leader": {
+        "unitIds": [
+          "65f6-18df-f6df-7e39"
+        ]
       }
     },
     {
@@ -54827,6 +55000,12 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "leader": {
+        "unitIds": [
+          "bfe7-b726-9158-d5ad",
+          "9e9c-bf4d-2d40-be82"
+        ]
       }
     },
     {
@@ -57557,6 +57736,23 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "2f2e-d99b-b235-163a",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a3ea-7a0d-fef8-23bf",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "7102-b3a4-9bfc-1b84",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -57742,6 +57938,16 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "d6c3-e9d2-430d-6c2f",
+          "527c-120e-9e4e-9bfe",
+          "70dc-ed18-2788-b35a",
+          "a7ae-e495-683b-7c90",
+          "2544-5189-7806-30f3",
+          "f527-0a42-15b4-1924"
+        ]
       }
     },
     {
@@ -59413,7 +59619,18 @@
           "name": "Support"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "support": {
+        "unitIds": [
+          "ec63-524d-55a-3065",
+          "24d5-9987-4d2-b42b",
+          "4469-7239-717e-9abd",
+          "4e74-3710-7a66-9d6c",
+          "73fc-a193-7da1-d9c4",
+          "6db9-cede-3810-f1f0",
+          "d44c-5cde-cb79-3ec3"
+        ]
+      }
     },
     {
       "id": "525c-7e0-b0de-8a6f",
@@ -66902,6 +67119,18 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "2f2e-d99b-b235-163a",
+          "a3ea-7a0d-fef8-23bf",
+          "7102-b3a4-9bfc-1b84",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21"
+        ]
       }
     },
     {
@@ -67026,6 +67255,13 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "bfe7-b726-9158-d5ad",
+          "9e9c-bf4d-2d40-be82",
+          "cdd9-efda-95-e7b2"
+        ]
       }
     },
     {
@@ -77890,6 +78126,11 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
+      },
+      "leader": {
+        "unitIds": [
+          "3825-ac3a-75ec-fa0d"
+        ]
       }
     },
     {

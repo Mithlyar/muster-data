@@ -18231,6 +18231,11 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "4d0c-e3fd-ee80-ddbf"
+        ]
       }
     },
     {
@@ -21447,6 +21452,12 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "e78a-4442-4ed2-66bf",
+          "5452-c4a7-59fb-f05c"
+        ]
       }
     },
     {
@@ -21660,6 +21671,12 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "e78a-4442-4ed2-66bf",
+          "5452-c4a7-59fb-f05c"
+        ]
       }
     },
     {
@@ -21963,6 +21980,11 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "592a-b255-6c58-19ec"
+        ]
       }
     },
     {

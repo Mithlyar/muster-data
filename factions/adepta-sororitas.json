@@ -10169,6 +10169,17 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "f26d-450d-1c55-caeb",
+          "e286-849d-8f74-75e6",
+          "f1af-4984-1a52-c5",
+          "5d01-db4e-c389-a0bc",
+          "d929-b22d-3040-9707",
+          "c49d-f150-4b3-c118",
+          "4269-a229-1461-67d0"
+        ]
       }
     },
     {
@@ -10291,6 +10302,16 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "f26d-450d-1c55-caeb",
+          "e286-849d-8f74-75e6",
+          "f1af-4984-1a52-c5",
+          "5d01-db4e-c389-a0bc",
+          "d929-b22d-3040-9707",
+          "c49d-f150-4b3-c118"
+        ]
       }
     },
     {
@@ -13855,7 +13876,18 @@
           "fromCopy": 2,
           "points": 10
         }
-      ]
+      ],
+      "support": {
+        "unitIds": [
+          "f26d-450d-1c55-caeb",
+          "e286-849d-8f74-75e6",
+          "f1af-4984-1a52-c5",
+          "5d01-db4e-c389-a0bc",
+          "d929-b22d-3040-9707",
+          "c49d-f150-4b3-c118",
+          "4269-a229-1461-67d0"
+        ]
+      }
     },
     {
       "id": "3ad3-558b-29f9-2e45",
@@ -14000,6 +14032,16 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "f26d-450d-1c55-caeb",
+          "e286-849d-8f74-75e6",
+          "f1af-4984-1a52-c5",
+          "5d01-db4e-c389-a0bc",
+          "d929-b22d-3040-9707",
+          "c49d-f150-4b3-c118"
+        ]
       }
     },
     {
@@ -25776,7 +25818,19 @@
           "name": "Support"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "support": {
+        "unitIds": [
+          "ec63-524d-55a-3065",
+          "24d5-9987-4d2-b42b",
+          "4469-7239-717e-9abd",
+          "eade-6ec7-7236-bfdb",
+          "4e74-3710-7a66-9d6c",
+          "73fc-a193-7da1-d9c4",
+          "6db9-cede-3810-f1f0",
+          "d44c-5cde-cb79-3ec3"
+        ]
+      }
     },
     {
       "id": "3c3f-f02d-c05c-492a",

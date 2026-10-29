@@ -2278,6 +2278,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a3ea-7a0d-fef8-23bf",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "7102-b3a4-9bfc-1b84",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -2405,6 +2420,15 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "390e-706b-a059-378b",
+          "0b74-440c-ee1d-ca50",
+          "ae9a-10e3-8091-20",
+          "4808-a80b-309a-7933",
+          "ca30-caf3-d7a8-1d32"
+        ]
       }
     },
     {
@@ -8498,6 +8522,11 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "7044-bf1-f949-c32d"
+        ]
       }
     },
     {
@@ -9900,7 +9929,13 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
-      ]
+      ],
+      "leader": {
+        "unitIds": [
+          "dc75-5a79-4121-1d72",
+          "7a50-3722-8195-5877"
+        ]
+      }
     },
     {
       "id": "6c10-5b51-5bc0-8d2c",
@@ -10248,6 +10283,23 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "leader": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "2f2e-d99b-b235-163a",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a3ea-7a0d-fef8-23bf",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "7102-b3a4-9bfc-1b84",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -15992,6 +16044,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "leader": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "7102-b3a4-9bfc-1b84",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21"
+        ]
       }
     },
     {
@@ -19806,7 +19872,12 @@
           "id": "3342-2180-9c5d-925f",
           "name": "Support"
         }
-      ]
+      ],
+      "support": {
+        "unitIds": [
+          "dc75-5a79-4121-1d72"
+        ]
+      }
     },
     {
       "id": "fac5-a242-951a-e1b2",
@@ -32708,7 +32779,12 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
-      ]
+      ],
+      "leader": {
+        "unitIds": [
+          "7a50-3722-8195-5877"
+        ]
+      }
     },
     {
       "id": "7324-e591-939b-b675",
@@ -34361,6 +34437,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "ca4e-47d5-a704-8e5a",
+          "78ae-14b4-56d0-cc9d",
+          "6ba0-cede-e278-f86b",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -41128,6 +41212,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -41257,6 +41355,19 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "leader": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21"
+        ]
       }
     },
     {
@@ -45983,7 +46094,14 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
-      ]
+      ],
+      "leader": {
+        "unitIds": [
+          "fa8f-f5a2-993-bdbb",
+          "60ce-47ea-50fa-53f2",
+          "8486-fe44-efc3-e51b"
+        ]
+      }
     },
     {
       "id": "8cca-9318-3bec-d360",
@@ -50978,6 +51096,12 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "leader": {
+        "unitIds": [
+          "bfe7-b726-9158-d5ad",
+          "9e9c-bf4d-2d40-be82"
+        ]
       }
     },
     {
@@ -53708,6 +53832,23 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "a10b-fbfe-b1fa-6f0c",
+          "7044-bf1-f949-c32d",
+          "2f2e-d99b-b235-163a",
+          "66ab-476a-134e-ec7b",
+          "b169-ff89-b05e-3884",
+          "a3ea-7a0d-fef8-23bf",
+          "a077-e1c9-f8f0-d38",
+          "edce-f61c-8029-897f",
+          "7102-b3a4-9bfc-1b84",
+          "b007-fc7b-8e4a-b017",
+          "8da0-4570-c3c-819f",
+          "907f-11-c4d1-ec21",
+          "f1b9-b2e8-4ccf-d6cb"
+        ]
       }
     },
     {
@@ -53893,6 +54034,17 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "d6c3-e9d2-430d-6c2f",
+          "527c-120e-9e4e-9bfe",
+          "70dc-ed18-2788-b35a",
+          "a7ae-e495-683b-7c90",
+          "2544-5189-7806-30f3",
+          "f527-0a42-15b4-1924",
+          "ee6b-3815-3a1a-6458"
+        ]
       }
     },
     {
@@ -54357,7 +54509,12 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
-      ]
+      ],
+      "leader": {
+        "unitIds": [
+          "7a50-3722-8195-5877"
+        ]
+      }
     },
     {
       "id": "47fa-f42-bb06-77d2",
@@ -55241,7 +55398,12 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
-      ]
+      ],
+      "leader": {
+        "unitIds": [
+          "fa8f-f5a2-993-bdbb"
+        ]
+      }
     },
     {
       "id": "90e0-c5a9-17c5-fba4",
@@ -56768,7 +56930,18 @@
           "name": "Support"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "support": {
+        "unitIds": [
+          "ec63-524d-55a-3065",
+          "24d5-9987-4d2-b42b",
+          "4469-7239-717e-9abd",
+          "4e74-3710-7a66-9d6c",
+          "73fc-a193-7da1-d9c4",
+          "6db9-cede-3810-f1f0",
+          "d44c-5cde-cb79-3ec3"
+        ]
+      }
     },
     {
       "id": "525c-7e0-b0de-8a6f",
@@ -83277,7 +83450,15 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
-      ]
+      ],
+      "leader": {
+        "unitIds": [
+          "9d3f-134e-1f5b-531a",
+          "ae9a-10e3-8091-20",
+          "4808-a80b-309a-7933",
+          "ca30-caf3-d7a8-1d32"
+        ]
+      }
     },
     {
       "id": "6ec-fcf9-ebb6-7c55",
@@ -83746,7 +83927,12 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
-      ]
+      ],
+      "leader": {
+        "unitIds": [
+          "7a50-3722-8195-5877"
+        ]
+      }
     },
     {
       "id": "d4ef-1ddc-1ed5-5156",
@@ -84377,7 +84563,14 @@
           "id": "3342-2180-9c5d-925f",
           "name": "Support"
         }
-      ]
+      ],
+      "support": {
+        "unitIds": [
+          "fa8f-f5a2-993-bdbb",
+          "60ce-47ea-50fa-53f2",
+          "47fa-f42-bb06-77d2"
+        ]
+      }
     },
     {
       "id": "a341-f355-7305-58bb",
@@ -84794,7 +84987,14 @@
           "id": "3342-2180-9c5d-925f",
           "name": "Support"
         }
-      ]
+      ],
+      "support": {
+        "unitIds": [
+          "fa8f-f5a2-993-bdbb",
+          "60ce-47ea-50fa-53f2",
+          "47fa-f42-bb06-77d2"
+        ]
+      }
     },
     {
       "id": "a60f-7d3a-d2f8-60cd",
@@ -85236,7 +85436,12 @@
           "id": "3342-2180-9c5d-925f",
           "name": "Support"
         }
-      ]
+      ],
+      "support": {
+        "unitIds": [
+          "b556-b0e1-3b4e-597a"
+        ]
+      }
     },
     {
       "id": "ca30-caf3-d7a8-1d32",
@@ -86038,6 +86243,11 @@
         "incursion": 3,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "leader": {
+        "unitIds": [
+          "7a50-3722-8195-5877"
+        ]
       }
     },
     {

@@ -6057,6 +6057,11 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "bd6c-8683-8bc4-962d"
+        ]
       }
     },
     {
@@ -24692,7 +24697,18 @@
           "name": "Support"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "support": {
+        "unitIds": [
+          "ec63-524d-55a-3065",
+          "24d5-9987-4d2-b42b",
+          "4469-7239-717e-9abd",
+          "4e74-3710-7a66-9d6c",
+          "73fc-a193-7da1-d9c4",
+          "6db9-cede-3810-f1f0",
+          "d44c-5cde-cb79-3ec3"
+        ]
+      }
     },
     {
       "id": "55cf-8d86-affd-bc9b",
@@ -31514,6 +31530,16 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "52d3-71a9-f755-d6aa",
+          "d653-1ac3-d944-224f",
+          "705b-2635-fcab-48f9",
+          "7774-a50b-cb1e-8372",
+          "de59-f65c-181a-8509",
+          "ba33-c21-bddc-ab0"
+        ]
       }
     },
     {
@@ -34779,6 +34805,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "fd5a-f7a3-833c-85b",
+          "841-f339-8086-efe2",
+          "52d3-71a9-f755-d6aa",
+          "d653-1ac3-d944-224f",
+          "a46f-848-b87d-4484",
+          "7bee-a476-2167-76e7",
+          "705b-2635-fcab-48f9",
+          "7774-a50b-cb1e-8372",
+          "a523-606f-b05c-851e",
+          "de59-f65c-181a-8509",
+          "ba33-c21-bddc-ab0"
+        ]
       }
     },
     {

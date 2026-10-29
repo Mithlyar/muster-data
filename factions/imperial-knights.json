@@ -18981,7 +18981,18 @@
           "name": "Support"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "support": {
+        "unitIds": [
+          "ec63-524d-55a-3065",
+          "24d5-9987-4d2-b42b",
+          "4469-7239-717e-9abd",
+          "4e74-3710-7a66-9d6c",
+          "73fc-a193-7da1-d9c4",
+          "6db9-cede-3810-f1f0",
+          "d44c-5cde-cb79-3ec3"
+        ]
+      }
     },
     {
       "id": "55cf-8d86-affd-bc9b",
@@ -22634,6 +22645,12 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "de59-f65c-181a-8509",
+          "ba33-c21-bddc-ab0"
+        ]
       }
     },
     {

@@ -5517,7 +5517,13 @@
           "fromCopy": 2,
           "points": 10
         }
-      ]
+      ],
+      "support": {
+        "unitIds": [
+          "f81-b23c-e183-39d7",
+          "58e9-5212-f5a6-c12d"
+        ]
+      }
     },
     {
       "id": "919f-7076-c827-b844",
@@ -8000,6 +8006,13 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
+      },
+      "support": {
+        "unitIds": [
+          "97d7-4b22-46b7-dae0",
+          "f81-b23c-e183-39d7",
+          "58e9-5212-f5a6-c12d"
+        ]
       }
     },
     {
@@ -12926,7 +12939,13 @@
           "id": "3342-2180-9c5d-925f",
           "name": "Support"
         }
-      ]
+      ],
+      "support": {
+        "unitIds": [
+          "f81-b23c-e183-39d7",
+          "58e9-5212-f5a6-c12d"
+        ]
+      }
     },
     {
       "id": "dbe5-257e-e2bd-1b40",
@@ -13672,7 +13691,13 @@
           "id": "a511-d9ca-17d0-42c5",
           "name": "Reanimation Protocols"
         }
-      ]
+      ],
+      "support": {
+        "unitIds": [
+          "f81-b23c-e183-39d7",
+          "58e9-5212-f5a6-c12d"
+        ]
+      }
     },
     {
       "id": "f39-fc54-f95a-8395",
@@ -14279,7 +14304,13 @@
           "id": "a511-d9ca-17d0-42c5",
           "name": "Reanimation Protocols"
         }
-      ]
+      ],
+      "support": {
+        "unitIds": [
+          "f81-b23c-e183-39d7",
+          "58e9-5212-f5a6-c12d"
+        ]
+      }
     },
     {
       "id": "379b-d6a0-cd05-ef89",
@@ -15734,7 +15765,14 @@
           "fromCopy": 2,
           "points": 10
         }
-      ]
+      ],
+      "support": {
+        "unitIds": [
+          "a022-9bf6-f08b-c416",
+          "f81-b23c-e183-39d7",
+          "58e9-5212-f5a6-c12d"
+        ]
+      }
     },
     {
       "id": "ef1-14e1-cf28-4701",

@@ -1,5 +1,1172 @@
 [
   {
+    "dataVersion": "4d2f57e-a0534b3e",
+    "previousDataVersion": "4d2f57e-0f262680",
+    "date": "2026-10-29T16:05:06.168Z",
+    "entries": [
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Dialogus: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Dogmata: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Hospitaller: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Imagifier: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Knight-Centura: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Cybernetica Datasmith: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Skitarii Marshal: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Technoarcheologist: datasheet changed"
+      },
+      {
+        "factionId": "agents-of-the-imperium",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Castellan: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Chaplain Grimaldus: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Crusade Ancient: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Blood Angels Captain: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Brother Corbulo: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Captain Tycho: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Commander Dante: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Gabriel Seth: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Lemartes: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Sanguinary Priest: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Sanguinary Priest with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Tycho the Lost: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Exalted Champion: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Master of Executions: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Masters of the Maelstrom: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Stonesinger: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Warlock: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Warlock Conclave: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Warlock Skyrunners: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Ravenwing Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Biophagus: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Clamavus: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Locus: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Nexos: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Servitors: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Skitarii Marshal: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Chronomancer: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Geomancer: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Orikan the Diviner: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Plasmancer: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Psychomancer: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Technomancer: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Bannernob: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Bigboss: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Mek: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Painboss: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Painboy: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Runtherd: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Weirdboy: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Canis Wolfborn: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Cyberwolf: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Harald Deathwolf: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Krom Dragongaze: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Logan Grimnar on Stormrider: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Lukas the Trickster: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Guard Battle Leader in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Guard Battle Leader on Thunderwolf: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Guard Pack Leader: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Guard Pack Leader in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Guard Pack Leader with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Lord on Thunderwolf: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Cato Sicarius: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Kaius Konorius: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Wardens of Ultramar: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Ancient: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Apothecary: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Apothecary Biologis: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Captain: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Chaplain Kastiel: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Imperial Space Marine: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Judiciar: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Judiciar Xacharus: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Librarian with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Lieutenant: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Lieutenant in Phobos Armour: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Ministorum Priest: datasheet changed"
+      }
+    ]
+  },
+  {
     "dataVersion": "4d2f57e-0f262680",
     "previousDataVersion": "4d2f57e-0abe5179",
     "date": "2026-10-29T13:37:22.658Z",

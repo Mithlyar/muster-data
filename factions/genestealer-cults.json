@@ -4994,11 +4994,10 @@
         "strike-force": 3,
         "onslaught": 3
       },
-      "leader": {
+      "support": {
         "unitIds": [
           "f51d-bc51-f301-9dee"
-        ],
-        "extra": true
+        ]
       }
     },
     {
@@ -6220,14 +6219,13 @@
         "strike-force": 3,
         "onslaught": 3
       },
-      "leader": {
+      "support": {
         "unitIds": [
           "04cc-6196-1755-ad58",
           "a197-f6c3-5d4a-5326",
           "8a84-a8fd-977e-9118",
           "b5d2-8681-6bba-f05b"
-        ],
-        "extra": true
+        ]
       }
     },
     {
@@ -12613,14 +12611,13 @@
         "strike-force": 3,
         "onslaught": 3
       },
-      "leader": {
+      "support": {
         "unitIds": [
           "04cc-6196-1755-ad58",
           "a197-f6c3-5d4a-5326",
           "8a84-a8fd-977e-9118",
           "b5d2-8681-6bba-f05b"
-        ],
-        "extra": true
+        ]
       }
     },
     {
@@ -13920,14 +13917,13 @@
         "strike-force": 3,
         "onslaught": 3
       },
-      "leader": {
+      "support": {
         "unitIds": [
           "04cc-6196-1755-ad58",
           "a197-f6c3-5d4a-5326",
           "8a84-a8fd-977e-9118",
           "b5d2-8681-6bba-f05b"
-        ],
-        "extra": true
+        ]
       }
     },
     {
