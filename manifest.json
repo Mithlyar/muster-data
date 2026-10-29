@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "4d2f57e-5e40f852",
-  "date": "2026-10-29T16:59:09.515Z",
+  "dataVersion": "4d2f57e-07ae761d",
+  "date": "2026-10-29T19:41:33.579Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1"
@@ -83,9 +83,9 @@
       "id": "chaos-space-marines",
       "name": "Chaos Space Marines",
       "file": "factions/chaos-space-marines.json",
-      "sha256": "a19102fd8ed91c4879e763d89f711bc1626671d0cb780fb29fbfdd3be9b2340d",
+      "sha256": "25fb8c52f9c7240d34f64c4c004d90cd3533a40dedc2d8f3ee82bcd988e6b698",
       "units": 207,
-      "sourceSha256": "0345d72c0d2c923820c5401d5406d5b8737aed2bd989a5a7aab28bc4b9e58732"
+      "sourceSha256": "0a17820e4f184d22d1175f10eb84df9d2378f76063ea3496bd6068752ed05852"
     },
     {
       "id": "craftworlds",

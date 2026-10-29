@@ -29,6 +29,33 @@
           "text": "When mustering your army, when you select a ^^Heretic Astartes^^ unit to include in your army, if that unit is not an ^^Epic Hero^^ and does not already have one of the following keywords, you must select one for that unit to gain and note it on your Army Roster: ^^Khorne, Tzeentch, Nurgle, Slaanesh, Chaos Undivided^^.\n\n\nEach time a unit with one of these keywords gains a weapon ability as the result of a Dark Pact and does not fail the resulting Leadership test, until the end of the phase, that unit gains the associated ability below.\n\n\nRESTRICTIONS\n- You cannot select the ^^Khorne^^ keyword for a ^^Psyker^^ unit.\n- A **CHARACTER/EPIC HERO** unit can only be attached to a unit if both units share the same keyword from the list above.\n- A unit can only embark within (or start the battle embarked within) a ^^Transport^^ if both of those units share the same keyword from the list above.’"
         }
       ],
+      "keywordAbilities": [
+        {
+          "keyword": "Khorne",
+          "type": "Marks of Chaos",
+          "text": "[LETHAL HITS]: Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "keyword": "Tzeentch",
+          "type": "Marks of Chaos",
+          "text": "[LETHAL HITS]: Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "keyword": "Nurgle",
+          "type": "Marks of Chaos",
+          "text": "[SUSTAINED HITS 1]: Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "keyword": "Slaanesh",
+          "type": "Marks of Chaos",
+          "text": "[SUSTAINED HITS 1]: Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "keyword": "Chaos Undivided",
+          "type": "Marks of Chaos",
+          "text": "[LETHAL HITS]: Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n[SUSTAINED HITS 1]: Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+        }
+      ],
       "stratagems": [
         {
           "name": "Profane Zeal",
