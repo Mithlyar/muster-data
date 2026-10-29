@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "4d2f57e-0abe5179",
-  "date": "2026-10-29T12:03:32.617Z",
+  "dataVersion": "4d2f57e-0f262680",
+  "date": "2026-10-29T13:37:22.658Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1"
@@ -279,5 +279,10 @@
       "units": 107,
       "sourceSha256": "5ddbcba9538764efb7768c281540e4233947276669fcbadd9394fe08f592ae1d"
     }
-  ]
+  ],
+  "missions": {
+    "file": "missions.json",
+    "sha256": "4c83fcebd4f0ba9cc76b1da9c27cde4af2e345a4a57a5c475c591417a7f7a7e8",
+    "commit": "709ecd9f5bb6c06b7446eda6a6a0eae6b921a1c8"
+  }
 }
