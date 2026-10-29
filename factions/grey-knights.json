@@ -33401,12 +33401,7 @@
           "text": "While a **^^Brotherhood Techmarine^^** model is leading this unit, models in this unit have the Deep Strike and Teleport Assault abilities"
         }
       ],
-      "rules": [
-        {
-          "id": "7cb5-dd6b-dd87-ad3b",
-          "name": "Deep Strike"
-        }
-      ],
+      "rules": [],
       "maxInArmy": {
         "incursion": 2,
         "strike-force": 3,

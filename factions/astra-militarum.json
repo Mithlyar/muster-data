@@ -8969,10 +8969,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "eed0-ef83-b6cf-dddf",
-          "name": "Feel No Pain 4+"
         }
       ],
       "maxInArmy": {
@@ -11607,10 +11603,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "eed0-ef83-b6cf-dddf",
-          "name": "Feel No Pain 4+"
         }
       ],
       "maxInArmy": {
@@ -26835,10 +26827,6 @@
         {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "eed0-ef83-b6cf-dddf",
-          "name": "Feel No Pain 4+"
         }
       ],
       "maxInArmy": {
@@ -38085,10 +38073,6 @@
           "name": "Leader"
         },
         {
-          "id": "eed0-ef83-b6cf-dddf",
-          "name": "Feel No Pain 4+"
-        },
-        {
           "id": "9bf4-280f-bbe2-6fbb",
           "name": "Feel No Pain 6+"
         }
@@ -47500,10 +47484,6 @@
         {
           "id": "1897-c22c-9597-12b1",
           "name": "Sustained Hits"
-        },
-        {
-          "id": "eed0-ef83-b6cf-dddf",
-          "name": "Feel No Pain 4+"
         }
       ],
       "maxInArmy": {
@@ -66056,11 +66036,6 @@
     {
       "id": "9bf4-280f-bbe2-6fbb",
       "name": "Feel No Pain",
-      "text": "This ability always takes the form **Feel No Pain X+**. Each time a model with this ability would lose a wound, roll one D6: on an **X+**, that wound is not lost."
-    },
-    {
-      "id": "eed0-ef83-b6cf-dddf",
-      "name": "Feel No Pain 4+",
       "text": "This ability always takes the form **Feel No Pain X+**. Each time a model with this ability would lose a wound, roll one D6: on an **X+**, that wound is not lost."
     },
     {

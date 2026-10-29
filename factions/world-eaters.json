@@ -9860,10 +9860,6 @@
         {
           "id": "e68b-b42f-6f7c-4670",
           "name": "Blessings of Khorne"
-        },
-        {
-          "id": "7cb5-dd6b-dd87-ad3b",
-          "name": "Deep Strike"
         }
       ],
       "maxInArmy": {
@@ -13827,10 +13823,6 @@
         {
           "id": "e68b-b42f-6f7c-4670",
           "name": "Blessings of Khorne"
-        },
-        {
-          "id": "7cb5-dd6b-dd87-ad3b",
-          "name": "Deep Strike"
         }
       ],
       "maxInArmy": {
@@ -21620,14 +21612,6 @@
         {
           "id": "e68b-b42f-6f7c-4670",
           "name": "Blessings of Khorne"
-        },
-        {
-          "id": "7cb5-dd6b-dd87-ad3b",
-          "name": "Deep Strike"
-        },
-        {
-          "id": "ada6-bac1-ffe0-d6f7",
-          "name": "Scouts 6\""
         }
       ],
       "maxInArmy": {

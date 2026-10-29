@@ -1087,10 +1087,6 @@
         {
           "id": "5e02-2ddc-f55-e6dd",
           "name": "Power from Pain"
-        },
-        {
-          "id": "eed0-ef83-b6cf-dddf",
-          "name": "Feel No Pain 4+"
         }
       ],
       "maxInArmy": {
@@ -3585,12 +3581,7 @@
           "text": "If a model from your army with the Leader ability can be attached to a ^^Corsair Voidreavers^^ unit, it can be attached to this unit instead."
         }
       ],
-      "rules": [
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
-        }
-      ],
+      "rules": [],
       "notWithDetachmentIds": [
         "e688-8140-bc36-3cee"
       ],
@@ -4645,10 +4636,6 @@
         {
           "id": "ada6-bac1-ffe0-d6f7",
           "name": "Scouts 7\""
-        },
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
         }
       ],
       "alliedFrom": "Asuryani",
@@ -5415,10 +5402,6 @@
         {
           "id": "ada6-bac1-ffe0-d6f7",
           "name": "Scouts 7\""
-        },
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
         }
       ],
       "alliedFrom": "Asuryani",
@@ -9374,10 +9357,6 @@
         {
           "id": "5e10-6d62-2624-80a8",
           "name": "Feel No Pain 5+"
-        },
-        {
-          "id": "eed0-ef83-b6cf-dddf",
-          "name": "Feel No Pain 4+"
         }
       ],
       "maxInArmy": {
@@ -14275,16 +14254,8 @@
       ],
       "rules": [
         {
-          "id": "c05d-f4c3-f091-4938",
-          "name": "Infiltrators"
-        },
-        {
           "id": "24-c886-e8ba-5a89",
           "name": "Fights First"
-        },
-        {
-          "id": "ada6-bac1-ffe0-d6f7",
-          "name": "Scouts 6\""
         }
       ],
       "alliedFrom": "Harlequins",
@@ -16121,10 +16092,6 @@
         {
           "id": "5e02-2ddc-f55-e6dd",
           "name": "Power from Pain"
-        },
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
         }
       ],
       "maxInArmy": {
@@ -16178,11 +16145,6 @@
     {
       "id": "9bf4-280f-bbe2-6fbb",
       "name": "Feel No Pain",
-      "text": "This ability always takes the form **Feel No Pain X+**. Each time a model with this ability would lose a wound, roll one D6: on an **X+**, that wound is not lost."
-    },
-    {
-      "id": "eed0-ef83-b6cf-dddf",
-      "name": "Feel No Pain 4+",
       "text": "This ability always takes the form **Feel No Pain X+**. Each time a model with this ability would lose a wound, roll one D6: on an **X+**, that wound is not lost."
     },
     {

@@ -1886,24 +1886,8 @@
           "name": "Battle Focus"
         },
         {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
-        },
-        {
           "id": "b4dd-3e1f-41cb-218f",
           "name": "Leader"
-        },
-        {
-          "id": "c05d-f4c3-f091-4938",
-          "name": "Infiltrators"
-        },
-        {
-          "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
-        },
-        {
-          "id": "ada6-bac1-ffe0-d6f7",
-          "name": "Scouts 7\""
         }
       ],
       "maxInArmy": {
@@ -4713,12 +4697,7 @@
           "text": "If a model from your army with the Leader ability can be attached to a ^^Corsair Voidreavers^^ unit, it can be attached to this unit instead."
         }
       ],
-      "rules": [
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
-        }
-      ],
+      "rules": [],
       "maxInArmy": {
         "incursion": 2,
         "strike-force": 3,
@@ -5774,10 +5753,6 @@
         {
           "id": "c324-e193-e23c-7d2e",
           "name": "Battle Focus"
-        },
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
         }
       ],
       "maxInArmy": {
@@ -6544,10 +6519,6 @@
         {
           "id": "c324-e193-e23c-7d2e",
           "name": "Battle Focus"
-        },
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
         }
       ],
       "maxInArmy": {
@@ -8545,14 +8516,6 @@
         {
           "id": "c324-e193-e23c-7d2e",
           "name": "Battle Focus"
-        },
-        {
-          "id": "ada6-bac1-ffe0-d6f7",
-          "name": "Scouts 9\""
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain / 4+*"
         }
       ],
       "maxInArmy": {
@@ -11405,14 +11368,6 @@
         {
           "id": "c324-e193-e23c-7d2e",
           "name": "Battle Focus"
-        },
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain / 4+*"
         }
       ],
       "maxInArmy": {
@@ -18533,14 +18488,6 @@
         {
           "id": "c324-e193-e23c-7d2e",
           "name": "Battle Focus"
-        },
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain / 4+*"
         }
       ],
       "maxInArmy": {
@@ -19811,16 +19758,8 @@
           "name": "Battle Focus"
         },
         {
-          "id": "c05d-f4c3-f091-4938",
-          "name": "Infiltrators"
-        },
-        {
           "id": "24-c886-e8ba-5a89",
           "name": "Fights First"
-        },
-        {
-          "id": "ada6-bac1-ffe0-d6f7",
-          "name": "Scouts 6\""
         }
       ],
       "alliedFrom": "Harlequins",
@@ -21681,10 +21620,6 @@
         {
           "id": "3342-2180-9c5d-925f",
           "name": "Support"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain / 4+*"
         }
       ],
       "maxInArmy": {
@@ -21986,14 +21921,6 @@
         {
           "id": "3342-2180-9c5d-925f",
           "name": "Support"
-        },
-        {
-          "id": "ada6-bac1-ffe0-d6f7",
-          "name": "Scouts 9\""
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain / 4+*"
         }
       ],
       "maxInArmy": {
@@ -23370,14 +23297,6 @@
         {
           "id": "c324-e193-e23c-7d2e",
           "name": "Battle Focus"
-        },
-        {
-          "id": "ada6-bac1-ffe0-d6f7",
-          "name": "Scouts 9\""
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain / 4+*"
         }
       ],
       "maxInArmy": {
@@ -23503,12 +23422,7 @@
           "text": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
         }
       ],
-      "rules": [
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 6+"
-        }
-      ],
+      "rules": [],
       "maxInArmy": {
         "incursion": 3,
         "strike-force": 3,
@@ -23655,12 +23569,7 @@
           "text": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
         }
       ],
-      "rules": [
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 6+"
-        }
-      ],
+      "rules": [],
       "maxInArmy": {
         "incursion": 3,
         "strike-force": 3,
@@ -24578,10 +24487,6 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise 1"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 6+"
         }
       ],
       "maxInArmy": {
@@ -25267,10 +25172,6 @@
         {
           "id": "10d8-3547-47ae-baab",
           "name": "Disparate Paths"
-        },
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
         }
       ],
       "alliedFrom": "Ynnari",
@@ -25748,10 +25649,6 @@
         {
           "id": "c324-e193-e23c-7d2e",
           "name": "Battle Focus"
-        },
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
         }
       ],
       "alliedFrom": "Ynnari",
@@ -26166,10 +26063,6 @@
         {
           "id": "10d8-3547-47ae-baab",
           "name": "Disparate Paths"
-        },
-        {
-          "id": "24-c886-e8ba-5a89",
-          "name": "Fights First"
         }
       ],
       "alliedFrom": "Ynnari",
@@ -26233,11 +26126,6 @@
       "id": "115b-79dc-f723-d761",
       "name": "Extra Attacks",
       "text": "Each time a unit containing one or more models with an **[EXTRA ATTACKS]** weapon fights, those models will make attacks with those weapons in addition to any others. In the Select Weapons step (04.01), for each of those models, you must select: \n- All of that model’s **[EXTRA ATTACKS]** weapons. \n- One of that model’s other melee weapons, if possible."
-    },
-    {
-      "id": "9bf4-280f-bbe2-6fbb",
-      "name": "Feel No Pain",
-      "text": "This ability always takes the form **Feel No Pain X+**. Each time a model with this ability would lose a wound, roll one D6: on an **X+**, that wound is not lost."
     },
     {
       "id": "24-c886-e8ba-5a89",

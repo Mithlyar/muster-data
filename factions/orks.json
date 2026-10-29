@@ -8148,14 +8148,6 @@
         {
           "id": "37c-6ef9-277-9091",
           "name": "Waaagh!"
-        },
-        {
-          "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
-        },
-        {
-          "id": "c05d-f4c3-f091-4938",
-          "name": "Infiltrators"
         }
       ],
       "maxInArmy": {
@@ -19383,14 +19375,6 @@
         {
           "id": "5ce6-a3cf-e871-f081",
           "name": "Crucible"
-        },
-        {
-          "id": "c05d-f4c3-f091-4938",
-          "name": "Infiltrators"
-        },
-        {
-          "id": "bec5-4288-34a6-ccfa",
-          "name": "Stealth"
         },
         {
           "id": "b4dd-3e1f-41cb-218f",

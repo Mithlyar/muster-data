@@ -1,5 +1,402 @@
 [
   {
+    "dataVersion": "4d2f57e-1244010f",
+    "previousDataVersion": "4d2f57e-07ae761d",
+    "date": "2026-10-29T21:04:29.203Z",
+    "entries": [
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Aleya: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Prosecutor Squad: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Vigilator Squad: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Witchseeker Squad: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Cybernetica Datasmith: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Hastarii Exterminators: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Hastarii Fusiliers: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Kataphron Breachers: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Kataphron Destroyers: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Secutarii Hoplites: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Secutarii Peltasts: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Servitor Battleclade: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Skitarii Marshal: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Skitarii Rangers: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Skitarii Vanguard: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Tech-Priest Dominus: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Cadian Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Catachan Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Hell's Last: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Krieg Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Militarum Tempestus Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Autarch: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Corsair Reaver Band: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Corsair Voidreavers: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Corsair Voidscarred: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Dragon Knights: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Guardian Defenders: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Storm Guardians: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Troupe: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Warlock Conclave: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Warlock Skyrunners: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Windriders: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Wraithblades: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Wraithguard: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Wraithlord: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Incubi: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Kabalite Warriors: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Wyches: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Archon: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Corsair Reaver Band: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Corsair Voidreavers: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Corsair Voidscarred: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Lady Malys: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Troupe: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Wyches: datasheet changed"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "changed",
+        "text": "Lord Exultant: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Acolyte Iconward: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Benefictus: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Biophagus: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Clamavus: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Magus: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Nexos: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Primus: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Servitors: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Skitarii Marshal: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Skitarii Rangers: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Skitarii Vanguard: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Canoptek Wraiths: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Immortals: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Lokhust Destroyers: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Lokhust Heavy Destroyers: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Lychguard: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Necron Warriors: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Nemesor Zahndrekh: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Ophydian Destroyers: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Skorpekh Destroyers: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Technomancer: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Vargard Obyron: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Gretchin: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Upstart Gretchin [Crucible]: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Gargoyles: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Genestealers: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Raveners: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Tyranid Warriors with Melee Bio-Weapons: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Tyranid Warriors with Ranged Bio-Weapons: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Eightbound: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Khorne Berzerkers: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Slaughterbound: datasheet changed"
+      }
+    ]
+  },
+  {
     "dataVersion": "4d2f57e-07ae761d",
     "previousDataVersion": "4d2f57e-5e40f852",
     "date": "2026-10-29T19:41:33.579Z",

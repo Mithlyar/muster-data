@@ -6050,7 +6050,10 @@
         },
         {
           "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain"
+          "name": "Feel No Pain",
+          "detachmentIds": [
+            "24e2-b690-37b5-de9e"
+          ]
         }
       ],
       "maxInArmy": {
@@ -12058,10 +12061,6 @@
         {
           "id": "7a21-a958-e47d-5c0d",
           "name": "Doctrina Imperatives"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 5+"
         }
       ],
       "maxInArmy": {
@@ -12251,10 +12250,6 @@
         {
           "id": "7a21-a958-e47d-5c0d",
           "name": "Doctrina Imperatives"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 5+"
         }
       ],
       "maxInArmy": {
@@ -18113,10 +18108,6 @@
         {
           "id": "7a21-a958-e47d-5c0d",
           "name": "Doctrina Imperatives"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 5+"
         }
       ],
       "maxInArmy": {
@@ -18358,10 +18349,6 @@
         {
           "id": "7a21-a958-e47d-5c0d",
           "name": "Doctrina Imperatives"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 5+"
         }
       ],
       "maxInArmy": {
@@ -28368,10 +28355,6 @@
         {
           "id": "7a21-a958-e47d-5c0d",
           "name": "Doctrina Imperatives"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 5+"
         }
       ],
       "maxInArmy": {
@@ -28802,10 +28785,6 @@
         {
           "id": "7a21-a958-e47d-5c0d",
           "name": "Doctrina Imperatives"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 5+"
         }
       ],
       "maxInArmy": {
@@ -29697,10 +29676,6 @@
         {
           "id": "7a21-a958-e47d-5c0d",
           "name": "Doctrina Imperatives"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 5+"
         }
       ],
       "maxInArmy": {
@@ -31553,10 +31528,6 @@
           "detachmentIds": [
             "48bd-eeae-171d-a10a"
           ]
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 5+"
         }
       ],
       "maxInArmy": {
@@ -32007,10 +31978,6 @@
         {
           "id": "7a21-a958-e47d-5c0d",
           "name": "Doctrina Imperatives"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 5+"
         }
       ],
       "maxInArmy": {
@@ -32454,10 +32421,6 @@
         {
           "id": "7a21-a958-e47d-5c0d",
           "name": "Doctrina Imperatives"
-        },
-        {
-          "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 5+"
         }
       ],
       "maxInArmy": {
@@ -34301,7 +34264,10 @@
         },
         {
           "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain"
+          "name": "Feel No Pain",
+          "detachmentIds": [
+            "24e2-b690-37b5-de9e"
+          ]
         }
       ],
       "maxInArmy": {
