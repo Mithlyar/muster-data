@@ -922,7 +922,8 @@
             "on": "unit",
             "stat": "M",
             "op": "add",
-            "value": 2
+            "value": 2,
+            "wholeUnit": true
           },
           {
             "on": "melee",
@@ -1903,7 +1904,15 @@
               "weaponIds": [
                 "4557-5450-c419-37fb"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Cutting Gear",
+                    "text": "Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+                  }
+                ]
+              }
             }
           ]
         }
@@ -11081,7 +11090,23 @@
               "weaponIds": [
                 "b2e0-6b74-8a82-c842"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+"
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Dispersion Shield",
+                    "text": "The bearer has a 4+ invulnerable save."
+                  }
+                ]
+              }
             }
           ]
         }
@@ -16754,6 +16779,22 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "Sv",
+                    "op": "set",
+                    "value": "3+",
+                    "fromText": true
+                  },
+                  {
+                    "on": "unit",
+                    "stat": "M",
+                    "op": "set",
+                    "value": "8\"",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Shieldvanes",

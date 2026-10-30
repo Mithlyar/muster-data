@@ -3286,19 +3286,6 @@
       ],
       "caps": [
         {
-          "name": "Assault Intercessors with Jump Pack",
-          "max": [
-            {
-              "minModels": 5,
-              "maxModels": 10,
-              "max": 8
-            }
-          ],
-          "modelNames": [
-            "Assault Intercessors with Jump Pack"
-          ]
-        },
-        {
           "name": "Assault Intercessors with Jump Pack w/ Plasma Pistol",
           "max": [
             {
@@ -6947,7 +6934,24 @@
                 "3728-095b-3418-111b",
                 "eca4-d5d2-18a1-01a8"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "add",
+                    "value": 1,
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Relic Shield",
+                    "text": "Add 1 to the bearer's Wounds characteristic."
+                  }
+                ]
+              }
             },
             {
               "id": "94ae-c877-fc3a-a82a",
@@ -8376,7 +8380,24 @@
               "weaponIds": [
                 "62ad-da0b-24f7-fe33"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "add",
+                    "value": 1,
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Relic Shield",
+                    "text": "Add 1 to the bearer's Wounds characteristic."
+                  }
+                ]
+              }
             },
             {
               "id": "9d64-0d7a-5f47-1926",
@@ -8385,7 +8406,24 @@
                 "42ef-fbe2-37dd-2d2d",
                 "3b8f-1cb7-3c6e-4455"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "add",
+                    "value": 1,
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Relic Shield",
+                    "text": "Add 1 to the bearer's Wounds characteristic."
+                  }
+                ]
+              }
             }
           ]
         }
@@ -10526,19 +10564,22 @@
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "10\""
+                    "value": "10\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10565,7 +10606,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10591,19 +10633,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10645,19 +10690,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10682,31 +10730,36 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "InvSv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10731,19 +10784,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10789,7 +10845,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10816,7 +10873,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10876,19 +10934,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "9\""
+                    "value": "9\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10913,31 +10974,36 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "InvSv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10962,19 +11028,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "7"
+                    "value": "7",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -10999,7 +11068,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "7\""
+                    "value": "7\"",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -13734,6 +13804,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Astartes Shield",
@@ -13798,6 +13877,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Astartes Shield",
@@ -14931,6 +15019,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm Shield",
@@ -15035,6 +15132,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm Shield",
@@ -15889,7 +15995,23 @@
               "weaponIds": [
                 "ff14-7e0a-4b32-6fc1"
               ],
-              "points": 5
+              "points": 5,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "add",
+                    "value": 1
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Storm Shield",
+                    "text": "The bearer has a Wounds characteristic of 4."
+                  }
+                ]
+              }
             },
             {
               "id": "7adb-f0b7-a934-18ad",
@@ -16090,7 +16212,23 @@
                       "weaponIds": [
                         "ff14-7e0a-4b32-6fc1"
                       ],
-                      "points": 5
+                      "points": 5,
+                      "effects": {
+                        "stats": [
+                          {
+                            "on": "unit",
+                            "stat": "W",
+                            "op": "add",
+                            "value": 1
+                          }
+                        ],
+                        "abilities": [
+                          {
+                            "name": "Storm Shield",
+                            "text": "The bearer has a Wounds characteristic of 4."
+                          }
+                        ]
+                      }
                     },
                     {
                       "id": "7adb-f0b7-a934-18ad",
@@ -16147,7 +16285,23 @@
               "weaponIds": [
                 "ff14-7e0a-4b32-6fc1"
               ],
-              "points": 5
+              "points": 5,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "add",
+                    "value": 1
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Storm Shield",
+                    "text": "The bearer has a Wounds characteristic of 4."
+                  }
+                ]
+              }
             },
             {
               "id": "7adb-f0b7-a934-18ad",
@@ -17418,7 +17572,24 @@
               "weaponIds": [
                 "2174-53aa-f028-b509"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Astartes shield",
+                    "text": "The bearer has a 4+ invulnerable save."
+                  }
+                ]
+              }
             },
             {
               "id": "f1d9-6336-7a0c-64cf",
@@ -21441,19 +21612,6 @@
         }
       ],
       "caps": [
-        {
-          "name": "Kill Team Intercessor with bolt rifle",
-          "max": [
-            {
-              "minModels": 10,
-              "maxModels": 10,
-              "max": 1
-            }
-          ],
-          "modelNames": [
-            "Kill Team Intercessor with bolt rifle"
-          ]
-        },
         {
           "name": "Grenade Launcher",
           "max": [
@@ -32921,19 +33079,22 @@
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "10\""
+                    "value": "10\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -32960,7 +33121,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -32986,19 +33148,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -33040,19 +33205,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -33077,31 +33245,36 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "InvSv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -33126,19 +33299,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -33184,7 +33360,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -33211,7 +33388,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -33271,19 +33449,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "9\""
+                    "value": "9\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -33308,31 +33489,36 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "InvSv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -33357,19 +33543,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "7"
+                    "value": "7",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -33394,7 +33583,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "7\""
+                    "value": "7\"",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -34379,6 +34569,23 @@
                 "7644-d9c7-8e85-f953"
               ],
               "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Storm Shield",
+                    "text": "The bearer has a 4+ invulnerable save"
+                  }
+                ]
+              },
               "options": [
                 {
                   "id": "0f0f-6c54-d0a0-fa2a",
@@ -46885,6 +47092,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm Shield",
@@ -46949,6 +47165,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm Shield",
@@ -48289,19 +48514,22 @@
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "10\""
+                    "value": "10\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48328,7 +48556,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48354,19 +48583,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48408,19 +48640,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48445,31 +48680,36 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "InvSv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48494,19 +48734,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48552,7 +48795,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48579,7 +48823,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48639,19 +48884,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "9\""
+                    "value": "9\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48676,31 +48924,36 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "InvSv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48725,19 +48978,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "7"
+                    "value": "7",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -48762,7 +49018,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "7\""
+                    "value": "7\"",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [

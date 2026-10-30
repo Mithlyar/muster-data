@@ -2925,7 +2925,8 @@
                     "on": "unit",
                     "stat": "Ld",
                     "op": "set",
-                    "value": "6+"
+                    "value": "6+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -3100,7 +3101,8 @@
                     "on": "unit",
                     "stat": "Ld",
                     "op": "set",
-                    "value": "6+"
+                    "value": "6+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -5643,6 +5645,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "add",
+                    "value": -1,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Iron-hard Talons",
@@ -13177,6 +13188,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "add",
+                    "value": -1,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Iron-hard Talons",
@@ -14629,6 +14649,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "add",
+                    "value": -1,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Iron-hard Talons",
@@ -15539,6 +15568,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "add",
+                    "value": -1,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Iron-hard Talons",
@@ -16913,7 +16951,8 @@
                     "on": "unit",
                     "stat": "Ld",
                     "op": "set",
-                    "value": "6+"
+                    "value": "6+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -31607,6 +31646,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "Sv",
+                    "op": "set",
+                    "value": "3+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Shining aegis",
@@ -42130,7 +42178,8 @@
                     "on": "unit",
                     "stat": "Ld",
                     "op": "set",
-                    "value": "6+"
+                    "value": "6+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -42423,7 +42472,8 @@
                     "on": "unit",
                     "stat": "Ld",
                     "op": "set",
-                    "value": "6+"
+                    "value": "6+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -43332,7 +43382,8 @@
                     "on": "unit",
                     "stat": "Ld",
                     "op": "set",
-                    "value": "6+"
+                    "value": "6+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -43716,7 +43767,8 @@
                     "on": "unit",
                     "stat": "Ld",
                     "op": "set",
-                    "value": "6+"
+                    "value": "6+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -49368,7 +49420,8 @@
                     "on": "unit",
                     "stat": "Ld",
                     "op": "set",
-                    "value": "6+"
+                    "value": "6+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [

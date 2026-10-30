@@ -955,6 +955,17 @@
       "points": 25,
       "detachmentId": "9805-eaee-0a84-f86f",
       "text": "Asuryani model only. The bearer has an Objective Control characteristic of 5.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "OC",
+            "op": "set",
+            "value": 5,
+            "fromText": true
+          }
+        ]
+      },
       "keywords": [
         "Asuryani"
       ]
@@ -1253,7 +1264,8 @@
             "on": "unit",
             "stat": "InvSv",
             "op": "set",
-            "value": "5+"
+            "value": "5+",
+            "wholeUnit": true
           }
         ]
       },
@@ -8387,7 +8399,23 @@
               "weaponIds": [
                 "80bd-b4d0-aba4-5ec3"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+"
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Shimmershield",
+                    "text": "The bearer has a 4+ invulnerable save."
+                  }
+                ]
+              }
             },
             {
               "id": "fa09-cce9-eb16-85f6",
@@ -8395,7 +8423,23 @@
               "weaponIds": [
                 "090c-5411-6c6d-eaf9"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+"
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Shimmershield",
+                    "text": "The bearer has a 4+ invulnerable save."
+                  }
+                ]
+              }
             },
             {
               "id": "cb2c-29da-faec-4ec6",
@@ -23591,7 +23635,24 @@
               "weaponIds": [
                 "426b-b231-8a8b-56ab"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "wholeUnit": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Forceshield",
+                    "text": "The bearer has a 4+ invulnerable save."
+                  }
+                ]
+              }
             }
           ]
         }

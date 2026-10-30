@@ -817,7 +817,8 @@
             "on": "unit",
             "stat": "M",
             "op": "add",
-            "value": 2
+            "value": 2,
+            "wholeUnit": true
           }
         ]
       },
@@ -1792,7 +1793,15 @@
               "weaponIds": [
                 "4557-5450-c419-37fb"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Cutting Gear",
+                    "text": "Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+                  }
+                ]
+              }
             }
           ]
         }
@@ -6527,7 +6536,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "10\""
+                    "value": "10\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -6569,7 +6579,8 @@
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -6617,7 +6628,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "8\""
+                    "value": "8\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -6642,7 +6654,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -8856,7 +8869,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "10\""
+                    "value": "10\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -8898,7 +8912,8 @@
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -8946,7 +8961,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "8\""
+                    "value": "8\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -8971,7 +8987,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -11349,7 +11366,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "10\""
+                    "value": "10\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -11391,7 +11409,8 @@
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -11439,7 +11458,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "8\""
+                    "value": "8\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -11464,7 +11484,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [

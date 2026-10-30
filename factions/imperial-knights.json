@@ -633,6 +633,17 @@
       "points": 20,
       "detachmentId": "4e8e-50db-0d32-423c",
       "text": "**^^Imperial Knights^^** model only. The bearer has a 5+ invulnerable save.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "InvSv",
+            "op": "set",
+            "value": "5+",
+            "fromText": true
+          }
+        ]
+      },
       "keywords": [
         "Imperial Knights"
       ]
@@ -1731,7 +1742,15 @@
               "weaponIds": [
                 "c0f6-f71c-269e-d033"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Storm shield",
+                    "text": "This model has a 4+ InSv."
+                  }
+                ]
+              }
             },
             {
               "id": "63a1-3390-1188-47da",
@@ -6823,7 +6842,24 @@
               "weaponIds": [
                 "b362-d0fc-c9ad-658b"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "set",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Storm shield",
+                    "text": "The bearer has a Wounds characteristic of 4."
+                  }
+                ]
+              }
             },
             {
               "id": "6d2c-d643-f7bd-9d83",
@@ -6876,7 +6912,24 @@
               "weaponIds": [
                 "5817-ae32-daf0-bb85"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "set",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Storm shield",
+                    "text": "The bearer has a Wounds characteristic of 4."
+                  }
+                ]
+              }
             },
             {
               "id": "3e24-4b76-3cab-1b9e",
@@ -19996,7 +20049,24 @@
               "weaponIds": [
                 "f531-13c6-b52d-a0ff"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "set",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Storm shield",
+                    "text": "The bearer has a Wounds characteristic of 4."
+                  }
+                ]
+              }
             },
             {
               "id": "ef37-be7e-0b77-60f3",
@@ -20165,6 +20235,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Astartes shield",
@@ -20181,6 +20260,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Astartes shield",
@@ -23170,7 +23258,22 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "caps": [
+        {
+          "name": "Skitarii Ranger w/ galvanic rifle",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 9
+            }
+          ],
+          "modelNames": [
+            "Skitarii Ranger w/ galvanic rifle"
+          ]
+        }
+      ]
     },
     {
       "id": "ba33-c21-bddc-ab0",
@@ -23617,22 +23720,7 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      },
-      "caps": [
-        {
-          "name": "Skitarii Vanguard w/ radium carbine",
-          "max": [
-            {
-              "minModels": 10,
-              "maxModels": 15,
-              "max": 8
-            }
-          ],
-          "modelNames": [
-            "Skitarii Vanguard w/ radium carbine"
-          ]
-        }
-      ]
+      }
     },
     {
       "id": "f527-0a42-15b4-1924",
@@ -25187,6 +25275,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Astartes Shield",

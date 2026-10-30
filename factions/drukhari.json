@@ -621,7 +621,8 @@
             "on": "unit",
             "stat": "T",
             "op": "add",
-            "value": 1
+            "value": 1,
+            "wholeUnit": true
           }
         ]
       },
@@ -741,7 +742,8 @@
             "on": "unit",
             "stat": "T",
             "op": "add",
-            "value": 1
+            "value": 1,
+            "wholeUnit": true
           }
         ]
       },
@@ -771,13 +773,15 @@
             "on": "unit",
             "stat": "OC",
             "op": "add",
-            "value": 1
+            "value": 1,
+            "wholeUnit": true
           },
           {
             "on": "unit",
             "stat": "Ld",
             "op": "add",
-            "value": -1
+            "value": -1,
+            "wholeUnit": true
           }
         ]
       },
@@ -1012,6 +1016,22 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "A",
+                    "op": "add",
+                    "value": 1,
+                    "fromText": true
+                  },
+                  {
+                    "on": "melee",
+                    "stat": "S",
+                    "op": "add",
+                    "value": 1,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Soul Trap",
@@ -11222,6 +11242,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "set",
+                    "value": -2,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Grav Talon",
@@ -11260,6 +11289,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "set",
+                    "value": -2,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Grav Talon",
@@ -11298,6 +11336,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "set",
+                    "value": -2,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Grav Talon",
@@ -11370,6 +11417,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "set",
+                    "value": -2,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Grav Talon",

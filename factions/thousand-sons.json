@@ -3114,7 +3114,15 @@
               "weaponIds": [
                 "4557-5450-c419-37fb"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Cutting Gear",
+                    "text": "Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+                  }
+                ]
+              }
             }
           ]
         }

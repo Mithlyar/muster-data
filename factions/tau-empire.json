@@ -2633,25 +2633,29 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "10"
+                    "value": "10",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -2679,25 +2683,29 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "5+"
+                    "value": "5+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -2724,19 +2732,22 @@
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "5+"
+                    "value": "5+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "7"
+                    "value": "7",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -2761,7 +2772,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "7\""
+                    "value": "7\"",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -3544,7 +3556,15 @@
               "weaponIds": [
                 "4557-5450-c419-37fb"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Cutting Gear",
+                    "text": "Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+                  }
+                ]
+              }
             }
           ]
         }
@@ -11677,25 +11697,29 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "10"
+                    "value": "10",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -11723,25 +11747,29 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "5+"
+                    "value": "5+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -11768,19 +11796,22 @@
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "5+"
+                    "value": "5+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "7"
+                    "value": "7",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -11805,7 +11836,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "7\""
+                    "value": "7\"",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -18215,25 +18247,29 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "5\""
+                    "value": "5\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "10"
+                    "value": "10",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -18261,25 +18297,29 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "5"
+                    "value": "5",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "5+"
+                    "value": "5+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -18306,19 +18346,22 @@
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "6"
+                    "value": "6",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "5+"
+                    "value": "5+",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "7"
+                    "value": "7",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -18343,7 +18386,8 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "7\""
+                    "value": "7\"",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -22861,11 +22905,6 @@
           "name": "Vespid Stingwings w/ T'au Flamer",
           "max": [
             {
-              "minModels": 5,
-              "maxModels": 9,
-              "max": 0
-            },
-            {
               "minModels": 10,
               "maxModels": 10,
               "max": 1
@@ -22892,11 +22931,6 @@
           "name": "Vespid Stingwings w/ Neutron Grenade Launcher",
           "max": [
             {
-              "minModels": 5,
-              "maxModels": 9,
-              "max": 0
-            },
-            {
               "minModels": 10,
               "maxModels": 10,
               "max": 1
@@ -22922,11 +22956,6 @@
         {
           "name": "Vespid Stingwings w/ Neutron Rail Rifle",
           "max": [
-            {
-              "minModels": 5,
-              "maxModels": 9,
-              "max": 0
-            },
             {
               "minModels": 10,
               "maxModels": 10,

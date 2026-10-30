@@ -2246,7 +2246,15 @@
               "weaponIds": [
                 "c0f6-f71c-269e-d033"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Storm shield",
+                    "text": "This model has a 4+ InSv."
+                  }
+                ]
+              }
             },
             {
               "id": "63a1-3390-1188-47da",
@@ -5955,19 +5963,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "8\""
+                    "value": "8\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "8"
+                    "value": "8",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -5989,19 +6000,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "4"
+                    "value": "4",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -6026,7 +6040,8 @@
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "7"
+                    "value": "7",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -8802,7 +8817,25 @@
               "weaponIds": [
                 "a09c-6de4-e1c1-708a"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "OC",
+                    "op": "add",
+                    "value": 1,
+                    "fromText": true,
+                    "wholeUnit": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Regimental Standard",
+                    "text": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+                  }
+                ]
+              }
             },
             {
               "id": "6c4f-f23a-dfec-9aa2",
@@ -19827,7 +19860,24 @@
               "weaponIds": [
                 "b362-d0fc-c9ad-658b"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "set",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Storm shield",
+                    "text": "The bearer has a Wounds characteristic of 4."
+                  }
+                ]
+              }
             },
             {
               "id": "6d2c-d643-f7bd-9d83",
@@ -19880,7 +19930,24 @@
               "weaponIds": [
                 "5817-ae32-daf0-bb85"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "set",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Storm shield",
+                    "text": "The bearer has a Wounds characteristic of 4."
+                  }
+                ]
+              }
             },
             {
               "id": "3e24-4b76-3cab-1b9e",
@@ -24631,19 +24698,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "8\""
+                    "value": "8\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "8"
+                    "value": "8",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -24665,19 +24735,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "4"
+                    "value": "4",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -24702,7 +24775,8 @@
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "7"
+                    "value": "7",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -49343,6 +49417,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "set",
+                    "value": 7,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Slabshield",
@@ -50632,7 +50715,24 @@
               "weaponIds": [
                 "f531-13c6-b52d-a0ff"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "W",
+                    "op": "set",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Storm shield",
+                    "text": "The bearer has a Wounds characteristic of 4."
+                  }
+                ]
+              }
             },
             {
               "id": "ef37-be7e-0b77-60f3",
@@ -50801,6 +50901,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Astartes shield",
@@ -50817,6 +50926,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Astartes shield",
@@ -52081,11 +52199,6 @@
         {
           "name": "Ratling w/ tankstopper rifle",
           "max": [
-            {
-              "minModels": 5,
-              "maxModels": 9,
-              "max": 0
-            },
             {
               "minModels": 10,
               "maxModels": 10,
@@ -56014,19 +56127,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "8\""
+                    "value": "8\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "8"
+                    "value": "8",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "2+"
+                    "value": "2+",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -56048,19 +56164,22 @@
                     "on": "unit",
                     "stat": "M",
                     "op": "set",
-                    "value": "12\""
+                    "value": "12\"",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "T",
                     "op": "set",
-                    "value": "4"
+                    "value": "4",
+                    "wholeUnit": true
                   },
                   {
                     "on": "unit",
                     "stat": "Sv",
                     "op": "set",
-                    "value": "4+"
+                    "value": "4+",
+                    "wholeUnit": true
                   }
                 ],
                 "keywords": [
@@ -56085,7 +56204,8 @@
                     "on": "unit",
                     "stat": "W",
                     "op": "set",
-                    "value": "7"
+                    "value": "7",
+                    "wholeUnit": true
                   }
                 ],
                 "abilities": [
@@ -64298,6 +64418,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "set",
+                    "value": "4+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Astartes Shield",

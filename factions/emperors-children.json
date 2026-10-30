@@ -815,7 +815,8 @@
             "on": "unit",
             "stat": "M",
             "op": "add",
-            "value": 1
+            "value": 1,
+            "wholeUnit": true
           }
         ]
       },
@@ -1431,7 +1432,15 @@
               "weaponIds": [
                 "4557-5450-c419-37fb"
               ],
-              "points": 0
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Cutting Gear",
+                    "text": "Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+                  }
+                ]
+              }
             }
           ]
         }
@@ -5833,6 +5842,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "Ld",
+                    "op": "set",
+                    "value": "6+",
+                    "fromText": true,
+                    "wholeUnit": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Daemonic Icon",
@@ -9889,6 +9908,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "Sv",
+                    "op": "set",
+                    "value": "3+",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Shining aegis",
@@ -13627,6 +13655,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "Ld",
+                    "op": "set",
+                    "value": "6+",
+                    "fromText": true,
+                    "wholeUnit": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Daemonic Icon",
