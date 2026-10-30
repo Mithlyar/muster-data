@@ -1600,8 +1600,13 @@
       "sizes": [
         {
           "minModels": 1,
-          "maxModels": 2,
+          "maxModels": 1,
           "points": 80
+        },
+        {
+          "minModels": 2,
+          "maxModels": 2,
+          "points": 150
         }
       ],
       "models": [
@@ -17325,7 +17330,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "extraCopyCost": [
+        {
+          "fromCopy": 3,
+          "points": 15,
+          "group": "Soul Grinder"
+        }
+      ]
     },
     {
       "id": "a78d-828b-302b-1bec",
@@ -20740,7 +20752,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "extraCopyCost": [
+        {
+          "fromCopy": 3,
+          "points": 15,
+          "group": "Soul Grinder"
+        }
+      ]
     },
     {
       "id": "e403-3a9-279e-41b7",
@@ -25291,7 +25310,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "extraCopyCost": [
+        {
+          "fromCopy": 3,
+          "points": 15,
+          "group": "Soul Grinder"
+        }
+      ]
     },
     {
       "id": "3da0-5db0-7531-33b6",
@@ -28276,7 +28302,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "extraCopyCost": [
+        {
+          "fromCopy": 3,
+          "points": 15,
+          "group": "Soul Grinder"
+        }
+      ]
     },
     {
       "id": "753d-4e02-eda3-4809",
@@ -29316,7 +29349,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "extraCopyCost": [
+        {
+          "fromCopy": 3,
+          "points": 10,
+          "group": "Moirax"
+        }
+      ]
     },
     {
       "id": "bbc6-c0ed-24e8-86b7",

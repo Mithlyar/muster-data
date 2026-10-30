@@ -1779,7 +1779,7 @@
         {
           "name": "Deathwatch Veteran w/ stalker bolt rifle",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -1798,7 +1798,7 @@
         {
           "name": "Deathwatch Veteran w/ heavy thunder hammer",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -1816,7 +1816,7 @@
         {
           "name": "Deathwatch Veteran w/ carbine",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -1835,7 +1835,7 @@
         {
           "name": "Gravis Veteran w/ infernus heavy bolter",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "5\"",
             "T": "6",
@@ -1853,7 +1853,7 @@
         },
         {
           "name": "Deathwatch Veteran w/ xenophase blade",
-          "min": 1,
+          "min": 0,
           "max": 1,
           "stats": {
             "M": "6\"",
@@ -9651,7 +9651,7 @@
         {
           "name": "Shock Trooper",
           "min": 6,
-          "max": 9,
+          "max": 18,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -9669,7 +9669,7 @@
         {
           "name": "Shock Trooper w/ Vox Caster",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -9687,7 +9687,7 @@
         {
           "name": "Shock Trooper w/ Flamer",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -9705,7 +9705,7 @@
         {
           "name": "Shock Trooper w/ Grenade Launcher",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -9723,7 +9723,7 @@
         {
           "name": "Shock Trooper w/ Meltagun",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -9741,7 +9741,7 @@
         {
           "name": "Shock Trooper w/ Plasma Gun",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -9759,7 +9759,7 @@
         {
           "name": "Shock Trooper Sergeant",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -11964,7 +11964,7 @@
         {
           "name": "Jungle Fighter Sergeant",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -11982,7 +11982,7 @@
         {
           "name": "Jungle Fighter w/ Vox-caster",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -12000,7 +12000,7 @@
         {
           "name": "Jungle Fighter w/ Flamer",
           "min": 0,
-          "max": 2,
+          "max": 4,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -12018,7 +12018,7 @@
         {
           "name": "Jungle Fighter",
           "min": 6,
-          "max": 9,
+          "max": 18,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -16549,7 +16549,7 @@
         {
           "name": "Death Korps Trooper",
           "min": 5,
-          "max": 9,
+          "max": 18,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -16567,7 +16567,7 @@
         {
           "name": "Death Korps Trooper w/ Death Korps medi-pack",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -16585,7 +16585,7 @@
         {
           "name": "Death Korps Trooper w/ Vox-caster",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -16603,7 +16603,7 @@
         {
           "name": "Death Korps Trooper w/ Flamer",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -16621,7 +16621,7 @@
         {
           "name": "Death Korps Trooper w/ Grenade launcher",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -16639,7 +16639,7 @@
         {
           "name": "Death Korps Trooper w/ Long-las",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -16657,7 +16657,7 @@
         {
           "name": "Death Korps Trooper w/ Meltagun",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -16675,7 +16675,7 @@
         {
           "name": "Death Korps Trooper w/ Plasma gun",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -16693,7 +16693,7 @@
         {
           "name": "Death Korps Watchmaster",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -26678,8 +26678,8 @@
         },
         {
           "name": "Lesk's Hero",
-          "min": 1,
-          "max": 1,
+          "min": 4,
+          "max": 4,
           "stats": {
             "M": "6\"",
             "T": "3",
@@ -31164,8 +31164,13 @@
       "sizes": [
         {
           "minModels": 6,
-          "maxModels": 12,
+          "maxModels": 6,
           "points": 60
+        },
+        {
+          "minModels": 7,
+          "maxModels": 12,
+          "points": 120
         }
       ],
       "models": [
@@ -31536,7 +31541,48 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Agent w/ plasma pistol",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ plasma pistol"
+          ]
+        },
+        {
+          "name": "Agent w/ eviscerator",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ eviscerator"
+          ]
+        },
+        {
+          "name": "Agent w/ mystic stave",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ mystic stave"
+          ]
+        }
+      ]
     },
     {
       "id": "ede2-ae50-5f5b-cced",
@@ -52030,7 +52076,27 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Ratling w/ tankstopper rifle",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 0
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Ratling w/ tankstopper rifle"
+          ]
+        }
+      ]
     },
     {
       "id": "5da1-9869-294e-8187",

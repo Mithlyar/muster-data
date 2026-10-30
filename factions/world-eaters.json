@@ -13197,9 +13197,14 @@
       "legends": false,
       "sizes": [
         {
-          "minModels": 2,
-          "maxModels": 2,
+          "minModels": 10,
+          "maxModels": 10,
           "points": 65
+        },
+        {
+          "minModels": 20,
+          "maxModels": 20,
+          "points": 120
         }
       ],
       "models": [
@@ -13253,6 +13258,42 @@
           },
           "loadout": [
             "88ee-2f6b-0b00-0852"
+          ]
+        },
+        {
+          "name": "Jakhal",
+          "min": 7,
+          "max": 17,
+          "stats": {
+            "M": "7\"",
+            "T": "4",
+            "Sv": "6+",
+            "W": "1",
+            "Ld": "7+",
+            "OC": "1",
+            "base": "28.5mm"
+          },
+          "loadout": [
+            "f70d-d0cb-5cb8-3be9",
+            "cde4-4b0b-0fa4-766e"
+          ]
+        },
+        {
+          "name": "Jakhal w/ mauler chainblade",
+          "min": 0,
+          "max": 2,
+          "stats": {
+            "M": "7\"",
+            "T": "4",
+            "Sv": "6+",
+            "W": "1",
+            "Ld": "7+",
+            "OC": "1",
+            "base": "28.5mm"
+          },
+          "loadout": [
+            "f70d-d0cb-5cb8-3be9",
+            "dbcf-0819-c48b-aa09"
           ]
         }
       ],
@@ -13323,6 +13364,23 @@
               "S": "4",
               "AP": "0",
               "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "dbcf-0819-c48b-aa09",
+          "name": "Mauler chainblade",
+          "profiles": [
+            {
+              "name": "Mauler chainblade",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "5+",
+              "S": "4",
+              "AP": "-1",
+              "D": "2",
               "keywords": []
             }
           ]
@@ -24896,7 +24954,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "extraCopyCost": [
+        {
+          "fromCopy": 3,
+          "points": 10,
+          "group": "Moirax"
+        }
+      ]
     },
     {
       "id": "bbc6-c0ed-24e8-86b7",

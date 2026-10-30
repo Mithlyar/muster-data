@@ -1,5 +1,1988 @@
 [
   {
+    "dataVersion": "4d2f57e-7db136db",
+    "previousDataVersion": "4d2f57e-912775a0",
+    "date": "2026-10-30T06:47:21.379Z",
+    "entries": [
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Skitarii Rangers: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Crusader Squad: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Red Corsairs Raiders: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Skitarii Rangers: datasheet changed"
+      }
+    ]
+  },
+  {
+    "dataVersion": "4d2f57e-912775a0",
+    "previousDataVersion": "4d2f57e-71afdaa9",
+    "date": "2026-10-30T06:46:31.287Z",
+    "entries": [
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Skitarii Rangers: datasheet changed"
+      },
+      {
+        "factionId": "agents-of-the-imperium",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Crusader Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Death Company Marines: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Red Corsairs Raiders: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Atalan Jackals: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Skitarii Rangers: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      }
+    ]
+  },
+  {
+    "dataVersion": "4d2f57e-71afdaa9",
+    "previousDataVersion": "4d2f57e-7e4dfc64",
+    "date": "2026-10-30T06:44:49.295Z",
+    "entries": [
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Seraphim Squad: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Serberys Sulphurhounds: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Skitarii Vanguard: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Ratlings: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Tarantula Battery: 1–3: 0 → 1: 40, 2: 80, 3: 120"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Tarantula Battery: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Corsair Skyreavers: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Corsair Voidscarred: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Corsair Skyreavers: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Corsair Voidscarred: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Brotherhood Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Paladin Squad: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Strike Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Skitarii Vanguard: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Vespid Stingwings: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Assault Intercessors with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Fortis Kill Team: datasheet changed"
+      }
+    ]
+  },
+  {
+    "dataVersion": "4d2f57e-7e4dfc64",
+    "previousDataVersion": "4d2f57e-b85618db",
+    "date": "2026-10-30T06:42:38.887Z",
+    "entries": [
+      {
+        "factionId": "world-eaters",
+        "kind": "points",
+        "text": "Jakhals: 10: 65, 11: 120, 19–20: 120 → 10: 65, 20: 120"
+      }
+    ]
+  },
+  {
+    "dataVersion": "4d2f57e-b85618db",
+    "previousDataVersion": "4d2f57e-13707204",
+    "date": "2026-10-30T06:40:34.169Z",
+    "entries": [
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Hell's Last: datasheet changed"
+      },
+      {
+        "factionId": "leagues-of-votann",
+        "kind": "changed",
+        "text": "Brôkhyr Iron-master: datasheet changed"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "changed",
+        "text": "Canoptek Tomb Crawlers: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Kroot Farstalkers: datasheet changed"
+      }
+    ]
+  },
+  {
+    "dataVersion": "4d2f57e-13707204",
+    "previousDataVersion": "4d2f57e-23e0dbd1",
+    "date": "2026-10-30T06:39:45.863Z",
+    "entries": [
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "agents-of-the-imperium",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Cadian Shock Troops: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Catachan Jungle Fighters: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Death Korps of Krieg: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Burna Boyz: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Lootas: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Scouts: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Kroot Farstalkers: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Aquila Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Decimus Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Jakhals: datasheet changed"
+      }
+    ]
+  },
+  {
+    "dataVersion": "4d2f57e-23e0dbd1",
+    "previousDataVersion": "4d2f57e-57e15514",
+    "date": "2026-10-29T22:21:22.959Z",
+    "entries": [
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "points",
+        "text": "Atalan Jackals: 5: 85, 6–9: 160, 10: 150 → 5: 85, 6–10: 150"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "points",
+        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
+      }
+    ]
+  },
+  {
+    "dataVersion": "4d2f57e-57e15514",
+    "previousDataVersion": "4d2f57e-7159c2c9",
+    "date": "2026-10-29T22:18:13.327Z",
+    "entries": [
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Seraphim Squad: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Serberys Sulphurhounds: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Cadian Shock Troops: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "points",
+        "text": "Tarantula Battery: 1: 40, 2: 80, 3: 120 → 1–3: 0"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Tarantula Battery: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Corsair Skyreavers: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Corsair Voidscarred: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "points",
+        "text": "Shadow Spectres: 5–6 models 145 → 115, 7–11 models 260 → 230"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Shadow Spectres: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Corsair Skyreavers: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Corsair Voidscarred: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "points",
+        "text": "Atalan Jackals: 5: 85, 6–9: 160 → 5: 85, 6–9: 160, 10: 150"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Atalan Jackals: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Brotherhood Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Paladin Squad: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Strike Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Guard Headtakers: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Guard Terminators: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "points",
+        "text": "Neurogaunts: 11: 45, 12–21: 90 → 11: 45, 12–22: 90"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Neurogaunts: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Assault Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Eradicator Squad with Melta Rifles: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Heavy Intercessor Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Scout Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "points",
+        "text": "Jakhals: 2: 65 → 10: 65, 11: 120, 19–20: 120"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Jakhals: datasheet changed"
+      }
+    ]
+  },
+  {
+    "dataVersion": "4d2f57e-7159c2c9",
+    "previousDataVersion": "4d2f57e-1244010f",
+    "date": "2026-10-29T22:09:44.154Z",
+    "entries": [
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "points",
+        "text": "Ironstrider Ballistarii: 1–3: 80 → 1: 80, 2: 160, 3: 250"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "points",
+        "text": "Beasts of Nurgle: 1–2: 80 → 1: 80, 2: 150"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "points",
+        "text": "Beasts of Nurgle: 1–2: 80 → 1: 80, 2: 150"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "points",
+        "text": "Beasts of Nurgle: 1–2: 80 → 1: 80, 2: 150"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "points",
+        "text": "Windriders: 3–6: 80 → 3: 80, 4–6: 170"
+      },
+      {
+        "factionId": "necrons",
+        "kind": "points",
+        "text": "Lokhust Heavy Destroyers: 1–3: 50 → 1: 50, 2: 100, 3: 165"
+      }
+    ]
+  },
+  {
     "dataVersion": "4d2f57e-1244010f",
     "previousDataVersion": "4d2f57e-07ae761d",
     "date": "2026-10-29T21:04:29.203Z",

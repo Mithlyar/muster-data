@@ -3808,7 +3808,7 @@
         {
           "name": "Skyreaver w/ blaster",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "12\"",
             "T": "3",
@@ -3826,7 +3826,7 @@
         {
           "name": "Skyreaver w/ flamer",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "12\"",
             "T": "3",
@@ -3844,7 +3844,7 @@
         {
           "name": "Skyreaver w/ fusion gun",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "12\"",
             "T": "3",
@@ -3862,7 +3862,7 @@
         {
           "name": "Skyreaver w/ shredder",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "12\"",
             "T": "3",
@@ -4152,7 +4152,81 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Skyreaver w/ blaster",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Skyreaver w/ blaster"
+          ]
+        },
+        {
+          "name": "Skyreaver w/ flamer",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Skyreaver w/ flamer"
+          ]
+        },
+        {
+          "name": "Skyreaver w/ fusion gun",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Skyreaver w/ fusion gun"
+          ]
+        },
+        {
+          "name": "Skyreaver w/ shredder",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Skyreaver w/ shredder"
+          ]
+        }
+      ]
     },
     {
       "id": "cc68-ad19-7285-7a11",
@@ -4852,7 +4926,7 @@
         {
           "name": "Voidscarred with special weapon",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "7\"",
             "T": "3",
@@ -5451,6 +5525,24 @@
           ],
           "modelNames": [
             "Voidscarred with ranger long rifle"
+          ]
+        },
+        {
+          "name": "Voidscarred with special weapon",
+          "max": [
+            {
+              "minModels": 1,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Voidscarred with special weapon"
           ]
         }
       ]

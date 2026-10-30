@@ -3340,7 +3340,7 @@
         {
           "name": "Deathwatch Veteran w/ stalker bolt rifle",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -3359,7 +3359,7 @@
         {
           "name": "Deathwatch Veteran w/ heavy thunder hammer",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -3377,7 +3377,7 @@
         {
           "name": "Deathwatch Veteran w/ carbine",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -3396,7 +3396,7 @@
         {
           "name": "Gravis Veteran w/ infernus heavy bolter",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "5\"",
             "T": "6",
@@ -3414,7 +3414,7 @@
         },
         {
           "name": "Deathwatch Veteran w/ xenophase blade",
-          "min": 1,
+          "min": 0,
           "max": 1,
           "stats": {
             "M": "6\"",
@@ -5350,6 +5350,19 @@
       ],
       "caps": [
         {
+          "name": "Assault Intercessors with Jump Pack",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 8
+            }
+          ],
+          "modelNames": [
+            "Assault Intercessors with Jump Pack"
+          ]
+        },
+        {
           "name": "Assault Intercessors with Jump Pack w/ Plasma Pistol",
           "max": [
             {
@@ -5414,7 +5427,7 @@
         {
           "name": "Assault Marine w/ Eviscerator",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "4",
@@ -6028,7 +6041,27 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Assault Marine w/ Eviscerator",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Assault Marine w/ Eviscerator"
+          ]
+        }
+      ]
     },
     {
       "id": "bfe7-b726-9158-d5ad",
@@ -6082,7 +6115,7 @@
         {
           "name": "Assault Marine with Jump Pack w/ Eviscerator",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "12\"",
             "T": "4",
@@ -6700,7 +6733,27 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Assault Marine with Jump Pack w/ Eviscerator",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Assault Marine with Jump Pack w/ Eviscerator"
+          ]
+        }
+      ]
     },
     {
       "id": "74c4-82d0-4c98-2fa8",
@@ -7984,7 +8037,8 @@
             "18b0-8c2-173f-5",
             "6c7d-af5b-482-6fbe",
             "a578-8e45-2a54-509d"
-          ]
+          ],
+          "points": 55
         },
         {
           "name": "Biker Sergeant",
@@ -8752,7 +8806,849 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "compositionPoints": [
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 4,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 4,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 5,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 4,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 4,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 4,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 4,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 0,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 5,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 4,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 4,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 0,
+            "Space Marine Bikers w/ Astartes Chainsword": 5,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 1,
+            "Space Marine Bikers w/ Astartes Chainsword": 4,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 80
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 2,
+            "Space Marine Bikers w/ Astartes Chainsword": 3,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 2
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 3,
+            "Space Marine Bikers w/ Astartes Chainsword": 2,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 4,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 4,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 1
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 4,
+            "Space Marine Bikers w/ Astartes Chainsword": 1,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        },
+        {
+          "models": {
+            "Attack Bike": 1,
+            "Biker Sergeant": 1,
+            "Space Marine Bikers w/ Bolt Pistol": 5,
+            "Space Marine Bikers w/ Astartes Chainsword": 0,
+            "Space Marine Bikers w/  Special Weapon": 0
+          },
+          "points": 160
+        }
+      ]
     },
     {
       "id": "9ca5-e5f4-f85d-bcca",
@@ -25126,7 +26022,7 @@
         {
           "name": "Deathwatch Veteran w/ stalker bolt rifle",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -25145,7 +26041,7 @@
         {
           "name": "Deathwatch Veteran w/ heavy thunder hammer",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -25163,7 +26059,7 @@
         {
           "name": "Deathwatch Veteran w/ carbine",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -25182,7 +26078,7 @@
         {
           "name": "Gravis Veteran w/ infernus heavy bolter",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "5\"",
             "T": "6",
@@ -25201,7 +26097,7 @@
         },
         {
           "name": "Deathwatch Veteran w/ xenophase blade",
-          "min": 1,
+          "min": 0,
           "max": 1,
           "stats": {
             "M": "6\"",
@@ -28901,7 +29797,7 @@
         {
           "name": "Eradicator with Multi-melta",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "5\"",
             "T": "6",
@@ -29050,6 +29946,26 @@
         {
           "fromCopy": 3,
           "points": 20
+        }
+      ],
+      "caps": [
+        {
+          "name": "Eradicator with Multi-melta",
+          "max": [
+            {
+              "minModels": 3,
+              "maxModels": 5,
+              "max": 1
+            },
+            {
+              "minModels": 6,
+              "maxModels": 6,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Eradicator with Multi-melta"
+          ]
         }
       ]
     },
@@ -31535,6 +32451,19 @@
       ],
       "caps": [
         {
+          "name": "Kill Team Intercessor with bolt rifle",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Kill Team Intercessor with bolt rifle"
+          ]
+        },
+        {
           "name": "Grenade Launcher",
           "max": [
             {
@@ -33172,7 +34101,7 @@
         {
           "name": "Heavy Intercessor w/Heavy Bolter",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "5\"",
             "T": "6",
@@ -33310,7 +34239,27 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "caps": [
+        {
+          "name": "Heavy Intercessor w/Heavy Bolter",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Heavy Intercessor w/Heavy Bolter"
+          ]
+        }
+      ]
     },
     {
       "id": "7102-b3a4-9bfc-1b84",
@@ -38730,8 +39679,13 @@
       "sizes": [
         {
           "minModels": 6,
-          "maxModels": 12,
+          "maxModels": 6,
           "points": 60
+        },
+        {
+          "minModels": 7,
+          "maxModels": 12,
+          "points": 120
         }
       ],
       "models": [
@@ -39102,7 +40056,48 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Agent w/ plasma pistol",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ plasma pistol"
+          ]
+        },
+        {
+          "name": "Agent w/ eviscerator",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ eviscerator"
+          ]
+        },
+        {
+          "name": "Agent w/ mystic stave",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ mystic stave"
+          ]
+        }
+      ]
     },
     {
       "id": "ede2-ae50-5f5b-cced",
@@ -39949,6 +40944,19 @@
           "weaponIds": [
             "ef0a-b1da-8926-b298"
           ]
+        },
+        {
+          "name": "Grenade Launcher",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "ef0a-b1da-8926-b298"
+          ]
         }
       ]
     },
@@ -40148,7 +41156,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "extraCopyCost": [
+        {
+          "fromCopy": 3,
+          "points": 10,
+          "group": "Invader ATV"
+        }
+      ]
     },
     {
       "id": "24df-fdd6-4d7b-fc0e",
@@ -57297,7 +58312,7 @@
         {
           "name": "Outrider w/ Plasma Pistol",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "12\"",
             "T": "6",
@@ -57538,7 +58553,27 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Plasma pistol",
+          "max": [
+            {
+              "minModels": 3,
+              "maxModels": 5,
+              "max": 1
+            },
+            {
+              "minModels": 6,
+              "maxModels": 6,
+              "max": 2
+            }
+          ],
+          "weaponIds": [
+            "25c2-104f-fa0c-809e"
+          ]
+        }
+      ]
     },
     {
       "id": "31a-6c3e-5843-4023",
@@ -62719,7 +63754,7 @@
         {
           "name": "Relic Terminator w/ Heavy Weapon",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "5\"",
             "T": "5",
@@ -65901,7 +66936,7 @@
         {
           "name": "Scout w/ Heavy Weapon",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "4",
@@ -65920,7 +66955,7 @@
         {
           "name": "Scout w/ Sniper Rifle",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "4",
@@ -66219,7 +67254,27 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Scout w/ Heavy Weapon",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Scout w/ Heavy Weapon"
+          ]
+        }
+      ]
     },
     {
       "id": "ca2a-69ca-dd3c-47",
@@ -70243,7 +71298,7 @@
         {
           "name": "Sternguard Veteran w/ Special Weapon",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -70538,6 +71593,26 @@
         {
           "fromCopy": 3,
           "points": 15
+        }
+      ],
+      "caps": [
+        {
+          "name": "Sternguard Veteran w/ Special Weapon",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Sternguard Veteran w/ Special Weapon"
+          ]
         }
       ]
     },
@@ -74156,7 +75231,7 @@
         {
           "name": "Terminator w/ Heavy Weapon",
           "min": 0,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "5\"",
             "T": "6",
@@ -74471,6 +75546,26 @@
         {
           "fromCopy": 3,
           "points": 40
+        }
+      ],
+      "caps": [
+        {
+          "name": "Terminator w/ Heavy Weapon",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Terminator w/ Heavy Weapon"
+          ]
         }
       ]
     },
@@ -76448,7 +77543,7 @@
         {
           "name": "Vanguard Veteran with Jump Pack w/ Plasma Pistol",
           "min": 0,
-          "max": 2,
+          "max": 4,
           "stats": {
             "M": "12\"",
             "T": "5",

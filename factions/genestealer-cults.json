@@ -2705,8 +2705,8 @@
         },
         {
           "minModels": 6,
-          "maxModels": 9,
-          "points": 160
+          "maxModels": 10,
+          "points": 150
         }
       ],
       "models": [
@@ -2785,7 +2785,7 @@
         {
           "name": "Atalan Wolfquad",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "12\"",
             "T": "4",
@@ -3020,12 +3020,35 @@
       ],
       "caps": [
         {
+          "name": "Atalan Wolfquad",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 8,
+              "max": 1
+            },
+            {
+              "minModels": 9,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Atalan Wolfquad"
+          ]
+        },
+        {
           "name": "Grenade launcher",
           "max": [
             {
               "minModels": 5,
-              "maxModels": 9,
+              "maxModels": 8,
               "max": 1
+            },
+            {
+              "minModels": 9,
+              "maxModels": 10,
+              "max": 2
             }
           ],
           "weaponIds": [
@@ -3037,8 +3060,13 @@
           "max": [
             {
               "minModels": 5,
-              "maxModels": 9,
+              "maxModels": 8,
               "max": 2
+            },
+            {
+              "minModels": 9,
+              "maxModels": 10,
+              "max": 4
             }
           ],
           "weaponIds": [
@@ -3050,8 +3078,13 @@
           "max": [
             {
               "minModels": 5,
-              "maxModels": 9,
+              "maxModels": 8,
               "max": 1
+            },
+            {
+              "minModels": 9,
+              "maxModels": 10,
+              "max": 2
             }
           ],
           "weaponIds": [
@@ -3063,8 +3096,13 @@
           "max": [
             {
               "minModels": 5,
-              "maxModels": 9,
+              "maxModels": 8,
               "max": 2
+            },
+            {
+              "minModels": 9,
+              "maxModels": 10,
+              "max": 4
             }
           ],
           "weaponIds": [

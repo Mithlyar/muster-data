@@ -7733,7 +7733,7 @@
         },
         {
           "minModels": 12,
-          "maxModels": 21,
+          "maxModels": 22,
           "points": 90
         }
       ],
@@ -7741,7 +7741,7 @@
         {
           "name": "Neurogaunt Nodebeast",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "3",

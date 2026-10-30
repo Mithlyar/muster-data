@@ -16535,7 +16535,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "extraCopyCost": [
+        {
+          "fromCopy": 3,
+          "points": 10,
+          "group": "Moirax"
+        }
+      ]
     },
     {
       "id": "bbc6-c0ed-24e8-86b7",

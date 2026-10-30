@@ -1264,7 +1264,7 @@
         {
           "name": "Deathwatch Veteran w/ stalker bolt rifle",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -1283,7 +1283,7 @@
         {
           "name": "Deathwatch Veteran w/ heavy thunder hammer",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -1301,7 +1301,7 @@
         {
           "name": "Deathwatch Veteran w/ carbine",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -1320,7 +1320,7 @@
         {
           "name": "Gravis Veteran w/ infernus heavy bolter",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "5\"",
             "T": "6",
@@ -1338,7 +1338,7 @@
         },
         {
           "name": "Deathwatch Veteran w/ xenophase blade",
-          "min": 1,
+          "min": 0,
           "max": 1,
           "stats": {
             "M": "6\"",
@@ -12737,8 +12737,13 @@
       "sizes": [
         {
           "minModels": 6,
-          "maxModels": 12,
+          "maxModels": 6,
           "points": 60
+        },
+        {
+          "minModels": 7,
+          "maxModels": 12,
+          "points": 120
         }
       ],
       "models": [
@@ -13109,7 +13114,48 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Agent w/ plasma pistol",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ plasma pistol"
+          ]
+        },
+        {
+          "name": "Agent w/ eviscerator",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ eviscerator"
+          ]
+        },
+        {
+          "name": "Agent w/ mystic stave",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ mystic stave"
+          ]
+        }
+      ]
     },
     {
       "id": "ede2-ae50-5f5b-cced",
@@ -23571,7 +23617,22 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "caps": [
+        {
+          "name": "Skitarii Vanguard w/ radium carbine",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 15,
+              "max": 8
+            }
+          ],
+          "modelNames": [
+            "Skitarii Vanguard w/ radium carbine"
+          ]
+        }
+      ]
     },
     {
       "id": "f527-0a42-15b4-1924",

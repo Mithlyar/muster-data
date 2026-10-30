@@ -1356,7 +1356,7 @@
         {
           "name": "Deathwatch Veteran w/ stalker bolt rifle",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -1375,7 +1375,7 @@
         {
           "name": "Deathwatch Veteran w/ heavy thunder hammer",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -1393,7 +1393,7 @@
         {
           "name": "Deathwatch Veteran w/ carbine",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "6\"",
             "T": "5",
@@ -1412,7 +1412,7 @@
         {
           "name": "Gravis Veteran w/ infernus heavy bolter",
           "min": 1,
-          "max": 1,
+          "max": 2,
           "stats": {
             "M": "5\"",
             "T": "6",
@@ -1430,7 +1430,7 @@
         },
         {
           "name": "Deathwatch Veteran w/ xenophase blade",
-          "min": 1,
+          "min": 0,
           "max": 1,
           "stats": {
             "M": "6\"",
@@ -17385,8 +17385,13 @@
       "sizes": [
         {
           "minModels": 6,
-          "maxModels": 12,
+          "maxModels": 6,
           "points": 60
+        },
+        {
+          "minModels": 7,
+          "maxModels": 12,
+          "points": 120
         }
       ],
       "models": [
@@ -17757,7 +17762,48 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Agent w/ plasma pistol",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ plasma pistol"
+          ]
+        },
+        {
+          "name": "Agent w/ eviscerator",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ eviscerator"
+          ]
+        },
+        {
+          "name": "Agent w/ mystic stave",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Agent w/ mystic stave"
+          ]
+        }
+      ]
     },
     {
       "id": "ede2-ae50-5f5b-cced",
@@ -32455,7 +32501,7 @@
         {
           "name": "Seraphim with Special Weapons",
           "min": 0,
-          "max": 2,
+          "max": 4,
           "stats": {
             "M": "12\"",
             "T": "3",
@@ -32790,6 +32836,26 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "caps": [
+        {
+          "name": "Seraphim with Special Weapons",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 2
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 4
+            }
+          ],
+          "modelNames": [
+            "Seraphim with Special Weapons"
+          ]
         }
       ]
     },

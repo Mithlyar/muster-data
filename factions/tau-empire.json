@@ -12698,7 +12698,7 @@
         {
           "name": "Kroot Farstalker",
           "min": 8,
-          "max": 8,
+          "max": 12,
           "stats": {
             "M": "7\"",
             "T": "3",
@@ -22864,6 +22864,24 @@
               "minModels": 5,
               "maxModels": 9,
               "max": 0
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Vespid Stingwings w/ T'au Flamer"
+          ]
+        },
+        {
+          "name": "Vespid Stingwings w/ T'au Flamer",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 0
             }
           ],
           "modelNames": [
@@ -22877,10 +22895,46 @@
               "minModels": 5,
               "maxModels": 9,
               "max": 0
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 1
             }
           ],
           "modelNames": [
             "Vespid Stingwings w/ Neutron Grenade Launcher"
+          ]
+        },
+        {
+          "name": "Vespid Stingwings w/ Neutron Grenade Launcher",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 0
+            }
+          ],
+          "modelNames": [
+            "Vespid Stingwings w/ Neutron Grenade Launcher"
+          ]
+        },
+        {
+          "name": "Vespid Stingwings w/ Neutron Rail Rifle",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 0
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Vespid Stingwings w/ Neutron Rail Rifle"
           ]
         },
         {

@@ -3775,8 +3775,8 @@
       "models": [
         {
           "name": "Tomb Crawler w/ twin gauss reaper",
-          "min": 1,
-          "max": 1,
+          "min": 2,
+          "max": 2,
           "stats": {
             "M": "5\"",
             "T": "4",
@@ -10283,8 +10283,18 @@
       "sizes": [
         {
           "minModels": 1,
-          "maxModels": 3,
+          "maxModels": 1,
           "points": 50
+        },
+        {
+          "minModels": 2,
+          "maxModels": 2,
+          "points": 100
+        },
+        {
+          "minModels": 3,
+          "maxModels": 3,
+          "points": 165
         }
       ],
       "models": [
