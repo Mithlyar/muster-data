@@ -15760,7 +15760,20 @@
           "name": "Deep Strike"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "selfEffects": [
+        {
+          "rule": "Abomination",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 2+ (against Psychic Attacks)",
+              "text": "This model has the Feel No Pain 2+ ability against Psychic Attacks."
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "95b4-68d6-26cf-188e",
@@ -50423,7 +50436,20 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Ogryn Bodyguard",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While one or more Officer models are in the same unit as this model, those Officer models have the Feel No Pain 4+ ability"
+            }
+          ],
+          "condition": "While one or more Officer models are in the same unit as this model, those Officer models have the Feel No Pain 4+ ability"
+        }
+      ]
     },
     {
       "id": "a7c2-1534-93b0-c0eb",
@@ -50710,7 +50736,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Ogryn Bodyguard",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While one or more Officer models are in the same unit as this model, those Officer models have the Feel No Pain 4+ ability"
+            }
+          ],
+          "condition": "While one or more Officer models are in the same unit as this model, those Officer models have the Feel No Pain 4+ ability"
+        }
+      ]
     },
     {
       "id": "c9eb-2007-af01-a853",
@@ -52577,6 +52616,17 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Medicae Medi-packs",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 5+",
+              "text": "Whilst this unit contains one or more Medicae Servitors, models in this unit have the Feel No Pain 5+ ability."
+            }
+          ],
+          "contains": "Medicae Servitors"
+        },
         {
           "rule": "Mindlock",
           "stats": [

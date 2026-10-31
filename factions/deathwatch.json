@@ -2249,7 +2249,21 @@
           "a40-ff3f-c1ea-fea7",
           "b5e8-c34b-566b-8bda"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Unbreakable Duty",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+        }
+      ]
     },
     {
       "id": "8a9d-11f-fad-bd0f",
@@ -23445,7 +23459,21 @@
             "fromText": true
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Unbreakable Duty",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+        }
+      ]
     },
     {
       "id": "bfb1-7512-e1a3-9fa2",

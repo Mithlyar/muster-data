@@ -4261,6 +4261,18 @@
           "fromCopy": 3,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Advanced Armour",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against mortal wounds)",
+              "text": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+            }
+          ]
+        }
       ]
     },
     {

@@ -5187,6 +5187,19 @@
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Abomination",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 2+ (against Psychic Attacks)",
+              "text": "This model has the Feel No Pain 2+ ability against Psychic Attacks."
+            }
+          ],
+          "onlyModel": true
+        }
       ]
     },
     {

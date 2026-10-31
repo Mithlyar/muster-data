@@ -6053,6 +6053,19 @@
           "id": "a511-d9ca-17d0-42c5",
           "name": "Reanimation Protocols"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Bound Creation",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While this unit is in the same unit as a CRYPTEK model, that CRYPTEK model has the Feel No Pain 4+ ability."
+            }
+          ],
+          "condition": "While this unit is in the same unit as a CRYPTEK model, that CRYPTEK model has the Feel No Pain 4+ ability."
+        }
       ]
     },
     {

@@ -9665,6 +9665,19 @@
           "fromCopy": 2,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Singular Purpose",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 5+",
+              "text": "Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
+            }
+          ],
+          "condition": "when chosen: Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
+        }
       ]
     },
     {
@@ -9851,6 +9864,30 @@
         {
           "fromCopy": 2,
           "points": 20
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Singular Purpose",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 5+",
+              "text": "Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
+            }
+          ],
+          "condition": "when chosen: Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
+        },
+        {
+          "rule": "Unnatural Resistance",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against Mortal Wounds)",
+              "text": "This model has the Feel No Pain 4+ ability against Mortal Wounds."
+            }
+          ],
+          "onlyModel": true
         }
       ]
     },

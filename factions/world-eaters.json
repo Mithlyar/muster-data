@@ -12297,6 +12297,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Runes of the Blood God",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against mortal wounds and Psychic Attacks)",
+              "text": "This model has the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
           "rule": "Damaged: 1-9 wounds remaining",
           "stats": [
             {

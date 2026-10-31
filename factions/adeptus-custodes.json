@@ -6467,7 +6467,20 @@
           "name": "Deep Strike"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "selfEffects": [
+        {
+          "rule": "Abomination",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 2+ (against Psychic Attacks)",
+              "text": "This model has the Feel No Pain 2+ ability against Psychic Attacks."
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "91b3-2e1c-e642-d213",
@@ -24746,7 +24759,20 @@
           "dd2d-568a-9c56-1b6e",
           "503b-f7be-eeeb-9e31"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Daughter of the Abyss",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 3+ (against Psychic Attacks and mortal wounds)",
+              "text": "This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "9c1a-7efd-ed36-440e",

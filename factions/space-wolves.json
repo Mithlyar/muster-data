@@ -3139,7 +3139,21 @@
           "a40-ff3f-c1ea-fea7",
           "b5e8-c34b-566b-8bda"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Unbreakable Duty",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+        }
+      ]
     },
     {
       "id": "449f-a74d-e85a-2684",
@@ -21571,7 +21585,20 @@
           "name": "Deep Strike"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "selfEffects": [
+        {
+          "rule": "Abomination",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 2+ (against Psychic Attacks)",
+              "text": "This model has the Feel No Pain 2+ ability against Psychic Attacks."
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "6a06-e50c-2c7d-3ec3",
@@ -36529,7 +36556,21 @@
             "fromText": true
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Unbreakable Duty",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+        }
+      ]
     },
     {
       "id": "bfb1-7512-e1a3-9fa2",

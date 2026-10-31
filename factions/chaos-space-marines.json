@@ -27375,6 +27375,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Runes of the Blood God",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against mortal wounds and Psychic Attacks)",
+              "text": "This model has the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
           "rule": "Damaged: 1-9 wounds remaining",
           "stats": [
             {
@@ -60048,7 +60059,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Mutated Bodyguard",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While this unit contains a Traitor Ogryn model, CHARACTER models in this unit have the Feel No Pain 4+ ability."
+            }
+          ],
+          "model": "Traitor Enforcer",
+          "contains": "Traitor Ogryn"
+        }
+      ]
     },
     {
       "id": "8dc5-4dcb-d77f-7d23",

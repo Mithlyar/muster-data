@@ -3121,7 +3121,21 @@
           "a40-ff3f-c1ea-fea7",
           "b5e8-c34b-566b-8bda"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Unbreakable Duty",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+        }
+      ]
     },
     {
       "id": "8a9d-11f-fad-bd0f",
@@ -21575,7 +21589,20 @@
           "name": "Deep Strike"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "selfEffects": [
+        {
+          "rule": "Abomination",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 2+ (against Psychic Attacks)",
+              "text": "This model has the Feel No Pain 2+ ability against Psychic Attacks."
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "fac5-a242-951a-e1b2",
@@ -36690,7 +36717,21 @@
             "fromText": true
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Unbreakable Duty",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+        }
+      ]
     },
     {
       "id": "bfb1-7512-e1a3-9fa2",
@@ -52255,7 +52296,19 @@
           "8da0-4570-c3c-819f",
           "907f-11-c4d1-ec21"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "The Spiritshield Helm",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 3+ (against Psychic Attacks and mortal wounds)",
+              "text": "This unit has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "14d4-8062-f090-6719",

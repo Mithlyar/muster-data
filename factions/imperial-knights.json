@@ -4409,7 +4409,20 @@
           "name": "Deep Strike"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "selfEffects": [
+        {
+          "rule": "Abomination",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 2+ (against Psychic Attacks)",
+              "text": "This model has the Feel No Pain 2+ ability against Psychic Attacks."
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "fac5-a242-951a-e1b2",

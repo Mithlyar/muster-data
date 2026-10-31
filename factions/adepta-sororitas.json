@@ -5507,7 +5507,19 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Rituale Nullificatus",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against Psychic Attacks and mortal wounds)",
+              "text": "Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "6227-8c95-0e8a-81de",
@@ -7139,7 +7151,19 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Spiritual Fortitude",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against Psychic Attacks and mortal wounds)",
+              "text": "Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "5e5e-d6b2-6a1c-aa69",
@@ -7295,7 +7319,20 @@
           "name": "Deep Strike"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "selfEffects": [
+        {
+          "rule": "Abomination",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 2+ (against Psychic Attacks)",
+              "text": "This model has the Feel No Pain 2+ ability against Psychic Attacks."
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "fac5-a242-951a-e1b2",
@@ -32570,7 +32607,21 @@
           "bee9-172b-7db7-f748",
           "22f0-a7d8-b2b6-e26"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Lifewards",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While this unit contains one or more Geminae Superia models, Celestine has the Feel No Pain 4+ ability."
+            }
+          ],
+          "model": "Saint Celestine",
+          "contains": "Geminae Superia"
+        }
+      ]
     },
     {
       "id": "eade-6ec7-7236-bfdb",
