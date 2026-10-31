@@ -392,6 +392,22 @@
           "text": "- Friendly **WAGON** units can re-roll **charge rolls**.\n- When a friendly **WAGON** unit is selected to make an **advance move**, that unit can change **advance rolls** to a 6."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Unstoppable Momentum",
+          "who": [
+            [
+              "Wagon"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": "reroll"
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Impending Krunch",
@@ -514,6 +530,52 @@
           "text": "In your Shooting phase, when a friendly **BREAKA BOYZ/FLASH GITZ/TANKBUSTAS** unit is **selected to shoot**, if any of the following apply, that unit's attacks can re-roll **hit rolls** of 1:\n- That unit is within range of an **objective**.\n- The target of that attack is within range of an **objective**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Wreckin' and Lootin'",
+          "who": [
+            [
+              "Breaka Boyz"
+            ],
+            [
+              "Flash Gitz"
+            ],
+            [
+              "Tankbustas"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "In your Shooting phase, when a friendly BREAKA BOYZ/FLASH GITZ/TANKBUSTAS unit is selected to shoot, if any of the following apply, that unit's attacks can re-roll hit rolls of 1 That unit is within range of an objective."
+            }
+          ],
+          "condition": "In your Shooting phase, when a friendly BREAKA BOYZ/FLASH GITZ/TANKBUSTAS unit is selected to shoot, if any of the following apply, that unit's attacks can re-roll hit rolls of 1 That unit is within range of an objective."
+        },
+        {
+          "rule": "Wreckin' and Lootin'",
+          "who": [
+            [
+              "Breaka Boyz"
+            ],
+            [
+              "Flash Gitz"
+            ],
+            [
+              "Tankbustas"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "In your Shooting phase, when a friendly BREAKA BOYZ/FLASH GITZ/TANKBUSTAS unit is selected to shoot, if any of the following apply, that unit's attacks can re-roll hit rolls of 1 The target of that attack is within range of an objective."
+            }
+          ],
+          "condition": "In your Shooting phase, when a friendly BREAKA BOYZ/FLASH GITZ/TANKBUSTAS unit is selected to shoot, if any of the following apply, that unit's attacks can re-roll hit rolls of 1 The target of that attack is within range of an objective."
+        }
+      ],
       "stratagems": [
         {
           "name": "Gun-crazy Show-offs",
@@ -568,6 +630,30 @@
         {
           "name": "Skyborne Loons",
           "text": "- Friendly **ORKS AIRCRAFT** do not count towards the combined points value of your **strategic reserves** units.\n- While a friendly **ORKS AIRCRAFT/DEFFKOPTAS** unit is **riled up**, this unit's ranged attacks have +1 to **hit rolls**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Skyborne Loons",
+          "who": [
+            [
+              "Orks",
+              "Aircraft"
+            ],
+            [
+              "Orks",
+              "Deffkoptas"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "While a friendly ORKS AIRCRAFT/DEFFKOPTAS unit is riled up, this unit's ranged attacks have +1 to hit rolls."
+            }
+          ],
+          "condition": "While a friendly ORKS AIRCRAFT/DEFFKOPTAS unit is riled up, this unit's ranged attacks have +1 to hit rolls."
         }
       ],
       "stratagems": [
@@ -1293,7 +1379,19 @@
           "e3b1-1240-2476-cd86",
           "b16a-7132-3f8a-abe5"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Waaagh! Banner",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "5134-5fe9-e489-43c4",
@@ -1495,6 +1593,21 @@
           "type": "Transport",
           "name": "Bastion",
           "text": "This FORTIFICATION has a transport capacity of 15 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -2088,7 +2201,19 @@
         "unitIds": [
           "b7c3-d00e-daf2-76fb"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Dodge Dis!",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "a8b7-351-d911-a4d6",
@@ -3706,7 +3831,20 @@
           "a596-3d99-257e-0ea1",
           "b16a-7132-3f8a-abe5"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Sumfin’ to Prove",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "a20-d3af-2c3e-3267",
@@ -4119,7 +4257,32 @@
         "unitIds": [
           "4adf-8249-c6b2-dd4f"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Drill Boss",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee"
+            }
+          ]
+        },
+        {
+          "rule": "Plummeting Descent",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": "reroll",
+              "condition": "If this unit made an ingress move this turn, this unit can re-roll charge rolls."
+            }
+          ],
+          "condition": "If this unit made an ingress move this turn, this unit can re-roll charge rolls."
+        }
+      ]
     },
     {
       "id": "e3b1-1240-2476-cd86",
@@ -4719,6 +4882,19 @@
       ],
       "selfEffects": [
         {
+          "rule": "Ammo Runts (Once per battle, per unit)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "If you do, this unit's ranged attacks have +1 to hit rolls."
+            }
+          ],
+          "condition": "If you do, this unit's ranged attacks have +1 to hit rolls."
+        },
+        {
           "rule": "Tide of Muscle",
           "stats": [
             {
@@ -5107,6 +5283,18 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Trophy Hunters",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -5366,7 +5554,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Pyromaniaks",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "This unit's attacks that target a unit within 6\" of this unit can re-roll wound rolls of 1."
+            }
+          ],
+          "condition": "This unit's attacks that target a unit within 6\" of this unit can re-roll wound rolls of 1."
+        }
+      ]
     },
     {
       "id": "93a1-386a-e40f-472f",
@@ -6043,6 +6245,21 @@
             "f0ef-58b5-5e72-228d"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-15 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -6407,7 +6624,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Strafing Run",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "In your Shooting phase, this unit's ranged attacks that target a unit (excluding FLY units) have +1 to hit rolls."
+            }
+          ],
+          "condition": "In your Shooting phase, this unit's ranged attacks that target a unit (excluding FLY units) have +1 to hit rolls."
+        }
+      ]
     },
     {
       "id": "1594-b986-e77e-d89d",
@@ -6905,7 +7137,19 @@
         "unitIds": [
           "83a7-ea20-ed9-d14a"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Fuel-mixa Grot",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "advance",
+              "mod": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "2d6e-aa3b-c28c-5ef0",
@@ -7151,6 +7395,21 @@
           "weaponIds": [
             "d137-294e-49d2-53a9"
           ]
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Deff from Above",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "In your Shooting phase, if this unit made an ingress move this turn, this unit's ranged attacks have +1 to hit rolls."
+            }
+          ],
+          "condition": "In your Shooting phase, if this unit made an ingress move this turn, this unit's ranged attacks have +1 to hit rolls."
         }
       ]
     },
@@ -7765,6 +8024,21 @@
           "name": "Fortress of Redemption",
           "text": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -8352,6 +8626,19 @@
           "type": "Transport",
           "name": "Gorkanaut",
           "text": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models It cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Big an’ Stompy",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "melee"
+            }
+          ]
         }
       ]
     },
@@ -9723,6 +10010,21 @@
           "type": "Transport",
           "name": "Gunwagon",
           "text": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models. Each **GHAZGHKULL THRAKA** model takes up the space of 4 models."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Mobile Arsenal",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "ranged",
+              "condition": "In your Shooting phase, this unit's ranged attacks can re-roll hit rolls of 1."
+            }
+          ],
+          "condition": "In your Shooting phase, this unit's ranged attacks can re-roll hit rolls of 1."
         }
       ]
     },
@@ -11619,6 +11921,21 @@
           "name": "Imperial Fortress Walls",
           "text": "This FORTIFICATION has a transport capacity of 65 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-30 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-30 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-30 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -11778,7 +12095,20 @@
         "unitIds": [
           "1de9-b138-28a1-9c4b"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Flashiest Gitz",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "ranged"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "eb21-c97f-2d9a-b363",
@@ -12602,6 +12932,20 @@
           "fromCopy": 3,
           "points": 40
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Spiteful Power Trip",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "This unit's attacks that target a unit that has no models with a T of 7+ have +1 to hit rolls."
+            }
+          ],
+          "condition": "This unit's attacks that target a unit that has no models with a T of 7+ have +1 to hit rolls."
+        }
       ]
     },
     {
@@ -13012,7 +13356,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Nowhere to Hide",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "This unit's attacks that target a hidden unit have +1 to hit rolls."
+            }
+          ],
+          "condition": "This unit's attacks that target a hidden unit have +1 to hit rolls."
+        }
+      ]
     },
     {
       "id": "afab-635c-23c5-cacc",
@@ -13544,6 +13902,32 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Dat’s Our Loot",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "ranged"
+            }
+          ]
+        },
+        {
+          "rule": "Dat’s Our Loot",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "This unit's ranged attacks that target a unit within range of an objective can re-roll hit rolls."
+            }
+          ],
+          "condition": "This unit's ranged attacks that target a unit within range of an objective can re-roll hit rolls."
+        }
       ]
     },
     {
@@ -13691,6 +14075,21 @@
           "type": "Transport",
           "name": "Macro-cannon Aquila Strongpoint",
           "text": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -14213,6 +14612,20 @@
         {
           "fromCopy": 3,
           "points": 40
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Krumpin’ Time",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "In the Fight phase, if this unit is riled up, this unit has +1 to hit rolls."
+            }
+          ],
+          "condition": "In the Fight phase, if this unit is riled up, this unit has +1 to hit rolls."
         }
       ]
     },
@@ -14889,6 +15302,21 @@
           "type": "Transport",
           "name": "Morkanaut",
           "text": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models. In cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Big an’ Shooty",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "ranged",
+              "condition": "In your Shooting phase, this unit's ranged attacks can re-roll hit rolls of 1."
+            }
+          ],
+          "condition": "In your Shooting phase, this unit's ranged attacks can re-roll hit rolls of 1."
         }
       ]
     },
@@ -15633,6 +16061,21 @@
             "a699-e1c3-e17f-5098"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Ammo Runts (Once per battle, per unit)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "If you do, this unit's ranged attacks have +1 to hit rolls."
+            }
+          ],
+          "condition": "If you do, this unit's ranged attacks have +1 to hit rolls."
+        }
       ]
     },
     {
@@ -15748,7 +16191,22 @@
           "b7c3-d00e-daf2-76fb",
           "6a83-8e1f-63ef-50c3"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Hardy Bioniks",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": -1,
+              "against": true,
+              "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+            }
+          ],
+          "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+        }
+      ]
     },
     {
       "id": "7669-1442-2c0b-e0c9",
@@ -15994,6 +16452,21 @@
           "type": "Transport",
           "name": "Plasma Obliterator",
           "text": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -16443,7 +16916,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "a856-30b7-e56d-57db",
@@ -16985,7 +17473,26 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Threat Level Rising",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+            },
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+        }
+      ]
     },
     {
       "id": "6a83-8e1f-63ef-50c3",
@@ -20212,6 +20719,21 @@
           "name": "Vortex Missile Strongpoint",
           "text": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -21031,6 +21553,20 @@
           ],
           "onlyModel": true,
           "condition": "If this unit made a charge move this turn, this model's melee attacks have +2 S."
+        },
+        {
+          "rule": "Boss' Ammo Runt (Once per battle, per unit)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "If you do, this model's ranged attacks have +1 to hit rolls."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If you do, this model's ranged attacks have +1 to hit rolls."
         }
       ]
     },
@@ -21381,7 +21917,20 @@
         "unitIds": [
           "83a7-ea20-ed9-d14a"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Speedboss",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "e969-cbc8-60a6-affb",
@@ -23515,6 +24064,21 @@
         {
           "fromCopy": 3,
           "points": 20
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Go fer da Weak Spot",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "In your Shooting phase, this unit's ranged attacks that target a MONSTER/VEHICLE unit have +1 to wound rolls."
+            }
+          ],
+          "condition": "In your Shooting phase, this unit's ranged attacks that target a MONSTER/VEHICLE unit have +1 to wound rolls."
         }
       ]
     },

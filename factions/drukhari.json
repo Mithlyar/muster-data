@@ -145,6 +145,27 @@
           "text": "At the start of the battle, Drukhari units from your army are winning the wager.\nEach time a Drukhari unit from your army destroys an enemy unit, Drukhari units from your army are winning the wager.\nEach time a Harlequins unit from your army destroys an enemy unit, Harlequin units from your army are winning the wager.\nWhile Drukhari units from your army are winning the wager, Harlequin units from your army are losing the wager, and vice versa.\nEach time a Drukhari or Harlequins model from your army makes an attack, if that model’s unit is winning the wager, re-roll a Hit roll of 1. If that model's unit is losing the wager, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 instead."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Callous Competition",
+          "who": [
+            [
+              "Drukhari"
+            ],
+            [
+              "Harlequins"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Each time a Drukhari or Harlequins model from your army makes an attack, if that model's unit is winning the wager, re-roll a Hit roll of 1."
+            }
+          ],
+          "condition": "Each time a Drukhari or Harlequins model from your army makes an attack, if that model's unit is winning the wager, re-roll a Hit roll of 1."
+        }
+      ],
       "stratagems": [
         {
           "name": "Murderer’s Circus",
@@ -201,6 +222,25 @@
         {
           "name": "Stitchflesh Abominations",
           "text": "Each time an attack targets a **^^Haemonculus Covens^^** unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Stitchflesh Abominations",
+          "who": [
+            [
+              "Haemonculus",
+              "Covens"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": -1,
+              "condition": "Each time an attack targets a Haemonculus Covens unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+            }
+          ],
+          "condition": "Each time an attack targets a Haemonculus Covens unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
         }
       ],
       "stratagems": [
@@ -560,6 +600,27 @@
         {
           "name": "Darkest Artifice",
           "text": "Attacks that target friendly **CRONOS/TALOS** units with a **S** greater than that unit’s **T** have ‑1 to **wound rolls**.\n\n\nThis **detachment** has the **COVENS** tag and cannot be taken with another **COVENS detachment**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Darkest Artifice",
+          "who": [
+            [
+              "Cronos"
+            ],
+            [
+              "Talos"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": -1,
+              "condition": "Attacks that target friendly CRONOS/TALOS units with a S greater than that unit's T have -1 to wound rolls."
+            }
+          ],
+          "condition": "Attacks that target friendly CRONOS/TALOS units with a S greater than that unit's T have -1 to wound rolls."
         }
       ],
       "stratagems": [
@@ -2094,7 +2155,21 @@
         "unitIds": [
           "edca-1a1b-902d-421a"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Cruel Example",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets a CHARACTER unit, you can add 1 to the Wound roll."
+            }
+          ],
+          "condition": "Each time this model makes an attack that targets a CHARACTER unit, you can add 1 to the Wound roll."
+        }
+      ]
     },
     {
       "id": "f99a-af49-64c0-9bed",
@@ -2317,7 +2392,39 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Beastmaster",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": "reroll"
+            }
+          ],
+          "contains": "Beastmaster"
+        },
+        {
+          "rule": "Goaded Savagery (Pain)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "melee",
+              "condition": "when chosen: While this unit is Empowered, if it contains a Beastmaster model, each time a Beast model in this unit makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "kind": "melee",
+              "condition": "when chosen: While this unit is Empowered, if it contains a Beastmaster model, each time a Beast model in this unit makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            }
+          ],
+          "condition": "when chosen: While this unit is Empowered, if it contains a Beastmaster model, each time a Beast model in this unit makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        }
+      ]
     },
     {
       "id": "790d-9fdf-b359-62ba",
@@ -4857,7 +4964,20 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Reavers of the Void",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+        }
+      ]
     },
     {
       "id": "cbb7-6669-a014-36fe",
@@ -5977,6 +6097,20 @@
             }
           ],
           "condition": "when chosen: While this unit is Empowered If it contains one or more Medusae models, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability."
+        },
+        {
+          "rule": "Deadly Retinue (Pain)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": -1,
+              "against": true,
+              "kind": "melee",
+              "condition": "when chosen: While this unit is Empowered If it contains one or more Sslyth models, each time a melee attack targets this unit, subtract 1 from the Wound roll."
+            }
+          ],
+          "condition": "when chosen: While this unit is Empowered If it contains one or more Sslyth models, each time a melee attack targets this unit, subtract 1 from the Wound roll."
         }
       ]
     },
@@ -6379,7 +6513,21 @@
         "unitIds": [
           "1529-793d-481b-82bf"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Silent Executioner",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "Each time this model make an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll."
+            }
+          ],
+          "condition": "Each time this model make an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll."
+        }
+      ]
     },
     {
       "id": "b5a1-7e2b-7a1d-bbda",
@@ -8838,6 +8986,21 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Tormentors",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee",
+              "condition": "Each time a model in this unit makes a melee attack that targets a Battle-shocked unit, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time a model in this unit makes a melee attack that targets a Battle-shocked unit, add 1 to the Hit roll."
+        }
       ]
     },
     {
@@ -9401,7 +9564,21 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Sadistic Raiders (Pain)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "when chosen: While Empowered, each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+            }
+          ],
+          "condition": "when chosen: While Empowered, each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+        }
+      ]
     },
     {
       "id": "4273-173c-e850-4071",
@@ -10136,6 +10313,14 @@
           "cc68-ad19-7285-7a11",
           "cbb7-6669-a014-36fe"
         ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1
+          }
+        ]
       }
     },
     {
@@ -10331,6 +10516,20 @@
           "name": "Visions of Butchery",
           "text": "While one or more ^^**Wracks**^^ units are embarked within this model, for each ^^**Wracks**^^ model embarked within this model, add 1 to the Attacks characteristic of this model's Bladevanes and chainsnares."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Splinter Racks (Pain)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "when chosen: While Empowered, if one or more units are embarked within this model, each time this model makes an attack with a ranged weapon that has the Anti ability, you can re-roll the Hit roll."
+            }
+          ],
+          "condition": "when chosen: While Empowered, if one or more units are embarked within this model, each time this model makes an attack with a ranged weapon that has the Anti ability, you can re-roll the Hit roll."
+        }
       ]
     },
     {
@@ -10494,7 +10693,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "28c1-2c51-ab58-2d91",
@@ -11054,7 +11268,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "2c3a-9752-2516-69ab",
@@ -12209,6 +12438,20 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Winged Strike (Pain)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "when chosen: While Empowered, each time a model in this unit makes a range attack, you can re-roll the Hit roll."
+            }
+          ],
+          "condition": "when chosen: While Empowered, each time a model in this unit makes a range attack, you can re-roll the Hit roll."
+        }
       ]
     },
     {
@@ -13054,7 +13297,23 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Acrobatic Grace",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "against": true,
+              "kind": "melee",
+              "condition": "Melee attacks that target this unit have -1 to hit rolls."
+            }
+          ],
+          "condition": "Melee attacks that target this unit have -1 to hit rolls."
+        }
+      ]
     },
     {
       "id": "f88f-60c5-3daf-3d2f",
@@ -13535,7 +13794,28 @@
             "fromText": true
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Bloody Spectacle",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "melee",
+              "condition": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "kind": "melee",
+              "condition": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            }
+          ],
+          "condition": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        }
+      ]
     },
     {
       "id": "5c5f-b70b-f6ee-a81e",
@@ -14063,6 +14343,21 @@
           "type": "Transport",
           "name": "Tantalus",
           "text": "This model has a transport capacity of 16 ^^**Drukhari Infantry**^^ models. Each ^^**Grotesque**^^ model takes up the space of 3 models. This model cannot transport models that can ^^**Fly**^^."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -14662,6 +14957,45 @@
             "a290-45ae-dc73-9c30"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Dance of Death",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Hero's Prowess: Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+            }
+          ],
+          "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Hero's Prowess: Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+        },
+        {
+          "rule": "Dance of Death",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Villain's Doom: Each time a model in this unit makes an attack, add 1 to the Wound roll."
+            }
+          ],
+          "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Villain's Doom: Each time a model in this unit makes an attack, add 1 to the Wound roll."
+        },
+        {
+          "rule": "Dance of Death",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "against": true,
+              "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Trickster's Grace: Each time an attack targets this unit, subtract 1 from the Hit roll."
+            }
+          ],
+          "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Trickster's Grace: Each time an attack targets this unit, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -14930,7 +15264,26 @@
         "unitIds": [
           "dac1-6a7f-a06a-82cf"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Cegorach’s Favour",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "melee"
+            },
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "melee"
+            }
+          ],
+          "condition": "Each time this model makes a melee attack you can re-roll a Hit roll of 1 and add 1 to the Wound roll."
+        }
+      ]
     },
     {
       "id": "76c4-e2ba-e247-560e",
@@ -15489,7 +15842,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "e011-d99d-f0de-5289",

@@ -219,6 +219,27 @@
           "rule": "Shepherds of the Dead",
           "who": [
             [
+              "Wraith Construct"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time a Wraith Construct model from your army makes an attack that targets a unit with one or more Vengeful Dead tokens, add 1 to the Hit roll and add 1 to the Wound roll."
+            },
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time a Wraith Construct model from your army makes an attack that targets a unit with one or more Vengeful Dead tokens, add 1 to the Hit roll and add 1 to the Wound roll."
+            }
+          ],
+          "condition": "Each time a Wraith Construct model from your army makes an attack that targets a unit with one or more Vengeful Dead tokens, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "rule": "Shepherds of the Dead",
+          "who": [
+            [
               "Wraithblades"
             ],
             [
@@ -286,6 +307,33 @@
         {
           "name": "Defend at All Costs",
           "text": "Each time a Dire Avenger, Guardian, Support Weapon or War Walker model from your army makes an attack, if that model's unit and/or the target unit are within range of one or more objective markers, add 1 to the Hit roll."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Defend at All Costs",
+          "who": [
+            [
+              "Dire Avengers"
+            ],
+            [
+              "Guardians"
+            ],
+            [
+              "Support Weapon"
+            ],
+            [
+              "War Walkers"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time a Dire Avenger, Guardian, Support Weapon or War Walker model from your army makes an attack, if that model's unit and/or the target unit are within range of one or more objective markers, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time a Dire Avenger, Guardian, Support Weapon or War Walker model from your army makes an attack, if that model's unit and/or the target unit are within range of one or more objective markers, add 1 to the Hit roll."
         }
       ],
       "stratagems": [
@@ -552,6 +600,46 @@
           "text": "Each time an Aspect Warriors or Avatar of Khaine unit from your army is selected to shoot or fight, select one of the following abilities for it to gain until the end of the phase:\n\n■ Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n■ Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Path of the Warrior",
+          "who": [
+            [
+              "Aspect Warrior"
+            ],
+            [
+              "Avatar of Khaine"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "when chosen: Each time an Aspect Warriors or Avatar of Khaine unit from your army is selected to shoot or fight, select one of the following abilities for it to gain until the end of the phase Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+            }
+          ],
+          "condition": "when chosen: Each time an Aspect Warriors or Avatar of Khaine unit from your army is selected to shoot or fight, select one of the following abilities for it to gain until the end of the phase Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+        },
+        {
+          "rule": "Path of the Warrior",
+          "who": [
+            [
+              "Aspect Warrior"
+            ],
+            [
+              "Avatar of Khaine"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "when chosen: Each time an Aspect Warriors or Avatar of Khaine unit from your army is selected to shoot or fight, select one of the following abilities for it to gain until the end of the phase Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+            }
+          ],
+          "condition": "when chosen: Each time an Aspect Warriors or Avatar of Khaine unit from your army is selected to shoot or fight, select one of the following abilities for it to gain until the end of the phase Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+        }
+      ],
       "stratagems": [
         {
           "name": "Preternatural Precision",
@@ -719,6 +807,30 @@
         {
           "name": "Veterans of the Void",
           "text": "Each time you add an ^^**Anhrathe**^^ unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Yriel's Own",
+          "who": [
+            [
+              "Anhrathe"
+            ],
+            [
+              "Rangers"
+            ],
+            [
+              "Shroud Runners"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "advance",
+              "mod": "reroll",
+              "condition": "In addition, each time an Anhrathe, Rangers or Shroud Runners unit from your army Advances, you can re-roll the Advance roll."
+            }
+          ],
+          "condition": "In addition, each time an Anhrathe, Rangers or Shroud Runners unit from your army Advances, you can re-roll the Advance roll."
         }
       ],
       "stratagems": [
@@ -2039,6 +2151,15 @@
           "5452-c4a7-59fb-f05c",
           "c90f-a8e5-6afa-eb91"
         ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "advance",
+            "mod": "reroll",
+            "condition": "While this model is leading a unit, you can re-roll Advance rolls made for that unit, and you can re-roll any rolls made for that unit while it is performing an Agile Manoeuvre."
+          }
+        ]
       }
     },
     {
@@ -2777,7 +2898,22 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "8732-df2f-a542-805f",
@@ -5981,7 +6117,20 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Reavers of the Void",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+        }
+      ]
     },
     {
       "id": "cbb7-6669-a014-36fe",
@@ -7507,7 +7656,24 @@
           "5452-c4a7-59fb-f05c",
           "d61-c058-6bd1-112f"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Guided by Fate",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll"
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll"
+            }
+          ],
+          "condition": "Each time this model makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        }
+      ]
     },
     {
       "id": "90c9-aaac-5ef8-f043",
@@ -7676,7 +7842,41 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Skyhunter",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll and add 1 to the Wound roll."
+            },
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll and add 1 to the Wound roll."
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "82ac-7d93-df55-5504",
@@ -9297,6 +9497,21 @@
           "name": "Falcon",
           "text": "This model has a transport capacity of 6 **AELDARI INFANTRY** models. Each **WRAITH CONSTRUCT** model takes the space of 2 models. It cannot transport **JUMP PACK** models or **YNNARI** models (excluding **ASURYANI**, **YVRAINE** and **THE VISARCH** models)."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -10114,6 +10329,27 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Assured Destruction",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "In your Shooting phase, each time a model in this unit makes a ranged attack that targets a Monster or Vehicle unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "In your Shooting phase, each time a model in this unit makes a ranged attack that targets a Monster or Vehicle unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+            }
+          ],
+          "condition": "In your Shooting phase, each time a model in this unit makes a ranged attack that targets a Monster or Vehicle unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+        }
       ]
     },
     {
@@ -10304,7 +10540,39 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "rule": "Crystal Matrix",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "rerollOne",
+              "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll and you can re-roll one Wound roll when resolving those attacks."
+            },
+            {
+              "roll": "wound",
+              "mod": "rerollOne",
+              "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll and you can re-roll one Wound roll when resolving those attacks."
+            }
+          ],
+          "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll and you can re-roll one Wound roll when resolving those attacks."
+        }
+      ]
     },
     {
       "id": "d11f-239d-94b4-c194",
@@ -10485,6 +10753,21 @@
           "type": "Transport",
           "name": "Firestorm",
           "text": "This model has a transport capacity of 6 Aeldari Infantry models. Each Wraith Construct model takes the space of 2 models. It cannot transport Jump Pack models"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -11371,7 +11654,24 @@
           "name": "Deadly Demise 1"
         }
       ],
-      "narrative": "Crucible"
+      "narrative": "Crucible",
+      "selfEffects": [
+        {
+          "rule": "Awakened Spirit",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll1"
+            }
+          ],
+          "condition": "Each time this model makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        }
+      ]
     },
     {
       "id": "e78a-4442-4ed2-66bf",
@@ -11743,7 +12043,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "1224-8735-46d-1919",
@@ -12512,6 +12827,14 @@
         "unitIds": [
           "b98b-701f-9c0c-5437"
         ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll"
+          }
+        ]
       }
     },
     {
@@ -12633,6 +12956,14 @@
       "leader": {
         "unitIds": [
           "9c94-b663-fd31-6001"
+        ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1
+          }
         ]
       }
     },
@@ -12762,7 +13093,21 @@
         "unitIds": [
           "7fcb-9262-474a-7cec"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Storm of Silence",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack that targets a Character unit, you can re-roll the Wound roll."
+            }
+          ],
+          "condition": "Each time this model makes an attack that targets a Character unit, you can re-roll the Wound roll."
+        }
+      ]
     },
     {
       "id": "c9ed-d190-419c-78d3",
@@ -12906,6 +13251,14 @@
       "leader": {
         "unitIds": [
           "c90f-a8e5-6afa-eb91"
+        ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1
+          }
         ]
       }
     },
@@ -13602,6 +13955,19 @@
       },
       "selfEffects": [
         {
+          "rule": "Damaged: 1-5 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
           "rule": "Speed of Vaul",
           "stats": [
             {
@@ -13915,6 +14281,21 @@
           "fromCopy": 3,
           "points": 30
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -14042,7 +14423,35 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "rule": "Interceptor",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
+        }
+      ]
     },
     {
       "id": "79b3-2cd1-d7b4-d7b1",
@@ -14470,6 +14879,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-16 wounds remaining, subtract 10 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-16 wounds remaining, subtract 10 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         },
@@ -14641,7 +15057,35 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Strafing Run",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
+        },
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "54dc-aa1f-817a-a5c5",
@@ -14791,6 +15235,14 @@
           "758b-bfd2-96ed-52b",
           "cc68-ad19-7285-7a11",
           "cbb7-6669-a014-36fe"
+        ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1
+          }
         ]
       }
     },
@@ -15227,6 +15679,13 @@
               "op": "add",
               "value": -8,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 8 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -17066,6 +17525,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-6 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -18030,7 +18496,23 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Acrobatic Grace",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "against": true,
+              "kind": "melee",
+              "condition": "Melee attacks that target this unit have -1 to hit rolls."
+            }
+          ],
+          "condition": "Melee attacks that target this unit have -1 to hit rolls."
+        }
+      ]
     },
     {
       "id": "f88f-60c5-3daf-3d2f",
@@ -20318,6 +20800,45 @@
             "a290-45ae-dc73-9c30"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Dance of Death",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Hero's Prowess: Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+            }
+          ],
+          "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Hero's Prowess: Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+        },
+        {
+          "rule": "Dance of Death",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Villain's Doom: Each time a model in this unit makes an attack, add 1 to the Wound roll."
+            }
+          ],
+          "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Villain's Doom: Each time a model in this unit makes an attack, add 1 to the Wound roll."
+        },
+        {
+          "rule": "Dance of Death",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "against": true,
+              "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Trickster's Grace: Each time an attack targets this unit, subtract 1 from the Hit roll."
+            }
+          ],
+          "condition": "when chosen: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase Trickster's Grace: Each time an attack targets this unit, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -20594,7 +21115,26 @@
         "unitIds": [
           "dac1-6a7f-a06a-82cf"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Cegorach’s Favour",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "melee"
+            },
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "melee"
+            }
+          ],
+          "condition": "Each time this model makes a melee attack you can re-roll a Hit roll of 1 and add 1 to the Wound roll."
+        }
+      ]
     },
     {
       "id": "22ea-9a4-cda3-a24",
@@ -20747,7 +21287,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "4016-44d3-c64b-cc1a",
@@ -20888,7 +21443,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "5df4-e13a-f6f4-b672",
@@ -22145,7 +22715,22 @@
           "e78a-4442-4ed2-66bf",
           "5452-c4a7-59fb-f05c"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Protect (Psychic)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": -1,
+              "against": true,
+              "condition": "While a Farseer model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+            }
+          ],
+          "condition": "While a Farseer model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+        }
+      ]
     },
     {
       "id": "f52d-1814-7d66-1f7b",
@@ -22659,7 +23244,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "57ec-47a8-a59a-6a46",
@@ -23613,6 +24213,36 @@
           "name": "Wave Serpent",
           "text": "This model has a transport capacity of 12 **ASURYANI INFANTRY** models. Each **WRAITH CONSTRUCT** model takes the space of 2 models. It cannot transport **JUMP PACK** models or **YNNARI** models (excluding **ASURYANI**, **YVRAINE** and **THE VISARCH** models)."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Wave Serpent Shield",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": -1,
+              "against": true,
+              "kind": "ranged",
+              "condition": "Each time a ranged attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time a ranged attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
+        },
+        {
+          "rule": "Damaged: 1-4 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -23873,7 +24503,21 @@
         "incursion": 3,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Swift Demise",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "ranged"
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1."
+        }
+      ]
     },
     {
       "id": "bb4f-4359-cc16-e6d5",
@@ -24475,6 +25119,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-6 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -24751,6 +25402,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -25112,7 +25770,26 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Fated Hero",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "when chosen: Each time this model makes an attack that targets a unit with the selected keyword, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "when chosen: Each time this model makes an attack that targets a unit with the selected keyword, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            }
+          ],
+          "condition": "when chosen: Each time this model makes an attack that targets a unit with the selected keyword, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        }
+      ]
     },
     {
       "id": "b369-a813-75ac-2dc6",
@@ -25615,6 +26292,14 @@
         "unitIds": [
           "5bf7-f905-8fab-43b4",
           "807b-0b72-5908-a3d4"
+        ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll1"
+          }
         ]
       }
     },

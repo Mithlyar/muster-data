@@ -29,6 +29,24 @@
           "text": "Certain areas of the battlefield are within your army’s Flow of Magic, as follows: \n- Your deployment zone is always within your army’s Flow of Magic.\n- At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Flow of Magic. \n- At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Flow of Magic. \n\n\nEach time a Thousand Sons model from your army makes a Psychic Attack, re‑roll a Wound roll of 1. If such a model is wholly within your army’s Flow of Magic, each time it makes a Psychic Attack, add 1 to the Wound roll instead."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Flow of Magic",
+          "who": [
+            [
+              "Thousand Sons"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "Each time a Thousand Sons model from your army makes a Psychic Attack, re-roll a Wound roll of 1."
+            }
+          ],
+          "condition": "Each time a Thousand Sons model from your army makes a Psychic Attack, re-roll a Wound roll of 1."
+        }
+      ],
       "stratagems": [
         {
           "name": "Kaleidoscopic Tempest",
@@ -110,6 +128,22 @@
             }
           ],
           "condition": "when Imbued Manifestation is chosen"
+        },
+        {
+          "rule": "Kindred Sorcery",
+          "who": [
+            [
+              "Thousand Sons"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "when Psychic Maelstrom is chosen"
+            }
+          ],
+          "condition": "when Psychic Maelstrom is chosen"
         },
         {
           "rule": "Kindred Sorcery",
@@ -280,6 +314,53 @@
           "rule": "Warpmeld Sacrifice",
           "who": [
             [
+              "Tzeentch",
+              "Mutant",
+              "Infantry"
+            ],
+            [
+              "Tzeentch",
+              "Mutant",
+              "Mounted"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": -1,
+              "against": true,
+              "condition": "If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll."
+            }
+          ],
+          "condition": "If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll."
+        },
+        {
+          "rule": "Warpmeld Sacrifice",
+          "who": [
+            [
+              "Tzeentch",
+              "Mutant",
+              "Infantry"
+            ],
+            [
+              "Tzeentch",
+              "Mutant",
+              "Mounted"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll."
+            }
+          ],
+          "condition": "If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll."
+        },
+        {
+          "rule": "Warpmeld Sacrifice",
+          "who": [
+            [
               "Tzaangors"
             ]
           ],
@@ -422,6 +503,25 @@
         {
           "name": "Warpfire Infusion",
           "text": "Each time a ^^**Thousand Sons Vehicle^^** unit from your army is selected to shoot or fight, apply one of the following when resolving those attacks.\n- If that ^^**Vehicle^^** unit is within 6\" of one or more friendly ^^**Thousand Sons Psyker^^** models, you can re-roll one Hit roll, one Wound roll and one Damage roll.\n- Otherwise, you can re-roll one Hit roll, one Wound roll or one Damage roll.\n\n\nEach time a ^^**Thousand Sons Vehicle^^** model from your army with the Deadly Demise ability is destroyed while it is within 6\" of one or more friendly ^^**Thousand Sons Psyker^^** models, that model's Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of only a 6."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Warpfire Infusion",
+          "who": [
+            [
+              "Thousand Sons",
+              "Psyker"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "rerollOne",
+              "condition": "when chosen: If that Vehicle unit is within 6\" of one or more friendly Thousand Sons Psyker models, you can re-roll one Hit roll, one Wound roll and one Damage roll."
+            }
+          ],
+          "condition": "when chosen: If that Vehicle unit is within 6\" of one or more friendly Thousand Sons Psyker models, you can re-roll one Hit roll, one Wound roll and one Damage roll."
         }
       ],
       "stratagems": [
@@ -1569,6 +1669,21 @@
           "type": "Transport",
           "name": "Bastion",
           "text": "This FORTIFICATION has a transport capacity of 15 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -3167,6 +3282,14 @@
         "unitIds": [
           "f5b9-50c8-5c60-d8ea"
         ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1
+          }
+        ]
       }
     },
     {
@@ -3784,6 +3907,21 @@
             "f0ef-58b5-5e72-228d"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-15 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -4059,6 +4197,21 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -4303,6 +4456,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -4612,6 +4772,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         },
@@ -4811,6 +4978,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -5021,6 +5195,18 @@
       ],
       "selfEffects": [
         {
+          "rule": "Macro-extinction Protocols",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, add 1 to the Hit roll."
+        },
+        {
           "rule": "Damaged: 1-10 wounds remaining",
           "stats": [
             {
@@ -5029,6 +5215,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -5191,6 +5384,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -5357,6 +5557,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -5621,6 +5828,21 @@
           "type": "Transport",
           "name": "Chaos Land Raider",
           "text": "This model has a transport capacity of 12 ^^**Thousand Sons Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -5917,6 +6139,34 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Ensorcelled Annihilation",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets a Monster or Vehicle unit that was hit by one or more Psychic attacks made by a Thousand Sons Psyker unit from your army this turn, you can re-roll the Hit roll and you can re-roll the Damage roll."
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets a Monster or Vehicle unit that was hit by one or more Psychic attacks made by a Thousand Sons Psyker unit from your army this turn, you can re-roll the Hit roll and you can re-roll the Damage roll."
+        },
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -6235,6 +6485,19 @@
             }
           ],
           "condition": "Each time this model makes a ranged attack that targets a unit (excluding Monsters and Vehicles) that was hit by one or more Psychic attacks made by a Thousand Sons Psyker unit from your army this turn, improve the Strength and Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -6496,6 +6759,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -6764,6 +7034,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -7334,6 +7611,21 @@
           "name": "Chaos Thunderhawk",
           "text": "This model has a transport capacity of 30 <FACTION> INFANTRY or <FACTION> MOUNTED models. Each JUMP PACK, POSSESSED and TERMINATOR model takes up the space of 2 models. Each OBLITERATOR model takes up the space of 3 models. Each MOUNTED model takes up the space of 4 models."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -7568,6 +7860,21 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -7917,6 +8224,35 @@
         {
           "fromCopy": 2,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Hunter of Souls",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Each time this model makes an attack that targets a Character unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 (if that attack targets a Psyker Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll instead)."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "Each time this model makes an attack that targets a Character unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 (if that attack targets a Psyker Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll instead)."
+            },
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack that targets a Character unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 (if that attack targets a Psyker Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll instead)."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack that targets a Character unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 (if that attack targets a Psyker Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll instead)."
+            }
+          ],
+          "condition": "Each time this model makes an attack that targets a Character unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 (if that attack targets a Psyker Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll instead)."
         }
       ]
     },
@@ -8396,6 +8732,21 @@
             "fd72-4efb-3ef6-6368"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -8746,6 +9097,34 @@
         {
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Deredeo Strike",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
+        },
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -9556,6 +9935,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-8 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-8 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -9809,6 +10195,34 @@
         {
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Strafing Run",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
+        },
+        {
+          "rule": "Damaged: 1-6 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -10458,6 +10872,21 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -10638,6 +11067,21 @@
           "type": "Transport",
           "name": "Fortress of Redemption",
           "text": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -11631,7 +12075,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "c4ab-b52d-3ac0-5d56",
@@ -11790,7 +12249,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Interceptor",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+        }
+      ]
     },
     {
       "id": "f6f8-8759-3282-2ab",
@@ -12000,6 +12474,21 @@
           "type": "Transport",
           "name": "Imperial Fortress Walls",
           "text": "This FORTIFICATION has a transport capacity of 65 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-30 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-30 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-30 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -12349,7 +12838,22 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-7 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "a78d-828b-302b-1bec",
@@ -12559,6 +13063,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -12802,6 +13313,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -13354,6 +13872,23 @@
       ],
       "selfEffects": [
         {
+          "rule": "Seething Hatred",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "rerollOne",
+              "condition": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+            },
+            {
+              "roll": "wound",
+              "mod": "rerollOne",
+              "condition": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+            }
+          ],
+          "condition": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+        },
+        {
           "rule": "Damaged: 1-9 wounds remaining",
           "stats": [
             {
@@ -13362,6 +13897,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -13584,6 +14126,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         },
@@ -13779,6 +14328,18 @@
       ],
       "selfEffects": [
         {
+          "rule": "Methodical Destruction",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "when chosen: Each time this model makes an attack that targets its victim, you can re-roll the Wound roll."
+            }
+          ],
+          "condition": "when chosen: Each time this model makes an attack that targets its victim, you can re-roll the Wound roll."
+        },
+        {
           "rule": "Damaged: 1-9 wounds remaining",
           "stats": [
             {
@@ -13787,6 +14348,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -14172,6 +14740,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -14777,6 +15352,21 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -15180,6 +15770,21 @@
           "name": "Land Raider Achilles",
           "text": "This model has a transport capacity of 12 <FACTION> INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -15526,6 +16131,21 @@
           "type": "Transport",
           "name": "Land Raider Proteus (Explorator augury web)",
           "text": "This model has a transport capacity of 6 <FACTION> INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -15905,6 +16525,21 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -16121,6 +16756,21 @@
           "fromCopy": 3,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-7 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -16268,6 +16918,21 @@
           "type": "Transport",
           "name": "Macro-cannon Aquila Strongpoint",
           "text": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -17436,7 +18101,22 @@
           "text": "While a friendly ^^**Thousand Sons^^** unit is within 6\" of this ^^**Psyker^^**, add 2\" to the Move characteristic of models in that unit."
         }
       ],
-      "mustBeWarlord": true
+      "mustBeWarlord": true,
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "e337-7f05-f1b3-d64e",
@@ -17760,6 +18440,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 6 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-10 wounds remaining, subtract 6 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -17933,6 +18620,21 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -18104,6 +18806,21 @@
         {
           "fromCopy": 3,
           "points": 20
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -18405,6 +19122,21 @@
           "type": "Transport",
           "name": "Plasma Obliterator",
           "text": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -18854,7 +19586,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "2aee-e03c-836e-4c6e",
@@ -19400,6 +20147,13 @@
               "op": "add",
               "value": -10,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-20 wounds remaining, subtract 10 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -20334,6 +21088,20 @@
         {
           "fromCopy": 4,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Bringers of Change",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "kind": "ranged"
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1."
         }
       ]
     },
@@ -21470,6 +22238,21 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -21716,6 +22499,21 @@
         {
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -21964,6 +22762,34 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Ferocious Assault",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
+        },
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -22199,6 +23025,21 @@
           "type": "Transport",
           "name": "Sokar-pattern Stormbird",
           "text": "This model has a transport capacity of 55 <FACTION> Infantry or <FACTION> MOUNTED models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each MOUNTED, CENTURION or OBLITERATOR model takes up the space of 3 models. This model can also transport up to 1 RHINO model (this model – and any models embarked within it – take up the space of 25 models)."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-13 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-13 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-13 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -23061,6 +23902,21 @@
           "name": "Spartan",
           "text": "This model has a transport capacity of 28 <FACTION> INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, TERMINATOR or POSSESSED model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -23161,7 +24017,26 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Threat Level Rising",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+            },
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+        }
+      ]
     },
     {
       "id": "3b7d-b14e-603-e1ad",
@@ -23462,6 +24337,21 @@
           "name": "Storm Eagle Gunship",
           "text": "This model has a transport capacity of 22 <FACTION> INFANTRY models and 1 DREADNOUGHT model. Each JUMP PACK, WULFEN, GRAVIS, TERMINATOR or POSSESSED model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -23684,6 +24574,21 @@
           "type": "Transport",
           "name": "Terrax-pattern Termite",
           "text": "This model has a transport capacity of 12 <FACTION> INFANTRY models. It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR, OBLITERATOR, POSSESSED or TACTICUS models (excluding TACTICUS CHARACTER models that began the battle attached to a non-TACTICUS unit)."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -24133,6 +25038,19 @@
             }
           ],
           "condition": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead)."
+        },
+        {
+          "rule": "Damaged: 1-6 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -24607,6 +25525,14 @@
           "1703-3edd-5eb3-fcef",
           "8b9f-917f-37c1-99c3",
           "f5b9-50c8-5c60-d8ea"
+        ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1
+          }
         ]
       }
     },
@@ -25269,6 +26195,21 @@
           "name": "Vortex Missile Strongpoint",
           "text": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -25789,6 +26730,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         },
@@ -25992,6 +26940,18 @@
       },
       "selfEffects": [
         {
+          "rule": "Executioner",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll."
+        },
+        {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [
             {
@@ -26000,6 +26960,13 @@
               "op": "add",
               "value": -3,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -26221,6 +27188,18 @@
       },
       "selfEffects": [
         {
+          "rule": "Huntsman",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
+            }
+          ],
+          "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
+        },
+        {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [
             {
@@ -26229,6 +27208,13 @@
               "op": "add",
               "value": -3,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -26438,6 +27424,20 @@
       },
       "selfEffects": [
         {
+          "rule": "Karnivore",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "advance",
+              "mod": "reroll"
+            },
+            {
+              "roll": "charge",
+              "mod": "reroll"
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [
             {
@@ -26446,6 +27446,13 @@
               "op": "add",
               "value": -3,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -26747,6 +27754,13 @@
               "op": "add",
               "value": -3,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -27067,6 +28081,13 @@
               "op": "add",
               "value": -3,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -27423,6 +28444,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-26 wounds remaining, subtract 10 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-26 wounds remaining, subtract 10 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -27687,6 +28715,13 @@
               "op": "add",
               "value": -8,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-13 wounds remaining, subtract 8 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -28091,6 +29126,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-33 wounds remaining, subtract 15 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-33 wounds remaining, subtract 15 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -28277,6 +29319,21 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -28402,6 +29459,34 @@
         {
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Interceptor",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+        },
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     }

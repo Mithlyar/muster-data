@@ -147,6 +147,24 @@
           "text": "At the start of your Command phase, select one objective marker. Until the start of your next Command phase, that objective marker is your Acquisition objective marker. Each time an ADEPTUS MECHANICUS model from your army makes an attack, if that model’s  unit is within range of your Acquisition objective marker, or if the target of that attack is within range of your Acquisition objective marker, re-roll a Wound roll of 1."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Acquisition at any cost",
+          "who": [
+            [
+              "Adeptus Mechanicus"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "when chosen: Each time an ADEPTUS MECHANICUS model from your army makes an attack, if that model's unit is within range of your Acquisition objective marker, or if the target of that attack is within range of your Acquisition objective marker, re-roll a Wound roll of 1."
+            }
+          ],
+          "condition": "when chosen: Each time an ADEPTUS MECHANICUS model from your army makes an attack, if that model's unit is within range of your Acquisition objective marker, or if the target of that attack is within range of your Acquisition objective marker, re-roll a Wound roll of 1."
+        }
+      ],
       "stratagems": [
         {
           "name": "Priority Reclamation",
@@ -418,6 +436,40 @@
         {
           "name": "Murderous Imperative",
           "text": "Each time a model in a **^^Skitarii^^** unit from your army makes an attack: \n- If the Protector Imperative is active for that unit, re‑roll a Hit roll of 1.\n- If the Conqueror Imperative is active for that unit, re‑roll a Wound roll of 1."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Murderous Imperative",
+          "who": [
+            [
+              "Skitarii"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Each time a model in a Skitarii unit from your army makes an attack If the Protector Imperative is active for that unit, re-roll a Hit roll of 1."
+            }
+          ],
+          "condition": "Each time a model in a Skitarii unit from your army makes an attack If the Protector Imperative is active for that unit, re-roll a Hit roll of 1."
+        },
+        {
+          "rule": "Murderous Imperative",
+          "who": [
+            [
+              "Skitarii"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "Each time a model in a Skitarii unit from your army makes an attack If the Conqueror Imperative is active for that unit, re-roll a Wound roll of 1."
+            }
+          ],
+          "condition": "Each time a model in a Skitarii unit from your army makes an attack If the Conqueror Imperative is active for that unit, re-roll a Wound roll of 1."
         }
       ],
       "stratagems": [
@@ -1147,6 +1199,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         },
@@ -1501,6 +1560,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -2122,7 +2188,33 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Death to the Alien",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "when chosen: This unit's attacks can Re-roll hit rolls of 1."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks can Re-roll hit rolls of 1."
+        },
+        {
+          "rule": "Death to the Alien",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "when chosen: This unit's attacks can If the target of those attacks does not have IMPERIUM/CHAOS, re-roll hit rolls."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks can If the target of those attacks does not have IMPERIUM/CHAOS, re-roll hit rolls."
+        }
+      ]
     },
     {
       "id": "7662-5fde-16f1-5267",
@@ -2816,6 +2908,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         },
@@ -3133,6 +3232,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -3384,6 +3490,13 @@
               "op": "add",
               "value": -3,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -4154,6 +4267,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         },
@@ -4366,6 +4486,18 @@
       ],
       "selfEffects": [
         {
+          "rule": "Macro-extinction Protocols",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
+        },
+        {
           "rule": "Damaged: 1-10 Wounds Remaining",
           "stats": [
             {
@@ -4374,6 +4506,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -4545,6 +4684,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         },
@@ -4712,6 +4858,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -6206,6 +6359,21 @@
           "name": "Corvus Blackstar",
           "text": "This model has a transport capacity of 12 DEATHWATCH INFANTRY models."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -6638,7 +6806,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Malefic Warding",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ],
+          "condition": "While an INQUISITOR model is leading a unit that contains one or more DAEMONHOST models, models in this unit have a 5+ invulnerable save."
+        }
+      ]
     },
     {
       "id": "bbbf-a0fb-d032-3a61",
@@ -8941,6 +9124,19 @@
           "weaponIds": [
             "1fe3-6ce2-0b55-838b"
           ]
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Death to the Alien",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
         }
       ]
     },
@@ -11987,7 +12183,21 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Fortis Doctrines",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+        }
+      ]
     },
     {
       "id": "841-f339-8086-efe2",
@@ -12080,7 +12290,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Electro-Infusion",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": -1,
+              "against": true,
+              "condition": "While a Character model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+            }
+          ],
+          "condition": "While a Character model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+        }
+      ]
     },
     {
       "id": "15c0-9294-7eb8-f3a7",
@@ -13368,7 +13593,20 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Breaching Team",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1"
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+        }
+      ]
     },
     {
       "id": "cbbd-8e0a-fd90-fa0d",
@@ -14054,7 +14292,26 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Indomitor Doctrines",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
+            },
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
+        }
+      ]
     },
     {
       "id": "3e57-b15c-5580-1de1",
@@ -14686,6 +14943,15 @@
           "4469-7239-717e-9abd",
           "6db9-cede-3810-f1f0"
         ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "condition": "While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit that does not have the IMPERIUM or CHAOS keywords, add 1 to the Hit roll."
+          }
+        ]
       }
     },
     {
@@ -15017,6 +15283,13 @@
             "op": "append",
             "value": "Anti-Psyker 4+",
             "fromText": true
+          }
+        ],
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "condition": "While this model is leading a unit, each time a model in that unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll."
           }
         ]
       }
@@ -15860,6 +16133,22 @@
           "6db9-cede-3810-f1f0",
           "d44c-5cde-cb79-3ec3"
         ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": -1,
+            "against": true,
+            "condition": "While this unit is leading a unit, each time a Psychic Attack targets that unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
+          },
+          {
+            "roll": "wound",
+            "mod": -1,
+            "against": true,
+            "condition": "While this unit is leading a unit, each time a Psychic Attack targets that unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
+          }
+        ]
       }
     },
     {
@@ -16299,6 +16588,21 @@
           "modelNames": [
             "Agent w/ mystic stave"
           ]
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Loyal Henchmen",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": -1,
+              "against": true,
+              "condition": "While an INQUISITOR model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+            }
+          ],
+          "condition": "While an INQUISITOR model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
         }
       ]
     },
@@ -18526,6 +18830,19 @@
           "fromCopy": 3,
           "points": 30
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Robotic Bodyguard",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+",
+              "text": "While a Cybernetica Datasmith model is leading this unit, that model has the Feel No Pain 4+ ability."
+            }
+          ],
+          "condition": "While a Cybernetica Datasmith model is leading this unit, that model has the Feel No Pain 4+ ability."
+        }
       ]
     },
     {
@@ -18733,7 +19050,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Breaching Command",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+        }
+      ]
     },
     {
       "id": "7bee-a476-2167-76e7",
@@ -19840,6 +20170,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -20299,6 +20636,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -20543,6 +20887,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -20881,6 +21232,13 @@
               "op": "add",
               "value": -4,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -21303,6 +21661,19 @@
       ],
       "selfEffects": [
         {
+          "rule": "Aggressive Assault",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll."
+        },
+        {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
             {
@@ -21325,6 +21696,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -21695,6 +22073,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -22152,6 +22537,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -22580,6 +22972,18 @@
       ],
       "selfEffects": [
         {
+          "rule": "Exemplar of the Code",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "when chosen: Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll."
+            }
+          ],
+          "condition": "when chosen: Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll."
+        },
+        {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
             {
@@ -22604,8 +23008,29 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "rule": "Mentor (Bondsman)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "against": true,
+              "condition": "Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
         }
       ]
     },
@@ -22900,6 +23325,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -23345,6 +23777,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -26348,7 +26787,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this mdel has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "condition": "While this mdel has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "4681-2af4-acf9-2bce",
@@ -27353,7 +27806,21 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Proteus Doctrines",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack that targets a unit that is not Below Half-strength, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack that targets a unit that is not Below Half-strength, add 1 to the Hit roll."
+        }
+      ]
     },
     {
       "id": "b31e-5003-5b63-a305",
@@ -27996,6 +28463,13 @@
               "fromText": true
             }
           ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
           "onlyModel": true,
           "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
@@ -28268,6 +28742,13 @@
               "op": "add",
               "value": -5,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true,
@@ -31045,7 +31526,14 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Mindlock",
+          "stats": [],
+          "condition": "While a TECH-PRIEST model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by SERVITOR models in this unit by 1."
+        }
+      ]
     },
     {
       "id": "9b4-26b2-9e6d-a62d",
@@ -31554,6 +32042,22 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Optimised Gait",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "advance",
+              "mod": 1
+            },
+            {
+              "roll": "charge",
+              "mod": 1
+            }
+          ]
         }
       ]
     },
@@ -32651,6 +33155,14 @@
           "7774-a50b-cb1e-8372",
           "de59-f65c-181a-8509",
           "ba33-c21-bddc-ab0"
+        ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll"
+          }
         ]
       }
     },
@@ -33761,7 +34273,46 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Blistering Salvoes",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time this model makes an attack with a belleros energy cannon that targets an Infantry unit, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes an attack with a belleros energy cannon that targets an Infantry unit, add 1 to the Hit roll."
+        },
+        {
+          "rule": "Blistering Salvoes",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time this model makes an attack with a ferrumite cannon that targets a Monster or Vehicle unit, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "Each time this model makes an attack with a ferrumite cannon that targets a Monster or Vehicle unit, add 1 to the Hit roll."
+        },
+        {
+          "rule": "Damaged: 1-4 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "2b9c-3982-701d-f8fd",
@@ -35131,7 +35682,33 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Achillan Eye",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack with a radium jezzail that targets an Infantry unit, you can re-roll the Wound roll."
+            }
+          ],
+          "condition": "Each time this model makes an attack with a radium jezzail that targets an Infantry unit, you can re-roll the Wound roll."
+        },
+        {
+          "rule": "Achillan Eye",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack with a Skatros transuranic arquebus that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
+            }
+          ],
+          "condition": "Each time this model makes an attack with a Skatros transuranic arquebus that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
+        }
+      ]
     },
     {
       "id": "6424-ed86-9e15-3e14",
@@ -36224,6 +36801,20 @@
           "name": "Terrax-pattern Termite",
           "text": "This model has a transport capacity of 12 ^^**Adeptus Mechanicus Infantry^^** models. It cannot transport ^^**Jump Pack or Kataphron^^** models"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this mdel has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "condition": "While this mdel has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -37168,7 +37759,22 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Merciless Judgement",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time a model in this unit makes a ranged attack that targets a unit that is Below Half-strength, add 1 to the Wound roll."
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack that targets a unit that is Below Half-strength, add 1 to the Wound roll."
+        }
+      ]
     },
     {
       "id": "efa3-2cf5-dcfb-b976",
@@ -37339,7 +37945,21 @@
           "name": "Infiltrators"
         }
       ],
-      "alliedFrom": "Agents of the Imperium"
+      "alliedFrom": "Agents of the Imperium",
+      "selfEffects": [
+        {
+          "rule": "Shieldbreaker",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If it does, until the end of the phase, each time this model makes an attack with that weapon, add 1 to the Wound roll and any successful Wound roll scores a Critical Wound."
+            }
+          ],
+          "condition": "If it does, until the end of the phase, each time this model makes an attack with that weapon, add 1 to the Wound roll and any successful Wound roll scores a Critical Wound."
+        }
+      ]
     },
     {
       "id": "3953-4e12-fe7b-97e9",
@@ -37886,7 +38506,35 @@
           "4681-2af4-acf9-2bce",
           "f527-0a42-15b4-1924"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Watch Master",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "This model's attacks that target a Character unit can Re-roll hit rolls of 1."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "This model's attacks that target a Character unit can Re-roll hit rolls of 1."
+        },
+        {
+          "rule": "Watch Master",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "This model's attacks that target a Character unit can Re-roll wound rolls of 1."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "This model's attacks that target a Character unit can Re-roll wound rolls of 1."
+        }
+      ]
     }
   ],
   "rules": [

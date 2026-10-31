@@ -38,6 +38,22 @@
               "Leagues of Votann"
             ]
           ],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "Each time a Leagues of Votann model from your army makes an attack with a weapon that targets the closest eligible target or a target that is within Engagement Range of that model's unit Re-roll a Wound roll of 1."
+            }
+          ],
+          "condition": "Each time a Leagues of Votann model from your army makes an attack with a weapon that targets the closest eligible target or a target that is within Engagement Range of that model's unit Re-roll a Wound roll of 1."
+        },
+        {
+          "rule": "Methodical Annihilation",
+          "who": [
+            [
+              "Leagues of Votann"
+            ]
+          ],
           "stats": [
             {
               "on": "ranged",
@@ -229,6 +245,24 @@
         {
           "name": "Optimal Application",
           "text": "At the end of your Command phase, you gain 1YP for each objective marker you control that is not within your deployment zone and has one or more ^^**Iron-Master^^** and/or ^^**Memnyr Strategist^^** models from your army within range of it (to a maximum of 2YP gained from this Detachment rule per turn).\n\nIn your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**Arkanyst Evaluator^^** unit from your army is selected to shoot, you can spend 1YP. If you do, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Optimal Application",
+          "who": [
+            [
+              "Memnyr Strategist"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "when chosen: If you do, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+            }
+          ],
+          "condition": "when chosen: If you do, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
         }
       ],
       "stratagems": [
@@ -516,6 +550,25 @@
         {
           "name": "Eye of the Hunt",
           "text": "Friendly **HERNKYN** units’ ranged attacks that target a unit within 12\" have +1 to **hit rolls**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Eye of the Hunt",
+          "who": [
+            [
+              "Hernkyn"
+            ]
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Friendly HERNKYN units' ranged attacks that target a unit within 12\" have +1 to hit rolls."
+            }
+          ],
+          "condition": "Friendly HERNKYN units' ranged attacks that target a unit within 12\" have +1 to hit rolls."
         }
       ],
       "stratagems": [
@@ -1420,6 +1473,21 @@
           "name": "Bastion",
           "text": "This FORTIFICATION has a transport capacity of 15 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -1940,7 +2008,21 @@
           "ea1b-99f6-c398-06b1",
           "ba4f-c3f9-6925-af0c"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Multi-spectral visor",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "kind": "ranged"
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1."
+        }
+      ]
     },
     {
       "id": "ea1b-99f6-c398-06b1",
@@ -2769,6 +2851,21 @@
             "f0ef-58b5-5e72-228d"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-15 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -3496,6 +3593,18 @@
         "unitIds": [
           "09d3-6357-7888-00d9"
         ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "advance",
+            "mod": 1
+          },
+          {
+            "roll": "charge",
+            "mod": 1
+          }
+        ]
       }
     },
     {
@@ -3967,6 +4076,21 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Decisive Destruction",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "ranged",
+              "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Hit roll of 1."
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Hit roll of 1."
+        }
       ]
     },
     {
@@ -4402,6 +4526,21 @@
           "type": "Transport",
           "name": "Fortress of Redemption",
           "text": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -5593,7 +5732,21 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Pan-spectral Scanning",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "ranged"
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1."
+        }
+      ]
     },
     {
       "id": "a110-e538-4e85-159b",
@@ -5943,6 +6096,21 @@
           "type": "Transport",
           "name": "Hekaton Land Fortress",
           "text": "This model has a transport capacity of 14 **LEAGUES OF VOTANN INFANTRY **models. Each **EXOARMOUR, EXOFRAME** or **IRONKIN STEELJACKS** model takes up the space of 2 models. It cannot transport **ARTILLERY** models."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-5 wounds remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -6777,6 +6945,21 @@
           "type": "Transport",
           "name": "Imperial Fortress Walls",
           "text": "This FORTIFICATION has a transport capacity of 65 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-30 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-30 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-30 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -9762,6 +9945,21 @@
           "name": "Macro-cannon Aquila Strongpoint",
           "text": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -10013,6 +10211,21 @@
           "type": "Transport",
           "name": "Plasma Obliterator",
           "text": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -10462,7 +10675,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "9655-8367-7467-9e6e",
@@ -11008,7 +11236,26 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Threat Level Rising",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+            },
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+        }
+      ]
     },
     {
       "id": "4eaf-78d5-9195-0e36",
@@ -11776,7 +12023,20 @@
           "1e3f-209d-798f-3a42",
           "2add-0a08-fbef-8f5e"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Forgewrought Skill",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll"
+            }
+          ],
+          "condition": "Each time this model makes an attack, you can re-roll the Hit roll."
+        }
+      ]
     },
     {
       "id": "11b2-8348-ae67-fa98",
@@ -12413,6 +12673,21 @@
           "type": "Transport",
           "name": "Vortex Missile Strongpoint",
           "text": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
