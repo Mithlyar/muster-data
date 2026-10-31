@@ -31,6 +31,26 @@
           "text": "Units containing one or more models with an **[ASSAULT]** weapon can shoot using **assault shooting** (10.05)."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Bold Gallantry",
+          "who": [
+            [
+              "Imperial Knights"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time an IMPERIAL KNIGHTS unit from your army Advances, until the end of the turn, ranged weapons equipped by IMPERIAL KNIGHTS models from your army have the [ASSAULT] ability."
+        }
+      ],
       "stratagems": [
         {
           "name": "Thunderstomp",
@@ -99,6 +119,26 @@
         {
           "name": "Assisted Targeting (Aura)",
           "text": "While a friendly **ADEPTUS MECHANICUS** unit is within 6\" of this model, that **ADEPTUS MECHANICUS** unit’s ranged attacks have:\n- +1 **BS**.\n- **[HEAVY]**"
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Assisted Targeting (Aura)",
+          "who": [
+            [
+              "Adeptus Mechanicus"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that ADEPTUS MECHANICUS unit's ranged attacks have +1 BS."
         }
       ],
       "stratagems": [
@@ -268,6 +308,19 @@
         {
           "name": "Keywords",
           "text": "**^^Armiger^^** models from your army gain the **^^Battleline^^** keyword."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Keywords",
+          "who": [
+            [
+              "Armiger"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
         }
       ],
       "stratagems": [

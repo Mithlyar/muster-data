@@ -116,6 +116,30 @@
           "text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Lightning-Fast Strike",
+          "who": [
+            [
+              "Adeptus Astartes",
+              "Mounted"
+            ],
+            [
+              "Adeptus Astartes",
+              "Speeder"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Wind-swift Evasion",
@@ -148,6 +172,26 @@
         {
           "name": "Faith-Fuelled Resolve",
           "text": "In the Fight phase, if a friendly Sword Brethren Squad unit is within range of an objective, that unit's melee attacks have +1A\n\n\nRestrictions: Your army can include BLACK TEMPLARS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Faith-Fuelled Resolve",
+          "who": [
+            [
+              "Sword Brethren Squad"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "In the Fight phase, if a friendly Sword Brethren Squad unit is within range of an objective, that unit's melee attacks have +1A"
         }
       ],
       "stratagems": [

@@ -89,6 +89,54 @@
           "text": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase. You can only select each of these abilities once per battle.\n\n\n**Imbued Manifestation**\nAdd 6\" to the range characteristic of ranged Psychic weapons equipped by ^^**Thousand Sons^^** models in your army.\n\n\n**Psychic Maelstrom**\nEach time a ^^**Thousand Sons^^** model from your army makes an attack with a Psychic weapon, add 1 to the Wound roll.\n\n\n**Wrath of the Immaterium**\nPsychic weapons equipped by ^^**Thousand Sons^^** models in your army have the [Devastating Wounds] ability."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Kindred Sorcery",
+          "who": [
+            [
+              "Thousand Sons"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "range",
+              "op": "add",
+              "value": 6,
+              "fromText": true,
+              "weaponTags": [
+                "Psychic"
+              ]
+            }
+          ],
+          "condition": "when Imbued Manifestation is chosen"
+        },
+        {
+          "rule": "Kindred Sorcery",
+          "who": [
+            [
+              "Thousand Sons"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "condition": "when Wrath of the Immaterium is chosen"
+        }
+      ],
       "stratagems": [
         {
           "name": "Devastating Sorcery",
@@ -145,6 +193,27 @@
         {
           "name": "Infernal Pacts",
           "text": "^^**Scintillating Legions^^** units from your army have the following ability:\n\n**Daemonic Illusions (Aura)**: While a friendly ^^**Thousand Sons Psyker^^** unit is within 6\" of and visible to this unit, models in that unit have a 4+ invulnerable save against ranged attacks.\n\n^^**Thousand Sons^^** units from your army have the following ability:\n\n**Mortal Sorcery (Aura)**: While a friendly ^^**Scintillating Legions Psyker^^** unit from your army is within 6\" of and visible to this unit, that ^^**Scintillating Legions^^** unit has the Cabal of Sorcerers ability."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Infernal Pacts",
+          "who": [
+            [
+              "Thousand Sons",
+              "Psyker"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 4,
+              "fromText": true
+            }
+          ],
+          "condition": "While a friendly Thousand Sons Psyker unit is within 6\" of and visible to this unit, models in that unit have a 4+ invulnerable save against ranged attacks."
         }
       ],
       "stratagems": [
@@ -204,6 +273,37 @@
         {
           "name": "Warpmeld Sacrifice",
           "text": "Each time an enemy unit is selected to shoot or fight and one or more ^^**Tzeentch Mutant Infantry^^** or ^^**Tzeentch Mutant Mounted^^** units from your army are selected as a target of one or more of those attacks, each of those ^^**Tzeentch Mutant^^** units can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll. At the end of the phase, that ^^**Tzeentch Mutant^^** unit suffers D3 mortal wounds.\n\nEach time a ^^**Tzeentch Mutant Infantry^^** or ^^**Tzeentch Mutant Mounted^^*** unit from your army is selected to shoot or fight, before selecting its targets, that unit can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll. At the end of the phase, that ^^**Tzeentch Mutant^^** unit suffers D3 mortal wounds.\n\n^^**Tzaangors^^** units from your army have the Battleline keyword, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Warpmeld Sacrifice",
+          "who": [
+            [
+              "Tzaangors"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
+        },
+        {
+          "rule": "Warpmeld Sacrifice",
+          "who": [
+            [
+              "Tzaangors"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
         }
       ],
       "stratagems": [
@@ -414,6 +514,26 @@
         {
           "name": "Ensorcelled Animus",
           "text": "- Friendly **SEKHETAR ROBOTS** units’ attacks have **[PSYCHIC]**. \n- Friendly **THOUSAND SONS PSYKER** units have the following ability: \nInfusion (Aura): While a friendly **SEKHETAR ROBOTS** unit is within 12\" of this unit, that unit’s melee attacks have +1 **WS**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Ensorcelled Animus",
+          "who": [
+            [
+              "Sekhetar Robots"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Infusion (Aura): While a friendly SEKHETAR ROBOTS unit is within 12\" of this unit, that unit's melee attacks have +1 WS."
         }
       ],
       "stratagems": [

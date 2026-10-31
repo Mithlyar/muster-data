@@ -123,6 +123,27 @@
           "text": "- While a friendly ^^**Adeptus Custodes Dreadnought**^^ unit is at **starting strength**, that unit has +2 OC.\n- While a friendly ^^**Adeptus Custodes Dreadnought**^^ unit is below **starting strength**, that unit's attacks can re-roll **hit rolls** of 1.\nWhile a friendly ^^**Adeptus Custodes Dreadnought**^^ unit is **below half-strength**, that unit's attacks can:\n- Re-roll **hit rolls** of 1.\n- Re-roll **wound rolls** of 1."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Moritoi Ancients",
+          "who": [
+            [
+              "Adeptus Custodes",
+              "Dreadnought"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "While a friendly Adeptus Custodes Dreadnought unit is at starting strength, that unit has +2 OC."
+        }
+      ],
       "stratagems": [
         {
           "name": "Unstoppable Momentum",

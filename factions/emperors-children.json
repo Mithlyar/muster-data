@@ -321,6 +321,33 @@
           "text": "- While an ^^**Emperor's Children^^** unit from your army is within 6\" of one or more friendly ^^**Legions of Excess**^^ units, it is Empowered.\n- While a ^^**Legions of Excess**^^ unit from your army is within 6\" of one or more friendly  ^^**Emperor's Children^^** units, it is Empowered.\n\nWhile a unit from your army is Empowered, weapons equipped by models in that unit have the [^^Sustained Hits 1^^] ability. If such a weapon already has that ability, each time an attack is made with that weapon, an unmodified Hit roll of 5+ scores a Critical Hit."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Daemonic Empowerment",
+          "who": [
+            [
+              "Legions of Excess"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "While a unit from your army is Empowered, weapons equipped by models in that unit have the [Sustained Hits 1] ability."
+        }
+      ],
       "stratagems": [
         {
           "name": "Sustained by Agony",

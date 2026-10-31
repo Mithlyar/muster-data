@@ -31,6 +31,25 @@
           "text": "This ability always takes the form **[SUSTAINED HITS X]**. Each time an attack made with a **[SUSTAINED HITS]** weapon results in a **critical hit**, that attack results in a number of additional hits on the target as denoted by **X**.\n***Example:** An attack made with a **[SUSTAINED HITS 2]** weapon results in a **critical hit**. That attack therefore hits the target three times (once from the **critical hit**, and twice more from the **[SUSTAINED HITS 2]** ability).*"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Patient Hunter",
+          "who": [
+            [
+              "T'au Empire"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Point-blank Ambush",
@@ -99,6 +118,25 @@
           "text": "Each time an attack made with a **[LETHAL HITS]** weapon results in a **critical hit**, you can choose for that attack to automatically wound the target. \n***Designer’s Note:** Choosing to automatically wound the target means that no **wound roll** is made for that attack. You may decide against this, as it means that attack cannot result in a **critical wound** and so cannot trigger other abilities such as [DEVASTATING WOUNDS].*"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Killing Blow",
+          "who": [
+            [
+              "T'au Empire"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Focused Fire",
@@ -158,6 +196,53 @@
         {
           "name": "Bonded Heroes",
           "text": "Each time a **T’AU EMPIRE BATTLESUIT** model from your army makes a ranged attack that targets a unit within 12\", improve the Strength characteristic of that attack by 1. If that attack targets a unit within 8\", improve the Armour Penetration characteristic of that attack by 1 as well."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Bonded Heroes",
+          "who": [
+            [
+              "T'au Empire",
+              "Battlesuit"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a T'AU EMPIRE BATTLESUIT model from your army makes a ranged attack that targets a unit within 12\", improve the Strength characteristic of that attack by 1."
+        },
+        {
+          "rule": "Bonded Heroes",
+          "who": [
+            [
+              "T'au Empire",
+              "Battlesuit"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "If that attack targets a unit within 8\", improve the Armour Penetration characteristic of that attack by 1 as well."
         }
       ],
       "stratagems": [
@@ -221,6 +306,26 @@
         {
           "name": "Skirmish Fighters",
           "text": "**^^Kroot^^** models from your army have a 6+ invulnerable save against melee attacks and a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Skirmish Fighters",
+          "who": [
+            [
+              "Kroot"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 6,
+              "fromText": true
+            }
+          ],
+          "condition": "Kroot models from your army have a 6+ invulnerable save against melee attacks and a 5+ invulnerable save against ranged attacks."
         }
       ],
       "stratagems": [
@@ -323,6 +428,26 @@
         {
           "name": "Superior Craftmanship",
           "text": "Friendly **BATTLESUIT CHARACTER** units’ ranged attacks have +6\" **R**.\n\nThis **detachment** has the **BATTLESUIT** tag and cannot be taken with another **BATTLESUIT detachment**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Superior Craftmanship",
+          "who": [
+            [
+              "Battlesuit",
+              "Character"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "range",
+              "op": "add",
+              "value": 6,
+              "fromText": true
+            }
+          ]
         }
       ],
       "stratagems": [

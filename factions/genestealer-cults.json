@@ -154,6 +154,32 @@
           "text": "Add 1 to Charge rolls made for **^^Aberrants^^**, **^^Biophagus^^** and **^^Purestrain Genestealers^^** units from your army. In addition, each time such a unit is selected to fight, if it made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by the models in that unit."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Hypermorphic Fury",
+          "who": [
+            [
+              "Aberrants"
+            ],
+            [
+              "Biophagus"
+            ],
+            [
+              "Purestrain Genestealers"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "In addition, each time such a unit is selected to fight, if it made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by the models in that unit."
+        }
+      ],
       "stratagems": [
         {
           "name": "Stimulated Bio-surge",
@@ -210,6 +236,31 @@
         {
           "name": "Rapid Takeover",
           "text": "While a **GENESTEALER CULTS MOUNTED/VEHICLE** model from your army is not Battle‑shocked, add 1 to its Objective Control characteristic. In addition, at the end of your Command phase, if one or more **ATALAN JACKALS** units from your army are within range of an **objective** you control, that **objective** remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Rapid Takeover",
+          "who": [
+            [
+              "Genestealer Cults",
+              "Mounted"
+            ],
+            [
+              "Genestealer Cults",
+              "Vehicle"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "While a GENESTEALER CULTS MOUNTED/VEHICLE model from your army is not Battle-shocked, add 1 to its Objective Control characteristic."
         }
       ],
       "stratagems": [

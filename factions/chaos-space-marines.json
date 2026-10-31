@@ -232,6 +232,43 @@
           "text": "Ranged weapons equipped by ^^**Heretic Astartes**^^ models from your army have the [ASSAULT] ability, and each time a ^^**Heretic Astartes**^^ model from your army makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Raiders and Reavers",
+          "who": [
+            [
+              "Heretic Astartes"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ]
+        },
+        {
+          "rule": "Raiders and Reavers",
+          "who": [
+            [
+              "Heretic Astartes"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "each time a Heretic Astartes model from your army makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
       "stratagems": [
         {
           "name": "Scour and Seize",
@@ -406,6 +443,26 @@
           "text": "Each time a ^^**Damned**^^ unit from your army with the Dark Pacts ability is selected to make a Normal or Advance move or declare a charge (excluding units that arrived from Reserves this turn) it can make a Desperate Pact. If it does, until the end of the phase, add 2\" to the Move characteristic of models in that unit and add 2 to Charge rolls made for that unit.\n\n\nDesperate Pacts\nEach time a unit makes a Desperate Pact, it must first take a Leadership test; if that test is failed, the unit suffers D3 mortal wounds before any effects of the Desperate Pact are resolved."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Desperate Devotion",
+          "who": [
+            [
+              "Damned"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "If it does, until the end of the phase, add 2\" to the Move characteristic of models in that unit and add 2 to Charge rolls made for that unit."
+        }
+      ],
       "stratagems": [
         {
           "name": "Chosen for Glory",
@@ -462,6 +519,28 @@
         {
           "name": "Debt to the Soulforge",
           "text": "Each time a ^^**Heretic Astartes Daemon Vehicle**^^ model from your army makes a Dark Pact, it can invoke its contract. If it does, subtract 1 from the resulting Leadership test when making that Dark Pact and, until the end of the phase:\n- Each time a model in that unit makes a ranged attack, add 1 to the Wound roll.\n- Add 2 to the Attacks characteristic of melee weapons equipped by models in that unit."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Debt to the Soulforge",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Daemon",
+              "Vehicle"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "If it does, subtract 1 from the resulting Leadership test when making that Dark Pact and, until the end of the phase Add 2 to the Attacks characteristic of melee weapons equipped by models in that unit."
         }
       ],
       "stratagems": [
@@ -524,6 +603,140 @@
           "text": "At the start of the battle, select which augmentations are active for ^^**Heretic Astartes Infantry**^^ models (excluding ^^**Damned**^^ models) from your army until the end of the battle. To do so, either select one from the list below, or randomly determine two by rolling two D6. If ^^**Fabius Bile**^^ is your ^^**Warlord**^^, when randomly determining your augmentations, you can re‑roll one or both of the dice. Duplicated augmentations have no additional effect.\n\n\n1 - **Cholinergic Accelerants:** Add 1 to the Attacks characteristic of melee weapons equipped by this model.\n2 - **Hyperadrenal Infusion:** Add 2\" to the Move characteristic of this model.\n3 - **Paraneural Reactions:** Improve the Weapon Skill characteristic of melee weapons equipped by this model by 1.\n4 - **Supracutaneous Chitination:** Improve the Toughness characteristic of this model by 1.\n5 - **Macrotensile Sinews:** Add 1 to the Strength characteristic of melee weapons equipped by this model.\n6 - **Ophthalmic Enhancement:** Improve the Ballistic Skill characteristic of ranged weapons equipped by this model by 1."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Creations of Bile",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Infantry"
+            ]
+          ],
+          "except": [
+            "Damned"
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when Cholinergic Accelerants is chosen"
+        },
+        {
+          "rule": "Creations of Bile",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Infantry"
+            ]
+          ],
+          "except": [
+            "Damned"
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "when Hyperadrenal Infusion is chosen"
+        },
+        {
+          "rule": "Creations of Bile",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Infantry"
+            ]
+          ],
+          "except": [
+            "Damned"
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when Paraneural Reactions is chosen"
+        },
+        {
+          "rule": "Creations of Bile",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Infantry"
+            ]
+          ],
+          "except": [
+            "Damned"
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "T",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when Supracutaneous Chitination is chosen"
+        },
+        {
+          "rule": "Creations of Bile",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Infantry"
+            ]
+          ],
+          "except": [
+            "Damned"
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when Macrotensile Sinews is chosen"
+        },
+        {
+          "rule": "Creations of Bile",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Infantry"
+            ]
+          ],
+          "except": [
+            "Damned"
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when Ophthalmic Enhancement is chosen"
+        }
+      ],
       "stratagems": [
         {
           "name": "Specimens for the Spider",
@@ -580,6 +793,82 @@
         {
           "name": "Empyric Wellspring",
           "text": "- In your Shooting phase, when a friendly **HERETIC ASTARTES PSYKER** unit (excluding **DAEMON** units) is **selected to shoot**, if that unit makes a **Dark Pact**, that unit’s ranged attacks have +1 **S**. \n- In the Fight phase, when a friendly **HERETIC ASTARTES DAEMON PRINCE/DAEMON PRINCE WITH WINGS** unit (excluding **KHORNE** units) is **selected to fight**, if that unit makes a **Dark Pact**, that unit’s melee attacks have: \n- +2 **S**. \n- +1 **AP**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Empyric Wellspring",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Psyker"
+            ]
+          ],
+          "except": [
+            "Daemon"
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "In your Shooting phase, when a friendly HERETIC ASTARTES PSYKER unit (excluding DAEMON units) is selected to shoot, if that unit makes a Dark Pact, that unit's ranged attacks have +1 S."
+        },
+        {
+          "rule": "Empyric Wellspring",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Daemon Prince"
+            ],
+            [
+              "Heretic Astartes",
+              "Daemon Prince with Wings"
+            ]
+          ],
+          "except": [
+            "Khorne"
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "In the Fight phase, when a friendly HERETIC ASTARTES DAEMON PRINCE/DAEMON PRINCE WITH WINGS unit (excluding KHORNE units) is selected to fight, if that unit makes a Dark Pact, that unit's melee attacks have +2 S."
+        },
+        {
+          "rule": "Empyric Wellspring",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Daemon Prince"
+            ],
+            [
+              "Heretic Astartes",
+              "Daemon Prince with Wings"
+            ]
+          ],
+          "except": [
+            "Khorne"
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "In the Fight phase, when a friendly HERETIC ASTARTES DAEMON PRINCE/DAEMON PRINCE WITH WINGS unit (excluding KHORNE units) is selected to fight, if that unit makes a Dark Pact, that unit's melee attacks have +1 AP."
         }
       ],
       "stratagems": [
@@ -737,6 +1026,25 @@
           "text": "In your Movement phase, each time you set up or select a ^^**Heretic Astartes^^** unit (excluding Battle‑shocked units) from your army to move, it can choose to Default to Doctrine. If it does, it must first take a Battle‑shock test. Then, select one of the following: \n- Until the end of the turn, this unit is eligible to shoot and declare a charge in a turn in which it Fell Back. \n- Until the end of the turn, this unit is eligible to declare a charge in a turn in which it Advanced."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Slaves to None",
+          "who": [
+            [
+              "Heretic Astartes"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Corrupted Munitions",
@@ -851,6 +1159,55 @@
         {
           "name": "Soul Forge Boons",
           "text": "^^**Heretic Astartes Vehicle^^** units from your army gain the ^^**Daemon^^** keyword. \n^^**Heretic Astartes Vehicle, Lord Discordant^^** and ^^**Vashtorr the Arkifane^^** units from your army gain the ^^**Soul Forge^^** keyword. \n^^**Soul Forge^^** units from your army have a 5+ invulnerable save."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Soul Forge Boons",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Vehicle"
+            ]
+          ],
+          "keywords": [
+            "Daemon"
+          ]
+        },
+        {
+          "rule": "Soul Forge Boons",
+          "who": [
+            [
+              "Heretic Astartes",
+              "Vehicle"
+            ],
+            [
+              "Lord Discordant"
+            ],
+            [
+              "Vashtorr the Arkifane"
+            ]
+          ],
+          "keywords": [
+            "Soul Forge"
+          ]
+        },
+        {
+          "rule": "Soul Forge Boons",
+          "who": [
+            [
+              "Soul Forge"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ]
         }
       ],
       "stratagems": [

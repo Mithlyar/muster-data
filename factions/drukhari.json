@@ -319,6 +319,123 @@
           "text": "At the start of your Command phase, select which Combat Drugs will be active for your army until the start of your next Command phase. To do so, either select one from the list below (you cannot select the same Combat Drug more than once per battle), or randomly select two by rolling two D6. When doing so randomly, Combat Drugs you have previously selected can become active again, but if you randomly select one that is already active for your army, it has no additional effect.\n\n\n**1. Adrenalight**\nAdd 1 to the Attacks characteristic of melee weapons equipped by ^^**Wych Cult**^^ models from your army.\n\n\n**2. Hypex**\nAdd 2\" to the Move characteristic of ^^**Wych Cult**^^ models from your army.\n\n\n**3. Serpentin**\nImprove the Weapon Skill characteristic of melee weapons equipped by ^^**Wych Cult**^^ models from your army by 1.\n\n\n**4. Painbringer**\nAdd 1 to the Toughness characteristic of ^^**Wych CUlt**^^ models from your army.\n\n\n**5. Grave Lotus**\nAdd 1 to the Strength characteristic of melee weapons equipped by ^^**Wych Cult**^^ models from your army.\n\n\n**6. Splintermind**\nImprove the Leadership characteristic of ^^**Wych Cult**^^ models from your army by 1, and improve the Ballistic Skill characteristic of ranged weapons equipped by ^^**Wych Cult**^^ models from your army by 1."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Combat Drugs",
+          "who": [
+            [
+              "Wych Cult"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when Adrenalight is chosen"
+        },
+        {
+          "rule": "Combat Drugs",
+          "who": [
+            [
+              "Wych Cult"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "when Hypex is chosen"
+        },
+        {
+          "rule": "Combat Drugs",
+          "who": [
+            [
+              "Wych Cult"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when Serpentin is chosen"
+        },
+        {
+          "rule": "Combat Drugs",
+          "who": [
+            [
+              "Wych Cult"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "T",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when Painbringer is chosen"
+        },
+        {
+          "rule": "Combat Drugs",
+          "who": [
+            [
+              "Wych Cult"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when Grave Lotus is chosen"
+        },
+        {
+          "rule": "Combat Drugs",
+          "who": [
+            [
+              "Wych Cult"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when Splintermind is chosen"
+        }
+      ],
       "stratagems": [
         {
           "name": "A Challenge Met",

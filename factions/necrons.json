@@ -88,6 +88,26 @@
           "text": "Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the charge roll as well.\nEach time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Annihilation Protocol",
+          "who": [
+            [
+              "Destroyer Cult"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack."
+        }
+      ],
       "stratagems": [
         {
           "name": "Masks of Death",
@@ -323,6 +343,33 @@
           "text": "Each time a NECRONS model (excluding MONSTER models) from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Relentless Onslaught",
+          "who": [
+            [
+              "Necrons",
+              "Vehicle"
+            ],
+            [
+              "Necrons",
+              "Mounted"
+            ]
+          ],
+          "except": [
+            "Titanic"
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Unyielding Forms",
@@ -379,6 +426,26 @@
         {
           "name": "Technosorcerous Augmentations",
           "text": "- Ranged weapons equipped by ^^**Cryptek^^** models from your army have the [ASSAULT] ability.\n- In your Shooting phase, each time a ^^**Cryptek^^** unit from your army is selected to shoot, select one of the following abilities: [ANTI‑INFANTRY 3+], [ANTI‑MOUNTED 4+], [ASSAULT], [HEAVY], [IGNORES COVER]. Until the end of the phase, ranged weapons equipped by models in that unit have that ability"
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Technosorcerous Augmentations",
+          "who": [
+            [
+              "Cryptek"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Ranged weapons equipped by Cryptek models from your army have the [ASSAULT] ability."
         }
       ],
       "stratagems": [
@@ -439,6 +506,62 @@
           "text": "- Add 2 to the Strength characteristic of weapons equipped by ^^**Destroyer Cult^^** models from your army. \n- The first time each turn that a ^^**Destroyer Cult^^** unit from your army makes attacks that destroy a unit or cause it to become Below Half‑strength, after that unit has finished resolving its attacks, until the end of the turn, add 2 to the Strength characteristic of weapons equipped by friendly ^^**Necrons^^** models (excluding ^^**Destroyer Cult, Monster^^** and ^^**Titanic^^** models)."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Cold Fervour",
+          "who": [
+            [
+              "Destroyer Cult"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ]
+        },
+        {
+          "rule": "Cold Fervour",
+          "who": [
+            [
+              "Necrons"
+            ]
+          ],
+          "except": [
+            "Destroyer Cult",
+            "Monster",
+            "Titanic"
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "The first time each turn that a Destroyer Cult unit from your army makes attacks that destroy a unit or cause it to become Below Half-strength, after that unit has finished resolving its attacks, until the end of the turn, add 2 to the Strength characteristic of weapons equipped by friendly Necrons models (excluding Destroyer Cult, Monster and Titanic models)."
+        }
+      ],
       "stratagems": [
         {
           "name": "Spreading Madness",
@@ -495,6 +618,34 @@
         {
           "name": "Cosmic Distortion",
           "text": "^^**Necrons Monster^^** units from your army have the following ability: \n\nDistortion Fields (Aura): While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. \nAt the start of each phase, for each ^^**Necrons Monster^^** unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\".\n\nRestrictions\n\nWhen mustering your army, each ^^**Necrons Monster^^** unit from your army has the relevant Necrodermal Binding ability shown on the right, and you must increase the points cost of each of those units by the amount shown in the Munitorum Field Manual. If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Cosmic Distortion",
+          "who": [
+            [
+              "Necrons",
+              "Monster"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1."
         }
       ],
       "stratagems": [
@@ -623,6 +774,27 @@
         {
           "name": "Empowered Engines",
           "text": "Friendly NECRONS TITANIC FLY units have +6\" M. \n\nThis detachment has the HYPERCRYPT tag and cannot be taken with another HYPERCRYPT detachment."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Empowered Engines",
+          "who": [
+            [
+              "Necrons",
+              "Titanic",
+              "Fly"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 6,
+              "fromText": true
+            }
+          ]
         }
       ],
       "stratagems": [

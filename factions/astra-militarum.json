@@ -89,6 +89,27 @@
           "text": "- If a friendly **MILITARUM TEMPESTUS OFFICER** model is your **WARLORD**, friendly **TEMPESTUS SCIONS** units have:\n-- **BATTLELINE**.\n-- +1 **OC**.\n- When a friendly **MILITARUM TEMPESTUS** unit is **selected to shoot**, if that unit was set up this turn, that unit’s ranged attacks have +1 to **hit rolls**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Fire Zone Purge",
+          "who": [
+            [
+              "Militarum Tempestus",
+              "Officer"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "If a friendly MILITARUM TEMPESTUS OFFICER model is your WARLORD, friendly TEMPESTUS SCIONS units have +1 OC."
+        }
+      ],
       "stratagems": [
         {
           "name": "Servo‑designators",
@@ -241,6 +262,26 @@
         {
           "name": "Iron Tread",
           "text": "Each time a **^^Squadron^^** unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristics of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Iron Tread",
+          "who": [
+            [
+              "Squadron"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 6,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a Squadron unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristics of models in that unit"
         }
       ],
       "stratagems": [
@@ -479,6 +520,20 @@
         {
           "name": "Keywords",
           "text": "**^^Astra Militarum Squadron^^** units from your army have the **^^Armoured Skirmisher^^** keyword (excluding **^^Artillery^^** units and units containing one or more models with a Wounds characteristic of 13 or higher)."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Keywords",
+          "who": [
+            [
+              "Astra Militarum",
+              "Squadron"
+            ]
+          ],
+          "keywords": [
+            "Armoured Skirmisher"
+          ]
         }
       ],
       "stratagems": [

@@ -81,6 +81,33 @@
           "text": "Friendly **BEAST SNAGGA** units' attacks that targets a **MONSTER/VEHICLE** unit have +1 **AP**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Da Hunt Is On",
+          "who": [
+            [
+              "Beast Snagga"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Friendly BEAST SNAGGA units' attacks that targets a MONSTER/VEHICLE unit have +1 AP."
+        }
+      ],
       "stratagems": [
         {
           "name": "Where D'ya Fink You're Going?",
@@ -489,6 +516,71 @@
         {
           "name": "Powers of Da Waaagh!",
           "text": "Friendly **ORKS PSYKER** models' **[PSYCHIC]** attacks have:\n- +1 **S**.\n- +1 **S** for every 5 models in this unit (or embarked within this model).\n\nFriendly **ORKS PSYKER** models have the **Roar of Mork** and **Visions of Violence psychic abilities**"
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Powers of Da Waaagh!",
+          "who": [
+            [
+              "Orks",
+              "Psyker"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true,
+              "weaponTags": [
+                "Psychic"
+              ]
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true,
+              "weaponTags": [
+                "Psychic"
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "Powers of Da Waaagh!",
+          "who": [
+            [
+              "Orks",
+              "Psyker"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true,
+              "weaponTags": [
+                "Psychic"
+              ]
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true,
+              "weaponTags": [
+                "Psychic"
+              ]
+            }
+          ],
+          "condition": "Friendly ORKS PSYKER models' [PSYCHIC] attacks have +1 S for every 5 models in this unit (or embarked within this model)."
         }
       ]
     }

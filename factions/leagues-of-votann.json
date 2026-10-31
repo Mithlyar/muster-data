@@ -30,6 +30,33 @@
           "text": "Each time a ^^**Leagues of Votann^^** model from your army makes an attack with a weapon that targets the closest eligible target or a target that is within Engagement Range of that model’s unit: \n- Re‑roll a Wound roll of 1. \n- If your unit is a ^^**Kâhl, Einhyr Hearthguard^^** or ^^**Ûthar the Destined^^** unit, improve the Armour Penetration characteristic of that attack by 1."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Methodical Annihilation",
+          "who": [
+            [
+              "Leagues of Votann"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a Leagues of Votann model from your army makes an attack with a weapon that targets the closest eligible target or a target that is within Engagement Range of that model's unit If your unit is a Kâhl, Einhyr Hearthguard or Ûthar the Destined unit, improve the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
       "stratagems": [
         {
           "name": "Brëkkeknots",
@@ -318,6 +345,27 @@
         {
           "name": "Mobile Sensor Relays",
           "text": "^^**Leagues of Votann Transport^^** units from your army have the following ability:\n\n**Firebase Control (Aura):** While a friendly ^^**Leagues of Votann Infantry^^** unit is wholly within 6\" of this ^^**Transport^^**, ranged weapons equipped by models in that ^^**Infantry^^** unit have the [^^**sustained hits 1^^**] ability."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Mobile Sensor Relays",
+          "who": [
+            [
+              "Leagues of Votann",
+              "Infantry"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "While a friendly Leagues of Votann Infantry unit is wholly within 6\" of this Transport, ranged weapons equipped by models in that Infantry unit have the [sustained hits 1] ability."
         }
       ],
       "stratagems": [

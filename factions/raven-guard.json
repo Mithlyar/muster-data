@@ -116,6 +116,30 @@
           "text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Lightning-Fast Strike",
+          "who": [
+            [
+              "Adeptus Astartes",
+              "Mounted"
+            ],
+            [
+              "Adeptus Astartes",
+              "Speeder"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Wind-swift Evasion",

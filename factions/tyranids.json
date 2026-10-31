@@ -157,6 +157,27 @@
           "text": "Each time a **TYRANIDS MONSTER** model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll as well if that model’s unit is Below Half‑strength. In addition, while a **TYRANIDS MONSTER** unit from your army (excluding Battle‑shocked units) is at its Starting Strength, add 2 to the Objective Control characteristic of models in that unit."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Enraged Behemoths",
+          "who": [
+            [
+              "Tyranids",
+              "Monster"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "In addition, while a TYRANIDS MONSTER unit from your army (excluding Battle-shocked units) is at its Starting Strength, add 2 to the Objective Control characteristic of models in that unit."
+        }
+      ],
       "stratagems": [
         {
           "name": "Rampaging Monstrosities",
@@ -213,6 +234,26 @@
         {
           "name": "Synaptic Imperitives",
           "text": "At the start of the battle round, you can select one of the Synaptic Imperatives shown below. Until the end of the battle round, that Synaptic Imperative is active for your army and while a **^^Tyranids^^** unit from your army is within Synapse Range of your army, it will benefit from it. Each Synaptic Imperative can only be selected once per battle.\n\n- **Synaptic Augmentation:** While this unit is within Synapse Range of your army, models in this unit have a 5+ invulnerable save.\n- **Surging Vitality:** While this unit is within Synapse Range of your army, add 1 to Advance and Charge rolls made for this unit.\n- **Goaded to Slaughter:** While this unit is within Synapse Range of your army, each time a model in this unit makes a melee attack, add 1 to the Hit roll"
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Synaptic Imperitives",
+          "who": [
+            [
+              "Tyranids"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Synaptic Augmentation: While this unit is within Synapse Range of your army, models in this unit have a 5+ invulnerable save."
         }
       ],
       "stratagems": [

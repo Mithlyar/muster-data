@@ -121,6 +121,19 @@
           "text": "In your Command phase in each of the following battle rounds, depending on your chosen battle size, add a new ^^**Poxwalkers**^^ unit with a Starting Strength of 10 to your army, in Strategic Reserves.\n\nIncursion - Battle Rounds 2,3\nStrike Force - Battle Rounds 2,3,4\nOnslaught - Battle Round 2,3,4,5\n\n^^**Poxwalkers**^^ unit from your army gain the ^^**Battleline**^^ keyword."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Numberless Horde",
+          "who": [
+            [
+              "Poxwalkers"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Gnawing Hunger",

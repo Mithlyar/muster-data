@@ -119,6 +119,26 @@
           "text": "Improve the Objective Control characteristic of ^^**Chaos Knight Character^^** models from your army by 2. In addition, once per battle round, if your ^^**Warlord^^** is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Tyrannical Court",
+          "who": [
+            [
+              "Chaos",
+              "Knight Character"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Crushed Like Vermin",
@@ -235,6 +255,44 @@
         {
           "name": "Malefic Surge",
           "text": "In your Command phase, one or more ^^**Chaos Knights^^** units from your army can make a Malefic Surge. Each one that does must first take a Leadership test; if that test is failed, that unit suffers D3 mortal wounds. Then, until the start of your next Command phase, that unit is Empowered. While a unit is Empowered, it can use one of the Malefic Surge abilities below. Once that unit has used a Malefic Surge ability, it is no longer Empowered.\n\n**Unholy Hunger:** When a model in this unit makes a Normal, Advance or Fall Back move, until the end of the phase, add 3\" to its Move characteristic.\n\n**Diabolic Power:** When this unit is selected to shoot or fight, select either the [Lethal Hits] or [Sustained Hits 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.\n\n**Unnatural Fortitude:** When this unit is selected as the target of an attack, until the end of the phase, select one of the following:\n- Models in this unit have a 5+ invulnerable save\n- Models in this unit have the Feel No Pain 6+ ability."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Malefic Surge",
+          "who": [
+            [
+              "Chaos Knights"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 3,
+              "fromText": true
+            }
+          ],
+          "condition": "when Unholy Hunger is chosen"
+        },
+        {
+          "rule": "Malefic Surge",
+          "who": [
+            [
+              "Chaos Knights"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ],
+          "condition": "when Unnatural Fortitude is chosen"
         }
       ],
       "stratagems": [

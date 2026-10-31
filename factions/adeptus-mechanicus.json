@@ -206,6 +206,51 @@
           "text": "At the start of the first battle round, select one of the following Benedictions of the Omnissiah to be active for **^^Cult Mechanicus^^** units from your army until the end of the battle:\n\nPanegyric Procession:\n\nEach time a **^^Cult Mechanicus^^** model from your army makes a ranged attack that targets a unit within half range, improve the Armour Penetration characteristic of that attack by 1.\n\nCitation in Savagery:\n\nEach time a **^^Cult Mechanicus^^** unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Benediction of the Omnissiah",
+          "who": [
+            [
+              "Cult Mechanicus"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a Cult Mechanicus model from your army makes a ranged attack that targets a unit within half range, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "rule": "Benediction of the Omnissiah",
+          "who": [
+            [
+              "Cult Mechanicus"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a Cult Mechanicus unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
+        }
+      ],
       "stratagems": [
         {
           "name": "Chant of the Remorseless Fist",
@@ -262,6 +307,43 @@
         {
           "name": "Cyber Psalm-Programming",
           "text": "Add 2\" to the Move characteristic of models in ^^**Legio Cybernetica**^^ units from your army. In addition, unless that unit is Battle‑shocked, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Cyber Psalm-Programming",
+          "who": [
+            [
+              "Legio Cybernetica"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ]
+        },
+        {
+          "rule": "Cyber Psalm-Programming",
+          "who": [
+            [
+              "Legio Cybernetica"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "In addition, unless that unit is Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
         }
       ],
       "stratagems": [

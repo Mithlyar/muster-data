@@ -27,6 +27,58 @@
           "text": "At the start of your Command phase, you can select one of the Mission Tactics found below. Until the start of your next Command phase, that Mission Tactic is active and its effects apply to all ^^Deathwatch^^ units in your army. Each Mission Tactic can only be selected once per battle.\n\n\n**Furor Tactics**\nWhile this Mission Tactic is active, weapons equipped by ^^Deathwatch^^ units from your army have the [SUSTAINED HITS 1] ability.\n\n\n**Malleus Tactics**\nWhile this Mission Tactic is active, weapons equipped by ^^Deathwatch^^ units from your army have the [LETHAL HITS] ability.\n\n\n**Purgatus Tactics**\nWhile this Mission Tactic is active, each time a ^^Deathwatch^^ model from your army makes an attack, on a Critical Wound, that attack has the [PRECISION] ability."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Deathwatch Mission Tactics",
+          "who": [
+            [
+              "Deathwatch"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "when Furor Tactics is chosen"
+        },
+        {
+          "rule": "Deathwatch Mission Tactics",
+          "who": [
+            [
+              "Deathwatch"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "when Malleus Tactics is chosen"
+        }
+      ],
       "stratagems": [
         {
           "name": "Armour of Contempt",
@@ -83,6 +135,34 @@
         {
           "name": "Root Out Heresy",
           "text": "Ranged weapons equipped by ^^Adeptus Arbites, Inquisitor, Inquisitorial Agents^^ and ^^Ordo Hereticus^^ models from your army have the [IGNORES COVER] ability.\n\n\nEach time an ^^Adeptus Arbites, Inquisitor, Inquisitorial Agents^^ or ^^Ordo Hereticus^^ model from your army makes an attack that targets a ^^Chaos^^ unit containing 5 or more models, that attack has the [SUSTAINED HITS 1] ability."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Root Out Heresy",
+          "who": [
+            [
+              "Adeptus Arbites"
+            ],
+            [
+              "Inquisitor"
+            ],
+            [
+              "Inquisitorial Agents"
+            ],
+            [
+              "Ordo Hereticus"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ]
         }
       ],
       "stratagems": [
@@ -199,6 +279,40 @@
         {
           "name": "At All Costs",
           "text": "At the start of your Command phase, you can select one of the following to apply:\n\n\n**Eliminate At All Costs**\nSelect one enemy unit on the battlefield. Until the start of your next Command phase, each time an ^^Agents of the Imperium^^ model from your army makes an attack that targets that enemy unit, add 1 to the Hit roll.\n\n\n**Acquire At All Costs**\nSelect one objective marker on the battlefield. Until the start of your next Command phase, while an ^^Agents of the Imperium^^ unit from your army is within range of that objective marker, improve the Leadership and Objective Control characteristics of models in that unit by 1 and models in that unit have a 5+ invulnerable save."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "At All Costs",
+          "who": [
+            [
+              "Agents of the Imperium"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ],
+          "condition": "when Acquire At All Costs is chosen"
         }
       ],
       "stratagems": [

@@ -415,6 +415,36 @@
           "text": "Friendly LEGIONES DAEMONICA CHARACTER models (excluding MONSTER models) have +1 Ld and OC."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Loci of Power",
+          "who": [
+            [
+              "Legiones Daemonica",
+              "Character"
+            ]
+          ],
+          "except": [
+            "Monster"
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Carnival of Excess",

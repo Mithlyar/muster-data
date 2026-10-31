@@ -87,6 +87,51 @@
           "text": "At the start of your Command phase, you can select one of the following Vows of Atonement to be active for your army until the start of the your next Command phase. You can only select each Vow of Atonement once per battle.\n\n\nThe Path of the Penitent: Add 3\" to the Move characteristic of PENITENT model from your army.\n\n\nAbsolution in Battle: Each time a unit from your army is selected to fight, if that units made a Charge move this turn, until the end of the phase, add 1 to the Attacks and Strength characteristics of melee weapons equipped by PENITENT models in that unit.\n\n\nDeath Before Disgrace: Each time a PENITENT model from your army is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Desperate for Redemption",
+          "who": [
+            [
+              "Penitent"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 3,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: The Path of the Penitent: Add 3\" to the Move characteristic of PENITENT model from your army."
+        },
+        {
+          "rule": "Desperate for Redemption",
+          "who": [
+            [
+              "Penitent"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Absolution in Battle: Each time a unit from your army is selected to fight, if that units made a Charge move this turn, until the end of the phase, add 1 to the Attacks and Strength characteristics of melee weapons equipped by PENITENT models in that unit."
+        }
+      ],
       "stratagems": [
         {
           "name": "Passion of the Penitent",
@@ -143,6 +188,43 @@
         {
           "name": "Fervent Purgation",
           "text": "Ranged weapons equipped by ADEPTA SORORITAS models from your army have the [ASSAULT] ability, and each time an attack made with such a weapon targets a unit within 6\", add 1 to the Strength characteristic of that attack."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Fervent Purgation",
+          "who": [
+            [
+              "Adepta Sororitas"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ]
+        },
+        {
+          "rule": "Fervent Purgation",
+          "who": [
+            [
+              "Adepta Sororitas"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "each time an attack made with such a weapon targets a unit within 6\", add 1 to the Strength characteristic of that attack."
         }
       ],
       "stratagems": [
@@ -266,6 +348,87 @@
           "text": "While a ^^**Celestian Sacresants^^** unit from your army is not Battle‑shocked, add 1 to the Objective Control characteristic of ^^**Celestian Sacresants^^** models in that unit."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Righteous Purpose",
+          "who": [
+            [
+              "Adepta Sororitas"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: While a unit is Righteous Add 1\" to the Move characteristic of models in that unit."
+        },
+        {
+          "rule": "Righteous Purpose",
+          "who": [
+            [
+              "Adepta Sororitas"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: While a unit is Righteous Improve the Leadership characteristic of models in that unit by 1."
+        },
+        {
+          "rule": "Righteous Purpose",
+          "who": [
+            [
+              "Adepta Sororitas"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: While a unit is Righteous Improve the Weapon Skill and Ballistic Skill characteristics of weapons equipped by Battle Sisters Squad, Celestian Insidiants, Celestian Sacresants and Paragon Warsuits models in that unit by 1."
+        },
+        {
+          "rule": "Keywords",
+          "who": [
+            [
+              "Celestian Sacresants"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "While a Celestian Sacresants unit from your army is not Battle-shocked, add 1 to the Objective Control characteristic of Celestian Sacresants models in that unit."
+        }
+      ],
       "stratagems": [
         {
           "name": "Path of the Righteous",
@@ -359,6 +522,32 @@
           "text": "Friendly **CELESTIAN** units’ attacks have +1 **BS** and **WS**. \n\nThis **detachment** has the **REVEREND** tag and cannot be taken with another **REVEREND detachment**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Holy Quest",
+          "who": [
+            [
+              "Celestian"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Faithful Fortitude",
@@ -391,6 +580,26 @@
         {
           "name": "Hymns of Battle",
           "text": "- Enhancements selected from this **detachment** do not count towards the total number of enhancements in your army. \n- Friendly **ADEPTA SORORITAS CHARACTER** units have +1 **Ld**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Hymns of Battle",
+          "who": [
+            [
+              "Adepta Sororitas",
+              "Character"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ]
         }
       ]
     }

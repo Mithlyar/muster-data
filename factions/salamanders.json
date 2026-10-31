@@ -116,6 +116,30 @@
           "text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Lightning-Fast Strike",
+          "who": [
+            [
+              "Adeptus Astartes",
+              "Mounted"
+            ],
+            [
+              "Adeptus Astartes",
+              "Speeder"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Wind-swift Evasion",
@@ -148,6 +172,26 @@
         {
           "name": "Vulkan's Quest",
           "text": "▪ You can select the devastator doctrine one additional time per battle.\n▪ Friendly Adeptus Astartes units’ ranged attacks that target a unit within 12”, have +1 S.\n\n\nIf your army includes a Vulkan He’stan unit, friendly Infernus Squad units have the following:\n▪ When this unit is selected to make an advance/fall-back move, that advance/fall-back move does not prevent this unit from being eligible to start an action.\n▪ When this unit starts an action, that action does not prevent this unit from being eligible to shoot.\n\n\nRestrictions: Your army can include Salamanders units, but it cannot include any Adeptus Astartes units drawn from any other Chapter."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Vulkan's Quest",
+          "who": [
+            [
+              "Adeptus Astartes"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "Friendly Adeptus Astartes units' ranged attacks that target a unit within 12\", have +1 S."
         }
       ],
       "stratagems": [

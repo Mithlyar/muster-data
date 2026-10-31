@@ -261,6 +261,34 @@
           "text": "Each time a ^^**Grey Knights Vehicle**^^ unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit and, until the end of the turn, ranged weapons equipped by models in that unit have the [**^^Assault**^^] ability."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Mailed Fist",
+          "who": [
+            [
+              "Grey Knights",
+              "Vehicle"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 6,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a Grey Knights Vehicle unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit and, until the end of the turn, ranged weapons equipped by models in that unit have the [Assault] ability."
+        }
+      ],
       "stratagems": [
         {
           "name": "Abominus-class Targets",
@@ -317,6 +345,44 @@
         {
           "name": "Channelled Force",
           "text": "Each time a **^^Grey Knights**^^ unit from your army is selected to fight, that unit can take a Leadership test. If that test is passed, select one of the following rules. Until the end of the phase, that unit has that rule.\n- Melee weapons equipped by models in this unit with the [**^^Psychic**^^] ability also have the [**^^Sustained Hits 1**^^] ability.\n- Melee weapons equipped by models in this unit with the [**^^Psychic**^^] ability also have the [**^^Lethal Hits**^^] ability."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Channelled Force",
+          "who": [
+            [
+              "Grey Knights"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Melee weapons equipped by models in this unit with the [Psychic] ability also have the [Sustained Hits 1] ability."
+        },
+        {
+          "rule": "Channelled Force",
+          "who": [
+            [
+              "Grey Knights"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Melee weapons equipped by models in this unit with the [Psychic] ability also have the [Lethal Hits] ability."
         }
       ],
       "stratagems": [
