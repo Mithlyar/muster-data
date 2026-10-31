@@ -3851,6 +3851,22 @@
           "fromCopy": 2,
           "points": 35
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -4106,6 +4122,22 @@
           "fromCopy": 2,
           "points": 35
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -4352,6 +4384,22 @@
         {
           "fromCopy": 2,
           "points": 35
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -4946,7 +4994,23 @@
             "fromText": true
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Psionic Shield (Psychic)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If it does, until the end of the phase, this model has a 4+ invulnerable save."
+        }
+      ]
     },
     {
       "id": "725f-8a41-dc78-52f5",
@@ -5857,6 +5921,22 @@
           "type": "Transport",
           "name": "Centaur RSV",
           "text": "This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Rapid Strike Vehicle",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While one or more units are embarked within this model, unless this model is Battle-shocked, add 1 to this model's Objective Control characteristic for every 3 models (rounding down) embarked within it."
         }
       ]
     },
@@ -9479,6 +9559,22 @@
           "name": "Doomhammer",
           "text": "This model has a transport capacity of 26 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -9732,7 +9828,29 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Rearm, Reload, Fire",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "While this unit is being affected by an Order, provided it Remained Stationary this turn, all Heavy weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability"
+        }
+      ]
     },
     {
       "id": "71b0-77b9-522c-17d6",
@@ -11018,6 +11136,22 @@
         {
           "fromCopy": 2,
           "points": 30
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -16243,6 +16377,22 @@
           "fromCopy": 2,
           "points": 30
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -16697,6 +16847,22 @@
           "name": "Stormlord",
           "text": "This model has a transport capacity of 40 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -16943,6 +17109,22 @@
         {
           "fromCopy": 2,
           "points": 35
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -19256,7 +19438,21 @@
           "8a84-a8fd-977e-9118",
           "b5d2-8681-6bba-f05b"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Biohorror Disruption (Psychic)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "4501-646d-e705-9dca",

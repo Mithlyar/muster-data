@@ -2529,7 +2529,21 @@
           "b16a-7132-3f8a-abe5",
           "dadc-d370-ef10-853c"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "More Dakka",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "78a7-cf35-aa8d-c420",
@@ -2666,6 +2680,43 @@
         {
           "fromCopy": 3,
           "points": 20
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Even More Dakka",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "If this unit is riled up, this unit's ranged attacks have [SUSTAINED HITS 1]."
+        },
+        {
+          "rule": "Blitz Dem Gitz!",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "A",
+              "op": "add",
+              "value": 6,
+              "fromText": true,
+              "weaponName": "blitzkannon"
+            },
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 6,
+              "fromText": true,
+              "weaponName": "blitzkannon"
+            }
+          ],
+          "condition": "In your Shooting phase, if this unit's Blitzkannon weapon targets a unit (excluding MONSTER/VEHICLE units), that weapon has +6 A."
         }
       ]
     },
@@ -2999,7 +3050,21 @@
           "7067-34f4-5272-e05f",
           "b37a-8686-db2c-8cbd"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "More Dakka",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "dde2-ca42-e3bc-2ef6",
@@ -3132,7 +3197,21 @@
           "b16a-7132-3f8a-abe5",
           "dadc-d370-ef10-853c"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "More Dakka",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "609a-6ef1-a3e3-3baa",
@@ -4636,6 +4715,21 @@
           "weaponIds": [
             "af88-ff4f-6ab4-e651"
           ]
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Tide of Muscle",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "In the Fight phase, if this unit made a charge move this turn, this unit's melee attacks have [LETHAL HITS]."
         }
       ]
     },
@@ -7474,6 +7568,21 @@
         {
           "fromCopy": 3,
           "points": 40
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Finderz Keeperz",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "In your Shooting phase, if any of the following apply, this unit's ranged attacks have +1 AP."
         }
       ]
     },
@@ -11275,6 +11384,30 @@
           "name": "Hunta Rig",
           "text": "This model has a **transport capacity** of 22 **BEAST SNAGGAS INFANTRY** models."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Fully Loaded Butchery",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "A",
+              "op": "add",
+              "value": 2,
+              "fromText": true,
+              "weaponName": "butcha boyz"
+            },
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 2,
+              "fromText": true,
+              "weaponName": "butcha boyz"
+            }
+          ],
+          "condition": "This unit's Butcha Boyz weapon has +2 A for each model embarked within this unit (to a maximum of +22 A)."
+        }
       ]
     },
     {
@@ -14212,7 +14345,21 @@
           "b16a-7132-3f8a-abe5",
           "dadc-d370-ef10-853c"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Kustom Dakka",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "b37a-8686-db2c-8cbd",
@@ -15075,7 +15222,21 @@
         "unitIds": [
           "7067-34f4-5272-e05f"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Nazdreg's Know-wotz",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "b16a-7132-3f8a-abe5",
@@ -17046,6 +17207,28 @@
           "fromCopy": 3,
           "points": 30
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Brutal Impact",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "D",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "D",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "If this unit made a charge move this turn, this unit's attacks have +1 D."
+        }
       ]
     },
     {
@@ -17514,7 +17697,42 @@
         "incursion": 3,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Rokkit Charge",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "If you do, this unit's melee attacks have +1 A and S."
+        },
+        {
+          "rule": "Rokkit Charge",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Hazardous",
+              "fromText": true
+            }
+          ],
+          "condition": "If you do, this unit's melee attacks have [HAZARDOUS]."
+        }
+      ]
     },
     {
       "id": "dadc-d370-ef10-853c",
@@ -20474,7 +20692,29 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "High-speed Carnage",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "D",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "If this unit made a charge move this turn, this unit's melee attacks have +1 S and D."
+        }
+      ]
     },
     {
       "id": "2efc-c4b3-2ecc-5a37",
@@ -20762,7 +21002,37 @@
           "a596-3d99-257e-0ea1",
           "b16a-7132-3f8a-abe5"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Might is Right",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 3,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If this unit made a charge move this turn, this model's melee attacks have +3 A."
+        },
+        {
+          "rule": "Might is Right",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If this unit made a charge move this turn, this model's melee attacks have +2 S."
+        }
+      ]
     },
     {
       "id": "494b-11ce-5af-5b50",
@@ -22796,7 +23066,57 @@
           "b16a-7132-3f8a-abe5",
           "de8f-24f9-c543-92b7"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Channellin' da Waaagh!",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "D",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "D",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time this model attacks with a Psychic weapon, until the end of the phase, improve the Attacks, Strength and Damage characteristics of that weapon by 1 for every 5 models in this unit."
+        }
+      ]
     },
     {
       "id": "9e51-a749-18ba-2ea4",

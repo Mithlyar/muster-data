@@ -3170,7 +3170,21 @@
         "unitIds": [
           "4d0c-e3fd-ee80-ddbf"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Blade of the Clans",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "e2ad-60b4-9678-88aa",
@@ -12332,7 +12346,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Invulnerable Save (4+*)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 4,
+              "fromText": true
+            }
+          ],
+          "condition": "Models in this unit have a 4+ invulnerable save against melee attacks."
+        }
+      ]
     },
     {
       "id": "2713-f82d-5189-d5de",
@@ -13570,7 +13599,23 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Speed of Vaul",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 9,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Instead, until the end of the phase, add 9\" to the Move characteristic of this model"
+        }
+      ]
     },
     {
       "id": "6f18-95b7-2662-8925",
@@ -14412,7 +14457,37 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-16 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -10,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-16 wounds remaining, subtract 10 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "rule": "Invulnerable Save (4+*)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "This model has a 4+ invulnerable save against ranged attacks."
+        }
+      ]
     },
     {
       "id": "6083-affa-5163-a94c",
@@ -14860,7 +14935,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Invulnerable Save (5+*)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ],
+          "condition": "Models in this unit have a 5+ invulnerable save against ranged attacks."
+        }
+      ]
     },
     {
       "id": "ca40-4a0d-567-852",
@@ -15126,7 +15216,51 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -8,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, subtract 8 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "rule": "Revenant Jet Pack",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 8,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Instead, until the end of the phase, add 8\" to the Move characteristic of this model."
+        },
+        {
+          "rule": "Invulnerable Save (4+*)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "This model has a 4+ invulnerable save against ranged attacks."
+        }
+      ]
     },
     {
       "id": "1420-c80d-66fc-6a",
@@ -16524,7 +16658,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Invulnerable Save (5+*)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ],
+          "condition": "Models in this unit have a 5+ invulnerable save against ranged attacks."
+        }
+      ]
     },
     {
       "id": "5f15-8ad-1f3b-d6d1",
@@ -16904,7 +17053,23 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -5,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "915f-4ee6-3358-31ca",
@@ -22280,7 +22445,28 @@
         "unitIds": [
           "592a-b255-6c58-19ec"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Runes of Battle (Psychic)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ef18-ff32-2be6-7372",
@@ -22823,6 +23009,21 @@
           "fromCopy": 3,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Flickerjump",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "set",
+              "value": "24\"",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: If it does, until the end of the turn, this unit is not eligible to declare a charge and models in it have a Move characteristic of 24\"."
+        }
       ]
     },
     {
@@ -23061,7 +23262,23 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Cloudbreakers",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 6,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+        }
+      ]
     },
     {
       "id": "ad88-f706-318c-e70e",
@@ -24245,6 +24462,22 @@
           "fromCopy": 2,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -5,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -24506,6 +24739,22 @@
         {
           "fromCopy": 2,
           "points": 20
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-6 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -5,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-6 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -26443,7 +26692,22 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Invulnerable Save (4+*)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 4,
+              "fromText": true
+            }
+          ],
+          "condition": "Models in this unit have a 4+ invulnerable save against melee attacks."
+        }
+      ]
     }
   ],
   "rules": [

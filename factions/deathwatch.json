@@ -1675,7 +1675,21 @@
           "907f-11-c4d1-ec21",
           "f1b9-b2e8-4ccf-d6cb"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Honour of the Company",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "fc7f-8176-c10c-ca8",
@@ -2999,7 +3013,29 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Targeted Intercession",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "If this unit made a charge move this turn, this unit's melee attacks have +1 S and AP."
+        }
+      ]
     },
     {
       "id": "cdd9-efda-95-e7b2",
@@ -3935,6 +3971,36 @@
         {
           "fromCopy": 2,
           "points": 75
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "*Invulnerable Save",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "This model has a 5+ invulnerable save against ranged attacks."
+        },
+        {
+          "rule": "Damaged: 1-8 wounds remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -5973,6 +6039,21 @@
           },
           "points": 160
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Turbo Boost",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 6,
+              "fromText": true
+            }
+          ],
+          "condition": "Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit"
+        }
       ]
     },
     {
@@ -6098,7 +6179,22 @@
         "unitIds": [
           "7044-bf1-f949-c32d"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Deeds of Legend",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "While this unit is within range of an objective, this unit's melee attacks have +1 A."
+        }
+      ]
     },
     {
       "id": "7044-bf1-f949-c32d",
@@ -7115,7 +7211,37 @@
           "907f-11-c4d1-ec21",
           "f1b9-b2e8-4ccf-d6cb"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Finest Hour",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 3,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If you do, this model's melee attacks have +3 A"
+        },
+        {
+          "rule": "Finest Hour",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If you do, this model's melee attacks have [DEVASTATING WOUNDS]."
+        }
+      ]
     },
     {
       "id": "1d56-1cc3-de57-10e2",
@@ -8114,7 +8240,22 @@
         "unitIds": [
           "b5e8-c34b-566b-8bda"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Into the Fray",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Cleave 1",
+              "fromText": true
+            }
+          ],
+          "condition": "If this unit made a Charge move this turn, this unit's melee attacks have [Cleave 1]"
+        }
+      ]
     },
     {
       "id": "1319-45d-bb95-dfd4",
@@ -9005,7 +9146,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Annihilator Protocols",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 2",
+              "fromText": true
+            }
+          ],
+          "condition": "Melee weapons equipped by models in this unit have the [SUSTAINED HITS 2] ability when targeting Monster, Vehicle or Fortification units"
+        }
+      ]
     },
     {
       "id": "6ba0-cede-e278-f86b",
@@ -11926,7 +12082,21 @@
           "907f-11-c4d1-ec21",
           "f1b9-b2e8-4ccf-d6cb"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Litany of Hate",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "c026-b762-d0a6-5ef1",
@@ -12101,7 +12271,21 @@
         "unitIds": [
           "390e-706b-a059-378b"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Litany of Hate",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "c550-de70-074f-9210",
@@ -12243,7 +12427,21 @@
           "8da0-4570-c3c-819f",
           "907f-11-c4d1-ec21"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Litany of Hate",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "5d1d-2230-8199-3ab3",
@@ -12396,7 +12594,21 @@
           "a40-ff3f-c1ea-fea7",
           "b5e8-c34b-566b-8bda"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Litany of Hate",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "b51-a07d-6440-e1ad",
@@ -12951,7 +13163,21 @@
           "c679-f252-32b1-ebcc",
           "9e9c-bf4d-2d40-be82"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Litany of Hate",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "78ae-14b4-56d0-cc9d",
@@ -14138,7 +14364,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Astartes Banner",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "contains": "Company Ancient"
+        }
+      ]
     },
     {
       "id": "97c3-20c8-4c99-39e5",
@@ -15270,7 +15511,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Vanguard Assault",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        }
+      ]
     },
     {
       "id": "d861-972b-54f9-bdfa",
@@ -19588,7 +19844,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Special-issue Optics and Ammunition",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: In your Shooting phase, when this unit is selected to shoot, you can select one of the following This unit's ranged attacks have [IGNORES COVER]."
+        }
+      ]
     },
     {
       "id": "3bc7-8328-a080-3958",
@@ -20351,6 +20622,22 @@
         {
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 wounds remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -21951,6 +22238,21 @@
           "fromCopy": 3,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Reaping Tally",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's ranged attacks that target a unit (excluding Monster/Vehicle units) have +1 AP."
+        }
       ]
     },
     {
@@ -22106,6 +22408,21 @@
         {
           "fromCopy": 3,
           "points": 20
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Priority Target Acquisition",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's ranged attacks that target a unit within 12\" of this unit have +1S"
         }
       ]
     },
@@ -24386,6 +24703,21 @@
         {
           "fromCopy": 3,
           "points": 20
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Indomitor Doctrines",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "If this unit made a charge move this turn, this unit's melee attacks have +1 S."
         }
       ]
     },
@@ -31216,7 +31548,35 @@
         "unitIds": [
           "390e-706b-a059-378b"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "[Psychic Abilities] - Might of Heroes (Psychic Level 1)",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: If you do This unit's melee attacks have +2 S."
+        },
+        {
+          "rule": "[Psychic Abilities] - Thunderous Force (Psychic Level 1)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "range",
+              "op": "add",
+              "value": 6,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: If you do This unit's ranged attacks have +6\" R."
+        }
+      ]
     },
     {
       "id": "1039-4a94-c791-9e1d",
@@ -34334,7 +34694,28 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Veil of Time (Psychic)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ce15-e87e-7cff-b129",
@@ -35482,6 +35863,22 @@
           "name": "Mastodon",
           "text": "This model has a transport capacity of 45 <FACTION> INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models. This model can also transport up to 2 DREADNOUGHT or HELBRUTE models (these models take up the space of a number of models equal to their Wounds characteristic e.g. A DREADNOUGHT with a Wounds characteristic of 8 would take up the space of 8  models)."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 wounds remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -6,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, subtract 6 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -36175,6 +36572,21 @@
             "25c2-104f-fa0c-809e"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Full-throttle Assault",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "D",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "If this unit made a charge move this turn, this unit's Other melee weapons have +1 D and [SUSTAINED HITS 1]."
+        }
       ]
     },
     {
@@ -36699,6 +37111,21 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Destructor",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time this model makes a ranged attack that targets an Infantry unit, improve the Armour Penetration characteristic of that attack by 1."
+        }
       ]
     },
     {
@@ -37069,6 +37496,28 @@
         {
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Powerful Volley",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability."
         }
       ]
     },
@@ -44528,6 +44977,41 @@
           "fromCopy": 3,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Talonstrike Doctrines",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "In a turn this unit was set up on the battlefield This unit's attacks have +1 AP."
+        },
+        {
+          "rule": "Talonstrike Doctrines",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true
+            }
+          ],
+          "condition": "In a turn this unit was set up on the battlefield This unit's melee attacks have [LANCE]."
+        }
       ]
     },
     {
@@ -46891,6 +47375,70 @@
           "id": "3b76-4053-ece9-6e7d",
           "name": "Combat Doctrines"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Sunderer of Fortresses",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "D",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "D",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "D",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "D",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead)."
+        }
       ]
     },
     {
@@ -47313,7 +47861,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Vanguard Assault",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        }
+      ]
     },
     {
       "id": "9e9c-bf4d-2d40-be82",
@@ -47691,6 +48254,21 @@
         {
           "fromCopy": 3,
           "points": 20
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Vanguard Assault",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "If this unit made a charge move this turn, this unit's melee attacks have +1A"
         }
       ]
     },
@@ -50143,7 +50721,28 @@
           "b169-ff89-b05e-3884",
           "a077-e1c9-f8f0-d38"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Tactical Instinct",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "f7c3-45d2-a7ac-d8bc",
@@ -50268,7 +50867,21 @@
           "b169-ff89-b05e-3884",
           "a077-e1c9-f8f0-d38"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Strategic Knowledge",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ae85-3e33-217d-7413",

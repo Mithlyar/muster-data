@@ -4602,6 +4602,22 @@
           "name": "Hierophant",
           "text": "This model has a transport capacity of 20 TYRANIDS INFANTRY models. Each model with a Wounds characteristic of more than 1 takes up the space of 3 models. This model cannot transport models that can FLY."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 wounds remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -6,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, subtract 6 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
       ]
     },
     {
@@ -5479,7 +5495,28 @@
         "unitIds": [
           "3f5-f7d6-1ce8-e6b9"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Alpha Invader",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "f6f8-8759-3282-2ab",
@@ -14789,7 +14826,28 @@
           "5815-871c-9260-287a",
           "a125-b6fb-2945-56a"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Alpha Warrior",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "5815-871c-9260-287a",

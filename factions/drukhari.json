@@ -5950,7 +5950,35 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Deadly Retinue (Pain)",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: While this unit is Empowered If it contains one or more Lhamaean models, melee weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        },
+        {
+          "rule": "Deadly Retinue (Pain)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: While this unit is Empowered If it contains one or more Medusae models, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability."
+        }
+      ]
     },
     {
       "id": "a5d3-e21b-bf13-a952",
@@ -8190,7 +8218,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Archon's Will",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Until the end of the battle, while this unit is within range of that objective marker, unless this unit is Battle-shocked, models in this unit have a 5+ invulnerable save and an Objective Control characteristic of 3."
+        }
+      ]
     },
     {
       "id": "2311-9feb-9d0a-8154",
@@ -8562,6 +8605,28 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Battlefield Butchery (Pain)",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: While Empowered, add 1 to the Attacks and Strength characteristics of this unit's melee weapons."
         }
       ]
     },
@@ -9713,7 +9778,23 @@
         "unitIds": [
           "edca-1a1b-902d-421a"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Thrilling Spectacle",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 3,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If it does, until the end of the phase, this model has a 3+ invulnerable save and change the Attacks characteristic of melee weapons equipped by this model to 12."
+        }
+      ]
     },
     {
       "id": "6a3a-7973-b509-532e",
@@ -11653,6 +11734,21 @@
           "weaponIds": [
             "6aef-6e34-34ec-25cd"
           ]
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Matchless Swiftness (Pain)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 8,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Instead, until the end of the phase, add 8\" to the Move characteristic of models in this unit."
         }
       ]
     },
@@ -16363,7 +16459,22 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Invulnerable Save (4+*)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 4,
+              "fromText": true
+            }
+          ],
+          "condition": "Models in this unit have a 4+ invulnerable save against melee attacks."
+        }
+      ]
     }
   ],
   "rules": [

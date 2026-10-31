@@ -1139,7 +1139,22 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Duality Shield",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "If it does, until the end of the phase, models in this unit have a 2+ invulnerable save."
+        }
+      ]
     },
     {
       "id": "6a78-555-46c7-999b",
@@ -7407,7 +7422,22 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Turbo-jets",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 6,
+              "fromText": true
+            }
+          ],
+          "condition": "Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+        }
+      ]
     },
     {
       "id": "9373-d0b3-94c9-e47",
@@ -8089,6 +8119,21 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Starscythe",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack (excluding attacks that target MONSTERS and VEHICLES), improve the Armour Penetration characteristic of that attack by 1."
         }
       ]
     },
@@ -10216,7 +10261,23 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Loping Stride",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 6,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+        }
+      ]
     },
     {
       "id": "e3ba-7f87-c32-229",
@@ -15753,6 +15814,21 @@
             "6af0-a6dd-ddeb-4178"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Target Uploaded",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and that attack has the [IGNORES COVER] ability."
+        }
       ]
     },
     {
@@ -21073,6 +21149,22 @@
         {
           "fromCopy": 2,
           "points": 100
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-10 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -5,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-10 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
     },

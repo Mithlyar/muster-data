@@ -1562,7 +1562,21 @@
         "unitIds": [
           "415a-e6f6-d17f-d700"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Break the Foe",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "a5c2-3951-e727-b64a",
