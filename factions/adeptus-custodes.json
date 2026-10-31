@@ -392,6 +392,26 @@
           "text": "Friendly ^^**Grav-Assault**^^ units have 4+ **InSv** against ranged attacks."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Flare Shields",
+          "who": [
+            [
+              "Grav-assault"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 4,
+              "fromText": true
+            }
+          ],
+          "condition": "Friendly Grav-Assault units have 4+ InSv against ranged attacks."
+        }
+      ],
       "stratagems": [
         {
           "name": "Advanced Stabilisers",
@@ -1750,8 +1770,7 @@
               "mod": 1,
               "condition": "While this unit is below starting strength, this unit's attacks have +1 to hit rolls."
             }
-          ],
-          "condition": "While this unit is below starting strength, this unit's attacks have +1 to hit rolls."
+          ]
         },
         {
           "rule": "Tenacious Spirit",
@@ -1762,8 +1781,7 @@
               "mod": 1,
               "condition": "While this unit is below half-strength, this unit's attacks have +1 to wound rolls."
             }
-          ],
-          "condition": "While this unit is below half-strength, this unit's attacks have +1 to wound rolls."
+          ]
         }
       ]
     },
@@ -2011,8 +2029,7 @@
               "kind": "melee",
               "condition": "This unit's melee attacks that target a unit with a T greater than this unit's T have +1 to wound rolls."
             }
-          ],
-          "condition": "This unit's melee attacks that target a unit with a T greater than this unit's T have +1 to wound rolls."
+          ]
         }
       ]
     },
@@ -3132,8 +3149,7 @@
               "mod": "reroll1",
               "condition": "This unit's attacks that target an Infantry unit can Re-roll hit rolls of 1."
             }
-          ],
-          "condition": "This unit's attacks that target an Infantry unit can Re-roll hit rolls of 1."
+          ]
         },
         {
           "rule": "Reap a Terrible Tally",
@@ -3144,8 +3160,7 @@
               "mod": "reroll1",
               "condition": "This unit's attacks that target an Infantry unit can Re-roll wound rolls of 1."
             }
-          ],
-          "condition": "This unit's attacks that target an Infantry unit can Re-roll wound rolls of 1."
+          ]
         }
       ]
     },
@@ -4486,8 +4501,7 @@
               "kind": "ranged",
               "condition": "This unit's ranged attacks that target a MONSTER/VEHICLE unit can Re-roll one hit roll."
             }
-          ],
-          "condition": "This unit's ranged attacks that target a MONSTER/VEHICLE unit can Re-roll one hit roll."
+          ]
         },
         {
           "rule": "Advanced Firepower",
@@ -4499,8 +4513,7 @@
               "kind": "ranged",
               "condition": "This unit's ranged attacks that target a MONSTER/VEHICLE unit can Re-roll one wound roll."
             }
-          ],
-          "condition": "This unit's ranged attacks that target a MONSTER/VEHICLE unit can Re-roll one wound roll."
+          ]
         }
       ]
     },
@@ -5521,8 +5534,7 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
+          ]
         },
         {
           "rule": "Damaged: 1-10 Wounds Remaining",
@@ -6124,8 +6136,7 @@
               "against": true,
               "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
             }
-          ],
-          "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+          ]
         }
       ]
     },
@@ -6262,8 +6273,7 @@
               "against": true,
               "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
             }
-          ],
-          "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+          ]
         }
       ]
     },
@@ -6771,8 +6781,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -10006,8 +10015,7 @@
               "roll": "hit",
               "mod": "reroll1"
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+          ]
         }
       ]
     },
@@ -13065,8 +13073,7 @@
               "mod": 1,
               "condition": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+          ]
         }
       ]
     },
@@ -14753,8 +14760,7 @@
               "roll": "wound",
               "mod": "reroll1"
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+          ]
         }
       ]
     },
@@ -15458,8 +15464,7 @@
               "mod": 1,
               "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
+          ]
         }
       ]
     },
@@ -17748,11 +17753,14 @@
             {
               "roll": "wound",
               "mod": -1,
-              "against": true,
-              "condition": "While an INQUISITOR model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+              "against": true
             }
           ],
-          "condition": "While an INQUISITOR model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+          "ledBy": [
+            [
+              "Inquisitor"
+            ]
+          ]
         }
       ]
     },
@@ -18947,8 +18955,7 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
             }
-          ],
-          "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
+          ]
         }
       ]
     },
@@ -21319,8 +21326,7 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll."
+          ]
         },
         {
           "rule": "Invulnerable Save (5+*)",
@@ -22678,8 +22684,7 @@
               "condition": "Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
+          "onlyModel": true
         }
       ]
     },
@@ -27011,8 +27016,7 @@
               "mod": 1,
               "condition": "Each time a model in this unit makes an attack that targets a unit that is not Below Half-strength, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack that targets a unit that is not Below Half-strength, add 1 to the Hit roll."
+          ]
         }
       ]
     },
@@ -28685,8 +28689,7 @@
               "against": true,
               "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
             }
-          ],
-          "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+          ]
         }
       ]
     },
@@ -31581,6 +31584,20 @@
           ],
           "onlyModel": true,
           "condition": "when chosen: At the start of any phase, you can select one of the following to take effect until the end of the phase This model's Watcher's Axe weapon has +3 A."
+        },
+        {
+          "rule": "Moment Shackle",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 3,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: At the start of any phase, you can select one of the following to take effect until the end of the phase This model has 3+ InSv."
         }
       ]
     },
@@ -31973,8 +31990,7 @@
               "kind": "ranged",
               "condition": "In your Shooting phase, if this unit made an ingress move this turn, this unit's ranged attacks can re-roll hit rolls."
             }
-          ],
-          "condition": "In your Shooting phase, if this unit made an ingress move this turn, this unit's ranged attacks can re-roll hit rolls."
+          ]
         }
       ]
     },
@@ -33406,8 +33422,7 @@
               "kind": "ranged",
               "condition": "Each time a model in this unit makes a ranged attack that targets a unit that is Below Half-strength, add 1 to the Wound roll."
             }
-          ],
-          "condition": "Each time a model in this unit makes a ranged attack that targets a unit that is Below Half-strength, add 1 to the Wound roll."
+          ]
         }
       ]
     },
@@ -33536,8 +33551,7 @@
               "kind": "melee",
               "condition": "Melee attacks that target this unit have -1 to hit rolls."
             }
-          ],
-          "condition": "Melee attacks that target this unit have -1 to hit rolls."
+          ]
         }
       ]
     },
@@ -34283,8 +34297,7 @@
               "condition": "This model's attacks that target a Character unit can Re-roll hit rolls of 1."
             }
           ],
-          "onlyModel": true,
-          "condition": "This model's attacks that target a Character unit can Re-roll hit rolls of 1."
+          "onlyModel": true
         },
         {
           "rule": "Watch Master",
@@ -34296,8 +34309,7 @@
               "condition": "This model's attacks that target a Character unit can Re-roll wound rolls of 1."
             }
           ],
-          "onlyModel": true,
-          "condition": "This model's attacks that target a Character unit can Re-roll wound rolls of 1."
+          "onlyModel": true
         }
       ]
     },

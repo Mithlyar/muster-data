@@ -1189,8 +1189,7 @@
               "mod": -1,
               "against": true
             }
-          ],
-          "condition": "Each time an attack targets this unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
+          ]
         }
       ]
     },
@@ -1462,8 +1461,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -1804,8 +1802,7 @@
               "mod": -1,
               "against": true
             }
-          ],
-          "condition": "Each time an attack targets this model, subtract 1 from the Hit roll."
+          ]
         },
         {
           "rule": "Damaged: 1-5 Wounds Remaining",
@@ -1817,8 +1814,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -2035,8 +2031,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -5098,8 +5093,7 @@
               "condition": "While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -7926,8 +7920,7 @@
               "mod": "reroll1",
               "kind": "ranged"
             }
-          ],
-          "condition": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1."
+          ]
         }
       ]
     },
@@ -8569,8 +8562,7 @@
               "kind": "ranged",
               "condition": "Each time a model in this unit makes a ranged attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
             }
-          ],
-          "condition": "Each time a model in this unit makes a ranged attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
+          ]
         }
       ]
     },
@@ -9500,8 +9492,7 @@
               "mod": "reroll",
               "condition": "Each time a model in this unit makes an attack that targets a Spotted unit, you can re-roll the Hit roll."
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack that targets a Spotted unit, you can re-roll the Hit roll."
+          ]
         }
       ]
     },
@@ -9951,8 +9942,7 @@
               "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -10288,8 +10278,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -10944,8 +10933,7 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
+          ]
         },
         {
           "rule": "Damaged: 1-5 Wounds Remaining",
@@ -10957,8 +10945,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         },
         {
           "rule": "Targeting Array",
@@ -10974,8 +10961,7 @@
               "mod": "rerollOne",
               "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
             }
-          ],
-          "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+          ]
         }
       ]
     },
@@ -11333,8 +11319,7 @@
               "condition": "While this model has 1-30 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-30 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -15055,8 +15040,7 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
+          ]
         },
         {
           "rule": "Damaged: 1-5 Wounds Remaining",
@@ -15068,8 +15052,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         },
         {
           "rule": "Targeting Array",
@@ -15085,8 +15068,7 @@
               "mod": "rerollOne",
               "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
             }
-          ],
-          "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+          ]
         }
       ]
     },
@@ -15248,8 +15230,7 @@
               "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -15499,8 +15480,7 @@
               "condition": "While this model has 1-20 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-20 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -15653,8 +15633,7 @@
               "condition": "While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -16563,8 +16542,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -17026,8 +17004,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -17211,8 +17188,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -17432,8 +17408,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -17956,8 +17931,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -19645,8 +19619,7 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll."
+          ]
         },
         {
           "rule": "Blacklight Marker Drones",
@@ -19658,8 +19631,7 @@
               "kind": "ranged",
               "condition": "Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound roll of 1."
             }
-          ],
-          "condition": "Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound roll of 1."
+          ]
         }
       ]
     },
@@ -19882,8 +19854,7 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack with a ranged weapon that targets a unit that can FLY, you can re-roll the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes an attack with a ranged weapon that targets a unit that can FLY, you can re-roll the Hit roll."
+          ]
         },
         {
           "rule": "Damaged: 1-5 Wounds Remaining",
@@ -19895,8 +19866,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         },
         {
           "rule": "Targeting Array",
@@ -19912,8 +19882,7 @@
               "mod": "rerollOne",
               "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
             }
-          ],
-          "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+          ]
         }
       ]
     },
@@ -20103,8 +20072,7 @@
               "mod": 1,
               "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+          ]
         }
       ]
     },
@@ -20503,8 +20471,7 @@
               "kind": "ranged",
               "condition": "Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
             }
-          ],
-          "condition": "Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+          ]
         }
       ]
     },
@@ -20875,8 +20842,7 @@
               "condition": "While this model has 1-5 wounds remaining, subtract 3 from this models Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, subtract 3 from this models Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         },
         {
           "rule": "Titan-killer",
@@ -20888,8 +20854,7 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes a ranged attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
+          ]
         }
       ]
     },
@@ -21411,8 +21376,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -21774,8 +21738,7 @@
               "mod": "reroll1",
               "condition": "While this model is a Guided unit, each time it makes an attack that targets its Spotted unit, re-roll a Hit roll of 1."
             }
-          ],
-          "condition": "While this model is a Guided unit, each time it makes an attack that targets its Spotted unit, re-roll a Hit roll of 1."
+          ]
         },
         {
           "rule": "Damaged: 1-10 Wounds Remaining",
@@ -22030,8 +21993,7 @@
               "mod": "reroll",
               "condition": "Each time this unit is an Observer unit, until the end of the phase, each time a model in its Guided unit makes an attack that targets their Spotted unit, you can re-roll the Hit roll."
             }
-          ],
-          "condition": "Each time this unit is an Observer unit, until the end of the phase, each time a model in its Guided unit makes an attack that targets their Spotted unit, you can re-roll the Hit roll."
+          ]
         }
       ]
     },
@@ -23122,8 +23084,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -24090,8 +24051,7 @@
               "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -24937,8 +24897,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     }

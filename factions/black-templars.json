@@ -2297,8 +2297,7 @@
               "against": true,
               "condition": "While this unit is within range of an objective, attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
             }
-          ],
-          "condition": "While this unit is within range of an objective, attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+          ]
         }
       ]
     },
@@ -5516,7 +5515,11 @@
         {
           "rule": "Mindlock",
           "stats": [],
-          "condition": "While a Techmarine model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by Astartes Servitor models in this unit by 1."
+          "ledBy": [
+            [
+              "Techmarine"
+            ]
+          ]
         }
       ]
     },
@@ -8744,8 +8747,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -10803,8 +10805,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -11748,8 +11749,7 @@
               "mod": "reroll1",
               "kind": "ranged"
             }
-          ],
-          "condition": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1."
+          ]
         }
       ]
     },
@@ -12037,8 +12037,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -15731,8 +15730,7 @@
               "kind": "melee",
               "condition": "While this unit is at or below half-strength, this unit's melee attacks can re-roll wound rolls."
             }
-          ],
-          "condition": "While this unit is at or below half-strength, this unit's melee attacks can re-roll wound rolls."
+          ]
         },
         {
           "rule": "Litany of Hate",
@@ -16963,8 +16961,7 @@
               "condition": "While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase."
             }
           ],
-          "contains": "Company Champion",
-          "condition": "While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase."
+          "contains": "Company Champion"
         }
       ]
     },
@@ -17155,8 +17152,7 @@
               "kind": "melee",
               "condition": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll"
             }
-          ],
-          "condition": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll"
+          ]
         }
       ]
     },
@@ -17402,8 +17398,7 @@
               "against": true,
               "condition": "Attacks that target this unit have -1 to wound rolls"
             }
-          ],
-          "condition": "Attacks that target this unit have -1 to wound rolls"
+          ]
         }
       ]
     },
@@ -21793,8 +21788,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -22158,8 +22152,7 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
+          ]
         },
         {
           "rule": "Damaged: 1-4 wounds remaining",
@@ -22171,8 +22164,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -24856,8 +24848,7 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
+          ]
         },
         {
           "rule": "Damaged: 1-6 wounds remaining",
@@ -24869,8 +24860,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -26002,8 +25992,7 @@
               "kind": "ranged",
               "condition": "This unit's ranged attacks that target a Monster/Vehicle unit can Re-roll one hit roll."
             }
-          ],
-          "condition": "This unit's ranged attacks that target a Monster/Vehicle unit can Re-roll one hit roll."
+          ]
         },
         {
           "rule": "Aquilon Optics",
@@ -26015,8 +26004,7 @@
               "kind": "ranged",
               "condition": "This unit's ranged attacks that target a Monster/Vehicle unit can Re-roll one wound roll."
             }
-          ],
-          "condition": "This unit's ranged attacks that target a Monster/Vehicle unit can Re-roll one wound roll."
+          ]
         }
       ]
     },
@@ -26603,8 +26591,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -27449,8 +27436,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -28271,8 +28257,7 @@
               "kind": "ranged",
               "condition": "If this unit made an ingress move this turn, this unit's ranged attacks have +1 to hit rolls."
             }
-          ],
-          "condition": "If this unit made an ingress move this turn, this unit's ranged attacks have +1 to hit rolls."
+          ]
         }
       ]
     },
@@ -29818,8 +29803,7 @@
               "kind": "ranged",
               "condition": "In your Shooting phase, if any of the following apply, this unit's ranged attacks have +1 to hit rolls This unit is within range of an objective."
             }
-          ],
-          "condition": "In your Shooting phase, if any of the following apply, this unit's ranged attacks have +1 to hit rolls This unit is within range of an objective."
+          ]
         },
         {
           "rule": "Bolter Discipline",
@@ -29831,8 +29815,7 @@
               "kind": "ranged",
               "condition": "In your Shooting phase, if any of the following apply, this unit's ranged attacks have +1 to hit rolls The target of that attack is within range of an objective."
             }
-          ],
-          "condition": "In your Shooting phase, if any of the following apply, this unit's ranged attacks have +1 to hit rolls The target of that attack is within range of an objective."
+          ]
         }
       ]
     },
@@ -30654,8 +30637,7 @@
               "kind": "melee",
               "condition": "Each time this model makes a melee attack that targets a Vehicle or Fortification unit, add 1 to the Hit roll and add 1 to the Wound roll"
             }
-          ],
-          "condition": "Each time this model makes a melee attack that targets a Vehicle or Fortification unit, add 1 to the Hit roll and add 1 to the Wound roll"
+          ]
         }
       ]
     },
@@ -31809,8 +31791,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -32530,8 +32511,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -33328,8 +33308,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -33563,8 +33542,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -33924,8 +33902,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -35494,8 +35471,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -37284,8 +37260,7 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
+          ]
         }
       ]
     },
@@ -37632,8 +37607,7 @@
               "condition": "If this unit made a charge move this turn, this unit's Thunder Hammer weapons have +1 to hit rolls and [SUSTAINED HITS 1].",
               "weaponName": "thunder hammer"
             }
-          ],
-          "condition": "If this unit made a charge move this turn, this unit's Thunder Hammer weapons have +1 to hit rolls and [SUSTAINED HITS 1]."
+          ]
         },
         {
           "rule": "Full-throttle Assault",
@@ -38197,8 +38171,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -38368,8 +38341,7 @@
               "kind": "melee",
               "condition": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll"
             }
-          ],
-          "condition": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll"
+          ]
         }
       ]
     },
@@ -39240,8 +39212,7 @@
               "against": true,
               "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
             }
-          ],
-          "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+          ]
         }
       ]
     },
@@ -41458,8 +41429,7 @@
               "kind": "ranged",
               "condition": "This unit's ranged attacks that target a unit not below half-strength have +1 to hit rolls."
             }
-          ],
-          "condition": "This unit's ranged attacks that target a unit not below half-strength have +1 to hit rolls."
+          ]
         }
       ]
     },
@@ -43324,8 +43294,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -43585,8 +43554,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -43860,8 +43828,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -44121,8 +44088,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -44382,8 +44348,7 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
+          ]
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -44395,8 +44360,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -44573,8 +44537,7 @@
               "condition": "While this model has 1-13 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-13 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -44942,8 +44905,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -45613,8 +45575,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -46329,8 +46290,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -46821,8 +46781,7 @@
               "kind": "ranged",
               "condition": "This unit's ranged attacks that target a Monster/Vehicle unit have +1 to wound rolls."
             }
-          ],
-          "condition": "This unit's ranged attacks that target a Monster/Vehicle unit have +1 to wound rolls."
+          ]
         }
       ]
     },
@@ -47115,8 +47074,7 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll"
             }
-          ],
-          "condition": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll"
+          ]
         }
       ]
     },
@@ -47514,8 +47472,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -47769,8 +47726,7 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
+          ]
         }
       ]
     },
@@ -50645,8 +50601,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -50882,8 +50837,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -51383,8 +51337,7 @@
               "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -51541,8 +51494,7 @@
               "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -51895,8 +51847,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -55078,8 +55029,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -55393,8 +55343,7 @@
               "condition": "This model's attacks that target a Character unit can Re-roll hit rolls of 1."
             }
           ],
-          "onlyModel": true,
-          "condition": "This model's attacks that target a Character unit can Re-roll hit rolls of 1."
+          "onlyModel": true
         },
         {
           "rule": "Watch Master",
@@ -55406,8 +55355,7 @@
               "condition": "This model's attacks that target a Character unit can Re-roll wound rolls of 1."
             }
           ],
-          "onlyModel": true,
-          "condition": "This model's attacks that target a Character unit can Re-roll wound rolls of 1."
+          "onlyModel": true
         }
       ]
     },
@@ -55800,8 +55748,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -55940,8 +55887,7 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+          ]
         },
         {
           "rule": "Damaged: 1-4 wounds remaining",
@@ -55953,8 +55899,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     }
@@ -55988,7 +55933,22 @@
     {
       "id": "3b76-4053-ece9-6e7d",
       "name": "Combat Doctrines",
-      "text": "At the start of your Command phase, you can select one Combat Doctrine listed below. If you do, that Combat Doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command Phase\n\n\nAssault Doctrine\nWhen this unit is selected to make an Advance move, that Advance move does not prevent this unit from being eligible to declare a charge. \n\n\nDevastator Doctrine\nThis unit's ranged attacks have [ASSAULT]\n\n\nTactical Doctrine\nWhen this unit is selected to make a Fall-back move, that Fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge. \n\n\nUnless otherwise stated. \n- You can only select each Combat Doctrine once per battle\n- Only one Combat Doctrine can be active for each unit. If a rule make a Combat Doctrine active for a unit, any Combat Doctrine previously active for that unit is no longer active for that unit."
+      "text": "At the start of your Command phase, you can select one Combat Doctrine listed below. If you do, that Combat Doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command Phase\n\n\nAssault Doctrine\nWhen this unit is selected to make an Advance move, that Advance move does not prevent this unit from being eligible to declare a charge. \n\n\nDevastator Doctrine\nThis unit's ranged attacks have [ASSAULT]\n\n\nTactical Doctrine\nWhen this unit is selected to make a Fall-back move, that Fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge. \n\n\nUnless otherwise stated. \n- You can only select each Combat Doctrine once per battle\n- Only one Combat Doctrine can be active for each unit. If a rule make a Combat Doctrine active for a unit, any Combat Doctrine previously active for that unit is no longer active for that unit.",
+      "effects": [
+        {
+          "rule": "Combat Doctrines",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: This unit's ranged attacks have [ASSAULT]"
+        }
+      ]
     },
     {
       "id": "a07b-d883-9916-4288",

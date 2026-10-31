@@ -3704,8 +3704,7 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
+          ]
         },
         {
           "rule": "Damaged: 1-10 Wounds Remaining",
@@ -4385,8 +4384,7 @@
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -7008,8 +7006,7 @@
               "roll": "hit",
               "mod": "reroll1"
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+          ]
         }
       ]
     },
@@ -10067,8 +10064,7 @@
               "mod": 1,
               "condition": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+          ]
         }
       ]
     },
@@ -10974,8 +10970,7 @@
               "roll": "wound",
               "mod": "reroll1"
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+          ]
         }
       ]
     },
@@ -11679,8 +11674,7 @@
               "mod": 1,
               "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
+          ]
         }
       ]
     },
@@ -13969,11 +13963,14 @@
             {
               "roll": "wound",
               "mod": -1,
-              "against": true,
-              "condition": "While an INQUISITOR model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+              "against": true
             }
           ],
-          "condition": "While an INQUISITOR model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+          "ledBy": [
+            [
+              "Inquisitor"
+            ]
+          ]
         }
       ]
     },
@@ -16982,8 +16979,7 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll."
+          ]
         },
         {
           "rule": "Invulnerable Save (5+*)",
@@ -18350,8 +18346,7 @@
               "condition": "Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
+          "onlyModel": true
         }
       ]
     },
@@ -21673,8 +21668,7 @@
               "mod": 1,
               "condition": "Each time a model in this unit makes an attack that targets a unit that is not Below Half-strength, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack that targets a unit that is not Below Half-strength, add 1 to the Hit roll."
+          ]
         }
       ]
     },
@@ -27115,8 +27109,7 @@
               "kind": "ranged",
               "condition": "Each time a model in this unit makes a ranged attack that targets a unit that is Below Half-strength, add 1 to the Wound roll."
             }
-          ],
-          "condition": "Each time a model in this unit makes a ranged attack that targets a unit that is Below Half-strength, add 1 to the Wound roll."
+          ]
         }
       ]
     },
@@ -27862,8 +27855,7 @@
               "condition": "This model's attacks that target a Character unit can Re-roll hit rolls of 1."
             }
           ],
-          "onlyModel": true,
-          "condition": "This model's attacks that target a Character unit can Re-roll hit rolls of 1."
+          "onlyModel": true
         },
         {
           "rule": "Watch Master",
@@ -27875,8 +27867,7 @@
               "condition": "This model's attacks that target a Character unit can Re-roll wound rolls of 1."
             }
           ],
-          "onlyModel": true,
-          "condition": "This model's attacks that target a Character unit can Re-roll wound rolls of 1."
+          "onlyModel": true
         }
       ]
     }
@@ -27950,7 +27941,61 @@
     {
       "id": "7a21-a958-e47d-5c0d",
       "name": "Doctrina Imperatives",
-      "text": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nPROTECTOR IMPERATIVE\n■ Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n■ Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n■ Each time a melee attack targets this unit, if this unit has the ^^**Battleline**^^ keyword and/or it is within 6\" of one or more friendly **^^Adeptus Mechanicus Battleline**^^ units, subtract 1 from the Hit roll.\n\nCONQUEROR IMPERATIVE\n■ Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n■ Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n■ Each time a model in this unit makes an attack, if this unit has the **^^Battleline**^^ keyword and/or it is within 6\" of one or more friendly **^^Adeptus Mechanicus Battleline**^^ units, improve the Armour Penetration characteristic of that attack by 1."
+      "text": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\n\nPROTECTOR IMPERATIVE\n■ Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n■ Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n■ Each time a melee attack targets this unit, if this unit has the ^^**Battleline**^^ keyword and/or it is within 6\" of one or more friendly **^^Adeptus Mechanicus Battleline**^^ units, subtract 1 from the Hit roll.\n\nCONQUEROR IMPERATIVE\n■ Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n■ Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n■ Each time a model in this unit makes an attack, if this unit has the **^^Battleline**^^ keyword and/or it is within 6\" of one or more friendly **^^Adeptus Mechanicus Battleline**^^ units, improve the Armour Penetration characteristic of that attack by 1.",
+      "effects": [
+        {
+          "rule": "Doctrina Imperatives",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Heavy",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Ranged weapons equipped by models in this unit have the [HEAVY] ability."
+        },
+        {
+          "rule": "Doctrina Imperatives",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1."
+        },
+        {
+          "rule": "Doctrina Imperatives",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Ranged weapons equipped by models in this unit have the [ASSAULT] ability."
+        },
+        {
+          "rule": "Doctrina Imperatives",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1."
+        }
+      ]
     },
     {
       "id": "115b-79dc-f723-d761",

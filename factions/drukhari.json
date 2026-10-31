@@ -2166,8 +2166,7 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a CHARACTER unit, you can add 1 to the Wound roll."
             }
-          ],
-          "condition": "Each time this model makes an attack that targets a CHARACTER unit, you can add 1 to the Wound roll."
+          ]
         }
       ]
     },
@@ -4974,8 +4973,7 @@
               "roll": "hit",
               "mod": "reroll1"
             }
-          ],
-          "condition": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+          ]
         }
       ]
     },
@@ -6524,8 +6522,7 @@
               "mod": "reroll",
               "condition": "Each time this model make an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll."
             }
-          ],
-          "condition": "Each time this model make an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll."
+          ]
         }
       ]
     },
@@ -8998,8 +8995,7 @@
               "kind": "melee",
               "condition": "Each time a model in this unit makes a melee attack that targets a Battle-shocked unit, add 1 to the Hit roll."
             }
-          ],
-          "condition": "Each time a model in this unit makes a melee attack that targets a Battle-shocked unit, add 1 to the Hit roll."
+          ]
         }
       ]
     },
@@ -10705,8 +10701,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -11280,8 +11275,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -13310,8 +13304,7 @@
               "kind": "melee",
               "condition": "Melee attacks that target this unit have -1 to hit rolls."
             }
-          ],
-          "condition": "Melee attacks that target this unit have -1 to hit rolls."
+          ]
         }
       ]
     },
@@ -13812,8 +13805,7 @@
               "kind": "melee",
               "condition": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
             }
-          ],
-          "condition": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+          ]
         }
       ]
     },
@@ -14356,8 +14348,7 @@
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
@@ -15280,8 +15271,7 @@
               "mod": "reroll1",
               "kind": "melee"
             }
-          ],
-          "condition": "Each time this model makes a melee attack you can re-roll a Hit roll of 1 and add 1 to the Wound roll."
+          ]
         }
       ]
     },
@@ -15854,8 +15844,7 @@
               "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true,
-          "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "onlyModel": true
         }
       ]
     },
