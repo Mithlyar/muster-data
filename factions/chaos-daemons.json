@@ -24417,6 +24417,21 @@
           "modelNames": [
             "Raptor w/ flamer"
           ]
+        },
+        {
+          "name": "2 selections per 5 models",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Raptor w/ meltagun",
+            "Raptor w/ plasma gun",
+            "Raptor w/ flamer"
+          ]
         }
       ]
     },

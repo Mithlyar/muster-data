@@ -14394,7 +14394,7 @@
           "name": "Icon of Khorne",
           "model": null,
           "min": 0,
-          "max": 1,
+          "max": 2,
           "defaultChoiceId": null,
           "choices": [
             {
@@ -14430,7 +14430,27 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Icon of Khorne",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 19,
+              "max": 1
+            },
+            {
+              "minModels": 20,
+              "maxModels": 20,
+              "max": 2
+            }
+          ],
+          "choiceIds": [
+            "f61d-cf3f-4520-12ae"
+          ]
+        }
+      ]
     },
     {
       "id": "3449-7dac-6ac8-5d51",

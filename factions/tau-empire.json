@@ -16149,19 +16149,6 @@
           "weaponIds": [
             "6af0-a6dd-ddeb-4178"
           ]
-        },
-        {
-          "name": "Semi-automatic grenade launcher",
-          "max": [
-            {
-              "minModels": 10,
-              "maxModels": 10,
-              "max": 1
-            }
-          ],
-          "weaponIds": [
-            "6af0-a6dd-ddeb-4178"
-          ]
         }
       ],
       "selfEffects": [
@@ -20428,16 +20415,17 @@
       ],
       "caps": [
         {
-          "name": "Fusion blaster",
+          "name": "Homing beacon",
           "max": [
             {
               "minModels": 5,
               "maxModels": 5,
-              "max": 2
+              "max": 1
             }
           ],
-          "weaponIds": [
-            "f836-d31-4688-d623"
+          "choiceIds": [
+            "b63d-8730-94c2-1d0d",
+            "31d5-a576-0462-f9ee"
           ]
         },
         {
@@ -23816,6 +23804,19 @@
           ],
           "modelNames": [
             "Vespid Stingwings w/ Neutron Rail Rifle"
+          ]
+        },
+        {
+          "name": "Oversight Drone",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 0
+            }
+          ],
+          "choiceIds": [
+            "120d-fbd9-4e58-cfe8"
           ]
         }
       ]

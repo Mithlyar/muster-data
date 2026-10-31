@@ -21482,6 +21482,20 @@
       ],
       "caps": [
         {
+          "name": "Heavy weapons",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Scarab Occult Terminator w/ heavy warpflamer",
+            "Scarab Occult Terminator w/ soulreaper cannon"
+          ]
+        },
+        {
           "name": "Hellfyre missile rack",
           "max": [
             {

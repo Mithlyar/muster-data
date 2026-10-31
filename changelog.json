@@ -1,5 +1,402 @@
 [
   {
+    "dataVersion": "4d2f57e-37b170fd",
+    "previousDataVersion": "4d2f57e-38c922a2",
+    "date": "2026-10-31T20:48:23.626Z",
+    "entries": [
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "adepta-sororitas",
+        "kind": "changed",
+        "text": "Mortifiers: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "agents-of-the-imperium",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "agents-of-the-imperium",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Attilan Rough Riders: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Crusader Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Raptors: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Raptors: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Red Corsairs Raiders: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Corsair Voidreavers: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Dark Reapers: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Dire Avengers: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Dragon Knights: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Fire Dragons: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Howling Banshees: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Storm Guardians: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Striking Scorpions: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Swooping Hawks: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Warp Spiders: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Ravenwing Black Knights: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Blightlord Terminators: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Plague Marines: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Corsair Voidreavers: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Incubi: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Reavers: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Atalan Jackals: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Attilan Rough Riders: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "leagues-of-votann",
+        "kind": "changed",
+        "text": "Hernkyn Pioneers: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Nobz: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Thunderwolf Cavalry: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Pathfinder Team: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Stealth Battlesuits: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Vespid Stingwings: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Scarab Occult Terminators: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Tyranid Warriors with Ranged Bio-Weapons: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Deathwatch Kill Team: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Inquisitorial Agents: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Jakhals: datasheet changed"
+      }
+    ]
+  },
+  {
     "dataVersion": "4d2f57e-38c922a2",
     "previousDataVersion": "4d2f57e-92053a37",
     "date": "2026-10-31T16:55:15.971Z",

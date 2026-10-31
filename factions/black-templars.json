@@ -19105,6 +19105,22 @@
         "strike-force": 6,
         "onslaught": 6
       },
+      "caps": [
+        {
+          "name": "Max 2 per 10 models",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 19,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Initiate w/Pyreblaster",
+            "Initiate w/Power Fist & Heavy Bolt Pistol"
+          ]
+        }
+      ],
       "bodyguard": {
         "leadersOf": [
           {
@@ -40626,7 +40642,7 @@
           "name": "Grenade Harness",
           "model": null,
           "min": 0,
-          "max": 1,
+          "max": 2,
           "defaultChoiceId": null,
           "choices": [
             {
@@ -40816,7 +40832,27 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Grenade Harness",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "choiceIds": [
+            "f28-3d9e-bb46-c88"
+          ]
+        }
+      ]
     },
     {
       "id": "c3e8-3cde-8b39-4b19",

@@ -24095,6 +24095,20 @@
           ]
         },
         {
+          "name": "Storm Shield models",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Veteran w/ Storm shield and boltgun",
+            "Veteran w/ Storm shield and power weapon"
+          ]
+        },
+        {
           "name": "Black Shield blades",
           "max": [
             {
@@ -40453,6 +40467,34 @@
           ],
           "modelNames": [
             "Agent w/ mystic stave"
+          ]
+        },
+        {
+          "name": "1 - 2 Gun Servitors",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Servitor w/ heavy bolter",
+            "Servitor w/ multi-melta",
+            "Servitor w/ plasma cannon"
+          ]
+        },
+        {
+          "name": "Tome-skull",
+          "max": [
+            {
+              "minModels": 6,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "choiceIds": [
+            "ca1c-2d12-2ffa-9f04"
           ]
         }
       ],
@@ -63744,7 +63786,7 @@
           "name": "Grenade Harness",
           "model": null,
           "min": 0,
-          "max": 1,
+          "max": 2,
           "defaultChoiceId": null,
           "choices": [
             {
@@ -63934,7 +63976,27 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Grenade Harness",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "choiceIds": [
+            "f28-3d9e-bb46-c88"
+          ]
+        }
+      ]
     },
     {
       "id": "e8e-fc5c-c689-99ca",

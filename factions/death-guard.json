@@ -1945,6 +1945,24 @@
       ],
       "caps": [
         {
+          "name": "Blightlord Terminator w/ combi-weapon",
+          "max": [
+            {
+              "minModels": 3,
+              "maxModels": 4,
+              "max": 0
+            },
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 3
+            }
+          ],
+          "modelNames": [
+            "Blightlord Terminator w/ combi-weapon"
+          ]
+        },
+        {
           "name": "Blightlord Terminator w/ plague spewer and CCW",
           "max": [
             {
@@ -23449,6 +23467,21 @@
           ],
           "modelNames": [
             "Plague Marine w/ plague spewer"
+          ]
+        },
+        {
+          "name": "Special weapons",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Plague Marine w/ meltagun",
+            "Plague Marine w/ plasma gun",
+            "Plague Marine w/ plague belcher"
           ]
         }
       ]

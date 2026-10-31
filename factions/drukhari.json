@@ -4964,6 +4964,22 @@
         "strike-force": 6,
         "onslaught": 6
       },
+      "caps": [
+        {
+          "name": "Voidreaver with special weapon",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Voidreaver with Blaster",
+            "Voidreaver with Shredder"
+          ]
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Reavers of the Void",
@@ -8984,6 +9000,21 @@
           "points": 10
         }
       ],
+      "caps": [
+        {
+          "name": "Incubi Shrine Token",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "choiceIds": [
+            "a272-dbaa-3d38-b00a"
+          ]
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Tormentors",
@@ -11887,7 +11918,7 @@
       ],
       "caps": [
         {
-          "name": "Blaster",
+          "name": "Reaver Wargear",
           "max": [
             {
               "minModels": 3,
@@ -11900,26 +11931,9 @@
               "max": 2
             }
           ],
-          "weaponIds": [
-            "71d-7841-c039-e4ce"
-          ]
-        },
-        {
-          "name": "Heat Lance",
-          "max": [
-            {
-              "minModels": 3,
-              "maxModels": 5,
-              "max": 1
-            },
-            {
-              "minModels": 6,
-              "maxModels": 6,
-              "max": 2
-            }
-          ],
-          "weaponIds": [
-            "6aef-6e34-34ec-25cd"
+          "choiceIds": [
+            "0777-ae0e-9a5b-3b29",
+            "9d00-23e2-ea7b-76cc"
           ]
         },
         {

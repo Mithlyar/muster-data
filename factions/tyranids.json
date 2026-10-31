@@ -15861,42 +15861,6 @@
           "weaponIds": [
             "ab3c-2e92-685c-c39d"
           ]
-        },
-        {
-          "name": "Venom cannon",
-          "max": [
-            {
-              "minModels": 3,
-              "maxModels": 5,
-              "max": 1
-            },
-            {
-              "minModels": 6,
-              "maxModels": 6,
-              "max": 2
-            }
-          ],
-          "weaponIds": [
-            "f587-de5-c817-977e"
-          ]
-        },
-        {
-          "name": "Barbed strangler",
-          "max": [
-            {
-              "minModels": 3,
-              "maxModels": 5,
-              "max": 1
-            },
-            {
-              "minModels": 6,
-              "maxModels": 6,
-              "max": 2
-            }
-          ],
-          "weaponIds": [
-            "ab3c-2e92-685c-c39d"
-          ]
         }
       ]
     },

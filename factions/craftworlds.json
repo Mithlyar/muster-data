@@ -6117,6 +6117,22 @@
         "strike-force": 6,
         "onslaught": 6
       },
+      "caps": [
+        {
+          "name": "Voidreaver with special weapon",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Voidreaver with Blaster",
+            "Voidreaver with Shredder"
+          ]
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Reavers of the Void",
@@ -8338,7 +8354,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Aspect Shrine Token",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "choiceIds": [
+            "d51c-f057-9140-62a2"
+          ]
+        }
+      ]
     },
     {
       "id": "5768-1f87-3a16-d901",
@@ -8802,7 +8833,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Aspect Shrine Token",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "choiceIds": [
+            "b75f-8649-5df0-46f8"
+          ]
+        }
+      ]
     },
     {
       "id": "4d0c-e3fd-ee80-ddbf",
@@ -8997,6 +9043,26 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "caps": [
+        {
+          "name": "Drakolithe",
+          "max": [
+            {
+              "minModels": 3,
+              "maxModels": 5,
+              "max": 2
+            },
+            {
+              "minModels": 6,
+              "maxModels": 6,
+              "max": 4
+            }
+          ],
+          "choiceIds": [
+            "fc2b-efd1-273a-48cf"
+          ]
         }
       ]
     },
@@ -10322,6 +10388,21 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "caps": [
+        {
+          "name": "Aspect Shrine Token",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "choiceIds": [
+            "8d05-bea1-4620-52ae"
+          ]
         }
       ],
       "selfEffects": [
@@ -12650,6 +12731,21 @@
         "strike-force": 3,
         "onslaught": 3
       },
+      "caps": [
+        {
+          "name": "Aspect Shrine Token",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "choiceIds": [
+            "e820-5768-c9f2-5991"
+          ]
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Invulnerable Save (4+*)",
@@ -19509,19 +19605,6 @@
           "weaponIds": [
             "0e77-2630-6f58-75ce"
           ]
-        },
-        {
-          "name": "Flamer",
-          "max": [
-            {
-              "minModels": 11,
-              "maxModels": 11,
-              "max": 2
-            }
-          ],
-          "weaponIds": [
-            "8269-a594-848c-36a9"
-          ]
         }
       ]
     },
@@ -19857,7 +19940,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Aspect Shrine Token",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "choiceIds": [
+            "ebb7-4c6b-85b3-1632"
+          ]
+        }
+      ]
     },
     {
       "id": "240f-70a4-7ba7-a538",
@@ -20177,6 +20275,21 @@
         {
           "fromCopy": 3,
           "points": 15
+        }
+      ],
+      "caps": [
+        {
+          "name": "Aspect Shrine Token",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "choiceIds": [
+            "f169-3daa-86d7-26ea"
+          ]
         }
       ]
     },
@@ -23587,6 +23700,21 @@
         {
           "fromCopy": 3,
           "points": 20
+        }
+      ],
+      "caps": [
+        {
+          "name": "Aspect Shrine Token",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            }
+          ],
+          "choiceIds": [
+            "2f0e-f048-cad2-d34e"
+          ]
         }
       ],
       "selfEffects": [

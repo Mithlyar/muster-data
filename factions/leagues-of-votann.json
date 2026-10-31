@@ -6418,6 +6418,22 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "caps": [
+        {
+          "name": "Heavy weapons",
+          "max": [
+            {
+              "minModels": 3,
+              "maxModels": 5,
+              "max": 1
+            }
+          ],
+          "modelNames": [
+            "Hernkyn Pioneer w/ HYLas rotary cannon",
+            "Hernkyn Pioneer w/ ion beamer"
+          ]
+        }
       ]
     },
     {

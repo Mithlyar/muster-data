@@ -3310,42 +3310,6 @@
           "weaponIds": [
             "595a-e1c5-7280-6da3"
           ]
-        },
-        {
-          "name": "Grenade launcher",
-          "max": [
-            {
-              "minModels": 5,
-              "maxModels": 8,
-              "max": 1
-            },
-            {
-              "minModels": 9,
-              "maxModels": 10,
-              "max": 2
-            }
-          ],
-          "weaponIds": [
-            "dba3-6506-4103-2088"
-          ]
-        },
-        {
-          "name": "Atalan power weapon",
-          "max": [
-            {
-              "minModels": 5,
-              "maxModels": 8,
-              "max": 2
-            },
-            {
-              "minModels": 9,
-              "maxModels": 10,
-              "max": 4
-            }
-          ],
-          "weaponIds": [
-            "595a-e1c5-7280-6da3"
-          ]
         }
       ]
     },
@@ -3676,24 +3640,6 @@
           ],
           "modelNames": [
             "Rough Rider w/ Goad lance"
-          ]
-        },
-        {
-          "name": "Goad lance",
-          "max": [
-            {
-              "minModels": 5,
-              "maxModels": 9,
-              "max": 1
-            },
-            {
-              "minModels": 10,
-              "maxModels": 10,
-              "max": 2
-            }
-          ],
-          "weaponIds": [
-            "9254-fb44-df-bd0d"
           ]
         },
         {

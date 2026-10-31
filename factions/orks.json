@@ -16044,6 +16044,24 @@
           "weaponIds": [
             "a699-e1c3-e17f-5098"
           ]
+        },
+        {
+          "name": "Paired Krumpas",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 9,
+              "max": 1
+            },
+            {
+              "minModels": 10,
+              "maxModels": 10,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Nob w/ Kustom Krumpa and Paired Krumpas"
+          ]
         }
       ],
       "selfEffects": [
