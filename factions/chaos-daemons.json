@@ -485,6 +485,27 @@
           "text": "When a friendly **LEGIONES DAEMONICA BATTLELINE** unit is selected to make an **advance move**: \n- That unit’s ranged attacks have **[ASSAULT]** until the end of the turn. \n- That move does not prevent that unit from being **eligible to declare a charge**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Shudderblink",
+          "who": [
+            [
+              "Legiones Daemonica",
+              "Battleline"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ],
+          "condition": "When a friendly LEGIONES DAEMONICA BATTLELINE unit is selected to make an advance move That unit's ranged attacks have [ASSAULT] until the end of the turn."
+        }
+      ],
       "stratagems": [
         {
           "name": "Incorporeal Entities",

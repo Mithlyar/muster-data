@@ -707,6 +707,28 @@
           "text": "- Friendly IMMORTALS/NECRON WARRIORS units’ ranged attacks have [ASSAULT]. \n- When a friendly IMMORTALS/NECRON WARRIORS unit is selected to make an advance move, that move does not prevent that unit from being eligible to start an action. \n\nThis detachment has the DYNASTY tag and cannot be taken with another DYNASTY detachment."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Hypermotility Protocols",
+          "who": [
+            [
+              "Immortals"
+            ],
+            [
+              "Necron Warriors"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Dominance Protocols",

@@ -424,6 +424,25 @@
           "text": "Friendly FOETID BLOAT‑DRONE/FOETID BLOAT‑DRONE WITH HEAVY BLIGHT LAUNCHER/HELBRUTE/MYPHITIC BLIGHT‑HAULER units have CONTAGION ENGINE. \n- Friendly CONTAGION ENGINE units’ ranged attacks have [ASSAULT]."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Warped and Rusted Animus",
+          "who": [
+            [
+              "Contagion Engine"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Soulrot Flux",

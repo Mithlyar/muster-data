@@ -89,6 +89,26 @@
           "text": "Units containing one or more models with an **[ASSAULT]** weapon can shoot using **assault shooting** (10.05)."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Skilled Crews",
+          "who": [
+            [
+              "Aeldari",
+              "Vehicle"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Layered Wards",

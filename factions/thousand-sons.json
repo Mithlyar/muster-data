@@ -526,6 +526,30 @@
           ],
           "stats": [
             {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Psychic",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Psychic",
+              "fromText": true
+            }
+          ]
+        },
+        {
+          "rule": "Ensorcelled Animus",
+          "who": [
+            [
+              "Sekhetar Robots"
+            ]
+          ],
+          "stats": [
+            {
               "on": "melee",
               "stat": "skill",
               "op": "add",

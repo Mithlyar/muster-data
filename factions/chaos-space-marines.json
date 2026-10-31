@@ -1268,6 +1268,28 @@
           "text": "Friendly HAVOCS/OBLITERATORS units’ ranged attacks have [HEAVY]."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Rain of Ruin",
+          "who": [
+            [
+              "Havocs"
+            ],
+            [
+              "Obliterators"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Heavy",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Undying Hatred",

@@ -612,6 +612,33 @@
           "text": "In your Shooting phase, when a friendly Adeptus Astartes Transport unit has shot, you can select one enemy unit hit by those attacks. That enemy unit is assailed until the end of the turn. \n▪ While a unit is assailed, when an Adeptus Astartes unit that disembarked this turn targets that unit, those attacks have [Sustained Hits 1]"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Combined Deployment",
+          "who": [
+            [
+              "Adeptus Astartes"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: While a unit is assailed, when an Adeptus Astartes unit that disembarked this turn targets that unit, those attacks have [Sustained Hits 1]"
+        }
+      ],
       "stratagems": [
         {
           "name": "Duty Is Never Done",

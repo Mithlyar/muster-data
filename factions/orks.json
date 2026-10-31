@@ -29,6 +29,25 @@
           "text": "Friendly **ORKS** units' melee attacks have **[SUSTAINED HITS 1]**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Get Stuck In",
+          "who": [
+            [
+              "Orks"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Fungus-fuel Injection",
@@ -176,6 +195,25 @@
           "text": "- Friendly **BOYZ** units' melee attacks have **[SUSTAINED HITS 1]**.\n- If a friendly **ORKS INFANTRY** unit made a **charge move** this turn, that unit's melee attacks have **[LETHAL HITS: non-MONSTER/VEHICLE]**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Mob-handed Brutality",
+          "who": [
+            [
+              "Boyz"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "'ere We Go",
@@ -210,6 +248,28 @@
           "text": "Friendly **MEGANOBZ/NOBZ** units' melee attacks have **[SUSTAINED HITS 1]**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Displays of Savagery",
+          "who": [
+            [
+              "Meganobz"
+            ],
+            [
+              "Nobz"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Hulking Brutes",
@@ -242,6 +302,26 @@
         {
           "name": "Adrenaline Junkies",
           "text": "- Friendly **WARBIKERS** units have **BATTLELINE**.\n- When a friendly **SPEED FREEKS** unit is selected to make an **advance/fall-back move**:\n    - That unit's ranged attacks have **[ASSAULT]** until the end of the turn.\n    - That move does not prevent that unit from being **eligible to declare a charge**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Adrenaline Junkies",
+          "who": [
+            [
+              "Speed Freeks"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ],
+          "condition": "When a friendly SPEED FREEKS unit is selected to make an advance/fall-back move That unit's ranged attacks have [ASSAULT] until the end of the turn."
         }
       ],
       "stratagems": [
@@ -378,6 +458,26 @@
         {
           "name": "Dakka! Dakka! Dakka!",
           "text": "Friendly **ORKS INFANTRY** units’ ranged attacks have **[ASSAULT]**.\n- While this unit is **riled up**, +3\" **R**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Dakka! Dakka! Dakka!",
+          "who": [
+            [
+              "Orks",
+              "Infantry"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ]
         }
       ],
       "stratagems": [

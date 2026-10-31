@@ -496,6 +496,34 @@
           "text": "When a friendly EMPEROR’S CHILDREN BATTLELINE unit is selected to make an advance/fall‑back move, that unit's BATTLELINE models' attacks have [SUSTAINED HITS 1] until the end of the turn."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Frantic Focus",
+          "who": [
+            [
+              "Emperor's Children",
+              "Battleline"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "When a friendly EMPEROR'S CHILDREN BATTLELINE unit is selected to make an advance/fall-back move, that unit's BATTLELINE models' attacks have [SUSTAINED HITS 1] until the end of the turn."
+        }
+      ],
       "stratagems": [
         {
           "name": "Absolute Sensory Overload",

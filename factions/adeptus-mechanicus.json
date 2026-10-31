@@ -547,6 +547,25 @@
           "text": "- Friendly CORPUSCARII units’ ranged attacks have [LETHAL HITS]. \n- When a friendly FULGURITE unit has fought, that unit heals D3 wounds. \nThis detachment has the DATA-PSALM tag and cannot be taken with another DATA-PSALM detachment."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Cyber-static Canticles",
+          "who": [
+            [
+              "Corpuscarii"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Echoes of the Conduit Wars",

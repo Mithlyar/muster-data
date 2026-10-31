@@ -180,6 +180,44 @@
           "text": "In the Fight phase, when a friendly ^^**Adeptus Custodes**^^ unit is **selected to fight**, that unit's melee attacks have:\n- [SUSTAINED HITS 1]\n- Or: [LETHAL HITS]"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Martial Mastery",
+          "who": [
+            [
+              "Adeptus Custodes"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "In the Fight phase, when a friendly Adeptus Custodes unit is selected to fight, that unit's melee attacks have [SUSTAINED HITS 1]"
+        },
+        {
+          "rule": "Martial Mastery",
+          "who": [
+            [
+              "Adeptus Custodes"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "In the Fight phase, when a friendly Adeptus Custodes unit is selected to fight, that unit's melee attacks have [LETHAL HITS]"
+        }
+      ],
       "stratagems": [
         {
           "name": "Superhuman Focus",

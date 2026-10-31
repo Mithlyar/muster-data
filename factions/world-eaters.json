@@ -104,6 +104,52 @@
           "text": "When a friendly **WORLD EATERS CHARACTER** unit (excluding **EPIC HERO** units) is **selected to fight**, that unit's **CHARACTER** models' melee attacks can have: \n- **[CLEAVE 1]**. \n- Or: +1 **AP**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Wrath of Khorne",
+          "who": [
+            [
+              "World Eaters",
+              "Character"
+            ]
+          ],
+          "except": [
+            "Epic Hero"
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Cleave 1",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: When a friendly WORLD EATERS CHARACTER unit (excluding EPIC HERO units) is selected to fight, that unit's CHARACTER models' melee attacks can have [CLEAVE 1]."
+        },
+        {
+          "rule": "Wrath of Khorne",
+          "who": [
+            [
+              "World Eaters",
+              "Character"
+            ]
+          ],
+          "except": [
+            "Epic Hero"
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: When a friendly WORLD EATERS CHARACTER unit (excluding EPIC HERO units) is selected to fight, that unit's CHARACTER models' melee attacks can have +1 AP."
+        }
+      ],
       "stratagems": [
         {
           "name": "Scorn the Witch",

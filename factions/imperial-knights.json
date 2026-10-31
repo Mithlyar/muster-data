@@ -139,6 +139,24 @@
             }
           ],
           "condition": "While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that ADEPTUS MECHANICUS unit's ranged attacks have +1 BS."
+        },
+        {
+          "rule": "Assisted Targeting (Aura)",
+          "who": [
+            [
+              "Adeptus Mechanicus"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Heavy",
+              "fromText": true
+            }
+          ],
+          "condition": "While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that ADEPTUS MECHANICUS unit's ranged attacks have [HEAVY]"
         }
       ],
       "stratagems": [
@@ -478,6 +496,26 @@
         {
           "name": "Driven From Their Lairs",
           "text": "While a friendly **ARMIGER** unit is affected by a **Bondsman** ability, that unit’s ranged attacks have **[IGNORES COVER]**.\n\nThis **detachment** has the **ARMIGERS** tag and cannot be taken with another **ARMIGERS detachment**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Driven From Their Lairs",
+          "who": [
+            [
+              "Armiger"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "While a friendly ARMIGER unit is affected by a Bondsman ability, that unit's ranged attacks have [IGNORES COVER]."
         }
       ],
       "stratagems": [
