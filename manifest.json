@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "4d2f57e-37b170fd",
-  "date": "2026-10-31T20:48:23.626Z",
+  "dataVersion": "4d2f57e-425a38e3",
+  "date": "2026-10-31T21:00:30.763Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1"
@@ -19,9 +19,9 @@
       "id": "adeptus-custodes",
       "name": "Adeptus Custodes",
       "file": "factions/adeptus-custodes.json",
-      "sha256": "226a5cc88fd05ac16ad554473e902618ec34152821a07edd48356ab785d9a56a",
+      "sha256": "287c38a3e2486ae489fd0c1a7b776bb8c31096a29409e47ced7754bd5c4acbaf",
       "units": 110,
-      "sourceSha256": "670545c3fee873f907c9d5e72f2d1df35af3422dd8fbccb1017595c890d8b8f4"
+      "sourceSha256": "efcbf03abc32371609fba37eab822621a997aabf00831387b915e819140bc9cc"
     },
     {
       "id": "adeptus-mechanicus",
@@ -30,6 +30,14 @@
       "sha256": "72e1c93bb8bce5cd1642f2ca334b06d60633e28d15b0e09356e876462aea6d4d",
       "units": 112,
       "sourceSha256": "003f451d859eae47ca74d1d53fb215b1bd186c7b7ed1e3dc51f5d4cbb0130183"
+    },
+    {
+      "id": "craftworlds",
+      "name": "Aeldari",
+      "file": "factions/craftworlds.json",
+      "sha256": "7018760d7663f6b75bb39c2c9afa8785e72a28864ccbfb620d157b18866824e1",
+      "units": 96,
+      "sourceSha256": "9af9c6d6e4cf9ca20ac3e7b417a5956b9607554bd6eece83ea7f471e4eb6db61"
     },
     {
       "id": "agents-of-the-imperium",
@@ -86,14 +94,6 @@
       "sha256": "9957f4698f4c9497a464435523e5e6b7f52ec986a421dff1d43343997d4d4596",
       "units": 207,
       "sourceSha256": "c1024432362d9108c9abb5e3738f75b22ad1fc0776a8b06c296be9ba3a92f2cd"
-    },
-    {
-      "id": "craftworlds",
-      "name": "Craftworlds",
-      "file": "factions/craftworlds.json",
-      "sha256": "6991594aba6b53463e5cc86f8a105a37a6ebfe18759a9938e72a95eb22597eb7",
-      "units": 96,
-      "sourceSha256": "5987920ccbbf244d63302c0249cf17d7afd089476661b19503453fb45cf5aab6"
     },
     {
       "id": "dark-angels",
@@ -163,9 +163,9 @@
       "id": "imperial-knights",
       "name": "Imperial Knights",
       "file": "factions/imperial-knights.json",
-      "sha256": "c8c1c97943295025f27291a7929e7f4d00301b1392139d4456d0a5440d469340",
+      "sha256": "ef2a402b1c6400afb8769c9b553b45244a39a26021c888a17aaf4b48a615a81c",
       "units": 76,
-      "sourceSha256": "ff120d84b8e3522e4e62604b29a569bee1170341b76631996baf498c808c2d19"
+      "sourceSha256": "701995d6b0c7db6d65ea5531f9fcf5de5ba5350c6bdd73d2402d61354aaf41f3"
     },
     {
       "id": "iron-hands",
@@ -243,9 +243,9 @@
       "id": "thousand-sons",
       "name": "Thousand Sons",
       "file": "factions/thousand-sons.json",
-      "sha256": "22aa631e4e8d376a88990dd4c9556db7d5055d3ba8ec3e06646c8921f92e76b4",
+      "sha256": "30492825b7a1c27b22dfc7c0789c1a66eb719896ce47064997de8ab001f317c0",
       "units": 108,
-      "sourceSha256": "6dd42f3970638bcce24382a902d5866d3bf3e69788e773fefcfe7522fd1eac1c"
+      "sourceSha256": "a0e57cdfabef1ff28c0660c437c18ac7420126a64e0e3a321d8ba0bd816f5d12"
     },
     {
       "id": "tyranids",
@@ -275,9 +275,9 @@
       "id": "world-eaters",
       "name": "World Eaters",
       "file": "factions/world-eaters.json",
-      "sha256": "671f1bb6a9211817f76b8e12917c0d4f9c3484c7ba866379f5cefe77fe3a5ec7",
+      "sha256": "62fa64def004fb7c723f929dee260e83e09b428627d13ea407d4df3489f7da1b",
       "units": 107,
-      "sourceSha256": "f946e4db4076c06d52068d557820dd10c88d4bb00f783476010aca27f1a155cb"
+      "sourceSha256": "7673d4d28b115c68efe3780afa18176c2951594975944e1f5f95905896cf3421"
     }
   ],
   "missions": {
