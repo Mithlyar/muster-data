@@ -1,5 +1,257 @@
 [
   {
+    "dataVersion": "4d2f57e-01f6f2a0",
+    "previousDataVersion": "4d2f57e-82246184",
+    "date": "2026-10-31T00:05:09.594Z",
+    "entries": [
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Servitor Battleclade: datasheet changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Detachment Skitarii Hunter Cohort: stratagems changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Cadian Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Catachan Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Gaunt’s Ghosts: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Hell's Last: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Krieg Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Militarum Tempestus Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Chaplain Grimaldus: datasheet changed"
+      },
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      },
+      {
+        "factionId": "chaos-space-marines",
+        "kind": "changed",
+        "text": "Traitor Enforcer: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Corsair Voidscarred: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "grey-knights",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Wolf Guard Headtakers: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Rubric Marines: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Scarab Occult Terminators: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Hyperadapted Raveners: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Canis Rex: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Company Heroes: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Kill Team Cassius: datasheet changed"
+      }
+    ]
+  },
+  {
     "dataVersion": "4d2f57e-82246184",
     "previousDataVersion": "4d2f57e-d871a6e5",
     "date": "2026-10-30T18:08:08.584Z",

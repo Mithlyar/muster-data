@@ -10509,6 +10509,9 @@
             "f1aa-b2e0-2fa8-4c39",
             "70b4-8523-6b7c-1b0a",
             "43a9-66c5-ec02-baa9"
+          ],
+          "keywords": [
+            "Vehicle"
           ]
         },
         {
@@ -10527,6 +10530,9 @@
           "loadout": [
             "b74a-d992-b5eb-23ff",
             "e8b4-ffab-1b5c-d2a0"
+          ],
+          "keywords": [
+            "Infantry"
           ]
         }
       ],
@@ -19158,6 +19164,9 @@
             "5ac1-eb4e-d3cb-9d08",
             "05f0-0765-b156-08af",
             "4155-dfd5-7b6b-f175"
+          ],
+          "keywords": [
+            "Character"
           ]
         },
         {
@@ -42691,6 +42700,9 @@
           "loadout": [
             "a222-e8de-d3cf-10f0",
             "52c0-a218-fd31-667d"
+          ],
+          "keywords": [
+            "Character"
           ]
         },
         {
@@ -85571,6 +85583,9 @@
           "loadout": [
             "ad9f-15da-bc66-3629",
             "83a1-feb8-d495-aa28"
+          ],
+          "keywords": [
+            "Tacticus"
           ]
         },
         {
@@ -85589,6 +85604,9 @@
           "loadout": [
             "376e-1a09-0707-621a",
             "83a1-feb8-d495-aa28"
+          ],
+          "keywords": [
+            "Tacticus"
           ]
         },
         {

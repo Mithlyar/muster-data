@@ -91,24 +91,10 @@
       ],
       "stratagems": [
         {
-          "name": "Isolate and Destroy",
+          "name": "Expedited Purge Protocol",
           "cp": 1,
           "turn": "Your turn",
-          "phase": "Shooting phase",
-          "kind": "Strategic Ploy"
-        },
-        {
-          "name": "Binharic Offence",
-          "cp": 2,
-          "turn": "Either player's turn",
-          "phase": "Shooting or Fight phase",
-          "kind": "Strategic Ploy"
-        },
-        {
-          "name": "Bionic Endurance",
-          "cp": 1,
-          "turn": "Either player's turn",
-          "phase": "Shooting or Fight phase",
+          "phase": "Charge phase",
           "kind": "Strategic Ploy"
         },
         {
@@ -119,17 +105,31 @@
           "kind": "Strategic Ploy"
         },
         {
-          "name": "Expedited Purge Protocol",
-          "cp": 1,
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "kind": "Strategic Ploy"
-        },
-        {
           "name": "Programmed Withdrawal",
           "cp": 1,
           "turn": "Opponent's turn",
           "phase": "Fight phase",
+          "kind": "Strategic Ploy"
+        },
+        {
+          "name": "Binharic Offence",
+          "cp": 2,
+          "turn": "Either player's turn",
+          "phase": "Shooting or Fight phase",
+          "kind": "Strategic Ploy"
+        },
+        {
+          "name": "Isolate and Destroy",
+          "cp": 1,
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "kind": "Strategic Ploy"
+        },
+        {
+          "name": "Bionic Endurance",
+          "cp": 1,
+          "turn": "Either player's turn",
+          "phase": "Shooting or Fight phase",
           "kind": "Strategic Ploy"
         }
       ]
@@ -29555,6 +29555,9 @@
           "loadout": [
             "efd7-4f2a-9bb4-25fb",
             "8926-fe6e-4429-373e"
+          ],
+          "keywords": [
+            "Tech-Priest"
           ]
         },
         {
