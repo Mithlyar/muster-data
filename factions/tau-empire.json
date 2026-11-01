@@ -12905,7 +12905,31 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Thunderous Pounce",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true,
+              "weaponName": "knarloc beak and talon"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true,
+              "weaponName": "knarloc beak and talon"
+            }
+          ],
+          "condition": "Each time this unit ends a Charge move, until the end of the turn, Knarloc beak and talons equipped by models in this unit have the [LANCE] ability."
+        }
+      ]
     },
     {
       "id": "d631-3ca5-e206-4e6a",

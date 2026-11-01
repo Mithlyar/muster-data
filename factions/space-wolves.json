@@ -35730,6 +35730,31 @@
         "unitIds": [
           "7a50-3722-8195-5877"
         ]
+      },
+      "leading": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Devastating Wounds",
+                "fromText": true,
+                "weaponName": "crushing teeth and claw"
+              },
+              {
+                "on": "melee",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Devastating Wounds",
+                "fromText": true,
+                "weaponName": "crushing teeth and claw"
+              }
+            ],
+            "condition": "While this model is leading a unit, each time that unit makes a Charge move, until the end of the turn, crushing teeth and claws equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+          }
+        ]
       }
     },
     {

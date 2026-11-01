@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "4d2f57e-0b0c3b48",
-  "date": "2026-11-01T17:49:31.493Z",
+  "dataVersion": "4d2f57e-dfdc0f6f",
+  "date": "2026-11-01T22:28:30.578Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1"
@@ -75,25 +75,25 @@
       "id": "chaos-daemons",
       "name": "Chaos Daemons",
       "file": "factions/chaos-daemons.json",
-      "sha256": "ae772c512a567fda8eed3ce03a6b8ab9b6148b5cfc9b3d9bc1cdcfa22f2235de",
+      "sha256": "a6c179ec562ea8a3bc216336b0778a9b9e9050b117e038320affce7a62fae063",
       "units": 115,
-      "sourceSha256": "758a227fdcb75e7363222283edd6f97501ddebd1c5b53ab3a56a426115bf4010"
+      "sourceSha256": "dc3d2d6d0cd8cc3bcb3ab276b2ea437835a00cd42cb136f44a2b41e78e53b408"
     },
     {
       "id": "chaos-knights",
       "name": "Chaos Knights",
       "file": "factions/chaos-knights.json",
-      "sha256": "b3b4178f8556f508d3bc5b0340b43dab449db0711a3fd1d151d8de31893c2452",
+      "sha256": "f438223603cd5826716adee68b085c2468fc24c3ca5385e2d26e9ba30910e3cc",
       "units": 101,
-      "sourceSha256": "0324c0d95f3849dc15392a68751f29c42f73f83cee3c8bbf6bdae519bc5e1190"
+      "sourceSha256": "bb7c303110879f0c542a3a271403ee98a9f44cf810fa7a3d0a012c070a24da92"
     },
     {
       "id": "chaos-space-marines",
       "name": "Chaos Space Marines",
       "file": "factions/chaos-space-marines.json",
-      "sha256": "d7dd6b29d7e8e3c7fb92c5447f0fbdc5ce1431516d1d84fb69c5e6f99fdcb3e4",
+      "sha256": "50acda56553ed3f0c13cf55b1a68c01dc096d00b996088272fcb924555e09772",
       "units": 207,
-      "sourceSha256": "a40ed09df296f97e32abc823975affe54b1c66b81f6fb62c69d1aa4c5e1ff265"
+      "sourceSha256": "d34ef9605bee54fa86b7c537c7d4c449bc51e3bdd3faf3d38ffd5298c0f7e846"
     },
     {
       "id": "dark-angels",
@@ -227,17 +227,17 @@
       "id": "space-wolves",
       "name": "Space Wolves",
       "file": "factions/space-wolves.json",
-      "sha256": "e65accc522a11fac6f239b16bb90c2d6140d7d058f3ae39aaaff0c2dad661730",
+      "sha256": "f4653582a6749a8d072c53e3f18e7d718a90f954bc9863f99bb5114086768e56",
       "units": 274,
-      "sourceSha256": "1fe83c1d5408a1279734c607758c70d5c13345353cc9b059348b56315abf2b15"
+      "sourceSha256": "de0e9af7d7a9cce39b487cf755b0e1c20610083765a513ef508882209a0fa778"
     },
     {
       "id": "tau-empire",
       "name": "T'au Empire",
       "file": "factions/tau-empire.json",
-      "sha256": "abd4820f7d51981985573379ec2fe14cd725eca9ea41c0696df124150d2496ec",
+      "sha256": "e1485223f741cfdd624f72b135a0f0b44e1b700446e9ac9dba39e154baf2b9c6",
       "units": 89,
-      "sourceSha256": "0b6bdea9b40705d6c765915003933f45905f2791578a7efbc440527d33047eaf"
+      "sourceSha256": "404fe045b51ee757f89cb58c636daa855d9c8789bd75040bc6d6a1df31bc4976"
     },
     {
       "id": "thousand-sons",

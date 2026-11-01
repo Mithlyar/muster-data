@@ -24159,6 +24159,28 @@
       ],
       "selfEffects": [
         {
+          "rule": "Bounding Assault",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true,
+              "weaponName": "pox rider plaguesword"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true,
+              "weaponName": "pox rider plaguesword"
+            }
+          ],
+          "condition": "Each time this unit ends a Charge move, until the end of the turn, Pox Rider plagueswords equipped by models in this unit have the [LANCE] ability."
+        },
+        {
           "rule": "Gloam Rot",
           "stats": [],
           "rolls": [
@@ -27344,6 +27366,31 @@
       "leader": {
         "unitIds": [
           "2f31-9132-b703-5fd8"
+        ]
+      },
+      "leading": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Devastating Wounds",
+                "fromText": true,
+                "weaponName": "juggernaut's bladed horn"
+              },
+              {
+                "on": "melee",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Devastating Wounds",
+                "fromText": true,
+                "weaponName": "juggernaut's bladed horn"
+              }
+            ],
+            "condition": "While this model is leading a unit, each time that unit ends a Charge move, until the end of the turn, Juggernaut’s bladed horns equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+          }
         ]
       }
     },
