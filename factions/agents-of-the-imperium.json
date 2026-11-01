@@ -485,6 +485,14 @@
       "points": 30,
       "detachmentId": "aabf-4988-4054-bed2",
       "text": "Models in the bearer's unit have the Deep Strike ability. In addition, you can target the bearer's unit with the Rapid Ingress Stratagem for 0CP.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "Models in this unit have the Deep Strike ability."
+          }
+        ]
+      },
       "keywords": [
         "Watch Master"
       ]
@@ -521,7 +529,16 @@
       "name": "Witch Hunter",
       "points": 15,
       "detachmentId": "cfc6-5531-53cb-1964",
-      "text": "While the bearer is leading a unit, each time a model in that unit makes an attack that targets a PSYKER unit, you can re-roll the Hit roll."
+      "text": "While the bearer is leading a unit, each time a model in that unit makes an attack that targets a PSYKER unit, you can re-roll the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll",
+            "condition": "Each time a model in this unit makes an attack that targets a PSYKER unit, you can re-roll the Hit roll."
+          }
+        ]
+      }
     },
     {
       "id": "b295-d8d6-1339-22a8",
@@ -6885,6 +6902,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -9324,6 +9348,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -21568,6 +21599,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",

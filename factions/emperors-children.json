@@ -677,6 +677,14 @@
       "points": 15,
       "detachmentId": "8635-b1cc-e7bb-e8a1",
       "text": "You can re-roll Charge rolls made for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 2\" to the Move characteristic of models in that unit.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "charge",
+            "mod": "reroll"
+          }
+        ]
+      },
       "keywords": [
         "Emperor's Children"
       ]
@@ -2654,6 +2662,13 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1,
+                    "kind": "melee"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Feverish Butchery",
@@ -6272,6 +6287,19 @@
           "fromCopy": 2,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Stimulated by Pain",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        }
       ]
     },
     {
@@ -6427,6 +6455,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -7539,6 +7573,13 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1,
+                    "kind": "melee"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Feverish Butchery",
@@ -8855,6 +8896,13 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1,
+                    "kind": "melee"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Feverish Butchery",
@@ -9556,6 +9604,17 @@
               "condition": "Each time a model makes an attack that targets this unit, subtract 1 from the Hit roll."
             }
           ]
+        },
+        {
+          "rule": "Daemonic Speed",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Fights First",
+              "text": "This model has the Fights First ability."
+            }
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -13267,6 +13326,17 @@
       },
       "selfEffects": [
         {
+          "rule": "Duellist’s Hubris",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Fights First",
+              "text": "At the start of the Fight phase, if this model is not leading a unit, until the end of the phase, it has the Fights First ability."
+            }
+          ],
+          "condition": "At the start of the Fight phase, if this model is not leading a unit, until the end of the phase, it has the Fights First ability."
+        },
+        {
           "rule": "A Challenge Worthy of Skill",
           "stats": [],
           "rolls": [
@@ -14730,6 +14800,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -15328,6 +15404,16 @@
           "e456-0afc-9b42-226c",
           "5817-0d6c-973c-68f8",
           "4494-dd7d-69f7-306c"
+        ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "save",
+            "mod": "cover",
+            "kind": "ranged",
+            "condition": "While this model is leading a unit, each time a ranged attack targets that unit, models in it have the Benefit of Cover against that attack."
+          }
         ]
       }
     },

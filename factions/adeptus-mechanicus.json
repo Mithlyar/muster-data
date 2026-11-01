@@ -674,6 +674,18 @@
       "points": 15,
       "detachmentId": "48bd-eeae-171d-a10a",
       "text": "The bearer, and models in any unit they are leading, have the Infiltrators and Scouts 6\" abilities.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "Models in this unit have the Infiltrators and Scouts 6\" abilities."
+          },
+          {
+            "name": "Scouts 6\"",
+            "text": "Models in this unit have the Infiltrators and Scouts 6\" abilities."
+          }
+        ]
+      },
       "keywords": [
         "Skitarii"
       ]
@@ -711,6 +723,14 @@
       "points": 20,
       "detachmentId": "7aa5-4c0c-40c3-e2a",
       "text": "While the bearer is leading a unit, models in that unit have the Stealth ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Stealth",
+            "text": "Models in this unit have the Stealth ability."
+          }
+        ]
+      },
       "keywords": [
         "Adeptus Mechanicus"
       ]
@@ -754,7 +774,16 @@
       "name": "Logis",
       "points": 15,
       "detachmentId": "e01f-8783-4769-2eb6",
-      "text": "While the bearer is leading a unit, each time a model in that unit makes an attack that targets a unit within range of your Acquisition objective marker, add 1 to the Hit roll."
+      "text": "While the bearer is leading a unit, each time a model in that unit makes an attack that targets a unit within range of your Acquisition objective marker, add 1 to the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "condition": "Each time a model in this unit makes an attack that targets a unit within range of your Acquisition objective marker, add 1 to the Hit roll."
+          }
+        ]
+      }
     },
     {
       "id": "3ad-5001-79ae-9e77",
@@ -799,7 +828,15 @@
       "name": "Temporcopia",
       "points": 20,
       "detachmentId": "e282-2b49-bd6a-679c",
-      "text": "The bearer’s unit has the Fights First ability."
+      "text": "The bearer’s unit has the Fights First ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Fights First",
+            "text": "This unit has the Fights First ability."
+          }
+        ]
+      }
     },
     {
       "id": "a886-5b5b-d3b2-cf38",
@@ -8206,6 +8243,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -10657,6 +10701,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -25728,6 +25779,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",

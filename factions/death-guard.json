@@ -516,6 +516,16 @@
       "points": 20,
       "detachmentId": "c437-a67d-c0cd-11ab",
       "text": "Attacks that target this unit with a **S** greater than this unit’s **T** have ‑1 to **wound rolls**.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": -1,
+            "against": true,
+            "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+          }
+        ]
+      },
       "keywords": [
         "Infantry"
       ]
@@ -638,6 +648,14 @@
       "points": 15,
       "detachmentId": "f038-29f5-5625-6cc1",
       "text": "While the bearer is leading a unit, add 1\" to the Movement characteristics of models in that unit and you can re-roll Advance rolls made for that unit.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "advance",
+            "mod": "reroll"
+          }
+        ]
+      },
       "keywords": [
         "Terminator"
       ]
@@ -668,6 +686,15 @@
       "points": 25,
       "detachmentId": "e2ff-ece0-6cbb-be05",
       "text": "While the bearer's unit is within range of an objective marker you control, each time a model in the bearer's unit makes an attack, you can re-roll the Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll",
+            "condition": "While this unit is within range of an objective marker you control, each time a model in this unit makes an attack, you can re-roll the Wound roll."
+          }
+        ]
+      },
       "keywords": [
         "Death Guard"
       ]
@@ -6563,7 +6590,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Miasma of Pestilence (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "save",
+              "mod": "cover",
+              "kind": "ranged",
+              "condition": "Each time a ranged attack targets this unit, models in this unit have the Benefit of Cover against that attack."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "f4d7-244d-16c4-f2f3",
@@ -7171,6 +7212,14 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": -1,
+                    "against": true,
+                    "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -7276,6 +7325,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Restless Prey-seeker",
@@ -8054,6 +8113,14 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": -1,
+                    "against": true,
+                    "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -8310,6 +8377,12 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Rage-fuelled Strength",
@@ -8324,6 +8397,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Restless Prey-seeker",
@@ -15199,6 +15282,14 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": -1,
+                    "against": true,
+                    "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -15323,6 +15414,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Restless Prey-seeker",
@@ -19674,6 +19775,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Duty Eternal",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
           "rolls": [
@@ -21873,6 +21985,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -24777,6 +24895,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -29044,6 +29168,17 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Armoured Resilience",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-6 wounds remaining",
           "stats": [],

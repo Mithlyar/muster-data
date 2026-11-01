@@ -644,6 +644,19 @@
       "points": 20,
       "detachmentId": "3490-ec82-70b3-c5cf",
       "text": "You can re-roll Charge rolls made for the bearer's unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer's unit.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "charge",
+            "mod": "reroll"
+          },
+          {
+            "roll": "charge",
+            "mod": 1,
+            "condition": "In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for this unit."
+          }
+        ]
+      },
       "keywords": [
         "World Eaters"
       ]
@@ -654,6 +667,15 @@
       "points": 30,
       "detachmentId": "3490-ec82-70b3-c5cf",
       "text": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "damage",
+            "mod": -1,
+            "against": true
+          }
+        ]
+      },
       "keywords": [
         "World Eaters"
       ]
@@ -721,6 +743,14 @@
       "points": 10,
       "detachmentId": "9c45-483a-44b9-536c",
       "text": "The bearer has the Infiltrators ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "This model has the Infiltrators ability."
+          }
+        ]
+      },
       "keywords": [
         "Infantry"
       ]
@@ -1788,6 +1818,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -2655,6 +2691,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -19162,6 +19204,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Duty Eternal",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
           "rolls": [
@@ -19325,6 +19378,14 @@
           "9435-1f44-7e5b-d510",
           "9932-3d2b-1e47-d53b",
           "f909-00c7-8ba4-018a"
+        ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "While this model is leading a unit, models in that unit have the Deep Strike ability and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through models and terrain features."
+          }
         ]
       }
     },
@@ -24367,6 +24428,17 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Armoured Resilience",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-6 wounds remaining",
           "stats": [],

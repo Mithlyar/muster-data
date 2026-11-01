@@ -564,7 +564,15 @@
       "name": "Phial of the Abyss",
       "points": 15,
       "detachmentId": "ce9d-e896-d9bc-767c",
-      "text": "**^^Grey Knights Infantry^^** model only. Models in the bearer’s unit have the Stealth ability."
+      "text": "**^^Grey Knights Infantry^^** model only. Models in the bearer’s unit have the Stealth ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Stealth",
+            "text": "Models in this unit have the Stealth ability."
+          }
+        ]
+      }
     },
     {
       "id": "15d6-0fd2-69cf-6c36",
@@ -650,7 +658,16 @@
       "name": "Spiritus Machina",
       "points": 25,
       "detachmentId": "fb9d-20f7-3a78-22a3",
-      "text": "^^**Grey Knights Infantry^^** model only. In your Shooting phase, each time the bearer's unit is selected to shoot, if the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the phase, each time a model in the bearer's unit makes an attack, you can re-roll the Wound roll."
+      "text": "^^**Grey Knights Infantry^^** model only. In your Shooting phase, each time the bearer's unit is selected to shoot, if the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the phase, each time a model in the bearer's unit makes an attack, you can re-roll the Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll",
+            "condition": "In your Shooting phase, each time this unit is selected to shoot, if this unit disembarked from a Transport this turn, until the end of the phase, each time a model in this unit makes an attack, you can re-roll the Wound roll."
+          }
+        ]
+      }
     },
     {
       "id": "9264-31fe-7ae2-98a3",
@@ -678,7 +695,16 @@
       "name": "Purity of Purpose",
       "points": 15,
       "detachmentId": "3f06-4e57-edb4-28e5",
-      "text": "^^**Grey Knights^^** model only. Each time the bearer's unit is set up using the Deep Strike ability, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit."
+      "text": "^^**Grey Knights^^** model only. Each time the bearer's unit is set up using the Deep Strike ability, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "charge",
+            "mod": "reroll",
+            "condition": "Each time this unit is set up using the Deep Strike ability, until the end of the turn, you can re-roll Charge rolls made for this unit."
+          }
+        ]
+      }
     },
     {
       "id": "5a01-f1f1-db42-1453",
@@ -709,7 +735,16 @@
       "name": "Sigil of the Hunt",
       "points": 10,
       "detachmentId": "1eb7-d49c-5fd4-9906",
-      "text": "^^**Grey Knights^^** model only. In your Shooting phase, each time a model in the bearer's unit makes an attack, re-roll a Hit roll of 1."
+      "text": "^^**Grey Knights^^** model only. In your Shooting phase, each time a model in the bearer's unit makes an attack, re-roll a Hit roll of 1.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll1",
+            "condition": "In your Shooting phase, each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+          }
+        ]
+      }
     },
     {
       "id": "c611-bc2c-1f4a-383f",
@@ -744,7 +779,15 @@
       "name": "Psychic Celerity",
       "points": 15,
       "detachmentId": "45aa-c450-8fb0-92c2",
-      "text": "**TERMINATOR** model only. This unit has +1 to **charge rolls**."
+      "text": "**TERMINATOR** model only. This unit has +1 to **charge rolls**.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "charge",
+            "mod": 1
+          }
+        ]
+      }
     },
     {
       "id": "8e65-2f4d-df16-cc4b",
@@ -7528,6 +7571,10 @@
                   {
                     "name": "Prognosticars' Foresight",
                     "text": "This model has the Scouts 6\" ability."
+                  },
+                  {
+                    "name": "Scouts 6\"",
+                    "text": "This model has the Scouts 6\" ability."
                   }
                 ]
               }
@@ -7589,6 +7636,12 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Eye of Judgement (Psychic)",
@@ -10014,6 +10067,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -12460,6 +12520,10 @@
                   {
                     "name": "Prognosticars' Foresight",
                     "text": "This model has the Scouts 6\" ability."
+                  },
+                  {
+                    "name": "Scouts 6\"",
+                    "text": "This model has the Scouts 6\" ability."
                   }
                 ]
               }
@@ -12521,6 +12585,12 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Eye of Judgement (Psychic)",
@@ -13769,6 +13839,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -29416,6 +29493,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -37734,6 +37818,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Armoured Resilience",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-5 Wounds Remaining",
           "stats": [],
           "rolls": [
@@ -39497,6 +39592,10 @@
                   {
                     "name": "Prognosticars' Foresight",
                     "text": "This model has the Scouts 6\" ability."
+                  },
+                  {
+                    "name": "Scouts 6\"",
+                    "text": "This model has the Scouts 6\" ability."
                   }
                 ]
               }
@@ -39558,6 +39657,12 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Eye of Judgement (Psychic)",

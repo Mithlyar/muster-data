@@ -1616,7 +1616,16 @@
       "name": "Mark of Legend",
       "points": 10,
       "detachmentId": "a5ea-d708-db75-226c",
-      "text": "Once per turn, you can re-roll one Hit roll, one Wound roll or one saving throw made for the bearer."
+      "text": "Once per turn, you can re-roll one Hit roll, one Wound roll or one saving throw made for the bearer.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "rerollOne",
+            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model."
+          }
+        ]
+      }
     },
     {
       "id": "361e-2839-f32e-1873",
@@ -1660,6 +1669,18 @@
       "points": 15,
       "detachmentId": "4972-a08d-9d88-5f7a",
       "text": "The bearer has the Stealth and Lone Operative abilities.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Stealth",
+            "text": "This model has the Stealth and Lone Operative abilities."
+          },
+          {
+            "name": "Lone Operative",
+            "text": "This model has the Stealth and Lone Operative abilities."
+          }
+        ]
+      },
       "keywords": [
         "Infantry"
       ]
@@ -1686,21 +1707,54 @@
       "name": "Dread Reaver",
       "points": 15,
       "detachmentId": "b906-aa42-9cd9-c6f2",
-      "text": "Each time the bearer makes a melee attack, if the bearer is wholly within 12\" of your opponent's deployment zone, you can re-roll the Hit roll and you can re-roll the Wound roll."
+      "text": "Each time the bearer makes a melee attack, if the bearer is wholly within 12\" of your opponent's deployment zone, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll",
+            "kind": "melee",
+            "condition": "Each time this model makes a melee attack, if this model is wholly within 12\" of your opponent's deployment zone, you can re-roll the Hit roll and you can re-roll the Wound roll."
+          },
+          {
+            "roll": "wound",
+            "mod": "reroll",
+            "kind": "melee",
+            "condition": "Each time this model makes a melee attack, if this model is wholly within 12\" of your opponent's deployment zone, you can re-roll the Hit roll and you can re-roll the Wound roll."
+          }
+        ]
+      }
     },
     {
       "id": "b5e6-8586-a9a9-b6b",
       "name": "Mark of the Hound",
       "points": 25,
       "detachmentId": "b906-aa42-9cd9-c6f2",
-      "text": "Models in the bearer's unit have the Scouts 6\" ability."
+      "text": "Models in the bearer's unit have the Scouts 6\" ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "Models in this unit have the Scouts 6\" ability."
+          }
+        ]
+      }
     },
     {
       "id": "8ee0-de8d-3895-b1ac",
       "name": "Tyrant's Lash",
       "points": 20,
       "detachmentId": "b906-aa42-9cd9-c6f2",
-      "text": "You can re-roll Advance rolls made for the bearer's unit, and the bearer's unit is eligible to shoot in a turn in which it Fell Back."
+      "text": "You can re-roll Advance rolls made for the bearer's unit, and the bearer's unit is eligible to shoot in a turn in which it Fell Back.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "advance",
+            "mod": "reroll",
+            "condition": "You can re-roll Advance rolls made for this unit, and this unit is eligible to shoot in a turn in which it Fell Back."
+          }
+        ]
+      }
     },
     {
       "id": "d3d-1a0c-87b8-3401",
@@ -1715,6 +1769,14 @@
       "points": 10,
       "detachmentId": "d11c-e4a9-32c7-b761",
       "text": "Models in the bearer's unit have the Stealth ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Stealth",
+            "text": "Models in this unit have the Stealth ability."
+          }
+        ]
+      },
       "keywords": [
         "Chaos Lord"
       ]
@@ -1748,7 +1810,16 @@
       "name": "Ironbound Enmity",
       "points": 15,
       "detachmentId": "89a5-170b-1bf3-7016",
-      "text": "Each time the bearer makes an attack while within range of an objective marker, add 1 to the Wound roll."
+      "text": "Each time the bearer makes an attack while within range of an objective marker, add 1 to the Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": 1,
+            "condition": "Each time this model makes an attack while within range of an objective marker, add 1 to the Wound roll."
+          }
+        ]
+      }
     },
     {
       "id": "786c-288a-5ed6-676e",
@@ -1802,7 +1873,21 @@
       "name": "Cultist's Brand",
       "points": 30,
       "detachmentId": "6cec-4da4-a89d-fb98",
-      "text": "If every other model in the bearer's unit (excluding Dark Disciples) is DAMNED, you can re-roll Advance and Charge rolls made for the bearer's unit."
+      "text": "If every other model in the bearer's unit (excluding Dark Disciples) is DAMNED, you can re-roll Advance and Charge rolls made for the bearer's unit.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "advance",
+            "mod": "reroll",
+            "condition": "If every other model in this unit (excluding Dark Disciples) is DAMNED, you can re-roll Advance and Charge rolls made for this unit."
+          },
+          {
+            "roll": "charge",
+            "mod": "reroll",
+            "condition": "If every other model in this unit (excluding Dark Disciples) is DAMNED, you can re-roll Advance and Charge rolls made for this unit."
+          }
+        ]
+      }
     },
     {
       "id": "a660-3c2c-2f05-a6a1",
@@ -1906,6 +1991,13 @@
       "detachmentId": "1c30-e099-1aca-8708",
       "text": "**^^Heretic Astartes Infantry^^** model (excluding **^^Damned^^** models) only. Add 1 to the Damage characteristic of melee weapons equipped by the bearer. Each time the bearer makes a melee attack, you can re‑roll the Hit roll.",
       "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll",
+            "kind": "melee"
+          }
+        ],
         "stats": [
           {
             "on": "melee",
@@ -1971,6 +2063,14 @@
       "points": 25,
       "detachmentId": "f96f-5896-93c2-fc05",
       "text": "Models in the bearer's unit have the Stealth ability.\n\nWhile the bearer’s unit is within range of one or more objective markers you control, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Stealth",
+            "text": "Models in this unit have the Stealth ability."
+          }
+        ]
+      },
       "keywords": [
         "Chaos Lord"
       ]
@@ -1987,7 +2087,15 @@
       "name": "Sorrowscent Vulture",
       "points": 35,
       "detachmentId": "f96f-5896-93c2-fc05",
-      "text": "Models in the bearer’s unit have the Scouts 6\" ability."
+      "text": "Models in the bearer’s unit have the Scouts 6\" ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "Models in this unit have the Scouts 6\" ability."
+          }
+        ]
+      }
     },
     {
       "id": "69c2-d22c-7296-c8d8",
@@ -2022,7 +2130,15 @@
       "name": "Eager for Bloodshed",
       "points": 30,
       "detachmentId": "44d2-04f0-309d-575e",
-      "text": "The bearer has the Infiltrators ability."
+      "text": "The bearer has the Infiltrators ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "This model has the Infiltrators ability."
+          }
+        ]
+      }
     },
     {
       "id": "1dd9-391a-242d-7c99",
@@ -2054,6 +2170,15 @@
       "points": 5,
       "detachmentId": "2cf4-ac9c-5417-10ac",
       "text": "In a turn in which the bearer’s unit chose to Default to Doctrine, until the end of the turn, each time a model in this unit makes an attack, you can re‑roll the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll",
+            "condition": "In a turn in which this unit chose to Default to Doctrine, until the end of the turn, each time a model in this unit makes an attack, you can re-roll the Hit roll."
+          }
+        ]
+      },
       "keywords": [
         "Terminator"
       ]
@@ -2063,7 +2188,19 @@
       "name": "Empyric Symbiote",
       "points": 15,
       "detachmentId": "2cf4-ac9c-5417-10ac",
-      "text": "Add 1 to Advance and Charge rolls made for the bearer’s unit."
+      "text": "Add 1 to Advance and Charge rolls made for the bearer’s unit.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "advance",
+            "mod": 1
+          },
+          {
+            "roll": "charge",
+            "mod": 1
+          }
+        ]
+      }
     },
     {
       "id": "59dc-f056-6ad1-da80",
@@ -3118,6 +3255,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Disciples of Be'lakor",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Deep Strike",
+              "text": "Shadow Legion Heretic Astartes models in this unit have the Deep Strike ability."
+            }
+          ]
         }
       ]
     },
@@ -3541,6 +3688,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -3717,6 +3870,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -6411,6 +6570,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Warp Stalker",
@@ -6425,6 +6594,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": 1
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Unholy Speed",
@@ -6476,6 +6655,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Eightfold Eyes",
@@ -9068,7 +9254,20 @@
         "unitIds": [
           "203d-c50f-a438-4982"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Formidably Resilient",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": "halve",
+              "against": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "2dfd-2e5f-53f2-b695",
@@ -14238,6 +14437,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Warp Stalker",
@@ -14252,6 +14461,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": 1
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Unholy Speed",
@@ -14303,6 +14522,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Eightfold Eyes",
@@ -15740,6 +15966,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Warp Stalker",
@@ -15754,6 +15990,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": 1
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Unholy Speed",
@@ -15805,6 +16051,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Eightfold Eyes",
@@ -16677,6 +16930,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Warp Stalker",
@@ -16691,6 +16954,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": 1
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Unholy Speed",
@@ -16742,6 +17015,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Eightfold Eyes",
@@ -17801,6 +18081,18 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll1",
+                    "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+                  }
+                ],
                 "keywords": [
                   "Slaanesh",
                   "Slaanesh non-Battleline"
@@ -17876,6 +18168,16 @@
           ],
           "onlyModel": true,
           "condition": "If it does, until the end of the phase, this model has a 3+ invulnerable save."
+        },
+        {
+          "rule": "Prince of Darkness (Aura)",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "Models in this unit have the Stealth ability."
+            }
+          ]
         }
       ]
     },
@@ -18017,6 +18319,18 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll1",
+                    "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+                  }
+                ],
                 "keywords": [
                   "Slaanesh",
                   "Slaanesh non-Battleline"
@@ -18253,6 +18567,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -18851,6 +19171,14 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": -1,
+                    "against": true,
+                    "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -18884,6 +19212,14 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": -1,
+                    "against": true,
+                    "kind": "melee"
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -18984,6 +19320,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Restless Prey-seeker",
@@ -19827,6 +20173,14 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": -1,
+                    "against": true,
+                    "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -19860,6 +20214,14 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": -1,
+                    "against": true,
+                    "kind": "melee"
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -20111,6 +20473,12 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Rage-fuelled Strength",
@@ -20125,6 +20493,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Restless Prey-seeker",
@@ -23788,6 +24166,13 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1,
+                    "kind": "melee"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Dark Zealotry",
@@ -27173,6 +27558,14 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": -1,
+                    "against": true,
+                    "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Gloam Rot",
@@ -27187,6 +27580,18 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll1",
+                    "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Seductive Gambit",
@@ -27205,6 +27610,14 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": -1,
+                    "against": true,
+                    "kind": "melee"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Penumbral Puppetry",
@@ -27507,6 +27920,14 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": -1,
+                    "against": true,
+                    "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Gloam Rot",
@@ -27521,6 +27942,18 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll1",
+                    "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Seductive Gambit",
@@ -27539,6 +27972,14 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": -1,
+                    "against": true,
+                    "kind": "melee"
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -32184,6 +32625,14 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": -1,
+                    "against": true,
+                    "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -32217,6 +32666,14 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": -1,
+                    "against": true,
+                    "kind": "melee"
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -32336,6 +32793,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Restless Prey-seeker",
@@ -40161,6 +40628,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Duty Eternal",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
           "rolls": [
@@ -44704,6 +45182,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -45012,6 +45496,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -45950,6 +46440,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -46371,6 +46867,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -50802,6 +51304,19 @@
           "name": "Renegade Plague Ogryns",
           "text": "For the purposes of embarking within TRANSPORTS, each Renegade Plague Ogryn model counts as one TERMINATOR model."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Wall of Muscle",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        }
       ]
     },
     {
@@ -52298,6 +52813,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -58200,6 +58721,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": 1
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Daemonkin (Psychic)",
@@ -58214,6 +58745,13 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1,
+                    "kind": "melee"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Dark Zealotry",
@@ -58256,6 +58794,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": -1,
+                    "against": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Prescience (Psychic)",
@@ -59273,6 +59818,13 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1,
+                    "kind": "melee"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Dark Zealotry",
@@ -60167,6 +60719,14 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": -1,
+                    "against": true,
+                    "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Gloam Rot",
@@ -60181,6 +60741,18 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll1",
+                    "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Seductive Gambit",
@@ -60199,6 +60771,14 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": -1,
+                    "against": true,
+                    "kind": "melee"
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -60790,6 +61370,17 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Armoured Resilience",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-6 wounds remaining",
           "stats": [],

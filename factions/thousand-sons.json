@@ -910,6 +910,15 @@
       "points": 20,
       "detachmentId": "5be7-3aa8-5d64-cbaf",
       "text": "While the bearer is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": -1,
+            "against": true
+          }
+        ]
+      },
       "keywords": [
         "Tzaangor Shaman"
       ]
@@ -919,7 +928,15 @@
       "name": "Bray Lord",
       "points": 15,
       "detachmentId": "5be7-3aa8-5d64-cbaf",
-      "text": "The bearer has the Scouts 6\" ability."
+      "text": "The bearer has the Scouts 6\" ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "This model has the Scouts 6\" ability."
+          }
+        ]
+      }
     },
     {
       "id": "c84c-683a-79be-1620",
@@ -967,6 +984,14 @@
       "points": 15,
       "detachmentId": "7510-5cb8-60fe-61a0",
       "text": "While the bearer is leading a unit, each time a ^^**Rubricae^^** model in that unit makes an attack, add 1 to the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1
+          }
+        ]
+      },
       "keywords": [
         "Thousand Sons"
       ]
@@ -16502,6 +16527,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Duty Eternal",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
           "rolls": [
@@ -18941,6 +18977,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": 1
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Instrument of Chaos",
@@ -24325,6 +24367,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Armoured Resilience",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-6 wounds remaining",
           "stats": [],
           "rolls": [
@@ -25708,6 +25761,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Brayhorn",

@@ -901,6 +901,15 @@
       "points": 20,
       "detachmentId": "97fc-2d9c-9008-f363",
       "text": "**^^Vehicle Officer^^** model only. Each time a model in the bearer's unit makes a ranged attack, re-roll a Hit roll of 1.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll1",
+            "kind": "ranged"
+          }
+        ]
+      },
       "keywords": [
         "Vehicle",
         "Officer"
@@ -966,6 +975,14 @@
       "points": 5,
       "detachmentId": "3d9f-5d9a-4a18-21aa",
       "text": "**^^Astra Militarum Infantry^^** model only. The bearer has the Scouts 6\" ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "This model has the Scouts 6\" ability."
+          }
+        ]
+      },
       "keywords": [
         "Infantry",
         "Astra Militarum"
@@ -8524,6 +8541,19 @@
         {
           "fromCopy": 3,
           "points": 30
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Wall of Muscle",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
         }
       ]
     },
@@ -19488,6 +19518,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -23177,6 +23214,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -26693,6 +26737,18 @@
           "type": "Orders",
           "name": "Orders",
           "text": "This unit’s **^^Officer^^** can issue up to 2 Orders to **^^Regiment^^** or **^^Gaunt’s Ghosts^^** units."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Tanith Camo-cloaks",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "save",
+              "mod": "cover"
+            }
+          ]
         }
       ]
     },
@@ -42484,6 +42540,20 @@
       ],
       "selfEffects": [
         {
+          "rule": "Urban Warfare",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true,
+              "kind": "ranged",
+              "condition": "Each time a ranged attack targets this model, if this model has the Benefit of Cover against that attack, subtract 1 from the Damage characteristic of that attack."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
           "rule": "Damaged: 1-4 Wounds Remaining",
           "stats": [],
           "rolls": [
@@ -46412,6 +46482,18 @@
       },
       "selfEffects": [
         {
+          "rule": "Rugged Reliability",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "ap",
+              "mod": -1,
+              "against": true,
+              "kind": "ranged"
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-6 Wounds Remaining",
           "stats": [],
           "rolls": [
@@ -48997,6 +49079,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -50607,6 +50696,17 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Armoured Frontis",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-6 Wounds Remaining",
           "stats": [],

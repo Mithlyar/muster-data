@@ -1151,6 +1151,14 @@
       "points": 10,
       "detachmentId": "50ed-e07c-8f6b-b035",
       "text": "Adeptus Astartes Mounted unit only. This unit can re-roll advance rolls.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "advance",
+            "mod": "reroll"
+          }
+        ]
+      },
       "keywords": [
         "Mounted"
       ],
@@ -1239,6 +1247,14 @@
       "points": 15,
       "detachmentId": "afb4-59c7-fa93-55f6",
       "text": "ADEPTUS ASTARTES INFANTRY model only. This unit can re‑roll charge rolls",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "charge",
+            "mod": "reroll"
+          }
+        ]
+      },
       "keywords": [
         "Infantry"
       ]
@@ -1361,6 +1377,13 @@
       "detachmentId": "3bb2-fd56-d456-de75",
       "text": "Adeptus Astartes model only. \n▪ This unit's ranged attacks have [Lethal Hits]\n▪ If the devastator doctrine is active for this unit, this unit can re-roll advance rolls.",
       "effects": {
+        "rolls": [
+          {
+            "roll": "advance",
+            "mod": "reroll",
+            "condition": "If the devastator doctrine is active for this unit, this unit can re-roll advance rolls."
+          }
+        ],
         "stats": [
           {
             "on": "ranged",
@@ -1478,6 +1501,18 @@
       "points": 10,
       "detachmentId": "5139-a5ca-8533-7e09",
       "text": "Tacticus model only. This unit's attacks can:\n▪ Re-roll one hit roll\n▪ Re-roll one wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "rerollOne"
+          },
+          {
+            "roll": "wound",
+            "mod": "rerollOne"
+          }
+        ]
+      },
       "keywords": [
         "Tacticus"
       ]
@@ -1528,6 +1563,20 @@
       "points": 15,
       "detachmentId": "395a-ed00-a55f-49da",
       "text": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll1",
+            "condition": "when chosen: This unit's attacks that target a hidden units can Re-roll wound rolls of 1"
+          },
+          {
+            "roll": "wound",
+            "mod": "reroll1",
+            "condition": "when chosen: This unit's attacks that target a hidden units can If the assault doctrine is active for this unit, re-roll wound rolls of 1 and 2"
+          }
+        ]
+      },
       "keywords": [
         "Phobos"
       ]
@@ -1548,6 +1597,20 @@
       "points": 15,
       "detachmentId": "ce38-6b78-df65-e298",
       "text": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll1",
+            "condition": "when chosen: This unit's attacks that target a hidden units can Re-roll wound rolls of 1"
+          },
+          {
+            "roll": "wound",
+            "mod": "reroll1",
+            "condition": "when chosen: This unit's attacks that target a hidden units can If the assault doctrine is active for this unit, re-roll wound rolls of 1 and 2"
+          }
+        ]
+      },
       "keywords": [
         "Phobos"
       ]
@@ -1558,6 +1621,16 @@
       "points": 20,
       "detachmentId": "0b59-ad5c-a30b-75ba",
       "text": "Gravis model only. Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": -1,
+            "against": true,
+            "condition": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+          }
+        ]
+      },
       "keywords": [
         "Gravis"
       ]
@@ -1637,6 +1710,15 @@
       "points": 20,
       "detachmentId": "cd09-8410-f1a0-c9af",
       "text": "Adeptus Astartes Infantry model only. If this unit disembarked this turn:\n▪ This unit can re-roll charge rolls\n▪ Enemy units cannot target this unit with snap shooting attacks.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "charge",
+            "mod": "reroll",
+            "condition": "If this unit disembarked this turn This unit can re-roll charge rolls"
+          }
+        ]
+      },
       "keywords": [
         "Infantry"
       ]
@@ -17086,6 +17168,13 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1,
+                    "kind": "melee"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Litany of Hate",
@@ -22235,6 +22324,14 @@
         "unitIds": [
           "dc75-5a79-4121-1d72"
         ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "While this model is leading a unit, models in that unit have the Scouts 6\" ability."
+          }
+        ]
       }
     },
     {
@@ -23872,6 +23969,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -30351,6 +30455,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -44587,6 +44698,14 @@
           "8da0-4570-c3c-819f",
           "907f-11-c4d1-ec21"
         ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Fights First",
+            "text": "While this model is leading a unit, that unit has the Fights First ability."
+          }
+        ]
       }
     },
     {
@@ -53482,6 +53601,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Duty Eternal",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
           "rolls": [
@@ -56650,6 +56780,13 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1,
+                    "kind": "melee"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Litany of Hate",
@@ -60138,6 +60275,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -75599,6 +75743,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Armoured Resilience",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-6 wounds remaining",
           "stats": [],
           "rolls": [
@@ -77094,6 +77249,17 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Armoured Resilience",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 Wounds Remaining",
           "stats": [],
@@ -83540,6 +83706,13 @@
               "weaponIds": [],
               "points": 10,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": 1,
+                    "kind": "melee"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Litany of Hate",

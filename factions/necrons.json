@@ -1012,6 +1012,14 @@
       "points": 20,
       "detachmentId": "aed9-cb3b-1d0c-f87d",
       "text": "CRYPTEK model only. Models in the bearer's unit have the Infiltrators ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "Models in this unit have the Infiltrators ability."
+          }
+        ]
+      },
       "keywords": [
         "Cryptek"
       ]
@@ -1022,6 +1030,15 @@
       "points": 15,
       "detachmentId": "aed9-cb3b-1d0c-f87d",
       "text": "CRYPTEK model only. While the bearer is leading a unit, if that unit is wholly within your army's Power Matrix, each time a model in that unit makes an attack, re-roll a Wound roll of 1.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll1",
+            "condition": "If this unit is wholly within your army's Power Matrix, each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+          }
+        ]
+      },
       "keywords": [
         "Cryptek"
       ]
@@ -1082,6 +1099,16 @@
       "points": 15,
       "detachmentId": "163f-63bd-f2e1-5e7",
       "text": "OVERLORD model only. Each time a melee attack targets the bearer's unit, subtract 1 from the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": -1,
+            "against": true,
+            "kind": "melee"
+          }
+        ]
+      },
       "keywords": [
         "Overlord"
       ]
@@ -1108,7 +1135,20 @@
       "name": "Arisen Tyrant",
       "points": 25,
       "detachmentId": "8861-5385-8fd1-dfee",
-      "text": "NECRONS model only. Each time a model in the bearer's unit makes an attack, re-roll a Hit roll of 1. If the bearer's unit was set up on the battlefield this turn, you can re-roll the Hit roll instead."
+      "text": "NECRONS model only. Each time a model in the bearer's unit makes an attack, re-roll a Hit roll of 1. If the bearer's unit was set up on the battlefield this turn, you can re-roll the Hit roll instead.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll1"
+          },
+          {
+            "roll": "hit",
+            "mod": "reroll",
+            "condition": "If this unit was set up on the battlefield this turn, you can re-roll the Hit roll instead."
+          }
+        ]
+      }
     },
     {
       "id": "e294-31a1-a398-8695",
@@ -1122,7 +1162,15 @@
       "name": "Osteoclave Fulcrum",
       "points": 20,
       "detachmentId": "8861-5385-8fd1-dfee",
-      "text": "NECRONS model only. Models in the bearer's unit have the Deep Strike ability."
+      "text": "NECRONS model only. Models in the bearer's unit have the Deep Strike ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "Models in this unit have the Deep Strike ability."
+          }
+        ]
+      }
     },
     {
       "id": "564a-6fab-2aa8-260e",
@@ -1262,6 +1310,14 @@
       "points": 20,
       "detachmentId": "c4ee-83c7-812c-5ff0",
       "text": "Each time a model in the bearer’s unit makes an attack, add 1 to the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1
+          }
+        ]
+      },
       "keywords": [
         "Destroyer Cult"
       ]
@@ -2463,6 +2519,19 @@
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Necrodermis",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        }
       ]
     },
     {
@@ -2684,6 +2753,19 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Necrodermis",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
         }
       ]
     },
@@ -2942,6 +3024,19 @@
         {
           "id": "7cb5-dd6b-dd87-ad3b",
           "name": "Deep Strike"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Necrodermis",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
         }
       ]
     },
@@ -4513,6 +4608,18 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Aggressor Guardian",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "ap",
+              "mod": -1,
+              "against": true,
+              "condition": "Each time an attack targets this model, if this model is within range of an objective marker, worsen the Armour Penetration characteristic of that attack by 1."
+            }
+          ]
+        },
         {
           "rule": "Aggressor Guardian",
           "stats": [
@@ -7624,7 +7731,20 @@
           "c4e3-f6b0-f3aa-9d90",
           "58e9-5212-f5a6-c12d"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Implacable Resistance",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "71b0-77b9-522c-17d6",
@@ -13989,7 +14109,20 @@
           "c4e3-f6b0-f3aa-9d90",
           "58e9-5212-f5a6-c12d"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Implacable Resilience",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "2e4-afdd-efdd-c5c8",
@@ -17695,6 +17828,10 @@
                   {
                     "name": "Shadowloom",
                     "text": "The bearer has the Stealth ability."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This model has the Stealth ability."
                   }
                 ]
               }
@@ -18240,6 +18377,19 @@
         {
           "fromCopy": 2,
           "points": 20
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Necrodermis",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
         }
       ]
     },
@@ -19755,6 +19905,14 @@
           "f81-b23c-e183-39d7",
           "c4e3-f6b0-f3aa-9d90",
           "58e9-5212-f5a6-c12d"
+        ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Fights First",
+            "text": "While this model is leading a unit, models in that unit have the Fights First ability."
+          }
         ]
       }
     },

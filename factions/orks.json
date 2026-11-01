@@ -888,7 +888,15 @@
       "name": "Competitive Streak",
       "points": 15,
       "detachmentId": "b404-44f-e9b4-7fe2",
-      "text": "**DEFFKILLA WARTRIKE** model only. This unit can re-roll **charge rolls**."
+      "text": "**DEFFKILLA WARTRIKE** model only. This unit can re-roll **charge rolls**.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "charge",
+            "mod": "reroll"
+          }
+        ]
+      }
     },
     {
       "id": "2381-390e-5e7d-0426",
@@ -1008,7 +1016,15 @@
       "name": "Proper Killy",
       "points": 15,
       "detachmentId": "09b2-b286-7608-d613",
-      "text": "**WARBOSS** model only. This model can re-roll **hit rolls** of 1."
+      "text": "**WARBOSS** model only. This model can re-roll **hit rolls** of 1.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll1"
+          }
+        ]
+      }
     },
     {
       "id": "cdbb-d4b7-580e-0413",
@@ -3708,6 +3724,19 @@
           "type": "Transport",
           "name": "Big'ed Bossbunka",
           "text": "This model has a **transport capacity** of 11 **ORKS INFANTRY** models. It cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Ramshackle Cover",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "save",
+              "mod": "cover",
+              "condition": "When an attack targets a unit that is not fully visible to the attacking model because of this unit, the target has the benefit of cover against that attack."
+            }
+          ]
         }
       ]
     },
@@ -15092,7 +15121,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Ramshackle Cover",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "save",
+              "mod": "cover",
+              "condition": "When an attack targets a unit that is not fully visible to the attacking model because of this unit, the target has the benefit of cover against that attack."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "9ee5-2b39-de06-dda6",
@@ -20355,6 +20397,18 @@
       "leader": {
         "unitIds": [
           "de8f-24f9-c543-92b7"
+        ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "While this model is leading a unit, models in that unit have the Infiltrators and Stealth abilities."
+          },
+          {
+            "name": "Stealth",
+            "text": "While this model is leading a unit, models in that unit have the Infiltrators and Stealth abilities."
+          }
         ]
       }
     },

@@ -323,6 +323,23 @@
           "text": "^^**Cthonian Beserks^^** units from your army have the Deep Strike ability."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Fury from the Dêlve",
+          "who": [
+            [
+              "Cthonian",
+              "Beserks"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Deep Strike",
+              "text": "Cthonian Beserks units from your army have the Deep Strike ability."
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Cyberstimm Infusion",
@@ -635,7 +652,18 @@
       "name": "Bastion Shield",
       "points": 25,
       "detachmentId": "1077-70a1-0570-5685",
-      "text": "Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1. If you spend 1YP, until the end of the phase, if the attacking model is within 18\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1 instead."
+      "text": "Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1. If you spend 1YP, until the end of the phase, if the attacking model is within 18\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1 instead.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "ap",
+            "mod": -1,
+            "against": true,
+            "kind": "ranged",
+            "condition": "when chosen: Each time a ranged attack targets this unit, if the attacking model is within 12\" of this unit, worsen the Armour Penetration characteristic of that attack by 1."
+          }
+        ]
+      }
     },
     {
       "id": "0af8-8b93-2b39-2559",
@@ -679,7 +707,21 @@
       "name": "Oathbound Speculator",
       "points": 30,
       "detachmentId": "01b8-fa17-620e-8e79",
-      "text": "Each time a model in the bearer's unit makes an attack, re-roll a Wound roll of 1. Each time the bearer's unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer's unit makes an attack, add 1 to the Wound roll."
+      "text": "Each time a model in the bearer's unit makes an attack, re-roll a Wound roll of 1. Each time the bearer's unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer's unit makes an attack, add 1 to the Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll1",
+            "condition": "when chosen: Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+          },
+          {
+            "roll": "wound",
+            "mod": 1,
+            "condition": "when chosen: If you do, until the end of the phase, each time a model in this unit makes an attack, add 1 to the Wound roll."
+          }
+        ]
+      }
     },
     {
       "id": "5e4b-a70c-c422-6c61",
@@ -707,7 +749,16 @@
       "name": "Eye For Weakness",
       "points": 25,
       "detachmentId": "e73f-ac86-44b1-c3f2",
-      "text": "Each time a model in the bearer's unit makes an attack that targets an assailed unit, add 1 to the Wound roll."
+      "text": "Each time a model in the bearer's unit makes an attack that targets an assailed unit, add 1 to the Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": 1,
+            "condition": "Each time a model in this unit makes an attack that targets an assailed unit, add 1 to the Wound roll."
+          }
+        ]
+      }
     },
     {
       "id": "7c61-0dcb-0802-cb98",
@@ -858,7 +909,16 @@
       "name": "Etacarn SB9 Targeting Implant",
       "points": 15,
       "detachmentId": "b36b-1a84-3f57-2063",
-      "text": "Each time a model in the bearer’s unit makes an attack, re‑roll a Hit roll of 1. Each time the bearer’s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer’s unit makes an attack, that attack has the [SUSTAINED HITS 1] ability."
+      "text": "Each time a model in the bearer’s unit makes an attack, re‑roll a Hit roll of 1. Each time the bearer’s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer’s unit makes an attack, that attack has the [SUSTAINED HITS 1] ability.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll1",
+            "condition": "when chosen: Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+          }
+        ]
+      }
     },
     {
       "id": "874b-263c-74b0-1804",
@@ -3355,6 +3415,13 @@
               ],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "wound",
+                    "mod": "reroll",
+                    "condition": "If it does, until the end of the phase, each time a model in this unit makes an attack with its breacher ordnance, you can re-roll the Wound roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Geomantic Hunters",
@@ -3551,6 +3618,10 @@
                   {
                     "name": "Teleport crest",
                     "text": "While the bearer is leading a unit, models in that unit have the Deep Strike ability."
+                  },
+                  {
+                    "name": "Deep Strike",
+                    "text": "Models in this unit have the Deep Strike ability."
                   }
                 ]
               }
@@ -3996,6 +4067,10 @@
                   {
                     "name": "Teleport crest",
                     "text": "Models in the bearer's unit have the Deep Strike ability."
+                  },
+                  {
+                    "name": "Deep Strike",
+                    "text": "Models in this unit have the Deep Strike ability."
                   }
                 ]
               }
@@ -6055,6 +6130,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll1",
+                    "kind": "ranged"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Pan spectral scanner",
@@ -7585,6 +7667,10 @@
                   {
                     "name": "Teleport crest",
                     "text": "While the bearer is leading a unit, models in that unit have the Deep Strike ability."
+                  },
+                  {
+                    "name": "Deep Strike",
+                    "text": "Models in this unit have the Deep Strike ability."
                   }
                 ]
               }
@@ -8785,6 +8871,10 @@
                   {
                     "name": "Teleport Crest",
                     "text": "While the bearer is leading a unit, models in that unit have the Deep Strike ability."
+                  },
+                  {
+                    "name": "Deep Strike",
+                    "text": "Models in this unit have the Deep Strike ability."
                   }
                 ]
               }
@@ -9532,6 +9622,14 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": -1,
+                    "against": true,
+                    "kind": "ranged"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Barrier Tech Repulsion",
@@ -9628,6 +9726,10 @@
                   {
                     "name": "Teleport Crest",
                     "text": "While the bearer is leading a unit, models in that unit have the Deep Strike ability."
+                  },
+                  {
+                    "name": "Deep Strike",
+                    "text": "Models in this unit have the Deep Strike ability."
                   }
                 ]
               }
@@ -11841,6 +11943,10 @@
                   {
                     "name": "Teleport Crest",
                     "text": "While the bearer is leading a unit, models in that unit have the Deep Strike ability."
+                  },
+                  {
+                    "name": "Deep Strike",
+                    "text": "Models in this unit have the Deep Strike ability."
                   }
                 ]
               }

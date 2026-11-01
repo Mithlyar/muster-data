@@ -827,6 +827,16 @@
       "points": 40,
       "detachmentId": "1c7e-56bc-3196-b5cd",
       "text": "Attacks that target this unit have -1 to **hit rolls**.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": -1,
+            "against": true,
+            "condition": "Attacks that target this unit have -1 to hit rolls."
+          }
+        ]
+      },
       "keywords": [
         "Infantry"
       ]
@@ -860,7 +870,16 @@
       "name": "Edge of the Blade",
       "points": 15,
       "detachmentId": "8d91-29a0-9690-b603",
-      "text": "If this unit made a **charge move** this turn, this model's attacks can:\n- Re-roll **hit rolls** of 1.\n- Re-roll **wound rolls** of 1."
+      "text": "If this unit made a **charge move** this turn, this model's attacks can:\n- Re-roll **hit rolls** of 1.\n- Re-roll **wound rolls** of 1.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll1",
+            "condition": "If this unit made a charge move this turn, this model's attacks can Re-roll hit rolls of 1."
+          }
+        ]
+      }
     },
     {
       "id": "5aff-ff4a-81aa-f1bf",
@@ -895,6 +914,18 @@
       "points": 15,
       "detachmentId": "cd6a-aae4-acca-d3ac",
       "text": "This unit has +1 to **advance rolls** and **charge rolls**.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "advance",
+            "mod": 1
+          },
+          {
+            "roll": "charge",
+            "mod": 1
+          }
+        ]
+      },
       "upgrade": {
         "maxCopies": 3
       }
@@ -1025,7 +1056,26 @@
       "name": "Oblivion Knight",
       "points": 15,
       "detachmentId": "d3ee-47e1-4540-dfe5",
-      "text": "This unit's attacks have:\n- +1 to **hit rolls**.\n- Or: If this unit targets a ^^**Psyker**^^/**battle-shocked** unit, +1 to **hit rolls** and **wound rolls**."
+      "text": "This unit's attacks have:\n- +1 to **hit rolls**.\n- Or: If this unit targets a ^^**Psyker**^^/**battle-shocked** unit, +1 to **hit rolls** and **wound rolls**.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "condition": "when chosen: This unit's attacks have +1 to hit rolls."
+          },
+          {
+            "roll": "hit",
+            "mod": 1,
+            "condition": "when chosen: - Or: If this unit targets a Psyker/battle-shocked unit, +1 to hit rolls and wound rolls."
+          },
+          {
+            "roll": "wound",
+            "mod": 1,
+            "condition": "when chosen: - Or: If this unit targets a Psyker/battle-shocked unit, +1 to hit rolls and wound rolls."
+          }
+        ]
+      }
     },
     {
       "id": "b631-68f8-c41d-a3d1",
@@ -9068,6 +9118,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -11519,6 +11576,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -13768,6 +13832,20 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "kind": "melee",
+                    "condition": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll",
+                    "kind": "melee",
+                    "condition": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Singular Expertise",
@@ -18797,6 +18875,20 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "kind": "melee",
+                    "condition": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll",
+                    "kind": "melee",
+                    "condition": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Singular Expertise",
@@ -24493,6 +24585,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -25444,6 +25543,10 @@
                   {
                     "name": "Abyssal Void",
                     "text": "Models in this unit have the Lone Operative ability."
+                  },
+                  {
+                    "name": "Lone Operative",
+                    "text": "Models in this unit have the Lone Operative ability."
                   }
                 ]
               }
@@ -25454,6 +25557,20 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "kind": "melee",
+                    "condition": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll",
+                    "kind": "melee",
+                    "condition": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Singular Expertise",

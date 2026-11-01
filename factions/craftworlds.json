@@ -482,6 +482,34 @@
           "text": "You can include Ynnari units in your army, even though they do not have the Asuryani Faction keyword.\nAsuryani units (excluding Epic Heroes) from your army gain the Ynnari keyword.\nYou must include Yvraine and/or The Yncarne in your army, and one of those models must be your Warlord."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Strength From Death",
+          "who": [
+            [
+              "Ynnari"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Fights First",
+              "text": "Until the end of the phase, that unit has the Fights First ability."
+            }
+          ],
+          "condition": "when Lethal Reprisal is chosen"
+        },
+        {
+          "rule": "Servants of the Whispering God",
+          "who": [
+            [
+              "Asuryani"
+            ]
+          ],
+          "keywords": [
+            "Ynnari"
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Emissaries of Ynnead",
@@ -1150,7 +1178,16 @@
       "name": "Morbid Might",
       "points": 15,
       "detachmentId": "925e-85fb-b477-70be",
-      "text": "Succubus model only. Each time the bearer makes a melee attack, you can re-roll the Wound roll."
+      "text": "Succubus model only. Each time the bearer makes a melee attack, you can re-roll the Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll",
+            "kind": "melee"
+          }
+        ]
+      }
     },
     {
       "id": "ad20-1ee6-b7ce-0c17",
@@ -1181,7 +1218,15 @@
       "name": "Mistweave",
       "points": 15,
       "detachmentId": "be59-ec7d-2f02-b6ec",
-      "text": "Shadowseer model only. While the bearer is leading a unit, models in that unit have the Infiltrators ability."
+      "text": "Shadowseer model only. While the bearer is leading a unit, models in that unit have the Infiltrators ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "Models in this unit have the Infiltrators ability."
+          }
+        ]
+      }
     },
     {
       "id": "4d59-81d8-0a78-adf3",
@@ -1348,14 +1393,31 @@
       "name": "Firstdrawn Blade",
       "points": 10,
       "detachmentId": "c8a3-920b-166b-30d9",
-      "text": "**^^Asuryani Mounted^^** model only. Models in the bearer's unit have the Scouts 9\" ability."
+      "text": "**^^Asuryani Mounted^^** model only. Models in the bearer's unit have the Scouts 9\" ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Scouts 9\"",
+            "text": "Models in this unit have the Scouts 9\" ability."
+          }
+        ]
+      }
     },
     {
       "id": "9867-5fd8-af23-34a8",
       "name": "Mirage Field",
       "points": 25,
       "detachmentId": "c8a3-920b-166b-30d9",
-      "text": "Asuryani Mounted model only. Each time an attack targets the bearer's unit, subtract 1 from the Hit roll."
+      "text": "Asuryani Mounted model only. Each time an attack targets the bearer's unit, subtract 1 from the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": -1,
+            "against": true
+          }
+        ]
+      }
     },
     {
       "id": "116d-f3dd-042d-4c4f",
@@ -1377,6 +1439,14 @@
       "points": 20,
       "detachmentId": "5ad5-9b0d-a70e-b9ec",
       "text": "^^**Harlequins**^^ model only (excluding ^^**Solitaire**^^ models). Models in the bearer’s unit have the Scouts 6\" ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "Models in this unit have the Scouts 6\" ability."
+          }
+        ]
+      },
       "keywords": [
         "Harlequins"
       ]
@@ -1512,7 +1582,15 @@
       "name": "A Foot in the Future",
       "points": 15,
       "detachmentId": "c40e-26bd-7e76-0815",
-      "text": "**TROUPE MASTER** model only. This unit can re‑roll charge rolls."
+      "text": "**TROUPE MASTER** model only. This unit can re‑roll charge rolls.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "charge",
+            "mod": "reroll"
+          }
+        ]
+      }
     },
     {
       "id": "29c8-5ca8-471c-8018",
@@ -2900,6 +2978,17 @@
         "onslaught": 1
       },
       "selfEffects": [
+        {
+          "rule": "Molten Form",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": "halve",
+              "against": true
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 Wounds Remaining",
           "stats": [],
@@ -7486,6 +7575,10 @@
                   {
                     "name": "Outcast",
                     "text": "(^^**INFANTRY**^^ and ^^**MOUNTED **^^ only):\nThis model has the Lone Operative ability."
+                  },
+                  {
+                    "name": "Lone Operative",
+                    "text": "This model has the Lone Operative ability."
                   }
                 ]
               }
@@ -18174,6 +18267,10 @@
                   {
                     "name": "Outcast",
                     "text": "(^^**INFANTRY**^^ and ^^**MOUNTED **^^ only):\nThis model has the Lone Operative ability."
+                  },
+                  {
+                    "name": "Lone Operative",
+                    "text": "This model has the Lone Operative ability."
                   }
                 ]
               }
@@ -25147,6 +25244,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "damage",
+                    "mod": -1,
+                    "against": true
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",
@@ -25462,6 +25566,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "damage",
+                    "mod": -1,
+                    "against": true
+                  }
+                ],
                 "stats": [
                   {
                     "on": "unit",

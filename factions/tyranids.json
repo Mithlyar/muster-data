@@ -733,6 +733,15 @@
       "points": 15,
       "detachmentId": "c2fe-bf23-bf24-aa43",
       "text": "**^^Tyranids^^** model only. Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for the bearer",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "rerollOne",
+            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for this model"
+          }
+        ]
+      },
       "keywords": [
         "Tyranids"
       ]
@@ -813,6 +822,16 @@
       "points": 25,
       "detachmentId": "850e-bee1-4845-820d",
       "text": "**^^Tyranids Monster^^** only. Each time the bearer makes a melee attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, add 1 to the Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": 1,
+            "kind": "melee",
+            "condition": "Each time this model makes a melee attack that targets a Monster or Vehicle unit, add 1 to the Wound roll."
+          }
+        ]
+      },
       "keywords": [
         "Monster",
         "Tyranids"
@@ -879,6 +898,15 @@
       "points": 20,
       "detachmentId": "16ff-a068-4c31-285a",
       "text": "**^^Tyranids Synapse^^** model only. Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of the attack.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "damage",
+            "mod": -1,
+            "against": true
+          }
+        ]
+      },
       "keywords": [
         "Synapse",
         "Tyranids"
@@ -1046,6 +1074,13 @@
       "detachmentId": "7416-b7cc-fdbf-5bf0",
       "text": "**WINGED TYRANID PRIME/TYRANID PRIME WITH LASH WHIP** model only. This model’s melee attacks:\n- Can re‑roll **wound rolls**.\n- Have +1 **AP**.",
       "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll",
+            "kind": "melee"
+          }
+        ],
         "stats": [
           {
             "on": "melee",
@@ -1061,7 +1096,16 @@
       "name": "Ocular Adaptation",
       "points": 20,
       "detachmentId": "7416-b7cc-fdbf-5bf0",
-      "text": "**WINGED TYRANID PRIME/TYRANID PRIME WITH LASH WHIP** model only. This unit’s melee attacks have +1 to **hit rolls**."
+      "text": "**WINGED TYRANID PRIME/TYRANID PRIME WITH LASH WHIP** model only. This unit’s melee attacks have +1 to **hit rolls**.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "kind": "melee"
+          }
+        ]
+      }
     },
     {
       "id": "f4a3-f457-328f-582b",
@@ -7138,6 +7182,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Hyperstimulation",
@@ -9521,6 +9575,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Hyperstimulation",
@@ -12115,6 +12179,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Hyperstimulation",

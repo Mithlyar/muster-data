@@ -643,6 +643,22 @@
       "points": 20,
       "detachmentId": "884c-fbb7-9f22-1297",
       "text": "**^^Imperial Knights^^** model only. Each time the bearer makes a melee attack, if the bearer is on your defensive line, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll1",
+            "kind": "melee",
+            "condition": "Each time this model makes a melee attack, if this model is on your defensive line, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+          },
+          {
+            "roll": "wound",
+            "mod": "reroll1",
+            "kind": "melee",
+            "condition": "Each time this model makes a melee attack, if this model is on your defensive line, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+          }
+        ]
+      },
       "keywords": [
         "Imperial Knights"
       ]
@@ -713,6 +729,15 @@
       "points": 20,
       "detachmentId": "d469-239c-7e4c-4210",
       "text": "**^^Imperial Knights^^** model only. While two or more **^^Armiger^^** models are under the effects of the bearer's Bondsman ability, each time each of those **^^Armiger^^** models makes an attack, you can re-roll a Hit roll of 1.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll1",
+            "condition": "While two or more Armiger models are under the effects of this model's Bondsman ability, each time each of those Armiger models makes an attack, you can re-roll a Hit roll of 1."
+          }
+        ]
+      },
       "keywords": [
         "Imperial Knights"
       ]
@@ -6059,6 +6084,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -8510,6 +8542,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -19916,6 +19955,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",

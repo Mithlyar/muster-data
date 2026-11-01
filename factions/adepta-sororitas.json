@@ -880,6 +880,16 @@
       "points": 25,
       "detachmentId": "f9b6-3e44-772b-8eb1",
       "text": "(Once per turn, per unit) At the start of a phase, you can use this ability. If you do, select one of the abilities below: \n- **Rite of Revelation**: While this unit is shooting, enemy units have +6\" detection range. \n- **Sermon of Intolerance**: This unit’s battle‑shock rolls automatically succeed. \n- **Catechism of Raging Fervour**: This unit has +1\" M. \n- **Psalm of Righteous Smiting**: This unit’s attacks have +1 S. \n- **Chorus of Repudiation**: Attacks that target this unit with a S greater than this unit’s T have ‑1 to wound rolls.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": -1,
+            "against": true,
+            "condition": "when chosen: - Chorus of Repudiation: Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+          }
+        ]
+      },
       "upgrade": {
         "maxCopies": 3
       }
@@ -2392,7 +2402,47 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Extremis Trigger Word",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "A",
+              "op": "set",
+              "value": 6,
+              "fromText": true,
+              "weaponName": "arco-flail"
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Hazardous",
+              "fromText": true,
+              "weaponName": "arco-flail"
+            },
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "set",
+              "value": 6,
+              "fromText": true,
+              "weaponName": "arco-flail"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Hazardous",
+              "fromText": true,
+              "weaponName": "arco-flail"
+            }
+          ],
+          "condition": "when chosen: If you do, then until the end of the phase, arco-flails equipped by models in this unit have an Attacks characteristic of 6 and the HAZARDOUS ability."
+        }
+      ]
     },
     {
       "id": "7314-3c4a-36ab-a594",
@@ -4626,6 +4676,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll1"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Rod of Office",
@@ -9329,6 +9385,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -12618,6 +12681,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -19853,6 +19923,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll1"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Divine Authority",
@@ -26023,6 +26099,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": 1,
+                    "condition": "Each time a model in this unit makes an attack that targets a unit that is below Half-Strength, add 1 to the Hit roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Termination",
@@ -26884,6 +26967,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll1"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Divine Authority",
@@ -31539,6 +31628,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll1"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Divine Authority",
@@ -39023,6 +39118,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  },
+                  {
+                    "roll": "charge",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Sacred Banner",

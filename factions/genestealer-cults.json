@@ -674,7 +674,15 @@
       "name": "Predatory Instincts",
       "points": 20,
       "detachmentId": "ff11-0fa4-2950-380e",
-      "text": "**ABOMINANT**, **BIOPHAGUS** or **PATRIARCH** model only.\n- Models in the bearer's unit have the Infiltrators ability.\n- You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n-- That use is ‑1 CP.\n-- That use does not prevent any uses of that **stratagem** on other units this phase."
+      "text": "**ABOMINANT**, **BIOPHAGUS** or **PATRIARCH** model only.\n- Models in the bearer's unit have the Infiltrators ability.\n- You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n-- That use is ‑1 CP.\n-- That use does not prevent any uses of that **stratagem** on other units this phase.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "- Models in this unit have the Infiltrators ability."
+          }
+        ]
+      }
     },
     {
       "id": "460b-5456-314e-7a7e",
@@ -837,6 +845,15 @@
       "points": 20,
       "detachmentId": "0a79-5968-68f0-56b5",
       "text": "**^^Genestealer Cults^^** model only. Once per battle, when the bearer's unit declares a charge, the bearer can use the Enhancement. If it does, until the end of the phase, add 2 to Charge rolls made for the bearer's unit.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "charge",
+            "mod": 2,
+            "condition": "If it does, until the end of the phase, add 2 to Charge rolls made for this unit."
+          }
+        ]
+      },
       "keywords": [
         "Genestealer Cults"
       ]
@@ -867,6 +884,15 @@
       "points": 15,
       "detachmentId": "0a79-5968-68f0-56b5",
       "text": "**^^Genestealer Cults^^** model only. Each time a model in the bearer's unit makes an attack that targets a **^^Character^^** unit, add 1 to the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "condition": "Each time a model in this unit makes an attack that targets a Character unit, add 1 to the Hit roll."
+          }
+        ]
+      },
       "keywords": [
         "Genestealer Cults"
       ]
@@ -909,6 +935,16 @@
       "points": 15,
       "detachmentId": "59e2-4fec-2b00-b1e8",
       "text": "**^^Genestealer Cults^^** model only. Each time a model in the bearer's unit makes a ranged attack, if it disembarked from a **^^Transport^^** this turn, you can re-roll the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll",
+            "kind": "ranged",
+            "condition": "Each time a model in this unit makes a ranged attack, if it disembarked from a Transport this turn, you can re-roll the Hit roll."
+          }
+        ]
+      },
       "keywords": [
         "Genestealer Cults"
       ]
@@ -939,7 +975,21 @@
       "name": "Denunciator of Tyrants",
       "points": 25,
       "detachmentId": "536a-b3ea-7597-81bb",
-      "text": "**^^Magus, Primus or Acolyte Iconward^^** model only. Each time a model in the bearer's unit makes an attack that targets a **^^Character^^** unit, add 1 to the Hit Roll and add 1 to the Wound roll."
+      "text": "**^^Magus, Primus or Acolyte Iconward^^** model only. Each time a model in the bearer's unit makes an attack that targets a **^^Character^^** unit, add 1 to the Hit Roll and add 1 to the Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "condition": "Each time a model in this unit makes an attack that targets a Character unit, add 1 to the Hit Roll and add 1 to the Wound roll."
+          },
+          {
+            "roll": "wound",
+            "mod": 1,
+            "condition": "Each time a model in this unit makes an attack that targets a Character unit, add 1 to the Hit Roll and add 1 to the Wound roll."
+          }
+        ]
+      }
     },
     {
       "id": "6a6f-6505-ae1d-d6cc",
@@ -987,6 +1037,14 @@
       "points": 15,
       "detachmentId": "7acd-d099-e648-0838",
       "text": "**PATRIARCH** model only. This unit’s attacks can re‑roll **wound rolls** of 1.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll1"
+          }
+        ]
+      },
       "keywords": [
         "Patriarch"
       ]
@@ -7451,6 +7509,18 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "condition": "when chosen: Each time this model makes an attack that targets it prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll",
+                    "condition": "when chosen: Each time this model makes an attack that targets it prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Psychic Spoor",
@@ -8649,6 +8719,18 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "condition": "when chosen: Each time this model makes an attack that targets it prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll",
+                    "condition": "when chosen: Each time this model makes an attack that targets it prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Psychic Spoor",
@@ -13179,6 +13261,14 @@
           "a197-f6c3-5d4a-5326",
           "8a84-a8fd-977e-9118",
           "b5d2-8681-6bba-f05b"
+        ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Fights First",
+            "text": "While this model is leading a unit, models in that unit have the Fights First ability."
+          }
         ]
       }
     },
@@ -19523,6 +19613,18 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "condition": "when chosen: Each time this model makes an attack that targets it prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll",
+                    "condition": "when chosen: Each time this model makes an attack that targets it prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Psychic Spoor",
