@@ -58835,7 +58835,8 @@
         },
         {
           "id": "699c-55ed-7fee-65ab",
-          "name": "Feel No Pain 4+*"
+          "name": "Feel No Pain 4+*",
+          "against": "Psychic Attacks and mortal wounds"
         }
       ],
       "maxInArmy": {

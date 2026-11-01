@@ -14523,7 +14523,8 @@
         },
         {
           "id": "699c-55ed-7fee-65ab",
-          "name": "Feel No Pain 4+*"
+          "name": "Feel No Pain 4+*",
+          "against": "Psychic Attacks and mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -40220,7 +40221,8 @@
         },
         {
           "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 6+"
+          "name": "Feel No Pain 6+",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {

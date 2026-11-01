@@ -1786,11 +1786,13 @@
         },
         {
           "id": "5e10-6d62-2624-80a8",
-          "name": "Feel No Pain 5+"
+          "name": "Feel No Pain 5+",
+          "against": "Psychic Attacks"
         },
         {
           "id": "8ef2-30ad-3fc1-f7e4",
-          "name": "Feel No Pain 3+*"
+          "name": "Feel No Pain 3+*",
+          "against": "Psychic Attacks"
         },
         {
           "id": "20d7-959d-9ddd-0c14",
@@ -2054,7 +2056,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -2233,7 +2236,8 @@
         },
         {
           "id": "8ef2-30ad-3fc1-f7e4",
-          "name": "Feel No Pain 3+*"
+          "name": "Feel No Pain 3+*",
+          "against": "Psychic Attacks"
         },
         {
           "id": "20d7-959d-9ddd-0c14",
@@ -2983,7 +2987,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -3167,7 +3172,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -3337,7 +3343,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -4286,7 +4293,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -4518,7 +4526,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "c68c-a968-354f-bb99",
@@ -4740,7 +4749,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "c68c-a968-354f-bb99",
@@ -6157,7 +6167,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "c68c-a968-354f-bb99",
@@ -6294,7 +6305,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "c68c-a968-354f-bb99",
@@ -6508,7 +6520,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -7138,7 +7151,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -7249,7 +7263,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -7382,7 +7397,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -7597,7 +7613,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "a398-0a1d-ef92-162b",
@@ -14236,7 +14253,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -23779,7 +23797,8 @@
         },
         {
           "id": "8ef2-30ad-3fc1-f7e4",
-          "name": "Feel No Pain 3+*"
+          "name": "Feel No Pain 3+*",
+          "against": "Psychic Attacks"
         },
         {
           "id": "20d7-959d-9ddd-0c14",
@@ -25847,7 +25866,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -26015,7 +26035,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "a398-0a1d-ef92-162b",
@@ -26147,7 +26168,8 @@
       "rules": [
         {
           "id": "8ef2-30ad-3fc1-f7e4",
-          "name": "Feel No Pain 3+*"
+          "name": "Feel No Pain 3+*",
+          "against": "Psychic Attacks"
         },
         {
           "id": "20d7-959d-9ddd-0c14",
@@ -28139,7 +28161,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -28823,7 +28846,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -29128,7 +29152,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -29361,7 +29386,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -29560,7 +29586,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -31553,7 +31580,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -31694,7 +31722,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "5e10-6d62-2624-80a8",
@@ -31983,7 +32012,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "957d-bd08-23ed-70be",
@@ -32124,7 +32154,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -32264,7 +32295,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         }
       ],
       "maxInArmy": {
@@ -32453,7 +32485,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "a398-0a1d-ef92-162b",
@@ -32669,7 +32702,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "a398-0a1d-ef92-162b",
@@ -32858,7 +32892,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds"
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -33681,7 +33716,8 @@
       "rules": [
         {
           "id": "8ef2-30ad-3fc1-f7e4",
-          "name": "Feel No Pain 3+*"
+          "name": "Feel No Pain 3+*",
+          "against": "Psychic Attacks"
         },
         {
           "id": "20d7-959d-9ddd-0c14",
@@ -34595,7 +34631,8 @@
         },
         {
           "id": "8ef2-30ad-3fc1-f7e4",
-          "name": "Feel No Pain 3+*"
+          "name": "Feel No Pain 3+*",
+          "against": "Psychic Attacks"
         },
         {
           "id": "20d7-959d-9ddd-0c14",

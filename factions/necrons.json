@@ -12768,7 +12768,8 @@
         },
         {
           "id": "faec-8b1b-5a21-0087",
-          "name": "Feel No Pain 5+*"
+          "name": "Feel No Pain 5+*",
+          "against": "mortal wounds and Psychic Attacks"
         }
       ]
     },

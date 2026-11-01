@@ -11941,7 +11941,8 @@
         },
         {
           "id": "9bf4-280f-bbe2-6fbb",
-          "name": "Feel No Pain 3+"
+          "name": "Feel No Pain 3+",
+          "against": "Psychic Attacks"
         }
       ],
       "alliedFrom": "Blood Legions",
