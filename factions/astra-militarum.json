@@ -879,6 +879,14 @@
       "points": 15,
       "detachmentId": "97fc-2d9c-9008-f363",
       "text": "**^^Vehicle Officer^^** model only. The bearer has the Feel No Pain 6+ ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 6+",
+            "text": "The bearer has the Feel No Pain 6+ ability."
+          }
+        ]
+      },
       "keywords": [
         "Vehicle",
         "Officer"
@@ -1042,21 +1050,39 @@
         "keywords": [
           "Officer"
         ]
-      }
+      },
+      "characterFor": [
+        [
+          "Astra Militarum",
+          "Titanic"
+        ]
+      ]
     },
     {
       "id": "8015-96f5-8474-f0a3",
       "name": "Titan Killer",
       "points": 20,
       "detachmentId": "419a-c366-aa63-ebb5",
-      "text": "**^^Astra Militarum Titanic Character^^** model only. Each time the bearer makes a ranged attack, you can re‑roll the Damage roll."
+      "text": "**^^Astra Militarum Titanic Character^^** model only. Each time the bearer makes a ranged attack, you can re‑roll the Damage roll.",
+      "characterFor": [
+        [
+          "Astra Militarum",
+          "Titanic"
+        ]
+      ]
     },
     {
       "id": "e714-c3e9-5f0e-7d37",
       "name": "Assault Hatches",
       "points": 25,
       "detachmentId": "419a-c366-aa63-ebb5",
-      "text": "**^^Astra Militarum Titanic Character Transport^^** model only. Each time a unit disembarks from the bearer after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      "text": "**^^Astra Militarum Titanic Character Transport^^** model only. Each time a unit disembarks from the bearer after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "characterFor": [
+        [
+          "Astra Militarum",
+          "Titanic"
+        ]
+      ]
     },
     {
       "id": "76ae-9c80-259a-7516",
@@ -1067,6 +1093,12 @@
       "keywords": [
         "Tech-Priest Enginseer",
         "Astra Militarum"
+      ],
+      "characterFor": [
+        [
+          "Astra Militarum",
+          "Titanic"
+        ]
       ]
     },
     {
@@ -52201,6 +52233,21 @@
         "strike-force": 3,
         "onslaught": 3
       },
+      "caps": [
+        {
+          "name": "Ogryn",
+          "max": [
+            {
+              "minModels": 3,
+              "maxModels": 6,
+              "max": 5
+            }
+          ],
+          "modelNames": [
+            "Ogryn"
+          ]
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Point-blank Barrage",

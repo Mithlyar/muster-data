@@ -1291,7 +1291,15 @@
       "name": "Runes of Warding",
       "points": 25,
       "detachmentId": "b525-57b6-8a78-ed75",
-      "text": "**^^Asuryani Psyker^^** model only. Models in the bearer's unit have the Feel No Pain 4+ ability against mortal wounds, Psychic Attacks and Critical Wounds caused by attacks with the **[DEVASTATING WOUNDS]** ability."
+      "text": "**^^Asuryani Psyker^^** model only. Models in the bearer's unit have the Feel No Pain 4+ ability against mortal wounds, Psychic Attacks and Critical Wounds caused by attacks with the **[DEVASTATING WOUNDS]** ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+ against mortal wounds, Psychic Attacks and Critical Wounds caused by attacks with the [DEVASTATING WOUNDS] ability",
+            "text": "Models in the bearer's unit have the Feel No Pain 4+ ability against mortal wounds, Psychic Attacks and Critical Wounds caused by attacks with the [DEVASTATING WOUNDS] ability."
+          }
+        ]
+      }
     },
     {
       "id": "ee05-f0eb-bbaa-5960",
@@ -20441,6 +20449,304 @@
       ]
     },
     {
+      "id": "dd79-c2fe-59d6-d2",
+      "name": "The Visarch",
+      "role": "Epic Hero",
+      "keywords": [
+        "The Visarch",
+        "Infantry",
+        "Epic Hero",
+        "Character",
+        "Aeldari",
+        "Support"
+      ],
+      "factionKeywords": [
+        "Ynnari"
+      ],
+      "character": true,
+      "epicHero": true,
+      "legends": false,
+      "sizes": [
+        {
+          "minModels": 1,
+          "maxModels": 1,
+          "points": 80
+        }
+      ],
+      "models": [
+        {
+          "name": "The Visarch",
+          "min": 1,
+          "max": 1,
+          "stats": {
+            "M": "8\"",
+            "T": "3",
+            "Sv": "2+",
+            "W": "5",
+            "Ld": "6+",
+            "OC": "1",
+            "InvSv": "4+",
+            "base": "32mm"
+          },
+          "loadout": [
+            "bda0-d69e-d472-9117"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "bda0-d69e-d472-9117",
+          "name": "Asu-var",
+          "profiles": [
+            {
+              "name": "Asu-var - quicksilver stance",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "8",
+              "skill": "2+",
+              "S": "4",
+              "AP": "-1",
+              "D": "1",
+              "keywords": [
+                "Sustained Hits 2"
+              ]
+            },
+            {
+              "name": "Asu-var - duellist stance",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "6",
+              "skill": "2+",
+              "S": "5",
+              "AP": "-2",
+              "D": "2",
+              "keywords": [
+                "Devastating Wounds",
+                "Precision"
+              ]
+            },
+            {
+              "name": "Asu-var - mythic stance",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "4",
+              "skill": "2+",
+              "S": "3",
+              "AP": "-4",
+              "D": "3",
+              "keywords": [
+                "Anti-Epic Hero 2+",
+                "Precision"
+              ]
+            }
+          ]
+        }
+      ],
+      "wargear": [],
+      "abilities": [
+        {
+          "name": "Way of the Blade",
+          "text": "While this model is leading a unit, models in that unit have the Fights First ability."
+        },
+        {
+          "name": "Yvraine's Champion",
+          "text": "While this model is leading a unit, other Character models attached to that unit have the Feel No Pain 4+ ability."
+        },
+        {
+          "name": "Support",
+          "text": "This model can be attached to the following units:\n- **CORSAIR REAVER BAND**\n- **CORSAIR VOIDREAVERS**\n- **CORSAIR VOIDSCARRED**\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **YNNARI KABALITE WARRIORS**\n- **YNNARI WYCHES**\n\nYou can attach this unit to one of the above units, even if Yvraine has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        },
+        {
+          "name": "Servant of the Whispering God",
+          "text": "If your army includes The Visarch, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include The Visarch."
+        }
+      ],
+      "rules": [
+        {
+          "id": "c324-e193-e23c-7d2e",
+          "name": "Battle Focus"
+        },
+        {
+          "id": "10d8-3547-47ae-baab",
+          "name": "Disparate Paths"
+        },
+        {
+          "id": "3342-2180-9c5d-925f",
+          "name": "Support"
+        }
+      ],
+      "alliedFrom": "Ynnari",
+      "detachmentIds": [
+        "925e-85fb-b477-70be"
+      ],
+      "maxInArmy": {
+        "incursion": 1,
+        "strike-force": 1,
+        "onslaught": 1
+      },
+      "support": {
+        "unitIds": [
+          "758b-bfd2-96ed-52b",
+          "cc68-ad19-7285-7a11",
+          "cbb7-6669-a014-36fe",
+          "e78a-4442-4ed2-66bf",
+          "5452-c4a7-59fb-f05c",
+          "807b-0b72-5908-a3d4",
+          "36fd-7c3f-b728-c5d4"
+        ]
+      },
+      "leading": {
+        "abilities": [
+          {
+            "name": "Fights First",
+            "text": "While this model is leading a unit, models in that unit have the Fights First ability."
+          }
+        ]
+      }
+    },
+    {
+      "id": "68fb-4b6f-2bf8-7105",
+      "name": "The Yncarne",
+      "role": "Epic Hero",
+      "keywords": [
+        "The Yncarne",
+        "Epic Hero",
+        "Monster",
+        "Character",
+        "Fly",
+        "Psyker",
+        "Daemon",
+        "Aeldari"
+      ],
+      "factionKeywords": [
+        "Ynnari"
+      ],
+      "character": true,
+      "epicHero": true,
+      "legends": false,
+      "sizes": [
+        {
+          "minModels": 1,
+          "maxModels": 1,
+          "points": 230
+        }
+      ],
+      "models": [
+        {
+          "name": "The Yncarne",
+          "min": 1,
+          "max": 1,
+          "stats": {
+            "M": "10\"",
+            "T": "10",
+            "Sv": "2+",
+            "W": "12",
+            "Ld": "6+",
+            "OC": "3",
+            "InvSv": "4+",
+            "base": "80mm"
+          },
+          "loadout": [
+            "7196-bba5-8a2-2c90",
+            "bb4b-fdd7-ade-3990"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "7196-bba5-8a2-2c90",
+          "name": "Vilith-zhar",
+          "profiles": [
+            {
+              "name": "Vilith-zhar - Strike",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "5",
+              "skill": "2+",
+              "S": "12",
+              "AP": "-4",
+              "D": "D6+1",
+              "keywords": []
+            },
+            {
+              "name": "Vilith-zhar - Sweep",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "10",
+              "skill": "2+",
+              "S": "6",
+              "AP": "-4",
+              "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "bb4b-fdd7-ade-3990",
+          "name": "Swirling soul energy",
+          "profiles": [
+            {
+              "name": "Swirling soul energy",
+              "kind": "ranged",
+              "range": "12\"",
+              "A": "D6+3",
+              "skill": "N/A",
+              "S": "7",
+              "AP": "-1",
+              "D": "D3",
+              "keywords": [
+                "Ignores Cover",
+                "Psychic",
+                "Torrent"
+              ]
+            }
+          ]
+        }
+      ],
+      "wargear": [],
+      "abilities": [
+        {
+          "name": "Inevitable Death",
+          "text": "Once in each of your opponent's turns, if this model is on the battlefield when another friendly Aeldari unit is destroyed, just after removing the last model in that unit, you can remove this model from the battlefield and set it up as close as possible to where that destroyed model was destroyed and not within Engagement Range of one or more enemy units. Doing so does not prevent this model from being eligible to move."
+        },
+        {
+          "name": "Ethereal Form",
+          "text": "Each time this model destroys an enemy unit it regains up to D3 lost wounds."
+        },
+        {
+          "name": "Avatar of the Whispering God",
+          "text": "If your army includes The Yncarne, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include The Yncarne."
+        }
+      ],
+      "rules": [
+        {
+          "id": "b68a-5ded-65ac-98c",
+          "name": "Deadly Demise D3"
+        },
+        {
+          "id": "c324-e193-e23c-7d2e",
+          "name": "Battle Focus"
+        },
+        {
+          "id": "10d8-3547-47ae-baab",
+          "name": "Disparate Paths"
+        },
+        {
+          "id": "7cb5-dd6b-dd87-ad3b",
+          "name": "Deep Strike"
+        }
+      ],
+      "alliedFrom": "Ynnari",
+      "detachmentIds": [
+        "925e-85fb-b477-70be"
+      ],
+      "maxInArmy": {
+        "incursion": 1,
+        "strike-force": 1,
+        "onslaught": 1
+      }
+    },
+    {
       "id": "dac1-6a7f-a06a-82cf",
       "name": "Troupe",
       "role": "Infantry",
@@ -27231,6 +27537,925 @@
       }
     },
     {
+      "id": "8e15-3c74-d36f-7669",
+      "name": "Ynnari Raider",
+      "role": "Dedicated Transport",
+      "keywords": [
+        "Raider",
+        "Aeldari",
+        "Dedicated Transport",
+        "Fly",
+        "Vehicle",
+        "Transport",
+        "Frame"
+      ],
+      "factionKeywords": [
+        "Ynnari"
+      ],
+      "character": false,
+      "epicHero": false,
+      "legends": false,
+      "sizes": [
+        {
+          "minModels": 1,
+          "maxModels": 1,
+          "points": 70
+        }
+      ],
+      "models": [
+        {
+          "name": "Ynnari Raider",
+          "min": 1,
+          "max": 1,
+          "stats": {
+            "M": "14\"",
+            "T": "8",
+            "Sv": "4+",
+            "W": "10",
+            "Ld": "6+",
+            "OC": "2",
+            "InvSv": "6+",
+            "base": "60mm Flying"
+          },
+          "loadout": [
+            "9d49-8ef9-d771-fac6",
+            "3c82-00d0-1e60-2d40"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "9d49-8ef9-d771-fac6",
+          "name": "Bladevanes",
+          "profiles": [
+            {
+              "name": "Bladevanes",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "4+",
+              "S": "6",
+              "AP": "0",
+              "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "ecda-9712-4626-0ff0",
+          "name": "Disintegrator Cannon",
+          "profiles": [
+            {
+              "name": "Disintegrator Cannon",
+              "kind": "ranged",
+              "range": "36\"",
+              "A": "3",
+              "skill": "3+",
+              "S": "5",
+              "AP": "-2",
+              "D": "2",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "3c82-00d0-1e60-2d40",
+          "name": "Dark Lance",
+          "profiles": [
+            {
+              "name": "Dark Lance",
+              "kind": "ranged",
+              "range": "36\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "12",
+              "AP": "-3",
+              "D": "D6+2",
+              "keywords": []
+            }
+          ]
+        }
+      ],
+      "wargear": [
+        {
+          "id": "b3cd-d554-de2f-5acc",
+          "name": "Weapon Option",
+          "model": null,
+          "min": 1,
+          "max": 1,
+          "defaultChoiceId": "3c82-00d0-1e60-2d40",
+          "choices": [
+            {
+              "id": "ecda-9712-4626-0ff0",
+              "name": "Disintegrator Cannon",
+              "weaponIds": [
+                "ecda-9712-4626-0ff0"
+              ],
+              "points": 0
+            },
+            {
+              "id": "3c82-00d0-1e60-2d40",
+              "name": "Dark Lance",
+              "weaponIds": [
+                "3c82-00d0-1e60-2d40"
+              ],
+              "points": 0
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Aethersails",
+          "text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+        }
+      ],
+      "rules": [
+        {
+          "id": "b68a-5ded-65ac-98c",
+          "name": "Deadly Demise D3"
+        },
+        {
+          "id": "13b2-6518-dab3-7ea1",
+          "name": "Firing Deck 11"
+        },
+        {
+          "id": "7cb5-dd6b-dd87-ad3b",
+          "name": "Deep Strike"
+        },
+        {
+          "id": "c324-e193-e23c-7d2e",
+          "name": "Battle Focus"
+        },
+        {
+          "id": "10d8-3547-47ae-baab",
+          "name": "Disparate Paths"
+        }
+      ],
+      "alliedFrom": "Ynnari",
+      "detachmentIds": [
+        "925e-85fb-b477-70be"
+      ],
+      "maxInArmy": {
+        "incursion": 4,
+        "strike-force": 6,
+        "onslaught": 6
+      },
+      "extraCopyCost": [
+        {
+          "fromCopy": 4,
+          "points": 10
+        }
+      ],
+      "extras": [
+        {
+          "type": "Transport",
+          "name": "Raider",
+          "text": "This model has a transport capacity of 11 models from the following units: The Visarch, Ynnari Archon, Ynnari Incubi, Ynnari Kabalite Warriors, Ynnari Succubus, Ynnari Wyches, Yvraine."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Aethersails",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 6,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+        }
+      ]
+    },
+    {
+      "id": "915d-ad53-9518-7a85",
+      "name": "Ynnari Reavers",
+      "role": "Mounted",
+      "keywords": [
+        "Reavers",
+        "Aeldari",
+        "Fly",
+        "Mounted"
+      ],
+      "factionKeywords": [
+        "Ynnari"
+      ],
+      "character": false,
+      "epicHero": false,
+      "legends": false,
+      "sizes": [
+        {
+          "minModels": 3,
+          "maxModels": 3,
+          "points": 65
+        },
+        {
+          "minModels": 4,
+          "maxModels": 6,
+          "points": 120
+        }
+      ],
+      "models": [
+        {
+          "name": "Reaver",
+          "min": 2,
+          "max": 5,
+          "stats": {
+            "M": "16\"",
+            "T": "4",
+            "Sv": "4+",
+            "W": "2",
+            "Ld": "6+",
+            "OC": "2",
+            "InvSv": "6+",
+            "base": "32mm Flying"
+          },
+          "loadout": [
+            "00ee-f66a-5d0f-af9f",
+            "6c28-7432-4e25-4d2c",
+            "5669-d6d1-e8f6-94b4"
+          ]
+        },
+        {
+          "name": "Reaver with Blaster",
+          "min": 0,
+          "max": 2,
+          "stats": {
+            "M": "16\"",
+            "T": "4",
+            "Sv": "4+",
+            "W": "2",
+            "Ld": "6+",
+            "OC": "2",
+            "InvSv": "6+",
+            "base": "32mm Flying"
+          },
+          "loadout": [
+            "50ca-6ee0-7446-3019",
+            "02a1-c828-e7e7-37ce",
+            "e735-6228-8003-0ca8"
+          ]
+        },
+        {
+          "name": "Reaver with Heat Lance",
+          "min": 0,
+          "max": 2,
+          "stats": {
+            "M": "16\"",
+            "T": "4",
+            "Sv": "4+",
+            "W": "2",
+            "Ld": "6+",
+            "OC": "2",
+            "InvSv": "6+",
+            "base": "32mm Flying"
+          },
+          "loadout": [
+            "c2fb-8041-d762-0885",
+            "6826-a233-4997-7f84",
+            "544c-e679-d0f6-ca24"
+          ]
+        },
+        {
+          "name": "Arena Champion",
+          "min": 1,
+          "max": 1,
+          "stats": {
+            "M": "16\"",
+            "T": "4",
+            "Sv": "4+",
+            "W": "2",
+            "Ld": "6+",
+            "OC": "2",
+            "InvSv": "6+",
+            "base": "32mm Flying"
+          },
+          "loadout": [
+            "f54e-07ab-4ba1-7ec0",
+            "c189-67f7-cab1-e345",
+            "a4f8-4e2c-cea5-7d31"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "00ee-f66a-5d0f-af9f",
+          "name": "Splinter Rifle",
+          "profiles": [
+            {
+              "name": "Splinter Rifle",
+              "kind": "ranged",
+              "range": "24\"",
+              "A": "2",
+              "skill": "3+",
+              "S": "2",
+              "AP": "0",
+              "D": "1",
+              "keywords": [
+                "Anti-Infantry 3+",
+                "Assault"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6c28-7432-4e25-4d2c",
+          "name": "Splinter Pistol",
+          "profiles": [
+            {
+              "name": "Splinter Pistol",
+              "kind": "ranged",
+              "range": "12\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "2",
+              "AP": "0",
+              "D": "1",
+              "keywords": [
+                "Anti-Infantry 3+",
+                "Assault",
+                "Pistol"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5669-d6d1-e8f6-94b4",
+          "name": "Bladevanes",
+          "profiles": [
+            {
+              "name": "Bladevanes",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "3+",
+              "S": "4",
+              "AP": "0",
+              "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "50ca-6ee0-7446-3019",
+          "name": "Blaster",
+          "profiles": [
+            {
+              "name": "Blaster",
+              "kind": "ranged",
+              "range": "18\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "8",
+              "AP": "-4",
+              "D": "D6+1",
+              "keywords": [
+                "Assault"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02a1-c828-e7e7-37ce",
+          "name": "Splinter Pistol",
+          "profiles": [
+            {
+              "name": "Splinter Pistol",
+              "kind": "ranged",
+              "range": "12\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "2",
+              "AP": "0",
+              "D": "1",
+              "keywords": [
+                "Anti-Infantry 3+",
+                "Assault",
+                "Pistol"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e735-6228-8003-0ca8",
+          "name": "Bladevanes",
+          "profiles": [
+            {
+              "name": "Bladevanes",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "3+",
+              "S": "4",
+              "AP": "0",
+              "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "c2fb-8041-d762-0885",
+          "name": "Splinter Pistol",
+          "profiles": [
+            {
+              "name": "Splinter Pistol",
+              "kind": "ranged",
+              "range": "12\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "2",
+              "AP": "0",
+              "D": "1",
+              "keywords": [
+                "Anti-Infantry 3+",
+                "Assault",
+                "Pistol"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6826-a233-4997-7f84",
+          "name": "Heat Lance",
+          "profiles": [
+            {
+              "name": "Heat Lance",
+              "kind": "ranged",
+              "range": "18\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "14",
+              "AP": "-4",
+              "D": "D6",
+              "keywords": [
+                "Assault",
+                "Melta 3"
+              ]
+            }
+          ],
+          "tags": [
+            "Damage Dx Weapon"
+          ]
+        },
+        {
+          "id": "544c-e679-d0f6-ca24",
+          "name": "Bladevanes",
+          "profiles": [
+            {
+              "name": "Bladevanes",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "3+",
+              "S": "4",
+              "AP": "0",
+              "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "f54e-07ab-4ba1-7ec0",
+          "name": "Splinter Pistol",
+          "profiles": [
+            {
+              "name": "Splinter Pistol",
+              "kind": "ranged",
+              "range": "12\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "2",
+              "AP": "0",
+              "D": "1",
+              "keywords": [
+                "Anti-Infantry 3+",
+                "Assault",
+                "Pistol"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a7ec-99d1-aa29-7918",
+          "name": "Agonizer",
+          "profiles": [
+            {
+              "name": "Agonizer",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "4",
+              "skill": "3+",
+              "S": "3",
+              "AP": "-1",
+              "D": "1",
+              "keywords": [
+                "Anti-Infantry 3+"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c189-67f7-cab1-e345",
+          "name": "Bladevanes",
+          "profiles": [
+            {
+              "name": "Bladevanes",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "3+",
+              "S": "4",
+              "AP": "0",
+              "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "a4f8-4e2c-cea5-7d31",
+          "name": "Splinter Rifle",
+          "profiles": [
+            {
+              "name": "Splinter Rifle",
+              "kind": "ranged",
+              "range": "24\"",
+              "A": "2",
+              "skill": "3+",
+              "S": "2",
+              "AP": "0",
+              "D": "1",
+              "keywords": [
+                "Anti-Infantry 3+",
+                "Assault"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dec1-2aa4-aa44-1fab",
+          "name": "Blaster",
+          "profiles": [
+            {
+              "name": "Blaster",
+              "kind": "ranged",
+              "range": "18\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "8",
+              "AP": "-4",
+              "D": "D6+1",
+              "keywords": [
+                "Assault"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f0a6-39b0-cb9a-3d50",
+          "name": "Heat Lance",
+          "profiles": [
+            {
+              "name": "Heat Lance",
+              "kind": "ranged",
+              "range": "18\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "14",
+              "AP": "-4",
+              "D": "D6",
+              "keywords": [
+                "Assault",
+                "Melta 3"
+              ]
+            }
+          ],
+          "tags": [
+            "Damage Dx Weapon"
+          ]
+        }
+      ],
+      "wargear": [
+        {
+          "id": "29d3-9097-7026-6840",
+          "name": "Reaver Wargear",
+          "model": "Reaver",
+          "min": 0,
+          "max": 1,
+          "defaultChoiceId": null,
+          "choices": [
+            {
+              "id": "0777-ae0e-9a5b-3b29",
+              "name": "Cluster Caltrops",
+              "weaponIds": [],
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Cluster Caltrops",
+                    "text": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops."
+                  }
+                ]
+              }
+            },
+            {
+              "id": "9d00-23e2-ea7b-76cc",
+              "name": "Grav Talon",
+              "weaponIds": [],
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "set",
+                    "value": -2,
+                    "fromText": true
+                  },
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lethal Hits",
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Grav Talon",
+                    "text": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the ^^**[Lethal Hits]**^^ ability."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "1709-6be9-30e0-9cd4",
+          "name": "Reaver Wargear",
+          "model": "Reaver with Blaster",
+          "min": 0,
+          "max": 1,
+          "defaultChoiceId": null,
+          "choices": [
+            {
+              "id": "0777-ae0e-9a5b-3b29",
+              "name": "Cluster Caltrops",
+              "weaponIds": [],
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Cluster Caltrops",
+                    "text": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops."
+                  }
+                ]
+              }
+            },
+            {
+              "id": "9d00-23e2-ea7b-76cc",
+              "name": "Grav Talon",
+              "weaponIds": [],
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "set",
+                    "value": -2,
+                    "fromText": true
+                  },
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lethal Hits",
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Grav Talon",
+                    "text": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the ^^**[Lethal Hits]**^^ ability."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "4040-07ef-56ab-eb31",
+          "name": "Reaver Wargear",
+          "model": "Reaver with Heat Lance",
+          "min": 0,
+          "max": 1,
+          "defaultChoiceId": null,
+          "choices": [
+            {
+              "id": "0777-ae0e-9a5b-3b29",
+              "name": "Cluster Caltrops",
+              "weaponIds": [],
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Cluster Caltrops",
+                    "text": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops."
+                  }
+                ]
+              }
+            },
+            {
+              "id": "9d00-23e2-ea7b-76cc",
+              "name": "Grav Talon",
+              "weaponIds": [],
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "set",
+                    "value": -2,
+                    "fromText": true
+                  },
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lethal Hits",
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Grav Talon",
+                    "text": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the ^^**[Lethal Hits]**^^ ability."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "a7ec-99d1-aa29-7918",
+          "name": "Agonizer",
+          "model": "Arena Champion",
+          "min": 0,
+          "max": 1,
+          "defaultChoiceId": null,
+          "choices": [
+            {
+              "id": "a7ec-99d1-aa29-7918",
+              "name": "Agonizer",
+              "weaponIds": [
+                "a7ec-99d1-aa29-7918"
+              ],
+              "points": 0
+            }
+          ]
+        },
+        {
+          "id": "c125-0ef3-a75f-653c",
+          "name": "Bike Weapon",
+          "model": "Arena Champion",
+          "min": 1,
+          "max": 1,
+          "defaultChoiceId": "a4f8-4e2c-cea5-7d31",
+          "choices": [
+            {
+              "id": "a4f8-4e2c-cea5-7d31",
+              "name": "Splinter Rifle",
+              "weaponIds": [
+                "a4f8-4e2c-cea5-7d31"
+              ],
+              "points": 0
+            },
+            {
+              "id": "dec1-2aa4-aa44-1fab",
+              "name": "Blaster",
+              "weaponIds": [
+                "dec1-2aa4-aa44-1fab"
+              ],
+              "points": 0
+            },
+            {
+              "id": "f0a6-39b0-cb9a-3d50",
+              "name": "Heat Lance",
+              "weaponIds": [
+                "f0a6-39b0-cb9a-3d50"
+              ],
+              "points": 0
+            }
+          ]
+        },
+        {
+          "id": "457f-226a-35f6-5607",
+          "name": "Reaver Wargear",
+          "model": "Arena Champion",
+          "min": 0,
+          "max": 1,
+          "defaultChoiceId": null,
+          "choices": [
+            {
+              "id": "0777-ae0e-9a5b-3b29",
+              "name": "Cluster Caltrops",
+              "weaponIds": [],
+              "points": 0,
+              "effects": {
+                "abilities": [
+                  {
+                    "name": "Cluster Caltrops",
+                    "text": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops."
+                  }
+                ]
+              }
+            },
+            {
+              "id": "9d00-23e2-ea7b-76cc",
+              "name": "Grav Talon",
+              "weaponIds": [],
+              "points": 0,
+              "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "AP",
+                    "op": "set",
+                    "value": -2,
+                    "fromText": true
+                  },
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lethal Hits",
+                    "fromText": true
+                  }
+                ],
+                "abilities": [
+                  {
+                    "name": "Grav Talon",
+                    "text": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the ^^**[Lethal Hits]**^^ ability."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Eviscerating Fly-by",
+          "text": "Each time this unit ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move. If you do, roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+        }
+      ],
+      "rules": [
+        {
+          "id": "10d8-3547-47ae-baab",
+          "name": "Disparate Paths"
+        },
+        {
+          "id": "c324-e193-e23c-7d2e",
+          "name": "Battle Focus"
+        }
+      ],
+      "alliedFrom": "Ynnari",
+      "detachmentIds": [
+        "925e-85fb-b477-70be"
+      ],
+      "maxInArmy": {
+        "incursion": 2,
+        "strike-force": 3,
+        "onslaught": 3
+      },
+      "caps": [
+        {
+          "name": "Reaver Wargear",
+          "max": [
+            {
+              "minModels": 3,
+              "maxModels": 5,
+              "max": 1
+            },
+            {
+              "minModels": 6,
+              "maxModels": 6,
+              "max": 2
+            }
+          ],
+          "choiceIds": [
+            "0777-ae0e-9a5b-3b29",
+            "9d00-23e2-ea7b-76cc"
+          ]
+        }
+      ]
+    },
+    {
       "id": "c2e0-ca3e-e8c1-e019",
       "name": "Ynnari Succubus",
       "role": "Character",
@@ -27422,6 +28647,218 @@
           }
         ]
       }
+    },
+    {
+      "id": "5443-6671-baeb-77a3",
+      "name": "Ynnari Venom",
+      "role": "Dedicated Transport",
+      "keywords": [
+        "Venom",
+        "Aeldari",
+        "Fly",
+        "Dedicated Transport",
+        "Transport",
+        "Vehicle",
+        "Frame"
+      ],
+      "factionKeywords": [
+        "Ynnari"
+      ],
+      "character": false,
+      "epicHero": false,
+      "legends": false,
+      "sizes": [
+        {
+          "minModels": 1,
+          "maxModels": 1,
+          "points": 65
+        }
+      ],
+      "models": [
+        {
+          "name": "Ynnari Venom",
+          "min": 1,
+          "max": 1,
+          "stats": {
+            "M": "14\"",
+            "T": "6",
+            "Sv": "4+",
+            "W": "6",
+            "Ld": "6+",
+            "OC": "1",
+            "InvSv": "6+",
+            "base": "60mm Flying"
+          },
+          "loadout": [
+            "c883-6add-2307-882d",
+            "0a1b-623b-7aa5-6333",
+            "5546-d537-b8a6-20cf"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "c883-6add-2307-882d",
+          "name": "Bladevanes",
+          "profiles": [
+            {
+              "name": "Bladevanes",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "4+",
+              "S": "5",
+              "AP": "0",
+              "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "0a1b-623b-7aa5-6333",
+          "name": "Splinter Cannon",
+          "profiles": [
+            {
+              "name": "Splinter Cannon",
+              "kind": "ranged",
+              "range": "36\"",
+              "A": "3",
+              "skill": "3+",
+              "S": "3",
+              "AP": "-1",
+              "D": "2",
+              "keywords": [
+                "Anti-Infantry 3+",
+                "Sustained hits 1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8551-5490-4e61-9abe",
+          "name": "Splinter Cannon",
+          "profiles": [
+            {
+              "name": "Splinter Cannon",
+              "kind": "ranged",
+              "range": "36\"",
+              "A": "3",
+              "skill": "3+",
+              "S": "3",
+              "AP": "-1",
+              "D": "2",
+              "keywords": [
+                "Anti-Infantry 3+",
+                "Sustained hits 1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5546-d537-b8a6-20cf",
+          "name": "Twin Splinter Rifle",
+          "profiles": [
+            {
+              "name": "Twin Splinter Rifle",
+              "kind": "ranged",
+              "range": "24\"",
+              "A": "2",
+              "skill": "3+",
+              "S": "2",
+              "AP": "0",
+              "D": "1",
+              "keywords": [
+                "Anti-Infantry 3+",
+                "Assault",
+                "Rapid Fire 1",
+                "Twin Linked"
+              ]
+            }
+          ]
+        }
+      ],
+      "wargear": [
+        {
+          "id": "3c11-7591-ec6d-441d",
+          "name": "Weapon Option",
+          "model": null,
+          "min": 1,
+          "max": 1,
+          "defaultChoiceId": "5546-d537-b8a6-20cf",
+          "choices": [
+            {
+              "id": "8551-5490-4e61-9abe",
+              "name": "Splinter Cannon",
+              "weaponIds": [
+                "8551-5490-4e61-9abe"
+              ],
+              "points": 0
+            },
+            {
+              "id": "5546-d537-b8a6-20cf",
+              "name": "Twin Splinter Rifle",
+              "weaponIds": [
+                "5546-d537-b8a6-20cf"
+              ],
+              "points": 0
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Lithe Embarkation",
+          "text": "At the end of the Fight phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Ynnari Infantry^^** unit that only includes models from the units listed in this unit's Transport section, that has 6 or fewer models and that is wholly within 6\" of this **^^Transport^^**. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this **^^Transport^^**. That unit can embark within this **TRANSPORT** in a turn it disembarked from this **TRANSPORT**."
+        }
+      ],
+      "rules": [
+        {
+          "id": "b68a-5ded-65ac-98c",
+          "name": "Deadly Demise 1"
+        },
+        {
+          "id": "13b2-6518-dab3-7ea1",
+          "name": "Firing Deck 6"
+        },
+        {
+          "id": "bec5-4288-34a6-ccfa",
+          "name": "Stealth"
+        },
+        {
+          "id": "7cb5-dd6b-dd87-ad3b",
+          "name": "Deep Strike"
+        },
+        {
+          "id": "c324-e193-e23c-7d2e",
+          "name": "Battle Focus"
+        },
+        {
+          "id": "10d8-3547-47ae-baab",
+          "name": "Disparate Paths"
+        }
+      ],
+      "alliedFrom": "Ynnari",
+      "detachmentIds": [
+        "925e-85fb-b477-70be"
+      ],
+      "maxInArmy": {
+        "incursion": 4,
+        "strike-force": 6,
+        "onslaught": 6
+      },
+      "extraCopyCost": [
+        {
+          "fromCopy": 4,
+          "points": 10
+        }
+      ],
+      "extras": [
+        {
+          "type": "Transport",
+          "name": "Venom",
+          "text": "This model has a transport capacity of 6 models from the following units: **^^The Visarch^^**, **^^Ynnari Archon^^**, **^^Ynnari Incubi^^**, **^^Ynnari Kabalite Warriors^^**, **^^Ynnari Succubus^^**, **^^Ynnari Wyches^^**, **^^Yvraine^^**.\n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one **YNNARI KABALITE WARRIORS** or **YNNARI WYCHES** unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this **TRANSPORT**; the other can start the battle embarked within another **TRANSPORT**, or it can be deployed as a separate unit."
+        }
+      ]
     },
     {
       "id": "36fd-7c3f-b728-c5d4",
@@ -27658,6 +29095,150 @@
           "condition": "Models in this unit have a 4+ invulnerable save against melee attacks."
         }
       ]
+    },
+    {
+      "id": "ada5-25ce-d5d5-4ccb",
+      "name": "Yvraine",
+      "role": "Epic Hero",
+      "keywords": [
+        "Yvraine",
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Aeldari",
+        "Leader"
+      ],
+      "factionKeywords": [
+        "Ynnari"
+      ],
+      "character": true,
+      "epicHero": true,
+      "legends": false,
+      "sizes": [
+        {
+          "minModels": 1,
+          "maxModels": 1,
+          "points": 90
+        }
+      ],
+      "models": [
+        {
+          "name": "Yvraine",
+          "min": 1,
+          "max": 1,
+          "stats": {
+            "M": "8\"",
+            "T": "3",
+            "Sv": "6+",
+            "W": "4",
+            "Ld": "6+",
+            "OC": "1",
+            "InvSv": "4+",
+            "base": "75x42mm"
+          },
+          "loadout": [
+            "90fd-fe4b-2c91-4436",
+            "b549-8d5f-4c9d-ee23"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "90fd-fe4b-2c91-4436",
+          "name": "Kha-vir",
+          "profiles": [
+            {
+              "name": "Kha-vir",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "5",
+              "skill": "2+",
+              "S": "4",
+              "AP": "-3",
+              "D": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b549-8d5f-4c9d-ee23",
+          "name": "Storm of Whispers",
+          "profiles": [
+            {
+              "name": "Storm of Whispers",
+              "kind": "ranged",
+              "range": "12\"",
+              "A": "D6+3",
+              "skill": "2+",
+              "S": "2",
+              "AP": "-2",
+              "D": "1",
+              "keywords": [
+                "Anti-Infantry 2+",
+                "Devastating Wounds",
+                "Psychic"
+              ]
+            }
+          ]
+        }
+      ],
+      "wargear": [],
+      "abilities": [
+        {
+          "name": "Herald of Ynnead",
+          "text": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a friendly **AELDARI** model makes an attack that targets that unit, you can re‑roll a Wound roll of 1."
+        },
+        {
+          "name": "Word of the Phoenix (Psychic)",
+          "text": "While this model is leading a unit, in your Command phase, roll one D6: on a 2+, D3+1 destroyed Bodyguard models (excluding Support Weapon models) are returned to that unit with their full wounds remaining."
+        },
+        {
+          "name": "Leader",
+          "text": "This model can be attached to the following units:\n- **CORSAIR REAVER BAND**\n- **CORSAIR VOIDREAVERS**\n- **CORSAIR VOIDSCARRED**\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **YNNARI INCUBI**\n- **YNNARI KABALITE WARRIORS**\n- **YNNARI WYCHES**"
+        },
+        {
+          "name": "Servant of the Whispering God",
+          "text": "If your army includes Yvraine, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include Yvraine."
+        }
+      ],
+      "rules": [
+        {
+          "id": "c324-e193-e23c-7d2e",
+          "name": "Battle Focus"
+        },
+        {
+          "id": "b4dd-3e1f-41cb-218f",
+          "name": "Leader"
+        },
+        {
+          "id": "10d8-3547-47ae-baab",
+          "name": "Disparate Paths"
+        }
+      ],
+      "alliedFrom": "Ynnari",
+      "detachmentIds": [
+        "925e-85fb-b477-70be"
+      ],
+      "maxInArmy": {
+        "incursion": 1,
+        "strike-force": 1,
+        "onslaught": 1
+      },
+      "leader": {
+        "unitIds": [
+          "758b-bfd2-96ed-52b",
+          "cc68-ad19-7285-7a11",
+          "cbb7-6669-a014-36fe",
+          "e78a-4442-4ed2-66bf",
+          "5452-c4a7-59fb-f05c",
+          "5bf7-f905-8fab-43b4",
+          "807b-0b72-5908-a3d4",
+          "36fd-7c3f-b728-c5d4"
+        ]
+      }
     }
   ],
   "rules": [

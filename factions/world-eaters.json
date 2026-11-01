@@ -730,6 +730,12 @@
             "op": "add",
             "value": 1
           }
+        ],
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "Add 1 to the bearer's Toughness characteristic and the bearer has the Feel No Pain 5+ ability."
+          }
         ]
       },
       "keywords": [

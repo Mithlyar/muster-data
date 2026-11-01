@@ -952,6 +952,12 @@
             "op": "set",
             "value": "5"
           }
+        ],
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+",
+            "text": "The bearer has the Feel No Pain 4+ ability and a Wounds characteristic of 5."
+          }
         ]
       },
       "keywords": [

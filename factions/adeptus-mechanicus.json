@@ -423,6 +423,50 @@
           "name": "Noospheric Transference",
           "text": "In your Command phase, select one or more ADEPTUS MECHANICUS units from your army (including units that are embarked within TRANSPORTS). The maximum number of units you can select depends on the battle size, as follows:\n\n\nINCURSION: 1 UNIT\nSTRIKE FORCE: 2 UNITS\nONSLAUGHT: 3 UNITS\n\nUntil the start of your next Command phase, those units gain the HALO OVERRIDE keyword. Then, select one of the Override abilities below. Until the start of your next Command phase, units from your army with the HALO OVERRIDE keyword have the selected Override ability:\n\nElectromotive Energisation\nAdd 2\" to the Move characteristic of models in this unit.\n\nMicroactuator Bracing\nAdd 1 to the Toughness characteristic of models in this unit.\n\nPredation Protocols\nThis unit is eligible to declare a charge in a turn in which it Advanced.\n\nMuted Servomotors\nModels in this unit have the Stealth ability."
         }
+      ],
+      "stratagems": [
+        {
+          "name": "Targeting Override",
+          "cp": 1,
+          "turn": "Either player's turn",
+          "phase": "Shooting or Fight phase",
+          "kind": "Battle Tactic"
+        },
+        {
+          "name": "Eradication Protocols",
+          "cp": 1,
+          "turn": "Either player's turn",
+          "phase": "Shooting or Fight phase",
+          "kind": "Battle Tactic"
+        },
+        {
+          "name": "Neural Overload",
+          "cp": 1,
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "kind": "Strategic Ploy"
+        },
+        {
+          "name": "Aggressive Impulse",
+          "cp": 1,
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "kind": "Strategic Ploy"
+        },
+        {
+          "name": "Guided Retreat",
+          "cp": 1,
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "kind": "Strategic Ploy"
+        },
+        {
+          "name": "Analytical Divination",
+          "cp": 1,
+          "turn": "Opponent's turn",
+          "phase": "Movement phase",
+          "kind": "Strategic Ploy"
+        }
       ]
     },
     {
@@ -948,6 +992,29 @@
       "name": "TL-409",
       "points": 30,
       "detachmentId": "24e2-b690-37b5-de9e",
+      "weapons": [
+        {
+          "id": "3c7a-55cf-0e00-e031",
+          "name": "TL-409",
+          "profiles": [
+            {
+              "name": "TL-409",
+              "kind": "ranged",
+              "range": "24\"",
+              "A": "3",
+              "skill": "2+",
+              "S": "11",
+              "AP": "-2",
+              "D": "D3+2",
+              "keywords": [
+                "Devastating Wounds",
+                "Hazardous"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "The bearer is equipped with TL-409 (ranged): Range 24\", A 3, BS 2+, S 11, AP -2, D D3+2, [DEVASTATING WOUNDS, HAZARDOUS].",
       "keywords": [
         "Tech-Priest"
       ]

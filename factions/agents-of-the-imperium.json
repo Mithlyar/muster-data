@@ -477,7 +477,15 @@
       "name": "Blackweave Shroud",
       "points": 15,
       "detachmentId": "aabf-4988-4054-bed2",
-      "text": "The bearer has the Feel No Pain 4+ ability."
+      "text": "The bearer has the Feel No Pain 4+ ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+",
+            "text": "The bearer has the Feel No Pain 4+ ability."
+          }
+        ]
+      }
     },
     {
       "id": "a27e-5d4e-6700-b1d3",

@@ -885,6 +885,12 @@
             "op": "set",
             "value": "2+"
           }
+        ],
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "Artificer Armour: Feel No Pain 5+"
+          }
         ]
       }
     },
@@ -940,6 +946,12 @@
             "stat": "Ld",
             "op": "add",
             "value": -1
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "Standard of the Emperor Ascendant: Feel No Pain 5+"
           }
         ]
       }
@@ -1019,6 +1031,26 @@
       "name": "Imperium's Sword",
       "points": 20,
       "detachmentId": "549e-86b2-b786-c802",
+      "weapons": [
+        {
+          "id": "342a-2485-9ec0-b0a3",
+          "name": "Imperium's Sword",
+          "profiles": [
+            {
+              "name": "Imperium's Sword",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "6",
+              "skill": "2+",
+              "S": "7",
+              "AP": "-3",
+              "D": "3",
+              "keywords": []
+            }
+          ]
+        }
+      ],
+      "text": "The bearer is equipped with Imperium's Sword (melee): A 6, WS 2+, S 7, AP -3, D 3.",
       "keywords": [
         "Character"
       ]

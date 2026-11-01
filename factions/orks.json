@@ -1002,7 +1002,30 @@
       "id": "1776-bf60-6198-7d1d",
       "name": "Da Gobshot Thunderbuss",
       "points": 20,
-      "detachmentId": "09b2-b286-7608-d613"
+      "detachmentId": "09b2-b286-7608-d613",
+      "weapons": [
+        {
+          "id": "1776-bf60-6198-7d1d",
+          "name": "Da Gobshot Thunderbuss",
+          "profiles": [
+            {
+              "name": "Da Gobshot Thunderbuss",
+              "kind": "ranged",
+              "range": "24\"",
+              "A": "6",
+              "skill": "4+",
+              "S": "7",
+              "AP": "-2",
+              "D": "2",
+              "keywords": [
+                "LETHAL HITS: non-MONSTER/VEHICLE",
+                "RAPID FIRE 6"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "The bearer is equipped with Da Gobshot Thunderbuss (ranged): Range 24\", A 6, BS 4+, S 7, AP -2, D 2, [LETHAL HITS: NON-MONSTER/VEHICLE, RAPID FIRE 6]."
     },
     {
       "id": "65f7-96e2-592c-819d",
@@ -1044,13 +1067,62 @@
       "id": "f2d7-e5cc-ac0a-9a47",
       "name": "Da Krunch",
       "points": 10,
-      "detachmentId": "1b34-af6b-8900-61b5"
+      "detachmentId": "1b34-af6b-8900-61b5",
+      "weapons": [
+        {
+          "id": "f2d7-e5cc-ac0a-9a47",
+          "name": "Da Krunch",
+          "profiles": [
+            {
+              "name": "Da Krunch",
+              "kind": "ranged",
+              "range": "24\"",
+              "A": "3",
+              "skill": "4+",
+              "S": "5",
+              "AP": "-1",
+              "D": "1",
+              "keywords": [
+                "BLAST 3",
+                "HAZARDOUS",
+                "LETHAL HITS",
+                "PSYCHIC"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "The bearer is equipped with Da Krunch (ranged): Range 24\", A 3, BS 4+, S 5, AP -1, D 1, [BLAST 3, HAZARDOUS, LETHAL HITS, PSYCHIC]."
     },
     {
       "id": "d7a1-b719-0a67-2b10",
       "name": "'Eadbanger",
       "points": 15,
-      "detachmentId": "1b34-af6b-8900-61b5"
+      "detachmentId": "1b34-af6b-8900-61b5",
+      "weapons": [
+        {
+          "id": "d7a1-b719-0a67-2b10",
+          "name": "'Eadbanger",
+          "profiles": [
+            {
+              "name": "'Eadbanger",
+              "kind": "ranged",
+              "range": "24\"",
+              "A": "2",
+              "skill": "4+",
+              "S": "6",
+              "AP": "-3",
+              "D": "3",
+              "keywords": [
+                "HAZARDOUS",
+                "PRECISION",
+                "PSYCHIC"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "The bearer is equipped with 'Eadbanger (ranged): Range 24\", A 2, BS 4+, S 6, AP -3, D 3, [HAZARDOUS, PRECISION, PSYCHIC]."
     }
   ],
   "units": [
@@ -2065,6 +2137,19 @@
         }
       ],
       "caps": [
+        {
+          "name": "Beast Snagga Boy",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 20,
+              "max": 18
+            }
+          ],
+          "modelNames": [
+            "Beast Snagga Boy"
+          ]
+        },
         {
           "name": "Thump Gun",
           "max": [
@@ -4852,6 +4937,19 @@
         }
       ],
       "caps": [
+        {
+          "name": "Boy",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 20,
+              "max": 18
+            }
+          ],
+          "modelNames": [
+            "Boy"
+          ]
+        },
         {
           "name": "Big Shoota",
           "max": [
@@ -14653,6 +14751,25 @@
           "points": 40
         }
       ],
+      "caps": [
+        {
+          "name": "Meganob w/ Kustom Shoota and Power Klaw",
+          "max": [
+            {
+              "minModels": 2,
+              "maxModels": 6,
+              "max": 6
+            }
+          ],
+          "modelNames": [
+            "Meganob w/ Kustom Shoota and Power Klaw",
+            "Meganob w/ Kombi-weapon and Power Klaw",
+            "Meganob w/ Kombi-weapon and Killsaw",
+            "Meganob w/ Kustom Shoota and Killsaw",
+            "Meganob w/ Twin Killsaw"
+          ]
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Krumpin’ Time",
@@ -18268,6 +18385,21 @@
         "strike-force": 3,
         "onslaught": 3
       },
+      "caps": [
+        {
+          "name": "Stormboy",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 9
+            }
+          ],
+          "modelNames": [
+            "Stormboy"
+          ]
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Rokkit Charge",

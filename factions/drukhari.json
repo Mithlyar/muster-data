@@ -11794,6 +11794,13 @@
                     "op": "set",
                     "value": -2,
                     "fromText": true
+                  },
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lethal Hits",
+                    "fromText": true
                   }
                 ],
                 "abilities": [
@@ -11841,6 +11848,13 @@
                     "op": "set",
                     "value": -2,
                     "fromText": true
+                  },
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lethal Hits",
+                    "fromText": true
                   }
                 ],
                 "abilities": [
@@ -11887,6 +11901,13 @@
                     "stat": "AP",
                     "op": "set",
                     "value": -2,
+                    "fromText": true
+                  },
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lethal Hits",
                     "fromText": true
                   }
                 ],
@@ -11968,6 +11989,13 @@
                     "stat": "AP",
                     "op": "set",
                     "value": -2,
+                    "fromText": true
+                  },
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lethal Hits",
                     "fromText": true
                   }
                 ],

@@ -1,5 +1,632 @@
 [
   {
+    "dataVersion": "4d2f57e-e3ca8dd2",
+    "previousDataVersion": "4d2f57e-053fc129",
+    "date": "2026-11-01T23:46:22.671Z",
+    "entries": [
+      {
+        "factionId": "adeptus-custodes",
+        "kind": "changed",
+        "text": "Detachment Shadow Keepers: stratagems changed"
+      },
+      {
+        "factionId": "adeptus-mechanicus",
+        "kind": "changed",
+        "text": "Detachment Haloscreed Battleclade: stratagems changed"
+      },
+      {
+        "factionId": "astra-militarum",
+        "kind": "changed",
+        "text": "Ogryn Squad: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "added",
+        "text": "New unit: The Visarch"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "added",
+        "text": "New unit: The Yncarne"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "added",
+        "text": "New unit: Ynnari Raider"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "added",
+        "text": "New unit: Ynnari Reavers"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "added",
+        "text": "New unit: Ynnari Venom"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "added",
+        "text": "New unit: Yvraine"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Ancient in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Ancient on Bike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Apothecary on Bike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Attack Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Ballistus Dreadnought: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Bladeguard Ancient: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Bladeguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Brutalis Dreadnought: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Caestus Assault Ram: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Captain in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Captain on Bike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Chaplain in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Chaplain on Bike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Chaplain Venerable Dreadnought: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Company Champion on Bike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Company Veterans on Bikes: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Deathwatch Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Dreadnought: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Fire Raptor Gunship: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Ironclad Dreadnought: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Javelin Attack Speeder: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Land Raider: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Land Raider Crusader: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Land Raider Redeemer: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Land Speeder: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Land Speeder Storm: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Land Speeder Tempest: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Land Speeder Tornado: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Land Speeder Typhoon: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Librarian in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Librarian on Bike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Mortis Dreadnought: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Outrider Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Redemptor Dreadnought: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Relic Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Repulsor: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Repulsor Executioner: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Sammael: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Scout Bike Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Sokar-pattern Stormbird: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Sternguard Veteran Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Storm Eagle Gunship: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Storm Speeder Hailstrike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Storm Speeder Hammerstrike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Storm Speeder Thunderstrike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Stormhawk Interceptor: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Stormraven Gunship: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Stormtalon Gunship: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Techmarine on Bike: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Terminator Assault Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Thunderhawk Gunship: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Thunderhawk Transporter: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Vanguard Veteran Squad with Jump Packs: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Venerable Dreadnought: datasheet changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Xiphon Interceptor: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Artillery Team"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Cadian Castellan"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Cadian Command Squad"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Cadian Heavy Weapons Squad"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Cadian Recon Squad"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Cadian Shock Troops"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Catachan Command Squad"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Catachan Heavy Weapons Squad"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Catachan Jungle Fighters"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Death Korps of Krieg"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Deathleaper"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Gargoyles"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Hyperadapted Raveners"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Kasrkin"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Krieg Combat Engineers"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Krieg Command Squad"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Krieg Heavy Weapons Squad"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Leman Russ Battle Tank"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Leman Russ Commander"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Leman Russ Demolisher"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Leman Russ Eradicator"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Leman Russ Executioner"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Leman Russ Exterminator"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Leman Russ Punisher"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Leman Russ Vanquisher"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Lictor"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Mawloc"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Neophyte Hybrids: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Neurolictor"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Parasite of Mortrex"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Primaris Psyker"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Raveners"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Rogal Dorn Battle Tank"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Rogal Dorn Commander"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: The Red Terror"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Trygon"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Tyrannocyte"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Von Ryan's Leapers"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Winged Hive Tyrant"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "added",
+        "text": "New unit: Winged Tyranid Prime"
+      },
+      {
+        "factionId": "leagues-of-votann",
+        "kind": "changed",
+        "text": "Sagitaur: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Beast Snagga Boyz: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Boyz: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Meganobz: datasheet changed"
+      },
+      {
+        "factionId": "orks",
+        "kind": "changed",
+        "text": "Stormboyz: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Kroot Hounds: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Krootox Riders: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Piranhas: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Stealth Battlesuits: datasheet changed"
+      },
+      {
+        "factionId": "tau-empire",
+        "kind": "changed",
+        "text": "Vespid Stingwings: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Hormagaunts: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Neurogaunts: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Raveners: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Termagants: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Tyranid Warriors with Melee Bio-Weapons: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Tyranid Warriors with Ranged Bio-Weapons: datasheet changed"
+      },
+      {
+        "factionId": "tyranids",
+        "kind": "changed",
+        "text": "Von Ryan's Leapers: datasheet changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Suboden Khan: datasheet changed"
+      }
+    ]
+  },
+  {
     "dataVersion": "4d2f57e-053fc129",
     "previousDataVersion": "4d2f57e-dfdc0f6f",
     "date": "2026-11-01T22:51:08.525Z",

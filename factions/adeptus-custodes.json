@@ -684,6 +684,26 @@
           ],
           "condition": "when chosen: While a friendly Adeptus Custodes unit (excluding Monster/Vehicle units) is within range of an objective, melee attacks that target that unit with a S greater than that unit's T have -1 to wound rolls."
         }
+      ],
+      "stratagems": [
+        {
+          "name": "Indomitable Guardians",
+          "cp": 1,
+          "turn": "Opponent's turn",
+          "phase": "Fight phase"
+        },
+        {
+          "name": "No Escape",
+          "cp": 2,
+          "turn": "Opponent's turn",
+          "phase": "Movement phase"
+        },
+        {
+          "name": "Grim Responsibility",
+          "cp": 1,
+          "turn": "Either player's turn",
+          "phase": "Fight phase"
+        }
       ]
     },
     {
@@ -734,7 +754,29 @@
       "id": "901f-a880-87c5-56c3",
       "name": "Emperor's Light",
       "points": 15,
-      "detachmentId": "63e2-12d3-9e87-8d43"
+      "detachmentId": "63e2-12d3-9e87-8d43",
+      "weapons": [
+        {
+          "id": "901f-a880-87c5-56c3",
+          "name": "Emperor's Light",
+          "profiles": [
+            {
+              "name": "Emperor's Light",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "2+",
+              "S": "5",
+              "AP": "-2",
+              "D": "2",
+              "keywords": [
+                "Extra Attacks"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "The bearer is equipped with Emperor's Light (melee): A 3, WS 2+, S 5, AP -2, D 2, [EXTRA ATTACKS]."
     },
     {
       "id": "4976-eaab-d0bd-1972",
@@ -863,7 +905,30 @@
       "name": "Auriferous Orb",
       "points": 20,
       "detachmentId": "8d91-29a0-9690-b603",
-      "text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by this unit's Auriferous Orb weapon. That enemy unit's attacks have -1 to **hit rolls** until the start of your next turn."
+      "text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by this unit's Auriferous Orb weapon. That enemy unit's attacks have -1 to **hit rolls** until the start of your next turn.",
+      "weapons": [
+        {
+          "id": "81dd-c173-5c11-1134",
+          "name": "Auriferous Orb",
+          "profiles": [
+            {
+              "name": "Auriferous Orb",
+              "kind": "ranged",
+              "range": "12\"",
+              "A": "3",
+              "skill": "2+",
+              "S": "1",
+              "AP": "0",
+              "D": "1",
+              "keywords": [
+                "Anti-non-MONSTER/VEHICLE 2+",
+                "Blinding Light",
+                "Devastating Wounds"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "d093-e05c-0248-6328",
@@ -34677,6 +34742,11 @@
       "id": "6c1f-1cf7-ff25-c99e",
       "name": "Blast",
       "text": "Each time you gather attack dice for a **[BLAST]** weapon, add one additional **attack dice** for every five models that were in the target unit in the Select Targets step (rounding down). If this ability takes the form **[BLAST X]**, each time you gather **attack dice** for such a weapon, add **X** additional **attack dice** for every five models that were in the target unit in the Select Targets step (rounding down) instead. \n***Example:** If a **[BLAST 2]** weapon with an **A** characteristic of 3 targets a unit containing 12 models, you would gather four additional **attack dice** for that weapon (for a total of seven for that weapon).*"
+    },
+    {
+      "id": "3584-fc70-a917-5feb",
+      "name": "Blinding Light",
+      "text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by this unit's Auriferous Orb weapon. That enemy unit's attacks have -1 to **hit rolls** until the start of your next turn."
     },
     {
       "id": "f5a5-d4cf-3b72-ed02",

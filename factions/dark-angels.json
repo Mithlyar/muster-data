@@ -1068,6 +1068,12 @@
             "op": "set",
             "value": "2+"
           }
+        ],
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "Artificer Armour: Feel No Pain 5+"
+          }
         ]
       }
     },
@@ -1123,6 +1129,12 @@
             "stat": "Ld",
             "op": "add",
             "value": -1
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "Standard of the Emperor Ascendant: Feel No Pain 5+"
           }
         ]
       }
@@ -1277,6 +1289,26 @@
       "name": "Imperium's Sword",
       "points": 20,
       "detachmentId": "549e-86b2-b786-c802",
+      "weapons": [
+        {
+          "id": "342a-2485-9ec0-b0a3",
+          "name": "Imperium's Sword",
+          "profiles": [
+            {
+              "name": "Imperium's Sword",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "6",
+              "skill": "2+",
+              "S": "7",
+              "AP": "-3",
+              "D": "3",
+              "keywords": []
+            }
+          ]
+        }
+      ],
+      "text": "The bearer is equipped with Imperium's Sword (melee): A 6, WS 2+, S 7, AP -3, D 3.",
       "keywords": [
         "Character"
       ]
@@ -2852,7 +2884,8 @@
         "Imperium",
         "Terminator",
         "Ancient",
-        "Support"
+        "Support",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -3002,7 +3035,8 @@
         "Mounted",
         "Grenades",
         "Imperium",
-        "Ancient"
+        "Ancient",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -3724,7 +3758,8 @@
         "Mounted",
         "Grenades",
         "Imperium",
-        "Apothecary"
+        "Apothecary",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -8204,7 +8239,8 @@
         "Mounted",
         "Grenades",
         "Imperium",
-        "Attack Bike Squad"
+        "Attack Bike Squad",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -8592,7 +8628,8 @@
         "Walker",
         "Imperium",
         "Ballistus Dreadnought",
-        "Dreadnought"
+        "Dreadnought",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -8885,7 +8922,8 @@
         "Mounted",
         "Grenades",
         "Imperium",
-        "Bike Squad"
+        "Bike Squad",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -10564,7 +10602,8 @@
         "Tacticus",
         "Ancient",
         "Explosives",
-        "Support"
+        "Support",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -10701,7 +10740,8 @@
         "Imperium",
         "Tacticus",
         "Bladeguard Veteran Squad",
-        "Explosives"
+        "Explosives",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -10933,7 +10973,8 @@
         "Walker",
         "Brutalis Dreadnought",
         "Imperium",
-        "Dreadnought"
+        "Dreadnought",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -11190,7 +11231,8 @@
         "Transport",
         "Fly",
         "Imperium",
-        "Caestus Assault Ram"
+        "Caestus Assault Ram",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -12643,7 +12685,8 @@
         "Captain",
         "Imperium",
         "Terminator",
-        "Leader"
+        "Leader",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -12912,7 +12955,8 @@
         "Captain",
         "Imperium",
         "Mounted",
-        "Explosives"
+        "Explosives",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -17946,7 +17990,8 @@
         "Terminator",
         "Chaplain",
         "Imperium",
-        "Leader"
+        "Leader",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -18298,7 +18343,8 @@
         "Imperium",
         "Chaplain",
         "Leader",
-        "Explosives"
+        "Explosives",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -18465,7 +18511,8 @@
         "Walker",
         "Imperium",
         "Dreadnought",
-        "Chaplain Venerable Dreadnought"
+        "Chaplain Venerable Dreadnought",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -20266,7 +20313,8 @@
         "Mounted",
         "Grenades",
         "Imperium",
-        "Company Champion"
+        "Company Champion",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -20702,7 +20750,8 @@
         "Mounted",
         "Imperium",
         "Grenades",
-        "Company Veterans"
+        "Company Veterans",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -24826,7 +24875,8 @@
         "Imperium",
         "Deathwatch Terminator Squad",
         "Terminator",
-        "Kill Team"
+        "Kill Team",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes",
@@ -29483,7 +29533,8 @@
         "Smoke",
         "Imperium",
         "Walker",
-        "Dreadnought"
+        "Dreadnought",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -33141,7 +33192,8 @@
         "Fly",
         "Aircraft",
         "Fire Raptor Gunship",
-        "Imperium"
+        "Imperium",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -43634,7 +43686,8 @@
         "Smoke",
         "Imperium",
         "Ironclad Dreadnought",
-        "Dreadnought"
+        "Dreadnought",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -44146,7 +44199,8 @@
         "Vehicle",
         "Fly",
         "Imperium",
-        "Javelin Attack Speeder"
+        "Javelin Attack Speeder",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -49944,7 +49998,8 @@
         "Imperium",
         "Land Raider",
         "Transport",
-        "Frame"
+        "Frame",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -50666,7 +50721,8 @@
         "Transport",
         "Land Raider",
         "Frame",
-        "Explosives"
+        "Explosives",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -52057,7 +52113,8 @@
         "Transport",
         "Land Raider",
         "Frame",
-        "Explosives"
+        "Explosives",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -52323,7 +52380,8 @@
         "Imperium",
         "Land Speeder",
         "Speeder",
-        "Frame"
+        "Frame",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -52518,7 +52576,8 @@
         "Dedicated Transport",
         "Transport",
         "Imperium",
-        "Land Speeder Storm"
+        "Land Speeder Storm",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -52671,7 +52730,8 @@
         "Vehicle",
         "Fly",
         "Imperium",
-        "Land Speeder Tempest"
+        "Land Speeder Tempest",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -52810,7 +52870,8 @@
         "Vehicle",
         "Fly",
         "Imperium",
-        "Land Speeder Tornado"
+        "Land Speeder Tornado",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -53040,7 +53101,8 @@
         "Vehicle",
         "Fly",
         "Imperium",
-        "Land Speeder Typhoon"
+        "Land Speeder Typhoon",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -54428,7 +54490,8 @@
         "Psyker",
         "Terminator",
         "Librarian",
-        "Leader"
+        "Leader",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -54647,7 +54710,8 @@
         "Grenades",
         "Psyker",
         "Imperium",
-        "Librarian"
+        "Librarian",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -60509,7 +60573,8 @@
         "Walker",
         "Imperium",
         "Dreadnought",
-        "Mortis Dreadnought"
+        "Mortis Dreadnought",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -61356,7 +61421,8 @@
         "Mounted",
         "Imperium",
         "Outrider Squad",
-        "Explosives"
+        "Explosives",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -65577,7 +65643,8 @@
         "Walker",
         "Imperium",
         "Redemptor Dreadnought",
-        "Dreadnought"
+        "Dreadnought",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -67014,7 +67081,8 @@
         "Infantry",
         "Imperium",
         "Terminator",
-        "Relic Terminator Squad"
+        "Relic Terminator Squad",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -67568,7 +67636,8 @@
         "Smoke",
         "Repulsor",
         "Transport",
-        "Frame"
+        "Frame",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -67842,7 +67911,8 @@
         "Imperium",
         "Transport",
         "Repulsor Executioner",
-        "Frame"
+        "Frame",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -68735,7 +68805,8 @@
         "Ravenwing",
         "Frame",
         "Leader",
-        "Explosives"
+        "Explosives",
+        "Mobile"
       ],
       "factionKeywords": [
         "Dark Angels",
@@ -69429,7 +69500,8 @@
         "Grenades",
         "Imperium",
         "Smoke",
-        "Scout Bike Squad"
+        "Scout Bike Squad",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -72982,7 +73054,8 @@
         "Transport",
         "Sokar-pattern Stormbird",
         "Aircraft",
-        "Imperium"
+        "Imperium",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -74768,7 +74841,8 @@
         "Imperium",
         "Tacticus",
         "Sternguard Veteran Squad",
-        "Explosives"
+        "Explosives",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -75170,7 +75244,8 @@
         "Aircraft",
         "Transport",
         "Storm Eagle Gunship",
-        "Imperium"
+        "Imperium",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -75495,7 +75570,8 @@
         "Imperium",
         "Storm Speeder Hailstrike",
         "Frame",
-        "Speeder"
+        "Speeder",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -75652,7 +75728,8 @@
         "Vehicle",
         "Storm Speeder Hammerstrike",
         "Frame",
-        "Speeder"
+        "Speeder",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -75813,7 +75890,8 @@
         "Imperium",
         "Storm Speeder Thunderstrike",
         "Frame",
-        "Speeder"
+        "Speeder",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -75986,7 +76064,8 @@
         "Imperium",
         "Fly",
         "Smoke",
-        "Stormhawk Interceptor"
+        "Stormhawk Interceptor",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -76278,7 +76357,8 @@
         "Imperium",
         "Fly",
         "Transport",
-        "Stormraven Gunship"
+        "Stormraven Gunship",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -76687,7 +76767,8 @@
         "Vehicle",
         "Imperium",
         "Fly",
-        "Stormtalon Gunship"
+        "Stormtalon Gunship",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -77996,7 +78077,8 @@
         "Mounted",
         "Grenades",
         "Imperium",
-        "Techmarine"
+        "Techmarine",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -78575,7 +78657,8 @@
         "Infantry",
         "Imperium",
         "Terminator Assault Squad",
-        "Terminator"
+        "Terminator",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -78847,7 +78930,8 @@
         "Infantry",
         "Imperium",
         "Terminator",
-        "Terminator Squad"
+        "Terminator Squad",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -80032,7 +80116,8 @@
         "Fly",
         "Transport",
         "Imperium",
-        "Thunderhawk Gunship"
+        "Thunderhawk Gunship",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -80315,7 +80400,8 @@
         "Aircraft",
         "Transport",
         "Imperium",
-        "Thunderhawk Transporter"
+        "Thunderhawk Transporter",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -81367,7 +81453,8 @@
         "Jump Pack",
         "Fly",
         "Explosives",
-        "Tacticus"
+        "Tacticus",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -83211,7 +83298,8 @@
         "Walker",
         "Smoke",
         "Imperium",
-        "Dreadnought"
+        "Dreadnought",
+        "Deathwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"
@@ -86298,7 +86386,8 @@
         "Fly",
         "Aircraft",
         "Xiphon Interceptor",
-        "Imperium"
+        "Imperium",
+        "Ravenwing"
       ],
       "factionKeywords": [
         "Adeptus Astartes"

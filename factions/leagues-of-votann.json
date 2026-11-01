@@ -11066,6 +11066,13 @@
         {
           "id": "b68a-5ded-65ac-98c",
           "name": "Deadly Demise 1"
+        },
+        {
+          "id": "ada6-bac1-ffe0-d6f7",
+          "name": "Scouts 6\"",
+          "detachmentIds": [
+            "39c2-616a-92c8-ad9d"
+          ]
         }
       ],
       "maxInArmy": {

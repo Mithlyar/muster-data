@@ -762,6 +762,14 @@
       "points": 25,
       "detachmentId": "c2fe-bf23-bf24-aa43",
       "text": "**^^Tyranids^^** model only. The bearer has the Feel No Pain 5+ ability. At the start of any turn, if the bearer has fewer than its starting number of wounds remaining, until the end of the battle, it has the Feel No Pain 4+ ability instead.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "The bearer has the Feel No Pain 5+ ability."
+          }
+        ]
+      },
       "keywords": [
         "Tyranids"
       ]
@@ -1115,6 +1123,11 @@
       "text": "**^^Tyranids^^** model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
       "keywords": [
         "Tyranids"
+      ],
+      "characterFor": [
+        [
+          "Trygon"
+        ]
       ]
     },
     {
@@ -1126,6 +1139,11 @@
       "keywords": [
         "Tyranids",
         "Trygon"
+      ],
+      "characterFor": [
+        [
+          "Trygon"
+        ]
       ]
     },
     {
@@ -1136,6 +1154,11 @@
       "text": "**^^Tyranids^^** model only. Once per battle, you can target the bearer’s unit with the Rapid Ingress stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
       "keywords": [
         "Tyranids"
+      ],
+      "characterFor": [
+        [
+          "Trygon"
+        ]
       ]
     },
     {
@@ -1146,6 +1169,11 @@
       "text": "**^^Tyranids^^** model only. After both players have deployed their armies, select up to three friendly **^^Tyranids^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
       "keywords": [
         "Tyranids"
+      ],
+      "characterFor": [
+        [
+          "Trygon"
+        ]
       ]
     }
   ],
@@ -5648,7 +5676,22 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "caps": [
+        {
+          "name": "Hormagaunts",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 20,
+              "max": 20
+            }
+          ],
+          "modelNames": [
+            "Hormagaunts"
+          ]
+        }
+      ]
     },
     {
       "id": "c10d-772e-a54f-a2b9",
@@ -8327,7 +8370,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Neurogaunt",
+          "max": [
+            {
+              "minModels": 11,
+              "maxModels": 22,
+              "max": 20
+            }
+          ],
+          "modelNames": [
+            "Neurogaunt"
+          ]
+        }
+      ]
     },
     {
       "id": "642f-9302-4fdc-ab68",
@@ -12897,6 +12955,21 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "caps": [
+        {
+          "name": "Ravener",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 5,
+              "max": 5
+            }
+          ],
+          "modelNames": [
+            "Ravener"
+          ]
+        }
       ]
     },
     {
@@ -14455,6 +14528,58 @@
       },
       "caps": [
         {
+          "name": "Termagants",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 20,
+              "max": 20
+            }
+          ],
+          "modelNames": [
+            "Termagants"
+          ]
+        },
+        {
+          "name": "Termagant w/ Shardlauncher",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 20,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Termagant w/ Shardlauncher"
+          ]
+        },
+        {
+          "name": "Termagant w/ Spike rifle",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 20,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Termagant w/ Spike rifle"
+          ]
+        },
+        {
+          "name": "Termagant w/ Strangleweb",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 20,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Termagant w/ Strangleweb"
+          ]
+        },
+        {
           "name": "Shardlauncher",
           "max": [
             {
@@ -15599,7 +15724,22 @@
         "incursion": 3,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Tyranid Warrior",
+          "max": [
+            {
+              "minModels": 3,
+              "maxModels": 6,
+              "max": 5
+            }
+          ],
+          "modelNames": [
+            "Tyranid Warrior"
+          ]
+        }
+      ]
     },
     {
       "id": "a125-b6fb-2945-56a",
@@ -15906,6 +16046,19 @@
         "onslaught": 3
       },
       "caps": [
+        {
+          "name": "Tyranid Warrior",
+          "max": [
+            {
+              "minModels": 3,
+              "maxModels": 6,
+              "max": 5
+            }
+          ],
+          "modelNames": [
+            "Tyranid Warrior"
+          ]
+        },
         {
           "name": "Venom cannon",
           "max": [
@@ -16888,7 +17041,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Von Ryan's Leaper",
+          "max": [
+            {
+              "minModels": 3,
+              "maxModels": 6,
+              "max": 6
+            }
+          ],
+          "modelNames": [
+            "Von Ryan's Leaper"
+          ]
+        }
+      ]
     },
     {
       "id": "5c81-92c5-e20b-edf1",

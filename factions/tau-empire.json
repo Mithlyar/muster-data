@@ -13865,7 +13865,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Kroot Hounds",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 10
+            }
+          ],
+          "modelNames": [
+            "Kroot Hounds"
+          ]
+        }
+      ]
     },
     {
       "id": "4e8a-c3f4-e497-4901",
@@ -14793,7 +14808,35 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Krootox Rider w/ repeater cannon",
+          "max": [
+            {
+              "minModels": 1,
+              "maxModels": 3,
+              "max": 3
+            }
+          ],
+          "modelNames": [
+            "Krootox Rider w/ repeater cannon"
+          ]
+        },
+        {
+          "name": "Krootox Rider w/ tanglecannon",
+          "max": [
+            {
+              "minModels": 1,
+              "maxModels": 3,
+              "max": 3
+            }
+          ],
+          "modelNames": [
+            "Krootox Rider w/ tanglecannon"
+          ]
+        }
+      ]
     },
     {
       "id": "5bf-16e5-d77b-ea7d",
@@ -16474,6 +16517,21 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "caps": [
+        {
+          "name": "Piranhas",
+          "max": [
+            {
+              "minModels": 1,
+              "maxModels": 3,
+              "max": 3
+            }
+          ],
+          "modelNames": [
+            "Piranhas"
+          ]
         }
       ]
     },
@@ -20501,6 +20559,19 @@
       ],
       "caps": [
         {
+          "name": "Stealth Shas'ui w/ burst cannon",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 5,
+              "max": 4
+            }
+          ],
+          "modelNames": [
+            "Stealth Shas'ui w/ burst cannon"
+          ]
+        },
+        {
           "name": "Homing beacon",
           "max": [
             {
@@ -23823,6 +23894,19 @@
         "onslaught": 3
       },
       "caps": [
+        {
+          "name": "Vespid Stingwings w/ Neutron Blaster",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 9
+            }
+          ],
+          "modelNames": [
+            "Vespid Stingwings w/ Neutron Blaster"
+          ]
+        },
         {
           "name": "Vespid Stingwings w/ T'au Flamer",
           "max": [

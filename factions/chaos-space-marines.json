@@ -1585,7 +1585,15 @@
       "name": "Intoxicating Elixir",
       "points": 15,
       "detachmentId": "53dd-68f7-7c1f-3e5d",
-      "text": "The bearer has the Feel No Pain 5+ ability. Each time the bearer shoots or fights, if the bearer’s unit made a Dark Pact this phase and did not fail the resulting Leadership test, after the bearer has resolved those attacks, select one enemy unit that was hit by one or more of those attacks; that enemy unit must take a Battle-shock test."
+      "text": "The bearer has the Feel No Pain 5+ ability. Each time the bearer shoots or fights, if the bearer’s unit made a Dark Pact this phase and did not fail the resulting Leadership test, after the bearer has resolved those attacks, select one enemy unit that was hit by one or more of those attacks; that enemy unit must take a Battle-shock test.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "The bearer has the Feel No Pain 5+ ability."
+          }
+        ]
+      }
     },
     {
       "id": "9a33-6b21-25e3-b5ac",
@@ -1967,6 +1975,12 @@
             "stat": "W",
             "op": "add",
             "value": 1
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "Add 1 to the bearer's Wounds characteristic and the bearer has the Feel No Pain 5+ ability."
           }
         ]
       },

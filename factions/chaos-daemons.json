@@ -637,6 +637,14 @@
       "points": 30,
       "detachmentId": "a7cf-90fa-4093-6047",
       "text": "NURGLE LEGIONES DAEMONICA model only. The bearer has the Feel No Pain 5+ ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "The bearer has the Feel No Pain 5+ ability."
+          }
+        ]
+      },
       "keywords": [
         "Character",
         "Nurgle"

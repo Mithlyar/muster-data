@@ -588,6 +588,14 @@
       "points": 30,
       "detachmentId": "e2ff-ece0-6cbb-be05",
       "text": "The bearer has the Feel No Pain 5+ ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "The bearer has the Feel No Pain 5+ ability."
+          }
+        ]
+      },
       "keywords": [
         "Death Guard"
       ]
