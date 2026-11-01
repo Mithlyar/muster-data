@@ -536,6 +536,29 @@
       "detachmentId": "a7cf-90fa-4093-6047",
       "text": "**^^Khorne Legiones Daemonica^^** model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "A",
+                "op": "add",
+                "value": 2,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "S",
+                "op": "add",
+                "value": 2,
+                "fromText": true
+              }
+            ],
+            "condition": "While the bearer is within your army's Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer's melee weapons instead.",
+            "state": "Shadow of Chaos",
+            "instead": true
+          }
+        ],
         "stats": [
           {
             "on": "melee",
@@ -563,6 +586,31 @@
       "detachmentId": "a7cf-90fa-4093-6047",
       "text": "**^^Tzeentch Legiones Daemonica^^** model only. Add 1 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 3\". While the bearer is within your army’s Shadow of Chaos, add 2 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 6\" instead.",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "S",
+                "op": "add",
+                "value": 2,
+                "fromText": true,
+                "weaponName": "ranged weapons and increase the range characteristic of such weapons by 6\""
+              },
+              {
+                "on": "melee",
+                "stat": "S",
+                "op": "add",
+                "value": 2,
+                "fromText": true,
+                "weaponName": "ranged weapons and increase the range characteristic of such weapons by 6\""
+              }
+            ],
+            "condition": "While the bearer is within your army's Shadow of Chaos, add 2 to the Strength characteristic of the bearer's ranged weapons and increase the Range characteristic of such weapons by 6\" instead.",
+            "state": "Shadow of Chaos",
+            "instead": true
+          }
+        ],
         "stats": [
           {
             "on": "ranged",
@@ -2633,6 +2681,12 @@
           "points": 15
         }
       ],
+      "states": [
+        {
+          "name": "Shadow of Chaos",
+          "from": "Greater Daemon of Khorne (Aura)"
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Damaged: 1-6 wounds remaining",
@@ -2645,6 +2699,17 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Daemon Lord of Khorne (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee"
+            }
+          ]
         }
       ]
     },
@@ -14786,6 +14851,12 @@
           "points": 15
         }
       ],
+      "states": [
+        {
+          "name": "Shadow of Chaos",
+          "from": "Greater Daemon of Nurgle (Aura)"
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Damaged: 1-7 wounds remaining",
@@ -14808,6 +14879,18 @@
               "mod": -1,
               "against": true,
               "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
+            }
+          ]
+        },
+        {
+          "rule": "Daemon Lord of Nurgle (Aura)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "T",
+              "op": "add",
+              "value": 1,
+              "fromText": true
             }
           ]
         }
@@ -17570,6 +17653,12 @@
         "strike-force": 1,
         "onslaught": 1
       },
+      "states": [
+        {
+          "name": "Shadow of Chaos",
+          "from": "Greater Daemon of Tzeentch (Aura)"
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Damaged: 1-7 wounds remaining",
@@ -18053,6 +18142,12 @@
         {
           "fromCopy": 3,
           "points": 15
+        }
+      ],
+      "states": [
+        {
+          "name": "Shadow of Chaos",
+          "from": "Greater Daemon of Slaanesh (Aura)"
         }
       ],
       "selfEffects": [
@@ -21538,6 +21633,12 @@
           "points": 20
         }
       ],
+      "states": [
+        {
+          "name": "Shadow of Chaos",
+          "from": "Greater Daemon of Tzeentch (Aura)"
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Damaged: 1-7 wounds remaining",
@@ -21562,6 +21663,19 @@
               "kind": "melee"
             }
           ]
+        },
+        {
+          "rule": "Daemon Lord of Tzeentch (Aura)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack, add 1 to the Strength characteristic of that attack."
         }
       ]
     },
@@ -25050,6 +25164,12 @@
         "strike-force": 1,
         "onslaught": 1
       },
+      "states": [
+        {
+          "name": "Shadow of Chaos",
+          "from": "Greater Daemon of Nurgle (Aura)"
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Damaged: 1-7 wounds remaining",
@@ -26042,6 +26162,12 @@
         "strike-force": 1,
         "onslaught": 1
       },
+      "states": [
+        {
+          "name": "Shadow of Chaos",
+          "from": "Greater Daemon of Slaanesh (Aura)"
+        }
+      ],
       "selfEffects": [
         {
           "rule": "No Prey Can Evade",
@@ -26255,6 +26381,12 @@
         "strike-force": 1,
         "onslaught": 1
       },
+      "states": [
+        {
+          "name": "Shadow of Chaos",
+          "from": "Greater Daemon of Khorne (Aura)"
+        }
+      ],
       "selfEffects": [
         {
           "rule": "Damaged: 1-7 wounds remaining",
@@ -26278,6 +26410,18 @@
           ],
           "onlyModel": true,
           "condition": "While this model has 1-7 wounds remaining, add 2 to the Attacks characteristic of this model's Slaughter and Carnage."
+        },
+        {
+          "rule": "Rage Embodied (Aura)",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ]
         }
       ]
     },

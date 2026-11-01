@@ -16742,6 +16742,19 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Daemon Lord of Tzeentch (Aura)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack, add 1 to the Strength characteristic of that attack."
         }
       ]
     },

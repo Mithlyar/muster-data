@@ -8387,7 +8387,31 @@
         "strike-force": 1,
         "onslaught": 1
       },
-      "mustBeWarlord": true
+      "mustBeWarlord": true,
+      "selfEffects": [
+        {
+          "rule": "Prophet of Da Great Waaagh! (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee"
+            }
+          ]
+        },
+        {
+          "rule": "Prophet of Da Great Waaagh! (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "melee"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "56d6-a7fc-fa08-4345",

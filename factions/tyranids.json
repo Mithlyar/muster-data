@@ -14987,7 +14987,13 @@
         "unitIds": [
           "1645-5407-92c8-1441"
         ]
-      }
+      },
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Domination of the Hive Mind (Aura)"
+        }
+      ]
     },
     {
       "id": "30d0-521c-1d45-f57b",

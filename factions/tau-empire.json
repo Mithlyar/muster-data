@@ -6911,7 +6911,20 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Hero of the Empire (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "ranged"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "de16-2476-9749-b603",

@@ -2911,6 +2911,20 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "The Bloody Handed (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "advance",
+              "mod": 1
+            },
+            {
+              "roll": "charge",
+              "mod": 1
+            }
+          ]
         }
       ]
     },

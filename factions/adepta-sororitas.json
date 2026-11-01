@@ -37212,7 +37212,64 @@
           "f26d-450d-1c55-caeb",
           "5d01-db4e-c389-a0bc"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Relic of the Matriarch - The Fiery Heart (Aura)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "advance",
+              "mod": 1
+            },
+            {
+              "roll": "charge",
+              "mod": 1
+            }
+          ]
+        },
+        {
+          "rule": "Relic of the Matriarch - Simulacrum of the Argent Shroud (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "kind": "ranged"
+            }
+          ]
+        },
+        {
+          "rule": "Relic of the Matriarch - Icon of the Valorous Heart (Aura)",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 6+",
+              "text": "Models in this unit have the Feel No Pain 6+ ability."
+            }
+          ]
+        },
+        {
+          "rule": "Relic of the Matriarch - Petals of the Bloody Rose (Aura)",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "4f74-c65c-3a56-41d6",

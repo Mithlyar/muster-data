@@ -65620,7 +65620,29 @@
         "strike-force": 1,
         "onslaught": 1
       },
-      "mustBeWarlord": true
+      "mustBeWarlord": true,
+      "selfEffects": [
+        {
+          "rule": "Primarch of the XIII (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ]
+        },
+        {
+          "rule": "Primarch of the XIII (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "9360-d8b2-cd92-9e7f",

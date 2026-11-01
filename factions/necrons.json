@@ -5727,6 +5727,18 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Carrier Wave (Aura)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ]
         }
       ]
     },

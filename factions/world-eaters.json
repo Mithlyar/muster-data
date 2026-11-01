@@ -2999,6 +2999,17 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Daemon Lord of Khorne (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee"
+            }
+          ]
         }
       ]
     },
@@ -10652,6 +10663,20 @@
         {
           "fromCopy": 3,
           "points": 15
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Beacons of Rage (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee",
+              "condition": "Each time a model in this unit makes a melee attack that targets a unit (excluding Monsters and Vehicles), add 1 to the Hit roll."
+            }
+          ]
         }
       ]
     },
@@ -23141,6 +23166,18 @@
           ],
           "onlyModel": true,
           "condition": "While this model has 1-7 wounds remaining, add 2 to the Attacks characteristic of this model's Slaughter and Carnage."
+        },
+        {
+          "rule": "Rage Embodied (Aura)",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ]
         }
       ]
     },

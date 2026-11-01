@@ -13288,6 +13288,18 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Daemon Lord of Nurgle (Aura)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "T",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ]
         }
       ]
     },

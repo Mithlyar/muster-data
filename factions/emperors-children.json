@@ -6120,6 +6120,21 @@
           "fromCopy": 2,
           "points": 15
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Excessive Vigour (Aura)",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "If this unit made a Charge move this turn, improve the Armour Penetration characteristic of melee weapons equipped by this unit by 1."
+        }
       ]
     },
     {
