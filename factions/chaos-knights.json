@@ -747,7 +747,29 @@
       "text": "While a friendly DAMNED unit is within 6\" of this model, when that unit is selected to make a normal/advance/fall-back move that unit has +2\" M until the end of the phase.",
       "keywords": [
         "Character"
-      ]
+      ],
+      "effects": {
+        "auras": [
+          {
+            "rule": "Cruel Lashmaster",
+            "who": [
+              [
+                "Damned"
+              ]
+            ],
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "M",
+                "op": "add",
+                "value": 2,
+                "fromText": true
+              }
+            ],
+            "condition": "When this unit is selected to make a normal/advance/fall-back move this unit has +2\" M until the end of the phase."
+          }
+        ]
+      }
     },
     {
       "id": "80fb-b674-d736-1ca7",

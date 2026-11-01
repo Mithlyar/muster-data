@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "4d2f57e-dfdc0f6f",
-  "date": "2026-11-01T22:28:30.578Z",
+  "dataVersion": "4d2f57e-053fc129",
+  "date": "2026-11-01T22:51:08.525Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1"
@@ -51,9 +51,9 @@
       "id": "astra-militarum",
       "name": "Astra Militarum",
       "file": "factions/astra-militarum.json",
-      "sha256": "905dfbe5fc074994942bcae1bbd1d3189d00a5045f77183e03952eb173beba41",
+      "sha256": "14a2e34930b886f745799760416afaf8c58300c7bdbef50b6f5e615a4405b754",
       "units": 209,
-      "sourceSha256": "bbcdc1a1aafa45f2b3e2616183725d179d47564d8b3be719d2779e49396fffc8"
+      "sourceSha256": "5028cb3c286582a19c4317183d62159f2486ff5817962d02a1bd1928ff378355"
     },
     {
       "id": "black-templars",
@@ -75,17 +75,17 @@
       "id": "chaos-daemons",
       "name": "Chaos Daemons",
       "file": "factions/chaos-daemons.json",
-      "sha256": "a6c179ec562ea8a3bc216336b0778a9b9e9050b117e038320affce7a62fae063",
+      "sha256": "d61afb28da8c07b39daec54b9c075465bc5232c183d73590eec870105a4306ed",
       "units": 115,
-      "sourceSha256": "dc3d2d6d0cd8cc3bcb3ab276b2ea437835a00cd42cb136f44a2b41e78e53b408"
+      "sourceSha256": "3897a1b20d16fd79d2b22aa0074f07df54e6c138c9dc11678c5a469724219ae9"
     },
     {
       "id": "chaos-knights",
       "name": "Chaos Knights",
       "file": "factions/chaos-knights.json",
-      "sha256": "f438223603cd5826716adee68b085c2468fc24c3ca5385e2d26e9ba30910e3cc",
+      "sha256": "5d0ed79122ccd1624881324e3d217e952b1449d5e7bed2310ae0edcfbbe3f221",
       "units": 101,
-      "sourceSha256": "bb7c303110879f0c542a3a271403ee98a9f44cf810fa7a3d0a012c070a24da92"
+      "sourceSha256": "bea489131e8e6800d53f1daae21c409b4fa10ed55470d1a44bac58fe7c10d0cb"
     },
     {
       "id": "chaos-space-marines",
@@ -187,9 +187,9 @@
       "id": "necrons",
       "name": "Necrons",
       "file": "factions/necrons.json",
-      "sha256": "ef7c1a79921a58d7a41245b5c8a2da7ac7c7f6e475b01ae18c0b4344ee613c77",
+      "sha256": "14ce3781fc6d4d13de156531a1a9e34b911498a12c7caf8ae98fa6ebc3813be0",
       "units": 90,
-      "sourceSha256": "83547c8dc3c261da09bc2088306f495ce42e12d3a793f367c3b5b7a857c170ba"
+      "sourceSha256": "5ea50186b952cbc2c3f6f57b6cd5780dfabb603f588b3941c5e4bd24ec4cd4b2"
     },
     {
       "id": "orks",

@@ -662,7 +662,31 @@
       "keywords": [
         "Slaanesh",
         "Character"
-      ]
+      ],
+      "effects": {
+        "auras": [
+          {
+            "rule": "False Majesty (Aura)",
+            "who": [
+              [
+                "Legiones Daemonica",
+                "Slaanesh"
+              ]
+            ],
+            "stats": [],
+            "except": [
+              "Monster"
+            ],
+            "rolls": [
+              {
+                "roll": "wound",
+                "mod": 1,
+                "kind": "melee"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "c918-c2ed-eb33-e512",
@@ -673,7 +697,31 @@
       "keywords": [
         "Slaanesh",
         "Character"
-      ]
+      ],
+      "effects": {
+        "auras": [
+          {
+            "rule": "Dreaming Crown (Aura)",
+            "who": [
+              [
+                "Legiones Daemonica",
+                "Slaanesh"
+              ]
+            ],
+            "stats": [],
+            "except": [
+              "Monster"
+            ],
+            "rolls": [
+              {
+                "roll": "hit",
+                "mod": 1,
+                "kind": "melee"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "806e-b30b-3bcd-71c3",
@@ -757,7 +805,27 @@
       "keywords": [
         "Tzeentch",
         "Character"
-      ]
+      ],
+      "effects": {
+        "auras": [
+          {
+            "rule": "Improbable Shield (Aura)",
+            "who": [
+              [
+                "Legiones Daemonica",
+                "Tzeentch"
+              ]
+            ],
+            "stats": [],
+            "abilities": [
+              {
+                "name": "Feel No Pain 4+ (against Psychic Attacks and mortal wounds)",
+                "text": "Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "b4ce-a5bf-52e7-884c",
@@ -808,7 +876,39 @@
       "keywords": [
         "Khorne",
         "Character"
-      ]
+      ],
+      "effects": {
+        "auras": [
+          {
+            "rule": "Slaughterthirst (Aura)",
+            "who": [
+              [
+                "Legiones Daemonica",
+                "Khorne"
+              ]
+            ],
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Lance",
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Lance",
+                "fromText": true
+              }
+            ],
+            "except": [
+              "Monster"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "87ae-e092-2e5d-16a6",
@@ -862,7 +962,36 @@
         "Monster",
         "Nurgle",
         "Character"
-      ]
+      ],
+      "effects": {
+        "auras": [
+          {
+            "rule": "Font of Spores (Aura)",
+            "who": [
+              [
+                "Legiones Daemonica",
+                "Nurgle"
+              ]
+            ],
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "AP",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "AP",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "0f1b-f380-fa24-beb0",

@@ -1074,7 +1074,26 @@
       "name": "Omnissian Unguents (Aura)",
       "points": 35,
       "detachmentId": "d071-6e6b-dde6-dcf4",
-      "text": "**^^Astra Militarum Tech‑Priest Enginseer^^** model only. While a friendly **^^Armoured Skirmisher^^** unit is within 3\" of the bearer, that unit has the Feel No Pain 5+ ability."
+      "text": "**^^Astra Militarum Tech‑Priest Enginseer^^** model only. While a friendly **^^Armoured Skirmisher^^** unit is within 3\" of the bearer, that unit has the Feel No Pain 5+ ability.",
+      "effects": {
+        "auras": [
+          {
+            "rule": "Omnissian Unguents (Aura)",
+            "who": [
+              [
+                "Armoured Skirmisher"
+              ]
+            ],
+            "stats": [],
+            "abilities": [
+              {
+                "name": "Feel No Pain 5+",
+                "text": "This unit has the Feel No Pain 5+ ability."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "467f-efca-7dce-54bc",

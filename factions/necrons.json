@@ -963,7 +963,29 @@
       "name": "Phasal Subjugator",
       "points": 35,
       "detachmentId": "9ebf-2bbd-6059-1d40",
-      "text": "NECRONS model only. While a friendly NECRONS unit (excluding CHARACTER units) is within 6\" of the bearer, each time a model in that unit makes an attack, add 1 to the hit roll."
+      "text": "NECRONS model only. While a friendly NECRONS unit (excluding CHARACTER units) is within 6\" of the bearer, each time a model in that unit makes an attack, add 1 to the hit roll.",
+      "effects": {
+        "auras": [
+          {
+            "rule": "Phasal Subjugator",
+            "who": [
+              [
+                "Necrons"
+              ]
+            ],
+            "stats": [],
+            "except": [
+              "Character"
+            ],
+            "rolls": [
+              {
+                "roll": "hit",
+                "mod": 1
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "d191-f492-ef11-6c9d",
