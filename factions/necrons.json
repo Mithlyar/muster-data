@@ -4170,9 +4170,90 @@
               "keywords": []
             }
           ]
+        },
+        {
+          "id": "7fdc-857c-6179-5808",
+          "name": "Claws",
+          "profiles": [
+            {
+              "name": "Claws",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "4",
+              "skill": "4+",
+              "S": "6",
+              "AP": "-1",
+              "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "008e-1fe4-dc3c-b1ea",
+          "name": "Twin gauss reaper",
+          "profiles": [
+            {
+              "name": "Twin gauss reaper",
+              "kind": "ranged",
+              "range": "12\"",
+              "A": "2",
+              "skill": "4+",
+              "S": "4",
+              "AP": "-1",
+              "D": "1",
+              "keywords": [
+                "Lethal Hits",
+                "Twin-linked"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f70b-7187-4cf7-b9de",
+          "name": "Dimensional isolator",
+          "profiles": [
+            {
+              "name": "Dimensional isolator",
+              "kind": "ranged",
+              "range": "12\"",
+              "A": "2",
+              "skill": "4+",
+              "S": "4",
+              "AP": "-2",
+              "D": "2",
+              "keywords": []
+            }
+          ]
         }
       ],
-      "wargear": [],
+      "wargear": [
+        {
+          "id": "da0b-10d5-755b-f41d",
+          "name": "Weapon choice",
+          "model": "Tomb Crawler w/ twin gauss reaper",
+          "min": 1,
+          "max": 1,
+          "defaultChoiceId": "008e-1fe4-dc3c-b1ea",
+          "choices": [
+            {
+              "id": "008e-1fe4-dc3c-b1ea",
+              "name": "Twin gauss reaper",
+              "weaponIds": [
+                "008e-1fe4-dc3c-b1ea"
+              ],
+              "points": 0
+            },
+            {
+              "id": "f70b-7187-4cf7-b9de",
+              "name": "Dimensional isolator",
+              "weaponIds": [
+                "f70b-7187-4cf7-b9de"
+              ],
+              "points": 0
+            }
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "Weapon Sentinels",
@@ -4249,7 +4330,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "caps": [
+        {
+          "name": "Weapon choice",
+          "choiceIds": [
+            "f70b-7187-4cf7-b9de"
+          ],
+          "max": [
+            {
+              "minModels": 1,
+              "maxModels": 60,
+              "max": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "9519-5dbc-ab5-c720",

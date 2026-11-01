@@ -93053,7 +93053,15 @@
           "name": "Wolf Scout w/ instigator bolt carbine",
           "min": 0,
           "max": 1,
-          "stats": null,
+          "stats": {
+            "M": "8\"",
+            "T": "4",
+            "Sv": "3+",
+            "W": "2",
+            "Ld": "6+",
+            "OC": "1",
+            "base": "32mm"
+          },
           "loadout": [
             "a99b-36d5-123c-4dac",
             "ec23-682e-c760-407e"

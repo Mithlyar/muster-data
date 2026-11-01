@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "4d2f57e-c0a1d7a8",
-  "date": "2026-11-01T13:34:08.684Z",
+  "dataVersion": "4d2f57e-25a59498",
+  "date": "2026-11-01T14:42:45.885Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1"
@@ -11,9 +11,9 @@
       "id": "adepta-sororitas",
       "name": "Adepta Sororitas",
       "file": "factions/adepta-sororitas.json",
-      "sha256": "9092c84448e63fc1b1eeaf3dd81b96792ff6380ff819ed4cf8db0703742f13d7",
+      "sha256": "e641938ffea401d7de4f3fcfbf414d9cfd3ea4a8ecd586ac37c26e7f41b405ba",
       "units": 112,
-      "sourceSha256": "9eba578caaeed2e08fee4bf98507650b60ade89d7db930199a1aa00d21c45d19"
+      "sourceSha256": "0446cd7913d01478b279e4687a98d09e9c404029dae1bf386af79366f0760839"
     },
     {
       "id": "adeptus-custodes",
@@ -35,9 +35,9 @@
       "id": "craftworlds",
       "name": "Aeldari",
       "file": "factions/craftworlds.json",
-      "sha256": "9df745425df36bcc11feb74fbc59c9dc0e07fec1af3d5664a7213c9b31e89748",
+      "sha256": "4ef9f694d5561302bf714b69288cb3d0e3764330194eb241b9817796d775d4c8",
       "units": 96,
-      "sourceSha256": "0b474371f106add09f08ca4ef9c1c6520aa3049363620ef25c099e10786a2a43"
+      "sourceSha256": "2ec20400789eeb6bd13fbda6f4a1b9fefbcb78c0fff37bd82ae7a2e456ad918b"
     },
     {
       "id": "agents-of-the-imperium",
@@ -51,9 +51,9 @@
       "id": "astra-militarum",
       "name": "Astra Militarum",
       "file": "factions/astra-militarum.json",
-      "sha256": "c9ab4202c853bf59c76a63b36788e25543e5501ff4b47d878aa7c3470a587f50",
+      "sha256": "79e220e8d8520fe78873198dea561d4947fafb4191bb74a794c1d0a64cf4e918",
       "units": 209,
-      "sourceSha256": "81007e862e27a512ec1ea522a3deca595dfb41e737cf7be3facee352a8134c6d"
+      "sourceSha256": "bb5858f1af56ccac19b75ef5f7ea9dbb54f4f7cef41bb70d42de0a7135933559"
     },
     {
       "id": "black-templars",
@@ -91,9 +91,9 @@
       "id": "chaos-space-marines",
       "name": "Chaos Space Marines",
       "file": "factions/chaos-space-marines.json",
-      "sha256": "0a443e419cef2e78d1a3d2d961eaaff7823dcd3403da8e91a48331c29f3c45cc",
+      "sha256": "07f91735d4140eb40b9a39804af7e9e05e468030fc82a65f75d4f053c64debec",
       "units": 207,
-      "sourceSha256": "2b21107bbf73fe97734efd2d88dac992e23ca7b474c34c2362ff4632e23770fb"
+      "sourceSha256": "3c53029d32087faa4fd3f3fdff25c42f31d6ad4cd9179f81fcc3c784b3fc7ca7"
     },
     {
       "id": "dark-angels",
@@ -107,9 +107,9 @@
       "id": "death-guard",
       "name": "Death Guard",
       "file": "factions/death-guard.json",
-      "sha256": "0aeabaa3b26afd09354d6724f81d683f7c05dc1ec5d370aa841a4e2e8eae2abc",
+      "sha256": "384da43ad74fff1c77e873e7948525db47268237b14305cc1f7788b71b2a0516",
       "units": 121,
-      "sourceSha256": "cab1c6698d0f554c434792b4040628c83a1d41eeea04a0f156acd890868a5e23"
+      "sourceSha256": "420d3a6954f6f543e4aca383e9447627ba925a66bdd4ad98d3fe1a59f95fc7dd"
     },
     {
       "id": "deathwatch",
@@ -179,17 +179,17 @@
       "id": "leagues-of-votann",
       "name": "Leagues of Votann",
       "file": "factions/leagues-of-votann.json",
-      "sha256": "ed2cb7358f6506de92ef4a5ed85c51ec7a5dc4add239616f3ae12fcb48cd688c",
+      "sha256": "83931c6e948baf89fb5784a62b8a3adb92652f2dea0d3178e8a94c0f9a1ff009",
       "units": 48,
-      "sourceSha256": "e594f2046deb1689d3540acd3711d8adcdcd31197dae3eeca49bce3699eec908"
+      "sourceSha256": "bf174d36de6ab9226aaabb1f00136963a1aee348d36cf3e494b13ef0816eebf1"
     },
     {
       "id": "necrons",
       "name": "Necrons",
       "file": "factions/necrons.json",
-      "sha256": "e7311d25a26924ab7fce4935cbf6a51fb9274c4ad4f8d5b6a4fa96201740b19f",
+      "sha256": "d7f146d82e5eedc01b431784ddd0911e06cf33f7677b5fa8996e070d34a53e0a",
       "units": 90,
-      "sourceSha256": "666204b6b409bcdc5c2acda2678b449ba4f6c41acb67af2e42068e1e5f086a89"
+      "sourceSha256": "5a6601bf5aed9d5ff86b1d22f3d6260793f75643cdbe379cdf3ff0ee0c58ad96"
     },
     {
       "id": "orks",
@@ -227,9 +227,9 @@
       "id": "space-wolves",
       "name": "Space Wolves",
       "file": "factions/space-wolves.json",
-      "sha256": "67194ed14a33ee457a74130c46d97a9ab64a7897025a7c722bcccde1713ede8a",
+      "sha256": "9ef127fd3fb27f076058543d9d99c91479c7e8434436f172229b6609df3f1453",
       "units": 274,
-      "sourceSha256": "785d5a0d05668eab741167ba17f5d025f631bfa08858e36548843e4647f0221d"
+      "sourceSha256": "4e60d67a6c22488fd25b7c54606332c085dd97cd3057cbd3f0169b0bb43fee63"
     },
     {
       "id": "tau-empire",

@@ -1923,6 +1923,40 @@
           ]
         },
         {
+          "id": "6144-22ce-750b-c281",
+          "name": "Plasma torch",
+          "profiles": [
+            {
+              "name": "Plasma torch",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "1",
+              "skill": "4+",
+              "S": "6",
+              "AP": "-3",
+              "D": "2",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "4bcb-9e8c-7213-e89c",
+          "name": "Manipulator arms",
+          "profiles": [
+            {
+              "name": "Manipulator arms",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "4+",
+              "S": "3",
+              "AP": "0",
+              "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
           "id": "d201-9e74-72f6-9b2c",
           "name": "Las-beam cutter",
           "profiles": [

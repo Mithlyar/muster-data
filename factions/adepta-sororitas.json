@@ -1553,7 +1553,8 @@
             "base": "25mm"
           },
           "loadout": [
-            "4f76-e283-f5-664a"
+            "4f76-e283-f5-664a",
+            "2ac6-3fa1-5a7e-73d8:c934-fc40-d6a2-8919"
           ]
         }
       ],
@@ -1608,6 +1609,25 @@
               "AP": "0",
               "D": "1",
               "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "2ac6-3fa1-5a7e-73d8:c934-fc40-d6a2-8919",
+          "name": "Bolt pistol",
+          "profiles": [
+            {
+              "name": "Bolt pistol",
+              "kind": "ranged",
+              "range": "12\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "4",
+              "AP": "0",
+              "D": "1",
+              "keywords": [
+                "Pistol"
+              ]
             }
           ]
         }

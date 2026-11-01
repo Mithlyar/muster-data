@@ -12078,7 +12078,8 @@
           },
           "loadout": [
             "a9bd-cba0-4b8-1c66",
-            "a9bd-cba0-4b8-1c66"
+            "a9bd-cba0-4b8-1c66",
+            "551b-900c-3681-8f11:1037-8981-d5d1-7918"
           ]
         }
       ],
@@ -12103,6 +12104,23 @@
           ],
           "tags": [
             "Attacks Dx Weapon"
+          ]
+        },
+        {
+          "id": "551b-900c-3681-8f11:1037-8981-d5d1-7918",
+          "name": "Wraithbone Hull",
+          "profiles": [
+            {
+              "name": "Wraithbone Hull",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "4+",
+              "S": "6",
+              "AP": "0",
+              "D": "1",
+              "keywords": []
+            }
           ]
         }
       ],
@@ -12182,7 +12200,8 @@
           },
           "loadout": [
             "7170-82b3-50f1-4f0",
-            "7170-82b3-50f1-4f0"
+            "7170-82b3-50f1-4f0",
+            "1224-8735-46d-1919:4560-223a-f89c-3e95"
           ]
         }
       ],
@@ -12305,6 +12324,23 @@
           ],
           "tags": [
             "Damage Dx Weapon"
+          ]
+        },
+        {
+          "id": "1224-8735-46d-1919:4560-223a-f89c-3e95",
+          "name": "Wraithbone Hull",
+          "profiles": [
+            {
+              "name": "Wraithbone Hull",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "4+",
+              "S": "6",
+              "AP": "0",
+              "D": "1",
+              "keywords": []
+            }
           ]
         }
       ],
