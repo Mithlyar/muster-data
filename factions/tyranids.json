@@ -2249,7 +2249,13 @@
             "fromText": true
           }
         ]
-      }
+      },
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
+      ]
     },
     {
       "id": "9efd-5564-f0f5-21ea",
@@ -5662,6 +5668,12 @@
             }
           ]
         }
+      ],
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
       ]
     },
     {
@@ -7924,7 +7936,13 @@
         "unitIds": [
           "b563-c6d3-d0e5-1b78"
         ]
-      }
+      },
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
+      ]
     },
     {
       "id": "2c2d-a2f9-61a8-a6c6",
@@ -8073,6 +8091,12 @@
             }
           ],
           "onlyModel": true
+        }
+      ],
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
         }
       ]
     },
@@ -8578,6 +8602,12 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
       ]
     },
     {
@@ -8729,7 +8759,13 @@
             "mod": 1
           }
         ]
-      }
+      },
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
+      ]
     },
     {
       "id": "527c-d3c6-c620-c7c6",
@@ -10094,7 +10130,13 @@
             "fromText": true
           }
         ]
-      }
+      },
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
+      ]
     },
     {
       "id": "6a9b-8e2f-edac-fa2d",
@@ -10261,6 +10303,12 @@
             }
           ],
           "condition": "when chosen: Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
+        }
+      ],
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
         }
       ]
     },
@@ -10484,6 +10532,12 @@
             }
           ],
           "onlyModel": true
+        }
+      ],
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
         }
       ]
     },
@@ -10737,7 +10791,13 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
+      ]
     },
     {
       "id": "cabe-2c66-c8b6-de6c",
@@ -14913,6 +14973,12 @@
           ],
           "onlyModel": true
         }
+      ],
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
       ]
     },
     {
@@ -15701,6 +15767,12 @@
             }
           ]
         }
+      ],
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
       ]
     },
     {
@@ -15824,6 +15896,12 @@
           "modelNames": [
             "Tyranid Warrior"
           ]
+        }
+      ],
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
         }
       ]
     },
@@ -16180,6 +16258,12 @@
           "weaponIds": [
             "ab3c-2e92-685c-c39d"
           ]
+        }
+      ],
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
         }
       ]
     },
@@ -17888,7 +17972,13 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
+      ]
     },
     {
       "id": "507d-5ea4-6ef1-bf66",
@@ -18020,7 +18110,13 @@
             "fromText": true
           }
         ]
-      }
+      },
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
+        }
+      ]
     },
     {
       "id": "b622-a22-a04f-6303",
@@ -18186,6 +18282,12 @@
               "fromText": true
             }
           ]
+        }
+      ],
+      "states": [
+        {
+          "name": "Synapse Range",
+          "from": "Synapse"
         }
       ]
     }

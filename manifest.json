@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "4d2f57e-a69e0ce9",
-  "date": "2026-11-02T12:49:59.361Z",
+  "dataVersion": "4d2f57e-a4cddacf",
+  "date": "2026-11-02T18:15:21.987Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1"
@@ -75,9 +75,9 @@
       "id": "chaos-daemons",
       "name": "Chaos Daemons",
       "file": "factions/chaos-daemons.json",
-      "sha256": "b704c4b81df3a24dc679649e4308051237ee5abd8d6a09097e2199c36448560f",
+      "sha256": "97482782f2a0146ea383a2ba223f5d6df9d2ffa81e4a3c3e2fdcac8a69825ef8",
       "units": 115,
-      "sourceSha256": "48ba0483811db8a4f90c31491c304ce0df469e8b67b7764c4c22c55fbbd2561c"
+      "sourceSha256": "02429fe656ff39ab375c4ead5f60f8db44d0777fd22dd83c18f9111af2b16406"
     },
     {
       "id": "chaos-knights",
@@ -251,9 +251,9 @@
       "id": "tyranids",
       "name": "Tyranids",
       "file": "factions/tyranids.json",
-      "sha256": "bdf296fdafeec5850f217b9ab660869e1bc6bbdebe0159647d455eff2875864a",
+      "sha256": "e137adef6e1bf46ea659bae46031af114f9f21ef11dba0ad50fe3950b352f8f2",
       "units": 87,
-      "sourceSha256": "2ee4d26346f7c66c9142bd9300e447deb150fc919beacd7e9febc63cccb0d4b6"
+      "sourceSha256": "e7e252a262f58fbd244149ab45afa1a48e370ad48fc439425ab64a06f1ab6090"
     },
     {
       "id": "ultramarines",

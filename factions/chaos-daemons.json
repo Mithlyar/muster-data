@@ -591,19 +591,17 @@
             "stats": [
               {
                 "on": "ranged",
-                "stat": "S",
+                "stat": "range",
                 "op": "add",
-                "value": 2,
-                "fromText": true,
-                "weaponName": "ranged weapons and increase the range characteristic of such weapons by 6\""
+                "value": 6,
+                "fromText": true
               },
               {
-                "on": "melee",
+                "on": "ranged",
                 "stat": "S",
                 "op": "add",
                 "value": 2,
-                "fromText": true,
-                "weaponName": "ranged weapons and increase the range characteristic of such weapons by 6\""
+                "fromText": true
               }
             ],
             "condition": "While the bearer is within your army's Shadow of Chaos, add 2 to the Strength characteristic of the bearer's ranged weapons and increase the Range characteristic of such weapons by 6\" instead.",
