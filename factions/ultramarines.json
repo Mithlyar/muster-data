@@ -82661,7 +82661,6 @@
       "role": "Epic Hero",
       "keywords": [
         "Infantry",
-        "Character",
         "Epic Hero",
         "Imperium",
         "Tacticus",
@@ -82673,7 +82672,7 @@
         "Adeptus Astartes",
         "Ultramarines"
       ],
-      "character": true,
+      "character": false,
       "epicHero": true,
       "legends": false,
       "sizes": [

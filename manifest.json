@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "4d2f57e-d492645b",
-  "date": "2026-11-02T11:35:51.864Z",
+  "dataVersion": "4d2f57e-229e6c7b",
+  "date": "2026-11-02T11:41:34.835Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1"
@@ -51,9 +51,9 @@
       "id": "astra-militarum",
       "name": "Astra Militarum",
       "file": "factions/astra-militarum.json",
-      "sha256": "3bbffd27d297d1b00c77697d0b89fce5e26ebd37fd95214c2277f4006cc4c5ee",
+      "sha256": "09f9c57d2892c9960e7d6b0efbe1539fcd51cfb7704be75975f75bc21b1197e5",
       "units": 209,
-      "sourceSha256": "264704b5de6e318ce5bbcc7b3d5b72a940e7e3c1cd60ec78958db8496480f9fc"
+      "sourceSha256": "354afdcc0388aa3ce77ecb6ad1e5d854eb0e1a43d0add5db5832ac98bb2f29ff"
     },
     {
       "id": "black-templars",
@@ -91,9 +91,9 @@
       "id": "chaos-space-marines",
       "name": "Chaos Space Marines",
       "file": "factions/chaos-space-marines.json",
-      "sha256": "21d6ce50772a161657f903636b7d76ba5167d5dbc304653956bab3107aaad253",
+      "sha256": "d49e2177088b308ae72adfa133a702de058d2ada1d5ee2fa99e63430958185ac",
       "units": 207,
-      "sourceSha256": "f5a7cc1f1359d353555f67b7d63d4be4247b3f68a46e64f24bcb830c376d09ff"
+      "sourceSha256": "9dea4329d9035d0af1be066374edf260b2fb05ee7edc8e93bf870c07f4ec0d4c"
     },
     {
       "id": "dark-angels",
@@ -259,9 +259,9 @@
       "id": "ultramarines",
       "name": "Ultramarines",
       "file": "factions/ultramarines.json",
-      "sha256": "1b234e4c1931e1bd4f01e4c5b88907aeb06c1404c1966b10ddcd3674b812b1eb",
+      "sha256": "7933f1ecf7420308469fc2626608ab1c9b2ac8eee35bb31c05ba9ccb824a3d09",
       "units": 245,
-      "sourceSha256": "70e47cc90d55ae9b84cf3bc658062b03e6b2779bb7187ceb3f8f9fc06b50efd3"
+      "sourceSha256": "57f938b1f6e52b16d93ad30f0f51df729cd186984371329f8838f8f652b6dacb"
     },
     {
       "id": "white-scars",

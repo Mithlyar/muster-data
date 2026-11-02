@@ -41811,7 +41811,6 @@
       "name": "Masters of the Maelstrom",
       "role": "Epic Hero",
       "keywords": [
-        "Character",
         "Epic Hero",
         "Infantry",
         "Grenades",
@@ -41823,7 +41822,7 @@
       "factionKeywords": [
         "Heretic Astartes"
       ],
-      "character": true,
+      "character": false,
       "epicHero": true,
       "legends": false,
       "sizes": [
