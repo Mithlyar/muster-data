@@ -881,6 +881,20 @@
       "points": 20,
       "detachmentId": "ae45-3e0d-eac7-7edb",
       "text": "Each time a model in the bearer's unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-Strength, add 1 to the Wound roll as well.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "condition": "Each time a model in this unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll."
+          },
+          {
+            "roll": "wound",
+            "mod": 1,
+            "condition": "If that target is also Below Half-Strength, add 1 to the Wound roll as well."
+          }
+        ]
+      },
       "keywords": [
         "Emperor's Children"
       ]
@@ -6975,6 +6989,17 @@
       ],
       "selfEffects": [
         {
+          "rule": "Revel in Desecration",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets an enemy unit that is not below Half-strength, add 1 to the Hit roll."
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-6 wounds remaining",
           "stats": [],
           "rolls": [
@@ -10417,7 +10442,32 @@
         "incursion": 4,
         "strike-force": 6,
         "onslaught": 6
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Excessive Assault",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "kind": "melee"
+            }
+          ]
+        },
+        {
+          "rule": "Excessive Assault",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "kind": "melee",
+              "condition": "If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "7b2b-4508-263d-f20f",
@@ -16215,7 +16265,45 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll."
+            }
+          ]
+        },
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll."
+            }
+          ]
+        },
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "4501-646d-e705-9dca",
@@ -18310,6 +18398,17 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Stalker",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent's army within 6\" of that target, add 1 to the Wound roll."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [

@@ -1141,6 +1141,15 @@
       "points": 25,
       "detachmentId": "163f-63bd-f2e1-5e7",
       "text": "OVERLORD model only. Each time a model in the bearer's unit makes an attack that targets an enemy unit within range of an objective marker, you can re-roll the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": "reroll",
+            "condition": "Each time a model in this unit makes an attack that targets an enemy unit within range of an objective marker, you can re-roll the Hit roll."
+          }
+        ]
+      },
       "keywords": [
         "Overlord"
       ]
@@ -11036,6 +11045,32 @@
           "fromCopy": 3,
           "points": 30
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Hard-wired for Destruction",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "ranged",
+              "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1."
+            }
+          ]
+        },
+        {
+          "rule": "Hard-wired for Destruction",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "If the target of that attack is within range of an objective marker your opponent controls, you can re-roll the Hit roll instead."
+            }
+          ]
+        }
       ]
     },
     {
@@ -11521,7 +11556,25 @@
           "6f72-b8f7-fd8d-5c2c",
           "d9ea-2965-24-d3a3"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Driven by Hatred",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "8005-b0eb-72ab-aed5",
@@ -20123,7 +20176,45 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll."
+            }
+          ]
+        },
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll."
+            }
+          ]
+        },
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "4501-646d-e705-9dca",

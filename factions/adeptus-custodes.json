@@ -748,7 +748,16 @@
       "name": "Bane of Abominations",
       "points": 20,
       "detachmentId": "63e2-12d3-9e87-8d43",
-      "text": "This model's attacks that target an enemy ^^**Character/Monster/Vehicle**^^ unit have +1 to **wound rolls**."
+      "text": "This model's attacks that target an enemy ^^**Character/Monster/Vehicle**^^ unit have +1 to **wound rolls**.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": 1,
+            "condition": "This model's attacks that target an enemy Character/Monster/Vehicle unit have +1 to wound rolls."
+          }
+        ]
+      }
     },
     {
       "id": "901f-a880-87c5-56c3",

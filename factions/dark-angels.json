@@ -2636,7 +2636,29 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Close-quarters Firepower",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's attacks that target an enemy unit within 9\" of this unit have +1S"
+        }
+      ]
     },
     {
       "id": "6562-d718-b8e0-c457",
@@ -8782,6 +8804,21 @@
           "fromCopy": 3,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Ballistus Strike",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's ranged attacks that target an enemy unit within 24\" of this unit have [SUSTAINED HITS 1]"
+        }
       ]
     },
     {
@@ -8912,7 +8949,20 @@
           "6135-d842-8e61-889d",
           "4808-a80b-309a-7933"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Grand Master of the Deathwing",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "This unit's attacks that target an enemy Character unit have +1 to wound rolls."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "e6c4-3c73-1f0e-816d",
@@ -29522,6 +29572,21 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Targeter Optics",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's ranged attacks that target a visible enemy unit have [IGNORES COVER]"
+        }
       ]
     },
     {
@@ -38942,6 +39007,19 @@
           "rule": "Indomitor Doctrines",
           "stats": [
             {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's ranged attacks that target the closest eligible enemy unit, have +1 S."
+        },
+        {
+          "rule": "Indomitor Doctrines",
+          "stats": [
+            {
               "on": "melee",
               "stat": "S",
               "op": "add",
@@ -43443,6 +43521,20 @@
           "fromCopy": 3,
           "points": 10,
           "group": "Invader ATV"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Aggressive Reconnaissance",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "In your Shooting phase, this unit's ranged attacks that target an enemy unit that is not within 6\" of any other enemy units have +1 to wound rolls."
+            }
+          ]
         }
       ]
     },
@@ -52860,7 +52952,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Isolate and Destroy",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent's army within 6\" of that target, add 1 to the Wound roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "760c-24f2-ac1e-162b",
@@ -67624,6 +67729,19 @@
             "f28-3d9e-bb46-c88"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Fury of the First",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "In addition, each time a model in this unit makes an attack that targets the enemy unit you selected for the Oath of Moment ability this turn, add 1 to the Hit roll"
+            }
+          ]
+        }
       ]
     },
     {
@@ -71538,6 +71656,22 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Overwhelming Short-range Firepower",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Each time this model makes an attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "Each time this model makes an attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [],
@@ -75877,6 +76011,21 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Hammerstrike",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's ranged attacks that target an enemy unit within a terrain area have [SUSTAINED HITS 1]"
         }
       ]
     },

@@ -11702,6 +11702,22 @@
       },
       "selfEffects": [
         {
+          "rule": "Ancient Conquest",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Each time this model makes an attack that targets an enemy unit that is within your opponent's deployment zone, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "Each time this model makes an attack that targets an enemy unit that is within your opponent's deployment zone, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-4 Wounds Remaining",
           "stats": [],
           "rolls": [
@@ -45486,6 +45502,22 @@
       },
       "selfEffects": [
         {
+          "rule": "Overwhelming Short-range Firepower",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Each time this model makes an attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll or 1."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll or 1."
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-7 Wounds Remaining",
           "stats": [
             {
@@ -48021,7 +48053,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Furious Barrage",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack with its storm eagle rockets that targets an enemy unit that contains five or more models, you can re-roll the Hit roll.",
+              "weaponName": "storm eagle rockets"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "7f1f-38c8-1bdc-55d7",

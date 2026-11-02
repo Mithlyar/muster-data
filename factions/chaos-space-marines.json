@@ -12841,6 +12841,19 @@
       ],
       "selfEffects": [
         {
+          "rule": "Destructor",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
           "rolls": [
@@ -27663,7 +27676,20 @@
           "name": "Warp Rifts"
         }
       ],
-      "alliedFrom": "Chaos Daemons"
+      "alliedFrom": "Chaos Daemons",
+      "selfEffects": [
+        {
+          "rule": "Prey on the Weak",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets an enemy unit that is Battle-shocked, add 1 to the Wound roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "e1c2-8417-403a-68",
@@ -38075,6 +38101,26 @@
       },
       "selfEffects": [
         {
+          "rule": "Headlong Destruction",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
           "rule": "Architect of Ruin",
           "stats": [],
           "rolls": [
@@ -40188,6 +40234,31 @@
           ],
           "weaponIds": [
             "95b9-c6e0-aa5a-87ef"
+          ]
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Veterans of the Long War",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "kind": "melee"
+            }
+          ]
+        },
+        {
+          "rule": "Veterans of the Long War",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "kind": "melee",
+              "condition": "If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
+            }
           ]
         }
       ]
@@ -44076,7 +44147,31 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Visions of Suffering (Psychic)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Each time a model in this unit makes an attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll."
+            }
+          ]
+        },
+        {
+          "rule": "Visions of Suffering (Psychic)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If that enemy unit is Below Half-strength, add 1 to the Wound roll as well."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "a3ab-ed12-fa70-2042",
@@ -66213,6 +66308,17 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Stalker",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent's army within 6\" of that target, add 1 to the Wound roll."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [

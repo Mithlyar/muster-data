@@ -14904,6 +14904,19 @@
             "a7cf-90fa-4093-6047"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Prey on the Weak",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets an enemy unit that is Battle-shocked, add 1 to the Wound roll."
+            }
+          ]
+        }
       ]
     },
     {
@@ -21978,6 +21991,29 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Veterans of the Long War",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "kind": "melee"
+            }
+          ]
+        },
+        {
+          "rule": "Veterans of the Long War",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "kind": "melee",
+              "condition": "If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
+            }
+          ]
+        },
         {
           "rule": "Disciples of Be'lakor",
           "stats": [],
@@ -32839,6 +32875,17 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Stalker",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent's army within 6\" of that target, add 1 to the Wound roll."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [

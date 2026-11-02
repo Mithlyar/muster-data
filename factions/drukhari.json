@@ -10862,6 +10862,17 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Eradicate the Foe",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, you can re-roll the Hit roll."
+            }
+          ]
         }
       ]
     },
@@ -10997,7 +11008,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Ground-attack Craft",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time a model in this unit makes a ranged attack that targets an enemy unit (excluding unit that can Fly), add 1 to the Hit roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "fbc4-c7d0-db5b-91c",
@@ -11272,7 +11297,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Ground-attack Craft",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time a model in this unit makes a ranged attack that targets an enemy unit (excluding units that can Fly), add 1 to the Hit roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "a228-7269-9961-daf4",
@@ -11425,6 +11464,17 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Eradicate the Foe",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, re-roll a Hit roll of 1."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
           "stats": [],

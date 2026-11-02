@@ -20406,6 +20406,24 @@
       ],
       "selfEffects": [
         {
+          "rule": "Savage Exaltation",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee",
+              "condition": "Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll and, if that attack targets an enemy unit that is Below Half-Strength, add 1 to the Wound roll as well."
+            },
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "melee",
+              "condition": "Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll and, if that attack targets an enemy unit that is Below Half-Strength, add 1 to the Wound roll as well."
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
           "rolls": [
@@ -25322,7 +25340,45 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll."
+            }
+          ]
+        },
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll."
+            }
+          ]
+        },
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "4501-646d-e705-9dca",
@@ -27417,6 +27473,17 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Stalker",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent's army within 6\" of that target, add 1 to the Wound roll."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [

@@ -1087,6 +1087,15 @@
       "points": 10,
       "detachmentId": "f773-f91c-2999-c7e1",
       "text": "**^^Vanguard Invader^^** model only. At the start of the battle, select one enemy unit. Each time the bearer makes an attack that targets that enemy unit, add 1 to the Hit roll and Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "condition": "when chosen: Each time this model makes an attack that targets that enemy unit, add 1 to the Hit roll and Wound roll."
+          }
+        ]
+      },
       "keywords": [
         "Tyranids",
         "Vanguard Invader"
@@ -16857,7 +16866,45 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll."
+            }
+          ]
+        },
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll."
+            }
+          ]
+        },
+        {
+          "rule": "Automated Defences",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "ranged",
+              "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "b563-c6d3-d0e5-1b78",

@@ -11071,7 +11071,20 @@
           "name": "Warp Rifts"
         }
       ],
-      "alliedFrom": "Chaos Daemons"
+      "alliedFrom": "Chaos Daemons",
+      "selfEffects": [
+        {
+          "rule": "Prey on the Weak",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets an enemy unit that is Battle-shocked, add 1 to the Wound roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "2901-92bd-2f4-736d",
@@ -24934,6 +24947,17 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Stalker",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent's army within 6\" of that target, add 1 to the Wound roll."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [
