@@ -505,6 +505,34 @@
               "Tyranid Warriors with Melee Bio-weapons"
             ]
           ],
+          "keywords": [
+            "Tyranid Warriors"
+          ]
+        },
+        {
+          "rule": "Leader-beasts",
+          "who": [
+            [
+              "Tyranid Warriors with Ranged Bio-weapons"
+            ],
+            [
+              "Tyranid Warriors with Melee Bio-weapons"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
+        },
+        {
+          "rule": "Leader-beasts",
+          "who": [
+            [
+              "Tyranid Warriors with Ranged Bio-weapons"
+            ],
+            [
+              "Tyranid Warriors with Melee Bio-weapons"
+            ]
+          ],
           "stats": [
             {
               "on": "unit",

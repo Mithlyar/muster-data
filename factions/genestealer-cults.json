@@ -552,6 +552,26 @@
           "rule": "Killer Reputation",
           "who": [
             [
+              "Kelermorph"
+            ],
+            [
+              "Locus"
+            ],
+            [
+              "Reductus Saboteur"
+            ],
+            [
+              "Sanctus"
+            ]
+          ],
+          "keywords": [
+            "Killer"
+          ]
+        },
+        {
+          "rule": "Killer Reputation",
+          "who": [
+            [
               "Killer"
             ]
           ],
@@ -27615,7 +27635,6 @@
           "name": "Deep Strike"
         }
       ],
-      "alliedFrom": "Tyranids",
       "maxInArmy": {
         "incursion": 1,
         "strike-force": 1,

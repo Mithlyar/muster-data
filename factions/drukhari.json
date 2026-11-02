@@ -229,8 +229,7 @@
           "rule": "Stitchflesh Abominations",
           "who": [
             [
-              "Haemonculus",
-              "Covens"
+              "Haemonculus Covens"
             ]
           ],
           "rolls": [
@@ -6458,7 +6457,6 @@
           "name": "Lone Operative"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 1,
         "strike-force": 1,
@@ -13195,7 +13193,6 @@
           "name": "Infiltrators"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 1,
         "strike-force": 1,
@@ -13421,7 +13418,6 @@
           "name": "Stealth"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 2,
         "strike-force": 3,
@@ -13539,7 +13535,6 @@
           "name": "Stealth"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 1,
         "strike-force": 1,
@@ -13790,7 +13785,6 @@
           "name": "Firing Deck 6"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 4,
         "strike-force": 6,
@@ -15040,7 +15034,6 @@
           "name": "Fights First"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 3,
         "strike-force": 3,
@@ -15380,7 +15373,6 @@
           "name": "Leader"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 1,
         "strike-force": 1,
@@ -16164,7 +16156,6 @@
           "name": "Stealth"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 2,
         "strike-force": 3,

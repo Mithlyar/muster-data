@@ -309,6 +309,17 @@
           "rule": "Adrenaline Junkies",
           "who": [
             [
+              "Warbikers"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
+        },
+        {
+          "rule": "Adrenaline Junkies",
+          "who": [
+            [
               "Speed Freeks"
             ]
           ],
@@ -356,6 +367,19 @@
         {
           "name": "Suspiciously Well Organised",
           "text": "Friendly **STORMBOYZ** units have **BATTLELINE**.\n- When a friendly **BOYZ/KOMMANDOS/STORMBOYZ** unit is selected to make an **fall‑back move**, that **fall-back move** does not prevent that unit from being **eligible to declare a charge**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Suspiciously Well Organised",
+          "who": [
+            [
+              "Stormboyz"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
         }
       ],
       "stratagems": [
@@ -440,6 +464,19 @@
         {
           "name": "Sneaky Little Gitz",
           "text": "- Friendly **GRETCHIN** units have **BATTLELINE**.\n- When a friendly **GRETCHIN** unit is selected to make an **advance/fall-back move**, that move does not prevent this unit from being **eligible to start an action**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Sneaky Little Gitz",
+          "who": [
+            [
+              "Gretchin"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
         }
       ],
       "stratagems": [

@@ -1,5 +1,97 @@
 [
   {
+    "dataVersion": "4d2f57e-853cce5e",
+    "previousDataVersion": "4d2f57e-5f2c3bc4",
+    "date": "2026-11-02T00:15:31.641Z",
+    "entries": [
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Death Jester: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Shadowseer: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Skyweavers: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Solitaire: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Starweaver: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Troupe: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Troupe Master: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Voidweaver: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Death Jester: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Shadowseer: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Skyweavers: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Solitaire: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Starweaver: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Troupe: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Troupe Master: datasheet changed"
+      },
+      {
+        "factionId": "drukhari",
+        "kind": "changed",
+        "text": "Voidweaver: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Ripper Swarms (Parasite of Mortrex): datasheet changed"
+      }
+    ]
+  },
+  {
     "dataVersion": "4d2f57e-5f2c3bc4",
     "previousDataVersion": "4d2f57e-e3ca8dd2",
     "date": "2026-11-02T00:02:50.473Z",

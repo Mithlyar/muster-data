@@ -429,6 +429,26 @@
           "rule": "Warped and Rusted Animus",
           "who": [
             [
+              "Foetid Bloat-drone"
+            ],
+            [
+              "Foetid Bloat-drone"
+            ],
+            [
+              "Helbrute"
+            ],
+            [
+              "Myphitic Blight-hauler"
+            ]
+          ],
+          "keywords": [
+            "Contagion Engine"
+          ]
+        },
+        {
+          "rule": "Warped and Rusted Animus",
+          "who": [
+            [
               "Contagion Engine"
             ]
           ],

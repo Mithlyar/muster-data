@@ -650,6 +650,25 @@
           "text": "Friendly **BULLGRYN SQUAD/OGRYN SQUAD/RATLINGS** units have **ABHUMAN**.\n- Friendly **COMMISSAR** models can:\n-- Issue the Take Aim! Order.\n-- Issue 1 Order to a friendly **ABHUMAN** unit.\nThis **detachment** has the **ABHUMAN** tag and cannot be taken with another **ABHUMAN detachment**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Absolutist Principles",
+          "who": [
+            [
+              "Bullgryn Squad"
+            ],
+            [
+              "Ogryn Squad"
+            ],
+            [
+              "Ratlings"
+            ]
+          ],
+          "keywords": [
+            "Abhuman"
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Stirred to Action",

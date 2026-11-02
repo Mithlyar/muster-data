@@ -695,6 +695,19 @@
           "text": "- Friendly **TZAANGORS** units have **BATTLELINE**. \n- In your Shooting phase, while a friendly **MUTANT** unit is shooting, enemy units have +6\" **detection range**. \nThis **detachment** has the **MUTANT** tag and cannot be taken with another **MUTANT detachment**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "All-seeing Mutant Hordes",
+          "who": [
+            [
+              "Tzaangors"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "The Land Writhes",

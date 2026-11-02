@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "4d2f57e-5f2c3bc4",
-  "date": "2026-11-02T00:02:50.473Z",
+  "dataVersion": "4d2f57e-853cce5e",
+  "date": "2026-11-02T00:15:31.641Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1"
@@ -35,9 +35,9 @@
       "id": "craftworlds",
       "name": "Aeldari",
       "file": "factions/craftworlds.json",
-      "sha256": "a0dd4ef8ea59e8dc16696742b446e55cbcc82bcc78667f81b07d10d17bac562c",
+      "sha256": "6b6cc69d88d0a0467764ac76850316d0a99cdee1f360aa9a35f572e7f82c08d5",
       "units": 102,
-      "sourceSha256": "4d33e9b6713569a711378c3384d8dac0311400826e706d5f21b7753264a63af8"
+      "sourceSha256": "da54ab9b0f8a5ba31e037bed61ffc38fbfecd1c866598e9ca1fe4fcc07144128"
     },
     {
       "id": "agents-of-the-imperium",
@@ -51,9 +51,9 @@
       "id": "astra-militarum",
       "name": "Astra Militarum",
       "file": "factions/astra-militarum.json",
-      "sha256": "0ada931395de3c1e247723756653defb6726848373e01e17eccc63a9a0d0f765",
+      "sha256": "ade629d9ec383ba0a5cd677a9db79ff80057ccafcceec0fda47f1c46aba4035d",
       "units": 209,
-      "sourceSha256": "91020cbfd968f5f97fad588ec067498e8487570a048c1bf70c32efb9e66f34cc"
+      "sourceSha256": "cef7d3802120bb5eec734ce8435734df4b3ad49de657457044a663fed177ce49"
     },
     {
       "id": "black-templars",
@@ -107,9 +107,9 @@
       "id": "death-guard",
       "name": "Death Guard",
       "file": "factions/death-guard.json",
-      "sha256": "e36fe792351e0928b56425b1aaa04d3ac38950f00ede369d35f1a1862d153b67",
+      "sha256": "572b9ed40bda9591a87e13759a9a9a51277c2546954e908393395dfad121d610",
       "units": 121,
-      "sourceSha256": "f609ede3ee8dfe25a93c64470aa27ef0521962667c576c26a46f7eaf7ad68ca5"
+      "sourceSha256": "55933a653021c51eed129edeae7e2c6d01b2491e64e6c86637ae9c50e37729af"
     },
     {
       "id": "deathwatch",
@@ -123,9 +123,9 @@
       "id": "drukhari",
       "name": "Drukhari",
       "file": "factions/drukhari.json",
-      "sha256": "2414d6d421012f796ba7dc681000c7adc889a2e2326ac259ec3d6c41d5319eea",
+      "sha256": "912a060993caba0480796f8b30124c7180820c197691f11f5d841cb36a71a0ec",
       "units": 48,
-      "sourceSha256": "34ba9ce85fe211144387b078ac4c3dbc1be5306f3122a02ad5e526491b2d51c7"
+      "sourceSha256": "d7011fc0b7f89fb9db497309223620eca7041c2121bb30c8e3a30c1e436025f8"
     },
     {
       "id": "emperors-children",
@@ -139,9 +139,9 @@
       "id": "genestealer-cults",
       "name": "Genestealer Cults",
       "file": "factions/genestealer-cults.json",
-      "sha256": "59ef5d7d7af1c584f345457342b0ce937bf2e7838197a2fb2a79eb0be9202a7f",
+      "sha256": "4f2d129daff993e1086493fc1ab8564793ab208a1b8e3fdf2198c949ac20819a",
       "units": 118,
-      "sourceSha256": "458eef95615cb858f3409f7088d3cb183d4b37d9b5ea7fa8e9a4910accd7d54e"
+      "sourceSha256": "322016981d8baf4a94e6aa8f65f2a98b0dc6dae29acd6bd5974266a0ae4545b0"
     },
     {
       "id": "grey-knights",
@@ -195,9 +195,9 @@
       "id": "orks",
       "name": "Orks",
       "file": "factions/orks.json",
-      "sha256": "d94eb3be4534bd5a7274eb47003cb6c4f994572423a6825c8cf3d9d35195b230",
+      "sha256": "56e5988f09e56902feeef3689f9bc34bdcfd64f857e61e15885b144ec77c3615",
       "units": 96,
-      "sourceSha256": "78f15f6f17654b77e682edab6b55713a08787cc849320d8510f2a30cc311f0b1"
+      "sourceSha256": "f56d0b1fc9dc6deca6457c902240cc5feac11e2d7cce38119c665580ae697c29"
     },
     {
       "id": "raven-guard",
@@ -243,17 +243,17 @@
       "id": "thousand-sons",
       "name": "Thousand Sons",
       "file": "factions/thousand-sons.json",
-      "sha256": "cb264f2e81de872eef359dc42cad8adbf13270e26155d1c767224755a6d16102",
+      "sha256": "8c3d4d05d874c1554cd91680a3ff8a51c2c27b64d83d3d13b124d6966417b1f6",
       "units": 108,
-      "sourceSha256": "77590326e79926995c5259a2617a9a33a3e00cde43868dff741c5b1a4ed116b0"
+      "sourceSha256": "25a387b858494474049d1ca9c9ffdf3fcbb093d7782d2db11bd1c29ea651162c"
     },
     {
       "id": "tyranids",
       "name": "Tyranids",
       "file": "factions/tyranids.json",
-      "sha256": "93d6a497bf4b31978f660636bf0104fc761eb1f0cc9834a7aac67c8ac88f498c",
+      "sha256": "637434cb1bc96326d24dcc5967380e53c04b398a70d4267df23899f0856da86e",
       "units": 87,
-      "sourceSha256": "04608b54592ec014c972d62f763b1838815aacebd49dfc2230e15f670add5bd6"
+      "sourceSha256": "f807fcbb07fd2d05806d81c29c1103d089f6807a96001f479b5afc3a4e74b0de"
     },
     {
       "id": "ultramarines",

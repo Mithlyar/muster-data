@@ -8607,7 +8607,6 @@
           "name": "Disparate Paths"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 1,
         "strike-force": 1,
@@ -16810,7 +16809,6 @@
           "name": "Infiltrators"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 1,
         "strike-force": 1,
@@ -18723,7 +18721,6 @@
           "name": "Stealth"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 2,
         "strike-force": 3,
@@ -18849,7 +18846,6 @@
           "name": "Disparate Paths"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 1,
         "strike-force": 1,
@@ -19235,7 +19231,6 @@
           "name": "Disparate Paths"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 4,
         "strike-force": 6,
@@ -21301,7 +21296,6 @@
           "name": "Fights First"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 3,
         "strike-force": 3,
@@ -21649,7 +21643,6 @@
           "name": "Disparate Paths"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 1,
         "strike-force": 1,
@@ -22316,7 +22309,6 @@
           "name": "Stealth"
         }
       ],
-      "alliedFrom": "Harlequins",
       "maxInArmy": {
         "incursion": 2,
         "strike-force": 3,
