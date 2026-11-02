@@ -26462,6 +26462,7 @@
       "keywords": [
         "Gaunt’s Ghosts",
         "Imperium",
+        "Character",
         "Epic Hero",
         "Infantry",
         "Grenades"
@@ -26469,7 +26470,7 @@
       "factionKeywords": [
         "Astra Militarum"
       ],
-      "character": false,
+      "character": true,
       "epicHero": true,
       "legends": false,
       "sizes": [
@@ -28049,13 +28050,14 @@
         "Platoon",
         "Command Squad",
         "Hell's Last",
+        "Character",
         "Epic Hero",
         "Leader"
       ],
       "factionKeywords": [
         "Astra Militarum"
       ],
-      "character": false,
+      "character": true,
       "epicHero": true,
       "legends": true,
       "sizes": [
@@ -67124,7 +67126,9 @@
         "Imperium",
         "Transport"
       ],
-      "factionKeywords": [],
+      "factionKeywords": [
+        "Astra Militarum"
+      ],
       "character": false,
       "epicHero": false,
       "legends": true,

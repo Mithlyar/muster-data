@@ -29387,7 +29387,9 @@
         "Chaos",
         "Nurgle"
       ],
-      "factionKeywords": [],
+      "factionKeywords": [
+        "Death Guard"
+      ],
       "character": false,
       "epicHero": false,
       "legends": true,

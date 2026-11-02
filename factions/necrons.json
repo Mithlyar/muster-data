@@ -17383,13 +17383,14 @@
       "role": "Epic Hero",
       "keywords": [
         "Vehicle",
+        "Character",
         "Epic Hero",
         "Triarch"
       ],
       "factionKeywords": [
         "Necrons"
       ],
-      "character": false,
+      "character": true,
       "epicHero": true,
       "legends": false,
       "sizes": [

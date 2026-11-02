@@ -33208,6 +33208,7 @@
         "Fly",
         "Grenades",
         "Imperium",
+        "Character",
         "Epic Hero",
         "Jump Pack",
         "Leader"
@@ -33215,7 +33216,7 @@
       "factionKeywords": [
         "Adepta Sororitas"
       ],
-      "character": false,
+      "character": true,
       "epicHero": true,
       "legends": false,
       "sizes": [

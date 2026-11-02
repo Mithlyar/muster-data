@@ -28398,7 +28398,9 @@
         "Dedicated Transport",
         "Frame"
       ],
-      "factionKeywords": [],
+      "factionKeywords": [
+        "Adeptus Astartes"
+      ],
       "character": false,
       "epicHero": false,
       "legends": false,

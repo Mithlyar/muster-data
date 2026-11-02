@@ -3707,7 +3707,9 @@
         "Corsairs and Travelling Players",
         "Aeldari"
       ],
-      "factionKeywords": [],
+      "factionKeywords": [
+        "Asuryani"
+      ],
       "character": false,
       "epicHero": false,
       "legends": true,
@@ -4214,7 +4216,9 @@
         "Corsairs and Travelling Players",
         "Aeldari"
       ],
-      "factionKeywords": [],
+      "factionKeywords": [
+        "Asuryani"
+      ],
       "character": false,
       "epicHero": false,
       "legends": true,

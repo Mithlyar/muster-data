@@ -36770,7 +36770,9 @@
         "Terrax-pattern Termite",
         "Frame"
       ],
-      "factionKeywords": [],
+      "factionKeywords": [
+        "Adeptus Mechanicus"
+      ],
       "character": false,
       "epicHero": false,
       "legends": true,

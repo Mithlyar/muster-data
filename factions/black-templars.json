@@ -14550,13 +14550,14 @@
         "Tacticus",
         "Chaplain",
         "Leader",
+        "Character",
         "Epic Hero"
       ],
       "factionKeywords": [
         "Adeptus Astartes",
         "Black Templars"
       ],
-      "character": false,
+      "character": true,
       "epicHero": true,
       "legends": false,
       "sizes": [

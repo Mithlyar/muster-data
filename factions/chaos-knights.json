@@ -4465,7 +4465,9 @@
         "Knight Character",
         "Frame"
       ],
-      "factionKeywords": [],
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
       "character": true,
       "epicHero": false,
       "legends": false,

@@ -24727,14 +24727,17 @@
       "name": "Fabius Bile",
       "role": "Epic Hero",
       "keywords": [
+        "Character",
         "Epic Hero",
         "Chaos",
         "Chaos Undivided",
         "Infantry",
         "Leader"
       ],
-      "factionKeywords": [],
-      "character": false,
+      "factionKeywords": [
+        "Heretic Astartes"
+      ],
+      "character": true,
       "epicHero": true,
       "legends": false,
       "sizes": [
@@ -41808,6 +41811,7 @@
       "name": "Masters of the Maelstrom",
       "role": "Epic Hero",
       "keywords": [
+        "Character",
         "Epic Hero",
         "Infantry",
         "Grenades",
@@ -41819,7 +41823,7 @@
       "factionKeywords": [
         "Heretic Astartes"
       ],
-      "character": false,
+      "character": true,
       "epicHero": true,
       "legends": false,
       "sizes": [
@@ -62654,7 +62658,9 @@
         "Damned",
         "Leader"
       ],
-      "factionKeywords": [],
+      "factionKeywords": [
+        "Heretic Astartes"
+      ],
       "character": true,
       "epicHero": false,
       "legends": false,

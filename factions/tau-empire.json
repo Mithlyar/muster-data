@@ -1054,13 +1054,14 @@
       "name": "Aun'va",
       "role": "Epic Hero",
       "keywords": [
+        "Character",
         "Epic Hero",
         "Non-Kroot"
       ],
       "factionKeywords": [
         "T'au Empire"
       ],
-      "character": false,
+      "character": true,
       "epicHero": true,
       "legends": true,
       "sizes": [
