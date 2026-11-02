@@ -3311,6 +3311,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "Each time this model makes an attack that targets a Vehicle, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a Fortification, improve the Strength and Damage characteristics of that attack by 2 instead)."
         },
         {
@@ -4069,7 +4070,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-10 wounds remaining",
@@ -11405,7 +11407,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 wounds remaining",
@@ -12082,7 +12085,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-6 wounds remaining",
@@ -14270,7 +14274,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets an Afflicted unit, add 1 to the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Froth-spattered Frenzy",
@@ -14646,7 +14651,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -17597,6 +17603,7 @@
               "condition": "when chosen: Each time this model makes an attack that targets its victim, you can re-roll the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: Each time this model makes an attack that targets its victim, you can re-roll the Wound roll."
         },
         {
@@ -28144,7 +28151,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -30958,6 +30966,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead)."
         },
         {
@@ -31281,7 +31290,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Automated Defences",
@@ -31293,7 +31303,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Automated Defences",
@@ -31305,7 +31316,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -32280,7 +32292,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -32527,7 +32540,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -33411,7 +33425,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent's army within 6\" of that target, add 1 to the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -34840,7 +34855,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 wounds remaining",

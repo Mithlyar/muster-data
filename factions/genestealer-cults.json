@@ -17342,7 +17342,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a unit that can Fly, you can re-roll the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -22797,7 +22798,8 @@
               "condition": "Each time this model makes an attack with its executioner plasma cannon that targets a unit that is Below Half-strength, add 1 to the Hit roll.",
               "weaponName": "executioner plasma cannon"
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -24195,7 +24197,8 @@
               "condition": "Each time this model makes a ranged attack with its vanquisher battle cannon that targets a Monster or Vehicle unit, you can re-roll the Wound roll.",
               "weaponName": "vanquisher battle cannon"
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -28806,6 +28809,7 @@
               "condition": "when chosen: Each time this model makes an attack that targets its prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: Each time this model makes an attack that targets its prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
         }
       ]
@@ -31868,7 +31872,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Automated Defences",
@@ -31880,7 +31885,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Automated Defences",
@@ -31892,7 +31898,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },

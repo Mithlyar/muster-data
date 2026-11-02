@@ -2210,7 +2210,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a CHARACTER unit, you can add 1 to the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -10684,6 +10685,7 @@
               "condition": "when chosen: While Empowered, if one or more units are embarked within this model, each time this model makes an attack with a ranged weapon that has the Anti ability, you can re-roll the Hit roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: While Empowered, if one or more units are embarked within this model, each time this model makes an attack with a ranged weapon that has the Anti ability, you can re-roll the Hit roll."
         }
       ]
@@ -10872,7 +10874,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, you can re-roll the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -11473,7 +11476,8 @@
               "mod": "reroll1",
               "condition": "Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, re-roll a Hit roll of 1."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -14037,7 +14041,8 @@
               "kind": "melee",
               "condition": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -15501,7 +15506,8 @@
               "mod": "reroll1",
               "kind": "melee"
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },

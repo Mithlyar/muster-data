@@ -1382,7 +1382,8 @@
               "kind": "melee",
               "condition": "Each time this model makes a melee attack, if it made a Charge move this turn, you can re-roll the Hit roll and you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -1589,6 +1590,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1."
         },
         {
@@ -11715,7 +11717,8 @@
               "mod": "reroll1",
               "condition": "Each time this model makes an attack that targets an enemy unit that is within your opponent's deployment zone, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -13730,7 +13733,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-10 Wounds Remaining",
@@ -29549,7 +29553,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a unit that can Fly, you can re-roll the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -29684,7 +29689,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a unit that can Fly, you can re-roll the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -36990,7 +36996,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Invulnerable Save (5+*)",
@@ -37829,6 +37836,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "Each time this model makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1."
         },
         {
@@ -38300,6 +38308,7 @@
               "condition": "when chosen: Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll."
         },
         {
@@ -43116,7 +43125,8 @@
               "condition": "Each time this model makes an attack with its executioner plasma cannon that targets a unit that is Below Half-strength, add 1 to the Hit roll.",
               "weaponName": "executioner plasma cannon"
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -44505,7 +44515,8 @@
               "condition": "Each time this model makes a ranged attack with its vanquisher battle cannon that targets a Monster or Vehicle unit, you can re-roll the Wound roll.",
               "weaponName": "vanquisher battle cannon"
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -45179,7 +45190,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack, if it is within range of an objective marker you control, re-roll a Hit roll of 1."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-7 Wounds Remaining",
@@ -45515,7 +45527,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll or 1."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-7 Wounds Remaining",
@@ -45876,7 +45889,8 @@
               "condition": "Each time this model makes a ranged attack with its Macharius twin vanquisher cannon that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll.",
               "weaponName": "macharius twin vanquisher cannon"
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-7 Wounds Remaining",
@@ -48065,7 +48079,8 @@
               "condition": "Each time this model makes an attack with its storm eagle rockets that targets an enemy unit that contains five or more models, you can re-roll the Hit roll.",
               "weaponName": "storm eagle rockets"
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -62384,7 +62399,8 @@
               "condition": "Each time this model makes a ranged attack with its Stormblade plasma blastgun that targets a unit within half range, you can re-roll the Hit roll.",
               "weaponName": "stormblade plasma blastgun"
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-8 Wounds Remaining",
@@ -63199,7 +63215,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a Vehicle unit, add 1 to the Wound roll"
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -63967,7 +63984,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -68249,6 +68267,7 @@
               "condition": "If it does, until the end of the phase, each time this model makes an attack with that weapon, add 1 to the Wound roll and any successful Wound roll scores a Critical Wound."
             }
           ],
+          "onlyModel": true,
           "condition": "If it does, until the end of the phase, each time this model makes an attack with that weapon, add 1 to the Wound roll and any successful Wound roll scores a Critical Wound."
         }
       ]

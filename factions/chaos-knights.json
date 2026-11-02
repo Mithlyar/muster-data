@@ -3309,6 +3309,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "Each time this model makes an attack that targets a Vehicle, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a Fortification, improve the Strength and Damage characteristics of that attack by 2 instead)."
         },
         {
@@ -4076,7 +4077,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-10 wounds remaining",
@@ -15901,6 +15903,7 @@
               "condition": "when chosen: Each time this model makes an attack that targets its victim, you can re-roll the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: Each time this model makes an attack that targets its victim, you can re-roll the Wound roll."
         },
         {
@@ -18666,7 +18669,8 @@
               "kind": "melee",
               "condition": "Each time this model makes a melee attack that targets a CHARACTER or MONSTER unit, you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Blood Throne",
@@ -19855,6 +19859,7 @@
               "condition": "when chosen: Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll."
         },
         {
@@ -20583,7 +20588,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -23813,7 +23819,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -24063,7 +24070,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -24956,7 +24964,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent's army within 6\" of that target, add 1 to the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",

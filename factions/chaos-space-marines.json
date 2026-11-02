@@ -5519,6 +5519,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "Each time this model makes an attack that targets a Vehicle, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a Fortification, improve the Strength and Damage characteristics of that attack by 2 instead)."
         },
         {
@@ -7315,7 +7316,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-10 wounds remaining",
@@ -22459,7 +22461,8 @@
               "mod": "reroll1",
               "condition": "Each time this unit makes a Dark Pact, until the end of the phase, each time this model makes an attack, re-roll a Wound roll of 1."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-6 wounds remaining",
@@ -22911,7 +22914,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 wounds remaining",
@@ -26631,7 +26635,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-6 wounds remaining",
@@ -30345,7 +30350,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a unit that can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 wounds remaining",
@@ -30604,7 +30610,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -36812,6 +36819,7 @@
               "condition": "when chosen: Each time this model makes an attack that targets its victim, you can re-roll the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: Each time this model makes an attack that targets its victim, you can re-roll the Wound roll."
         },
         {
@@ -38130,6 +38138,7 @@
               "condition": "when chosen: Each time this model makes an attack that targets its hated foe, you can re-roll the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: Each time this model makes an attack that targets its hated foe, you can re-roll the Wound roll."
         }
       ]
@@ -41873,6 +41882,7 @@
               "condition": "If it does, this model's unit suffers 1 mortal wound and, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "If it does, this model's unit suffers 1 mortal wound and, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll."
         }
       ]
@@ -50187,7 +50197,8 @@
               "kind": "melee",
               "condition": "Each time this model makes a melee attack that targets a CHARACTER or MONSTER unit, you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Blood Throne",
@@ -53335,6 +53346,7 @@
               "condition": "when chosen: Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll."
         },
         {
@@ -54371,7 +54383,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -55083,7 +55096,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -64133,6 +64147,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead)."
         },
         {
@@ -65186,7 +65201,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -65433,7 +65449,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -66317,7 +66334,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent's army within 6\" of that target, add 1 to the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -68370,7 +68388,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 wounds remaining",

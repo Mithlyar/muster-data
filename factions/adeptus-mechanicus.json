@@ -1310,6 +1310,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1."
         },
         {
@@ -2686,7 +2687,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets an enemy unit (excluding units that can Fly), add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -4632,7 +4634,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-10 Wounds Remaining",
@@ -21867,7 +21870,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Invulnerable Save (5+*)",
@@ -22706,6 +22710,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "Each time this model makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1."
         },
         {
@@ -23177,6 +23182,7 @@
               "condition": "when chosen: Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll."
         },
         {
@@ -27000,7 +27006,8 @@
               "mod": -1,
               "condition": "While this mdel has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -34501,7 +34508,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack with a belleros energy cannon that targets an Infantry unit, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Blistering Salvoes",
@@ -34512,7 +34520,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack with a ferrumite cannon that targets a Monster or Vehicle unit, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 wounds remaining",
@@ -35907,7 +35916,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack with a radium jezzail that targets an Infantry unit, you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Achillan Eye",
@@ -35918,7 +35928,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack with a Skatros transuranic arquebus that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -37026,7 +37037,8 @@
               "mod": -1,
               "condition": "While this mdel has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -38169,6 +38181,7 @@
               "condition": "If it does, until the end of the phase, each time this model makes an attack with that weapon, add 1 to the Wound roll and any successful Wound roll scores a Critical Wound."
             }
           ],
+          "onlyModel": true,
           "condition": "If it does, until the end of the phase, each time this model makes an attack with that weapon, add 1 to the Wound roll and any successful Wound roll scores a Critical Wound."
         }
       ]

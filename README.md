@@ -3,6 +3,6 @@
 Generated game data for the Muster list builder, downloaded by the apps to update their datasheets, points, wargear, rules and stratagems without a reinstall.
 Built from [BSData/wh40k-11e](https://github.com/BSData/wh40k-11e) and Wahapedia's data export (stratagem names, costs and timing only). Do not edit by hand: every file is replaced on each update.
 
-Data version `4d2f57e-ee62aae2`, built 2026-11-02T12:36:07.378Z.
+Data version `4d2f57e-a69e0ce9`, built 2026-11-02T12:49:59.361Z.
 
 Unofficial fan project, free and non-commercial. Not affiliated with, endorsed or sponsored by Games Workshop. Warhammer 40,000 and related names are trademarks of Games Workshop Limited.

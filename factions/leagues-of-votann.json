@@ -12184,7 +12184,8 @@
               "roll": "hit",
               "mod": "reroll"
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -12615,7 +12616,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Automated Defences",
@@ -12627,7 +12629,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Automated Defences",
@@ -12639,7 +12642,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },

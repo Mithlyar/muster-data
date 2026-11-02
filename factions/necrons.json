@@ -4691,6 +4691,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "In addition, each time this model makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
         }
       ]
@@ -11572,7 +11573,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength, you can re-roll the Hit roll and you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -20188,7 +20190,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Automated Defences",
@@ -20200,7 +20203,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Automated Defences",
@@ -20212,7 +20216,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },

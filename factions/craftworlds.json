@@ -7803,7 +7803,8 @@
               "roll": "wound",
               "mod": "reroll"
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -7992,7 +7993,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll and add 1 to the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -11883,7 +11885,8 @@
               "roll": "wound",
               "mod": "reroll1"
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -13368,7 +13371,8 @@
               "mod": "reroll",
               "condition": "Each time this model makes an attack that targets a Character unit, you can re-roll the Wound roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -14708,7 +14712,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -15328,7 +15333,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -21698,7 +21704,8 @@
               "mod": "reroll1",
               "kind": "melee"
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -26400,6 +26407,7 @@
               "condition": "when chosen: Each time this model makes an attack that targets a unit with the selected keyword, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: Each time this model makes an attack that targets a unit with the selected keyword, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
         }
       ]

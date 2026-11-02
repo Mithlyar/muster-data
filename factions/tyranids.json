@@ -4665,6 +4665,7 @@
               "condition": "when chosen: If you do, until the end of the phase, each time this model makes an attack, add 1 to the Wound roll."
             }
           ],
+          "onlyModel": true,
           "condition": "when chosen: If you do, until the end of the phase, each time this model makes an attack, add 1 to the Wound roll."
         }
       ]
@@ -5024,7 +5025,8 @@
               "mod": 1,
               "condition": "Each time this model makes an attack that targets a unit that is Battle-shocked, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -5217,7 +5219,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
@@ -12807,7 +12810,8 @@
               "kind": "melee",
               "condition": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Bio-stimulus",
@@ -16878,7 +16882,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Automated Defences",
@@ -16890,7 +16895,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Automated Defences",
@@ -16902,7 +16908,8 @@
               "kind": "ranged",
               "condition": "Each time this model makes a ranged attack that targets the closest enemy unit If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
