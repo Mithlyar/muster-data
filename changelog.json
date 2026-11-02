@@ -1,5 +1,662 @@
 [
   {
+    "dataVersion": "4d2f57e-5f2c3bc4",
+    "previousDataVersion": "4d2f57e-e3ca8dd2",
+    "date": "2026-11-02T00:02:50.473Z",
+    "entries": [
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Accursed Cultists: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Chaos Lord: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Chaos Lord in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Chaos Lord with Jump Pack: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Chaos Terminator Squad: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Chosen: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Cultist Firebrand: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Cultist Mob: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Dark Apostle: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Dark Commune: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Fellgor Beastmen: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Havocs: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Legionaries: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Master of Possession: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Possessed: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Raptors: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Sorcerer: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Sorcerer in Terminator Armour: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Traitor Guardsmen Squad: datasheet changed"
+      },
+      {
+        "factionId": "chaos-daemons",
+        "kind": "changed",
+        "text": "Warp Talons: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Accursed Cultists: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Cultist Firebrand: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Cultist Mob: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Dark Commune: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Fellgor Beastmen: datasheet changed"
+      },
+      {
+        "factionId": "chaos-knights",
+        "kind": "changed",
+        "text": "Traitor Guardsmen Squad: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "The Visarch: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "The Yncarne: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Archon: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Incubi: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Kabalite Warriors: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Raider: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Reavers: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Succubus: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Venom: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Ynnari Wyches: datasheet changed"
+      },
+      {
+        "factionId": "craftworlds",
+        "kind": "changed",
+        "text": "Yvraine: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Beasts of Nurgle: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Great Unclean One: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Nurglings: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Plague Drones: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Plaguebearers: datasheet changed"
+      },
+      {
+        "factionId": "death-guard",
+        "kind": "changed",
+        "text": "Rotigus: datasheet changed"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "changed",
+        "text": "Daemonettes: datasheet changed"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "changed",
+        "text": "Fiends: datasheet changed"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "changed",
+        "text": "Keeper of Secrets: datasheet changed"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "changed",
+        "text": "Seekers: datasheet changed"
+      },
+      {
+        "factionId": "emperors-children",
+        "kind": "changed",
+        "text": "Shalaxi Helbane: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Aegis Defence Line: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Armoured Sentinels: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Artillery Team: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Attilan Rough Riders: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Baneblade: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Banehammer: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Banesword: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Basilisk: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Cadian Castellan: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Cadian Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Cadian Heavy Weapons Squad: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Cadian Recon Squad: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Cadian Shock Troops: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Catachan Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Catachan Heavy Weapons Squad: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Catachan Jungle Fighters: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Centaur RSV: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Chimera: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Cyclops Demolition Vehicle: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Death Korps of Krieg: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Death Riders: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Deathleaper: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Deathstrike: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Doomhammer: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Field Ordnance Battery: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Gargoyles: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Hellhammer: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Hellhound: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Hippogriff AFV: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Hydra: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Hyperadapted Raveners: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Kasrkin: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Krieg Combat Engineers: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Krieg Command Squad: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Krieg Heavy Weapons Squad: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Leman Russ Battle Tank: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Leman Russ Commander: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Leman Russ Demolisher: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Leman Russ Eradicator: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Leman Russ Executioner: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Leman Russ Exterminator: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Leman Russ Punisher: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Leman Russ Vanquisher: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Lictor: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Manticore: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Mawloc: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Neurolictor: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Parasite of Mortrex: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Primaris Psyker: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Raveners: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Rogal Dorn Battle Tank: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Rogal Dorn Commander: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Scout Sentinels: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Shadowsword: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Stormlord: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Stormsword: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Taurox: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Taurox Prime: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "The Red Terror: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Trygon: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Tyrannocyte: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Valkyrie: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Von Ryan's Leapers: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Winged Hive Tyrant: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Winged Tyranid Prime: datasheet changed"
+      },
+      {
+        "factionId": "genestealer-cults",
+        "kind": "changed",
+        "text": "Wyvern: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Skitarii Marshal: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Skitarii Rangers: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Skitarii Vanguard: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Tech-Priest Dominus: datasheet changed"
+      },
+      {
+        "factionId": "imperial-knights",
+        "kind": "changed",
+        "text": "Tech-Priest Manipulus: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Blue Horrors: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Flamers: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Kairos Fateweaver: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Lord of Change: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Pink Horrors: datasheet changed"
+      },
+      {
+        "factionId": "thousand-sons",
+        "kind": "changed",
+        "text": "Screamers: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Bloodcrushers: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Bloodletters: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Bloodthirster: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Flesh Hounds: datasheet changed"
+      },
+      {
+        "factionId": "world-eaters",
+        "kind": "changed",
+        "text": "Skarbrand: datasheet changed"
+      }
+    ]
+  },
+  {
     "dataVersion": "4d2f57e-e3ca8dd2",
     "previousDataVersion": "4d2f57e-053fc129",
     "date": "2026-11-01T23:46:22.671Z",
