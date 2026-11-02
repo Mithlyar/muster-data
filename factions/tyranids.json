@@ -3500,6 +3500,17 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Symbiotic Targeting",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Until the end of the phase, each time a model in this unit makes an attack that targets the selected unit, re-roll a Hit roll of 1."
+            }
+          ]
         }
       ]
     },
@@ -5618,7 +5629,28 @@
         "unitIds": [
           "1645-5407-92c8-1441"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Onslaught (Aura, Psychic)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "f15b-9f9c-9bf0-8160",
@@ -12767,6 +12799,19 @@
               "condition": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll."
             }
           ]
+        },
+        {
+          "rule": "Bio-stimulus",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Until the end of the turn, each time this unit makes a melee attack that targets the selected unit, improve the Armour Penetration characteristic of that attack by 1."
         }
       ]
     },
@@ -18074,7 +18119,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Warp Field (Aura, Psychic)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 6,
+              "fromText": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "rules": [

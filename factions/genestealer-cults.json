@@ -38,6 +38,47 @@
           "text": "This ability always takes the form **[SUSTAINED HITS X]**. Each time an attack made with a **[SUSTAINED HITS]** weapon results in a **critical hit**, that attack results in a number of additional hits on the target as denoted by **X**.\n***Example:** An attack made with a **[SUSTAINED HITS 2]** weapon results in a **critical hit**. That attack therefore hits the target three times (once from the **critical hit**, and twice more from the **[SUSTAINED HITS 2]** ability).*"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "A Perfect Ambush",
+          "who": [
+            [
+              "Genestealer Cults"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a GENESTEALER CULTS unit from your army is set up on the battlefield as Reinforcements, until the end of your next Fight phase, weapons equipped by models in that unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities"
+        }
+      ],
       "stratagems": [
         {
           "name": "Primed and Readied",
@@ -1599,6 +1640,28 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Crossfire",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Until the end of the turn, each time this unit makes an attack that targets the selected unit, improve the Armour Penetration characteristic of that attack by 1."
         }
       ]
     },
@@ -17890,7 +17953,20 @@
         "unitIds": [
           "3a81-2b84-bf4c-4f85"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Priority Target",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Until the end of the phase, each time a model in this unit makes an attack that targets the selected unit, re-roll a Hit roll of 1."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "abe4-ca71-d5a7-3883",
@@ -23189,6 +23265,26 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Withering Hail",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Until the end of the phase, each time this unit makes an attack that targets the selected unit, improve the Armour Penetration characteristic of that attack by 1."
         }
       ]
     },
@@ -29101,7 +29197,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Daring Recon",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Until the end of the phase, each time a model in this unit makes an attack that targets the selected unit, re-roll a Hit roll of 1."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "61f3-ff33-ec7a-3546",

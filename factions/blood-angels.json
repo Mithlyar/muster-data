@@ -57885,7 +57885,19 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Shield of Sanguinius (Aura, Psychic)",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 5+ (against mortal wounds and Psychic Attacks)",
+              "text": "Models in this unit have the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "137c-2add-1a51-ee96",

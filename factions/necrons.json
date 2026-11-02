@@ -3223,6 +3223,28 @@
           "id": "c05d-f4c3-f091-4938",
           "name": "Infiltrators"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged Armour",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Until the end of the phase, each time a model in this unit makes an attack that targets the selected unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+        }
       ]
     },
     {

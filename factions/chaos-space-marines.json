@@ -41018,7 +41018,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Spirit Thief",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "Until the end of the phase, each time a model in this unit makes an attack that targets the selected unit, re-roll a Wound roll of 1."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "3600-9f92-933-bf54",
@@ -45566,6 +45579,17 @@
               "condition": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit's Toughness characteristic, subtract 1 from the Wound roll."
             }
           ]
+        },
+        {
+          "rule": "Death’s Heads",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "Until the end of the turn, each time this unit makes an attack that targets the selected unit, you can re-roll the Wound roll."
+            }
+          ]
         }
       ]
     },
@@ -50066,6 +50090,54 @@
               "condition": "Each time this model makes a melee attack that targets a CHARACTER or MONSTER unit, you can re-roll the Wound roll."
             }
           ]
+        },
+        {
+          "rule": "Blood Throne",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "D",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "D",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "Until the end of the phase, each time this unit makes an attack that targets the selected unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1."
         }
       ]
     },
@@ -62353,6 +62425,18 @@
               "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
             }
           ]
+        },
+        {
+          "rule": "The Eternal Dance",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "melee",
+              "condition": "Until the end of the phase each time a model in this unit makes a melee attack that targets the selected unit, add 1 to the Wound roll."
+            }
+          ]
         }
       ]
     },
@@ -66505,6 +66589,26 @@
           ],
           "onlyModel": true,
           "condition": "While this model has 1-26 wounds remaining, subtract 10 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "rule": "Titanic Fire Support",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Until the end of the phase, each time a model in this unit makes an attack that targets the selected unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
         }
       ]
     },

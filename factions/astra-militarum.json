@@ -43565,6 +43565,26 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Withering Hail",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Until the end of the phase, each time this unit makes an attack that targets the selected unit, improve the Armour Penetration characteristic of that attack by 1."
         }
       ]
     },
@@ -58130,7 +58150,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Daring Recon",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "condition": "Until the end of the phase, each time a model in this unit makes an attack that targets the selected unit, re-roll a Hit roll of 1."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "a040-9715-5d3a-52af",

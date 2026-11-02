@@ -9329,7 +9329,20 @@
           "d61-c058-6bd1-112f"
         ],
         "extra": true
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Doom (Psychic)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "Until the start of your next Command phase, each time a model in this unit makes an attack that targets the selected unit, add 1 to the Wound roll"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "1d83-167-486c-bac4",
@@ -9912,7 +9925,20 @@
           "5452-c4a7-59fb-f05c",
           "d61-c058-6bd1-112f"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Guide (Psychic)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "Until the start of your next Command phase, each time a model in this unit makes an attack that targets the selected unit, add 1 to the Hit roll."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "833b-55bc-73be-8862",
@@ -22813,7 +22839,29 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Crystalline Targeting",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Until the end of the phase, each time this unit makes an attack that targets the selected unit, improve the Armour Penetration characteristic of that attack by 1."
+        }
+      ]
     },
     {
       "id": "291f-2885-4512-f0cd",
@@ -29219,7 +29267,20 @@
           "807b-0b72-5908-a3d4",
           "36fd-7c3f-b728-c5d4"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Herald of Ynnead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "Until the end of the phase, each time a model in this unit makes an attack that targets the selected unit, you can re-roll a Wound roll of 1."
+            }
+          ]
+        }
+      ]
     }
   ],
   "rules": [

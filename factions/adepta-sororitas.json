@@ -5322,6 +5322,19 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Rites of Castigation",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Until the end of the turn, each time this unit makes a ranged attack that targets the selected unit, improve the Armour Penetration characteristic of that attack by 1."
         }
       ]
     },

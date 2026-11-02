@@ -20250,7 +20250,27 @@
             "kind": "ranged"
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Blight Bombardment",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "ranged",
+              "condition": "Until the end of the phase, each time this unit makes a ranged attack that targets the selected unit, re-roll a Hit roll of 1 (if that attack is made with a Blast weapon, you can re-roll the Hit roll instead)."
+            },
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "Until the end of the phase, each time this unit makes a ranged attack that targets the selected unit, re-roll a Hit roll of 1 (if that attack is made with a Blast weapon, you can re-roll the Hit roll instead)."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "3b75-e314-ecd5-cd63",
@@ -33723,6 +33743,26 @@
           ],
           "onlyModel": true,
           "condition": "While this model has 1-26 wounds remaining, subtract 10 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "rule": "Titanic Fire Support",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Until the end of the phase, each time a model in this unit makes an attack that targets the selected unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
         }
       ]
     },
