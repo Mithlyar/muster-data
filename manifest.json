@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "4d2f57e-a4cddacf",
-  "date": "2026-11-02T18:15:21.987Z",
+  "dataVersion": "4d2f57e-9ae7802a",
+  "date": "2026-11-03T08:42:44.598Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1"
@@ -75,25 +75,25 @@
       "id": "chaos-daemons",
       "name": "Chaos Daemons",
       "file": "factions/chaos-daemons.json",
-      "sha256": "97482782f2a0146ea383a2ba223f5d6df9d2ffa81e4a3c3e2fdcac8a69825ef8",
+      "sha256": "335bc9c4f49f100cf075f220dc04cf712fbf1e5ee93499034e9f50d0a296765c",
       "units": 115,
-      "sourceSha256": "02429fe656ff39ab375c4ead5f60f8db44d0777fd22dd83c18f9111af2b16406"
+      "sourceSha256": "f0480931abbd05bfe37085131f627579a122b4048e4f336778fc027cc4919c26"
     },
     {
       "id": "chaos-knights",
       "name": "Chaos Knights",
       "file": "factions/chaos-knights.json",
-      "sha256": "3fb78a85743d7ad4513f39d8529ea218d9d96a7c73d13b34059cc256a9135970",
+      "sha256": "11bc6c2a6cfecc7fc35ddb8491021242781c2b13102850615bde166bc03efea9",
       "units": 101,
-      "sourceSha256": "452c5ae57f2d059ccd5e3e145bb065607878ec52351a84e1366f31cbd8a7bced"
+      "sourceSha256": "9446fe565454a8592a22291701f009c6b208242495a68215e0b73fc3873f9af0"
     },
     {
       "id": "chaos-space-marines",
       "name": "Chaos Space Marines",
       "file": "factions/chaos-space-marines.json",
-      "sha256": "3041d4ca46e3af5f6fe54a0c9cde14f0cf4a783b201c1663515b4451e3539b50",
+      "sha256": "a12cda3b8c5b6f30728a095b61424d54c38287a550451322b1bc98198ba3285f",
       "units": 207,
-      "sourceSha256": "6dd02bce1603422f8e7092a82093152c46be1d74aef897bb84e77989de95edf0"
+      "sourceSha256": "a4c8a76a854c9712724f0c89e160edbdcb4ea7f0c1332948a9388b5669113f57"
     },
     {
       "id": "dark-angels",
@@ -243,9 +243,9 @@
       "id": "thousand-sons",
       "name": "Thousand Sons",
       "file": "factions/thousand-sons.json",
-      "sha256": "c6df511bf3721000c26bde18cf862dfc058cc36bf34e9d1fa3799446e7e53d21",
+      "sha256": "a15c362e551a1fe9d76b5f6637a88c4ff363449f3a1732aefbad23c891ca1950",
       "units": 108,
-      "sourceSha256": "2700620e414287ce66d35d1534c3a2795e7af9eedf76b9af0c4c2b91fc74214a"
+      "sourceSha256": "5da631952c6aaa4000955e44337809136e00a5dca69c97b0e07fb907a747d529"
     },
     {
       "id": "tyranids",
