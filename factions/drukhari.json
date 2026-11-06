@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
+    "commit": "e5a5ae69b9104f703d4e52833e514e8461d65676",
     "file": "Aeldari - Drukhari.json",
     "gameSystemRevision": 18
   },
@@ -8351,6 +8351,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Smoke"
+                ],
                 "abilities": [
                   {
                     "name": "Phantasm Grenade Launcher",
@@ -8811,6 +8814,10 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Smoke",
+                  "Grenades"
+                ],
                 "abilities": [
                   {
                     "name": "Phantasm Grenade Launcher",
@@ -9669,6 +9676,10 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Smoke",
+                  "Grenades"
+                ],
                 "abilities": [
                   {
                     "name": "Phantasm Grenade Launcher",

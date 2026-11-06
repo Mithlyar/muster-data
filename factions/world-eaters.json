@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
+    "commit": "e5a5ae69b9104f703d4e52833e514e8461d65676",
     "file": "Chaos - World Eaters.json",
     "gameSystemRevision": 18
   },
@@ -262,6 +262,20 @@
             }
           ],
           "condition": "when Idol of Blessed Blood (Aura) is chosen"
+        },
+        {
+          "rule": "Idols of Khorne",
+          "who": [
+            [
+              "Jakhals"
+            ],
+            [
+              "Goremongers"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
         }
       ],
       "stratagems": [

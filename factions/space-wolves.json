@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
+    "commit": "e5a5ae69b9104f703d4e52833e514e8461d65676",
     "file": "Imperium - Space Wolves.json",
     "gameSystemRevision": 18
   },
@@ -9575,6 +9575,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Explosives"
+                ],
                 "abilities": [
                   {
                     "name": "Centurion Assault Launchers",
@@ -9633,6 +9636,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Grenades"
+                ],
                 "abilities": [
                   {
                     "name": "Centurion Assault Launchers",
@@ -53889,6 +53895,182 @@
         {
           "fromCopy": 4,
           "points": 10
+        }
+      ]
+    },
+    {
+      "id": "80d1-496f-40fd-c154",
+      "name": "Rhino Primaris",
+      "role": "Vehicle",
+      "keywords": [
+        "Vehicle",
+        "Smoke",
+        "Transport",
+        "Imperium",
+        "Rhino Primaris"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "character": false,
+      "epicHero": false,
+      "legends": true,
+      "sizes": [
+        {
+          "minModels": 1,
+          "maxModels": 1,
+          "points": 95
+        }
+      ],
+      "models": [
+        {
+          "name": "Rhino Primaris",
+          "min": 1,
+          "max": 1,
+          "stats": {
+            "M": "12\"",
+            "T": "9",
+            "Sv": "3+",
+            "W": "10",
+            "Ld": "6+",
+            "OC": "3",
+            "base": "Hull"
+          },
+          "loadout": [
+            "5eab-1e69-a73-a3a",
+            "d3da-d5f3-70a9-50ed"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "5eab-1e69-a73-a3a",
+          "name": "Twin Plasma Gun",
+          "profiles": [
+            {
+              "name": "Twin Plasma Gun (Standard)",
+              "kind": "ranged",
+              "range": "24\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "7",
+              "AP": "-2",
+              "D": "1",
+              "keywords": [
+                "Rapid Fire 1",
+                "Twin-linked"
+              ]
+            },
+            {
+              "name": "Twin Plasma Gun (Supercharge)",
+              "kind": "ranged",
+              "range": "24\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "8",
+              "AP": "-3",
+              "D": "2",
+              "keywords": [
+                "Hazardous",
+                "Rapid Fire 1",
+                "Twin-linked"
+              ]
+            }
+          ],
+          "tags": [
+            "Plasma"
+          ]
+        },
+        {
+          "id": "d3da-d5f3-70a9-50ed",
+          "name": "Armoured Tracks",
+          "profiles": [
+            {
+              "name": "Armoured Tracks",
+              "kind": "melee",
+              "range": "Melee",
+              "A": "3",
+              "skill": "4+",
+              "S": "6",
+              "AP": "0",
+              "D": "1",
+              "keywords": []
+            }
+          ]
+        },
+        {
+          "id": "2523-36d-531f-9910",
+          "name": "Hunter-killer missile",
+          "profiles": [
+            {
+              "name": "Hunter-killer missile",
+              "kind": "ranged",
+              "range": "48\"",
+              "A": "1",
+              "skill": "2+",
+              "S": "14",
+              "AP": "-3",
+              "D": "D3+3",
+              "keywords": [
+                "One Shot"
+              ]
+            }
+          ],
+          "tags": [
+            "Damage Dx Weapon"
+          ]
+        }
+      ],
+      "wargear": [
+        {
+          "id": "35d9-65d0-8b3c-8c48",
+          "name": "Hunter-killer missile",
+          "model": null,
+          "min": 0,
+          "max": 1,
+          "defaultChoiceId": null,
+          "choices": [
+            {
+              "id": "35d9-65d0-8b3c-8c48",
+              "name": "Hunter-killer missile",
+              "weaponIds": [
+                "2523-36d-531f-9910"
+              ],
+              "points": 0
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Self Repair",
+          "text": "In your Command phase, this unit **heals** 1 wound."
+        },
+        {
+          "name": "Orbital Comms Array",
+          "text": "While a friendly ^^**Adeptus Astartes**^^ unit is within 6\" of this unit, each time you target that unit with a stratagem, roll 1D6:\n- On a 5+, you gain 1 CP."
+        }
+      ],
+      "rules": [
+        {
+          "id": "b68a-5ded-65ac-98c",
+          "name": "Deadly Demise D3"
+        },
+        {
+          "id": "3b76-4053-ece9-6e7d",
+          "name": "Combat Doctrines"
+        }
+      ],
+      "maxInArmy": {
+        "incursion": 2,
+        "strike-force": 3,
+        "onslaught": 3
+      },
+      "extras": [
+        {
+          "type": "Transport",
+          "name": "Rhino Primaris",
+          "text": "This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Gravis, Centurion or Terminator models."
         }
       ]
     },

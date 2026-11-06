@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
+    "commit": "e5a5ae69b9104f703d4e52833e514e8461d65676",
     "file": "Imperium - Adeptus Mechanicus.json",
     "gameSystemRevision": 18
   },
@@ -1051,7 +1051,12 @@
       "name": "Martial Signatum Amplificator",
       "points": 15,
       "detachmentId": "6d06-9e26-0d3c-5317",
-      "text": "**^^Tech‑Priest^^** model only. Models in the bearer’s unit have the **^^Skitarii^^** keyword."
+      "text": "**^^Tech‑Priest^^** model only. Models in the bearer’s unit have the **^^Skitarii^^** keyword.",
+      "effects": {
+        "keywords": [
+          "Skitarii"
+        ]
+      }
     },
     {
       "id": "27ed-5685-42e3-0844",
@@ -2441,6 +2446,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Smoke"
+                ],
                 "abilities": [
                   {
                     "name": "Chaff Launcher",
@@ -2630,6 +2638,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Smoke"
+                ],
                 "abilities": [
                   {
                     "name": "Chaff Launcher",
@@ -2792,6 +2803,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Smoke"
+                ],
                 "abilities": [
                   {
                     "name": "Chaff Launcher",

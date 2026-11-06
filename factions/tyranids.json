@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
+    "commit": "e5a5ae69b9104f703d4e52833e514e8461d65676",
     "file": "Tyranids.json",
     "gameSystemRevision": 18
   },
@@ -585,6 +585,20 @@
         }
       ],
       "unitEffects": [
+        {
+          "rule": "Keywords",
+          "who": [
+            [
+              "Mawloc"
+            ],
+            [
+              "Trygon"
+            ]
+          ],
+          "keywords": [
+            "Burrower"
+          ]
+        },
         {
           "rule": "Surprise Assault",
           "who": [
@@ -1173,6 +1187,11 @@
       "points": 20,
       "detachmentId": "731f-1524-da02-945b",
       "text": "**^^Trygon^^** model only. The bearer gains the **^^Synapse^^** keyword. Improve the Strength and Weapon Skill characteristics of melee weapons equipped by the bearer by 1.",
+      "effects": {
+        "keywords": [
+          "Synapse"
+        ]
+      },
       "keywords": [
         "Tyranids",
         "Trygon"

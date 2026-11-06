@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
+    "commit": "e5a5ae69b9104f703d4e52833e514e8461d65676",
     "file": "Imperium - Adepta Sororitas.json",
     "gameSystemRevision": 18
   },
@@ -828,7 +828,12 @@
       "name": "Catechism of Divine Penitence",
       "points": 15,
       "detachmentId": "a2f5-a466-96b6-d389",
-      "text": "CANONESS, PALATINE, or MINISTORUM PRIEST model only. The bearer gains the PENITENT keyword."
+      "text": "CANONESS, PALATINE, or MINISTORUM PRIEST model only. The bearer gains the PENITENT keyword.",
+      "effects": {
+        "keywords": [
+          "Penitent"
+        ]
+      }
     },
     {
       "id": "e77d-7180-7b77-4c42",

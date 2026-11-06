@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
+    "commit": "e5a5ae69b9104f703d4e52833e514e8461d65676",
     "file": "Imperium - Astra Militarum.json",
     "gameSystemRevision": 18
   },
@@ -1021,6 +1021,11 @@
       "points": 20,
       "detachmentId": "cc4e-a30b-f987-c984",
       "text": "**^^Commissar^^** model only. Add the **^^Ogryn^^** keyword to the list of units this model can issue Orders too (as stated on its datasheet).\n\nIn the Declare Battle Formations step, the bearer can be attached to an **^^Ogryn Squad^^** or **^^Bullgryn squad^^** unit.",
+      "effects": {
+        "keywords": [
+          "Ogryn"
+        ]
+      },
       "keywords": [
         "Commissar"
       ]
@@ -55028,6 +55033,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Grenades"
+                ],
                 "abilities": [
                   {
                     "name": "Demolition Gear",

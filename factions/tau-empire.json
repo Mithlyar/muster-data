@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
+    "commit": "e5a5ae69b9104f703d4e52833e514e8461d65676",
     "file": "T'au Empire.json",
     "gameSystemRevision": 18
   },
@@ -600,7 +600,12 @@
       "name": "Internal Grenade Racks",
       "points": 20,
       "detachmentId": "3bae-cf7-b9e3-4f00",
-      "text": "**^^T’au Empire Battlesuit^^** model only. The bearer has the **^^Grenades^^** keyword, and each time the bearer ends a Normal move, you can select one enemy unit that it moved over during that move. If you do, roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+      "text": "**^^T’au Empire Battlesuit^^** model only. The bearer has the **^^Grenades^^** keyword, and each time the bearer ends a Normal move, you can select one enemy unit that it moved over during that move. If you do, roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+      "effects": {
+        "keywords": [
+          "Grenades"
+        ]
+      }
     },
     {
       "id": "2aac-953c-80af-2edb",
@@ -3645,6 +3650,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -4200,6 +4208,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -4328,6 +4339,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -4541,6 +4555,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -5717,6 +5734,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -6210,6 +6230,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -6690,6 +6713,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -7383,6 +7409,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -7553,6 +7582,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -7829,6 +7861,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -7909,6 +7944,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -8187,6 +8225,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -8267,6 +8308,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -8500,6 +8544,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -8554,6 +8601,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -9326,6 +9376,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -16195,6 +16248,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -20525,6 +20581,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -21269,6 +21328,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
@@ -23214,6 +23276,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Transport"
+                ],
                 "abilities": [
                   {
                     "name": "Transport bay",
@@ -24882,6 +24947,9 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "keywords": [
+                  "Markerlight"
+                ],
                 "abilities": [
                   {
                     "name": "Marker Drone",
