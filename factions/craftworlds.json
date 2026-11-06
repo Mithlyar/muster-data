@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
+    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
     "file": "Aeldari - Craftworlds.json",
     "gameSystemRevision": 18
   },
@@ -2995,7 +2995,8 @@
               "mod": "halve",
               "against": true
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 Wounds Remaining",
@@ -10788,7 +10789,8 @@
               "mod": "rerollOne",
               "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll and you can re-roll one Wound roll when resolving those attacks."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },

@@ -5,11 +5,11 @@
     "name": "Necrons",
     "keyword": "Necrons",
     "catalogueId": "b654-a18a-ea1-3bf2",
-    "catalogueRevision": 28
+    "catalogueRevision": 29
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
+    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
     "file": "Necrons.json",
     "gameSystemRevision": 18
   },
@@ -2561,7 +2561,8 @@
               "mod": -1,
               "against": true
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -2796,7 +2797,8 @@
               "mod": -1,
               "against": true
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -3067,7 +3069,8 @@
               "mod": -1,
               "against": true
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -4358,10 +4361,10 @@
         },
         {
           "id": "f70b-7187-4cf7-b9de",
-          "name": "Dimensional isolator",
+          "name": "Transdimensional isolator",
           "profiles": [
             {
-              "name": "Dimensional isolator",
+              "name": "Transdimensional isolator",
               "kind": "ranged",
               "range": "12\"",
               "A": "2",
@@ -4393,7 +4396,7 @@
             },
             {
               "id": "f70b-7187-4cf7-b9de",
-              "name": "Dimensional isolator",
+              "name": "Transdimensional isolator",
               "weaponIds": [
                 "f70b-7187-4cf7-b9de"
               ],
@@ -4671,7 +4674,8 @@
               "against": true,
               "condition": "Each time an attack targets this model, if this model is within range of an objective marker, worsen the Armour Penetration characteristic of that attack by 1."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Aggressor Guardian",
@@ -7796,7 +7800,8 @@
               "mod": -1,
               "against": true
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -14220,7 +14225,8 @@
               "mod": -1,
               "against": true
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -18490,7 +18496,8 @@
               "mod": -1,
               "against": true
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },

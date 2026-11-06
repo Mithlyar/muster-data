@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
+    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
     "file": "Imperium - Adepta Sororitas.json",
     "gameSystemRevision": 18
   },
@@ -5862,6 +5862,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability."
         },
         {
@@ -22820,6 +22821,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model."
         },
         {
@@ -26424,6 +26426,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model by 3."
         }
       ]
@@ -27524,6 +27527,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model by 3."
         }
       ]
@@ -27744,6 +27748,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model by 3."
         }
       ]
@@ -38894,7 +38899,7 @@
       "abilities": [
         {
           "name": "Strategic Acumen",
-          "text": "n your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase."
+          "text": "In your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase."
         },
         {
           "name": "Watch Master",

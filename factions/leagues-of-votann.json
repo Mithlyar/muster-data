@@ -5,11 +5,11 @@
     "name": "Leagues of Votann",
     "keyword": "Leagues of Votann",
     "catalogueId": "f616-3f08-ee8e-3349",
-    "catalogueRevision": 8
+    "catalogueRevision": 9
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
+    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
     "file": "Leagues of Votann.json",
     "gameSystemRevision": 18
   },
@@ -6502,7 +6502,7 @@
           ]
         },
         {
-          "name": "Comms array",
+          "name": "Multiwave comms array",
           "text": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
         },
         {

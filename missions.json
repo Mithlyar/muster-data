@@ -205,7 +205,8 @@
               "relative_to": "opponent"
             }
           },
-          "vp": 2
+          "vp": 2,
+          "label": "You control more objectives than your opponent."
         },
         {
           "trigger": {
@@ -217,7 +218,8 @@
             }
           },
           "vp_per": 3,
-          "per": "controlled-objective"
+          "per": "controlled-objective",
+          "label": "For each objective you control."
         },
         {
           "trigger": {
@@ -237,13 +239,48 @@
           },
           "vp_per": 2,
           "per": "controlled-non-home-objective",
-          "cumulative": true
+          "cumulative": true,
+          "label": "For each of those objectives (excluding your home objective) if you control your home objective."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control more objectives than your opponent.",
+                "vp": "2VP"
+              }
+            ],
+            "header": "FIRST AND SECOND BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "For each objective you control.",
+                "vp": "3VP"
+              },
+              {
+                "text": "For each of those objectives (excluding your home objective) if you control your home objective.",
+                "vp": "+2VP",
+                "limit": "CUMULATIVE",
+                "plus": true
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ]
+      }
     },
     {
       "id": "determined-acquisition",
@@ -257,7 +294,8 @@
             "player_turn": "your-turn"
           },
           "vp_per": 2,
-          "per": "objective-newly-controlled-this-turn"
+          "per": "objective-newly-controlled-this-turn",
+          "label": "For each objective you control that you did not control at the start of the turn (excluding your home objective)."
         },
         {
           "trigger": {
@@ -269,7 +307,8 @@
             }
           },
           "vp_per": 3,
-          "per": "controlled-objective"
+          "per": "controlled-objective",
+          "label": "For each objective you control."
         },
         {
           "trigger": {
@@ -282,13 +321,48 @@
           },
           "vp_per": 3,
           "per": "controlled-objective-in-enemy-territory",
-          "cumulative": true
+          "cumulative": true,
+          "label": "For each of those objectives that is within your opponent’s territory."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each objective you control that you did not control at the start of the turn (excluding your home objective).",
+                "vp": "2VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "For each objective you control.",
+                "vp": "3VP"
+              },
+              {
+                "text": "For each of those objectives that is within your opponent’s territory.",
+                "vp": "+3VP",
+                "limit": "CUMULATIVE",
+                "plus": true
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ]
+      }
     },
     {
       "id": "immovable-object",
@@ -308,7 +382,8 @@
               "count_min": 1
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "You control one or more central objectives."
         },
         {
           "trigger": {
@@ -321,7 +396,8 @@
             }
           },
           "vp_per": 5,
-          "per": "controlled-non-home-objective"
+          "per": "controlled-non-home-objective",
+          "label": "For each objective you control (excluding your home objective)."
         },
         {
           "trigger": {
@@ -333,13 +409,54 @@
             }
           },
           "vp_per": 5,
-          "per": "controlled-non-home-objective"
+          "per": "controlled-non-home-objective",
+          "label": "For each objective you control (excluding your home objective)."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control one or more central objectives.",
+                "vp": "3VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase."
+              },
+              {
+                "text": "For each objective you control (excluding your home objective).",
+                "vp": "5VP"
+              }
+            ],
+            "header": "SECOND TO FOURTH BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each objective you control (excluding your home objective).",
+                "vp": "5VP"
+              }
+            ],
+            "header": "FIFTH BATTLE ROUND"
+          }
+        ]
+      }
     },
     {
       "id": "inescapable-dominion",
@@ -358,7 +475,8 @@
               "count_min": 3
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control three or more objectives."
         },
         {
           "trigger": {
@@ -375,7 +493,8 @@
               "count_min": 2
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "You control two or more objectives."
         },
         {
           "trigger": {
@@ -392,7 +511,8 @@
               "relative_to": "opponent"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control more objectives than your opponent."
         },
         {
           "trigger": {
@@ -406,13 +526,55 @@
               "objective": "opponent-home"
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "You control your opponent’s home objective."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control three or more objectives.",
+                "vp": "4VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control two or more objectives.",
+                "vp": "5VP"
+              },
+              {
+                "text": "You control more objectives than your opponent.",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "You control your opponent’s home objective.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ]
+      }
     },
     {
       "id": "purge-and-secure",
@@ -433,7 +595,8 @@
             }
           },
           "vp": 3,
-          "exclusive_group": "purge-kill"
+          "exclusive_group": "purge-kill",
+          "label": "One or more enemy units were destroyed this turn by a friendly unit that was within range of one or more objectives."
         },
         {
           "trigger": {
@@ -448,7 +611,8 @@
             }
           },
           "vp": 3,
-          "exclusive_group": "purge-kill"
+          "exclusive_group": "purge-kill",
+          "label": "One or more enemy units that started the turn within range of one or more objectives were destroyed this turn."
         },
         {
           "trigger": {
@@ -460,7 +624,8 @@
             }
           },
           "vp_per": 4,
-          "per": "controlled-non-home-objective"
+          "per": "controlled-non-home-objective",
+          "label": "For each objective you control (excluding your home objective)."
         },
         {
           "trigger": {
@@ -476,13 +641,54 @@
               "count_min": 1
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "You control one or more objectives you did not control at the start of the turn (excluding your home objective)."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One or more enemy units were destroyed this turn by a friendly unit that was within range of one or more objectives.",
+                "vp": "3VP"
+              },
+              {
+                "text": "One or more enemy units that started the turn within range of one or more objectives were destroyed this turn.",
+                "vp": "3VP",
+                "or": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "For each objective you control (excluding your home objective).",
+                "vp": "4VP"
+              },
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control one or more objectives you did not control at the start of the turn (excluding your home objective).",
+                "vp": "3VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ]
+      }
     },
     {
       "id": "unstoppable-force",
@@ -503,7 +709,8 @@
               "count_min": 1
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "One or more enemy units were destroyed this turn."
         },
         {
           "trigger": {
@@ -515,7 +722,8 @@
             }
           },
           "vp_per": 4,
-          "per": "controlled-non-home-objective"
+          "per": "controlled-non-home-objective",
+          "label": "For each objective you control (excluding your home objective)."
         },
         {
           "trigger": {
@@ -531,7 +739,8 @@
               "count_min": 1
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "You control one or more objectives you did not control at the start of the turn (excluding your home objective)."
         },
         {
           "trigger": {
@@ -545,13 +754,58 @@
               "count_min": 1
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "You control one or more central objectives."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One or more enemy units were destroyed this turn.",
+                "vp": "3VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "For each objective you control (excluding your home objective).",
+                "vp": "4VP"
+              },
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control one or more objectives you did not control at the start of the turn (excluding your home objective).",
+                "vp": "3VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "You control one or more central objectives.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ]
+      }
     },
     {
       "id": "punishment",
@@ -573,7 +827,8 @@
               "window": "left-battlefield-this-turn"
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "One or more condemned enemy units left the battlefield this turn."
         },
         {
           "trigger": {
@@ -591,7 +846,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -608,7 +864,8 @@
               "relative_to": "opponent"
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "You control more objectives than your opponent."
         },
         {
           "trigger": {
@@ -622,7 +879,8 @@
               "objective": "opponent-home"
             }
           },
-          "vp": 8
+          "vp": 8,
+          "label": "You control your opponent’s home objective."
         }
       ],
       "actions": [
@@ -654,7 +912,51 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of a turn."
+              },
+              {
+                "text": "One or more condemned enemy units left the battlefield this turn.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              },
+              {
+                "text": "You control more objectives than your opponent.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "You control your opponent’s home objective.",
+                "vp": "8VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ],
+        "intro": [
+          "START OF YOUR TURN: Select one to three enemy units that are on the battlefield and within range of objectives and/or that destroyed one or more friendly units in the previous turn. If you cannot, select one enemy unit that is on the battlefield. Until the start of your next turn, those units are condemned."
+        ]
+      }
     },
     {
       "id": "meatgrinder",
@@ -675,7 +977,8 @@
               "count_min": 1
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "One or more enemy units were destroyed this turn."
         },
         {
           "trigger": {
@@ -693,7 +996,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -717,7 +1021,8 @@
               }
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "More enemy units were destroyed this turn than friendly units were destroyed in the previous turn."
         },
         {
           "trigger": {
@@ -734,13 +1039,58 @@
               "objective": "opponent-home"
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "You control your opponent’s home objective."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One or more enemy units were destroyed this turn.",
+                "vp": "3VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "More enemy units were destroyed this turn than friendly units were destroyed in the previous turn.",
+                "vp": "5VP"
+              },
+              {
+                "text": "You control your opponent’s home objective.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ]
+      }
     },
     {
       "id": "destroyers-wrath",
@@ -761,7 +1111,8 @@
               "count_min": 1
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "One or more enemy units were destroyed this turn."
         },
         {
           "trigger": {
@@ -779,7 +1130,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -796,7 +1148,8 @@
               "relative_to": "opponent"
             }
           },
-          "vp": 6
+          "vp": 6,
+          "label": "You control more objectives than your opponent."
         },
         {
           "trigger": {
@@ -820,13 +1173,53 @@
               }
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "More enemy units were destroyed this turn than friendly units were destroyed in the previous turn."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One or more enemy units were destroyed this turn.",
+                "vp": "3VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              },
+              {
+                "text": "You control more objectives than your opponent.",
+                "vp": "6VP"
+              },
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "More enemy units were destroyed this turn than friendly units were destroyed in the previous turn.",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ]
+      }
     },
     {
       "id": "consecrate",
@@ -848,7 +1241,8 @@
             }
           },
           "vp": 3,
-          "exclusive_group": "consecrated-tier"
+          "exclusive_group": "consecrated-tier",
+          "label": "One or two objectives are consecrated."
         },
         {
           "trigger": {
@@ -863,7 +1257,8 @@
             }
           },
           "vp": 6,
-          "exclusive_group": "consecrated-tier"
+          "exclusive_group": "consecrated-tier",
+          "label": "Three or more objectives are consecrated."
         },
         {
           "trigger": {
@@ -881,7 +1276,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -898,7 +1294,8 @@
               "relative_to": "opponent"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control more objectives than your opponent."
         },
         {
           "trigger": {
@@ -913,7 +1310,8 @@
               "count_min": 1
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "Your opponent’s home objective is consecrated."
         }
       ],
       "actions": [
@@ -947,7 +1345,56 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One or two objectives are consecrated.",
+                "vp": "3VP"
+              },
+              {
+                "text": "Three or more objectives are consecrated.",
+                "vp": "6VP",
+                "or": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              },
+              {
+                "text": "You control more objectives than your opponent.",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "Your opponent’s home objective is consecrated.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ],
+        "intro": [
+          "Each time a friendly unit destroys a unit, that friendly unit becomes a consecration unit. At the end of your turn, for each of your consecration units, you can select one objective it is within range of (excluding your home objective) that has not been consecrated. If you do, place one of your operation markers within range of that objective – that objective is consecrated and that unit is no longer a consecration unit."
+        ]
+      }
     },
     {
       "id": "death-trap",
@@ -961,7 +1408,8 @@
             "player_turn": "your-turn"
           },
           "vp_per": 2,
-          "per": "terrain-area-trapped-this-turn"
+          "per": "terrain-area-trapped-this-turn",
+          "label": "For each terrain area trapped this turn (see below)."
         },
         {
           "trigger": {
@@ -970,7 +1418,8 @@
           },
           "vp_per": 3,
           "per": "terrain-area-trapped-this-turn-that-is-an-objective",
-          "cumulative": true
+          "cumulative": true,
+          "label": "For each of those terrain areas that is an objective."
         },
         {
           "trigger": {
@@ -985,7 +1434,8 @@
               "count_min": 1
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "One or more enemy units that started the turn within a terrain area were destroyed, if that terrain area is trapped."
         },
         {
           "trigger": {
@@ -1003,7 +1453,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         }
       ],
       "actions": [
@@ -1034,7 +1485,81 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each terrain area trapped this turn (see below).",
+                "vp": "2VP"
+              },
+              {
+                "text": "For each of those terrain areas that is an objective.",
+                "vp": "+3VP",
+                "limit": "CUMULATIVE",
+                "plus": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One or more enemy units that started the turn within a terrain area were destroyed, if that terrain area is trapped.",
+                "vp": "3VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ],
+        "actions": [
+          {
+            "name": "BOOBY TRAP",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One friendly unit within range of one objective (excluding your home objective) or within one terrain area that is not within your deployment zone, that you have not yet trapped (see below)."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Unlimited. Each unit that starts this action this phase must be within a different terrain area."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "Immediately."
+              },
+              {
+                "label": "EFFECT",
+                "text": "That terrain area is trapped: place one of your operation markers within that terrain area."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "outmanoeuvre",
@@ -1054,7 +1579,8 @@
               "objective": "opponent-home"
             }
           },
-          "vp": 10
+          "vp": 10,
+          "label": "You control your opponent’s home objective."
         },
         {
           "trigger": {
@@ -1066,7 +1592,8 @@
             }
           },
           "vp_per": 4,
-          "per": "controlled-non-home-objective"
+          "per": "controlled-non-home-objective",
+          "label": "For each objective you control (excluding your home objective)."
         },
         {
           "trigger": {
@@ -1079,7 +1606,8 @@
             }
           },
           "vp_per": 5,
-          "per": "controlled-non-home-objective"
+          "per": "controlled-non-home-objective",
+          "label": "For each objective you control (excluding your home objective)."
         },
         {
           "trigger": {
@@ -1090,13 +1618,66 @@
             }
           },
           "vp_per": 6,
-          "per": "controlled-non-home-objective"
+          "per": "controlled-non-home-objective",
+          "label": "For each objective you control (excluding your home objective)."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control your opponent’s home objective.",
+                "vp": "10VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each objective you control (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "FIRST BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase."
+              },
+              {
+                "text": "For each objective you control (excluding your home objective).",
+                "vp": "5VP"
+              }
+            ],
+            "header": "SECOND AND THIRD BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each objective you control (excluding your home objective).",
+                "vp": "6VP"
+              }
+            ],
+            "header": "FOURTH BATTLE ROUND ONWARDS"
+          }
+        ]
+      }
     },
     {
       "id": "delaying-action",
@@ -1110,7 +1691,8 @@
             "player_turn": "your-turn"
           },
           "vp_per": 2,
-          "per": "enemy-unit-destroyed-this-turn"
+          "per": "enemy-unit-destroyed-this-turn",
+          "label": "For each enemy unit destroyed this turn."
         },
         {
           "trigger": {
@@ -1128,7 +1710,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding home objectives)."
         },
         {
           "trigger": {
@@ -1157,13 +1740,49 @@
               }
             ]
           },
-          "vp": 3
+          "vp": 3,
+          "label": "You control one or more central objectives and one or more expansion objectives."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each enemy unit destroyed this turn.",
+                "vp": "2VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding home objectives).",
+                "vp": "4VP"
+              },
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control one or more central objectives and one or more expansion objectives.",
+                "vp": "3VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ]
+      }
     },
     {
       "id": "locate-and-deny",
@@ -1183,7 +1802,8 @@
               "count_min": 1
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "One or more enemy units that started the turn within range of one or more objectives are destroyed."
         },
         {
           "trigger": {
@@ -1200,7 +1820,8 @@
               "no_enemy_in_terrain_area": true
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "Only one of your operation markers is on the battlefield (see below), if one or more of your units are within the same terrain area as that marker, and no enemy units are within that terrain area."
         },
         {
           "trigger": {
@@ -1218,7 +1839,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -1235,7 +1857,8 @@
               "no_enemy_in_terrain_area": true
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "Only one of your operation markers is on the battlefield, if one or more of your units are within the same terrain area as that marker, and no enemy units are within that terrain area."
         }
       ],
       "actions": [
@@ -1280,7 +1903,83 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One or more enemy units that started the turn within range of one or more objectives are destroyed.",
+                "vp": "4VP"
+              },
+              {
+                "text": "Only one of your operation markers is on the battlefield (see below), if one or more of your units are within the same terrain area as that marker, and no enemy units are within that terrain area.",
+                "vp": "4VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "Only one of your operation markers is on the battlefield, if one or more of your units are within the same terrain area as that marker, and no enemy units are within that terrain area.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ],
+        "intro": [
+          "START OF THE BATTLE: Select five terrain areas not within your deployment zone; for each one, place one of your operation markers within it. If you cannot, do so for each terrain area that is not within your deployment zone."
+        ],
+        "actions": [
+          {
+            "name": "SENSOR SWEEP",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One friendly unit within range of one central objective."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Once per turn."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "End of your turn, if your unit controls that objective."
+              },
+              {
+                "label": "EFFECT",
+                "text": "Your unit performs a sensor sweep: remove one operation marker from the battlefield."
+              },
+              {
+                "label": "RESTRICTIONS",
+                "text": "A unit cannot start this action if there is only one operation marker on the battlefield."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "smoke-and-mirrors",
@@ -1294,7 +1993,8 @@
             "player_turn": "your-turn"
           },
           "vp_per": 2,
-          "per": "decoyed-objective"
+          "per": "decoyed-objective",
+          "label": "For each objective that is decoyed (see below)."
         },
         {
           "trigger": {
@@ -1303,7 +2003,8 @@
           },
           "vp_per": 2,
           "per": "decoyed-objective-in-enemy-territory",
-          "cumulative": true
+          "cumulative": true,
+          "label": "For each of those objectives that is within your opponent’s territory."
         },
         {
           "trigger": {
@@ -1321,7 +2022,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -1335,7 +2037,8 @@
               "count_min": 4
             }
           },
-          "vp": 10
+          "vp": 10,
+          "label": "Four or more objectives are decoyed."
         }
       ],
       "actions": [
@@ -1369,7 +2072,78 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each objective that is decoyed (see below).",
+                "vp": "2VP"
+              },
+              {
+                "text": "For each of those objectives that is within your opponent’s territory.",
+                "vp": "+2VP",
+                "limit": "CUMULATIVE",
+                "plus": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "Four or more objectives are decoyed.",
+                "vp": "10VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ],
+        "actions": [
+          {
+            "name": "DECOY",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One friendly unit within range of one objective (excluding your home objective) that is not decoyed (see below)."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Unlimited. Each unit that starts this action this phase must be within range of a different objective."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "End of your turn, if your unit controls that objective."
+              },
+              {
+                "label": "EFFECT",
+                "text": "That objective is decoyed: place one of your operation markers within range of that objective."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "secure-asset",
@@ -1390,7 +2164,8 @@
               "window": "this-turn"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "A friendly unit secured the asset this turn (see below)."
         },
         {
           "trigger": {
@@ -1405,7 +2180,8 @@
               "count_min": 1
             }
           },
-          "vp": 2
+          "vp": 2,
+          "label": "One or more enemy units that started the turn within range of one or more central objectives are destroyed."
         },
         {
           "trigger": {
@@ -1423,7 +2199,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -1440,7 +2217,8 @@
               "count_min": 3
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control three or more objectives."
         }
       ],
       "actions": [
@@ -1466,7 +2244,71 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "A friendly unit secured the asset this turn (see below).",
+                "vp": "4VP"
+              },
+              {
+                "text": "One or more enemy units that started the turn within range of one or more central objectives are destroyed.",
+                "vp": "2VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              },
+              {
+                "text": "You control three or more objectives.",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ],
+        "actions": [
+          {
+            "name": "SECURE ASSET",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One friendly unit within range of one objective (excluding your home objective)."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Once per turn."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "End of your turn, if your unit controls that objective."
+              },
+              {
+                "label": "EFFECT",
+                "text": "Your unit secures the asset."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "extract-relic",
@@ -1487,7 +2329,8 @@
               "window": "this-turn"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "A friendly unit performed a sensor sweep this turn (see below)."
         },
         {
           "trigger": {
@@ -1501,7 +2344,8 @@
               "count_min": 1
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "One or more enemy units that started the turn within range of one or more objectives are destroyed."
         },
         {
           "trigger": {
@@ -1518,7 +2362,8 @@
               "no_enemy_in_terrain_area": true
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "Only one of your opponent’s operation markers is on the battlefield, if one or more of your units are within the same terrain area as that operation marker, and no enemy units are within that terrain area."
         },
         {
           "trigger": {
@@ -1536,7 +2381,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -1553,7 +2399,8 @@
               "no_enemy_in_terrain_area": true
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "Only one of your opponent’s operation markers is on the battlefield, if one or more of your units are within the same terrain area as that operation marker, and no enemy units are within that terrain area."
         }
       ],
       "actions": [
@@ -1592,7 +2439,84 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "A friendly unit performed a sensor sweep this turn (see below).",
+                "vp": "4VP"
+              },
+              {
+                "text": "One or more enemy units that started the turn within range of one or more objectives are destroyed.",
+                "vp": "3VP"
+              },
+              {
+                "text": "Only one of your opponent’s operation markers is on the battlefield, if one or more of your units are within the same terrain area as that operation marker, and no enemy units are within that terrain area.",
+                "vp": "4VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "Only one of your opponent’s operation markers is on the battlefield, if one or more of your units are within the same terrain area as that operation marker, and no enemy units are within that terrain area.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ],
+        "actions": [
+          {
+            "name": "SENSOR SWEEP",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One friendly unit within range of one central objective."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Once per turn."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "End of your turn, if your unit controls that objective."
+              },
+              {
+                "label": "EFFECT",
+                "text": "Your unit performs a sensor sweep: remove one operation marker from the battlefield."
+              },
+              {
+                "label": "RESTRICTIONS",
+                "text": "A unit cannot start this action if there is only one operation marker on the battlefield."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "vital-link",
@@ -1612,7 +2536,8 @@
               "count_min": 1
             }
           },
-          "vp": 2
+          "vp": 2,
+          "label": "You control one or more central objectives."
         },
         {
           "trigger": {
@@ -1628,7 +2553,8 @@
           },
           "vp_per": 1,
           "per": "operation-marker-within-range-of-a-controlled-central-objective",
-          "cumulative": true
+          "cumulative": true,
+          "label": "For each of your operation markers within range of one of those objectives (see below)."
         },
         {
           "trigger": {
@@ -1646,7 +2572,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -1665,7 +2592,8 @@
             }
           },
           "vp": 4,
-          "cumulative": true
+          "cumulative": true,
+          "label": "One or more of those objectives is a central objective."
         },
         {
           "trigger": {
@@ -1679,7 +2607,8 @@
               "objective": "opponent-home"
             }
           },
-          "vp": 10
+          "vp": 10,
+          "label": "You control your opponent’s home objective."
         }
       ],
       "actions": [
@@ -1711,7 +2640,84 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control one or more central objectives.",
+                "vp": "2VP"
+              },
+              {
+                "text": "For each of your operation markers within range of one of those objectives (see below).",
+                "vp": "+1VP",
+                "limit": "CUMULATIVE",
+                "plus": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              },
+              {
+                "text": "One or more of those objectives is a central objective.",
+                "vp": "+4VP",
+                "limit": "CUMULATIVE",
+                "plus": true
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "You control your opponent’s home objective.",
+                "vp": "10VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ],
+        "actions": [
+          {
+            "name": "MAINTAIN CONTROL",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One friendly unit within range of one central objective."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Once per turn."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "End of your turn, if your unit controls that objective."
+              },
+              {
+                "label": "EFFECT",
+                "text": "Place one of your operation markers within range of that objective."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "sabotage",
@@ -1725,7 +2731,8 @@
             "player_turn": "your-turn"
           },
           "vp_per": 3,
-          "per": "friendly-unit-that-committed-sabotage-this-turn"
+          "per": "friendly-unit-that-committed-sabotage-this-turn",
+          "label": "For each friendly unit that committed sabotage this turn (see below)."
         },
         {
           "trigger": {
@@ -1734,7 +2741,8 @@
           },
           "vp_per": 2,
           "per": "sabotaging-unit-within-range-of-an-objective-in-enemy-territory",
-          "cumulative": true
+          "cumulative": true,
+          "label": "For each of those units that is within range of one or more objectives in your opponent’s territory."
         },
         {
           "trigger": {
@@ -1752,7 +2760,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         }
       ],
       "actions": [
@@ -1777,7 +2786,69 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each friendly unit that committed sabotage this turn (see below).",
+                "vp": "3VP"
+              },
+              {
+                "text": "For each of those units that is within range of one or more objectives in your opponent’s territory.",
+                "vp": "+2VP",
+                "limit": "CUMULATIVE",
+                "plus": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ],
+        "actions": [
+          {
+            "name": "SABOTAGE",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One unit within range of one objective (excluding your home objective)."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Unlimited. Each unit that starts this action this phase must be within range of a different objective."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "End of your turn, if that unit controls that objective."
+              },
+              {
+                "label": "EFFECT",
+                "text": "Your unit commits sabotage."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "vanguard-operation",
@@ -1798,7 +2869,8 @@
               "window": "this-turn"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "A friendly unit performed a vanguard operation this turn (see below)."
         },
         {
           "trigger": {
@@ -1813,7 +2885,8 @@
               "count_min": 1
             }
           },
-          "vp": 2
+          "vp": 2,
+          "label": "One or more enemy units were destroyed this turn."
         },
         {
           "trigger": {
@@ -1831,7 +2904,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -1845,7 +2919,8 @@
               "objective": "opponent-home"
             }
           },
-          "vp": 10
+          "vp": 10,
+          "label": "You control your opponent’s home objective."
         }
       ],
       "actions": [
@@ -1871,7 +2946,76 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "A friendly unit performed a vanguard operation this turn (see below).",
+                "vp": "4VP"
+              },
+              {
+                "text": "One or more enemy units were destroyed this turn.",
+                "vp": "2VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "You control your opponent’s home objective.",
+                "vp": "10VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ],
+        "actions": [
+          {
+            "name": "VANGUARD OPERATION",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One friendly unit within one terrain area that is within your opponent’s territory."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Once per turn."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "End of your turn, if no enemy units are within that terrain area."
+              },
+              {
+                "label": "EFFECT",
+                "text": "Your unit performs a vanguard operation."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "reconnaissance-sweep",
@@ -1891,7 +3035,8 @@
             }
           },
           "vp": 3,
-          "exclusive_group": "quarters-tier"
+          "exclusive_group": "quarters-tier",
+          "label": "Three or more friendly units are wholly within three different table quarters and not within 6\" of the centre of the battlefield."
         },
         {
           "trigger": {
@@ -1905,7 +3050,8 @@
             }
           },
           "vp": 6,
-          "exclusive_group": "quarters-tier"
+          "exclusive_group": "quarters-tier",
+          "label": "Four or more friendly units are wholly within four different table quarters and not within 6\" of the centre of the battlefield."
         },
         {
           "trigger": {
@@ -1913,7 +3059,8 @@
             "player_turn": "your-turn"
           },
           "vp_per": 1,
-          "per": "enemy-unit-destroyed-this-turn"
+          "per": "enemy-unit-destroyed-this-turn",
+          "label": "For each enemy unit destroyed this turn."
         },
         {
           "trigger": {
@@ -1931,13 +3078,59 @@
               "exclude": "home"
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "You control one or more objectives (excluding your home objective)."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "Three or more friendly units are wholly within three different table quarters and not within 6\" of the centre of the battlefield.",
+                "vp": "3VP"
+              },
+              {
+                "text": "Four or more friendly units are wholly within four different table quarters and not within 6\" of the centre of the battlefield.",
+                "vp": "6VP",
+                "or": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each enemy unit destroyed this turn.",
+                "vp": "1VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "3VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ]
+      }
     },
     {
       "id": "surveil-the-foe",
@@ -1959,7 +3152,8 @@
               "window": "this-turn"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "One or more enemy units were surveilled this turn (see below), unless each of those units is within range of one or more objectives that have one or more operation markers within range of them."
         },
         {
           "trigger": {
@@ -1977,7 +3171,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -1994,7 +3189,8 @@
               "relative_to": "opponent"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control more objectives than your opponent."
         },
         {
           "trigger": {
@@ -2011,7 +3207,8 @@
               "count_max": 0
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "None of your opponent’s operation markers are on the battlefield."
         }
       ],
       "actions": [
@@ -2054,7 +3251,77 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One or more enemy units were surveilled this turn (see below), unless each of those units is within range of one or more objectives that have one or more operation markers within range of them.",
+                "vp": "4VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              },
+              {
+                "text": "You control more objectives than your opponent.",
+                "vp": "4VP"
+              },
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "None of your opponent’s operation markers are on the battlefield.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ],
+        "intro": [
+          "Each time a friendly unit ends a move within range of one objective that has any of your opponent’s operation markers within range of it, remove those operation markers from the battlefield."
+        ],
+        "actions": [
+          {
+            "name": "SURVEIL THE FOE",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One friendly unit."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Unlimited."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "Immediately."
+              },
+              {
+                "label": "EFFECT",
+                "text": "Select one enemy unit within 18\" of and visible to your unit that has not been surveilled this turn: until the end of the turn, that enemy unit is surveilled."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "triangulation",
@@ -2078,7 +3345,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -2097,7 +3365,8 @@
             }
           },
           "vp": 3,
-          "exclusive_group": "triangulated-tier"
+          "exclusive_group": "triangulated-tier",
+          "label": "One objective is triangulated (see below)."
         },
         {
           "trigger": {
@@ -2116,7 +3385,8 @@
             }
           },
           "vp": 6,
-          "exclusive_group": "triangulated-tier"
+          "exclusive_group": "triangulated-tier",
+          "label": "Two objectives are triangulated."
         },
         {
           "trigger": {
@@ -2134,7 +3404,8 @@
             }
           },
           "vp": 10,
-          "exclusive_group": "triangulated-tier"
+          "exclusive_group": "triangulated-tier",
+          "label": "Three or more objectives are triangulated."
         },
         {
           "trigger": {
@@ -2147,7 +3418,8 @@
               "count_min": 4
             }
           },
-          "vp": 10
+          "vp": 10,
+          "label": "You control four or more objectives."
         }
       ],
       "actions": [
@@ -2185,7 +3457,82 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One objective is triangulated (see below).",
+                "vp": "3VP"
+              },
+              {
+                "text": "Two objectives are triangulated.",
+                "vp": "6VP",
+                "or": true
+              },
+              {
+                "text": "Three or more objectives are triangulated.",
+                "vp": "10VP",
+                "or": true
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "You control four or more objectives.",
+                "vp": "10VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ],
+        "actions": [
+          {
+            "name": "TRIANGULATE",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase, from the second battle round onwards."
+              },
+              {
+                "label": "UNITS",
+                "text": "One friendly unit within range of one objective (excluding your home objective)."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Once per turn."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "End of your turn, if your unit controls that objective."
+              },
+              {
+                "label": "EFFECT",
+                "text": "That objective is triangulated: place one of your operation markers within range of that objective."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "search-and-scour",
@@ -2205,7 +3552,8 @@
               "count_min": 1
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "You control one or more central objectives."
         },
         {
           "trigger": {
@@ -2219,7 +3567,8 @@
               "count_min": 1
             }
           },
-          "vp": 2
+          "vp": 2,
+          "label": "One or more enemy units that started the turn within a terrain area are destroyed."
         },
         {
           "trigger": {
@@ -2231,7 +3580,8 @@
             }
           },
           "vp_per": 4,
-          "per": "controlled-non-home-objective"
+          "per": "controlled-non-home-objective",
+          "label": "For each objective you control (excluding your home objective)."
         },
         {
           "trigger": {
@@ -2245,13 +3595,55 @@
               "enemy_units_max": 0
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "No enemy units are wholly within your territory."
         }
       ],
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control one or more central objectives.",
+                "vp": "3VP"
+              },
+              {
+                "text": "One or more enemy units that started the turn within a terrain area are destroyed.",
+                "vp": "2VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "For each objective you control (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "No enemy units are wholly within your territory.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ]
+      }
     },
     {
       "id": "gather-intel",
@@ -2275,7 +3667,8 @@
               "count_min": 1
             }
           },
-          "vp": 6
+          "vp": 6,
+          "label": "You control one or more central objectives."
         },
         {
           "trigger": {
@@ -2293,7 +3686,8 @@
               "exclude": "home"
             }
           },
-          "vp": 4
+          "vp": 4,
+          "label": "You control one or more objectives (excluding your home objective)."
         },
         {
           "trigger": {
@@ -2304,7 +3698,8 @@
             }
           },
           "vp_per": 7,
-          "per": "extract-intelligence-action-completed-this-turn"
+          "per": "extract-intelligence-action-completed-this-turn",
+          "label": "For each friendly unit that completed the Extract Intelligence action this turn (see below)."
         },
         {
           "trigger": {
@@ -2318,7 +3713,8 @@
               "count_min": 3
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "Three or more of your operation markers are on the battlefield."
         },
         {
           "trigger": {
@@ -2333,7 +3729,8 @@
               "within_range_of": "opponent-home-objective"
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "One of your operation markers is within range of your opponent’s home objective."
         }
       ],
       "actions": [
@@ -2361,7 +3758,88 @@
       "vpGameCap": 45,
       "vpRoundCap": 15,
       "secondaryGameCap": 45,
-      "secondaryRoundCap": 15
+      "secondaryRoundCap": 15,
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control one or more central objectives.",
+                "vp": "6VP"
+              }
+            ],
+            "header": "FIRST BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your Command phase (or the end of your turn in the fifth battle round)."
+              },
+              {
+                "text": "You control one or more objectives (excluding your home objective).",
+                "vp": "4VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each friendly unit that completed the Extract Intelligence action this turn (see below).",
+                "vp": "7VP"
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          },
+          {
+            "lines": [
+              {
+                "text": "Three or more of your operation markers are on the battlefield.",
+                "vp": "5VP"
+              },
+              {
+                "text": "One of your operation markers is within range of your opponent’s home objective.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "END OF THE BATTLE"
+          }
+        ],
+        "actions": [
+          {
+            "name": "EXTRACT INTELLIGENCE",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase, from the second battle round onwards."
+              },
+              {
+                "label": "UNITS",
+                "text": "One unit within range of one objective (excluding your home objective) that does not have any of your operation markers within range of it."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Unlimited. Each unit that starts this action this phase must be within range of a different objective."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "End of your turn, if your unit controls that objective."
+              },
+              {
+                "label": "EFFECT",
+                "text": "Place one of your operation markers within range of that objective."
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
   "secondaries": [
@@ -2395,9 +3873,29 @@
               }
             ]
           },
-          "vp": 5
+          "vp": 5,
+          "label": "You control your opponent’s home objective and/or each expansion objective."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control your opponent’s home objective and/or each expansion objective.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "WHEN DRAWN: If it is the first battle round, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck."
+        ]
+      }
     },
     {
       "id": "burden-of-trust",
@@ -2412,9 +3910,30 @@
           },
           "vp_per": 2,
           "per": "objective-guarded-by-your-army",
-          "vp_max": 5
+          "vp_max": 5,
+          "label": "For each objective guarded by your army."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your opponent’s turn or the end of the fifth battle round (whichever comes first)."
+              },
+              {
+                "text": "For each objective guarded by your army.",
+                "vp": "2VP",
+                "limit": "(UP TO 5VP)"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "WHEN DRAWN/START OF YOUR TURN: For each objective, you can select one friendly unit on the battlefield to guard that objective. Until the start of your next turn, while that unit is within range of that objective and while you control that objective, that objective is guarded by your army."
+        ]
+      }
     },
     {
       "id": "display-of-might",
@@ -2427,16 +3946,46 @@
             "timing": "end-of-turn",
             "player_turn": "your-turn"
           },
-          "vp": 2
+          "vp": 2,
+          "label": "There are more friendly units than enemy units (excluding AIRCRAFT and battle-shocked units) wholly within No Man’s Land."
         },
         {
           "trigger": {
             "timing": "end-of-turn",
             "player_turn": "opponent-turn"
           },
-          "vp": 5
+          "vp": 5,
+          "label": "There are more friendly units than enemy units (excluding AIRCRAFT and battle-shocked units) wholly within No Man’s Land."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "There are more friendly units than enemy units (excluding AIRCRAFT and battle-shocked units) wholly within No Man’s Land.",
+                "vp": "2VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          },
+          {
+            "lines": [
+              {
+                "when": "End of your opponent’s turn."
+              },
+              {
+                "text": "There are more friendly units than enemy units (excluding AIRCRAFT and battle-shocked units) wholly within No Man’s Land.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ]
+      }
     },
     {
       "id": "assassination",
@@ -2451,7 +4000,8 @@
           },
           "vp_per": 3,
           "per": "enemy-character-model-destroyed-this-turn",
-          "mode": "fixed"
+          "mode": "fixed",
+          "label": "For each enemy CHARACTER model destroyed this turn."
         },
         {
           "trigger": {
@@ -2461,7 +4011,8 @@
           "vp_per": 1,
           "per": "enemy-character-model-with-wounds-4-or-more-destroyed-this-turn",
           "cumulative": true,
-          "mode": "fixed"
+          "mode": "fixed",
+          "label": "For each of those models with a W of 4 or more."
         },
         {
           "trigger": {
@@ -2469,9 +4020,38 @@
             "player_turn": "either"
           },
           "vp": 5,
-          "mode": "tactical"
+          "mode": "tactical",
+          "label": "One or more enemy CHARACTER models were destroyed this turn, or all enemy CHARACTER models have been destroyed during the battle."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of a turn."
+              },
+              {
+                "text": "For each enemy CHARACTER model destroyed this turn.",
+                "vp": "3VP",
+                "limit": "FIXED"
+              },
+              {
+                "text": "For each of those models with a W of 4 or more.",
+                "vp": "+1VP",
+                "limit": "FIXED CUMULATIVE",
+                "plus": true
+              },
+              {
+                "text": "One or more enemy CHARACTER models were destroyed this turn, or all enemy CHARACTER models have been destroyed during the battle.",
+                "vp": "5VP",
+                "limit": "TACTICAL"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ]
+      }
     },
     {
       "id": "centre-ground",
@@ -2485,7 +4065,8 @@
             "player_turn": "your-turn"
           },
           "vp": 3,
-          "exclusive_group": "centre-hold"
+          "exclusive_group": "centre-hold",
+          "label": "One or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 3\" of the centre of the battlefield, and no enemy units are within 3\" of the centre of the battlefield."
         },
         {
           "trigger": {
@@ -2493,9 +4074,31 @@
             "player_turn": "your-turn"
           },
           "vp": 5,
-          "exclusive_group": "centre-hold"
+          "exclusive_group": "centre-hold",
+          "label": "One or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 3\" of the centre of the battlefield, and no enemy units are within 6\" of the centre of the battlefield."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 3\" of the centre of the battlefield, and no enemy units are within 3\" of the centre of the battlefield.",
+                "vp": "3VP"
+              },
+              {
+                "text": "One or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 3\" of the centre of the battlefield, and no enemy units are within 6\" of the centre of the battlefield.",
+                "vp": "5VP",
+                "or": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ]
+      }
     },
     {
       "id": "outflank",
@@ -2509,7 +4112,8 @@
             "player_turn": "your-turn"
           },
           "vp": 3,
-          "exclusive_group": "flank"
+          "exclusive_group": "flank",
+          "label": "One or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 6\" of one or more battlefield edges and not within your territory."
         },
         {
           "trigger": {
@@ -2517,9 +4121,34 @@
             "player_turn": "your-turn"
           },
           "vp": 5,
-          "exclusive_group": "flank"
+          "exclusive_group": "flank",
+          "label": "Two or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 6\" of opposite battlefield edges and one or more of those units is not within your territory."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 6\" of one or more battlefield edges and not within your territory.",
+                "vp": "3VP"
+              },
+              {
+                "text": "Two or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 6\" of opposite battlefield edges and one or more of those units is not within your territory.",
+                "vp": "5VP",
+                "or": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "Designer’s Note: Opposite battlefield edges are those parallel to each other."
+        ]
+      }
     },
     {
       "id": "plunder",
@@ -2540,7 +4169,8 @@
               "window": "this-turn"
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "A terrain area was plundered this turn."
         }
       ],
       "actions": [
@@ -2559,7 +4189,54 @@
             }
           }
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "A terrain area was plundered this turn.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "WHEN DRAWN: If the Cleanse Secondary Mission is active for you, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck."
+        ],
+        "actions": [
+          {
+            "name": "PLUNDER",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One unit within a terrain area that is not within your territory."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Once per turn."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "Immediately."
+              },
+              {
+                "label": "EFFECT",
+                "text": "That terrain area is plundered."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "engage-on-all-fronts",
@@ -2580,7 +4257,8 @@
           },
           "vp": 2,
           "exclusive_group": "fronts-fixed",
-          "mode": "fixed"
+          "mode": "fixed",
+          "label": "You have a presence in three table quarters."
         },
         {
           "trigger": {
@@ -2595,7 +4273,8 @@
           },
           "vp": 4,
           "exclusive_group": "fronts-fixed",
-          "mode": "fixed"
+          "mode": "fixed",
+          "label": "You have a presence in four table quarters."
         },
         {
           "trigger": {
@@ -2610,7 +4289,8 @@
           },
           "vp": 3,
           "exclusive_group": "fronts-tactical",
-          "mode": "tactical"
+          "mode": "tactical",
+          "label": "You have a presence in three table quarters."
         },
         {
           "trigger": {
@@ -2625,9 +4305,44 @@
           },
           "vp": 5,
           "exclusive_group": "fronts-tactical",
-          "mode": "tactical"
+          "mode": "tactical",
+          "label": "You have a presence in four table quarters."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You have a presence in three table quarters.",
+                "vp": "2VP",
+                "limit": "FIXED",
+                "alt": {
+                  "vp": "3VP",
+                  "limit": "TACTICAL"
+                }
+              },
+              {
+                "text": "You have a presence in four table quarters.",
+                "vp": "4VP",
+                "limit": "FIXED",
+                "alt": {
+                  "vp": "5VP",
+                  "limit": "TACTICAL"
+                },
+                "or": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "If one or more friendly units (excluding AIRCRAFT and battle-shocked units) are wholly within a table quarter, and those units are not within 6\" of the centre of the battlefield, you have a presence in that table quarter."
+        ]
+      }
     },
     {
       "id": "secure-no-mans-land",
@@ -2648,9 +4363,26 @@
               "exclude": "home"
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "You control two or more objectives within No Man’s Land (excluding your home objective)."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control two or more objectives within No Man’s Land (excluding your home objective).",
+                "vp": "5VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ]
+      }
     },
     {
       "id": "no-prisoners",
@@ -2665,9 +4397,27 @@
           },
           "vp_per": 2,
           "per": "enemy-unit-destroyed-this-turn",
-          "vp_max": 5
+          "vp_max": 5,
+          "label": "For each enemy unit destroyed this turn."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of a turn."
+              },
+              {
+                "text": "For each enemy unit destroyed this turn.",
+                "vp": "2VP",
+                "limit": "(UP TO 5VP)"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ]
+      }
     },
     {
       "id": "bring-it-down",
@@ -2682,7 +4432,8 @@
           },
           "vp_per": 4,
           "per": "enemy-model-with-wounds-10-or-more-destroyed-this-turn",
-          "mode": "fixed"
+          "mode": "fixed",
+          "label": "For each enemy model with a W of 10 or more destroyed this turn."
         },
         {
           "trigger": {
@@ -2692,9 +4443,34 @@
           "vp_per": 5,
           "per": "enemy-model-with-wounds-10-or-more-destroyed-this-turn",
           "vp_max": 5,
-          "mode": "tactical"
+          "mode": "tactical",
+          "label": "For each enemy model with a W of 10 or more destroyed this turn."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of a turn."
+              },
+              {
+                "text": "For each enemy model with a W of 10 or more destroyed this turn.",
+                "vp": "4VP",
+                "limit": "FIXED",
+                "alt": {
+                  "vp": "5VP",
+                  "limit": "TACTICAL (UP TO 5VP)"
+                }
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "WHEN DRAWN: If there are no enemy models with a W of 10 or more on the battlefield, you can discard this card and draw one new Secondary Mission card."
+        ]
+      }
     },
     {
       "id": "overwhelming-force",
@@ -2709,9 +4485,27 @@
           },
           "vp_per": 3,
           "per": "enemy-unit-destroyed-that-started-the-turn-within-range-of-an-objective",
-          "vp_max": 5
+          "vp_max": 5,
+          "label": "For each enemy unit that started the turn within range of one or more objectives and is destroyed."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of a turn."
+              },
+              {
+                "text": "For each enemy unit that started the turn within range of one or more objectives and is destroyed.",
+                "vp": "3VP",
+                "limit": "(UP TO 5VP)"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ]
+      }
     },
     {
       "id": "cleanse",
@@ -2733,7 +4527,8 @@
             }
           },
           "vp": 2,
-          "exclusive_group": "cleanse-count"
+          "exclusive_group": "cleanse-count",
+          "label": "One objective was cleansed by your army this turn."
         },
         {
           "trigger": {
@@ -2748,7 +4543,8 @@
             }
           },
           "vp": 5,
-          "exclusive_group": "cleanse-count"
+          "exclusive_group": "cleanse-count",
+          "label": "Two or more objectives were cleansed by your army this turn."
         }
       ],
       "actions": [
@@ -2781,7 +4577,59 @@
             }
           }
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "One objective was cleansed by your army this turn.",
+                "vp": "2VP"
+              },
+              {
+                "text": "Two or more objectives were cleansed by your army this turn.",
+                "vp": "5VP",
+                "or": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "WHEN DRAWN: If the Plunder Secondary Mission is active for you, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck."
+        ],
+        "actions": [
+          {
+            "name": "CLEANSE",
+            "type": "OBJECTIVE ACTION",
+            "rows": [
+              {
+                "label": "STARTS",
+                "text": "Your Shooting phase."
+              },
+              {
+                "label": "UNITS",
+                "text": "One friendly unit within range of one objective (excluding your home objective)."
+              },
+              {
+                "label": "USE LIMIT",
+                "text": "Unlimited. Each unit that starts this action this phase must be within range of a different objective."
+              },
+              {
+                "label": "COMPLETES",
+                "text": "End of your turn, if that unit is controlling that objective."
+              },
+              {
+                "label": "EFFECT",
+                "text": "That objective is cleansed by your army."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "behind-enemy-lines",
@@ -2796,9 +4644,30 @@
           },
           "vp_per": 3,
           "per": "friendly-unit-wholly-within-opponent-deployment-zone",
-          "vp_max": 5
+          "vp_max": 5,
+          "label": "For each friendly unit (excluding AIRCRAFT and battle-shocked units) wholly within your opponent’s deployment zone."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "For each friendly unit (excluding AIRCRAFT and battle-shocked units) wholly within your opponent’s deployment zone.",
+                "vp": "3VP",
+                "limit": "(UP TO 5VP)"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "WHEN DRAWN: If it is the first battle round, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck."
+        ]
+      }
     },
     {
       "id": "defend-stronghold",
@@ -2821,7 +4690,8 @@
               "objective": "your-home"
             }
           },
-          "vp": 3
+          "vp": 3,
+          "label": "You control your home objective."
         },
         {
           "trigger": {
@@ -2839,9 +4709,35 @@
             }
           },
           "vp": 2,
-          "cumulative": true
+          "cumulative": true,
+          "label": "No enemy units are within your deployment zone."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your opponent’s turn or the end of the fifth battle round (whichever comes first)."
+              },
+              {
+                "text": "You control your home objective.",
+                "vp": "3VP"
+              },
+              {
+                "text": "No enemy units are within your deployment zone.",
+                "vp": "+2VP",
+                "limit": "CUMULATIVE",
+                "plus": true
+              }
+            ],
+            "header": "SECOND BATTLE ROUND ONWARDS"
+          }
+        ],
+        "intro": [
+          "WHEN DRAWN: If it is the first battle round, draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck."
+        ]
+      }
     },
     {
       "id": "a-tempting-target",
@@ -2861,9 +4757,29 @@
               "objective": "tempting-target"
             }
           },
-          "vp": 5
+          "vp": 5,
+          "label": "You control your tempting target."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your turn."
+              },
+              {
+                "text": "You control your tempting target.",
+                "vp": "5VP"
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "WHEN DRAWN: Your opponent selects one objective (excluding home objectives) within No Man’s Land to be your tempting target."
+        ]
+      }
     },
     {
       "id": "a-grievous-blow",
@@ -2878,7 +4794,8 @@
           },
           "vp_per": 4,
           "per": "enemy-unit-of-13-or-more-starting-strength-destroyed-this-turn",
-          "mode": "fixed"
+          "mode": "fixed",
+          "label": "For each enemy unit with a starting strength of 13+ destroyed this turn."
         },
         {
           "trigger": {
@@ -2888,9 +4805,34 @@
           "vp_per": 5,
           "per": "enemy-unit-of-13-or-more-starting-strength-destroyed-this-turn",
           "vp_max": 5,
-          "mode": "tactical"
+          "mode": "tactical",
+          "label": "For each enemy unit with a starting strength of 13+ destroyed this turn."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of a turn."
+              },
+              {
+                "text": "For each enemy unit with a starting strength of 13+ destroyed this turn.",
+                "vp": "4VP",
+                "limit": "FIXED",
+                "alt": {
+                  "vp": "5VP",
+                  "limit": "TACTICAL (UP TO 5VP)"
+                }
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "WHEN DRAWN: If there are no enemy units with a starting strength of 13+ on the battlefield, you can discard this card and draw one new Secondary Mission card."
+        ]
+      }
     },
     {
       "id": "beacon",
@@ -2905,7 +4847,8 @@
           },
           "vp_per": 3,
           "per": "beacon-unit-on-battlefield-not-in-own-deployment-zone",
-          "exclusive_group": "beacon-position"
+          "exclusive_group": "beacon-position",
+          "label": "Your beacon unit is on the battlefield and not within your deployment zone."
         },
         {
           "trigger": {
@@ -2914,9 +4857,34 @@
           },
           "vp_per": 5,
           "per": "beacon-unit-on-battlefield-not-in-own-territory",
-          "exclusive_group": "beacon-position"
+          "exclusive_group": "beacon-position",
+          "label": "Your beacon unit is on the battlefield and not within your territory."
         }
-      ]
+      ],
+      "rules": {
+        "blocks": [
+          {
+            "lines": [
+              {
+                "when": "End of your opponent’s turn or the end of the fifth battle round (whichever comes first)."
+              },
+              {
+                "text": "Your beacon unit is on the battlefield and not within your deployment zone.",
+                "vp": "3VP"
+              },
+              {
+                "text": "Your beacon unit is on the battlefield and not within your territory.",
+                "vp": "5VP",
+                "or": true
+              }
+            ],
+            "header": "ANY BATTLE ROUND"
+          }
+        ],
+        "intro": [
+          "WHEN DRAWN: Select one friendly unit on the battlefield or embarked within a TRANSPORT on the battlefield to be your beacon unit."
+        ]
+      }
     }
   ],
   "deployments": [

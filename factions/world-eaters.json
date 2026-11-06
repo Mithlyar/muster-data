@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
+    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
     "file": "Chaos - World Eaters.json",
     "gameSystemRevision": 18
   },
@@ -4510,7 +4510,7 @@
               "skill": "3+",
               "S": "16",
               "AP": "-4",
-              "D": "D6+3",
+              "D": "D3+6",
               "keywords": [
                 "Twin-linked"
               ]
@@ -4531,6 +4531,7 @@
               "AP": "-1",
               "D": "2",
               "keywords": [
+                "Rapid Fire 2",
                 "Sustained Hits 1"
               ]
             }
@@ -4544,13 +4545,13 @@
               "name": "Heavy flamer",
               "kind": "ranged",
               "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
+              "A": "3",
+              "skill": "-",
               "S": "5",
               "AP": "-1",
               "D": "1",
               "keywords": [
-                "Ignores Cover",
+                "Blast 1",
                 "Torrent"
               ]
             }
@@ -4569,11 +4570,11 @@
               "range": "18\"",
               "A": "2",
               "skill": "3+",
-              "S": "9",
+              "S": "10",
               "AP": "-4",
-              "D": "D6",
+              "D": "D3+2",
               "keywords": [
-                "Melta 2"
+                "Melta 3"
               ]
             }
           ],
@@ -4591,8 +4592,8 @@
               "range": "24\"",
               "A": "2",
               "skill": "3+",
-              "S": "4",
-              "AP": "0",
+              "S": "5",
+              "AP": "-1",
               "D": "1",
               "keywords": [
                 "Rapid Fire 2"
@@ -4612,7 +4613,7 @@
               "skill": "3+",
               "S": "12",
               "AP": "-3",
-              "D": "D6+1",
+              "D": "D3+3",
               "keywords": []
             }
           ]
@@ -4710,11 +4711,7 @@
       "abilities": [
         {
           "name": "Atomantic Arc-reactor",
-          "text": "Each time this unit shoots its Cerberus neutron pulse array in your Shooting phase, provided it Remained Stationary this turn, that weapon has the [LETHAL HITS] ability."
-        },
-        {
-          "name": "Damaged: 1-6 wounds remaining",
-          "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "text": "In a turn this unit remained stationary, this unit's Cerberus Neutron Pulse Array ranged attacks have [LETHAL HITS]."
         }
       ],
       "rules": [
@@ -4727,22 +4724,28 @@
           "name": "Combat Doctrines"
         },
         {
+          "id": "c68c-a968-354f-bb99",
+          "name": "Damaged 6"
+        },
+        {
           "id": "e68b-b42f-6f7c-4670",
           "name": "Blessings of Khorne"
         }
       ],
       "selfEffects": [
         {
-          "rule": "Damaged: 1-6 wounds remaining",
-          "stats": [],
-          "rolls": [
+          "rule": "Atomantic Arc-reactor",
+          "stats": [
             {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true,
+              "weaponName": "cerberus neutron pulse array"
             }
           ],
-          "onlyModel": true
+          "condition": "In a turn this unit remained stationary, this unit's Cerberus Neutron Pulse Array ranged attacks have [LETHAL HITS]."
         }
       ]
     },
@@ -8566,7 +8569,7 @@
               "skill": "3+",
               "S": "12",
               "AP": "-3",
-              "D": "D6+1",
+              "D": "D3+3",
               "keywords": []
             }
           ]
@@ -8585,6 +8588,7 @@
               "AP": "-1",
               "D": "2",
               "keywords": [
+                "Rapid Fire 2",
                 "Sustained Hits 1",
                 "Twin-linked"
               ]
@@ -9466,388 +9470,6 @@
               "roll": "hit",
               "mod": -1,
               "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        }
-      ]
-    },
-    {
-      "id": "d38d-c3a2-f753-efea",
-      "name": "Deredeo Dreadnought",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Smoke",
-        "Dreadnought",
-        "Deredeo Dreadnought",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 160
-        }
-      ],
-      "models": [
-        {
-          "name": "Deredeo Dreadnought",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "6\"",
-            "T": "9",
-            "Sv": "2+",
-            "W": "12",
-            "Ld": "6+",
-            "OC": "3",
-            "InvSv": "5+",
-            "base": "~60mm"
-          },
-          "loadout": [
-            "f1a6-b394-5bc5-a3cb",
-            "9f7e-9f17-a4f6-6ca3",
-            "d961-1269-6476-6f8c"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "6313-d69d-a02f-d70a",
-          "name": "Aiolos missile launcher",
-          "profiles": [
-            {
-              "name": "Aiolos missile launcher",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "D6+3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Blast"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "788d-c410-2d44-4f90",
-          "name": "Boreas air defence missiles",
-          "profiles": [
-            {
-              "name": "Boreas air defence missiles",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": [
-                "Anti-FLY 2+"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "f1a6-b394-5bc5-a3cb",
-          "name": "Twin heavy bolter",
-          "profiles": [
-            {
-              "name": "Twin heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "28c2-3ff0-43c1-380d",
-          "name": "Twin heavy flamer",
-          "profiles": [
-            {
-              "name": "Twin heavy flamer",
-              "kind": "ranged",
-              "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
-              "S": "5",
-              "AP": "-1",
-              "D": "1",
-              "keywords": [
-                "Ignores Cover",
-                "Torrent",
-                "Twin-linked"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon"
-          ]
-        },
-        {
-          "id": "9f7e-9f17-a4f6-6ca3",
-          "name": "Anvilus autocannon battery",
-          "profiles": [
-            {
-              "name": "Anvilus autocannon battery",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "4",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-1",
-              "D": "3",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "b8aa-c5f2-73a5-cbc7",
-          "name": "Arachnus heavy lascannon battery",
-          "profiles": [
-            {
-              "name": "Arachnus heavy lascannon battery",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "38d1-69c8-5254-7020",
-          "name": "Volkite falconet battery",
-          "profiles": [
-            {
-              "name": "Volkite falconet battery",
-              "kind": "ranged",
-              "range": "30\"",
-              "A": "6",
-              "skill": "3+",
-              "S": "9",
-              "AP": "0",
-              "D": "2",
-              "keywords": [
-                "Devastating Wounds"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "d7e2-f35-e37f-52e9",
-          "name": "Hellfire plasma carronade",
-          "profiles": [
-            {
-              "name": "Hellfire plasma carronade - standard",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "6",
-              "skill": "3+",
-              "S": "7",
-              "AP": "-2",
-              "D": "2",
-              "keywords": []
-            },
-            {
-              "name": "Hellfire plasma carronade - supercharge",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "6",
-              "skill": "3+",
-              "S": "8",
-              "AP": "-3",
-              "D": "3",
-              "keywords": [
-                "Hazardous"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "d961-1269-6476-6f8c",
-          "name": "Armoured feet",
-          "profiles": [
-            {
-              "name": "Armoured feet",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "6",
-              "skill": "3+",
-              "S": "6",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "efda-6f1f-af02-5b4",
-          "name": "Carapace weapon",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "6313-d69d-a02f-d70a",
-              "name": "Aiolos missile launcher",
-              "weaponIds": [
-                "6313-d69d-a02f-d70a"
-              ],
-              "points": 0
-            },
-            {
-              "id": "788d-c410-2d44-4f90",
-              "name": "Boreas air defence missiles",
-              "weaponIds": [
-                "788d-c410-2d44-4f90"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "8efe-69fb-79e4-92d1",
-          "name": "Chest weapon",
-          "model": null,
-          "min": 1,
-          "max": 1,
-          "defaultChoiceId": "ac6f-47d-9903-9037",
-          "choices": [
-            {
-              "id": "ac6f-47d-9903-9037",
-              "name": "Twin heavy bolter",
-              "weaponIds": [
-                "f1a6-b394-5bc5-a3cb"
-              ],
-              "points": 0
-            },
-            {
-              "id": "74a2-3f00-9720-a8da",
-              "name": "Twin heavy flamer",
-              "weaponIds": [
-                "28c2-3ff0-43c1-380d"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "d851-aa5-2ba8-6e8d",
-          "name": "Main weapon",
-          "model": null,
-          "min": 1,
-          "max": 1,
-          "defaultChoiceId": "9f7e-9f17-a4f6-6ca3",
-          "choices": [
-            {
-              "id": "9f7e-9f17-a4f6-6ca3",
-              "name": "Anvilus autocannon battery",
-              "weaponIds": [
-                "9f7e-9f17-a4f6-6ca3"
-              ],
-              "points": 0
-            },
-            {
-              "id": "b8aa-c5f2-73a5-cbc7",
-              "name": "Arachnus heavy lascannon battery",
-              "weaponIds": [
-                "b8aa-c5f2-73a5-cbc7"
-              ],
-              "points": 0
-            },
-            {
-              "id": "38d1-69c8-5254-7020",
-              "name": "Volkite falconet battery",
-              "weaponIds": [
-                "38d1-69c8-5254-7020"
-              ],
-              "points": 0
-            },
-            {
-              "id": "d7e2-f35-e37f-52e9",
-              "name": "Hellfire plasma carronade",
-              "weaponIds": [
-                "d7e2-f35-e37f-52e9"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Deredeo Strike",
-          "text": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
-        },
-        {
-          "name": "Damaged: 1-4 wounds remaining",
-          "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D3"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        },
-        {
-          "id": "e68b-b42f-6f7c-4670",
-          "name": "Blessings of Khorne"
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Deredeo Strike",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": "reroll",
-              "kind": "ranged",
-              "condition": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        },
-        {
-          "rule": "Damaged: 1-4 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
           "onlyModel": true
@@ -10950,10 +10572,10 @@
               "A": "D3+1",
               "skill": "3+",
               "S": "24",
-              "AP": "-5",
+              "AP": "-4",
               "D": "12",
               "keywords": [
-                "Blast",
+                "Blast 1",
                 "Twin-linked"
               ]
             }
@@ -10973,6 +10595,7 @@
               "AP": "-1",
               "D": "2",
               "keywords": [
+                "Rapid Fire 2",
                 "Sustained Hits 1",
                 "Twin-linked"
               ]
@@ -10987,13 +10610,13 @@
               "name": "Twin heavy flamer",
               "kind": "ranged",
               "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
+              "A": "3",
+              "skill": "-",
               "S": "5",
               "AP": "-1",
               "D": "1",
               "keywords": [
-                "Ignores Cover",
+                "Blast 1",
                 "Torrent",
                 "Twin-linked"
               ]
@@ -11017,6 +10640,7 @@
               "AP": "-1",
               "D": "2",
               "keywords": [
+                "Rapid Fire 2",
                 "Sustained Hits 1"
               ]
             }
@@ -11030,13 +10654,13 @@
               "name": "Heavy flamer",
               "kind": "ranged",
               "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
+              "A": "3",
+              "skill": "-",
               "S": "5",
               "AP": "-1",
               "D": "1",
               "keywords": [
-                "Ignores Cover",
+                "Blast 1",
                 "Torrent"
               ]
             }
@@ -11055,11 +10679,11 @@
               "range": "18\"",
               "A": "2",
               "skill": "3+",
-              "S": "9",
+              "S": "10",
               "AP": "-4",
-              "D": "D6",
+              "D": "D3+2",
               "keywords": [
-                "Melta 2"
+                "Melta 3"
               ]
             }
           ],
@@ -11077,8 +10701,8 @@
               "range": "24\"",
               "A": "2",
               "skill": "3+",
-              "S": "4",
-              "AP": "0",
+              "S": "5",
+              "AP": "-1",
               "D": "1",
               "keywords": [
                 "Rapid Fire 2"
@@ -11098,7 +10722,7 @@
               "skill": "3+",
               "S": "12",
               "AP": "-3",
-              "D": "D6+1",
+              "D": "D3+3",
               "keywords": []
             }
           ]
@@ -11111,11 +10735,11 @@
               "name": "Laser destroyer",
               "kind": "ranged",
               "range": "36\"",
-              "A": "3",
+              "A": "2",
               "skill": "3+",
               "S": "14",
               "AP": "-4",
-              "D": "D6+1",
+              "D": "D6+3",
               "keywords": [
                 "Heavy"
               ]
@@ -11241,11 +10865,7 @@
       "abilities": [
         {
           "name": "Titan-killer",
-          "text": "Each time this model makes a ranged attack with its twin Falchion volcano cannon that targets a MONSTER or VEHICLE unit, that attack has the [DEVASTATING WOUNDS] ability."
-        },
-        {
-          "name": "Damaged: 1-8 wounds remaining",
-          "text": "While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+          "text": "This unit's Twin Falchion Volcano Cannon ranged attacks that target a **^^Monster/Vehicle^^** unit have [DEVASTATING WOUNDS]."
         }
       ],
       "rules": [
@@ -11258,313 +10878,28 @@
           "name": "Combat Doctrines"
         },
         {
+          "id": "c68c-a968-354f-bb99",
+          "name": "Damaged 8"
+        },
+        {
           "id": "e68b-b42f-6f7c-4670",
           "name": "Blessings of Khorne"
         }
       ],
       "selfEffects": [
         {
-          "rule": "Damaged: 1-8 wounds remaining",
+          "rule": "Titan-killer",
           "stats": [
             {
-              "on": "unit",
-              "stat": "OC",
-              "op": "add",
-              "value": -4,
-              "fromText": true
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true,
+              "weaponName": "twin falchion volcano cannon"
             }
           ],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-8 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true,
-          "condition": "While this model has 1-8 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-        }
-      ]
-    },
-    {
-      "id": "1fc7-7880-e4d4-acbf",
-      "name": "Fire Raptor Gunship",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Fly",
-        "Aircraft",
-        "Fire Raptor Gunship",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 290
-        }
-      ],
-      "models": [
-        {
-          "name": "Fire Raptor Gunship",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "20+\"",
-            "T": "10",
-            "Sv": "3+",
-            "W": "18",
-            "Ld": "6+",
-            "OC": "0",
-            "base": "120x92mm"
-          },
-          "loadout": [
-            "db27-8efc-265a-ffda",
-            "9f56-5d6e-54a6-9b94",
-            "9f56-5d6e-54a6-9b94",
-            "91af-5656-a301-8e2b",
-            "91af-5656-a301-8e2b",
-            "3fc0-1753-fefb-89b5"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "db27-8efc-265a-ffda",
-          "name": "Twin avenger bolt cannon",
-          "profiles": [
-            {
-              "name": "Twin avenger bolt cannon",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "10",
-              "skill": "3+",
-              "S": "6",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "9f56-5d6e-54a6-9b94",
-          "name": "Twin autocannon",
-          "profiles": [
-            {
-              "name": "Twin autocannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-1",
-              "D": "3",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "123b-9895-596e-bea1",
-          "name": "Quad heavy bolter",
-          "profiles": [
-            {
-              "name": "Quad heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "6",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Twin-linked",
-                "Sustained Hits 1"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "91af-5656-a301-8e2b",
-          "name": "Twin hellstrike launcher",
-          "profiles": [
-            {
-              "name": "Twin hellstrike launcher",
-              "kind": "ranged",
-              "range": "72\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "10",
-              "AP": "-3",
-              "D": "D6",
-              "keywords": [
-                "Anti-Fly 2+",
-                "Twin-linked"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "c36c-6247-f673-fe00",
-          "name": "Twin lascannon",
-          "profiles": [
-            {
-              "name": "Twin lascannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "3fc0-1753-fefb-89b5",
-          "name": "Armoured hull",
-          "profiles": [
-            {
-              "name": "Armoured hull",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "6",
-              "skill": "4+",
-              "S": "8",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "5375-8b44-9188-ec17",
-          "name": "Door weapons",
-          "model": null,
-          "min": 1,
-          "max": 1,
-          "defaultChoiceId": "eb13-ff43-e33a-1d92",
-          "choices": [
-            {
-              "id": "eb13-ff43-e33a-1d92",
-              "name": "Two twin autocannons",
-              "weaponIds": [
-                "9f56-5d6e-54a6-9b94",
-                "9f56-5d6e-54a6-9b94"
-              ],
-              "points": 0
-            },
-            {
-              "id": "e4c4-2df9-a4e6-c92",
-              "name": "Two quad heavy bolters",
-              "weaponIds": [
-                "123b-9895-596e-bea1",
-                "123b-9895-596e-bea1"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "acac-e978-cd95-4640",
-          "name": "Wing weapons",
-          "model": null,
-          "min": 1,
-          "max": 1,
-          "defaultChoiceId": "831-7d99-a4e8-60df",
-          "choices": [
-            {
-              "id": "831-7d99-a4e8-60df",
-              "name": "Two twin hellstrike launchers",
-              "weaponIds": [
-                "91af-5656-a301-8e2b",
-                "91af-5656-a301-8e2b"
-              ],
-              "points": 0
-            },
-            {
-              "id": "e2ba-d167-3412-3277",
-              "name": "Two twin lascannons",
-              "weaponIds": [
-                "c36c-6247-f673-fe00",
-                "c36c-6247-f673-fe00"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Strafing Run",
-          "text": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
-        },
-        {
-          "name": "Damaged: 1-6 wounds remaining",
-          "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D6"
-        },
-        {
-          "id": "eec5-5f54-9c03-c305",
-          "name": "Hover"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        },
-        {
-          "id": "e68b-b42f-6f7c-4670",
-          "name": "Blessings of Khorne"
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Strafing Run",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": 1,
-              "kind": "ranged",
-              "condition": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        },
-        {
-          "rule": "Damaged: 1-6 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
+          "condition": "This unit's Twin Falchion Volcano Cannon ranged attacks that target a Monster/Vehicle unit have [DEVASTATING WOUNDS]."
         }
       ]
     },
@@ -13466,6 +12801,7 @@
               "weaponName": "close combat weapon"
             }
           ],
+          "onlyModel": true,
           "condition": "If this model is equipped with 2 melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons."
         }
       ]
@@ -16422,7 +15758,8 @@
               "mod": "rerollOne",
               "condition": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-9 wounds remaining",
@@ -17369,6 +16706,7 @@
               "AP": "-1",
               "D": "2",
               "keywords": [
+                "Rapid Fire 2",
                 "Sustained Hits 1"
               ]
             }
@@ -17405,7 +16743,7 @@
               "skill": "3+",
               "S": "12",
               "AP": "-3",
-              "D": "D6+1",
+              "D": "D3+3",
               "keywords": []
             }
           ]
@@ -17423,7 +16761,9 @@
               "S": "9",
               "AP": "-1",
               "D": "3",
-              "keywords": []
+              "keywords": [
+                "Rapid Fire 2"
+              ]
             }
           ]
         },
@@ -17432,29 +16772,29 @@
           "name": "Kratos battlecannon",
           "profiles": [
             {
-              "name": "Kratos battlecannon - AP",
+              "name": "Kratos battlecannon (Piercing)",
               "kind": "ranged",
               "range": "36\"",
               "A": "1",
               "skill": "3+",
               "S": "18",
               "AP": "-4",
-              "D": "D6+3",
+              "D": "D3+6",
               "keywords": [
                 "Heavy"
               ]
             },
             {
-              "name": "Kratos battlecannon - HE",
+              "name": "Kratos battlecannon (Blast)",
               "kind": "ranged",
               "range": "36\"",
-              "A": "D6+3",
+              "A": "D3+3",
               "skill": "3+",
               "S": "10",
               "AP": "-1",
               "D": "3",
               "keywords": [
-                "Blast"
+                "Blast 2"
               ]
             }
           ]
@@ -17471,9 +16811,9 @@
               "skill": "3+",
               "S": "12",
               "AP": "-4",
-              "D": "D6",
+              "D": "D3+2",
               "keywords": [
-                "Melta 2"
+                "Melta 3"
               ]
             }
           ],
@@ -17510,8 +16850,8 @@
               "range": "24\"",
               "A": "2",
               "skill": "3+",
-              "S": "4",
-              "AP": "0",
+              "S": "5",
+              "AP": "-1",
               "D": "1",
               "keywords": [
                 "Twin-linked"
@@ -17548,13 +16888,13 @@
               "name": "Heavy flamer",
               "kind": "ranged",
               "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
+              "A": "3",
+              "skill": "-",
               "S": "5",
               "AP": "-1",
               "D": "1",
               "keywords": [
-                "Ignores Cover",
+                "Blast 1",
                 "Torrent"
               ]
             }
@@ -17573,11 +16913,11 @@
               "range": "18\"",
               "A": "2",
               "skill": "3+",
-              "S": "9",
+              "S": "10",
               "AP": "-4",
-              "D": "D6",
+              "D": "D3+2",
               "keywords": [
-                "Melta 2"
+                "Melta 3"
               ]
             }
           ],
@@ -17593,13 +16933,13 @@
               "name": "Havoc launcher",
               "kind": "ranged",
               "range": "48\"",
-              "A": "D6",
+              "A": "3",
               "skill": "3+",
               "S": "5",
-              "AP": "0",
+              "AP": "-1",
               "D": "1",
               "keywords": [
-                "Blast"
+                "Blast 1"
               ]
             }
           ],
@@ -17873,11 +17213,7 @@
       "abilities": [
         {
           "name": "Line-breaker",
-          "text": "When making ranged attacks, this model can target enemy units within Engagement Range of it with Blast weapons (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
-        },
-        {
-          "name": "Damaged: 1-6 wounds remaining",
-          "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "text": "In your Shooting phase, when this unit is selected to shoot using close-quarters shooting:\n- This unit's attacks that target a unit engaged with this unit can ignore modifiers to:\n- BS.\n- Hit rolls.\n- For each of this unit's [Blast] weapons, you can choose for that weapon to not have [Blast]:\n- If you do, that weapon can only target an enemy unit that is not engaged with another friendly unit."
         }
       ],
       "rules": [
@@ -17890,22 +17226,34 @@
           "name": "Combat Doctrines"
         },
         {
+          "id": "c68c-a968-354f-bb99",
+          "name": "Damaged 6"
+        },
+        {
           "id": "e68b-b42f-6f7c-4670",
           "name": "Blessings of Khorne"
         }
       ],
       "selfEffects": [
         {
-          "rule": "Damaged: 1-6 wounds remaining",
-          "stats": [],
-          "rolls": [
+          "rule": "Line-breaker",
+          "stats": [
             {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Blast",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Blast",
+              "fromText": true
             }
           ],
-          "onlyModel": true
+          "condition": "when chosen: In your Shooting phase, when this unit is selected to shoot using close-quarters shooting This unit's attacks that target a unit engaged with this unit can ignore modifiers to For each of this unit's [Blast] weapons, you can choose for that weapon to not have [Blast] If you do, that weapon can only target an enemy unit that is not engaged with another friendly unit."
         }
       ]
     },
@@ -18056,1187 +17404,6 @@
           ],
           "onlyModel": true,
           "condition": "While this model has 1-8 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-        }
-      ]
-    },
-    {
-      "id": "3006-ffe-2b0c-6b1b",
-      "name": "Land Raider Achilles",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Transport",
-        "Smoke",
-        "Land Raider Achilles",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 230
-        }
-      ],
-      "models": [
-        {
-          "name": "Land Raider Achilles",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "10\"",
-            "T": "12",
-            "Sv": "2+",
-            "W": "16",
-            "Ld": "6+",
-            "OC": "5",
-            "InvSv": "4+",
-            "base": "Hull"
-          },
-          "loadout": [
-            "4709-be86-dece-75c8",
-            "5030-c511-fac-674f",
-            "5030-c511-fac-674f",
-            "3013-a16f-26c5-21fa"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "4709-be86-dece-75c8",
-          "name": "Quad launcher",
-          "profiles": [
-            {
-              "name": "Quad launcher - shatter shells",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "4",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-2",
-              "D": "3",
-              "keywords": []
-            },
-            {
-              "name": "Quad launcher - thunderfire shells",
-              "kind": "ranged",
-              "range": "60\"",
-              "A": "D6+4",
-              "skill": "3+",
-              "S": "5",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Blast",
-                "Indirect Fire"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "d243-77eb-2a1-ff34",
-          "name": "Heavy bolter",
-          "profiles": [
-            {
-              "name": "Heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "f1a6-b394-5bc5-a3cb",
-          "name": "Twin heavy bolter",
-          "profiles": [
-            {
-              "name": "Twin heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "91c8-b628-4d47-d01e",
-          "name": "Multi-melta",
-          "profiles": [
-            {
-              "name": "Multi-melta",
-              "kind": "ranged",
-              "range": "18\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-4",
-              "D": "D6",
-              "keywords": [
-                "Melta 2"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "28c2-3ff0-43c1-380d",
-          "name": "Twin heavy flamer",
-          "profiles": [
-            {
-              "name": "Twin heavy flamer",
-              "kind": "ranged",
-              "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
-              "S": "5",
-              "AP": "-1",
-              "D": "1",
-              "keywords": [
-                "Ignores Cover",
-                "Torrent",
-                "Twin-linked"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon"
-          ]
-        },
-        {
-          "id": "5030-c511-fac-674f",
-          "name": "Twin volkite culverin",
-          "profiles": [
-            {
-              "name": "Twin volkite culverin",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "4",
-              "skill": "3+",
-              "S": "6",
-              "AP": "0",
-              "D": "2",
-              "keywords": [
-                "Devastating Wounds",
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2fe0-75a1-6ab0-f2d1",
-          "name": "Twin multi-melta",
-          "profiles": [
-            {
-              "name": "Twin multi-melta",
-              "kind": "ranged",
-              "range": "18\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-4",
-              "D": "D6",
-              "keywords": [
-                "Melta 2",
-                "Twin-linked"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "3013-a16f-26c5-21fa",
-          "name": "Armoured tracks",
-          "profiles": [
-            {
-              "name": "Armoured tracks",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "6",
-              "skill": "4+",
-              "S": "8",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "308-b972-2863-2a32",
-          "name": "Hunter-killer missile",
-          "profiles": [
-            {
-              "name": "Hunter-killer missile",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "2+",
-              "S": "14",
-              "AP": "-3",
-              "D": "D6",
-              "keywords": [
-                "One Shot"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "7eb4-c21c-d0a2-39df",
-          "name": "Storm bolter",
-          "profiles": [
-            {
-              "name": "Storm bolter",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "4",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ]
-            }
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "a519-7e4a-4293-fb7f",
-          "name": "Additional weapon",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "eaeb-d250-5cbe-f88d",
-              "name": "Heavy bolter",
-              "weaponIds": [
-                "d243-77eb-2a1-ff34"
-              ],
-              "points": 0
-            },
-            {
-              "id": "9f28-7c6a-410c-6438",
-              "name": "Twin heavy bolter",
-              "weaponIds": [
-                "f1a6-b394-5bc5-a3cb"
-              ],
-              "points": 0
-            },
-            {
-              "id": "e7f5-6c8e-be0d-5e38",
-              "name": "Multi-melta",
-              "weaponIds": [
-                "91c8-b628-4d47-d01e"
-              ],
-              "points": 0
-            },
-            {
-              "id": "494e-24ea-e98d-b4f3",
-              "name": "Twin heavy flamer",
-              "weaponIds": [
-                "28c2-3ff0-43c1-380d"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "fac9-9484-cda5-a955",
-          "name": "Sponsons",
-          "model": null,
-          "min": 1,
-          "max": 1,
-          "defaultChoiceId": "5d97-1777-a27e-c54f",
-          "choices": [
-            {
-              "id": "5d97-1777-a27e-c54f",
-              "name": "Two twin volkite culverins",
-              "weaponIds": [
-                "5030-c511-fac-674f",
-                "5030-c511-fac-674f"
-              ],
-              "points": 0
-            },
-            {
-              "id": "f4d3-14b4-208e-91b4",
-              "name": "Two twin multi-meltas",
-              "weaponIds": [
-                "2fe0-75a1-6ab0-f2d1",
-                "2fe0-75a1-6ab0-f2d1"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "e50b-5b1d-7f54-a349",
-          "name": "Hunter-killer missile",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "e50b-5b1d-7f54-a349",
-              "name": "Hunter-killer missile",
-              "weaponIds": [
-                "308-b972-2863-2a32"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "eaa7-88f9-a8dd-2971",
-          "name": "Storm bolter",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "eaa7-88f9-a8dd-2971",
-              "name": "Storm bolter",
-              "weaponIds": [
-                "7eb4-c21c-d0a2-39df"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Damaged: 1-5 wounds remaining",
-          "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        },
-        {
-          "name": "Assault Ramp",
-          "text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D6"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        }
-      ],
-      "extras": [
-        {
-          "type": "Transport",
-          "name": "Land Raider Achilles",
-          "text": "This model has a transport capacity of 12 <FACTION> INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models."
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Damaged: 1-5 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        }
-      ]
-    },
-    {
-      "id": "34c8-1025-33f7-baaf",
-      "name": "Land Raider Proteus",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Transport",
-        "Smoke",
-        "Land Raider Proteus",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 220
-        }
-      ],
-      "models": [
-        {
-          "name": "Land Raider Proteus",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "12\"",
-            "T": "12",
-            "Sv": "2+",
-            "W": "16",
-            "Ld": "6+",
-            "OC": "5",
-            "base": "Hull"
-          },
-          "loadout": [
-            "3013-a16f-26c5-21fa",
-            "c36c-6247-f673-fe00",
-            "c36c-6247-f673-fe00"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "d243-77eb-2a1-ff34",
-          "name": "Heavy bolter",
-          "profiles": [
-            {
-              "name": "Heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "f1a6-b394-5bc5-a3cb",
-          "name": "Twin heavy bolter",
-          "profiles": [
-            {
-              "name": "Twin heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "91c8-b628-4d47-d01e",
-          "name": "Multi-melta",
-          "profiles": [
-            {
-              "name": "Multi-melta",
-              "kind": "ranged",
-              "range": "18\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-4",
-              "D": "D6",
-              "keywords": [
-                "Melta 2"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "28c2-3ff0-43c1-380d",
-          "name": "Twin heavy flamer",
-          "profiles": [
-            {
-              "name": "Twin heavy flamer",
-              "kind": "ranged",
-              "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
-              "S": "5",
-              "AP": "-1",
-              "D": "1",
-              "keywords": [
-                "Ignores Cover",
-                "Torrent",
-                "Twin-linked"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon"
-          ]
-        },
-        {
-          "id": "3013-a16f-26c5-21fa",
-          "name": "Armoured tracks",
-          "profiles": [
-            {
-              "name": "Armoured tracks",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "6",
-              "skill": "4+",
-              "S": "8",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "308-b972-2863-2a32",
-          "name": "Hunter-killer missile",
-          "profiles": [
-            {
-              "name": "Hunter-killer missile",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "2+",
-              "S": "14",
-              "AP": "-3",
-              "D": "D6",
-              "keywords": [
-                "One Shot"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "7eb4-c21c-d0a2-39df",
-          "name": "Storm bolter",
-          "profiles": [
-            {
-              "name": "Storm bolter",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "4",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "c36c-6247-f673-fe00",
-          "name": "Twin lascannon",
-          "profiles": [
-            {
-              "name": "Twin lascannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "2e0c-4755-b7f1-acd4",
-          "name": "Explorator augury web",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "2e0c-4755-b7f1-acd4",
-              "name": "Explorator augury web",
-              "weaponIds": [],
-              "points": 0,
-              "effects": {
-                "abilities": [
-                  {
-                    "name": "Explorator Augury Web",
-                    "text": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of the bearer, but the bearer must halve its Transport Capacity."
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": "4d22-9c96-a83a-c628",
-          "name": "Additional weapon",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "d859-af5d-429b-22ff",
-              "name": "Heavy bolter",
-              "weaponIds": [
-                "d243-77eb-2a1-ff34"
-              ],
-              "points": 0
-            },
-            {
-              "id": "83cb-b7f4-40a6-6216",
-              "name": "Twin heavy bolter",
-              "weaponIds": [
-                "f1a6-b394-5bc5-a3cb"
-              ],
-              "points": 0
-            },
-            {
-              "id": "98da-74ea-f6d8-51f8",
-              "name": "Multi-melta",
-              "weaponIds": [
-                "91c8-b628-4d47-d01e"
-              ],
-              "points": 0
-            },
-            {
-              "id": "b824-582e-3fc2-c0a7",
-              "name": "Twin heavy flamer",
-              "weaponIds": [
-                "28c2-3ff0-43c1-380d"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "513b-d57a-bbb1-f4b2",
-          "name": "Hunter-killer missile",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "513b-d57a-bbb1-f4b2",
-              "name": "Hunter-killer missile",
-              "weaponIds": [
-                "308-b972-2863-2a32"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "c0f1-28ec-8348-d3f8",
-          "name": "Storm bolter",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "c0f1-28ec-8348-d3f8",
-              "name": "Storm bolter",
-              "weaponIds": [
-                "7eb4-c21c-d0a2-39df"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Damaged: 1-5 wounds remaining",
-          "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        },
-        {
-          "name": "Assault Ramp",
-          "text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D6"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        }
-      ],
-      "extras": [
-        {
-          "type": "Transport",
-          "name": "Land Raider Proteus",
-          "text": "This model has a transport capacity of 12 <FACTION> INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models."
-        },
-        {
-          "type": "Transport",
-          "name": "Land Raider Proteus (Explorator augury web)",
-          "text": "This model has a transport capacity of 6 <FACTION> INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models."
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Damaged: 1-5 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        }
-      ]
-    },
-    {
-      "id": "14d4-8062-f090-6719",
-      "name": "Leviathan Dreadnought",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Smoke",
-        "Dreadnought",
-        "Leviathan Dreadnought",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 160
-        }
-      ],
-      "models": [
-        {
-          "name": "Leviathan Dreadnought",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "8\"",
-            "T": "10",
-            "Sv": "2+",
-            "W": "12",
-            "Ld": "6+",
-            "OC": "4",
-            "InvSv": "5+",
-            "base": "~60mm"
-          },
-          "loadout": [
-            "3284-b760-6813-9b07",
-            "3284-b760-6813-9b07",
-            "bcef-39ba-a990-5490",
-            "bcef-39ba-a990-5490",
-            "d961-1269-6476-6f8c"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "3284-b760-6813-9b07",
-          "name": "Grav-flux bombard",
-          "profiles": [
-            {
-              "name": "Grav-flux bombard",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "2D3",
-              "skill": "3+",
-              "S": "8",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Anti-Vehicle 2+",
-                "Blast"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon"
-          ]
-        },
-        {
-          "id": "af11-bea9-73b6-4a56",
-          "name": "Cyclonic melta-lance",
-          "profiles": [
-            {
-              "name": "Cyclonic melta-lance",
-              "kind": "ranged",
-              "range": "18\"",
-              "A": "D6",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-4",
-              "D": "D6",
-              "keywords": [
-                "Melta 2"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon",
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "8658-d1bc-4072-6566",
-          "name": "Storm cannon",
-          "profiles": [
-            {
-              "name": "Storm cannon",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "4",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-1",
-              "D": "3",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "e6d4-b-bc56-1c0d",
-          "name": "Leviathan siege claw",
-          "profiles": [
-            {
-              "name": "Leviathan siege claw",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "5",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-2",
-              "D": "3",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "95d-2d06-b256-2db",
-          "name": "Meltagun",
-          "profiles": [
-            {
-              "name": "Meltagun",
-              "kind": "ranged",
-              "range": "12\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-4",
-              "D": "D6",
-              "keywords": [
-                "Melta 2"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "70f9-9aab-1980-5020",
-          "name": "Leviathan siege drill",
-          "profiles": [
-            {
-              "name": "Leviathan siege drill",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "4",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-2",
-              "D": "3",
-              "keywords": [
-                "Anti-VEHICLE 3+"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "bcef-39ba-a990-5490",
-          "name": "Heavy flamer",
-          "profiles": [
-            {
-              "name": "Heavy flamer",
-              "kind": "ranged",
-              "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
-              "S": "5",
-              "AP": "-1",
-              "D": "1",
-              "keywords": [
-                "Ignores Cover",
-                "Torrent"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon"
-          ]
-        },
-        {
-          "id": "6380-4fa2-1531-ff9a",
-          "name": "Twin volkite caliver",
-          "profiles": [
-            {
-              "name": "Twin volkite caliver",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "5",
-              "AP": "0",
-              "D": "2",
-              "keywords": [
-                "Devastating Wounds",
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "d961-1269-6476-6f8c",
-          "name": "Armoured feet",
-          "profiles": [
-            {
-              "name": "Armoured feet",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "6",
-              "skill": "3+",
-              "S": "6",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "308-b972-2863-2a32",
-          "name": "Hunter-killer missile",
-          "profiles": [
-            {
-              "name": "Hunter-killer missile",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "2+",
-              "S": "14",
-              "AP": "-3",
-              "D": "D6",
-              "keywords": [
-                "One Shot"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "9d07-b082-8f92-27c0",
-          "name": "Arm weapons",
-          "model": null,
-          "min": 2,
-          "max": 2,
-          "defaultChoiceId": "3284-b760-6813-9b07",
-          "choices": [
-            {
-              "id": "3284-b760-6813-9b07",
-              "name": "Grav-flux bombard",
-              "weaponIds": [
-                "3284-b760-6813-9b07"
-              ],
-              "points": 0
-            },
-            {
-              "id": "af11-bea9-73b6-4a56",
-              "name": "Cyclonic melta-lance",
-              "weaponIds": [
-                "af11-bea9-73b6-4a56"
-              ],
-              "points": 0
-            },
-            {
-              "id": "8658-d1bc-4072-6566",
-              "name": "Storm cannon",
-              "weaponIds": [
-                "8658-d1bc-4072-6566"
-              ],
-              "points": 0
-            },
-            {
-              "id": "c7f1-a5cf-38e7-6c11",
-              "name": "Siege claw and meltagun",
-              "weaponIds": [
-                "e6d4-b-bc56-1c0d",
-                "95d-2d06-b256-2db"
-              ],
-              "points": 0
-            },
-            {
-              "id": "189a-c481-5a18-626e",
-              "name": "Siege drill  and meltagun",
-              "weaponIds": [
-                "70f9-9aab-1980-5020",
-                "95d-2d06-b256-2db"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "3956-d4a7-3c64-965d",
-          "name": "Replace heavy flamers",
-          "model": null,
-          "min": 1,
-          "max": 1,
-          "defaultChoiceId": "7602-421-33cd-63c3",
-          "choices": [
-            {
-              "id": "7602-421-33cd-63c3",
-              "name": "Two heavy flamers",
-              "weaponIds": [
-                "bcef-39ba-a990-5490",
-                "bcef-39ba-a990-5490"
-              ],
-              "points": 0
-            },
-            {
-              "id": "2b7e-c82a-3700-1bc0",
-              "name": "Two twin volkite calivers",
-              "weaponIds": [
-                "6380-4fa2-1531-ff9a",
-                "6380-4fa2-1531-ff9a"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "bfb8-afca-4229-2ce0",
-          "name": "Hunter-killer missile",
-          "model": null,
-          "min": 0,
-          "max": 3,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "bfb8-afca-4229-2ce0",
-              "name": "Hunter-killer missile",
-              "weaponIds": [
-                "308-b972-2863-2a32"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Duty Eternal",
-          "text": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
-        },
-        {
-          "name": "Damaged: 1-4 wounds remaining",
-          "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D3"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Duty Eternal",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "damage",
-              "mod": -1,
-              "against": true
-            }
-          ]
-        },
-        {
-          "rule": "Damaged: 1-4 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
         }
       ]
     },
@@ -19908,6 +18075,7 @@
         "Transport",
         "Smoke",
         "Mastodon",
+        "Frame",
         "Chaos",
         "Khorne"
       ],
@@ -19960,11 +18128,11 @@
               "range": "24\"",
               "A": "6",
               "skill": "3+",
-              "S": "9",
+              "S": "10",
               "AP": "-4",
-              "D": "D6",
+              "D": "D3+2",
               "keywords": [
-                "Melta 2"
+                "Melta 3"
               ]
             }
           ],
@@ -19999,13 +18167,13 @@
               "name": "Heavy flamer",
               "kind": "ranged",
               "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
+              "A": "3",
+              "skill": "-",
               "S": "5",
               "AP": "-1",
               "D": "1",
               "keywords": [
-                "Ignores Cover",
+                "Blast 1",
                 "Torrent"
               ]
             }
@@ -20026,7 +18194,7 @@
               "skill": "3+",
               "S": "12",
               "AP": "-3",
-              "D": "D6+1",
+              "D": "D3+3",
               "keywords": []
             }
           ]
@@ -20045,6 +18213,7 @@
               "AP": "-1",
               "D": "2",
               "keywords": [
+                "Rapid Fire 2",
                 "Sustained Hits 1"
               ]
             }
@@ -20183,12 +18352,8 @@
       ],
       "abilities": [
         {
-          "name": "Damaged: 1-10 wounds remaining",
-          "text": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-        },
-        {
           "name": "Inviolable Transport",
-          "text": "Once per battle round, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
+          "text": "Attacks allocated to this unit have -1 D."
         }
       ],
       "rules": [
@@ -20201,6 +18366,10 @@
           "name": "Combat Doctrines"
         },
         {
+          "id": "c68c-a968-354f-bb99",
+          "name": "Damaged 10"
+        },
+        {
           "id": "e68b-b42f-6f7c-4670",
           "name": "Blessings of Khorne"
         }
@@ -20209,30 +18378,7 @@
         {
           "type": "Transport",
           "name": "Mastodon",
-          "text": "This model has a transport capacity of 45 <FACTION> INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models. This model can also transport up to 2 DREADNOUGHT or HELBRUTE models (these models take up the space of a number of models equal to their Wounds characteristic e.g. A DREADNOUGHT with a Wounds characteristic of 8 would take up the space of 8  models)."
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Damaged: 1-10 wounds remaining",
-          "stats": [
-            {
-              "on": "unit",
-              "stat": "OC",
-              "op": "add",
-              "value": -6,
-              "fromText": true
-            }
-          ],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-10 wounds remaining, subtract 6 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true,
-          "condition": "While this model has 1-10 wounds remaining, subtract 6 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+          "text": "This model has a transport capacity of 45 Adeptus Astartes Infantry models. And 2 Dreadnought models. Each Jump Pack, Gravis, Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Dreadnought model take up the space of a number of models equal to their W characteristic."
         }
       ]
     },
@@ -21101,8 +19247,8 @@
               "range": "24\"",
               "A": "2",
               "skill": "3+",
-              "S": "4",
-              "AP": "0",
+              "S": "5",
+              "AP": "-1",
               "D": "1",
               "keywords": []
             }
@@ -21110,10 +19256,10 @@
         },
         {
           "id": "b87b-8c71-97f6-11c8",
-          "name": "Close combat weapon",
+          "name": "Armoured Hull",
           "profiles": [
             {
-              "name": "Close combat weapon",
+              "name": "Armoured Hull",
               "kind": "melee",
               "range": "Melee",
               "A": "2",
@@ -21140,7 +19286,7 @@
               "D": "2",
               "keywords": [
                 "Anti-Vehicle 2+",
-                "Blast",
+                "Blast 2",
                 "Heavy"
               ]
             }
@@ -21157,11 +19303,11 @@
               "name": "Laser destroyer",
               "kind": "ranged",
               "range": "36\"",
-              "A": "3",
+              "A": "2",
               "skill": "3+",
               "S": "14",
-              "AP": "-4",
-              "D": "D6+1",
+              "AP": "-3",
+              "D": "D6+3",
               "keywords": [
                 "Heavy"
               ]
@@ -21183,8 +19329,9 @@
               "D": "2",
               "keywords": [
                 "Heavy",
-                "Twin-linked",
-                "Sustained Hits 1"
+                "Rapid Fire 2",
+                "Sustained Hits 1",
+                "Twin-linked"
               ]
             }
           ]
@@ -21194,7 +19341,7 @@
           "name": "Quad launcher",
           "profiles": [
             {
-              "name": "Quad launcher - shatter shells",
+              "name": "Quad launcher (Shatter shells)",
               "kind": "ranged",
               "range": "24\"",
               "A": "4",
@@ -21207,16 +19354,16 @@
               ]
             },
             {
-              "name": "Quad launcher - thunderfire shells",
+              "name": "Quad launcher (Thunderfire shells)",
               "kind": "ranged",
               "range": "60\"",
-              "A": "D6+4",
+              "A": "D3+6",
               "skill": "3+",
               "S": "5",
               "AP": "0",
               "D": "1",
               "keywords": [
-                "Blast",
+                "Blast 1",
                 "Heavy",
                 "Indirect Fire"
               ]
@@ -21271,7 +19418,7 @@
       "abilities": [
         {
           "name": "Powerful Volley",
-          "text": "Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability."
+          "text": "In a turn this unit remained stationary, ranged attacks that have [HEAVY] also have [LETHAL HITS]."
         }
       ],
       "rules": [
@@ -21292,18 +19439,11 @@
               "on": "ranged",
               "stat": "keywords",
               "op": "append",
-              "value": "Lethal Hits",
-              "fromText": true
-            },
-            {
-              "on": "melee",
-              "stat": "keywords",
-              "op": "append",
-              "value": "Lethal Hits",
+              "value": "Heavy",
               "fromText": true
             }
           ],
-          "condition": "Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability."
+          "condition": "In a turn this unit remained stationary, ranged attacks that have [HEAVY] also have [LETHAL HITS]."
         }
       ]
     },
@@ -21608,577 +19748,6 @@
       ]
     },
     {
-      "id": "783a-1c02-b377-b169",
-      "name": "Relic Contemptor Dreadnought",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Dreadnought",
-        "Relic Contemptor Dreadnought",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 140
-        }
-      ],
-      "models": [
-        {
-          "name": "Relic Contemptor Dreadnought",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "6\"",
-            "T": "9",
-            "Sv": "2+",
-            "W": "10",
-            "Ld": "6+",
-            "OC": "3",
-            "InvSv": "5+",
-            "base": "~60mm"
-          },
-          "loadout": [
-            "237e-98ae-ee39-1a92",
-            "237e-98ae-ee39-1a92",
-            "d961-1269-6476-6f8c"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "cf37-f970-51f7-2c1e",
-          "name": "Cyclone missile launcher",
-          "profiles": [
-            {
-              "name": "Cyclone missile launcher - frag",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "2D6",
-              "skill": "3+",
-              "S": "4",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Blast"
-              ]
-            },
-            {
-              "name": "Cyclone missile launcher - krak",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-2",
-              "D": "D6",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "237e-98ae-ee39-1a92",
-          "name": "Heavy plasma cannon",
-          "profiles": [
-            {
-              "name": "Heavy plasma cannon - standard",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "D3",
-              "skill": "3+",
-              "S": "7",
-              "AP": "-2",
-              "D": "2",
-              "keywords": [
-                "Blast"
-              ]
-            },
-            {
-              "name": "Heavy plasma cannon - supercharge",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "D3",
-              "skill": "3+",
-              "S": "8",
-              "AP": "-3",
-              "D": "3",
-              "keywords": [
-                "Blast",
-                "Hazardous"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon"
-          ]
-        },
-        {
-          "id": "74f4-d7c-9ce-90e2",
-          "name": "Conversion beam cannon",
-          "profiles": [
-            {
-              "name": "Conversion beam cannon",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "7",
-              "AP": "-1",
-              "D": "3",
-              "keywords": [
-                "Conversion",
-                "Sustained Hits D3"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "9a59-36d-319-123c",
-          "name": "Kheres assault cannon",
-          "profiles": [
-            {
-              "name": "Kheres assault cannon",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "6",
-              "skill": "3+",
-              "S": "7",
-              "AP": "-1",
-              "D": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "9358-b81e-526b-a689",
-          "name": "Dreadnought chainfist",
-          "profiles": [
-            {
-              "name": "Dreadnought chainfist",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "4",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-2",
-              "D": "3",
-              "keywords": [
-                "Anti-VEHICLE 3+"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "7cc3-265c-130-198f",
-          "name": "Dreadnought combat weapon",
-          "profiles": [
-            {
-              "name": "Dreadnought combat weapon",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "5",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-2",
-              "D": "3",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "9f56-5d6e-54a6-9b94",
-          "name": "Twin autocannon",
-          "profiles": [
-            {
-              "name": "Twin autocannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-1",
-              "D": "3",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "f1a6-b394-5bc5-a3cb",
-          "name": "Twin heavy bolter",
-          "profiles": [
-            {
-              "name": "Twin heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "c36c-6247-f673-fe00",
-          "name": "Twin lascannon",
-          "profiles": [
-            {
-              "name": "Twin lascannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "91c8-b628-4d47-d01e",
-          "name": "Multi-melta",
-          "profiles": [
-            {
-              "name": "Multi-melta",
-              "kind": "ranged",
-              "range": "18\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-4",
-              "D": "D6",
-              "keywords": [
-                "Melta 2"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "5030-c511-fac-674f",
-          "name": "Twin volkite culverin",
-          "profiles": [
-            {
-              "name": "Twin volkite culverin",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "4",
-              "skill": "3+",
-              "S": "6",
-              "AP": "0",
-              "D": "2",
-              "keywords": [
-                "Devastating Wounds",
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "7eac-8778-74b6-8c60",
-          "name": "Combi-bolter",
-          "profiles": [
-            {
-              "name": "Combi-bolter",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "4",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "5a56-20e0-8cf9-b111",
-          "name": "Plasma blaster",
-          "profiles": [
-            {
-              "name": "Plasma blaster - standard",
-              "kind": "ranged",
-              "range": "18\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "7",
-              "AP": "-2",
-              "D": "1",
-              "keywords": []
-            },
-            {
-              "name": "Plasma blaster - supercharge",
-              "kind": "ranged",
-              "range": "18\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "8",
-              "AP": "-3",
-              "D": "2",
-              "keywords": [
-                "Hazardous"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "7f55-b7f4-d0a3-e5ec",
-          "name": "Graviton blaster",
-          "profiles": [
-            {
-              "name": "Graviton blaster",
-              "kind": "ranged",
-              "range": "18\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "1",
-              "keywords": [
-                "Anti-Vehicle 2+"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "bcef-39ba-a990-5490",
-          "name": "Heavy flamer",
-          "profiles": [
-            {
-              "name": "Heavy flamer",
-              "kind": "ranged",
-              "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
-              "S": "5",
-              "AP": "-1",
-              "D": "1",
-              "keywords": [
-                "Ignores Cover",
-                "Torrent"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon"
-          ]
-        },
-        {
-          "id": "d961-1269-6476-6f8c",
-          "name": "Armoured feet",
-          "profiles": [
-            {
-              "name": "Armoured feet",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "6",
-              "skill": "3+",
-              "S": "6",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "cf37-f970-51f7-2c1e",
-          "name": "Cyclone missile launcher",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "cf37-f970-51f7-2c1e",
-              "name": "Cyclone missile launcher",
-              "weaponIds": [
-                "cf37-f970-51f7-2c1e"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "e754-76fe-e133-138b",
-          "name": "Arm weapons",
-          "model": null,
-          "min": 2,
-          "max": 2,
-          "defaultChoiceId": "237e-98ae-ee39-1a92",
-          "choices": [
-            {
-              "id": "237e-98ae-ee39-1a92",
-              "name": "Heavy plasma cannon",
-              "weaponIds": [
-                "237e-98ae-ee39-1a92"
-              ],
-              "points": 0
-            },
-            {
-              "id": "74f4-d7c-9ce-90e2",
-              "name": "Conversion beam cannon",
-              "weaponIds": [
-                "74f4-d7c-9ce-90e2"
-              ],
-              "points": 0
-            },
-            {
-              "id": "9a59-36d-319-123c",
-              "name": "Kheres assault cannon",
-              "weaponIds": [
-                "9a59-36d-319-123c"
-              ],
-              "points": 0
-            },
-            {
-              "id": "9358-b81e-526b-a689",
-              "name": "Dreadnought chainfist",
-              "weaponIds": [
-                "9358-b81e-526b-a689"
-              ],
-              "points": 0
-            },
-            {
-              "id": "7cc3-265c-130-198f",
-              "name": "Dreadnought combat weapon",
-              "weaponIds": [
-                "7cc3-265c-130-198f"
-              ],
-              "points": 0
-            },
-            {
-              "id": "31ca-7f03-a7b2-443c",
-              "name": "Twin autocannon",
-              "weaponIds": [
-                "9f56-5d6e-54a6-9b94"
-              ],
-              "points": 0
-            },
-            {
-              "id": "ea98-3ab3-daf2-3ce0",
-              "name": "Twin heavy bolter",
-              "weaponIds": [
-                "f1a6-b394-5bc5-a3cb"
-              ],
-              "points": 0
-            },
-            {
-              "id": "98de-7914-bdbf-489b",
-              "name": "Twin lascannon",
-              "weaponIds": [
-                "c36c-6247-f673-fe00"
-              ],
-              "points": 0
-            },
-            {
-              "id": "fe38-ed16-e345-ad8b",
-              "name": "Multi-melta",
-              "weaponIds": [
-                "91c8-b628-4d47-d01e"
-              ],
-              "points": 0
-            },
-            {
-              "id": "8482-eb6a-cef-8237",
-              "name": "Twin volkite culverin",
-              "weaponIds": [
-                "5030-c511-fac-674f"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "c625-a8be-d1b8-7594",
-          "name": "Fist weapons",
-          "model": null,
-          "min": 0,
-          "max": 0,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "7eac-8778-74b6-8c60",
-              "name": "Combi-bolter",
-              "weaponIds": [
-                "7eac-8778-74b6-8c60"
-              ],
-              "points": 0
-            },
-            {
-              "id": "5a56-20e0-8cf9-b111",
-              "name": "Plasma blaster",
-              "weaponIds": [
-                "5a56-20e0-8cf9-b111"
-              ],
-              "points": 0
-            },
-            {
-              "id": "7f55-b7f4-d0a3-e5ec",
-              "name": "Graviton blaster",
-              "weaponIds": [
-                "7f55-b7f4-d0a3-e5ec"
-              ],
-              "points": 0
-            },
-            {
-              "id": "174f-65d0-d695-10d7",
-              "name": "Heavy flamer",
-              "weaponIds": [
-                "bcef-39ba-a990-5490"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Even In Death I Serve",
-          "text": "The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise 1"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        },
-        {
-          "id": "e68b-b42f-6f7c-4670",
-          "name": "Blessings of Khorne"
-        }
-      ]
-    },
-    {
       "id": "61f3-ff33-ec7a-3546",
       "name": "Searchlight",
       "role": "Allies: Unaligned Forces",
@@ -22300,7 +19869,7 @@
     },
     {
       "id": "b2f1-197b-fb3b-687f",
-      "name": "Sicaran Battle Tank",
+      "name": "Sicaran",
       "role": "Vehicle",
       "keywords": [
         "Vehicle",
@@ -22319,12 +19888,12 @@
         {
           "minModels": 1,
           "maxModels": 1,
-          "points": 160
+          "points": 180
         }
       ],
       "models": [
         {
-          "name": "Sicaran Battle Tank",
+          "name": "Sicaran",
           "min": 1,
           "max": 1,
           "stats": {
@@ -22345,6 +19914,43 @@
       ],
       "weapons": [
         {
+          "id": "d243-77eb-2a1-ff34",
+          "name": "Heavy bolter",
+          "profiles": [
+            {
+              "name": "Heavy bolter",
+              "kind": "ranged",
+              "range": "36\"",
+              "A": "3",
+              "skill": "3+",
+              "S": "5",
+              "AP": "-1",
+              "D": "2",
+              "keywords": [
+                "Rapid Fire 2",
+                "Sustained Hits 1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8676-2808-bf8f-a6af",
+          "name": "Lascannon",
+          "profiles": [
+            {
+              "name": "Lascannon",
+              "kind": "ranged",
+              "range": "48\"",
+              "A": "1",
+              "skill": "3+",
+              "S": "12",
+              "AP": "-3",
+              "D": "D3+3",
+              "keywords": []
+            }
+          ]
+        },
+        {
           "id": "6c5b-521e-2870-42de",
           "name": "Herakles-pattern autocannon",
           "profiles": [
@@ -22364,38 +19970,95 @@
           ]
         },
         {
-          "id": "d243-77eb-2a1-ff34",
-          "name": "Heavy bolter",
+          "id": "5caa-9bd0-133a-0012",
+          "name": "Arcus multi-launcher",
           "profiles": [
             {
-              "name": "Heavy bolter",
+              "name": "Arcus multi-launcher",
               "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
+              "range": "48\"",
+              "A": "7",
               "skill": "3+",
-              "S": "5",
-              "AP": "-1",
+              "S": "6",
+              "AP": "0",
               "D": "2",
               "keywords": [
-                "Sustained Hits 1"
+                "Indirect Fire"
+              ]
+            }
+          ],
+          "tags": [
+            "Attacks Dx Weapon"
+          ]
+        },
+        {
+          "id": "a0fc-71c1-27b4-9580",
+          "name": "Omega plasma array",
+          "profiles": [
+            {
+              "name": "Omega plasma array (Standard)",
+              "kind": "ranged",
+              "range": "36\"",
+              "A": "6",
+              "skill": "3+",
+              "S": "9",
+              "AP": "-3",
+              "D": "2",
+              "keywords": []
+            },
+            {
+              "name": "Omega plasma array (Supercharge)",
+              "kind": "ranged",
+              "range": "36\"",
+              "A": "6",
+              "skill": "3+",
+              "S": "10",
+              "AP": "-3",
+              "D": "3",
+              "keywords": [
+                "Hazardous"
+              ]
+            }
+          ],
+          "tags": [
+            "Plasma"
+          ]
+        },
+        {
+          "id": "6cea-473d-af71-2372",
+          "name": "Punisher rotary cannon",
+          "profiles": [
+            {
+              "name": "Punisher rotary cannon",
+              "kind": "ranged",
+              "range": "36\"",
+              "A": "18",
+              "skill": "4+",
+              "S": "6",
+              "AP": "0",
+              "D": "1",
+              "keywords": [
+                "Devastating Wounds"
               ]
             }
           ]
         },
         {
-          "id": "8676-2808-bf8f-a6af",
-          "name": "Lascannon",
+          "id": "993e-29d4-1aa0-5ace",
+          "name": "Venator neutron laser",
           "profiles": [
             {
-              "name": "Lascannon",
+              "name": "Venator neutron laser",
               "kind": "ranged",
               "range": "48\"",
-              "A": "1",
+              "A": "3",
               "skill": "3+",
-              "S": "12",
+              "S": "16",
               "AP": "-3",
-              "D": "D6+1",
-              "keywords": []
+              "D": "D3+3",
+              "keywords": [
+                "Heavy"
+              ]
             }
           ]
         },
@@ -22448,8 +20111,8 @@
               "range": "24\"",
               "A": "2",
               "skill": "3+",
-              "S": "4",
-              "AP": "0",
+              "S": "5",
+              "AP": "-1",
               "D": "1",
               "keywords": [
                 "Rapid Fire 2"
@@ -22482,6 +20145,56 @@
               "weaponIds": [
                 "8676-2808-bf8f-a6af",
                 "8676-2808-bf8f-a6af"
+              ],
+              "points": 0
+            }
+          ]
+        },
+        {
+          "id": "b18e-33a0-d430-6562",
+          "name": "Main weapon",
+          "model": null,
+          "min": 1,
+          "max": 1,
+          "defaultChoiceId": "6c5b-521e-2870-42de",
+          "choices": [
+            {
+              "id": "6c5b-521e-2870-42de",
+              "name": "Herakles-pattern autocannon",
+              "weaponIds": [
+                "6c5b-521e-2870-42de"
+              ],
+              "points": 0
+            },
+            {
+              "id": "5caa-9bd0-133a-0012",
+              "name": "Arcus multi-launcher",
+              "weaponIds": [
+                "5caa-9bd0-133a-0012"
+              ],
+              "points": 0
+            },
+            {
+              "id": "a0fc-71c1-27b4-9580",
+              "name": "Omega plasma array",
+              "weaponIds": [
+                "a0fc-71c1-27b4-9580"
+              ],
+              "points": 0
+            },
+            {
+              "id": "6cea-473d-af71-2372",
+              "name": "Punisher rotary cannon",
+              "weaponIds": [
+                "6cea-473d-af71-2372"
+              ],
+              "points": 0
+            },
+            {
+              "id": "993e-29d4-1aa0-5ace",
+              "name": "Venator neutron laser",
+              "weaponIds": [
+                "993e-29d4-1aa0-5ace"
               ],
               "points": 0
             }
@@ -22549,549 +20262,6 @@
         }
       ],
       "selfEffects": [
-        {
-          "rule": "Damaged: 1-5 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        }
-      ]
-    },
-    {
-      "id": "68aa-28bf-bd73-3355",
-      "name": "Sicaran Punisher",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Smoke",
-        "Sicaran Punisher",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 160
-        }
-      ],
-      "models": [
-        {
-          "name": "Sicaran Punisher",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "10\"",
-            "T": "11",
-            "Sv": "2+",
-            "W": "14",
-            "Ld": "6+",
-            "OC": "4",
-            "base": "Hull"
-          },
-          "loadout": [
-            "38bf-532f-8847-7daa",
-            "3013-a16f-26c5-21fa",
-            "d243-77eb-2a1-ff34"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "38bf-532f-8847-7daa",
-          "name": "Punisher rotary cannon",
-          "profiles": [
-            {
-              "name": "Punisher rotary cannon",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "18",
-              "skill": "4+",
-              "S": "6",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "d243-77eb-2a1-ff34",
-          "name": "Heavy bolter",
-          "profiles": [
-            {
-              "name": "Heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "8676-2808-bf8f-a6af",
-          "name": "Lascannon",
-          "profiles": [
-            {
-              "name": "Lascannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "3013-a16f-26c5-21fa",
-          "name": "Armoured tracks",
-          "profiles": [
-            {
-              "name": "Armoured tracks",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "6",
-              "skill": "4+",
-              "S": "8",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "308-b972-2863-2a32",
-          "name": "Hunter-killer missile",
-          "profiles": [
-            {
-              "name": "Hunter-killer missile",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "2+",
-              "S": "14",
-              "AP": "-3",
-              "D": "D6",
-              "keywords": [
-                "One Shot"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "7eb4-c21c-d0a2-39df",
-          "name": "Storm bolter",
-          "profiles": [
-            {
-              "name": "Storm bolter",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "4",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ]
-            }
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "da4b-bed8-88dd-3408",
-          "name": "Sponsons",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "6634-dce0-e91c-6f8a",
-              "name": "Two heavy bolters",
-              "weaponIds": [
-                "d243-77eb-2a1-ff34",
-                "d243-77eb-2a1-ff34"
-              ],
-              "points": 0
-            },
-            {
-              "id": "b396-5ea-699e-34e3",
-              "name": "Two lascannons",
-              "weaponIds": [
-                "8676-2808-bf8f-a6af",
-                "8676-2808-bf8f-a6af"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "f807-a3b7-5b3-7bba",
-          "name": "Hunter-killer missile",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "f807-a3b7-5b3-7bba",
-              "name": "Hunter-killer missile",
-              "weaponIds": [
-                "308-b972-2863-2a32"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "4cb3-8623-ac91-6f3",
-          "name": "Storm bolter",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "4cb3-8623-ac91-6f3",
-              "name": "Storm bolter",
-              "weaponIds": [
-                "7eb4-c21c-d0a2-39df"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Rotating Death",
-          "text": "This model’s Punisher rotary cannon has the [SUSTAINED HITS 1] ability when targeting INFANTRY units."
-        },
-        {
-          "name": "Damaged: 1-5 wounds remaining",
-          "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D3"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        },
-        {
-          "id": "e68b-b42f-6f7c-4670",
-          "name": "Blessings of Khorne"
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Damaged: 1-5 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        }
-      ]
-    },
-    {
-      "id": "e63e-2aa6-f840-b54e",
-      "name": "Sicaran Venator",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Smoke",
-        "Sicaran Venator",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 180
-        }
-      ],
-      "models": [
-        {
-          "name": "Sicaran Venator",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "10\"",
-            "T": "11",
-            "Sv": "2+",
-            "W": "14",
-            "Ld": "6+",
-            "OC": "4",
-            "base": "Hull"
-          },
-          "loadout": [
-            "17fc-29fd-a1bb-2fd6",
-            "3013-a16f-26c5-21fa",
-            "d243-77eb-2a1-ff34"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "17fc-29fd-a1bb-2fd6",
-          "name": "Venator neutron laser",
-          "profiles": [
-            {
-              "name": "Venator neutron laser",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "16",
-              "AP": "-4",
-              "D": "D3+3",
-              "keywords": [
-                "Heavy"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "d243-77eb-2a1-ff34",
-          "name": "Heavy bolter",
-          "profiles": [
-            {
-              "name": "Heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "8676-2808-bf8f-a6af",
-          "name": "Lascannon",
-          "profiles": [
-            {
-              "name": "Lascannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "3013-a16f-26c5-21fa",
-          "name": "Armoured tracks",
-          "profiles": [
-            {
-              "name": "Armoured tracks",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "6",
-              "skill": "4+",
-              "S": "8",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "308-b972-2863-2a32",
-          "name": "Hunter-killer missile",
-          "profiles": [
-            {
-              "name": "Hunter-killer missile",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "2+",
-              "S": "14",
-              "AP": "-3",
-              "D": "D6",
-              "keywords": [
-                "One Shot"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "7eb4-c21c-d0a2-39df",
-          "name": "Storm bolter",
-          "profiles": [
-            {
-              "name": "Storm bolter",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "4",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ]
-            }
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "32d7-e068-6fec-af6b",
-          "name": "Sponsons",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "5f9e-9280-4d16-c67d",
-              "name": "Two heavy bolters",
-              "weaponIds": [
-                "d243-77eb-2a1-ff34",
-                "d243-77eb-2a1-ff34"
-              ],
-              "points": 0
-            },
-            {
-              "id": "560-6f5b-a15b-328",
-              "name": "Two lascannons",
-              "weaponIds": [
-                "8676-2808-bf8f-a6af",
-                "8676-2808-bf8f-a6af"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "e898-67e0-211e-753e",
-          "name": "Hunter-killer missile",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "e898-67e0-211e-753e",
-              "name": "Hunter-killer missile",
-              "weaponIds": [
-                "308-b972-2863-2a32"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "7510-4d47-b186-f155",
-          "name": "Storm bolter",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "7510-4d47-b186-f155",
-              "name": "Storm bolter",
-              "weaponIds": [
-                "7eb4-c21c-d0a2-39df"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Ferocious Assault",
-          "text": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
-        },
-        {
-          "name": "Damaged: 1-5 wounds remaining",
-          "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D3"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        },
-        {
-          "id": "e68b-b42f-6f7c-4670",
-          "name": "Blessings of Khorne"
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Ferocious Assault",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": 1,
-              "kind": "ranged",
-              "condition": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        },
         {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [],
@@ -23478,562 +20648,8 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [Devastating Wounds] ability."
-        }
-      ]
-    },
-    {
-      "id": "a80f-8343-85f3-716a",
-      "name": "Sokar-pattern Stormbird",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Titanic",
-        "Fly",
-        "Transport",
-        "Sokar-pattern Stormbird",
-        "Aircraft",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 900
-        }
-      ],
-      "models": [
-        {
-          "name": "Sokar-pattern Stormbird",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "20\"+",
-            "T": "13",
-            "Sv": "2+",
-            "W": "40",
-            "Ld": "6+",
-            "OC": "0",
-            "InvSv": "5+ (Ranged)",
-            "base": "Hull"
-          },
-          "loadout": [
-            "93b0-215d-c6c7-c486",
-            "8c2f-4857-d961-b4d3",
-            "f1a6-b394-5bc5-a3cb",
-            "f1a6-b394-5bc5-a3cb",
-            "f1a6-b394-5bc5-a3cb",
-            "c36c-6247-f673-fe00",
-            "c36c-6247-f673-fe00",
-            "c36c-6247-f673-fe00",
-            "c36c-6247-f673-fe00"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "93b0-215d-c6c7-c486",
-          "name": "Armoured hull",
-          "profiles": [
-            {
-              "name": "Armoured hull",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "9",
-              "skill": "4+",
-              "S": "9",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "8c2f-4857-d961-b4d3",
-          "name": "Hellstrike missile battery",
-          "profiles": [
-            {
-              "name": "Hellstrike missile battery",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "4",
-              "skill": "3+",
-              "S": "10",
-              "AP": "-3",
-              "D": "D6",
-              "keywords": [
-                "Anti-Fly 3+"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "f1a6-b394-5bc5-a3cb",
-          "name": "Twin heavy bolter",
-          "profiles": [
-            {
-              "name": "Twin heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "c36c-6247-f673-fe00",
-          "name": "Twin lascannon",
-          "profiles": [
-            {
-              "name": "Twin lascannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        }
-      ],
-      "wargear": [],
-      "abilities": [
-        {
-          "name": "Damaged: 1-13 wounds remaining",
-          "text": "While this model has 1-13 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        },
-        {
-          "name": "Aerial Assault",
-          "text": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise 2D6"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        },
-        {
-          "id": "e68b-b42f-6f7c-4670",
-          "name": "Blessings of Khorne"
-        }
-      ],
-      "extras": [
-        {
-          "type": "Transport",
-          "name": "Sokar-pattern Stormbird",
-          "text": "This model has a transport capacity of 55 <FACTION> Infantry or <FACTION> MOUNTED models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each MOUNTED, CENTURION or OBLITERATOR model takes up the space of 3 models. This model can also transport up to 1 RHINO model (this model – and any models embarked within it – take up the space of 25 models)."
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Damaged: 1-13 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-13 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        }
-      ]
-    },
-    {
-      "id": "7b3a-9a63-6200-ec7",
-      "name": "Spartan",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Transport",
-        "Smoke",
-        "Spartan",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 300
-        }
-      ],
-      "models": [
-        {
-          "name": "Spartan",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "10\"",
-            "T": "12",
-            "Sv": "2+",
-            "W": "18",
-            "Ld": "6+",
-            "OC": "6",
-            "base": "Hull"
-          },
-          "loadout": [
-            "f1a6-b394-5bc5-a3cb",
-            "9620-50d5-5d5-4edd",
-            "9620-50d5-5d5-4edd",
-            "3013-a16f-26c5-21fa"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "f1a6-b394-5bc5-a3cb",
-          "name": "Twin heavy bolter",
-          "profiles": [
-            {
-              "name": "Twin heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "28c2-3ff0-43c1-380d",
-          "name": "Twin heavy flamer",
-          "profiles": [
-            {
-              "name": "Twin heavy flamer",
-              "kind": "ranged",
-              "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
-              "S": "5",
-              "AP": "-1",
-              "D": "1",
-              "keywords": [
-                "Ignores Cover",
-                "Torrent",
-                "Twin-linked"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon"
-          ]
-        },
-        {
-          "id": "d243-77eb-2a1-ff34",
-          "name": "Heavy bolter",
-          "profiles": [
-            {
-              "name": "Heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "bcef-39ba-a990-5490",
-          "name": "Heavy flamer",
-          "profiles": [
-            {
-              "name": "Heavy flamer",
-              "kind": "ranged",
-              "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
-              "S": "5",
-              "AP": "-1",
-              "D": "1",
-              "keywords": [
-                "Ignores Cover",
-                "Torrent"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon"
-          ]
-        },
-        {
-          "id": "91c8-b628-4d47-d01e",
-          "name": "Multi-melta",
-          "profiles": [
-            {
-              "name": "Multi-melta",
-              "kind": "ranged",
-              "range": "18\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-4",
-              "D": "D6",
-              "keywords": [
-                "Melta 2"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "7eb4-c21c-d0a2-39df",
-          "name": "Storm bolter",
-          "profiles": [
-            {
-              "name": "Storm bolter",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "4",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "9620-50d5-5d5-4edd",
-          "name": "Quad lascannon",
-          "profiles": [
-            {
-              "name": "Quad lascannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "4",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "95f5-8836-ae55-6f38",
-          "name": "Laser destroyer",
-          "profiles": [
-            {
-              "name": "Laser destroyer",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "14",
-              "AP": "-4",
-              "D": "D6+1",
-              "keywords": [
-                "Heavy"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "3013-a16f-26c5-21fa",
-          "name": "Armoured tracks",
-          "profiles": [
-            {
-              "name": "Armoured tracks",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "6",
-              "skill": "4+",
-              "S": "8",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "1354-c048-8bb3-eb89",
-          "name": "Frontal weapon",
-          "model": null,
-          "min": 1,
-          "max": 1,
-          "defaultChoiceId": "b4c7-c0c-ce4d-4ff4",
-          "choices": [
-            {
-              "id": "b4c7-c0c-ce4d-4ff4",
-              "name": "Twin heavy bolter",
-              "weaponIds": [
-                "f1a6-b394-5bc5-a3cb"
-              ],
-              "points": 0
-            },
-            {
-              "id": "c29e-6b5a-edc3-fe67",
-              "name": "Twin heavy flamer",
-              "weaponIds": [
-                "28c2-3ff0-43c1-380d"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "2928-10df-a548-a097",
-          "name": "Pintle weapon",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "249f-11e-4df6-628c",
-              "name": "Heavy bolter",
-              "weaponIds": [
-                "d243-77eb-2a1-ff34"
-              ],
-              "points": 0
-            },
-            {
-              "id": "5054-94ae-e11e-4f64",
-              "name": "Heavy flamer",
-              "weaponIds": [
-                "bcef-39ba-a990-5490"
-              ],
-              "points": 0
-            },
-            {
-              "id": "f49c-ed4f-71c2-9368",
-              "name": "Multi-melta",
-              "weaponIds": [
-                "91c8-b628-4d47-d01e"
-              ],
-              "points": 0
-            },
-            {
-              "id": "821-b17f-ee04-d1a1",
-              "name": "Storm bolter",
-              "weaponIds": [
-                "7eb4-c21c-d0a2-39df"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "7efb-4501-ca78-6c9b",
-          "name": "Sponsons",
-          "model": null,
-          "min": 1,
-          "max": 1,
-          "defaultChoiceId": "534c-5208-d3b1-3f1f",
-          "choices": [
-            {
-              "id": "534c-5208-d3b1-3f1f",
-              "name": "Two quad lascannons",
-              "weaponIds": [
-                "9620-50d5-5d5-4edd",
-                "9620-50d5-5d5-4edd"
-              ],
-              "points": 0
-            },
-            {
-              "id": "e879-93f9-634-422c",
-              "name": "Two laser destroyers",
-              "weaponIds": [
-                "95f5-8836-ae55-6f38",
-                "95f5-8836-ae55-6f38"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Damaged: 1-6 wounds remaining",
-          "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        },
-        {
-          "name": "Assault Ramp",
-          "text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D6"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        },
-        {
-          "id": "e68b-b42f-6f7c-4670",
-          "name": "Blessings of Khorne"
-        }
-      ],
-      "extras": [
-        {
-          "type": "Transport",
-          "name": "Spartan",
-          "text": "This model has a transport capacity of 28 <FACTION> INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, TERMINATOR or POSSESSED model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models."
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Damaged: 1-6 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
         }
       ]
     },
@@ -24156,336 +20772,6 @@
       ]
     },
     {
-      "id": "3b7d-b14e-603-e1ad",
-      "name": "Storm Eagle Gunship",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Fly",
-        "Aircraft",
-        "Transport",
-        "Storm Eagle Gunship",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 250
-        }
-      ],
-      "models": [
-        {
-          "name": "Storm Eagle Gunship",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "20+\"",
-            "T": "10",
-            "Sv": "3+",
-            "W": "18",
-            "Ld": "6+",
-            "OC": "0",
-            "base": "120x92mm"
-          },
-          "loadout": [
-            "f80d-f7d7-96a7-d12e",
-            "f1a6-b394-5bc5-a3cb",
-            "e982-dc3e-d888-951f",
-            "e982-dc3e-d888-951f",
-            "3fc0-1753-fefb-89b5"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "f80d-f7d7-96a7-d12e",
-          "name": "Vengeance launcher",
-          "profiles": [
-            {
-              "name": "Vengeance launcher",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "2D6",
-              "skill": "3+",
-              "S": "6",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Blast"
-              ]
-            }
-          ],
-          "tags": [
-            "Attacks Dx Weapon"
-          ]
-        },
-        {
-          "id": "7764-cc99-5267-aee7",
-          "name": "Twin multi-melta",
-          "profiles": [
-            {
-              "name": "Twin multi-melta",
-              "kind": "ranged",
-              "range": "18\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-4",
-              "D": "D6",
-              "keywords": [
-                "Melta 2",
-                "Twin-linked"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "2fac-1c9a-b0d7-fa40",
-          "name": "Typhoon missile launcher",
-          "profiles": [
-            {
-              "name": "Typhoon missile launcher - frag",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "2D6",
-              "skill": "3+",
-              "S": "4",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Blast"
-              ]
-            },
-            {
-              "name": "Typhoon missile launcher - krak",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "9",
-              "AP": "-2",
-              "D": "D6",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "f1a6-b394-5bc5-a3cb",
-          "name": "Twin heavy bolter",
-          "profiles": [
-            {
-              "name": "Twin heavy bolter",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "e982-dc3e-d888-951f",
-          "name": "Twin hellstrike launcher",
-          "profiles": [
-            {
-              "name": "Twin hellstrike launcher",
-              "kind": "ranged",
-              "range": "72\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "10",
-              "AP": "-3",
-              "D": "D6",
-              "keywords": [
-                "Anti-Fly 2+",
-                "Twin-linked"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "c36c-6247-f673-fe00",
-          "name": "Twin lascannon",
-          "profiles": [
-            {
-              "name": "Twin lascannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "3fc0-1753-fefb-89b5",
-          "name": "Armoured hull",
-          "profiles": [
-            {
-              "name": "Armoured hull",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "6",
-              "skill": "4+",
-              "S": "8",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "6f8e-d36f-3d35-10fe",
-          "name": "Nose weapon",
-          "model": null,
-          "min": 1,
-          "max": 1,
-          "defaultChoiceId": "bf14-fed0-31ea-7a12",
-          "choices": [
-            {
-              "id": "7764-cc99-5267-aee7",
-              "name": "Twin multi-melta",
-              "weaponIds": [
-                "7764-cc99-5267-aee7"
-              ],
-              "points": 0
-            },
-            {
-              "id": "2fac-1c9a-b0d7-fa40",
-              "name": "Typhoon missile launcher",
-              "weaponIds": [
-                "2fac-1c9a-b0d7-fa40"
-              ],
-              "points": 0
-            },
-            {
-              "id": "bf14-fed0-31ea-7a12",
-              "name": "Twin heavy bolter",
-              "weaponIds": [
-                "f1a6-b394-5bc5-a3cb"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "d90-7c8f-8f77-2b6f",
-          "name": "Wing weapons",
-          "model": null,
-          "min": 1,
-          "max": 1,
-          "defaultChoiceId": "c17f-6d45-d136-d0a0",
-          "choices": [
-            {
-              "id": "c17f-6d45-d136-d0a0",
-              "name": "Two twin hellstrike launchers",
-              "weaponIds": [
-                "e982-dc3e-d888-951f",
-                "e982-dc3e-d888-951f"
-              ],
-              "points": 0
-            },
-            {
-              "id": "4d94-f41-33f5-b5fc",
-              "name": "Two twin lascannons",
-              "weaponIds": [
-                "c36c-6247-f673-fe00",
-                "c36c-6247-f673-fe00"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Armoured Resilience",
-          "text": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
-        },
-        {
-          "name": "Damaged: 1-6 wounds remaining",
-          "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D6"
-        },
-        {
-          "id": "eec5-5f54-9c03-c305",
-          "name": "Hover"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        },
-        {
-          "id": "e68b-b42f-6f7c-4670",
-          "name": "Blessings of Khorne"
-        }
-      ],
-      "extras": [
-        {
-          "type": "Transport",
-          "name": "Storm Eagle Gunship",
-          "text": "This model has a transport capacity of 22 <FACTION> INFANTRY models and 1 DREADNOUGHT model. Each JUMP PACK, WULFEN, GRAVIS, TERMINATOR or POSSESSED model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models."
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Armoured Resilience",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "damage",
-              "mod": -1,
-              "against": true
-            }
-          ]
-        },
-        {
-          "rule": "Damaged: 1-6 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        }
-      ]
-    },
-    {
       "id": "3d36-e9d7-54c5-deb7",
       "name": "Terrax-pattern Termite",
       "role": "Dedicated Transport",
@@ -24546,9 +20832,7 @@
               "S": "14",
               "AP": "-2",
               "D": "D3+3",
-              "keywords": [
-                "Anti-VEHICLE 3+"
-              ]
+              "keywords": []
             }
           ]
         },
@@ -24563,8 +20847,8 @@
               "A": "5",
               "skill": "3+",
               "S": "9",
-              "AP": "-4",
-              "D": "D6",
+              "AP": "-3",
+              "D": "D3+2",
               "keywords": [
                 "Melta 2"
               ]
@@ -24584,8 +20868,8 @@
               "range": "24\"",
               "A": "2",
               "skill": "3+",
-              "S": "4",
-              "AP": "0",
+              "S": "5",
+              "AP": "-1",
               "D": "1",
               "keywords": [
                 "Rapid Fire 2"
@@ -24601,13 +20885,13 @@
               "name": "Heavy flamer",
               "kind": "ranged",
               "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
+              "A": "3",
+              "skill": "-",
               "S": "5",
               "AP": "-1",
               "D": "1",
               "keywords": [
-                "Ignores Cover",
+                "Blast 1",
                 "Torrent"
               ]
             }
@@ -24679,17 +20963,13 @@
       "abilities": [
         {
           "name": "Termite Assault",
-          "text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models."
-        },
-        {
-          "name": "Damaged: 1-5 wounds remaining",
-          "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          "text": "- This unit must start the battle in strategic reserves.\n- In your first Movement phase, this unit can make an ingress move.\n- When this unit is set up, all units embarked within this unit must make a disembark/assault disembark move, and those units must be set up more than 8\" away from all enemy units."
         }
       ],
       "rules": [
         {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D3"
+          "id": "c68c-a968-354f-bb99",
+          "name": "Damaged 5"
         },
         {
           "id": "7cb5-dd6b-dd87-ad3b",
@@ -24700,6 +20980,10 @@
           "name": "Combat Doctrines"
         },
         {
+          "id": "b68a-5ded-65ac-98c",
+          "name": "Deadly Demise D3"
+        },
+        {
           "id": "e68b-b42f-6f7c-4670",
           "name": "Blessings of Khorne"
         }
@@ -24708,21 +20992,7 @@
         {
           "type": "Transport",
           "name": "Terrax-pattern Termite",
-          "text": "This model has a transport capacity of 12 <FACTION> INFANTRY models. It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR, OBLITERATOR, POSSESSED or TACTICUS models (excluding TACTICUS CHARACTER models that began the battle attached to a non-TACTICUS unit)."
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Damaged: 1-5 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
+          "text": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Gravis, Jump Pack, Terminator or Centurion models."
         }
       ]
     },
@@ -24914,6 +21184,7 @@
               "AP": "-1",
               "D": "2",
               "keywords": [
+                "Rapid Fire 2",
                 "Sustained Hits 1"
               ]
             }
@@ -24927,13 +21198,13 @@
               "name": "Heavy flamer",
               "kind": "ranged",
               "range": "12\"",
-              "A": "D6",
-              "skill": "N/A",
+              "A": "3",
+              "skill": "-",
               "S": "5",
               "AP": "-1",
               "D": "1",
               "keywords": [
-                "Ignores Cover",
+                "Blast 1",
                 "Torrent"
               ]
             }
@@ -24952,11 +21223,11 @@
               "range": "18\"",
               "A": "2",
               "skill": "3+",
-              "S": "9",
+              "S": "10",
               "AP": "-4",
-              "D": "D6",
+              "D": "D3+2",
               "keywords": [
-                "Melta 2"
+                "Melta 3"
               ]
             }
           ],
@@ -24974,8 +21245,8 @@
               "range": "24\"",
               "A": "2",
               "skill": "3+",
-              "S": "4",
-              "AP": "0",
+              "S": "5",
+              "AP": "-1",
               "D": "1",
               "keywords": [
                 "Rapid Fire 2"
@@ -24995,7 +21266,7 @@
               "skill": "3+",
               "S": "12",
               "AP": "-3",
-              "D": "D6+1",
+              "D": "D3+3",
               "keywords": []
             }
           ]
@@ -26854,7 +23125,8 @@
               "roll": "charge",
               "mod": "reroll"
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
@@ -28588,364 +24860,6 @@
           "condition": "While this model has 1-33 wounds remaining, subtract 15 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ]
-    },
-    {
-      "id": "97dc-f0c8-1354-88fb",
-      "name": "Whirlwind Scorpius",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Smoke",
-        "Whirlwind Scorpius",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 115
-        }
-      ],
-      "models": [
-        {
-          "name": "Whirlwind Scorpius",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "10\"",
-            "T": "10",
-            "Sv": "3+",
-            "W": "11",
-            "Ld": "6+",
-            "OC": "3",
-            "base": "Hull"
-          },
-          "loadout": [
-            "fbb0-60fa-108e-7f14",
-            "1151-47cb-d17e-b332"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "fbb0-60fa-108e-7f14",
-          "name": "Scorpius multi-launcher",
-          "profiles": [
-            {
-              "name": "Scorpius multi-launcher",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "2D3+3",
-              "skill": "3+",
-              "S": "6",
-              "AP": "-1",
-              "D": "2",
-              "keywords": [
-                "Blast",
-                "Indirect Fire"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "1151-47cb-d17e-b332",
-          "name": "Armoured tracks",
-          "profiles": [
-            {
-              "name": "Armoured tracks",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "3",
-              "skill": "4+",
-              "S": "6",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "308-b972-2863-2a32",
-          "name": "Hunter-killer missile",
-          "profiles": [
-            {
-              "name": "Hunter-killer missile",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "2+",
-              "S": "14",
-              "AP": "-3",
-              "D": "D6",
-              "keywords": [
-                "One Shot"
-              ]
-            }
-          ],
-          "tags": [
-            "Damage Dx Weapon"
-          ]
-        },
-        {
-          "id": "7eb4-c21c-d0a2-39df",
-          "name": "Storm bolter",
-          "profiles": [
-            {
-              "name": "Storm bolter",
-              "kind": "ranged",
-              "range": "24\"",
-              "A": "2",
-              "skill": "3+",
-              "S": "4",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ]
-            }
-          ]
-        }
-      ],
-      "wargear": [
-        {
-          "id": "cea5-cdd4-6998-853",
-          "name": "Hunter-killer missile",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "cea5-cdd4-6998-853",
-              "name": "Hunter-killer missile",
-              "weaponIds": [
-                "308-b972-2863-2a32"
-              ],
-              "points": 0
-            }
-          ]
-        },
-        {
-          "id": "5afe-2816-6ce1-9667",
-          "name": "Storm bolter",
-          "model": null,
-          "min": 0,
-          "max": 1,
-          "defaultChoiceId": null,
-          "choices": [
-            {
-              "id": "5afe-2816-6ce1-9667",
-              "name": "Storm bolter",
-              "weaponIds": [
-                "7eb4-c21c-d0a2-39df"
-              ],
-              "points": 0
-            }
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Pinning Bombardment",
-          "text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Scorpius multi-launcher scored a hit against an enemy INFANTRY unit, that unit must take a Battle-shock test."
-        },
-        {
-          "name": "Damaged: 1-4 wounds remaining",
-          "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D3"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        },
-        {
-          "id": "e68b-b42f-6f7c-4670",
-          "name": "Blessings of Khorne"
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Damaged: 1-4 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        }
-      ]
-    },
-    {
-      "id": "1aa5-d081-2442-4c37",
-      "name": "Xiphon Interceptor",
-      "role": "Vehicle",
-      "keywords": [
-        "Vehicle",
-        "Fly",
-        "Aircraft",
-        "Xiphon Interceptor",
-        "Chaos",
-        "Khorne"
-      ],
-      "factionKeywords": [
-        "World Eaters"
-      ],
-      "character": false,
-      "epicHero": false,
-      "legends": true,
-      "sizes": [
-        {
-          "minModels": 1,
-          "maxModels": 1,
-          "points": 115
-        }
-      ],
-      "models": [
-        {
-          "name": "Xiphon Interceptor",
-          "min": 1,
-          "max": 1,
-          "stats": {
-            "M": "20+",
-            "T": "9",
-            "Sv": "3+",
-            "W": "12",
-            "Ld": "6+",
-            "OC": "0",
-            "base": "120x92mm"
-          },
-          "loadout": [
-            "f043-6434-63a0-a906",
-            "a0-6c89-9642-47ad",
-            "c36c-6247-f673-fe00",
-            "c36c-6247-f673-fe00"
-          ]
-        }
-      ],
-      "weapons": [
-        {
-          "id": "f043-6434-63a0-a906",
-          "name": "Armoured hull",
-          "profiles": [
-            {
-              "name": "Armoured hull",
-              "kind": "melee",
-              "range": "Melee",
-              "A": "3",
-              "skill": "4+",
-              "S": "6",
-              "AP": "0",
-              "D": "1",
-              "keywords": []
-            }
-          ]
-        },
-        {
-          "id": "a0-6c89-9642-47ad",
-          "name": "Xiphon missile battery",
-          "profiles": [
-            {
-              "name": "Xiphon missile battery",
-              "kind": "ranged",
-              "range": "60\"",
-              "A": "3",
-              "skill": "3+",
-              "S": "7",
-              "AP": "-1",
-              "D": "3",
-              "keywords": [
-                "Anti-FLY 2+"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "c36c-6247-f673-fe00",
-          "name": "Twin lascannon",
-          "profiles": [
-            {
-              "name": "Twin lascannon",
-              "kind": "ranged",
-              "range": "48\"",
-              "A": "1",
-              "skill": "3+",
-              "S": "12",
-              "AP": "-3",
-              "D": "D6+1",
-              "keywords": [
-                "Twin-linked"
-              ]
-            }
-          ]
-        }
-      ],
-      "wargear": [],
-      "abilities": [
-        {
-          "name": "Interceptor",
-          "text": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
-        },
-        {
-          "name": "Damaged: 1-4 wounds remaining",
-          "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        }
-      ],
-      "rules": [
-        {
-          "id": "b68a-5ded-65ac-98c",
-          "name": "Deadly Demise D3"
-        },
-        {
-          "id": "3b76-4053-ece9-6e7d",
-          "name": "Combat Doctrines"
-        },
-        {
-          "id": "e68b-b42f-6f7c-4670",
-          "name": "Blessings of Khorne"
-        }
-      ],
-      "selfEffects": [
-        {
-          "rule": "Interceptor",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": 1,
-              "kind": "ranged",
-              "condition": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        },
-        {
-          "rule": "Damaged: 1-4 wounds remaining",
-          "stats": [],
-          "rolls": [
-            {
-              "roll": "hit",
-              "mod": -1,
-              "condition": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-            }
-          ],
-          "onlyModel": true
-        }
-      ]
     }
   ],
   "rules": [
@@ -28990,11 +24904,6 @@
       ]
     },
     {
-      "id": "a07b-d883-9916-4288",
-      "name": "Conversion",
-      "text": "Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."
-    },
-    {
       "id": "b17a-783c-cd7d-a787",
       "name": "Conversion",
       "text": "Each time an attack is made with this weapon, if the target is more than 24\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."
@@ -29003,6 +24912,11 @@
       "id": "7f3b-ae52-f288-1fef",
       "name": "Conversion (Moirax)",
       "text": "Each time an attack is made with this weapon, if the target is more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."
+    },
+    {
+      "id": "c68c-a968-354f-bb99",
+      "name": "Damaged",
+      "text": "This ability always takes the form **Damaged X**. While a model's remaining wounds are equal to or less than **X**, that model is **damaged**:\n- While a model is **damaged**, that model's attacks have -1 to **hit rolls**."
     },
     {
       "id": "b68a-5ded-65ac-98c",

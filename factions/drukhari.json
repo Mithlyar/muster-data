@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
+    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
     "file": "Aeldari - Drukhari.json",
     "gameSystemRevision": 18
   },
@@ -6597,7 +6597,8 @@
               "mod": "reroll",
               "condition": "Each time this model make an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll."
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -16600,60 +16601,88 @@
               "points": 0
             },
             {
-              "id": "aa43-7dde-bd80-a2f7",
-              "name": "Torturer's tool",
-              "weaponIds": [
-                "fa8c-adcd-1029-934d"
-              ],
-              "points": 0
-            },
-            {
-              "id": "bebb-a94f-5c28-9384",
-              "name": "Hexrifle",
-              "weaponIds": [
-                "9cde-e06a-76fd-4ed7"
-              ],
-              "points": 0
-            },
-            {
-              "id": "538c-7a06-2bfd-ac92",
-              "name": "Liquifier gun",
-              "weaponIds": [
-                "a2a7-dca6-1aed-539d"
-              ],
-              "points": 0
-            },
-            {
-              "id": "6306-67b2-e496-90b7",
-              "name": "Ossefactor",
-              "weaponIds": [
-                "8956-e04d-22be-a262"
-              ],
-              "points": 0
-            },
-            {
-              "id": "6fd7-f37d-62c4-4912",
-              "name": "Stinger pistol",
-              "weaponIds": [
-                "21bc-7a5c-2890-9c5e"
-              ],
-              "points": 0
-            },
-            {
-              "id": "6603-7cfe-6fa3-165a",
-              "name": "Power weapon",
-              "weaponIds": [
-                "6603-7cfe-6fa3-165a"
-              ],
-              "points": 0
-            },
-            {
-              "id": "279f-0b29-8de1-ac3c",
-              "name": "Torturer's tool",
-              "weaponIds": [
-                "fa8c-adcd-1029-934d"
-              ],
-              "points": 0
+              "id": "ba08-6388-37ae-9adb",
+              "name": "Alternative weapon options",
+              "weaponIds": [],
+              "points": 0,
+              "options": [
+                {
+                  "id": "785c-b40c-8fda-d182",
+                  "name": "Melee Weapon",
+                  "model": null,
+                  "min": 1,
+                  "max": 1,
+                  "defaultChoiceId": "6603-7cfe-6fa3-165a",
+                  "choices": [
+                    {
+                      "id": "6603-7cfe-6fa3-165a",
+                      "name": "Power weapon",
+                      "weaponIds": [
+                        "6603-7cfe-6fa3-165a"
+                      ],
+                      "points": 0
+                    },
+                    {
+                      "id": "279f-0b29-8de1-ac3c",
+                      "name": "Torturer's tool",
+                      "weaponIds": [
+                        "fa8c-adcd-1029-934d"
+                      ],
+                      "points": 0
+                    }
+                  ]
+                },
+                {
+                  "id": "933e-eac4-95a9-d4d9",
+                  "name": "Ranged Weapon",
+                  "model": null,
+                  "min": 1,
+                  "max": 1,
+                  "defaultChoiceId": "aa43-7dde-bd80-a2f7",
+                  "choices": [
+                    {
+                      "id": "aa43-7dde-bd80-a2f7",
+                      "name": "Torturer's tool",
+                      "weaponIds": [
+                        "fa8c-adcd-1029-934d"
+                      ],
+                      "points": 0
+                    },
+                    {
+                      "id": "bebb-a94f-5c28-9384",
+                      "name": "Hexrifle",
+                      "weaponIds": [
+                        "9cde-e06a-76fd-4ed7"
+                      ],
+                      "points": 0
+                    },
+                    {
+                      "id": "538c-7a06-2bfd-ac92",
+                      "name": "Liquifier gun",
+                      "weaponIds": [
+                        "a2a7-dca6-1aed-539d"
+                      ],
+                      "points": 0
+                    },
+                    {
+                      "id": "6306-67b2-e496-90b7",
+                      "name": "Ossefactor",
+                      "weaponIds": [
+                        "8956-e04d-22be-a262"
+                      ],
+                      "points": 0
+                    },
+                    {
+                      "id": "6fd7-f37d-62c4-4912",
+                      "name": "Stinger pistol",
+                      "weaponIds": [
+                        "21bc-7a5c-2890-9c5e"
+                      ],
+                      "points": 0
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

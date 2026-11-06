@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
+    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
     "file": "Orks.json",
     "gameSystemRevision": 18
   },
@@ -5270,7 +5270,7 @@
             "W": "3",
             "Ld": "7+",
             "OC": "1",
-            "base": "32mm"
+            "base": "40mm"
           },
           "loadout": [
             "5987-fa47-5ae9-93d2",
@@ -18005,8 +18005,7 @@
             "bab8-ecdc-4ff6-71d4",
             "bab8-ecdc-4ff6-71d4",
             "bab8-ecdc-4ff6-71d4",
-            "bab8-ecdc-4ff6-71d4",
-            "8e99-adf-bad4-e07f"
+            "bab8-ecdc-4ff6-71d4"
           ]
         }
       ],
@@ -18130,29 +18129,6 @@
           ],
           "tags": [
             "Ranged Weapon",
-            "Rapid Fire Weapon"
-          ]
-        },
-        {
-          "id": "8e99-adf-bad4-e07f",
-          "name": "Twin big shoota",
-          "profiles": [
-            {
-              "name": "Twin big shoota",
-              "kind": "ranged",
-              "range": "36\"",
-              "A": "3",
-              "skill": "5+",
-              "S": "5",
-              "AP": "0",
-              "D": "1",
-              "keywords": [
-                "Rapid Fire 2",
-                "Twin-linked"
-              ]
-            }
-          ],
-          "tags": [
             "Rapid Fire Weapon"
           ]
         }
@@ -18507,7 +18483,7 @@
             "W": "3",
             "Ld": "7+",
             "OC": "1",
-            "base": "32mm"
+            "base": "40mm"
           },
           "loadout": [
             "811f-e844-83ab-78a4",

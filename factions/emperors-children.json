@@ -9,7 +9,7 @@
   },
   "source": {
     "repo": "BSData/wh40k-11e",
-    "commit": "4d2f57e38dc048b29ad3c0b3189254dc56f7c1c1",
+    "commit": "afd795c795582aa3596d9934fa74a64d8c3f3b18",
     "file": "Chaos - Emperor's Children.json",
     "gameSystemRevision": 18
   },
@@ -2984,6 +2984,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
         }
       ]
@@ -6314,7 +6315,8 @@
               "mod": -1,
               "against": true
             }
-          ]
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -10734,7 +10736,8 @@
               "mod": -1,
               "against": true
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-6 wounds remaining",
@@ -11780,7 +11783,8 @@
               "mod": "rerollOne",
               "condition": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-9 wounds remaining",
@@ -13053,6 +13057,7 @@
               "fromText": true
             }
           ],
+          "onlyModel": true,
           "condition": "If it does so, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
         }
       ]
@@ -13385,6 +13390,7 @@
               "text": "At the start of the Fight phase, if this model is not leading a unit, until the end of the phase, it has the Fights First ability."
             }
           ],
+          "onlyModel": true,
           "condition": "At the start of the Fight phase, if this model is not leading a unit, until the end of the phase, it has the Fights First ability."
         },
         {
@@ -13756,7 +13762,8 @@
               "mod": 1,
               "condition": "If this model is also Below Half-Strength, add 1 to the Wound roll as well."
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-4 wounds remaining",
@@ -15177,7 +15184,8 @@
               "roll": "charge",
               "mod": "reroll"
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Monarch of the Hunt",
@@ -17773,7 +17781,8 @@
               "roll": "charge",
               "mod": "reroll"
             }
-          ]
+          ],
+          "onlyModel": true
         },
         {
           "rule": "Damaged: 1-5 wounds remaining",
