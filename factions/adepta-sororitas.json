@@ -655,28 +655,51 @@
             "value": "Precision"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "ea36-91b8-f9d0-524b",
       "name": "Divine Aspect",
       "points": 5,
       "detachmentId": "6f81-1a3e-c84e-0954",
-      "text": "ADEPTA SORORITAS model only. In your Movement phase, you can select one enemy unit within 12\" of that bearer; that unit must take a Battle-shock test. If that test is failed, you gain 1 Miracle dice."
+      "text": "ADEPTA SORORITAS model only. In your Movement phase, you can select one enemy unit within 12\" of that bearer; that unit must take a Battle-shock test. If that test is failed, you gain 1 Miracle dice.",
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "6afa-ce02-9563-368b",
       "name": "Litanies of Faith",
       "points": 10,
       "detachmentId": "6f81-1a3e-c84e-0954",
-      "text": "CANONESS or PALATINE model only. At the start of your Command phase, if the bearer is on the battlefield, take a Leadership test for the bearer. If that test is passed, you gain 1 Miracle dice."
+      "text": "CANONESS or PALATINE model only. At the start of your Command phase, if the bearer is on the battlefield, take a Leadership test for the bearer. If that test is passed, you gain 1 Miracle dice.",
+      "bearers": [
+        [
+          "Canoness"
+        ],
+        [
+          "Palatine"
+        ]
+      ]
     },
     {
       "id": "b6bd-5c3a-835b-08a8",
       "name": "Triptych of the Macharian Crusade",
       "points": 20,
       "detachmentId": "6f81-1a3e-c84e-0954",
-      "text": "ADEPTA SORORITAS model only. Each time the bearer uses an Act of Faith to substitute a saving throw, that saving throw is successful, irrespective of the value of the Miracle dice used."
+      "text": "ADEPTA SORORITAS model only. Each time the bearer uses an Act of Faith to substitute a saving throw, that saving throw is successful, irrespective of the value of the Miracle dice used.",
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "32e8-f267-c03d-c48e",
@@ -702,35 +725,63 @@
             "value": "Sustained Hits 1"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "e8b3-d714-4605-2480",
       "name": "Iron Surplice of Saint Istalela",
       "points": 10,
       "detachmentId": "575d-76f6-2edb-22c1",
-      "text": "CANONESS or PALATINE model only. The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability."
+      "text": "CANONESS or PALATINE model only. The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability.",
+      "bearers": [
+        [
+          "Canoness"
+        ],
+        [
+          "Palatine"
+        ]
+      ]
     },
     {
       "id": "9105-7062-e61d-cc8b",
       "name": "Manual of Saint Griselda",
       "points": 20,
       "detachmentId": "575d-76f6-2edb-22c1",
-      "text": "ADEPTA SORORITAS model only. At the start of your Command phase, you can discard up to 2 Miracle dice. Then, add 1 Miracle dice to your Miracle Dice pool showing a value equal to the sum of the two Miracle dice you discarded (to a maximum of 6)."
+      "text": "ADEPTA SORORITAS model only. At the start of your Command phase, you can discard up to 2 Miracle dice. Then, add 1 Miracle dice to your Miracle Dice pool showing a value equal to the sum of the two Miracle dice you discarded (to a maximum of 6).",
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "b16a-1b5e-85a6-0e1b",
       "name": "Righteous Rage",
       "points": 15,
       "detachmentId": "575d-76f6-2edb-22c1",
-      "text": "**^^Adepta Sororitas^^** model only. Each time the bearer is selected to fight, you can first discard up to 3 Miracle dice. For each Miracle dice just discarded, until the end of the phase, add 1 to the Attacks and Strength characteristics of the bearer's melee weapons."
+      "text": "**^^Adepta Sororitas^^** model only. Each time the bearer is selected to fight, you can first discard up to 3 Miracle dice. For each Miracle dice just discarded, until the end of the phase, add 1 to the Attacks and Strength characteristics of the bearer's melee weapons.",
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "5344-3b0c-c939-e6a2",
       "name": "Eyes of the Oracle",
       "points": 10,
       "detachmentId": "5c81-a47b-d3a0-31e8",
-      "text": "ADEPTA SORORITAS model only. The bearer’s weapons have the [PRECISION] ability. Each time the bearer’s unit destroys an enemy Character model, you gain 1CP."
+      "text": "ADEPTA SORORITAS model only. The bearer’s weapons have the [PRECISION] ability. Each time the bearer’s unit destroys an enemy Character model, you gain 1CP.",
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "6a87-e11a-7a83-54ac",
@@ -747,21 +798,36 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "2c1d-5416-8c0d-f790",
       "name": "Sanctified Amulet",
       "points": 25,
       "detachmentId": "5c81-a47b-d3a0-31e8",
-      "text": "ADEPTA SORORITAS model only. Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of the bearer"
+      "text": "ADEPTA SORORITAS model only. Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of the bearer",
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "4e52-3be7-153f-2ef8",
       "name": "Triptych of Judgement",
       "points": 15,
       "detachmentId": "5c81-a47b-d3a0-31e8",
-      "text": "ADEPTA SORORITAS model only. Each time a model in the bearer’s unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll."
+      "text": "ADEPTA SORORITAS model only. Each time a model in the bearer’s unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll.",
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "2474-62bc-deab-c31b",
@@ -778,21 +844,39 @@
       "name": "Chaplet of Sacrifice",
       "points": 25,
       "detachmentId": "8e26-78e2-10bd-6982",
-      "text": "ADEPTA SORORITAS model only. At the end of your Command phase, if the bearer is on the battlefield, you can re-roll one Miracle dice from your Miracle dice pool and return it to your Miracle dice pool with the new result you rolled. When doing so, if the bearer's unit is below its Starting Strength, you can re-roll up to 3 Miracle dice in this way instead."
+      "text": "ADEPTA SORORITAS model only. At the end of your Command phase, if the bearer is on the battlefield, you can re-roll one Miracle dice from your Miracle dice pool and return it to your Miracle dice pool with the new result you rolled. When doing so, if the bearer's unit is below its Starting Strength, you can re-roll up to 3 Miracle dice in this way instead.",
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "ffbd-988d-1497-2fdc",
       "name": "Mantle of Ophelia",
       "points": 20,
       "detachmentId": "8e26-78e2-10bd-6982",
-      "text": "**^^Canoness^^** or **^^Palatine^^** model only. Each time an attack is allocated to the bearer, change the Damage characteristic of that attack to 1."
+      "text": "**^^Canoness^^** or **^^Palatine^^** model only. Each time an attack is allocated to the bearer, change the Damage characteristic of that attack to 1.",
+      "bearers": [
+        [
+          "Canoness"
+        ],
+        [
+          "Palatine"
+        ]
+      ]
     },
     {
       "id": "302c-b8d2-7d21-305f",
       "name": "Saintly Example",
       "points": 10,
       "detachmentId": "8e26-78e2-10bd-6982",
-      "text": "ADEPTA SORORITAS model only. When the bearer is destroyed, you gain an additional D3 Miracle dice."
+      "text": "ADEPTA SORORITAS model only. When the bearer is destroyed, you gain an additional D3 Miracle dice.",
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "7056-256b-9392-bbbc",
@@ -821,7 +905,12 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "ad43-4753-3b84-776a",
@@ -833,14 +922,30 @@
         "keywords": [
           "Penitent"
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Canoness"
+        ],
+        [
+          "Palatine"
+        ],
+        [
+          "Ministorum Priest"
+        ]
+      ]
     },
     {
       "id": "e77d-7180-7b77-4c42",
       "name": "Psalm of Righteous Judgement",
       "points": 20,
       "detachmentId": "a2f5-a466-96b6-d389",
-      "text": "ADEPTA SORORITAS model only. While the bearer is on the battlefield, each time an enemy unit is destroyed by a PENITENT unit from your army, you can discard 1 Miracle dice to gain 1 Miracle dice showing a value of 6."
+      "text": "ADEPTA SORORITAS model only. While the bearer is on the battlefield, each time an enemy unit is destroyed by a PENITENT unit from your army, you can discard 1 Miracle dice to gain 1 Miracle dice showing a value of 6.",
+      "bearers": [
+        [
+          "Adepta Sororitas"
+        ]
+      ]
     },
     {
       "id": "0491-e21f-9916-6799",
@@ -850,6 +955,11 @@
       "text": "PENITENT model only. While the bearer is leading a unit, models in that unit have a 5+ invulnerable save.",
       "keywords": [
         "Penitent"
+      ],
+      "bearers": [
+        [
+          "Penitent"
+        ]
       ]
     },
     {
@@ -860,6 +970,11 @@
       "text": "PENITENT model only. Once per battle, at the start of the battle round, select one Vow of Atonement. Until the start of the next battle round, that Vow of Atonement is active for the bearer's unit in addition to any that is active for your army, even if you have already selected that Vow of Atonement this battle.",
       "keywords": [
         "Penitent"
+      ],
+      "bearers": [
+        [
+          "Penitent"
+        ]
       ]
     },
     {
@@ -898,6 +1013,46 @@
       "upgrade": {
         "maxCopies": 3
       }
+    },
+    {
+      "id": "9cc7-bfa9-ca48-9853",
+      "name": "Writ of Compunction",
+      "points": 20,
+      "detachmentId": "0017-3a94-11f8-7fca",
+      "text": "This unit has +1 OC.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "OC",
+            "op": "add",
+            "value": 1
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Celestian Sacresants"
+        ]
+      ]
+    },
+    {
+      "id": "bd97-06c3-a527-9a3e",
+      "name": "Symphonic Payload",
+      "points": 10,
+      "detachmentId": "3ee6-23e1-8bc0-90f7",
+      "text": "This unit can re‑roll rolls to determine the **A** of a weapon.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Exorcist"
+        ]
+      ]
     }
   ],
   "units": [
@@ -20862,6 +21017,16 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "The Pulpit of Saint Holline’s Basilica",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "The Pulpit of Saint Holline’s Basilica",
           "stats": [],

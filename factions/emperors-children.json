@@ -85,6 +85,38 @@
           "text": "Each time an ^^**Emperor's Children**^^ unit from your army is selected to fight, if it made a Charge move this turn, select one of the abilities below. While resolving those attacks, melee weapons equipped by models in that unit have the ability:\n- [^^Lethal Hits^^]\n- [^^Sustained Hits 1^^]"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Exquisite Swordsmanship",
+          "who": [
+            [
+              "Emperor's Children"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Exquisite Swordsmanship",
+              "text": "While resolving those attacks, melee weapons equipped by models in that unit have the ability [Lethal Hits]"
+            }
+          ],
+          "condition": "While resolving those attacks, melee weapons equipped by models in that unit have the ability [Lethal Hits]"
+        },
+        {
+          "rule": "Exquisite Swordsmanship",
+          "who": [
+            [
+              "Emperor's Children"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Exquisite Swordsmanship",
+              "text": "While resolving those attacks, melee weapons equipped by models in that unit have the ability [Sustained Hits 1]"
+            }
+          ],
+          "condition": "While resolving those attacks, melee weapons equipped by models in that unit have the ability [Sustained Hits 1]"
+        }
+      ],
       "stratagems": [
         {
           "name": "Incessant Violence",
@@ -256,6 +288,21 @@
             }
           ],
           "condition": "3+: Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+        },
+        {
+          "rule": "Pledges to the Dark Prince",
+          "who": [
+            [
+              "Emperor's Children"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Pledges to the Dark Prince",
+              "text": "5+: Melee weapons equipped by models in this unit have the [Lethal Hits] and [Sustained Hits 1]] abilities."
+            }
+          ],
+          "condition": "5+: Melee weapons equipped by models in this unit have the [Lethal Hits] and [Sustained Hits 1]] abilities."
         }
       ],
       "stratagems": [
@@ -481,6 +528,33 @@
           "text": "Once per battle round, when you target a ^^**Fulgrim^^** unit from your army with the Sinuous Breach or Prideful Superiority Stratagem, you can reduce the CP cost of that use of that Stratagem by 1CP."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Sensational Performance",
+          "who": [
+            [
+              "Emperor's Children"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "If it does, until the end of the phase Improve the Strength and Armour Penetration characteristics of this unit's melee weapons by 1."
+        }
+      ],
       "stratagems": [
         {
           "name": "Close-quarters Excruciation",
@@ -646,6 +720,22 @@
         {
           "name": "Entitled to Victory",
           "text": "Friendly **FLAWLESS BLADES** units have **Fights First**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Entitled to Victory",
+          "who": [
+            [
+              "Flawless Blades"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Fights First",
+              "text": "Friendly FLAWLESS BLADES units have Fights First."
+            }
+          ]
         }
       ],
       "stratagems": [
@@ -1034,6 +1124,14 @@
       "points": 20,
       "detachmentId": "8aff-09e5-5ff7-e9f2",
       "text": "- This model has Deep Strike. \n- This unit’s ranged attacks have [IGNORES COVER].",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "This model has Deep Strike."
+          }
+        ]
+      },
       "keywords": [
         "Emperor's Children",
         "Lord Kakophonist"
@@ -1079,6 +1177,77 @@
       "keywords": [
         "Emperor's Children",
         "Lord Exultant"
+      ]
+    },
+    {
+      "id": "6c92-d70d-63c5-485f",
+      "name": "Eager Patrons",
+      "points": 20,
+      "detachmentId": "68d6-d094-a5d3-9bb5",
+      "text": "This unit has +2\" **M**.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "M",
+            "op": "add",
+            "value": 2
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Emperor's Children"
+        ]
+      ]
+    },
+    {
+      "id": "e243-6183-edac-f4c1",
+      "name": "Beguiling Grotesquerie",
+      "points": 15,
+      "detachmentId": "68d6-d094-a5d3-9bb5",
+      "text": "Enemy units cannot target this unit with **snap shooting** attacks.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Emperor's Children"
+        ]
+      ]
+    },
+    {
+      "id": "c8fb-474a-1f47-4274",
+      "name": "Frenzied Ferocity",
+      "points": 15,
+      "detachmentId": "8aff-09e5-5ff7-e9f2",
+      "text": "This unit's attacks have [SUSTAINED HITS 1].",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1"
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1"
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Emperor's Children"
+        ]
       ]
     }
   ],

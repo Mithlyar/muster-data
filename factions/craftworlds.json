@@ -27,6 +27,24 @@
           "text": "At the start of the battle round, you receive 1 additional Battle Focus token.\nEach time a unit from your army performs the Swift as the Wind Agile Manoeuvre, until the end of the phase, add an additional 1\" to the Move characteristic of models in that unit.\nEach time a unit from your army performs an Agile Manoeuvre that involves rolling a D6, add 1 to the result."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Martial Grace",
+          "who": [
+            []
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a unit from your army performs the Swift as the Wind Agile Manoeuvre, until the end of the phase, add an additional 1\" to the Move characteristic of models in that unit."
+        }
+      ],
       "stratagems": [
         {
           "name": "Blitzing Firepower",
@@ -761,6 +779,21 @@
           ]
         },
         {
+          "rule": "Boons of the Brood",
+          "who": [
+            [
+              "Harlequins"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Boons of the Brood",
+              "text": "Each time a Harlequins unit from your army disembarks from a Transport, until the end of the turn, that unit's weapons have the [SUSTAINED HITS 1] ability."
+            }
+          ],
+          "condition": "Each time a Harlequins unit from your army disembarks from a Transport, until the end of the turn, that unit's weapons have the [SUSTAINED HITS 1] ability."
+        },
+        {
           "rule": "Travelling Players",
           "who": [
             [
@@ -1053,6 +1086,22 @@
           "text": "If every model in a unit has this ability, each time a ranged attack targets that unit, that unit has the **benefit of cover** against that attack (13.08)."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Dance of Distortion",
+          "who": [
+            [
+              "Harlequins"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "Friendly HARLEQUINS units have Stealth."
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Phantasmal Mirage",
@@ -1085,6 +1134,12 @@
       "keywords": [
         "Aeldari",
         "Psyker"
+      ],
+      "bearers": [
+        [
+          "Aeldari",
+          "Psyker"
+        ]
       ]
     },
     {
@@ -1096,6 +1151,12 @@
       "keywords": [
         "Aeldari",
         "Psyker"
+      ],
+      "bearers": [
+        [
+          "Aeldari",
+          "Psyker"
+        ]
       ]
     },
     {
@@ -1119,42 +1180,84 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Autarch"
+        ],
+        [
+          "Autarch Wayleaper"
+        ]
+      ]
     },
     {
       "id": "0a0b-4e89-3576-1d96",
       "name": "Mantle of Wisdom",
       "points": 20,
       "detachmentId": "8e89-2c14-6bf5-87bf",
-      "text": "^^**Autarch^^** or ^^**Autarch Wayleaper^^** model only. While the bearer is leading an ^^**Aspect Warriors^^** unit, each time that unit is selected to shoot or fight, until the end of the phase, models in that unit gain both of the abilities from the Path of the Warrior Detachment rule."
+      "text": "^^**Autarch^^** or ^^**Autarch Wayleaper^^** model only. While the bearer is leading an ^^**Aspect Warriors^^** unit, each time that unit is selected to shoot or fight, until the end of the phase, models in that unit gain both of the abilities from the Path of the Warrior Detachment rule.",
+      "bearers": [
+        [
+          "Autarch"
+        ],
+        [
+          "Autarch Wayleaper"
+        ]
+      ]
     },
     {
       "id": "aad8-7608-0af0-628c",
       "name": "Shimmerstone",
       "points": 10,
       "detachmentId": "8e89-2c14-6bf5-87bf",
-      "text": "Autarch or Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, each time a ranged attack targets that unit, subtract 1 from the Wound roll."
+      "text": "Autarch or Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, each time a ranged attack targets that unit, subtract 1 from the Wound roll.",
+      "bearers": [
+        [
+          "Autarch"
+        ],
+        [
+          "Autarch Wayleaper"
+        ]
+      ]
     },
     {
       "id": "f980-e125-e534-dd4e",
       "name": "Strategic Savant",
       "points": 10,
       "detachmentId": "8e89-2c14-6bf5-87bf",
-      "text": "Autarch or Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, add 1 to the Objective Control characteristic of models in that unit."
+      "text": "Autarch or Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, add 1 to the Objective Control characteristic of models in that unit.",
+      "bearers": [
+        [
+          "Autarch"
+        ],
+        [
+          "Autarch Wayleaper"
+        ]
+      ]
     },
     {
       "id": "15a4-4dee-37f6-8d4b",
       "name": "Gaze of Ynnead",
       "points": 15,
       "detachmentId": "925e-85fb-b477-70be",
-      "text": "Farseer model only. The bearer's Eldritch Storm weapon has the [Devastating Wounds] ability."
+      "text": "Farseer model only. The bearer's Eldritch Storm weapon has the [Devastating Wounds] ability.",
+      "bearers": [
+        [
+          "Farseer"
+        ]
+      ]
     },
     {
       "id": "a5e4-493b-ef71-c833",
       "name": "Storm of Whispers",
       "points": 10,
       "detachmentId": "925e-85fb-b477-70be",
-      "text": "Warlock model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+      "text": "Warlock model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
+      "bearers": [
+        [
+          "Warlock"
+        ]
+      ]
     },
     {
       "id": "7321-9d12-a2fa-d1e6",
@@ -1171,7 +1274,12 @@
             "value": 2
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Archon"
+        ]
+      ]
     },
     {
       "id": "6617-8f5a-b98a-e897",
@@ -1187,14 +1295,24 @@
             "kind": "melee"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Succubus"
+        ]
+      ]
     },
     {
       "id": "ad20-1ee6-b7ce-0c17",
       "name": "Cegorach's Coil",
       "points": 25,
       "detachmentId": "be59-ec7d-2f02-b6ec",
-      "text": "Troupe Master model only. Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer's unit, then roll one D6 for each model in the bearer's unit that is within Engagment Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+      "text": "Troupe Master model only. Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer's unit, then roll one D6 for each model in the bearer's unit that is within Engagment Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+      "bearers": [
+        [
+          "Troupe Master"
+        ]
+      ]
     },
     {
       "id": "a067-906b-f29b-253a",
@@ -1204,6 +1322,11 @@
       "text": "Harlequins model only. Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of the bearer's unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.",
       "keywords": [
         "Harlequins"
+      ],
+      "bearers": [
+        [
+          "Harlequins"
+        ]
       ]
     },
     {
@@ -1211,7 +1334,12 @@
       "name": "Murder's Jest",
       "points": 20,
       "detachmentId": "be59-ec7d-2f02-b6ec",
-      "text": "Death Jester model only. Each time the bearer makes an attack that targets a unit that is below Half-strength, each successful Hit scores a Critical Hit."
+      "text": "Death Jester model only. Each time the bearer makes an attack that targets a unit that is below Half-strength, each successful Hit scores a Critical Hit.",
+      "bearers": [
+        [
+          "Death Jester"
+        ]
+      ]
     },
     {
       "id": "5d21-7924-d79b-3be1",
@@ -1226,7 +1354,12 @@
             "text": "Models in this unit have the Infiltrators ability."
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Shadowseer"
+        ]
+      ]
     },
     {
       "id": "4d59-81d8-0a78-adf3",
@@ -1247,6 +1380,11 @@
       },
       "keywords": [
         "Asuryani"
+      ],
+      "bearers": [
+        [
+          "Asuryani"
+        ]
       ]
     },
     {
@@ -1257,6 +1395,11 @@
       "text": "Asuryani model only. In the Deploy Armies step, select up to two Guardians units from your army. Models in the selected units have the Infiltrators ability.",
       "keywords": [
         "Asuryani"
+      ],
+      "bearers": [
+        [
+          "Asuryani"
+        ]
       ]
     },
     {
@@ -1267,6 +1410,11 @@
       "text": "Asuryani model only. While the bearer is leading a Dire Avengers or Guardians unit, once per battle round, you can target the bearer's unit with the Fire Overwatch Stratagem for 0CP, and while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if the bearer's unit is within range of an objective marker you control.",
       "keywords": [
         "Asuryani"
+      ],
+      "bearers": [
+        [
+          "Asuryani"
+        ]
       ]
     },
     {
@@ -1277,6 +1425,11 @@
       "text": "**ASURYANI** model only. While the bearer is leading a **STORM GUARDIANS** unit, each time you roll to determine the number of attacks made with a flamer equipped by a model in that unit, you can re‑roll the result, and each time you make a Damage roll for a model equipped with a fusion gun in that unit, you can re‑roll the result.",
       "keywords": [
         "Asuryani"
+      ],
+      "bearers": [
+        [
+          "Asuryani"
+        ]
       ]
     },
     {
@@ -1284,7 +1437,13 @@
       "name": "Lucid Eye",
       "points": 30,
       "detachmentId": "b525-57b6-8a78-ed75",
-      "text": "Asuryani Psyker model only. In your Command phase, you can add 1 to or subtract 1 from the value of one Fate dice in your Fate dice pool."
+      "text": "Asuryani Psyker model only. In your Command phase, you can add 1 to or subtract 1 from the value of one Fate dice in your Fate dice pool.",
+      "bearers": [
+        [
+          "Asuryani",
+          "Psyker"
+        ]
+      ]
     },
     {
       "id": "b4a8-8ce4-a1f3-b8ce",
@@ -1299,21 +1458,39 @@
             "text": "Models in the bearer's unit have the Feel No Pain 4+ ability against mortal wounds, Psychic Attacks and Critical Wounds caused by attacks with the [DEVASTATING WOUNDS] ability."
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Asuryani",
+          "Psyker"
+        ]
+      ]
     },
     {
       "id": "ee05-f0eb-bbaa-5960",
       "name": "Stone of Eldritch Fury",
       "points": 15,
       "detachmentId": "b525-57b6-8a78-ed75",
-      "text": "Asuryani Psyker model only. Add 12\" to the Range characteristic of ranged Psychic weapons equipped by the bearer."
+      "text": "Asuryani Psyker model only. Add 12\" to the Range characteristic of ranged Psychic weapons equipped by the bearer.",
+      "bearers": [
+        [
+          "Asuryani",
+          "Psyker"
+        ]
+      ]
     },
     {
       "id": "bfba-62e0-2784-ef48",
       "name": "Torc of Morai-Heg",
       "points": 20,
       "detachmentId": "b525-57b6-8a78-ed75",
-      "text": "Asuryani Psyker model only. Once per turn, when your opponent targets a unit from their army within 12\" of the bearer with a Stratagem, the bearer can use this Enhancement. If it does, increase the CP cost of that usage of that Stratagem by 1CP."
+      "text": "Asuryani Psyker model only. Once per turn, when your opponent targets a unit from their army within 12\" of the bearer with a Stratagem, the bearer can use this Enhancement. If it does, increase the CP cost of that usage of that Stratagem by 1CP.",
+      "bearers": [
+        [
+          "Asuryani",
+          "Psyker"
+        ]
+      ]
     },
     {
       "id": "9898-7c41-c373-b3c9",
@@ -1323,6 +1500,11 @@
       "text": "Spiritseer model only. In your Command phase, select one friendly Wraith Construct unit within 12\" of the bearer. Until the start of your next Command phase, add 1 to the Objective Control characteristic of Infanty models in that unit and add 3 to the Objective Control characteristic of Monster models in that unit.",
       "keywords": [
         "Spiritseer"
+      ],
+      "bearers": [
+        [
+          "Spiritseer"
+        ]
       ]
     },
     {
@@ -1333,6 +1515,11 @@
       "text": "Spiritseer model only. In your Command phase, select one friendly Wraith Construct unit within 12\" of the bearer (excluding Titanic units). Until the start of your next Command phase, each time a model in that unit makes an attack, on a Critical Wound, that attack has the [Precision] ability.",
       "keywords": [
         "Spiritseer"
+      ],
+      "bearers": [
+        [
+          "Spiritseer"
+        ]
       ]
     },
     {
@@ -1343,6 +1530,11 @@
       "text": "Spiritseer model only. In your Command phase, select one friendly Wraith Construct unit within 12\" of the bearer. Until the start of your next Command phase, each time a ranged attack targets that unit, unless the attacking model is within 18, models in that unit have the Benefit of Cover against that attack.",
       "keywords": [
         "Spiritseer"
+      ],
+      "bearers": [
+        [
+          "Spiritseer"
+        ]
       ]
     },
     {
@@ -1353,6 +1545,11 @@
       "text": "**SPIRITSEER** model only. In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6\".",
       "keywords": [
         "Spiritseer"
+      ],
+      "bearers": [
+        [
+          "Spiritseer"
+        ]
       ]
     },
     {
@@ -1373,28 +1570,49 @@
             ]
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Asuryani",
+          "Psyker"
+        ]
+      ]
     },
     {
       "id": "607f-8f46-48c4-edb7",
       "name": "Phoenix Gem",
       "points": 35,
       "detachmentId": "3c31-6fac-9914-827a",
-      "text": "^^Asuryani^^ model only. The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one of more enemy units, with its full wounds remaining."
+      "text": "^^Asuryani^^ model only. The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one of more enemy units, with its full wounds remaining.",
+      "bearers": [
+        [
+          "Asuryani"
+        ]
+      ]
     },
     {
       "id": "3c85-7aba-e35d-27be",
       "name": "Gift of Foresight",
       "points": 15,
       "detachmentId": "3c31-6fac-9914-827a",
-      "text": "^^Asuryani^^ model only. Once per battle round, you can target the bearer's unit with the Command Re-roll Stratagem for 0CP."
+      "text": "^^Asuryani^^ model only. Once per battle round, you can target the bearer's unit with the Command Re-roll Stratagem for 0CP.",
+      "bearers": [
+        [
+          "Asuryani"
+        ]
+      ]
     },
     {
       "id": "dab9-c5f2-a09f-c524",
       "name": "Timeless Strategist",
       "points": 15,
       "detachmentId": "3c31-6fac-9914-827a",
-      "text": "^^Asuryani^^ model only. At the start of the battle round, if the bearer is on the battlefield (or any Transport it is embarked within is on the battlefield), you receive 1 additional Battle Focus token."
+      "text": "^^Asuryani^^ model only. At the start of the battle round, if the bearer is on the battlefield (or any Transport it is embarked within is on the battlefield), you receive 1 additional Battle Focus token.",
+      "bearers": [
+        [
+          "Asuryani"
+        ]
+      ]
     },
     {
       "id": "cb45-ba0f-165f-45dc",
@@ -1409,7 +1627,13 @@
             "text": "Models in this unit have the Scouts 9\" ability."
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Asuryani",
+          "Mounted"
+        ]
+      ]
     },
     {
       "id": "9867-5fd8-af23-34a8",
@@ -1425,21 +1649,40 @@
             "against": true
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Asuryani",
+          "Mounted"
+        ]
+      ]
     },
     {
       "id": "116d-f3dd-042d-4c4f",
       "name": "Seersight Strike",
       "points": 15,
       "detachmentId": "c8a3-920b-166b-30d9",
-      "text": "Asuryani Mounted Psyker model only. Psychic weapons equipped by the bearer have the [Anti-Monster 2+] and [Anti-Vehicle 2+] abilities."
+      "text": "Asuryani Mounted Psyker model only. Psychic weapons equipped by the bearer have the [Anti-Monster 2+] and [Anti-Vehicle 2+] abilities.",
+      "bearers": [
+        [
+          "Asuryani",
+          "Mounted",
+          "Psyker"
+        ]
+      ]
     },
     {
       "id": "81a9-3e2f-0181-e550",
       "name": "Echoes of Ulthanesh",
       "points": 20,
       "detachmentId": "c8a3-920b-166b-30d9",
-      "text": "Asuryani Mounted model only. In your Command phase, roll one D6, adding 1 to the result if the bearer is not within your deployment zone, and adding an additional 1 to the result if the bearer is within your opponent's deployment zone: on a 5+, you gain 1CP."
+      "text": "Asuryani Mounted model only. In your Command phase, roll one D6, adding 1 to the result if the bearer is not within your deployment zone, and adding an additional 1 to the result if the bearer is within your opponent's deployment zone: on a 5+, you gain 1CP.",
+      "bearers": [
+        [
+          "Asuryani",
+          "Mounted"
+        ]
+      ]
     },
     {
       "id": "1927-5104-198f-4b11",
@@ -1457,6 +1700,14 @@
       },
       "keywords": [
         "Harlequins"
+      ],
+      "bearers": [
+        [
+          "Harlequins"
+        ]
+      ],
+      "notBearers": [
+        "Solitaire"
       ]
     },
     {
@@ -1464,21 +1715,36 @@
       "name": "Fanged Leer",
       "points": 10,
       "detachmentId": "5ad5-9b0d-a70e-b9ec",
-      "text": "^^**Death Jester**^^ model only. When using the bearer’s Cruel Amusement ability, you can select two of the abilities for its shrieker cannon to gain, instead of one."
+      "text": "^^**Death Jester**^^ model only. When using the bearer’s Cruel Amusement ability, you can select two of the abilities for its shrieker cannon to gain, instead of one.",
+      "bearers": [
+        [
+          "Death Jester"
+        ]
+      ]
     },
     {
       "id": "ec57-0892-4279-0849",
       "name": "Shedskin Raiment",
       "points": 25,
       "detachmentId": "5ad5-9b0d-a70e-b9ec",
-      "text": "^^**Shadowseer**^^ model only. After both players have deployed their armies, select up to three Harlequins units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+      "text": "^^**Shadowseer**^^ model only. After both players have deployed their armies, select up to three Harlequins units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "bearers": [
+        [
+          "Shadowseer"
+        ]
+      ]
     },
     {
       "id": "228e-07bd-f027-10f4",
       "name": "Weavers' Wail",
       "points": 20,
       "detachmentId": "5ad5-9b0d-a70e-b9ec",
-      "text": "^^**Troupe Master**^^ model only. Add 3 to the Strength and add 1 to the Attacks characteristics of the bearer’s melee weapons."
+      "text": "^^**Troupe Master**^^ model only. Add 3 to the Strength and add 1 to the Attacks characteristics of the bearer’s melee weapons.",
+      "bearers": [
+        [
+          "Troupe Master"
+        ]
+      ]
     },
     {
       "id": "fb27-1469-5fc4-161d",
@@ -1488,6 +1754,14 @@
       "text": "^^**Prince Yriel**^^ unit only. Each time you spend a Battle Focus token to enable this unit to perform an Agile Manoeuvre, roll one D6: on a 3+, you gain 1 Battle Focus token.",
       "keywords": [
         "Prince Yriel"
+      ],
+      "upgrade": {
+        "maxCopies": 1
+      },
+      "bearers": [
+        [
+          "Prince Yriel"
+        ]
       ]
     },
     {
@@ -1505,7 +1779,15 @@
             "value": "Lance"
           }
         ]
-      }
+      },
+      "upgrade": {
+        "maxCopies": 1
+      },
+      "bearers": [
+        [
+          "Anhrathe"
+        ]
+      ]
     },
     {
       "id": "7e77-9e44-2644-3df6",
@@ -1528,7 +1810,15 @@
             "value": "Anti-Vehicle 5+"
           }
         ]
-      }
+      },
+      "upgrade": {
+        "maxCopies": 1
+      },
+      "bearers": [
+        [
+          "Anhrathe"
+        ]
+      ]
     },
     {
       "id": "233a-28cc-1059-ec0d",
@@ -1538,6 +1828,15 @@
       "text": "^^**Anhrathe Infantry**^^ unit only. This unit can perform the Fade Back Agile Manoeuvre without spending a Battle Focus token to do so. It can do so even if other units have done so in the same phase, and doing so does not prevent other units from performing the same Agile Manoeuvre in the same phase.",
       "keywords": [
         "Infantry"
+      ],
+      "upgrade": {
+        "maxCopies": 1
+      },
+      "bearers": [
+        [
+          "Anhrathe",
+          "Infantry"
+        ]
       ]
     },
     {
@@ -1545,14 +1844,30 @@
       "name": "Infamy (Aura)",
       "points": 25,
       "detachmentId": "7224-4f3e-c557-115d",
-      "text": "^^**Anhrathe**^^ unit only. While an enemy unit is within 3” of this unit, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1)."
+      "text": "^^**Anhrathe**^^ unit only. While an enemy unit is within 3” of this unit, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1).",
+      "upgrade": {
+        "maxCopies": 1
+      },
+      "bearers": [
+        [
+          "Anhrathe"
+        ]
+      ]
     },
     {
       "id": "64d3-4806-a9ae-eb4e",
       "name": "Webway Pathstone",
       "points": 25,
       "detachmentId": "7224-4f3e-c557-115d",
-      "text": "^^**Anhrathe**^^ unit only. Models in this unit have the Deep Strike ability. In addition, once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, it can use this ability. If it does, remove this unit from the battlefield and place it into Strategic Reserves."
+      "text": "^^**Anhrathe**^^ unit only. Models in this unit have the Deep Strike ability. In addition, once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, it can use this ability. If it does, remove this unit from the battlefield and place it into Strategic Reserves.",
+      "upgrade": {
+        "maxCopies": 1
+      },
+      "bearers": [
+        [
+          "Anhrathe"
+        ]
+      ]
     },
     {
       "id": "975b-7718-2400-78c9",
@@ -1562,6 +1877,14 @@
       "text": "^^**Anhrathe Character**^^ unit only. At the start of the battle, select one ^^**Character**^^ model in this unit. That model has the following ability: \n\n**Lord of Deceit (Aura):** Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP.",
       "keywords": [
         "Character"
+      ],
+      "upgrade": {
+        "maxCopies": 1
+      },
+      "bearers": [
+        [
+          "Anhrathe"
+        ]
       ]
     },
     {
@@ -1583,6 +1906,15 @@
       },
       "keywords": [
         "Infantry"
+      ],
+      "upgrade": {
+        "maxCopies": 1
+      },
+      "bearers": [
+        [
+          "Anhrathe",
+          "Infantry"
+        ]
       ]
     },
     {
@@ -1598,21 +1930,108 @@
             "mod": "reroll"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Troupe Master"
+        ]
+      ]
     },
     {
       "id": "29c8-5ca8-471c-8018",
       "name": "Mistweave",
       "points": 20,
       "detachmentId": "c40e-26bd-7e76-0815",
-      "text": "**SHADOWSEER** model only. This unit has **Infiltrators**."
+      "text": "**SHADOWSEER** model only. This unit has **Infiltrators**.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "This unit has Infiltrators."
+          }
+        ]
+      },
+      "bearers": [
+        [
+          "Shadowseer"
+        ]
+      ]
     },
     {
       "id": "8d5c-ff96-e34e-a4f1",
       "name": "Prelude Performer",
       "points": 20,
       "detachmentId": "dcf3-cecd-ca37-4193",
-      "text": "**HARLEQUINS** model only. This unit has **Scouts 6\"**."
+      "text": "**HARLEQUINS** model only. This unit has **Scouts 6\"**.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "This unit has Scouts 6\"."
+          }
+        ]
+      },
+      "bearers": [
+        [
+          "Harlequins"
+        ]
+      ]
+    },
+    {
+      "id": "0100-1901-999e-d7be",
+      "name": "Camouflaged Snipers",
+      "points": 10,
+      "detachmentId": "8b57-c6f6-c651-65bf",
+      "text": "**RANGERS** unit only. This unit’s ranged attacks do not prevent this unit from being **hidden**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Rangers"
+        ]
+      ]
+    },
+    {
+      "id": "38a3-11a3-eb1e-78a7",
+      "name": "Assassin's Eye",
+      "points": 15,
+      "detachmentId": "8b57-c6f6-c651-65bf",
+      "text": "**RANGERS/SHROUD RUNNERS** unit only. This unit’s ranged attacks that target a **CHARACTER** unit have +1 **AP**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Rangers"
+        ],
+        [
+          "Shroud Runners"
+        ]
+      ]
+    },
+    {
+      "id": "6c34-6504-f458-2792",
+      "name": "Shadowfall Masks",
+      "points": 15,
+      "detachmentId": "dcf3-cecd-ca37-4193",
+      "text": "**TROUPE** unit only. This unit has **Fights First**.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Fights First",
+            "text": "This unit has Fights First."
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Troupe"
+        ]
+      ]
     }
   ],
   "units": [
@@ -7598,7 +8017,7 @@
                   },
                   {
                     "name": "Lone Operative",
-                    "text": "This model has the Lone Operative ability."
+                    "text": "(INFANTRY and MOUNTED only) This model has the Lone Operative ability."
                   }
                 ]
               }
@@ -18327,7 +18746,7 @@
                   },
                   {
                     "name": "Lone Operative",
-                    "text": "This model has the Lone Operative ability."
+                    "text": "(INFANTRY and MOUNTED only) This model has the Lone Operative ability."
                   }
                 ]
               }
@@ -18778,6 +19197,16 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Acrobatic Grace",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Acrobatic Grace",
           "stats": [],

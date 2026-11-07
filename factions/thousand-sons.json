@@ -447,6 +447,23 @@
           "text": "Each time an attack with an unmodified Damage characteristic of 1 is allocated to a ^^**Rubricae^^** model from your army, add 1 to any armour saving throw made against that attack."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "All is Dust",
+          "who": [
+            [
+              "Rubricae"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "All is Dust",
+              "text": "Each time an attack with an unmodified Damage characteristic of 1 is allocated to a Rubricae model from your army, add 1 to any armour saving throw made against that attack."
+            }
+          ],
+          "condition": "Each time an attack with an unmodified Damage characteristic of 1 is allocated to a Rubricae model from your army, add 1 to any armour saving throw made against that attack."
+        }
+      ],
       "stratagems": [
         {
           "name": "Unwavering Phalanx",
@@ -645,7 +662,8 @@
           "rule": "Ensorcelled Animus",
           "who": [
             [
-              "Sekhetar Robots"
+              "Thousand Sons",
+              "Psyker"
             ]
           ],
           "stats": [
@@ -657,7 +675,7 @@
               "fromText": true
             }
           ],
-          "condition": "Infusion (Aura): While a friendly SEKHETAR ROBOTS unit is within 12\" of this unit, that unit's melee attacks have +1 WS."
+          "condition": "Friendly THOUSAND SONS PSYKER units have the following ability Infusion (Aura): While a friendly SEKHETAR ROBOTS unit is within 12\" of this unit, that unit's melee attacks have +1 WS."
         }
       ],
       "stratagems": [
@@ -731,6 +749,37 @@
     }
   ],
   "enhancements": [
+    {
+      "id": "8735-77ba-713d-0d92",
+      "name": "Thicket of Bladed Bone",
+      "points": 10,
+      "detachmentId": "cec5-f3d2-05cb-212b",
+      "text": "This unit’s melee attacks have: \n- +1 AP. \n- [CLEAVE 1].",
+      "effects": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "AP",
+            "op": "add",
+            "value": -1
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Cleave 1"
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Thousand Sons"
+        ]
+      ]
+    },
     {
       "id": "eef6-4b12-1eff-f412",
       "name": "Lord of Forbidden Lore",
@@ -949,7 +998,15 @@
             "text": "This model has the Scouts 6\" ability."
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Sorcerer"
+        ],
+        [
+          "Infernal Master"
+        ]
+      ]
     },
     {
       "id": "c84c-683a-79be-1620",
@@ -1105,6 +1162,14 @@
       "text": "In your Movement phase, at the start or end of this unit’s move, you can select one friendly **SEKHETAR ROBOTS** unit within 6\" of this unit. That unit’s ranged attacks have +1 **BS** until the start of your next turn.",
       "keywords": [
         "Thousand Sons"
+      ],
+      "bearers": [
+        [
+          "Sorcerer"
+        ],
+        [
+          "Exalted Sorcerer"
+        ]
       ]
     },
     {
@@ -1115,6 +1180,14 @@
       "text": "This model has the following abilities: \n- Soul Bound: In your Movement phase, at the start or end of this unit’s move, you can select one friendly **SEKHETAR ROBOTS** unit within 3\" of this model. That **SEKHETAR ROBOTS** unit **heals** D3+1 wounds. \n▪ Kine‑shielded Guardians: While this model is within 3\" of a friendly **SEKHETAR ROBOTS** unit, this model has **Lone Operative**.",
       "keywords": [
         "Thousand Sons"
+      ],
+      "bearers": [
+        [
+          "Sorcerer"
+        ],
+        [
+          "Exalted Sorcerer"
+        ]
       ]
     },
     {

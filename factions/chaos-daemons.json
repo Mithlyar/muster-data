@@ -145,6 +145,56 @@
           "text": "You start the battle with three Flux tokens (we recommend using a dice to track how many Flux tokens you have). You can spend one Flux token just after an Advance roll, Hit roll, Wound roll, Damage roll, saving throw or Hazardous test is made for a LEGIONES DAEMONICA TZEENTCH model or LEGIONES DAEMONICA TZEENTCH unit from your army to re‑roll the result of that roll, throw or test. Flux tokens can also be spent to enhance the effect of some Stratagems. Each time you spend a Flux token, reduce the number of Flux tokens you have by one and your opponent gains one Flux token. \n\n\n Whenever your opponent has one or more Flux tokens, they can spend one Flux token after an Advance roll, Hit roll, Wound roll or saving throw is made for a model or unit from their army, to re‑roll the result of that roll or throw. If they do, they reduce the number of Flux tokens they have by one and you gain one Flux token. This is ignored if your opponent has the Fates in Flux Detachment rule. \n\n\nIn your Command phase, if your opponent has one or more Flux tokens, you gain one Flux token. \n\n\n**Designer’s Note**: *When using fast dice rolling, this rule can be used to spend any number of Flux tokens (up to the amount you have), to re‑roll a number of dice up to the amount spent, after rolling multiple rolls or saving throws at once.*"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Fates in Flux",
+          "who": [
+            [
+              "Legiones Daemonica",
+              "Tzeentch"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Fates in Flux",
+              "text": "You can spend one Flux token just after an Advance roll, Hit roll, Wound roll, Damage roll, saving throw or Hazardous test is made for a LEGIONES DAEMONICA TZEENTCH model or LEGIONES DAEMONICA TZEENTCH unit from your army to re-roll the result of that roll, throw or test."
+            }
+          ],
+          "condition": "You can spend one Flux token just after an Advance roll, Hit roll, Wound roll, Damage roll, saving throw or Hazardous test is made for a LEGIONES DAEMONICA TZEENTCH model or LEGIONES DAEMONICA TZEENTCH unit from your army to re-roll the result of that roll, throw or test."
+        },
+        {
+          "rule": "Fates in Flux",
+          "who": [
+            [
+              "Legiones Daemonica",
+              "Tzeentch"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Fates in Flux",
+              "text": "Whenever your opponent has one or more Flux tokens, they can spend one Flux token after an Advance roll, Hit roll, Wound roll or saving throw is made for a model or unit from their army, to re-roll the result of that roll or throw."
+            }
+          ],
+          "condition": "Whenever your opponent has one or more Flux tokens, they can spend one Flux token after an Advance roll, Hit roll, Wound roll or saving throw is made for a model or unit from their army, to re-roll the result of that roll or throw."
+        },
+        {
+          "rule": "Fates in Flux",
+          "who": [
+            [
+              "Legiones Daemonica",
+              "Tzeentch"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Designer's Note",
+              "text": "When using fast dice rolling, this rule can be used to spend any number of Flux tokens (up to the amount you have), to re-roll a number of dice up to the amount spent, after rolling multiple rolls or saving throws at once."
+            }
+          ],
+          "condition": "when Designer's Note is chosen"
+        }
+      ],
       "stratagems": [
         {
           "name": "Pyrogenesis",
@@ -577,6 +627,12 @@
       "keywords": [
         "Character",
         "Khorne"
+      ],
+      "bearers": [
+        [
+          "Khorne",
+          "Legiones Daemonica"
+        ]
       ]
     },
     {
@@ -627,6 +683,12 @@
       "keywords": [
         "Character",
         "Tzeentch"
+      ],
+      "bearers": [
+        [
+          "Tzeentch",
+          "Legiones Daemonica"
+        ]
       ]
     },
     {
@@ -646,6 +708,12 @@
       "keywords": [
         "Character",
         "Nurgle"
+      ],
+      "bearers": [
+        [
+          "Nurgle",
+          "Legiones Daemonica"
+        ]
       ]
     },
     {
@@ -657,6 +725,12 @@
       "keywords": [
         "Character",
         "Slaanesh"
+      ],
+      "bearers": [
+        [
+          "Slaanesh",
+          "Legiones Daemonica"
+        ]
       ]
     },
     {
@@ -668,6 +742,12 @@
       "keywords": [
         "Slaanesh",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Slaanesh"
+        ]
       ],
       "effects": {
         "auras": [
@@ -704,6 +784,12 @@
         "Slaanesh",
         "Character"
       ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Slaanesh"
+        ]
+      ],
       "effects": {
         "auras": [
           {
@@ -739,6 +825,13 @@
         "Monster",
         "Tzeentch",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Tzeentch",
+          "Monster"
+        ]
       ]
     },
     {
@@ -751,6 +844,13 @@
         "Monster",
         "Slaanesh",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Slaanesh",
+          "Monster"
+        ]
       ]
     },
     {
@@ -763,6 +863,13 @@
         "Monster",
         "Slaanesh",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Slaanesh",
+          "Monster"
+        ]
       ]
     },
     {
@@ -789,6 +896,13 @@
         "Khorne",
         "Character",
         "Monster"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Khorne",
+          "Monster"
+        ]
       ]
     },
     {
@@ -800,6 +914,12 @@
       "keywords": [
         "Tzeentch",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Tzeentch"
+        ]
       ]
     },
     {
@@ -811,6 +931,12 @@
       "keywords": [
         "Tzeentch",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Tzeentch"
+        ]
       ],
       "effects": {
         "auras": [
@@ -871,6 +997,13 @@
       },
       "keywords": [
         "Monster"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Tzeentch",
+          "Monster"
+        ]
       ]
     },
     {
@@ -882,6 +1015,12 @@
       "keywords": [
         "Khorne",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Khorne"
+        ]
       ],
       "effects": {
         "auras": [
@@ -933,6 +1072,12 @@
       "keywords": [
         "Khorne",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Khorne"
+        ]
       ]
     },
     {
@@ -945,6 +1090,13 @@
         "Monster",
         "Khorne",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Khorne",
+          "Monster"
+        ]
       ]
     },
     {
@@ -956,6 +1108,12 @@
       "keywords": [
         "Nurgle",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Nurgle"
+        ]
       ]
     },
     {
@@ -968,6 +1126,13 @@
         "Monster",
         "Nurgle",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Nurgle",
+          "Monster"
+        ]
       ],
       "effects": {
         "auras": [
@@ -1008,6 +1173,12 @@
       "keywords": [
         "Nurgle",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Nurgle"
+        ]
       ]
     },
     {
@@ -1020,6 +1191,13 @@
         "Monster",
         "Nurgle",
         "Character"
+      ],
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Nurgle",
+          "Monster"
+        ]
       ]
     },
     {
@@ -1128,6 +1306,54 @@
       "upgrade": {
         "maxCopies": 3
       }
+    },
+    {
+      "id": "65ae-c95a-cd9e-f0b0",
+      "name": "Bane-forged weapons",
+      "points": 15,
+      "detachmentId": "357d-d51b-f001-a33d",
+      "text": "This unit’s attacks have +1 S.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "S",
+            "op": "add",
+            "value": 1
+          },
+          {
+            "on": "melee",
+            "stat": "S",
+            "op": "add",
+            "value": 1
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Battleline"
+        ]
+      ]
+    },
+    {
+      "id": "92b0-64dd-9d71-181a",
+      "name": "Soul-hungry Slaughterers",
+      "points": 10,
+      "detachmentId": "357d-d51b-f001-a33d",
+      "text": "When you target this unit with the Heroic Intervention/Fire Overwatch stratagem, that use is -1 CP.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Legiones Daemonica",
+          "Battleline"
+        ]
+      ]
     }
   ],
   "units": [
@@ -3067,6 +3293,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -3250,6 +3486,16 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -3452,6 +3698,16 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -10573,6 +10829,10 @@
                     "detachmentIds": [
                       "5063-25bd-d22e-665b"
                     ]
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -11589,6 +11849,10 @@
                     "detachmentIds": [
                       "5063-25bd-d22e-665b"
                     ]
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -13193,6 +13457,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -13417,6 +13691,16 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -14329,6 +14613,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -14676,6 +14970,16 @@
         {
           "rule": "Fluxmaster",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Fluxmaster",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -14683,6 +14987,16 @@
               "against": true,
               "kind": "melee",
               "condition": "Melee attacks that target this unit have -1 to hit rolls."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
             }
           ]
         },
@@ -14877,6 +15191,10 @@
                     "detachmentIds": [
                       "5063-25bd-d22e-665b"
                     ]
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -15099,6 +15417,10 @@
                     "detachmentIds": [
                       "5063-25bd-d22e-665b"
                     ]
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -17349,6 +17671,10 @@
                     "detachmentIds": [
                       "5063-25bd-d22e-665b"
                     ]
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -21959,13 +22285,59 @@
             }
           ],
           "weaponIds": [
-            "e9cb-69af-41c7-3e59",
-            "50ec-46b4-194a-a3ed",
-            "94b3-f0dc-1691-4dca",
-            "a015-477e-cd3b-6280",
-            "fbc0-6bf0-7d69-ee67",
-            "f0ee-44c4-e1b1-42d",
-            "f7dc-a17d-aece-165a"
+            "e9cb-69af-41c7-3e59"
+          ]
+        },
+        {
+          "name": "Heavy bolter",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "50ec-46b4-194a-a3ed"
+          ]
+        },
+        {
+          "name": "Lascannon",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "94b3-f0dc-1691-4dca"
+          ]
+        },
+        {
+          "name": "Missile launcher",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "a015-477e-cd3b-6280"
+          ]
+        },
+        {
+          "name": "Reaper chaincannon",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "fbc0-6bf0-7d69-ee67"
           ]
         },
         {
@@ -21982,6 +22354,19 @@
           ]
         },
         {
+          "name": "Meltagun",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "f0ee-44c4-e1b1-42d"
+          ]
+        },
+        {
           "name": "Flamer",
           "max": [
             {
@@ -21992,6 +22377,19 @@
           ],
           "weaponIds": [
             "95b9-c6e0-aa5a-87ef"
+          ]
+        },
+        {
+          "name": "Plasma gun",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "f7dc-a17d-aece-165a"
           ]
         }
       ],
@@ -22299,6 +22697,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
         },
         {
           "rule": "Penumbral Puppetry",
@@ -23195,6 +23603,16 @@
         "onslaught": 6
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -26250,6 +26668,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -28970,6 +29398,10 @@
                     "detachmentIds": [
                       "5063-25bd-d22e-665b"
                     ]
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -31311,6 +31743,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
         },
         {
           "rule": "Penumbral Puppetry",

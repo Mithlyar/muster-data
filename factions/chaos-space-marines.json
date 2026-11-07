@@ -511,6 +511,17 @@
             }
           ],
           "condition": "If it does, until the end of the phase, add 2\" to the Move characteristic of models in that unit and add 2 to Charge rolls made for that unit."
+        },
+        {
+          "rule": "Keywords",
+          "who": [
+            [
+              "Traitor Guardsmen Squad"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
         }
       ],
       "stratagems": [
@@ -1986,6 +1997,11 @@
       },
       "keywords": [
         "Chaos Lord"
+      ],
+      "bearers": [
+        [
+          "Chaos Lord"
+        ]
       ]
     },
     {
@@ -4554,6 +4570,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -4725,6 +4751,16 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -5282,6 +5318,16 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -17785,9 +17831,7 @@
             }
           ],
           "modelNames": [
-            "Cultist w/ flamer",
-            "Cultist w/ cultist grenade launcher",
-            "Cultist w/ heavy stubber"
+            "Cultist w/ flamer"
           ]
         },
         {
@@ -17808,12 +17852,38 @@
           "max": [
             {
               "minModels": 10,
+              "maxModels": 20,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Cultist w/ cultist grenade launcher"
+          ]
+        },
+        {
+          "name": "Cultist w/ cultist grenade launcher",
+          "max": [
+            {
+              "minModels": 10,
               "maxModels": 19,
               "max": 1
             }
           ],
           "modelNames": [
             "Cultist w/ cultist grenade launcher"
+          ]
+        },
+        {
+          "name": "Cultist w/ heavy stubber",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 20,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Cultist w/ heavy stubber"
           ]
         },
         {
@@ -19278,6 +19348,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -20280,6 +20354,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -24286,6 +24364,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -25186,6 +25274,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -26044,6 +26142,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -26373,6 +26481,16 @@
         {
           "rule": "Fluxmaster",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Fluxmaster",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -26380,6 +26498,16 @@
               "against": true,
               "kind": "melee",
               "condition": "Melee attacks that target this unit have -1 to hit rolls."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
             }
           ]
         },
@@ -26858,6 +26986,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -27241,6 +27373,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -31944,6 +32080,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -38497,13 +38637,59 @@
             }
           ],
           "weaponIds": [
-            "e9cb-69af-41c7-3e59",
-            "50ec-46b4-194a-a3ed",
-            "94b3-f0dc-1691-4dca",
-            "a015-477e-cd3b-6280",
-            "fbc0-6bf0-7d69-ee67",
-            "f0ee-44c4-e1b1-42d",
-            "f7dc-a17d-aece-165a"
+            "e9cb-69af-41c7-3e59"
+          ]
+        },
+        {
+          "name": "Heavy bolter",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "50ec-46b4-194a-a3ed"
+          ]
+        },
+        {
+          "name": "Lascannon",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "94b3-f0dc-1691-4dca"
+          ]
+        },
+        {
+          "name": "Missile launcher",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "a015-477e-cd3b-6280"
+          ]
+        },
+        {
+          "name": "Reaper chaincannon",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "fbc0-6bf0-7d69-ee67"
           ]
         },
         {
@@ -38520,6 +38706,19 @@
           ]
         },
         {
+          "name": "Meltagun",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "f0ee-44c4-e1b1-42d"
+          ]
+        },
+        {
           "name": "Flamer",
           "max": [
             {
@@ -38530,6 +38729,19 @@
           ],
           "weaponIds": [
             "95b9-c6e0-aa5a-87ef"
+          ]
+        },
+        {
+          "name": "Plasma gun",
+          "max": [
+            {
+              "minModels": 5,
+              "maxModels": 10,
+              "max": 1
+            }
+          ],
+          "weaponIds": [
+            "f7dc-a17d-aece-165a"
           ]
         }
       ],
@@ -39181,6 +39393,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
         },
         {
           "rule": "Penumbral Puppetry",
@@ -43157,6 +43379,16 @@
         "onslaught": 6
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -49779,6 +50011,16 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -56938,6 +57180,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -59883,6 +60129,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
         },
         {
           "rule": "Penumbral Puppetry",

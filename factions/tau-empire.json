@@ -135,6 +135,21 @@
               "fromText": true
             }
           ]
+        },
+        {
+          "rule": "Killing Blow",
+          "who": [
+            [
+              "T'au Empire"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Killing Blow",
+              "text": "During the first, second and third battle rounds, while a unit is a Guided unit (see For the Greater Good), its ranged weapons have the [LETHAL HITS] ability."
+            }
+          ],
+          "condition": "During the first, second and third battle rounds, while a unit is a Guided unit (see For the Greater Good), its ranged weapons have the [LETHAL HITS] ability."
         }
       ],
       "stratagems": [
@@ -347,6 +362,18 @@
             }
           ],
           "condition": "Kroot models from your army have a 6+ invulnerable save against melee attacks and a 5+ invulnerable save against ranged attacks."
+        },
+        {
+          "rule": "Keywords",
+          "who": [
+            [
+              "Kroot",
+              "Carnivores"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
         }
       ],
       "stratagems": [
@@ -521,7 +548,16 @@
       "name": "Exemplar of the Kauyon",
       "points": 20,
       "detachmentId": "e366-3583-f47a-986e",
-      "text": "**^^T’au Empire^^** model only (excluding **^^Kroot Shaper^^** models). While the bearer is leading a unit, the Patient Hunter Detachment rule applies to that unit from the second battle round onwards instead of the third."
+      "text": "**^^T’au Empire^^** model only (excluding **^^Kroot Shaper^^** models). While the bearer is leading a unit, the Patient Hunter Detachment rule applies to that unit from the second battle round onwards instead of the third.",
+      "bearers": [
+        [
+          "T'au Empire"
+        ]
+      ],
+      "notBearers": [
+        "Kroot",
+        "Shaper"
+      ]
     },
     {
       "id": "8890-1932-b85c-f7de",
@@ -537,28 +573,56 @@
             "kind": "ranged"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "T'au Empire"
+        ]
+      ]
     },
     {
       "id": "a4bd-c0a7-e26e-ece8",
       "name": "Solid-image Projection Unit",
       "points": 20,
       "detachmentId": "e366-3583-f47a-986e",
-      "text": "**^^T’au Empire^^** model only. After both players have deployed their armies, select up to three **^^T’au Empire^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+      "text": "**^^T’au Empire^^** model only. After both players have deployed their armies, select up to three **^^T’au Empire^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+      "bearers": [
+        [
+          "T'au Empire"
+        ]
+      ]
     },
     {
       "id": "f835-9b5b-d767-7447",
       "name": "Through Unity, Devastation",
       "points": 30,
       "detachmentId": "e366-3583-f47a-986e",
-      "text": "**T’AU EMPIRE** model only (excluding **KROOT SHAPER** models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[LETHAL HITS]** ability while targeting their Spotted unit."
+      "text": "**T’AU EMPIRE** model only (excluding **KROOT SHAPER** models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[LETHAL HITS]** ability while targeting their Spotted unit.",
+      "bearers": [
+        [
+          "T'au Empire"
+        ]
+      ],
+      "notBearers": [
+        "Kroot",
+        "Shaper"
+      ]
     },
     {
       "id": "b51b-cac6-a8ec-39da",
       "name": "Exemplar of the Mont'ka",
       "points": 10,
       "detachmentId": "6aea-8ba5-978e-8def",
-      "text": "**^^T’au Empire^^** model only (excluding **^^Kroot Shaper^^** models). While the bearer is leading a unit, the Killing Blow Detachment rule applies to that unit during the fourth battle round as well."
+      "text": "**^^T’au Empire^^** model only (excluding **^^Kroot Shaper^^** models). While the bearer is leading a unit, the Killing Blow Detachment rule applies to that unit during the fourth battle round as well.",
+      "bearers": [
+        [
+          "T'au Empire"
+        ]
+      ],
+      "notBearers": [
+        "Kroot",
+        "Shaper"
+      ]
     },
     {
       "id": "34f8-64e7-2649-37c1",
@@ -572,28 +636,54 @@
       "name": "Strategic Conqueror",
       "points": 15,
       "detachmentId": "6aea-8ba5-978e-8def",
-      "text": "**^^T’au Empire^^** model only. At the start of the first battle round, before the first turn begins, select one objective marker on the battlefield. While a friendly **^^T’au Empire^^** model is within range of that objective marker and the bearer is on the battlefield, add 1 to that friendly model's Objective Control characteristic."
+      "text": "**^^T’au Empire^^** model only. At the start of the first battle round, before the first turn begins, select one objective marker on the battlefield. While a friendly **^^T’au Empire^^** model is within range of that objective marker and the bearer is on the battlefield, add 1 to that friendly model's Objective Control characteristic.",
+      "bearers": [
+        [
+          "T'au Empire"
+        ]
+      ]
     },
     {
       "id": "d798-dc1e-5f03-a187",
       "name": "Coordinated Exploitation",
       "points": 30,
       "detachmentId": "6aea-8ba5-978e-8def",
-      "text": "**T’AU EMPIRE** model only (excluding **KROOT SHAPER** models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[SUSTAINED HITS 1]** ability while targeting their Spotted unit."
+      "text": "**T’AU EMPIRE** model only (excluding **KROOT SHAPER** models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[SUSTAINED HITS 1]** ability while targeting their Spotted unit.",
+      "bearers": [
+        [
+          "T'au Empire"
+        ]
+      ],
+      "notBearers": [
+        "Kroot",
+        "Shaper"
+      ]
     },
     {
       "id": "31f7-e121-c586-2db7",
       "name": "Starflare Ignition System",
       "points": 20,
       "detachmentId": "3bae-cf7-b9e3-4f00",
-      "text": "**^^T’au Empire Battlesuit^^** model only. At the end of your opponent's turn, if the bearer's unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves."
+      "text": "**^^T’au Empire Battlesuit^^** model only. At the end of your opponent's turn, if the bearer's unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves.",
+      "bearers": [
+        [
+          "T'au Empire",
+          "Battlesuit"
+        ]
+      ]
     },
     {
       "id": "475a-416d-c4ff-9511",
       "name": "Prototype Weapon System",
       "points": 15,
       "detachmentId": "3bae-cf7-b9e3-4f00",
-      "text": "**^^T’au Empire Battlesuit^^** model only. Each time the bearer is select to shoot, select either the **[LETHAL HITS]** or **[SUSTAINED HITS 1]** ability. Until those attacks are resolved, ranged weapons equipped by the bearer have the select ability."
+      "text": "**^^T’au Empire Battlesuit^^** model only. Each time the bearer is select to shoot, select either the **[LETHAL HITS]** or **[SUSTAINED HITS 1]** ability. Until those attacks are resolved, ranged weapons equipped by the bearer have the select ability.",
+      "bearers": [
+        [
+          "T'au Empire",
+          "Battlesuit"
+        ]
+      ]
     },
     {
       "id": "b68d-712a-3f6a-d0b0",
@@ -605,21 +695,39 @@
         "keywords": [
           "Grenades"
         ]
-      }
+      },
+      "bearers": [
+        [
+          "T'au Empire",
+          "Battlesuit"
+        ]
+      ]
     },
     {
       "id": "2aac-953c-80af-2edb",
       "name": "Puretide Engram Neurochip",
       "points": 15,
       "detachmentId": "3bae-cf7-b9e3-4f00",
-      "text": "**T’AU EMPIRE BATTLESUIT** model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP."
+      "text": "**T’AU EMPIRE BATTLESUIT** model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.",
+      "bearers": [
+        [
+          "T'au Empire",
+          "Battlesuit"
+        ]
+      ]
     },
     {
       "id": "e72b-61f3-5e33-983f",
       "name": "Nomadic Hunter",
       "points": 20,
       "detachmentId": "452e-5b5b-cdbc-c94a",
-      "text": "**^^Kroot Trail Shaper^^** model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by the models in that unit have the **[ASSAULT]** ability."
+      "text": "**^^Kroot Trail Shaper^^** model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by the models in that unit have the **[ASSAULT]** ability.",
+      "bearers": [
+        [
+          "Kroot",
+          "Trail Shaper"
+        ]
+      ]
     },
     {
       "id": "26d2-5d6-3735-e50d",
@@ -649,7 +757,13 @@
             "value": "Precision, Devastating Wounds"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Kroot",
+          "War Shaper"
+        ]
+      ]
     },
     {
       "id": "56d3-d687-ee98-2b7",
@@ -666,42 +780,117 @@
             "value": "Ignores Cover"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Kroot"
+        ]
+      ]
     },
     {
       "id": "ded3-abf8-bdeb-fd8d",
       "name": "Student of Kauyon",
       "points": 20,
       "detachmentId": "97bc-1349-fb9d-c04f",
-      "text": "**KROOT SHAPER** model only. In the Declare Battle Formations step, you can select up to three friendly **KROOT CARNIVORES/FARSTALKERS** units. Those units have **Deep Strike**."
+      "text": "**KROOT SHAPER** model only. In the Declare Battle Formations step, you can select up to three friendly **KROOT CARNIVORES/FARSTALKERS** units. Those units have **Deep Strike**.",
+      "bearers": [
+        [
+          "Kroot",
+          "Shaper"
+        ]
+      ]
     },
     {
       "id": "b7cd-d78c-d062-64f0",
       "name": "Admired Leader",
       "points": 20,
       "detachmentId": "97bc-1349-fb9d-c04f",
-      "text": "**T’AU EMPIRE** model only (excluding **KROOT** models). In your Command phase, you can select one **KROOT/VESPID STINGWINGS** unit within 12\" of this model. If you do, that unit has +1 **Ld** and **OC** until the start of your next Command phase."
+      "text": "**T’AU EMPIRE** model only (excluding **KROOT** models). In your Command phase, you can select one **KROOT/VESPID STINGWINGS** unit within 12\" of this model. If you do, that unit has +1 **Ld** and **OC** until the start of your next Command phase.",
+      "bearers": [
+        [
+          "T'au Empire"
+        ]
+      ],
+      "notBearers": [
+        "Kroot"
+      ]
     },
     {
       "id": "1184-c004-494b-642e",
       "name": "Thermoneutronic Projector",
       "points": 15,
       "detachmentId": "1520-c344-f4fe-b414",
-      "text": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s T’au Flamer weapons. That weapon’s attacks have:\n- +2 **S**\n- +1 **AP** and **D**."
+      "text": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s T’au Flamer weapons. That weapon’s attacks have:\n- +2 **S**\n- +1 **AP** and **D**.",
+      "bearers": [
+        [
+          "Battlesuit"
+        ]
+      ]
     },
     {
       "id": "bc44-f33b-73bc-5ae5",
       "name": "Plasma Accelerator Rifle",
       "points": 20,
       "detachmentId": "1520-c344-f4fe-b414",
-      "text": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s Plasma Rifle weapons. That weapon’s attacks have:\n- +2 **S**\n- +1 **A**, **AP** and **D**."
+      "text": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s Plasma Rifle weapons. That weapon’s attacks have:\n- +2 **S**\n- +1 **A**, **AP** and **D**.",
+      "bearers": [
+        [
+          "Battlesuit"
+        ]
+      ]
     },
     {
       "id": "8588-2b55-0468-0a97",
       "name": "Supernova Launcher",
       "points": 15,
       "detachmentId": "1520-c344-f4fe-b414",
-      "text": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s Airbursting Fragmentation Projector weapons. That weapon’s attacks have:\n- +3 **S**\n- +1 **AP** and **D**."
+      "text": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s Airbursting Fragmentation Projector weapons. That weapon’s attacks have:\n- +3 **S**\n- +1 **AP** and **D**.",
+      "bearers": [
+        [
+          "Battlesuit"
+        ]
+      ]
+    },
+    {
+      "id": "ea6f-2de1-8db9-9a62",
+      "name": "Unmasking Suite",
+      "points": 15,
+      "detachmentId": "4417-6fdc-a5d9-cdf7",
+      "text": "**GHOSTKEEL BATTLESUIT/PATHFINDER TEAM/STEALTH BATTLESUITS** unit only. When this unit is **selected to shoot**, you can select one enemy unit within 24\" of this unit. That enemy unit has +9\" **detection range** until this unit has shot.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Ghostkeel",
+          "Battlesuit"
+        ],
+        [
+          "Ghostkeel",
+          "Pathfinder Team"
+        ],
+        [
+          "Ghostkeel",
+          "Stealth",
+          "Battlesuit"
+        ]
+      ]
+    },
+    {
+      "id": "9ceb-d88d-2e9c-d52a",
+      "name": "Negation Emitters",
+      "points": 15,
+      "detachmentId": "4417-6fdc-a5d9-cdf7",
+      "text": "**STEALTH BATTLESUITS** unit only. This unit has -3\" **detection range**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Stealth",
+          "Battlesuit"
+        ]
+      ]
     }
   ],
   "units": [

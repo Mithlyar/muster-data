@@ -579,6 +579,23 @@
           "text": "Friendly Tacticus units [Rapid Fire] attacks benefit from [Rapid Fire] when targeting units up to that attack's maximum range."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Codex Fire-Patterns",
+          "who": [
+            [
+              "Tacticus"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Codex Fire-Patterns",
+              "text": "Friendly Tacticus units [Rapid Fire] attacks benefit from [Rapid Fire] when targeting units up to that attack's maximum range."
+            }
+          ],
+          "condition": "Friendly Tacticus units [Rapid Fire] attacks benefit from [Rapid Fire] when targeting units up to that attack's maximum range."
+        }
+      ],
       "stratagems": [
         {
           "name": "Point-blank Brutality",
@@ -703,6 +720,21 @@
         }
       ],
       "unitEffects": [
+        {
+          "rule": "Walking Fortress",
+          "who": [
+            [
+              "Gravis"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Walking Fortress",
+              "text": "In a turn a friendly Gravis unit made a normal move, that unit's ranged attacks Do not have [Heavy]"
+            }
+          ],
+          "condition": "In a turn a friendly Gravis unit made a normal move, that unit's ranged attacks Do not have [Heavy]"
+        },
         {
           "rule": "Walking Fortress",
           "who": [
@@ -1048,7 +1080,12 @@
             "text": "Artificer Armour: Feel No Pain 5+"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes"
+        ]
+      ]
     },
     {
       "id": "899b-69cc-2e8f-f8ea",
@@ -1071,7 +1108,12 @@
             "value": -1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes"
+        ]
+      ]
     },
     {
       "id": "c0aa-7c93-7b8f-5585",
@@ -1081,6 +1123,11 @@
       "text": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine",
       "keywords": [
         "Captain"
+      ],
+      "bearers": [
+        [
+          "Captain"
+        ]
       ]
     },
     {
@@ -1110,7 +1157,12 @@
             "text": "Standard of the Emperor Ascendant: Feel No Pain 5+"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Ancient"
+        ]
+      ]
     },
     {
       "id": "7491-28d9-80bd-9c26",
@@ -1131,7 +1183,13 @@
       ],
       "upgrade": {
         "maxCopies": 3
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Mounted"
+        ]
+      ]
     },
     {
       "id": "d20d-ff22-a3e1-e78",
@@ -1144,7 +1202,13 @@
       ],
       "upgrade": {
         "maxCopies": 3
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Speeder"
+        ]
+      ]
     },
     {
       "id": "64bf-bc5c-2a45-54f0",
@@ -1157,7 +1221,18 @@
       ],
       "upgrade": {
         "maxCopies": 3
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Vehicle"
+        ]
+      ],
+      "notBearers": [
+        "Dedicated Transport",
+        "Fly",
+        "Walker"
+      ]
     },
     {
       "id": "fe18-a419-ace5-df4a",
@@ -1180,14 +1255,38 @@
       ],
       "upgrade": {
         "maxCopies": 3
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Vehicle"
+        ]
+      ],
+      "notBearers": [
+        "Dedicated Transport",
+        "Fly",
+        "Walker"
+      ]
     },
     {
       "id": "3540-33c1-780c-5970",
       "name": "Prescient Flash",
       "points": 20,
       "detachmentId": "dcc7-f9de-d4f2-69d0",
-      "text": "Adeptus Astartes model only. This unit has Scouts 6”."
+      "text": "Adeptus Astartes model only. This unit has Scouts 6”.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "This unit has Scouts 6\"."
+          }
+        ]
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes"
+        ]
+      ]
     },
     {
       "id": "9b02-0492-ab9f-c2cd",
@@ -1208,7 +1307,12 @@
             "condition": "If you do, until the end of the turn this unit can Re-roll advance rolls. ▪ Re-roll charge rolls."
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes"
+        ]
+      ]
     },
     {
       "id": "7dd0-c22f-872b-1e0c",
@@ -1218,6 +1322,11 @@
       "text": "Adeptus Astartes model only. Enemy units cannot target this unit with snap shooting attacks.",
       "keywords": [
         "Infantry"
+      ],
+      "bearers": [
+        [
+          "Adeptus Astartes"
+        ]
       ]
     },
     {
@@ -1225,7 +1334,12 @@
       "name": "Ordained Sacrifice",
       "points": 25,
       "detachmentId": "dcc7-f9de-d4f2-69d0",
-      "text": "Adeptus Astartes model only. (Once per battle, per army) At the end of a phase in which this model is destroyed, roll one D6:\n\n\n▪ On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged, with 3 wounds remaining."
+      "text": "Adeptus Astartes model only. (Once per battle, per army) At the end of a phase in which this model is destroyed, roll one D6:\n\n\n▪ On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged, with 3 wounds remaining.",
+      "bearers": [
+        [
+          "Adeptus Astartes"
+        ]
+      ]
     },
     {
       "id": "fadf-3555-7dea-a2fc",
@@ -1235,6 +1349,12 @@
       "text": "Adeptus Astartes Jump Pack model only. When this unit is selected to fight, this unit's melee attacks have:\n\n\n▪ [LETHAL HITS].\n▪ Or: [SUSTAINED HITS 1].",
       "keywords": [
         "Jump Pack"
+      ],
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Jump Pack"
+        ]
       ]
     },
     {
@@ -1245,6 +1365,12 @@
       "text": "Adeptus Astartes Jump Pack model only. (once per battle, per army) When this unit is selected to fight you can use this ability. If you do, this model's melee attacks have +1 D.",
       "keywords": [
         "Jump Pack"
+      ],
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Jump Pack"
+        ]
       ]
     },
     {
@@ -1255,6 +1381,11 @@
       "text": "Death Company model only. When you target this unit with the Heroic Intervention stratagem, that use is -1 CP.",
       "keywords": [
         "Death Company"
+      ],
+      "bearers": [
+        [
+          "Death Company"
+        ]
       ]
     },
     {
@@ -1275,6 +1406,11 @@
       },
       "keywords": [
         "Death Company"
+      ],
+      "bearers": [
+        [
+          "Death Company"
+        ]
       ]
     },
     {
@@ -1327,14 +1463,25 @@
       ],
       "upgrade": {
         "maxCopies": 3
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Infantry"
+        ]
+      ]
     },
     {
       "id": "7d86-a10b-2650-b2e1",
       "name": "Laurels of Vigilance",
       "points": 10,
       "detachmentId": "ec44-c977-f09b-3f28",
-      "text": "Adeptus Astartes model only. (Once per battle round per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1CP"
+      "text": "Adeptus Astartes model only. (Once per battle round per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1CP",
+      "bearers": [
+        [
+          "Adeptus Astartes"
+        ]
+      ]
     },
     {
       "id": "dc6d-56ce-d574-ee04",
@@ -1344,6 +1491,11 @@
       "text": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine",
       "keywords": [
         "Captain"
+      ],
+      "bearers": [
+        [
+          "Captain"
+        ]
       ]
     },
     {
@@ -1368,7 +1520,12 @@
             "value": "Lethal Hits"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes"
+        ]
+      ]
     },
     {
       "id": "2440-63c4-2e4c-8382",
@@ -1439,7 +1596,17 @@
             ]
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Infantry"
+        ],
+        [
+          "Adeptus Astartes",
+          "Mounted"
+        ]
+      ]
     },
     {
       "id": "76a5-1b8e-47e0-fc5f",
@@ -1459,6 +1626,12 @@
       },
       "keywords": [
         "Terminator"
+      ],
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Terminator"
+        ]
       ]
     },
     {
@@ -1469,6 +1642,12 @@
       "text": "Adeptus Astartes Terminator model only. In your first Movement phase, this unit can make an ingress move.",
       "keywords": [
         "Terminator"
+      ],
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Terminator"
+        ]
       ]
     },
     {
@@ -1491,6 +1670,11 @@
       },
       "keywords": [
         "Tacticus"
+      ],
+      "bearers": [
+        [
+          "Tacticus"
+        ]
       ]
     },
     {
@@ -1499,8 +1683,21 @@
       "points": 15,
       "detachmentId": "5139-a5ca-8533-7e09",
       "text": "Tacticus model only. This unit has Scouts 6\"",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "This unit has Scouts 6\""
+          }
+        ]
+      },
       "keywords": [
         "Tacticus"
+      ],
+      "bearers": [
+        [
+          "Tacticus"
+        ]
       ]
     },
     {
@@ -1511,6 +1708,11 @@
       "text": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
       "keywords": [
         "Tacticus"
+      ],
+      "bearers": [
+        [
+          "Tacticus"
+        ]
       ]
     },
     {
@@ -1521,6 +1723,11 @@
       "text": "Tacticus model only. Friendly Adeptus Astartes units within 6\" of this model can re-roll leadership rolls.",
       "keywords": [
         "Tacticus"
+      ],
+      "bearers": [
+        [
+          "Tacticus"
+        ]
       ]
     },
     {
@@ -1531,6 +1738,11 @@
       "text": "Phobos model only. In your shooting phase, after this unit has shot, if this unit is unengaged, this unit can make a normal move of up to 6\". If it does, this unit is not eligible to declare a charge until the end of the turn.",
       "keywords": [
         "Phobos"
+      ],
+      "bearers": [
+        [
+          "Phobos"
+        ]
       ]
     },
     {
@@ -1555,6 +1767,11 @@
       },
       "keywords": [
         "Phobos"
+      ],
+      "bearers": [
+        [
+          "Phobos"
+        ]
       ]
     },
     {
@@ -1565,6 +1782,11 @@
       "text": "Phobos model only. Enemy units cannot target this unit with snap shooting attacks.",
       "keywords": [
         "Phobos"
+      ],
+      "bearers": [
+        [
+          "Phobos"
+        ]
       ]
     },
     {
@@ -1589,6 +1811,11 @@
       },
       "keywords": [
         "Phobos"
+      ],
+      "bearers": [
+        [
+          "Phobos"
+        ]
       ]
     },
     {
@@ -1609,6 +1836,11 @@
       },
       "keywords": [
         "Gravis"
+      ],
+      "bearers": [
+        [
+          "Gravis"
+        ]
       ]
     },
     {
@@ -1617,8 +1849,21 @@
       "points": 20,
       "detachmentId": "0b59-ad5c-a30b-75ba",
       "text": "Gravis model only. This unit has Scouts 5\"",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Scouts 5\"",
+            "text": "This unit has Scouts 5\""
+          }
+        ]
+      },
       "keywords": [
         "Gravis"
+      ],
+      "bearers": [
+        [
+          "Gravis"
+        ]
       ]
     },
     {
@@ -1642,7 +1887,12 @@
       ],
       "upgrade": {
         "maxCopies": 3
-      }
+      },
+      "bearers": [
+        [
+          "Gravis"
+        ]
+      ]
     },
     {
       "id": "9687-b4cf-a130-0857",
@@ -1652,6 +1902,11 @@
       "text": "Apothecary Biologis model only. In your Command phase, this unit heals D3+1 wounds.",
       "keywords": [
         "Apothecary Biologis"
+      ],
+      "bearers": [
+        [
+          "Apothecary Biologis"
+        ]
       ]
     },
     {
@@ -1665,7 +1920,12 @@
       ],
       "upgrade": {
         "maxCopies": 3
-      }
+      },
+      "bearers": [
+        [
+          "Dreadnought"
+        ]
+      ]
     },
     {
       "id": "1d72-b644-b4b5-3f98",
@@ -1678,7 +1938,12 @@
       ],
       "upgrade": {
         "maxCopies": 3
-      }
+      },
+      "bearers": [
+        [
+          "Dreadnought"
+        ]
+      ]
     },
     {
       "id": "5837-ba44-4f69-43c5",
@@ -1697,6 +1962,12 @@
       },
       "keywords": [
         "Infantry"
+      ],
+      "bearers": [
+        [
+          "Adeptus Astartes",
+          "Infantry"
+        ]
       ]
     },
     {
@@ -1707,6 +1978,11 @@
       "text": "Captain model only. In your Movement phase, if this unit is embarked within a Transport unit, you can select one friendly Adeptus Astartes Infantry unit within 6\" of that Transport unit and select one combat doctrine. That combat doctrine is active for that Infantry unit.",
       "keywords": [
         "Captain"
+      ],
+      "bearers": [
+        [
+          "Captain"
+        ]
       ]
     },
     {
@@ -1714,7 +1990,12 @@
       "name": "Beacon Angelis",
       "points": 25,
       "detachmentId": "5eb6-4ed2-6aca-c7f1",
-      "text": "ADEPTUS ASTARTES model only. If this unit is a Kill Team unit, this unit has:\n\n▪ Deep Strike.\n▪ When you target this unit with the Rapid Ingress Stratagem, that use is -1CP."
+      "text": "ADEPTUS ASTARTES model only. If this unit is a Kill Team unit, this unit has:\n\n▪ Deep Strike.\n▪ When you target this unit with the Rapid Ingress Stratagem, that use is -1CP.",
+      "bearers": [
+        [
+          "Adeptus Astartes"
+        ]
+      ]
     }
   ],
   "units": [
@@ -15070,6 +15351,7 @@
             "4155-dfd5-7b6b-f175"
           ],
           "keywords": [
+            "Ancient",
             "Character"
           ]
         },
@@ -16998,6 +17280,16 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Forlorn Hero",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Scouts 6\"",
+              "text": "This unit has Scouts 6\"."
+            }
+          ]
+        },
         {
           "rule": "Black Rage",
           "stats": [],
@@ -32760,6 +33052,10 @@
                   {
                     "name": "Orbital Comms Array",
                     "text": "This unit has Scouts 6\""
+                  },
+                  {
+                    "name": "Scouts 6\"",
+                    "text": "This unit has Scouts 6\""
                   }
                 ]
               }
@@ -38858,7 +39154,19 @@
           "907f-11-c4d1-ec21",
           "f1b9-b2e8-4ccf-d6cb"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Tempormortis",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Fights First",
+              "text": "This unit has Fights First"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "be42-655d-472b-d89e",
@@ -55071,6 +55379,10 @@
                   {
                     "name": "Grav-chute",
                     "text": "This unit has Deep Strike."
+                  },
+                  {
+                    "name": "Deep Strike",
+                    "text": "This unit has Deep Strike."
                   }
                 ]
               }
@@ -65275,6 +65587,19 @@
           "type": "Transport",
           "name": "Thunderhawk Gunship",
           "text": "This model has a transport capacity of 30 Adeptus Astartes Infantry models. Or Adeptus Astartes Mounted models. Each Jump Pack, Gravis, Terminator model takes up the space of 2 models. Each Adeptus Astartes Mounted model takes up the space of 4 models."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Aerial Assault",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Deep Strike",
+              "text": "In your Movement phase, when this unit ends a normal move, units embarked within this unit can make an assault disembark move, provided every model in the embarked unit has Deep Strike."
+            }
+          ],
+          "condition": "In your Movement phase, when this unit ends a normal move, units embarked within this unit can make an assault disembark move, provided every model in the embarked unit has Deep Strike."
         }
       ]
     },

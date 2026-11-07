@@ -342,6 +342,24 @@
           "who": [
             [
               "Blood Legions"
+            ],
+            [
+              "World Eaters"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Feel No Pain 5+ (against Psychic Attacks and mortal wounds)",
+              "text": "Blood Legions and World Eaters models from your army have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds."
+            }
+          ],
+          "condition": "when Enraged Abjuration [2BTP] is chosen"
+        },
+        {
+          "rule": "Blood Tithe",
+          "who": [
+            [
+              "Blood Legions"
             ]
           ],
           "stats": [
@@ -951,6 +969,96 @@
       "text": "If the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit.",
       "keywords": [
         "World Eaters"
+      ]
+    },
+    {
+      "id": "22d9-3548-9e6e-fffb",
+      "name": "Sanctified in Slaughter",
+      "points": 15,
+      "detachmentId": "0985-28ae-cf24-2fba",
+      "text": "This unit has +1**OC**.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "OC",
+            "op": "add",
+            "value": 1
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Chaos Terminators"
+        ]
+      ]
+    },
+    {
+      "id": "ebfb-d2a4-5280-a6e6",
+      "name": "Gore-stained Veterans",
+      "points": 20,
+      "detachmentId": "0985-28ae-cf24-2fba",
+      "text": "This unit’s melee attacks have +1 WS.",
+      "effects": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "skill",
+            "op": "add",
+            "value": -1
+          },
+          {
+            "on": "melee",
+            "stat": "skill",
+            "op": "atLeast",
+            "value": 2
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Chaos Terminators"
+        ]
+      ]
+    },
+    {
+      "id": "cb1d-be9d-7d12-b2cd",
+      "name": "Talons of Butchery",
+      "points": 20,
+      "detachmentId": "6e10-ae52-9955-07fb",
+      "text": "This unit’s Maulerfiend Fists have [CLEAVE 2].",
+      "keywords": [
+        "Maulerfiend"
+      ],
+      "upgrade": {
+        "maxCopies": 3
+      }
+    },
+    {
+      "id": "8c84-8b41-2e43-0bfc",
+      "name": "Murder-forged Entity",
+      "points": 15,
+      "detachmentId": "6e10-ae52-9955-07fb",
+      "text": "This unit has DAEMON.",
+      "effects": {
+        "keywords": [
+          "Daemon"
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "World Eaters",
+          "Vehicle"
+        ]
       ]
     }
   ],

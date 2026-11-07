@@ -31,6 +31,38 @@
           "text": "Each time an attack made with a **[LETHAL HITS]** weapon results in a **critical hit**, you can choose for that attack to automatically wound the target. \n***Designer’s Note:** Choosing to automatically wound the target means that no **wound roll** is made for that attack. You may decide against this, as it means that attack cannot result in a **critical wound** and so cannot trigger other abilities such as [DEVASTATING WOUNDS].*"
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Born Soldiers",
+          "who": [
+            [
+              "Regiment"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Born Soldiers",
+              "text": "Each time a model in a Regiment unit from your army makes a ranged attack that targets a visible unit (excluding Monsters and Vehicles) that attack has the [LETHAL HITS] ability."
+            }
+          ],
+          "condition": "Each time a model in a Regiment unit from your army makes a ranged attack that targets a visible unit (excluding Monsters and Vehicles) that attack has the [LETHAL HITS] ability."
+        },
+        {
+          "rule": "Born Soldiers",
+          "who": [
+            [
+              "Squadron"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Born Soldiers",
+              "text": "Each time a model in a Squadron unit from your army makes a ranged attack that targets a visible Monster or Vehicle unit, that attack has the [LETHAL HITS] ability."
+            }
+          ],
+          "condition": "Each time a model in a Squadron unit from your army makes a ranged attack that targets a visible Monster or Vehicle unit, that attack has the [LETHAL HITS] ability."
+        }
+      ],
       "stratagems": [
         {
           "name": "Stalwart Protector",
@@ -378,6 +410,25 @@
         {
           "name": "Masters of Camouflage",
           "text": "Friendly **ASTRA MILITARUM** units (excluding **TITANIC** units) have **Stealth**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Masters of Camouflage",
+          "who": [
+            [
+              "Astra Militarum"
+            ]
+          ],
+          "except": [
+            "Titanic"
+          ],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "Friendly ASTRA MILITARUM units (excluding TITANIC units) have Stealth."
+            }
+          ]
         }
       ],
       "stratagems": [
@@ -739,6 +790,11 @@
       "text": "**^^Officer^^** model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0",
       "keywords": [
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Officer"
+        ]
       ]
     },
     {
@@ -749,6 +805,11 @@
       "text": "**^^Officer^^** model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+.",
       "keywords": [
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Officer"
+        ]
       ]
     },
     {
@@ -759,6 +820,11 @@
       "text": "**^^Officer^^** model only. Each time an enemy unit is set up within 8\" of the bearer's unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue each battle round.",
       "keywords": [
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Officer"
+        ]
       ]
     },
     {
@@ -769,6 +835,11 @@
       "text": "**^^Officer^^** model only. In your Command phase, the bearer can issue one additional Order.",
       "keywords": [
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Officer"
+        ]
       ]
     },
     {
@@ -780,6 +851,12 @@
       "keywords": [
         "Officer",
         "Militarum Tempestus"
+      ],
+      "bearers": [
+        [
+          "Militarum Tempestus",
+          "Officer"
+        ]
       ]
     },
     {
@@ -791,6 +868,12 @@
       "keywords": [
         "Officer",
         "Militarum Tempestus"
+      ],
+      "bearers": [
+        [
+          "Militarum Tempestus",
+          "Officer"
+        ]
       ]
     },
     {
@@ -802,6 +885,12 @@
       "keywords": [
         "Infantry",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Infantry",
+          "Officer"
+        ]
       ]
     },
     {
@@ -813,6 +902,12 @@
       "keywords": [
         "Infantry",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Infantry",
+          "Officer"
+        ]
       ]
     },
     {
@@ -823,6 +918,11 @@
       "text": "**^^Officer^^** model only. While the bearer is leading a unit, when that unit is issued an Order, it is also affected by the Take Cover! Order.",
       "keywords": [
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Officer"
+        ]
       ]
     },
     {
@@ -847,6 +947,12 @@
       "keywords": [
         "Infantry",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Infantry",
+          "Officer"
+        ]
       ]
     },
     {
@@ -858,6 +964,12 @@
       "keywords": [
         "Infantry",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Infantry",
+          "Officer"
+        ]
       ]
     },
     {
@@ -868,6 +980,12 @@
       "text": "**^^Astra Militarum Tech-Priest Enginseer^^** model only. At the start of your Shooting phase, select one **^^Transport^^** from your army (excluding **^^Aircraft^^** and **^^Titanic^^** units) within 3\" of the bearer. Until the end of the phase, each time that **^^Transport^^** makes an attack, you can re-roll the Hit roll.",
       "keywords": [
         "Tech-Priest Enginseer"
+      ],
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Tech-Priest Enginseer"
+        ]
       ]
     },
     {
@@ -879,6 +997,12 @@
       "keywords": [
         "Infantry",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Infantry",
+          "Officer"
+        ]
       ]
     },
     {
@@ -890,6 +1014,12 @@
       "keywords": [
         "Infantry",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Infantry",
+          "Officer"
+        ]
       ]
     },
     {
@@ -909,6 +1039,12 @@
       "keywords": [
         "Vehicle",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Vehicle",
+          "Officer"
+        ]
       ]
     },
     {
@@ -920,6 +1056,12 @@
       "keywords": [
         "Vehicle",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Vehicle",
+          "Officer"
+        ]
       ]
     },
     {
@@ -940,6 +1082,12 @@
       "keywords": [
         "Vehicle",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Vehicle",
+          "Officer"
+        ]
       ]
     },
     {
@@ -961,6 +1109,12 @@
       "keywords": [
         "Vehicle",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Vehicle",
+          "Officer"
+        ]
       ]
     },
     {
@@ -972,6 +1126,12 @@
       "keywords": [
         "Infantry",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Infantry",
+          "Officer"
+        ]
       ]
     },
     {
@@ -983,6 +1143,12 @@
       "keywords": [
         "Infantry",
         "Astra Militarum"
+      ],
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Infantry"
+        ]
       ]
     },
     {
@@ -994,6 +1160,12 @@
       "keywords": [
         "Infantry",
         "Astra Militarum"
+      ],
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Infantry"
+        ]
       ]
     },
     {
@@ -1013,6 +1185,12 @@
       "keywords": [
         "Infantry",
         "Astra Militarum"
+      ],
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Infantry"
+        ]
       ]
     },
     {
@@ -1028,6 +1206,11 @@
       },
       "keywords": [
         "Commissar"
+      ],
+      "bearers": [
+        [
+          "Commissar"
+        ]
       ]
     },
     {
@@ -1039,6 +1222,12 @@
       "keywords": [
         "Astra Militarum",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Officer"
+        ]
       ]
     },
     {
@@ -1050,6 +1239,12 @@
       "keywords": [
         "Astra Militarum",
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Officer"
+        ]
       ]
     },
     {
@@ -1062,6 +1257,13 @@
         "Infantry",
         "Officer",
         "Astra Militarum"
+      ],
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Infantry",
+          "Officer"
+        ]
       ]
     },
     {
@@ -1075,6 +1277,12 @@
           "Officer"
         ]
       },
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Titanic"
+        ]
+      ],
       "characterFor": [
         [
           "Astra Militarum",
@@ -1088,6 +1296,12 @@
       "points": 20,
       "detachmentId": "419a-c366-aa63-ebb5",
       "text": "**^^Astra Militarum Titanic Character^^** model only. Each time the bearer makes a ranged attack, you can re‑roll the Damage roll.",
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Titanic"
+        ]
+      ],
       "characterFor": [
         [
           "Astra Militarum",
@@ -1101,6 +1315,13 @@
       "points": 25,
       "detachmentId": "419a-c366-aa63-ebb5",
       "text": "**^^Astra Militarum Titanic Character Transport^^** model only. Each time a unit disembarks from the bearer after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Titanic",
+          "Transport"
+        ]
+      ],
       "characterFor": [
         [
           "Astra Militarum",
@@ -1118,6 +1339,12 @@
         "Tech-Priest Enginseer",
         "Astra Militarum"
       ],
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Tech-Priest Enginseer"
+        ]
+      ],
       "characterFor": [
         [
           "Astra Militarum",
@@ -1131,6 +1358,12 @@
       "points": 35,
       "detachmentId": "d071-6e6b-dde6-dcf4",
       "text": "**^^Astra Militarum Tech‑Priest Enginseer^^** model only. While a friendly **^^Armoured Skirmisher^^** unit is within 3\" of the bearer, that unit has the Feel No Pain 5+ ability.",
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Tech-Priest Enginseer"
+        ]
+      ],
       "effects": {
         "auras": [
           {
@@ -1159,6 +1392,11 @@
       "text": "**^^Officer^^** model only. After both players have deployed their armies, if the bearer’s unit (or any **^^Transport^^** it is embarked within) is on the battlefield, select up to two units with the **^^Regiment^^** or **^^Squadron^^** keywords from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
       "keywords": [
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Officer"
+        ]
       ]
     },
     {
@@ -1169,6 +1407,12 @@
       "text": "**^^Infantry Officer^^** model only. Each time the bearer issues an Order to its own unit, you can select up to two other **^^Platoon^^** units within 3\" of the bearer’s unit. That Order is also issued to each of those units.",
       "keywords": [
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Infantry",
+          "Officer"
+        ]
       ]
     },
     {
@@ -1179,6 +1423,82 @@
       "text": "**^^Infantry Officer^^** model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **^^Astra Militarum Transport^^** from your army, it can embark within that **^^Transport^^**.",
       "keywords": [
         "Officer"
+      ],
+      "bearers": [
+        [
+          "Infantry",
+          "Officer"
+        ]
+      ]
+    },
+    {
+      "id": "b1a5-e69f-d3f2-3714",
+      "name": "Sharp Eyes, Light Fingers",
+      "points": 10,
+      "detachmentId": "57a9-88a1-84c1-e421",
+      "text": "**RATLINGS** unit only. When this unit is **selected to shoot**, enemy units have +6\" **detection range** until this unit has shot.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Ratlings"
+        ]
+      ]
+    },
+    {
+      "id": "f5d4-b4fb-2a44-9165",
+      "name": "Exemplar of Duty",
+      "points": 10,
+      "detachmentId": "57a9-88a1-84c1-e421",
+      "text": "**COMMISSAR** model only. This model has **Feel No Pain 4+**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Commissar"
+        ]
+      ]
+    },
+    {
+      "id": "529d-5f8c-f23e-0e05",
+      "name": "Recon Star",
+      "points": 10,
+      "detachmentId": "1aca-af79-006f-bf56",
+      "text": "**ASTRA MILITARUM INFANTRY PLATOON** unit only. In your first Movement phase, this unit can make an **ingress move**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Astra Militarum",
+          "Infantry",
+          "Platoon"
+        ]
+      ]
+    },
+    {
+      "id": "73da-8d05-0ee7-5179",
+      "name": "Long-range Scout",
+      "points": 10,
+      "detachmentId": "1aca-af79-006f-bf56",
+      "text": "SCOUT SENTINEL unit only. This unit has **Infiltrators**.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "This unit has Infiltrators."
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Scout Sentinels"
+        ]
       ]
     }
   ],
@@ -11070,7 +11390,8 @@
             "43a9-66c5-ec02-baa9"
           ],
           "keywords": [
-            "Vehicle"
+            "Vehicle",
+            "Titanic"
           ]
         },
         {

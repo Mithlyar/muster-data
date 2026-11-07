@@ -164,6 +164,27 @@
             }
           ],
           "condition": "For each ACOLYTE HYBRIDS, HYBRID METAMORPHS, and NEOPHYTE HYBRID unit from your army, while one or more CHARACTER models are leading that unit, you can re-roll Advance and Charge rolls made for it."
+        },
+        {
+          "rule": "Unquestioning Fanaticism",
+          "who": [
+            [
+              "Acolyte Hybrids"
+            ],
+            [
+              "Hybrid Metamorphs"
+            ],
+            [
+              "Neophyte Hybrids"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Feel No Pain 3+",
+              "text": "If that CHARACTER model is a MAGUS, PRIMUS, or ACOLYTE ICONWARD, that model has the Feel No Pain 3+ ability while leading that unit."
+            }
+          ],
+          "condition": "If that CHARACTER model is a MAGUS, PRIMUS, or ACOLYTE ICONWARD, that model has the Feel No Pain 3+ ability while leading that unit."
         }
       ],
       "stratagems": [
@@ -743,7 +764,18 @@
             "text": "- Models in this unit have the Infiltrators ability."
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Abominant"
+        ],
+        [
+          "Biophagus"
+        ],
+        [
+          "Patriarch"
+        ]
+      ]
     },
     {
       "id": "460b-5456-314e-7a7e",
@@ -766,21 +798,51 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Abominant"
+        ],
+        [
+          "Patriarch"
+        ]
+      ]
     },
     {
       "id": "f560-221b-afe7-5d77",
       "name": "Mutagenic Regeneration",
       "points": 10,
       "detachmentId": "ff11-0fa4-2950-380e",
-      "text": "**^^Abominant^^**, **^^Biophagus^^** or **^^Patriarch^^** model only. In each Command phase, one model in the bearer's unit regains 1 lost wound."
+      "text": "**^^Abominant^^**, **^^Biophagus^^** or **^^Patriarch^^** model only. In each Command phase, one model in the bearer's unit regains 1 lost wound.",
+      "bearers": [
+        [
+          "Abominant"
+        ],
+        [
+          "Biophagus"
+        ],
+        [
+          "Patriarch"
+        ]
+      ]
     },
     {
       "id": "826e-321d-6d5d-a609",
       "name": "Alien Majesty",
       "points": 15,
       "detachmentId": "ff11-0fa4-2950-380e",
-      "text": "**^^Abominant^^**, **^^Biophagus^^** or **^^Patriarch^^** model only. While an enemy unit is in within Engagement Range of the bearer's unit, subtract 1 from the Objective Control characteristic of models in that enemy unit (to a minimum of 1)."
+      "text": "**^^Abominant^^**, **^^Biophagus^^** or **^^Patriarch^^** model only. While an enemy unit is in within Engagement Range of the bearer's unit, subtract 1 from the Objective Control characteristic of models in that enemy unit (to a minimum of 1).",
+      "bearers": [
+        [
+          "Abominant"
+        ],
+        [
+          "Biophagus"
+        ],
+        [
+          "Patriarch"
+        ]
+      ]
     },
     {
       "id": "e449-31fc-f5eb-e697",
@@ -791,6 +853,12 @@
       "keywords": [
         "Genestealer Cults",
         "Infantry"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults",
+          "Infantry"
+        ]
       ]
     },
     {
@@ -802,6 +870,12 @@
       "keywords": [
         "Genestealer Cults",
         "Infantry"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults",
+          "Infantry"
+        ]
       ]
     },
     {
@@ -831,6 +905,12 @@
       "keywords": [
         "Genestealer Cults",
         "Infantry"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults",
+          "Infantry"
+        ]
       ]
     },
     {
@@ -842,6 +922,12 @@
       "keywords": [
         "Genestealer Cults",
         "Infantry"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults",
+          "Infantry"
+        ]
       ]
     },
     {
@@ -852,6 +938,11 @@
       "text": "**^^Tyranids^^** model only. Each time the bearer would regain one or more lost wounds from the Psionic Parasitism Detachment rule, it regains up to twice that number of lost wounds instead.",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -878,6 +969,11 @@
       },
       "keywords": [
         "Winged Hive Tyrant"
+      ],
+      "bearers": [
+        [
+          "Winged Hive Tyrant"
+        ]
       ]
     },
     {
@@ -888,6 +984,11 @@
       "text": "**^^Genestealer Cults^^** model only. Weapons equipped by models in the bearer’s unit have the **[SUSTAINED HITS 1]** ability while targeting an enemy unit within 6\" of one or more friendly **^^Tyranids^^**units.",
       "keywords": [
         "Genestealer Cults"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults"
+        ]
       ]
     },
     {
@@ -898,6 +999,11 @@
       "text": "**^^Genestealer Cults^^** model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
       "keywords": [
         "Genestealer Cults"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults"
+        ]
       ]
     },
     {
@@ -917,6 +1023,11 @@
       },
       "keywords": [
         "Genestealer Cults"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults"
+        ]
       ]
     },
     {
@@ -927,6 +1038,11 @@
       "text": "**^^Genestealer Cults^^** model only. Each time the bearer is set up on the battlefield as Reinforcements, until the end of your next Fight phase, ranged weapons equipped in the bearer's unit have the **[LETHAL HITS]** ability.",
       "keywords": [
         "Genestealer Cults"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults"
+        ]
       ]
     },
     {
@@ -937,6 +1053,11 @@
       "text": "**GENESTEALER CULTS** model only. In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6”.",
       "keywords": [
         "Genestealer Cults"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults"
+        ]
       ]
     },
     {
@@ -956,6 +1077,11 @@
       },
       "keywords": [
         "Genestealer Cults"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults"
+        ]
       ]
     },
     {
@@ -967,6 +1093,12 @@
       "keywords": [
         "Genestealer Cults",
         "Mounted"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults",
+          "Mounted"
+        ]
       ]
     },
     {
@@ -977,6 +1109,11 @@
       "text": "**^^Genestealer Cults^^** model only. While the bearer is embarked within a **^^Transport^^**, each time that **^^Transport^^** is selected to shoot, until end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that **^^Transport^^** as a result of the Firing Deck ability by 1.",
       "keywords": [
         "Genestealer Cults"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults"
+        ]
       ]
     },
     {
@@ -988,6 +1125,12 @@
       "keywords": [
         "Genestealer Cults",
         "Mounted"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults",
+          "Mounted"
+        ]
       ]
     },
     {
@@ -1008,6 +1151,11 @@
       },
       "keywords": [
         "Genestealer Cults"
+      ],
+      "bearers": [
+        [
+          "Genestealer Cults"
+        ]
       ]
     },
     {
@@ -1015,21 +1163,54 @@
       "name": "Deeds That Speak to the Masses",
       "points": 25,
       "detachmentId": "536a-b3ea-7597-81bb",
-      "text": "**MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD** model only. You start the battle with 2 additional Resurgence points."
+      "text": "**MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD** model only. You start the battle with 2 additional Resurgence points.",
+      "bearers": [
+        [
+          "Magus"
+        ],
+        [
+          "Primus"
+        ],
+        [
+          "Acolyte Iconward"
+        ]
+      ]
     },
     {
       "id": "aab2-2d7b-9bd6-100f",
       "name": "Gene-sire's Reliquant",
       "points": 5,
       "detachmentId": "536a-b3ea-7597-81bb",
-      "text": "**^^Magus, Primus or Acolyte Iconward^^** model only. You can re-roll Battle-shock tests taken for the bearer's unit."
+      "text": "**^^Magus, Primus or Acolyte Iconward^^** model only. You can re-roll Battle-shock tests taken for the bearer's unit.",
+      "bearers": [
+        [
+          "Magus"
+        ],
+        [
+          "Primus"
+        ],
+        [
+          "Acolyte Iconward"
+        ]
+      ]
     },
     {
       "id": "7157-1369-82b0-1ae0",
       "name": "Incendiary Inspiration",
       "points": 15,
       "detachmentId": "536a-b3ea-7597-81bb",
-      "text": "**^^Magus, Primus or Acolyte Iconward^^** model only. The bearer's unit is eligible to declare a charge in a turn in which it Advanced."
+      "text": "**^^Magus, Primus or Acolyte Iconward^^** model only. The bearer's unit is eligible to declare a charge in a turn in which it Advanced.",
+      "bearers": [
+        [
+          "Magus"
+        ],
+        [
+          "Primus"
+        ],
+        [
+          "Acolyte Iconward"
+        ]
+      ]
     },
     {
       "id": "b388-884e-b19d-d041",
@@ -1050,7 +1231,18 @@
             "condition": "Each time a model in this unit makes an attack that targets a Character unit, add 1 to the Hit Roll and add 1 to the Wound roll."
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Magus"
+        ],
+        [
+          "Primus"
+        ],
+        [
+          "Acolyte Iconward"
+        ]
+      ]
     },
     {
       "id": "6a6f-6505-ae1d-d6cc",
@@ -1067,7 +1259,15 @@
             "value": 2
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Kelermorph"
+        ],
+        [
+          "Reductus Saboteur"
+        ]
+      ]
     },
     {
       "id": "c620-fc0f-0cab-4a7d",
@@ -1090,7 +1290,15 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Locus"
+        ],
+        [
+          "Sanctus"
+        ]
+      ]
     },
     {
       "id": "e065-889f-2f27-5140",
@@ -1108,6 +1316,11 @@
       },
       "keywords": [
         "Patriarch"
+      ],
+      "bearers": [
+        [
+          "Patriarch"
+        ]
       ]
     },
     {
@@ -1115,7 +1328,69 @@
       "name": "Inspired to Greatness",
       "points": 15,
       "detachmentId": "deed-cbf8-1ac5-0294",
-      "text": "**MAGUS/PRIMUS** model only. This unit’s attacks can re‑roll **damage rolls**."
+      "text": "**MAGUS/PRIMUS** model only. This unit’s attacks can re‑roll **damage rolls**.",
+      "bearers": [
+        [
+          "Magus"
+        ],
+        [
+          "Primus"
+        ]
+      ]
+    },
+    {
+      "id": "1a3f-3ea5-9cf0-ab8f",
+      "name": "Mark of the Star Children",
+      "points": 30,
+      "detachmentId": "7acd-d099-e648-0838",
+      "text": "**PURESTRAIN GENESTEALERS** unit only. This unit has:\n- +1 **T**.\n- 4+ **Sv**.\n- This unit’s melee attacks have +1 **S**.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "T",
+            "op": "add",
+            "value": 1,
+            "wholeUnit": true
+          },
+          {
+            "on": "unit",
+            "stat": "Sv",
+            "op": "set",
+            "value": "4+",
+            "wholeUnit": true
+          },
+          {
+            "on": "melee",
+            "stat": "S",
+            "op": "add",
+            "value": 1
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Purestrain Genestealers"
+        ]
+      ]
+    },
+    {
+      "id": "5398-3d10-e060-16a2",
+      "name": "Devious Disguises",
+      "points": 15,
+      "detachmentId": "deed-cbf8-1ac5-0294",
+      "text": "**NEOPHYTE HYBRIDS** unit only. This unit has ‑3\" **detection range**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Neophyte Hybrids"
+        ]
+      ]
     }
   ],
   "units": [

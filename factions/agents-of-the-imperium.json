@@ -77,6 +77,21 @@
             }
           ],
           "condition": "when Malleus Tactics is chosen"
+        },
+        {
+          "rule": "Deathwatch Mission Tactics",
+          "who": [
+            [
+              "Deathwatch"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Purgatus Tactics",
+              "text": "While this Mission Tactic is active, each time a Deathwatch model from your army makes an attack, on a Critical Wound, that attack has the [PRECISION] ability."
+            }
+          ],
+          "condition": "when Purgatus Tactics is chosen"
         }
       ],
       "stratagems": [
@@ -163,6 +178,30 @@
               "fromText": true
             }
           ]
+        },
+        {
+          "rule": "Root Out Heresy",
+          "who": [
+            [
+              "Adeptus Arbites"
+            ],
+            [
+              "Inquisitor"
+            ],
+            [
+              "Inquisitorial Agents"
+            ],
+            [
+              "Ordo Hereticus"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Root Out Heresy",
+              "text": "Each time an Adeptus Arbites, Inquisitor, Inquisitorial Agents or Ordo Hereticus model from your army makes an attack that targets a Chaos unit containing 5 or more models, that attack has the [SUSTAINED HITS 1] ability."
+            }
+          ],
+          "condition": "Each time an Adeptus Arbites, Inquisitor, Inquisitorial Agents or Ordo Hereticus model from your army makes an attack that targets a Chaos unit containing 5 or more models, that attack has the [SUSTAINED HITS 1] ability."
         }
       ],
       "stratagems": [
@@ -660,6 +699,58 @@
       "keywords": [
         "Voidfarers"
       ]
+    },
+    {
+      "id": "bcba-352d-f7f2-84ba",
+      "name": "Micromelta Rounds",
+      "points": 20,
+      "detachmentId": "e203-73dc-18d9-f390",
+      "text": "This model’s exitus rifle has the [ANTI‑MONSTER 4+] and [ANTI‑VEHICLE 4+] abilities.",
+      "bearers": [
+        [
+          "Vindicare Assassin"
+        ]
+      ],
+      "automatic": true
+    },
+    {
+      "id": "cb38-27d5-6d94-baca",
+      "name": "Esoteric Explosives",
+      "points": 10,
+      "detachmentId": "e203-73dc-18d9-f390",
+      "text": "Each time this model is targeted with the Grenades Stratagem, 1 mortal wound is inflicted for each D6 roll of 3+ instead of for each 4+",
+      "bearers": [
+        [
+          "Culexus Assassin"
+        ]
+      ],
+      "automatic": true
+    },
+    {
+      "id": "40ac-b010-39d2-5e11",
+      "name": "Intra-neural Biotech",
+      "points": 15,
+      "detachmentId": "e203-73dc-18d9-f390",
+      "text": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do: \n- That use is -1 CP. \n- That use does not prevent any uses of that stratagem on other units this phase.",
+      "bearers": [
+        [
+          "Eversor Assassin"
+        ]
+      ],
+      "automatic": true
+    },
+    {
+      "id": "eb7b-611d-308e-6436",
+      "name": "Decoy Targets",
+      "points": 15,
+      "detachmentId": "e203-73dc-18d9-f390",
+      "text": "Twice per battle, in your Movement phase, you can select one other friendly INFANTRY model that is on the battlefield and not within Engagement Range of one or more enemy units. The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and this model is removed from the battlefield and set up again as close as possible to where that destroyed model was and not within Engagement Range of one or more enemy units. This ability cannot be used more than once in the same battle round.",
+      "bearers": [
+        [
+          "Callidus Assassin"
+        ]
+      ],
+      "automatic": true
     }
   ],
   "units": [

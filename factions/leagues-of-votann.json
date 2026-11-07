@@ -131,6 +131,33 @@
           "text": "^^**Leagues of Votann^^** units from your army have the following ability:\n\n**Guerrilla Adepts:** In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Assailed From Every Angle",
+          "who": [
+            [
+              "Leagues of Votann"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": -2,
+              "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": -2,
+              "condition": "when Guerrilla Adepts is chosen"
+            }
+          ],
+          "condition": "when Guerrilla Adepts is chosen"
+        }
+      ],
       "stratagems": [
         {
           "name": "Frontier Momentum",
@@ -535,6 +562,22 @@
           "text": "Friendly **^^Sagitaur^^** units have **Scouts 6\"**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Sagitaur Spearhead",
+          "who": [
+            [
+              "Sagitaur"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Scouts 6\"",
+              "text": "Friendly Sagitaur units have Scouts 6\"."
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Built to Last",
@@ -765,7 +808,12 @@
       "name": "Dead Reckoning",
       "points": 10,
       "detachmentId": "01b8-fa17-620e-8e79",
-      "text": "**^^Leagues of Votann^^** model only. At the end of the turn, if the bearer is on the battlefield and you spent no YP in that turn, you gain 1YP."
+      "text": "**^^Leagues of Votann^^** model only. At the end of the turn, if the bearer is on the battlefield and you spent no YP in that turn, you gain 1YP.",
+      "bearers": [
+        [
+          "Leagues of Votann"
+        ]
+      ]
     },
     {
       "id": "d187-cd04-8370-8612",
@@ -955,6 +1003,81 @@
       "text": "In the Fight phase, when a model in this unit is **destroyed**, if this unit has not been **selected to fight** this phase, roll one D6: on a 4+, do not remove that model from the battlefield; after this unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
       "keywords": [
         "Kâhl"
+      ]
+    },
+    {
+      "id": "df55-c20a-27f8-c415",
+      "name": "Pan-spectral Lockons",
+      "points": 10,
+      "detachmentId": "273e-953c-a337-ec5d",
+      "text": "In your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit is **spotted**: \n- While a unit is spotted, that unit has +3\" **detection range**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Hernkyn Pioneers"
+        ]
+      ]
+    },
+    {
+      "id": "6a72-3574-4f55-1bc4",
+      "name": "Saturation Rounds",
+      "points": 15,
+      "detachmentId": "39c2-616a-92c8-ad9d",
+      "text": "This unit’s ranged attacks have [IGNORES COVER].",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Ignores Cover"
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Sagitaur"
+        ]
+      ]
+    },
+    {
+      "id": "5e68-0685-59e6-34f1",
+      "name": "Optimised Attack Lines",
+      "points": 15,
+      "detachmentId": "39c2-616a-92c8-ad9d",
+      "text": "This unit has MOBILE.",
+      "effects": {
+        "keywords": [
+          "Mobile"
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Sagitaur"
+        ]
+      ]
+    },
+    {
+      "id": "c839-8281-c627-ecba",
+      "name": "Shroudwërke Talismans",
+      "points": 15,
+      "detachmentId": "273e-953c-a337-ec5d",
+      "text": "This unit has -3\" **detection range**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Hernkyn Yaegirs"
+        ]
       ]
     }
   ],

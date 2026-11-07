@@ -27,6 +27,23 @@
           "text": "In the **Declare Battle Formations** step, you can select up to two friendly **PLAGUE MARINES** units. Those units have **Infiltrators**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Verminous Haze",
+          "who": [
+            [
+              "Plague Marines"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Infiltrators",
+              "text": "Those units have Infiltrators."
+            }
+          ],
+          "condition": "when chosen: Those units have Infiltrators."
+        }
+      ],
       "stratagems": [
         {
           "name": "Droning Horror",
@@ -845,6 +862,80 @@
       "text": "Each time a ^^**Plague Legions^^** unit within 12\" of the bearer takes a Battle-shock test, add 1 to that test and, if that test is passed, one model in that unit regains up to D3 lost wounds (if that unit is a ^^**Battleline^^** unit and that test is passed, up to D3 destroyed models can be returned to that unit instead).",
       "keywords": [
         "Malignant Plaguecaster"
+      ]
+    },
+    {
+      "id": "12d7-6407-cf26-3abb",
+      "name": "Insectile Murmuration",
+      "points": 15,
+      "detachmentId": "df4a-2ead-43d5-ea61",
+      "text": "When this unit’s attacks target a unit within **Contagion Range** of a friendly unit, those attacks can re‑roll **wound rolls** of 1.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Plague Marines"
+        ]
+      ]
+    },
+    {
+      "id": "ca9d-efd7-c509-04ca",
+      "name": "Plagueveil",
+      "points": 15,
+      "detachmentId": "df4a-2ead-43d5-ea61",
+      "text": "This unit has ‑3\" **detection range**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Plague Marines"
+        ]
+      ]
+    },
+    {
+      "id": "43df-7cb1-574a-20ef",
+      "name": "Lancet of the Worldsore",
+      "points": 15,
+      "detachmentId": "e58e-f981-24ed-6cd4",
+      "text": "This unit has **MOBILE**.",
+      "effects": {
+        "keywords": [
+          "Mobile"
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Helbrute"
+        ],
+        [
+          "Myphitic Blight-hauler"
+        ]
+      ]
+    },
+    {
+      "id": "04c2-c044-9329-cd4a",
+      "name": "Parasitic Woe-reaper",
+      "points": 15,
+      "detachmentId": "e58e-f981-24ed-6cd4",
+      "text": "When this unit has fought, one model in this unit **heals** D3 wounds.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Helbrute"
+        ],
+        [
+          "Myphitic Blight-hauler"
+        ],
+        [
+          "Foetid Bloat-drone"
+        ]
       ]
     }
   ],
@@ -9758,9 +9849,7 @@
             }
           ],
           "modelNames": [
-            "Cultist w/ flamer",
-            "Cultist w/ heavy stubber",
-            "Cultist w/ grenade launcher"
+            "Cultist w/ flamer"
           ]
         },
         {
@@ -9781,12 +9870,38 @@
           "max": [
             {
               "minModels": 10,
+              "maxModels": 20,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Cultist w/ heavy stubber"
+          ]
+        },
+        {
+          "name": "Cultist w/ heavy stubber",
+          "max": [
+            {
+              "minModels": 10,
               "maxModels": 19,
               "max": 1
             }
           ],
           "modelNames": [
             "Cultist w/ heavy stubber"
+          ]
+        },
+        {
+          "name": "Cultist w/ grenade launcher",
+          "max": [
+            {
+              "minModels": 10,
+              "maxModels": 20,
+              "max": 2
+            }
+          ],
+          "modelNames": [
+            "Cultist w/ grenade launcher"
           ]
         },
         {

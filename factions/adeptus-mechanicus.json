@@ -89,6 +89,30 @@
           "text": "If every model in a unit has this ability, each time a ranged attack targets that unit, that unit has the **benefit of cover** against that attack (13.08)."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Skitarii Hunter Cohort",
+          "who": [
+            [
+              "Skitarii",
+              "Infantry"
+            ],
+            [
+              "Skitarii",
+              "Mounted"
+            ],
+            [
+              "Ironstrider Ballistarii"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "Friendly SKITARII INFANTRY, SKITARII MOUNTED and IRONSTRIDER BALLISTARII units have Stealth."
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Expedited Purge Protocol",
@@ -424,6 +448,59 @@
           "text": "In your Command phase, select one or more ADEPTUS MECHANICUS units from your army (including units that are embarked within TRANSPORTS). The maximum number of units you can select depends on the battle size, as follows:\n\n\nINCURSION: 1 UNIT\nSTRIKE FORCE: 2 UNITS\nONSLAUGHT: 3 UNITS\n\nUntil the start of your next Command phase, those units gain the HALO OVERRIDE keyword. Then, select one of the Override abilities below. Until the start of your next Command phase, units from your army with the HALO OVERRIDE keyword have the selected Override ability:\n\nElectromotive Energisation\nAdd 2\" to the Move characteristic of models in this unit.\n\nMicroactuator Bracing\nAdd 1 to the Toughness characteristic of models in this unit.\n\nPredation Protocols\nThis unit is eligible to declare a charge in a turn in which it Advanced.\n\nMuted Servomotors\nModels in this unit have the Stealth ability."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Noospheric Transference",
+          "who": [
+            [
+              "Adeptus Mechanicus"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 2,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Add 2\" to the Move characteristic of models in this unit."
+        },
+        {
+          "rule": "Noospheric Transference",
+          "who": [
+            [
+              "Adeptus Mechanicus"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "T",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Add 1 to the Toughness characteristic of models in this unit."
+        },
+        {
+          "rule": "Noospheric Transference",
+          "who": [
+            [
+              "Adeptus Mechanicus"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "Models in this unit have the Stealth ability."
+            }
+          ],
+          "condition": "when chosen: Models in this unit have the Stealth ability."
+        }
+      ],
       "stratagems": [
         {
           "name": "Targeting Override",
@@ -626,6 +703,21 @@
             }
           ],
           "condition": "when chosen: Friendly TECH-PRIEST models have 4+ InSv."
+        },
+        {
+          "rule": "War-form Mantles",
+          "who": [
+            [
+              "Tech-Priest"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Feel No Pain 5+",
+              "text": "Friendly TECH-PRIEST models have Feel No Pain 5+."
+            }
+          ],
+          "condition": "when chosen: Friendly TECH-PRIEST models have Feel No Pain 5+."
         }
       ],
       "stratagems": [
@@ -925,7 +1017,12 @@
       "name": "Transoracular Dyad Wafers",
       "points": 15,
       "detachmentId": "ce65-6b89-4a0e-4f3b",
-      "text": "CYBERNETICA DATASMITH model only. When the bearer is attached to a Kastelan Robots unit, until the end of the battle, models in that unit gain the Halo Override keyword. That unit cannot be selected when selecting units as part of the Noospheric Transference Detachment rule."
+      "text": "CYBERNETICA DATASMITH model only. When the bearer is attached to a Kastelan Robots unit, until the end of the battle, models in that unit gain the Halo Override keyword. That unit cannot be selected when selecting units as part of the Noospheric Transference Detachment rule.",
+      "bearers": [
+        [
+          "Cybernetica Datasmith"
+        ]
+      ]
     },
     {
       "id": "6825-6a1a-1398-2e0d",
@@ -935,6 +1032,14 @@
       "text": "ADEPTUS MECHANICUS model only (excluding CYBERNETICA DATASMITH models). The Conqueror Imperative and Protector Imperative are both active for the bearer’s unit.",
       "keywords": [
         "Adeptus Mechanicus"
+      ],
+      "bearers": [
+        [
+          "Adeptus Mechanicus"
+        ]
+      ],
+      "notBearers": [
+        "Cybernetica Datasmith"
       ]
     },
     {
@@ -945,6 +1050,11 @@
       "text": "ADEPTUS MECHANICUS model only. Add 6\" to the range characteristic of ranged weapons equipped by models in the bearer’s unit and, each time a Hazardous test is taken for that unit, you can re‑roll the result.",
       "keywords": [
         "Adeptus Mechanicus"
+      ],
+      "bearers": [
+        [
+          "Adeptus Mechanicus"
+        ]
       ]
     },
     {
@@ -968,14 +1078,32 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Tech-Priest",
+          "Dominus"
+        ],
+        [
+          "Tech-Priest",
+          "Manipulus"
+        ]
+      ]
     },
     {
       "id": "6571-1a2f-779b-e711",
       "name": "Explorator Dispensation",
       "points": 20,
       "detachmentId": "02e5-7fe0-d054-0209",
-      "text": "This unit has Infiltrators."
+      "text": "This unit has Infiltrators.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "This unit has Infiltrators."
+          }
+        ]
+      }
     },
     {
       "id": "42f7-6065-5be3-3b74",
@@ -1025,6 +1153,14 @@
       "points": 10,
       "detachmentId": "65e6-9ab1-6a2c-5410",
       "text": "This unit has **Stealth**.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Stealth",
+            "text": "This unit has Stealth."
+          }
+        ]
+      },
       "keywords": [
         "Tech-Priest"
       ]
@@ -1044,7 +1180,13 @@
       "name": "Omnicogitator",
       "points": 25,
       "detachmentId": "6d06-9e26-0d3c-5317",
-      "text": "**^^Skitarii Marshal^^** model only. The Conqueror Imperative and Protector Imperative are both active for the bearer’s unit."
+      "text": "**^^Skitarii Marshal^^** model only. The Conqueror Imperative and Protector Imperative are both active for the bearer’s unit.",
+      "bearers": [
+        [
+          "Skitarii",
+          "Marshal"
+        ]
+      ]
     },
     {
       "id": "e4da-4f2d-19c3-416b",
@@ -1056,7 +1198,12 @@
         "keywords": [
           "Skitarii"
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Tech-Priest"
+        ]
+      ]
     },
     {
       "id": "27ed-5685-42e3-0844",
@@ -1079,7 +1226,12 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Adeptus Mechanicus"
+        ]
+      ]
     },
     {
       "id": "0f0c-895c-a149-285d",
@@ -1108,7 +1260,28 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Skitarii",
+          "Marshal"
+        ]
+      ]
+    },
+    {
+      "id": "bda5-8424-0337-d8ff",
+      "name": "Stealth-screened Cybercanids",
+      "points": 15,
+      "detachmentId": "02e5-7fe0-d054-0209",
+      "text": "This unit has Lone Operative 15\".",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Serberys Raiders"
+        ]
+      ]
     }
   ],
   "units": [

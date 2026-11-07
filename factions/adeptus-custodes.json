@@ -27,6 +27,19 @@
           "text": "- When mustering your army, you can select a friendly ^^**Anathema Psykana Character**^^ model to be your ^^**Warlord**^^.\n- Friendly ^^**Prosecutor Squad**^^ units have ^^**Battleline**^^.\n- Friendly ^^**Anathema Psykana**^^ units have the Creeping Dread ability."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Silent Sisterhood",
+          "who": [
+            [
+              "Prosecutor Squad"
+            ]
+          ],
+          "keywords": [
+            "Battleline"
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Psy-chaff Volley",
@@ -557,6 +570,22 @@
           "text": "Friendly ^^**Adeptus Custodes**^^ units have **Fights First**.\n\n**Favoured Ka'tah**: CONSERVAI\nAdditional Effect: Until the end of the turn, being selected to make an **advance/fall-back move** does not prevent your unit from being **eligible to start an action**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Heralds of the Throne",
+          "who": [
+            [
+              "Adeptus Custodes"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Fights First",
+              "text": "Friendly Adeptus Custodes units have Fights First."
+            }
+          ]
+        }
+      ],
       "stratagems": [
         {
           "name": "Bearers of His Light",
@@ -1043,7 +1072,19 @@
       "name": "Shroud of the Hidden Blade",
       "points": 20,
       "detachmentId": "a36b-bb22-1a15-2a48",
-      "text": "This model has:\n- **Stealth**\n- **Lone Operative**"
+      "text": "This model has:\n- **Stealth**\n- **Lone Operative**",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Stealth",
+            "text": "This model has Stealth"
+          },
+          {
+            "name": "Lone Operative",
+            "text": "This model has Lone Operative"
+          }
+        ]
+      }
     },
     {
       "id": "87a9-178a-7c7b-830a",
@@ -1888,6 +1929,16 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Tactical Perception",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Fights First",
+              "text": "This unit has Fights First."
+            }
+          ]
+        },
         {
           "rule": "Tenacious Spirit",
           "stats": [],

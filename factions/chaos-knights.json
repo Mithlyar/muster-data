@@ -197,6 +197,23 @@
           "text": "At the start of your Command phase, select one unit from your opponent's army. Until the start of your next Command phase, each time a ^^**War Dog^^** model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability.\n\n\n**Keywords**\nWhile using the Houndpack Lance Detachment, the following rules apply:\n\n\n- Your army must include 3 or more ^^**War Dog^^** units.\n- ^^**War Dog^^** units from your army have the ^^**Battleline^^** keyword.\n- When mustering your army, select 3 ^^**War Dog^^** units from your army. Until the end of the battle, those units have the ^^**Character^^** keyword.*\n\n\n*** Designer's Note:** *This means that the selected units can be given Enhancements and one of them can be selected as your* ^^**Warlord^^**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Marked Prey",
+          "who": [
+            [
+              "War Dog"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Marked Prey",
+              "text": "Until the start of your next Command phase, each time a War Dog model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability."
+            }
+          ],
+          "condition": "Until the start of your next Command phase, each time a War Dog model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability."
+        }
+      ],
       "stratagems": [
         {
           "name": "Hungry for Combat",
@@ -283,6 +300,21 @@
               "Chaos Knights"
             ]
           ],
+          "abilities": [
+            {
+              "name": "Diabolic Power",
+              "text": "When this unit is selected to shoot or fight, select either the [Lethal Hits] or [Sustained Hits 1] ability."
+            }
+          ],
+          "condition": "when Diabolic Power is chosen"
+        },
+        {
+          "rule": "Malefic Surge",
+          "who": [
+            [
+              "Chaos Knights"
+            ]
+          ],
           "stats": [
             {
               "on": "unit",
@@ -290,6 +322,21 @@
               "op": "atMost",
               "value": 5,
               "fromText": true
+            }
+          ],
+          "condition": "when Unnatural Fortitude is chosen"
+        },
+        {
+          "rule": "Malefic Surge",
+          "who": [
+            [
+              "Chaos Knights"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Feel No Pain 6+",
+              "text": "When this unit is selected as the target of an attack, until the end of the phase, select one of the following Models in this unit have the Feel No Pain 6+ ability."
             }
           ],
           "condition": "when Unnatural Fortitude is chosen"
@@ -865,6 +912,56 @@
       "text": "This unit can re-roll rolls to determine the **A** of a weapon.",
       "keywords": [
         "Knight Tyrant"
+      ]
+    },
+    {
+      "id": "68b0-c798-79a8-28f5",
+      "name": "Snarling Rivalry",
+      "points": 10,
+      "detachmentId": "5d30-981f-43b8-81be",
+      "text": "This unit’s ranged attacks have [IGNORES COVER].",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Ignores Cover"
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "War Dog Executioner"
+        ]
+      ]
+    },
+    {
+      "id": "86be-ae4a-d7ce-6192",
+      "name": "Soul-spoor Auspicator",
+      "points": 15,
+      "detachmentId": "5d30-981f-43b8-81be",
+      "text": "This unit’s ranged attacks have +6\" R.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "range",
+            "op": "add",
+            "value": 6
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "War Dog Huntsman"
+        ]
       ]
     }
   ],
@@ -2700,6 +2797,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -2871,6 +2978,16 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -3061,6 +3178,16 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -7165,6 +7292,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -8163,6 +8294,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -9464,6 +9599,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -9676,6 +9821,16 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -10535,6 +10690,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -10864,6 +11029,16 @@
         {
           "rule": "Fluxmaster",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Fluxmaster",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -10871,6 +11046,16 @@
               "against": true,
               "kind": "melee",
               "condition": "Melee attacks that target this unit have -1 to hit rolls."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
             }
           ]
         },
@@ -11050,6 +11235,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -11251,6 +11440,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -12767,6 +12960,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -16600,6 +16797,16 @@
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
           "rolls": [
             {
               "roll": "hit",
@@ -17175,6 +17382,16 @@
         "onslaught": 6
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -19154,6 +19371,16 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Penumbral Puppetry",
           "stats": [],
@@ -21158,6 +21385,10 @@
                   {
                     "name": "Penumbral Puppetry",
                     "text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+                  },
+                  {
+                    "name": "Stealth",
+                    "text": "This unit has Stealth."
                   }
                 ]
               }
@@ -23364,6 +23595,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Penumbral Puppetry",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
         },
         {
           "rule": "Penumbral Puppetry",
@@ -26338,6 +26579,17 @@
             }
           ],
           "condition": "when Doom is chosen"
+        },
+        {
+          "rule": "Harbingers of Dread",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This model has Stealth."
+            }
+          ],
+          "condition": "when Darkness is chosen"
         }
       ]
     },

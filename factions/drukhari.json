@@ -85,6 +85,44 @@
           "text": "Each time a ^^**Drukhari**^^ unit from your army disembarks from a ^^**Transport**^^, until the end of the turn:\nRanged weapons equipped by models in that disembarking units have the ^^**[Ignores Cover]**^^ ability.\nMelee weapons equipped by models in that disembarking unit have the ^^**[Lance]**^^ ability."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Rain of Cruelty",
+          "who": [
+            [
+              "Drukhari"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a Drukhari unit from your army disembarks from a Transport, until the end of the turn Ranged weapons equipped by models in that disembarking units have the [Ignores Cover] ability."
+        },
+        {
+          "rule": "Rain of Cruelty",
+          "who": [
+            [
+              "Drukhari"
+            ]
+          ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a Drukhari unit from your army disembarks from a Transport, until the end of the turn Melee weapons equipped by models in that disembarking unit have the [Lance] ability."
+        }
+      ],
       "stratagems": [
         {
           "name": "Skyborne Annihilation",
@@ -298,6 +336,62 @@
         {
           "name": "Murderous Agenda",
           "text": "At the start of the first battle round, select one of the Contracts from below, then select one unit from your opponent's army that matches the 'Contract' description in the Contract. Until that Contract is completed, that unit is your Contract unit and ^^**Kabal**^^ and ^^**Blades For Hire**^^ units from your army have the ability stated in that Contract. At the start of your Command phase, if your Contract unit is destroyed, that Contract is completed and you gain 3 Pain tokens.\n\n**Trophy Hunters**\n**Contract:** One ^^**Character**^^ unit.\n**Ability:** Each time a ^^**Kabal**^^ or ^^**Blades for Hire**^^ model in this unit makes an attack that targets the Contract unit, that attack has the ^^**[Precision]**^^ ability.\n\n**Sow Fear and Terror**\n**Contract:** One ^^**Infantry**^^ or ^^**Mounted**^^ unit (excluding units containing only ^^**Character**^^ models). At the start of Your Command phase, this Contract is completed if all non-^^**Character**^^ models in that unit are destroyed.\n**Ability:** Each time a ^^**Kabal**^^ or ^^**Blades for Hire**^^ model in this unit makes an attack that targets an ^^**Infantry**^^ or ^^**Mounted**^^ unit, that attack has the ^^**[Sustained Hits 1]**^^ ability.\n\n**Show of Strength**\n**Contract:** One ^^**Monster**^^ or ^^**Vehicle**^^ unit.\n**Ability:** Each time a ^^**Kabal**^^ or ^^**Blades for Hire**^^ model in this unit makes an attack that targets a ^^**Monster**^^ or ^^**Vehicle**^^ unit, that attack has the ^^**[Lethal Hits]**^^ ability."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Murderous Agenda",
+          "who": [
+            [
+              "Kabal"
+            ],
+            [
+              "Blades for Hire"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Ability",
+              "text": "Each time a Kabal or Blades for Hire model in this unit makes an attack that targets the Contract unit, that attack has the [Precision] ability."
+            }
+          ],
+          "condition": "when Ability is chosen"
+        },
+        {
+          "rule": "Murderous Agenda",
+          "who": [
+            [
+              "Kabal"
+            ],
+            [
+              "Blades for Hire"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Ability",
+              "text": "Each time a Kabal or Blades for Hire model in this unit makes an attack that targets an Infantry or Mounted unit, that attack has the [Sustained Hits 1] ability."
+            }
+          ],
+          "condition": "when Ability is chosen"
+        },
+        {
+          "rule": "Murderous Agenda",
+          "who": [
+            [
+              "Kabal"
+            ],
+            [
+              "Blades for Hire"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Ability",
+              "text": "Each time a Kabal or Blades for Hire model in this unit makes an attack that targets a Monster or Vehicle unit, that attack has the [Lethal Hits] ability."
+            }
+          ],
+          "condition": "when Ability is chosen"
         }
       ],
       "stratagems": [
@@ -533,6 +627,23 @@
           "text": "Friendly **WYCH CULT** units' melee attacks have **[LETHAL HITS: non-MONSTER/VEHICLE]**.\n\nThis **detachment** has the **WYCH CULT** tag and cannot be taken with another **WYCH CULT detachment**."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Exacting Cruelty",
+          "who": [
+            [
+              "Wych Cult"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Exacting Cruelty",
+              "text": "Friendly WYCH CULT units' melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE]."
+            }
+          ],
+          "condition": "Friendly WYCH CULT units' melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE]."
+        }
+      ],
       "stratagems": [
         {
           "name": "Acrobatic Display",
@@ -565,6 +676,26 @@
         {
           "name": "Contracted Harvest",
           "text": "Friendly **BLADES FOR HIRE/KABAL** units’ ranged attacks have **[SUSTAINED HITS 1: non-MONSTER/VEHICLE]**.\n\nThis **detachment** has the **KABAL** tag and cannot be taken with another **KABAL detachment**."
+        }
+      ],
+      "unitEffects": [
+        {
+          "rule": "Contracted Harvest",
+          "who": [
+            [
+              "Blades for Hire"
+            ],
+            [
+              "Kabal"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Contracted Harvest",
+              "text": "Friendly BLADES FOR HIRE/KABAL units' ranged attacks have [SUSTAINED HITS 1: non-MONSTER/VEHICLE]."
+            }
+          ],
+          "condition": "Friendly BLADES FOR HIRE/KABAL units' ranged attacks have [SUSTAINED HITS 1: non-MONSTER/VEHICLE]."
         }
       ],
       "stratagems": [
@@ -653,6 +784,11 @@
       "text": "**^^Haemonculus^^** model only. Once per battle, in your Shooting phase, the bearer can use this Enhancement. If it does, you can spend 1 Pain token. Then, each enemy unit within 12\" of the bearer must take a Battle-shock test, subtracting 1 from that test if you spent 1 Pain token. Each time a **^^Psyker^^** unit fails that test, it suffers 3 mortal wounds.",
       "keywords": [
         "Haemonculus"
+      ],
+      "bearers": [
+        [
+          "Haemonculus"
+        ]
       ]
     },
     {
@@ -679,6 +815,11 @@
       },
       "keywords": [
         "Succubus"
+      ],
+      "bearers": [
+        [
+          "Succubus"
+        ]
       ]
     },
     {
@@ -689,6 +830,11 @@
       "text": "**^^Archon^^** model only. At the start of your Command phase, if the bearer is on the battlefield, you can do one of the following:\nSpend 1 Pain token and gain 1CP.\nRoll one D6: on a 4+, you gain 1CP.",
       "keywords": [
         "Archon"
+      ],
+      "bearers": [
+        [
+          "Archon"
+        ]
       ]
     },
     {
@@ -696,21 +842,42 @@
       "name": "Dark Vitality",
       "points": 20,
       "detachmentId": "e299-e560-ccec-eeb3",
-      "text": "**^^Drukhari^^** model only. The bearer's unit is always Empowered - you do not need to spend any Pain tokens to activate that unit's Pain abilities"
+      "text": "**^^Drukhari^^** model only. The bearer's unit is always Empowered - you do not need to spend any Pain tokens to activate that unit's Pain abilities",
+      "bearers": [
+        [
+          "Drukhari"
+        ]
+      ]
     },
     {
       "id": "8a73-4f00-0bb8-9298",
       "name": "Archraider",
       "points": 15,
       "detachmentId": "e688-8140-bc36-3cee",
-      "text": "^^**Harlequins**^^ or ^^**Drukhari**^^ model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport**^^, that ^^**Dedicated Transport**^^ has the Scouts 9\" ability."
+      "text": "^^**Harlequins**^^ or ^^**Drukhari**^^ model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport**^^, that ^^**Dedicated Transport**^^ has the Scouts 9\" ability.",
+      "bearers": [
+        [
+          "Harlequins"
+        ],
+        [
+          "Drukhari"
+        ]
+      ]
     },
     {
       "id": "acb4-8fc5-8c22-82f2",
       "name": "Webway walker",
       "points": 15,
       "detachmentId": "e688-8140-bc36-3cee",
-      "text": "^^**Harlequins**^^ or ^^**Drukhari**^^ model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re‑roll Charge rolls made for that unit."
+      "text": "^^**Harlequins**^^ or ^^**Drukhari**^^ model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re‑roll Charge rolls made for that unit.",
+      "bearers": [
+        [
+          "Harlequins"
+        ],
+        [
+          "Drukhari"
+        ]
+      ]
     },
     {
       "id": "4483-1caf-6caa-d571",
@@ -732,6 +899,11 @@
       },
       "keywords": [
         "Harlequins"
+      ],
+      "bearers": [
+        [
+          "Harlequins"
+        ]
       ]
     },
     {
@@ -742,6 +914,11 @@
       "text": "^^**Drukhari**^^ model only. In your Command phase, you can do one of the following:\n■ If your ^^**Drukhari**^^ units are currently losing the wager, you can gain 1 Pain token. If you do, ^^**Drukhari**^^ units from your army are now winning the wager.\n■ If your ^^**Drukhari**^^ units are currently winning the wager, you can discard 1 Pain token. If you do, ^^**Harlequins**^^ units from your army are now winning the wager.",
       "keywords": [
         "Drukhari"
+      ],
+      "bearers": [
+        [
+          "Drukhari"
+        ]
       ]
     },
     {
@@ -750,35 +927,47 @@
       "points": 15,
       "detachmentId": "7596-e2c8-71fb-1b4f",
       "text": "^^**Drukhari**^^ model only. While the bearer’s unit is wholly within 6\" of a friendly ^^**Drukhari Transport**^^:\nModels in the bearer’s unit have the  Stealth ability\nEach time a ranged attack targets the bearer's unit, models in that unit have the Benefit of Cover against that attack.",
-      "effects": {
-        "abilities": [
-          {
-            "name": "Stealth",
-            "text": "Models in this unit have the Stealth ability"
-          }
+      "bearers": [
+        [
+          "Drukhari"
         ]
-      }
+      ]
     },
     {
       "id": "3151-c2de-c0cc-b8d0",
       "name": "Sadistic Fulcrum",
       "points": 15,
       "detachmentId": "7596-e2c8-71fb-1b4f",
-      "text": "^^**Drukhari**^^ model only. Each time you spend 1 Pain token to Empower the bearer’s unit in the Shooting phase, select one friendly ^^**Drukhari Transport**^^ within 6\" of the bearer’s unit; until the end of the phase, each time that ^^**Transport**^^ makes an attack, you can re-roll the Hit roll."
+      "text": "^^**Drukhari**^^ model only. Each time you spend 1 Pain token to Empower the bearer’s unit in the Shooting phase, select one friendly ^^**Drukhari Transport**^^ within 6\" of the bearer’s unit; until the end of the phase, each time that ^^**Transport**^^ makes an attack, you can re-roll the Hit roll.",
+      "bearers": [
+        [
+          "Drukhari"
+        ]
+      ]
     },
     {
       "id": "c049-95f9-58cb-b70a",
       "name": "Spiteful Raider",
       "points": 10,
       "detachmentId": "7596-e2c8-71fb-1b4f",
-      "text": "^^**Drukhari**^^ model only. Each time the bearer’s unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token."
+      "text": "^^**Drukhari**^^ model only. Each time the bearer’s unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token.",
+      "bearers": [
+        [
+          "Drukhari"
+        ]
+      ]
     },
     {
       "id": "894c-7f9e-5f07-1dc3",
       "name": "Nightmare Shroud",
       "points": 20,
       "detachmentId": "7596-e2c8-71fb-1b4f",
-      "text": "^^**Drukhari**^^ model only. Each time the bearer’s unit disembarks from a ^^**Transport**^^, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+      "text": "^^**Drukhari**^^ model only. Each time the bearer’s unit disembarks from a ^^**Transport**^^, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+      "bearers": [
+        [
+          "Drukhari"
+        ]
+      ]
     },
     {
       "id": "1cbe-8230-62e6-55ed",
@@ -788,6 +977,11 @@
       "text": "^^**Haemonculus**^^ model only. Each time the bearer uses its Fleshcraft ability, you can return up to D3+3 destroyed Bodyguard models to the bearer's unit instead of D3+1.",
       "keywords": [
         "Haemonculus"
+      ],
+      "bearers": [
+        [
+          "Haemonculus"
+        ]
       ]
     },
     {
@@ -798,6 +992,11 @@
       "text": "^^**Haemonculus**^^ model only. The bearer's weapons have the ^^**[Anti-Beast 2+]**^^ and ^^**[Anti-Monster 4+]**^^ abilities.",
       "keywords": [
         "Haemonculus"
+      ],
+      "bearers": [
+        [
+          "Haemonculus"
+        ]
       ]
     },
     {
@@ -825,6 +1024,11 @@
       },
       "keywords": [
         "Haemonculus"
+      ],
+      "bearers": [
+        [
+          "Haemonculus"
+        ]
       ]
     },
     {
@@ -835,6 +1039,11 @@
       "text": "^^**Haemonculus**^^ model only. Add 3\" to the range of the bearer's Fear Incarnate ability, and each time a friendly ^^**Drukhari**^^ within 9\" of the bearer fails a Battle-shock test or is destroyed, roll one D6; on a 4+, you gain 1 Pain token.",
       "keywords": [
         "Haemonculus"
+      ],
+      "bearers": [
+        [
+          "Haemonculus"
+        ]
       ]
     },
     {
@@ -855,6 +1064,11 @@
       },
       "keywords": [
         "Archon"
+      ],
+      "bearers": [
+        [
+          "Archon"
+        ]
       ]
     },
     {
@@ -873,6 +1087,11 @@
       },
       "keywords": [
         "Archon"
+      ],
+      "bearers": [
+        [
+          "Archon"
+        ]
       ]
     },
     {
@@ -883,6 +1102,11 @@
       "text": "^^**Archon**^^ model only. At the start of the Declare Battle Formations step, select up to three ^^**Kabalite Warriors**^^ and/or ^^**Hand of the Archon**^^ units from your army; those units gain the Infiltrators ability.",
       "keywords": [
         "Archon"
+      ],
+      "bearers": [
+        [
+          "Archon"
+        ]
       ]
     },
     {
@@ -893,6 +1117,11 @@
       "text": "^^**Archon**^^ models only. While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1.",
       "keywords": [
         "Archon"
+      ],
+      "bearers": [
+        [
+          "Archon"
+        ]
       ]
     },
     {
@@ -903,6 +1132,11 @@
       "text": "^^**Succubus**^^ model only. At the start of your Command phase, after selecting which Combat Drugs will be active for your army, roll one D6 and consult the Combat Drugs list. The result rolled applies to the bearer's unit until the start of your next Command phase in addition to any other Combat Drugs that are active for your army. If you randomly select one that is already active for your army, it has no additional effect.",
       "keywords": [
         "Succubus"
+      ],
+      "bearers": [
+        [
+          "Succubus"
+        ]
       ]
     },
     {
@@ -913,6 +1147,11 @@
       "text": "^^** Succubus**^^ model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer's unit have the Fights First ability.",
       "keywords": [
         "Succubus"
+      ],
+      "bearers": [
+        [
+          "Succubus"
+        ]
       ]
     },
     {
@@ -923,6 +1162,11 @@
       "text": "^^**Succubus**^^ model only. Enemy units cannot use the Fire Overwatch stratagem to shoot at the bearer's unit.",
       "keywords": [
         "Succubus"
+      ],
+      "bearers": [
+        [
+          "Succubus"
+        ]
       ]
     },
     {
@@ -933,6 +1177,11 @@
       "text": "^^**Succubus**^^ model only. Improve the Armour Penetration and Damage characteristics of the bearer's melee weapons by 1.",
       "keywords": [
         "Succubus"
+      ],
+      "bearers": [
+        [
+          "Succubus"
+        ]
       ]
     },
     {
@@ -954,6 +1203,11 @@
       },
       "keywords": [
         "Succubus"
+      ],
+      "bearers": [
+        [
+          "Succubus"
+        ]
       ]
     },
     {
@@ -964,6 +1218,11 @@
       "text": "**SUCCUBUS** model only. Enemy units cannot target this unit with **snap shooting** attacks.",
       "keywords": [
         "Succubus"
+      ],
+      "bearers": [
+        [
+          "Succubus"
+        ]
       ]
     },
     {
@@ -992,6 +1251,11 @@
       },
       "keywords": [
         "Archon"
+      ],
+      "bearers": [
+        [
+          "Archon"
+        ]
       ]
     },
     {
@@ -1018,6 +1282,11 @@
       },
       "keywords": [
         "Archon"
+      ],
+      "bearers": [
+        [
+          "Archon"
+        ]
       ]
     },
     {
@@ -1038,6 +1307,40 @@
       },
       "keywords": [
         "Haemonculus"
+      ],
+      "bearers": [
+        [
+          "Haemonculus"
+        ]
+      ]
+    },
+    {
+      "id": "ad7a-ddc5-ffb8-e30c",
+      "name": "Elixir of the Corpse Courts",
+      "points": 15,
+      "detachmentId": "1653-ad59-40e0-a08f",
+      "text": "**CRONOS/TALOS** unit only. This unit has **5+ InSv**.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "InvSv",
+            "op": "set",
+            "value": "5+",
+            "wholeUnit": true
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Cronos"
+        ],
+        [
+          "Talos"
+        ]
       ]
     }
   ],
@@ -13543,6 +13846,16 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Acrobatic Grace",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit has Stealth."
+            }
+          ]
+        },
         {
           "rule": "Acrobatic Grace",
           "stats": [],

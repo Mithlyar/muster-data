@@ -212,6 +212,22 @@
               "fromText": true
             }
           ]
+        },
+        {
+          "rule": "Mob-handed Brutality",
+          "who": [
+            [
+              "Orks",
+              "Infantry"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Mob-handed Brutality",
+              "text": "If a friendly ORKS INFANTRY unit made a charge move this turn, that unit's melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE]."
+            }
+          ],
+          "condition": "If a friendly ORKS INFANTRY unit made a charge move this turn, that unit's melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE]."
         }
       ],
       "stratagems": [
@@ -814,21 +830,36 @@
       "name": "Da Boss Is Watchin'",
       "points": 25,
       "detachmentId": "496c-ddb9-3e71-e0b3",
-      "text": "**ORKS** model only. (Once per battle, per army) In your Movement phase, you can use this ability. If you do, this unit is **riled up** until the start of your next turn."
+      "text": "**ORKS** model only. (Once per battle, per army) In your Movement phase, you can use this ability. If you do, this unit is **riled up** until the start of your next turn.",
+      "bearers": [
+        [
+          "Orks"
+        ]
+      ]
     },
     {
       "id": "40fb-e485-dca0-cb12",
       "name": "Headwoppa’s Killchoppa",
       "points": 15,
       "detachmentId": "496c-ddb9-3e71-e0b3",
-      "text": "**ORKS** model only. If this unit made a **charge move** this turn, this model's melee attacks have +1 **AP**."
+      "text": "**ORKS** model only. If this unit made a **charge move** this turn, this model's melee attacks have +1 **AP**.",
+      "bearers": [
+        [
+          "Orks"
+        ]
+      ]
     },
     {
       "id": "e201-253f-1f52-e389",
       "name": "Kunnin’ But Brutal",
       "points": 20,
       "detachmentId": "496c-ddb9-3e71-e0b3",
-      "text": "**ORKS** model only. When this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot/declare a charge**."
+      "text": "**ORKS** model only. When this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot/declare a charge**.",
+      "bearers": [
+        [
+          "Orks"
+        ]
+      ]
     },
     {
       "id": "ed0c-e9cb-399f-a5a2",
@@ -846,7 +877,12 @@
             "wholeUnit": true
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Orks"
+        ]
+      ]
     },
     {
       "id": "3000-401c-cb1c-b4dd",
@@ -863,14 +899,24 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Beastboss on Squigosaur"
+        ]
+      ]
     },
     {
       "id": "3fee-786-514d-b129",
       "name": "Glory Hog",
       "points": 25,
       "detachmentId": "80e6-2190-9767-a7ed",
-      "text": "**BEAST SNAGGA** model only. When this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to declare a charge**."
+      "text": "**BEAST SNAGGA** model only. When this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to declare a charge**.",
+      "bearers": [
+        [
+          "Beast Snagga"
+        ]
+      ]
     },
     {
       "id": "f3f0-a73b-d062-9dc6",
@@ -887,14 +933,27 @@
             "value": 2
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Big Mek"
+        ],
+        [
+          "Mek"
+        ]
+      ]
     },
     {
       "id": "3924-3f8-745d-7097",
       "name": "Dreadherder",
       "points": 30,
       "detachmentId": "807c-9732-5465-5ca5",
-      "text": "**BIG MEK** model only. While this model is within 3\" of a friendly **ORKS WALKER** unit (excluding **BIG MEK** units):\n- This model has **Lone Operative**.\n- In your Shooting phase, you can select one friendly **ORKS WALKER** unit within 3\" of this model. That unit's attacks can re-roll **hit rolls** of 1 until the end of the turn."
+      "text": "**BIG MEK** model only. While this model is within 3\" of a friendly **ORKS WALKER** unit (excluding **BIG MEK** units):\n- This model has **Lone Operative**.\n- In your Shooting phase, you can select one friendly **ORKS WALKER** unit within 3\" of this model. That unit's attacks can re-roll **hit rolls** of 1 until the end of the turn.",
+      "bearers": [
+        [
+          "Big Mek"
+        ]
+      ]
     },
     {
       "id": "647-4242-1022-5d0a",
@@ -911,14 +970,33 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Orks",
+          "Infantry"
+        ]
+      ]
     },
     {
       "id": "b44f-e2fb-29d5-72f5",
       "name": "Tellyporta Boss",
       "points": 20,
       "detachmentId": "4b17-a73a-7a0a-a265",
-      "text": "**MEGA ARMOUR** model only. This unit (excluding **VEHICLE** units) has **Deep Strike**."
+      "text": "**MEGA ARMOUR** model only. This unit (excluding **VEHICLE** units) has **Deep Strike**.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "This unit (excluding VEHICLE units) has Deep Strike."
+          }
+        ]
+      },
+      "bearers": [
+        [
+          "Mega Armour"
+        ]
+      ]
     },
     {
       "id": "3ed-27a1-e50f-f0da",
@@ -933,14 +1011,28 @@
             "mod": "reroll"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Deffkilla Wartrike"
+        ]
+      ]
     },
     {
       "id": "2381-390e-5e7d-0426",
       "name": "Kill Kommanda",
       "points": 20,
       "detachmentId": "fdd5-9868-a9ee-e9f1",
-      "text": "**BIG MEK/WARBOSS INFANTRY** model only. While this unit is part of an attached unit, this model has:\n- **Infiltrators**.\n- **Stealth**."
+      "text": "**BIG MEK/WARBOSS INFANTRY** model only. While this unit is part of an attached unit, this model has:\n- **Infiltrators**.\n- **Stealth**.",
+      "bearers": [
+        [
+          "Big Mek"
+        ],
+        [
+          "Warboss",
+          "Infantry"
+        ]
+      ]
     },
     {
       "id": "10f9-eb42-632e-3a6f",
@@ -969,7 +1061,16 @@
             "value": "SUPA-HAZARDOUS"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Orks",
+          "Infantry"
+        ]
+      ],
+      "notBearers": [
+        "Weirdboy"
+      ]
     },
     {
       "id": "8128-b57a-74a5-c36b",
@@ -995,21 +1096,46 @@
             ]
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Big Mek"
+        ],
+        [
+          "Bigboss"
+        ],
+        [
+          "Warboss"
+        ]
+      ]
     },
     {
       "id": "7d3c-eecc-1311-4e7e",
       "name": "Kaptin's Hat",
       "points": 25,
       "detachmentId": "f782-e3f1-c132-fe52",
-      "text": "**BIG MEK/WARBOSS INFANTRY** model only. When both players have deployed their armies, you can redeploy up to three friendly **ORKS INFANTRY** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**."
+      "text": "**BIG MEK/WARBOSS INFANTRY** model only. When both players have deployed their armies, you can redeploy up to three friendly **ORKS INFANTRY** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**.",
+      "bearers": [
+        [
+          "Big Mek"
+        ],
+        [
+          "Warboss",
+          "Infantry"
+        ]
+      ]
     },
     {
       "id": "e6ce-9af9-9883-c269",
       "name": "Mekwaaagh! Mastermind",
       "points": 30,
       "detachmentId": "9ae4-56d1-1fd8-adcf",
-      "text": "**BIG MEK** model only. This unit is **riled up**."
+      "text": "**BIG MEK** model only. This unit is **riled up**.",
+      "bearers": [
+        [
+          "Big Mek"
+        ]
+      ]
     },
     {
       "id": "1a5d-7811-73df-2724",
@@ -1026,14 +1152,25 @@
             "value": 1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Warboss"
+        ]
+      ]
     },
     {
       "id": "c26f-7506-afbf-4b71",
       "name": "Surly As A Squiggoth",
       "points": 25,
       "detachmentId": "09b2-b286-7608-d613",
-      "text": "**INFANTRY WARBOSS** model only. (Once per battle, per army) At the end of phase in which this model is **destroyed**, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was **destroyed**, **unengaged**, with 3 wounds remaining."
+      "text": "**INFANTRY WARBOSS** model only. (Once per battle, per army) At the end of phase in which this model is **destroyed**, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was **destroyed**, **unengaged**, with 3 wounds remaining.",
+      "bearers": [
+        [
+          "Infantry",
+          "Warboss"
+        ]
+      ]
     },
     {
       "id": "1776-bf60-6198-7d1d",
@@ -1069,7 +1206,12 @@
       "name": "Blitzboss",
       "points": 20,
       "detachmentId": "09b2-b286-7608-d613",
-      "text": "**WARBOSS** model only. A **TRANSPORT** unit (excluding **WALKER** units) this unit is embarked within has:\n- +2\" **M**.\n- 5+ **InSv**."
+      "text": "**WARBOSS** model only. A **TRANSPORT** unit (excluding **WALKER** units) this unit is embarked within has:\n- +2\" **M**.\n- 5+ **InSv**.",
+      "bearers": [
+        [
+          "Warboss"
+        ]
+      ]
     },
     {
       "id": "55ac-3d8b-443f-ff63",
@@ -1084,21 +1226,37 @@
             "mod": "reroll1"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Warboss"
+        ]
+      ]
     },
     {
       "id": "cdbb-d4b7-580e-0413",
       "name": "Morgog's Finkin' Cap",
       "points": 50,
       "detachmentId": "09b2-b286-7608-d613",
-      "text": "**WARBOSS** model only. (Once per battle, per army) At the end of your opponent's Movement phase, if this unit is **unengaged**, this unit can make a **normal move** of:\n- Up to D6\".\n- If this unit is **riled up**, you can re-roll that D6."
+      "text": "**WARBOSS** model only. (Once per battle, per army) At the end of your opponent's Movement phase, if this unit is **unengaged**, this unit can make a **normal move** of:\n- Up to D6\".\n- If this unit is **riled up**, you can re-roll that D6.",
+      "bearers": [
+        [
+          "Warboss"
+        ]
+      ]
     },
     {
       "id": "e336-1cf0-5c14-2a2d",
       "name": "Warphead",
       "points": 25,
       "detachmentId": "1b34-af6b-8900-61b5",
-      "text": "**ORKS PSYKER** model only. This model:\n- Has **psyker level 2**.\n- Has **Deadly Demise D6**.\n- Can re-roll **psychic rolls**."
+      "text": "**ORKS PSYKER** model only. This model:\n- Has **psyker level 2**.\n- Has **Deadly Demise D6**.\n- Can re-roll **psychic rolls**.",
+      "bearers": [
+        [
+          "Orks",
+          "Psyker"
+        ]
+      ]
     },
     {
       "id": "f2d7-e5cc-ac0a-9a47",
@@ -1160,6 +1318,246 @@
         }
       ],
       "text": "The bearer is equipped with 'Eadbanger (ranged): Range 24\", A 2, BS 4+, S 6, AP -3, D 3, [HAZARDOUS, PRECISION, PSYCHIC]."
+    },
+    {
+      "id": "1831-efc5-03fd-25c1",
+      "name": "Wimp-kickaz",
+      "points": 15,
+      "detachmentId": "4b17-a73a-7a0a-a265",
+      "text": "**NOBZ** unit only. When an enemy unit **engaged** with this unit is selected to make a **fall-back move**:\n- That enemy unit must select the **desperate escape** mode.\n- If this unit is **riled up**, that enemy unit has -1 to the **hazard rolls** made for that **desperate escape**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Nobz"
+        ]
+      ]
+    },
+    {
+      "id": "a475-b136-890b-c69e",
+      "name": "'Ardboyz",
+      "points": 25,
+      "detachmentId": "795f-b961-9504-bd08",
+      "text": "**BOYZ** unit only. This unit has 4+ **Sv**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Boyz"
+        ]
+      ]
+    },
+    {
+      "id": "06da-d011-874b-bf75",
+      "name": "Minefield Detail",
+      "points": 10,
+      "detachmentId": "7b06-be3a-9754-1bd4",
+      "text": "**GRETCHIN** unit only. While this unit is not embarked, this unit has Scouts 6\".",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Gretchin"
+        ]
+      ]
+    },
+    {
+      "id": "8ba4-a299-ac96-fbc5",
+      "name": "Extra Sneaky",
+      "points": 10,
+      "detachmentId": "7b06-be3a-9754-1bd4",
+      "text": "**GRETCHIN** unit only. This unit has -3\" **detection range**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Gretchin"
+        ]
+      ]
+    },
+    {
+      "id": "3d0e-9ca8-451d-5dc2",
+      "name": "Throat-slittas",
+      "points": 15,
+      "detachmentId": "fdd5-9868-a9ee-e9f1",
+      "text": "**KOMMANDOS/STORMBOYZ** unit only. This unit's melee attacks have **[LETHAL HITS: non-MONSTER/VEHICLE]**.",
+      "effects": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "LETHAL HITS: non-MONSTER/VEHICLE"
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Kommandos"
+        ],
+        [
+          "Stormboyz"
+        ]
+      ]
+    },
+    {
+      "id": "217d-4d10-bad0-1d6e",
+      "name": "Supa-snazz Dakka",
+      "points": 25,
+      "detachmentId": "f782-e3f1-c132-fe52",
+      "text": "**FLASH GITZ** unit only. This unit's Snazzgun weapons have **[RAPID FIRE 1]**.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "RAPID FIRE 1",
+            "weaponIds": [
+              "f606-38ce-2ada-4fbd"
+            ]
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Flash Gitz"
+        ]
+      ]
+    },
+    {
+      "id": "685d-9a51-d750-261c",
+      "name": "Enhanced Runt-maw",
+      "points": 10,
+      "detachmentId": "9ae4-56d1-1fd8-adcf",
+      "text": "**BIG MEK WITH SHOKK ATTACK GUN** model only. When this unit has shot, select one enemy unit hit by those attacks. That unit is **infested with Snotlings** until the start of your next turn.\n- While an enemy unit is **infested with Snotlings**, that unit has -1 to **leadership rolls**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Big Mek with Shokk Attack Gun"
+        ]
+      ]
+    },
+    {
+      "id": "bc26-0d3f-87e6-1e9f",
+      "name": "Temperamental Shokka",
+      "points": 20,
+      "detachmentId": "9ae4-56d1-1fd8-adcf",
+      "text": "**BIG MEK WITH SHOKK ATTACK GUN** model only. In your Shooting phase, when this unit is **selected to shoot**, you can roll one D6:\n- On a 1, this model's Shokk Attack Gun weapon has **[TORRENT]**, and when this unit has shot, this model is **destroyed**.\n- On a 2-5, this model's Shokk Attack Gun weapon has +1 **A**.\n- One a 6, this model's Shokk Attack Gun wepon has **SUSTAINED HITS 2]**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Big Mek with Shokk Attack Gun"
+        ]
+      ]
+    },
+    {
+      "id": "49a8-06a7-c692-fc7b",
+      "name": "Targetin' Gizmos",
+      "points": 25,
+      "detachmentId": "63cc-721f-b263-9d4a",
+      "text": "**WAGON** unit only. While a **BIG MEK** model is embarked within this unit:\n- This unit's ranged attacks have **[IGNORES COVER]**.\n- If this unit is **riled up**, this unit's ranged attacks have **[SUSTAINED HITS 1]**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Wagon"
+        ]
+      ]
+    },
+    {
+      "id": "637d-28e4-6831-aa7a",
+      "name": "Boss Boomer",
+      "points": 10,
+      "detachmentId": "63cc-721f-b263-9d4a",
+      "text": "**WAGON** unit only. While a **WARBOSS** model is embarked within this unit, this unit has that **WARBOSS** model's **Intimidating Motivation/Keep Huntin'** ability.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Wagon"
+        ]
+      ]
+    },
+    {
+      "id": "5ecd-f403-5178-fd54",
+      "name": "Smoky Gubbinz",
+      "points": 10,
+      "detachmentId": "b404-44f-e9b4-7fe2",
+      "text": "**SPEED FREEKS** unit only (excluding **AIRCRAFT** units). When an attack targets a unit that is not **fully visible** to the attacking model because of a model in this unit, the target has the **benefit of cover** against that attack.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "save",
+            "mod": "cover",
+            "condition": "When an attack targets a unit that is not fully visible to the attacking model because of a model in this unit, the target has the benefit of cover against that attack."
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Speed Freeks"
+        ]
+      ],
+      "notBearers": [
+        "Aircraft"
+      ]
+    },
+    {
+      "id": "aa88-0f70-fb17-5d4a",
+      "name": "Impulsive Recon",
+      "points": 15,
+      "detachmentId": "7c3c-fb9c-8689-8c7a",
+      "text": "**ORKS AIRCRAFT** unit only. In your first Movement phase, this unit can make an **ingress move**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Orks",
+          "Aircraft"
+        ]
+      ]
+    },
+    {
+      "id": "4f3f-f78f-1b26-0189",
+      "name": "Flyboss",
+      "points": 20,
+      "detachmentId": "7c3c-fb9c-8689-8c7a",
+      "text": "**ORKS AIRCRAFT** unit only.\n- This unit has **CHARACTER**.\n- When this unit ends an **ingress move**, each friendly **ORKS AIRCRAFT/DEFFKOPTAS** unit within 6\" of this unit is **riled up** until the start of your next turn.",
+      "effects": {
+        "keywords": [
+          "Character"
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Orks",
+          "Aircraft"
+        ]
+      ]
     }
   ],
   "units": [
@@ -14799,10 +15197,58 @@
             }
           ],
           "modelNames": [
-            "Meganob w/ Kustom Shoota and Power Klaw",
-            "Meganob w/ Kombi-weapon and Power Klaw",
-            "Meganob w/ Kombi-weapon and Killsaw",
-            "Meganob w/ Kustom Shoota and Killsaw",
+            "Meganob w/ Kustom Shoota and Power Klaw"
+          ]
+        },
+        {
+          "name": "Meganob w/ Kombi-weapon and Power Klaw",
+          "max": [
+            {
+              "minModels": 2,
+              "maxModels": 6,
+              "max": 6
+            }
+          ],
+          "modelNames": [
+            "Meganob w/ Kombi-weapon and Power Klaw"
+          ]
+        },
+        {
+          "name": "Meganob w/ Kombi-weapon and Killsaw",
+          "max": [
+            {
+              "minModels": 2,
+              "maxModels": 6,
+              "max": 6
+            }
+          ],
+          "modelNames": [
+            "Meganob w/ Kombi-weapon and Killsaw"
+          ]
+        },
+        {
+          "name": "Meganob w/ Kustom Shoota and Killsaw",
+          "max": [
+            {
+              "minModels": 2,
+              "maxModels": 6,
+              "max": 6
+            }
+          ],
+          "modelNames": [
+            "Meganob w/ Kustom Shoota and Killsaw"
+          ]
+        },
+        {
+          "name": "Meganob w/ Twin Killsaw",
+          "max": [
+            {
+              "minModels": 2,
+              "maxModels": 6,
+              "max": 6
+            }
+          ],
+          "modelNames": [
             "Meganob w/ Twin Killsaw"
           ]
         }
@@ -15856,6 +16302,16 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Nazdreg's Know-wotz",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Deep Strike",
+              "text": "This unit has Deep Strike"
+            }
+          ]
+        },
         {
           "rule": "Nazdreg's Know-wotz",
           "stats": [
@@ -24992,7 +25448,7 @@
               "fromText": true
             }
           ],
-          "condition": "while this unit is riled up this unit has 5+ InSv."
+          "condition": "this unit can while this unit is riled up this unit has 5+ InSv."
         },
         {
           "rule": "Waaagh!",
@@ -25005,7 +25461,7 @@
               "fromText": true
             }
           ],
-          "condition": "while this unit is riled up this unit's ranged attacks have [ASSAULT]."
+          "condition": "this unit can while this unit is riled up this unit's ranged attacks have [ASSAULT]."
         }
       ]
     }

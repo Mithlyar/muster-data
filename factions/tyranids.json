@@ -41,6 +41,53 @@
           "text": "While resolving attacks made with one or more **[PRECISION]** weapons, at the start of the Allocation Order step (05.03), if the target unit contains one or more **CHARACTER** models **visible** to one or more of the attacking models, the active player can select one allocation group that contains one of those **visible CHARACTER** models. If they do, until those attacks are resolved, or until that **CHARACTER** group is **destroyed** (whichever happens first), that **CHARACTER** group is the current allocation group."
         }
       ],
+      "unitEffects": [
+        {
+          "rule": "Hyper Adaptions",
+          "who": [
+            [
+              "Tyranids"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "SWARMING INSTINCTS",
+              "text": "Each time a Tyranids model with this Hyper-adaptation makes an attack that targets an enemy Infantry or Swarm unit, that attack has the [SUSTAINED HITS 1] ability."
+            }
+          ],
+          "condition": "when SWARMING INSTINCTS is chosen"
+        },
+        {
+          "rule": "Hyper Adaptions",
+          "who": [
+            [
+              "Tyranids"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "HYPER-AGGRESSION",
+              "text": "Each time a Tyranids model with this Hyper-adaptation makes an attack that targets an enemy Monster or Vehicle unit, that attack has the [LETHAL HITS] ability."
+            }
+          ],
+          "condition": "when HYPER-AGGRESSION is chosen"
+        },
+        {
+          "rule": "Hyper Adaptions",
+          "who": [
+            [
+              "Tyranids"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "HIVE PREDATORS",
+              "text": "Each time a Tyranids model with this Hyper-adaptation makes an attack that targets an enemy Character unit, if a Critical Hit is scored, that attack has the [PRECISION] ability."
+            }
+          ],
+          "condition": "when HIVE PREDATORS is chosen"
+        }
+      ],
       "stratagems": [
         {
           "name": "Adrenal Surge",
@@ -682,6 +729,26 @@
           "rule": "Mindhunger",
           "who": [
             [
+              "Deathleaper"
+            ],
+            [
+              "Lictor"
+            ],
+            [
+              "Neurolictor"
+            ]
+          ],
+          "abilities": [
+            {
+              "name": "Deep Strike",
+              "text": "Friendly DEATHLEAPER/LICTOR/NEUROLICTOR units have Deep Strike."
+            }
+          ]
+        },
+        {
+          "rule": "Mindhunger",
+          "who": [
+            [
               "Lictor"
             ],
             [
@@ -767,6 +834,11 @@
       "text": "**^^Tyranids^^** model only. After both players have deployed their armies, select up to three **^^Tyranids^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -786,6 +858,11 @@
       },
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -796,6 +873,11 @@
       "text": "**^^Tyranids^^** model only. While a friendly **^^Tyranids^^** unit is within 9\" of the bearer, that unit is within Synapse Range of your army.",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -814,6 +896,11 @@
       },
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -824,6 +911,11 @@
       "text": "**TYRANIDS** model only. While the bearer is within 6\" of one or more friendly **HARVESTER** units, when you target this unit with the **Heroic Intervention stratagem**, that use is ‑1 CP. In addition, while the bearer is within 6\" of one or more friendly **HARVESTER** units, models in the bearer's unit have the Fights First ability.",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -844,6 +936,11 @@
       },
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -854,6 +951,14 @@
       "text": "**^^Tyranids^^** model only (excluding **^^Monsters^^** models) The bearer's unit can be regenerated up to twice per phase, instead of once.",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
+      ],
+      "notBearers": [
+        "Monster"
       ]
     },
     {
@@ -864,6 +969,11 @@
       "text": "**^^Tyranids^^** model only. While a friendly **^^Harvester^^** model is within 12\" of the bearer, when using the Feed the Swarm ability, that **^^Harvester^^** model can Regenerate one friendly **^^Tyranids^^** unit that is within 9\" instead of one within 6\".",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -940,6 +1050,12 @@
       "keywords": [
         "Synapse",
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids",
+          "Synapse"
+        ]
       ]
     },
     {
@@ -960,6 +1076,12 @@
       "keywords": [
         "Synapse",
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids",
+          "Synapse"
+        ]
       ]
     },
     {
@@ -971,6 +1093,12 @@
       "keywords": [
         "Synapse",
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids",
+          "Synapse"
+        ]
       ]
     },
     {
@@ -1022,6 +1150,12 @@
       "keywords": [
         "Tyranids",
         "Psyker"
+      ],
+      "bearers": [
+        [
+          "Tyranids",
+          "Psyker"
+        ]
       ]
     },
     {
@@ -1032,6 +1166,11 @@
       "text": "**^^Tyranids^^** model only. At the start of the first battle round, select up to three friendly **^^Endless Multitude^^** units within 9\" of the bearer. Until the end of the battle round, each time a ranged attack targets one of those units, models in that unit have the Benefit of Cover against that attack.",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -1042,6 +1181,11 @@
       "text": "**^^Tyranids^^** model only. Each time a model in the Bearer's unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -1063,6 +1207,11 @@
       },
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -1073,6 +1222,11 @@
       "text": "**^^Tyranids^^** model only. Each time the bearer's unit makes a Pile In or Consolidation, models in this unit can move an additional 3\"",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -1083,6 +1237,11 @@
       "text": "**^^Tyranids^^** model only. While the bearer is on the battlefield, each time your opponent sets up a Reserves unit on the battlefield, roll one D6: on a 2+ that unit must make a Battle-shock test.",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -1093,6 +1252,11 @@
       "text": "**TYRANIDS** model only. After both players have deployed their armies, you can select up to three **VANGUARD INVADER** units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ]
     },
     {
@@ -1113,6 +1277,11 @@
       "keywords": [
         "Tyranids",
         "Vanguard Invader"
+      ],
+      "bearers": [
+        [
+          "Vanguard Invader"
+        ]
       ]
     },
     {
@@ -1121,9 +1290,22 @@
       "points": 15,
       "detachmentId": "f773-f91c-2999-c7e1",
       "text": "**VANGUARD INVADER** model only. This unit has **Stealth**.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Stealth",
+            "text": "This unit has Stealth."
+          }
+        ]
+      },
       "keywords": [
         "Tyranids",
         "Vanguard Invader"
+      ],
+      "bearers": [
+        [
+          "Vanguard Invader"
+        ]
       ]
     },
     {
@@ -1148,7 +1330,15 @@
             "value": -1
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Winged Tyranid Prime"
+        ],
+        [
+          "Tyranid Prime with Lash Whip"
+        ]
+      ]
     },
     {
       "id": "2670-661d-34d7-d135",
@@ -1164,7 +1354,15 @@
             "kind": "melee"
           }
         ]
-      }
+      },
+      "bearers": [
+        [
+          "Winged Tyranid Prime"
+        ],
+        [
+          "Tyranid Prime with Lash Whip"
+        ]
+      ]
     },
     {
       "id": "f4a3-f457-328f-582b",
@@ -1196,6 +1394,11 @@
         "Tyranids",
         "Trygon"
       ],
+      "bearers": [
+        [
+          "Trygon"
+        ]
+      ],
       "characterFor": [
         [
           "Trygon"
@@ -1210,6 +1413,11 @@
       "text": "**^^Tyranids^^** model only. Once per battle, you can target the bearer’s unit with the Rapid Ingress stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
       "keywords": [
         "Tyranids"
+      ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
       ],
       "characterFor": [
         [
@@ -1226,9 +1434,101 @@
       "keywords": [
         "Tyranids"
       ],
+      "bearers": [
+        [
+          "Tyranids"
+        ]
+      ],
       "characterFor": [
         [
           "Trygon"
+        ]
+      ]
+    },
+    {
+      "id": "adec-a011-9920-9f17",
+      "name": "Encircling Horrors",
+      "points": 20,
+      "detachmentId": "cf1b-eb18-c465-27a5",
+      "text": "**NEUROLICTOR/LICTOR/VON RYAN’S LEAPERS** unit only. In your opponent’s Movement phase, when an enemy unit ends a move within 8\" of this unit, this unit can make a **normal move** of up to D3+3\".",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Neurolictor"
+        ],
+        [
+          "Lictor"
+        ],
+        [
+          "Von Ryan's Leapers"
+        ]
+      ]
+    },
+    {
+      "id": "b463-67bb-f9d1-2ce8",
+      "name": "Cryptophotaic Camouflage",
+      "points": 15,
+      "detachmentId": "cf1b-eb18-c465-27a5",
+      "text": "**VON RYAN’S LEAPERS** unit only. This unit has ‑3\" **detection range**.",
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Von Ryan's Leapers"
+        ]
+      ]
+    },
+    {
+      "id": "a336-1346-0281-b4b2",
+      "name": "Destabilising Predation",
+      "points": 20,
+      "detachmentId": "8d8b-a030-83d5-f4e6",
+      "text": "**NORN EMISSARY** unit only. This unit’s ranged attacks have **[ANTI‑CHARACTER 2+]**.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Character 2+"
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Norn Emissary"
+        ]
+      ]
+    },
+    {
+      "id": "d40a-c9a6-74d5-288d",
+      "name": "Synaptoprescience",
+      "points": 30,
+      "detachmentId": "8d8b-a030-83d5-f4e6",
+      "text": "**NORN ASSIMILATOR** unit only. This unit has 4+ **InSv**.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "InvSv",
+            "op": "set",
+            "value": "4+",
+            "wholeUnit": true
+          }
+        ]
+      },
+      "upgrade": {
+        "maxCopies": 3
+      },
+      "bearers": [
+        [
+          "Norn Assimilator"
         ]
       ]
     }
