@@ -10589,6 +10589,24 @@
       ],
       "wargear": [
         {
+          "id": "116e-eb83-97bd-c5de",
+          "name": "Plaguespurt gauntlet",
+          "model": "Deathshroud Terminator Champion",
+          "min": 1,
+          "max": 2,
+          "defaultChoiceId": "116e-eb83-97bd-c5de",
+          "choices": [
+            {
+              "id": "116e-eb83-97bd-c5de",
+              "name": "Plaguespurt gauntlet",
+              "weaponIds": [
+                "9155-c2d5-ad8f-9a93"
+              ],
+              "points": 0
+            }
+          ]
+        },
+        {
           "id": "3af8-7504-2515-9f16",
           "name": "Icon of Despair",
           "model": "Deathshroud Terminator Champion",

@@ -45487,7 +45487,7 @@
       "models": [
         {
           "name": "Scouts w/ Boltgun",
-          "min": 4,
+          "min": 0,
           "max": 9,
           "stats": {
             "M": "6\"",

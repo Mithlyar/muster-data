@@ -23130,6 +23130,7 @@
           },
           "loadout": [
             "64ca-68b1-a888-819d",
+            "3924-7fd-61b4-f4ec",
             "3924-7fd-61b4-f4ec"
           ]
         }
@@ -23260,8 +23261,8 @@
           "id": "c275-d2b-cbf0-9b2f",
           "name": "Heavy Weapons",
           "model": "War Walker",
-          "min": 1,
-          "max": 1,
+          "min": 2,
+          "max": 2,
           "defaultChoiceId": "8c0e-e2ad-4bfd-bb1e",
           "choices": [
             {
