@@ -1296,6 +1296,15 @@
       "points": 20,
       "detachmentId": "419a-c366-aa63-ebb5",
       "text": "**^^Astra Militarum Titanic Character^^** model only. Each time the bearer makes a ranged attack, you can re‑roll the Damage roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "damageRoll",
+            "mod": "reroll",
+            "kind": "ranged"
+          }
+        ]
+      },
       "bearers": [
         [
           "Astra Militarum",
@@ -35798,6 +35807,19 @@
       ],
       "selfEffects": [
         {
+          "rule": "Titan Hunter",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re-roll the Damage roll."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
             {
@@ -56624,6 +56646,11 @@
               "roll": "wound",
               "mod": "rerollOne",
               "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks."
+            },
+            {
+              "roll": "damageRoll",
+              "mod": "rerollOne",
+              "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks."
             }
           ],
           "onlyModel": true
@@ -66990,6 +67017,18 @@
       },
       "selfEffects": [
         {
+          "rule": "Power Overload",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "condition": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Damage roll."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
           "rule": "Damaged: 1-7 Wounds Remaining",
           "stats": [
             {
@@ -67716,6 +67755,19 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Anti-armour Gunship",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll1",
+              "kind": "ranged",
+              "condition": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, re-roll a Damage roll of 1"
+            }
+          ],
+          "onlyModel": true
+        },
         {
           "rule": "Damaged: 1-5 Wounds Remaining",
           "stats": [],

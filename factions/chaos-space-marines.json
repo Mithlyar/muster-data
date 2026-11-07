@@ -1642,6 +1642,11 @@
             "roll": "hit",
             "mod": "rerollOne",
             "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model."
+          },
+          {
+            "roll": "wound",
+            "mod": "rerollOne",
+            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model."
           }
         ]
       }
@@ -6727,6 +6732,16 @@
                 "rolls": [
                   {
                     "roll": "hit",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  },
+                  {
+                    "roll": "damageRoll",
                     "mod": "rerollOne",
                     "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
                   }
@@ -12511,6 +12526,19 @@
       ],
       "selfEffects": [
         {
+          "rule": "Annihilator",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re-roll the Damage roll."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
           "rolls": [
@@ -14613,6 +14641,16 @@
                     "roll": "hit",
                     "mod": "rerollOne",
                     "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  },
+                  {
+                    "roll": "damageRoll",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
                   }
                 ],
                 "abilities": [
@@ -16143,6 +16181,16 @@
                     "roll": "hit",
                     "mod": "rerollOne",
                     "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  },
+                  {
+                    "roll": "damageRoll",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
                   }
                 ],
                 "abilities": [
@@ -17105,6 +17153,16 @@
                 "rolls": [
                   {
                     "roll": "hit",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "rerollOne",
+                    "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
+                  },
+                  {
+                    "roll": "damageRoll",
                     "mod": "rerollOne",
                     "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll or one saving throw made for this model."
                   }

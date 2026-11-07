@@ -14531,6 +14531,19 @@
             "Eradicator with Multi-melta"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Total Obliteration",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "kind": "ranged"
+            }
+          ]
+        }
       ]
     },
     {
@@ -16016,6 +16029,18 @@
               "mod": "rerollOne",
               "kind": "ranged",
               "condition": "This unit's ranged attacks that target a Monster/Vehicle unit can Re-roll one wound roll."
+            }
+          ]
+        },
+        {
+          "rule": "Aqullon Optics",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "rerollOne",
+              "kind": "ranged",
+              "condition": "This unit's ranged attacks that target a Monster/Vehicle unit can Re-roll one damage roll."
             }
           ]
         }
@@ -26632,6 +26657,20 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Annihilator",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "This unit's ranged attacks that target a Monster/Vehicle unit can re-roll damage rolls."
+            }
+          ]
         }
       ]
     },

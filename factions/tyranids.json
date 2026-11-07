@@ -853,6 +853,26 @@
             "roll": "hit",
             "mod": "rerollOne",
             "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for this model"
+          },
+          {
+            "roll": "wound",
+            "mod": "rerollOne",
+            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for this model"
+          },
+          {
+            "roll": "damageRoll",
+            "mod": "rerollOne",
+            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for this model"
+          },
+          {
+            "roll": "advance",
+            "mod": "rerollOne",
+            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for this model"
+          },
+          {
+            "roll": "charge",
+            "mod": "rerollOne",
+            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for this model"
           }
         ]
       },

@@ -8571,6 +8571,20 @@
           "fromCopy": 3,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Structural Collapse",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll1",
+              "weaponName": "d-cannon"
+            }
+          ],
+          "onlyModel": true
+        }
       ]
     },
     {
@@ -10991,6 +11005,12 @@
             },
             {
               "roll": "wound",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "In your Shooting phase, each time a model in this unit makes a ranged attack that targets a Monster or Vehicle unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+            },
+            {
+              "roll": "damageRoll",
               "mod": "reroll",
               "kind": "ranged",
               "condition": "In your Shooting phase, each time a model in this unit makes a ranged attack that targets a Monster or Vehicle unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
@@ -22314,6 +22334,19 @@
               "roll": "hit",
               "mod": -1,
               "condition": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Titan Hunter",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll1",
+              "kind": "ranged",
+              "condition": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, re-roll a Damage roll of 1."
             }
           ],
           "onlyModel": true

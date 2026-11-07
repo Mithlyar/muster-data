@@ -8864,6 +8864,12 @@
               "mod": "reroll",
               "kind": "ranged",
               "condition": "Each time a model in this unit makes a ranged attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
+            },
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "Each time a model in this unit makes a ranged attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
             }
           ]
         }

@@ -1329,6 +1329,14 @@
       "points": 15,
       "detachmentId": "deed-cbf8-1ac5-0294",
       "text": "**MAGUS/PRIMUS** model only. This unit’s attacks can re‑roll **damage rolls**.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "damageRoll",
+            "mod": "reroll"
+          }
+        ]
+      },
       "bearers": [
         [
           "Magus"
@@ -28874,6 +28882,11 @@
             },
             {
               "roll": "wound",
+              "mod": "rerollOne",
+              "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks."
+            },
+            {
+              "roll": "damageRoll",
               "mod": "rerollOne",
               "condition": "Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks."
             }

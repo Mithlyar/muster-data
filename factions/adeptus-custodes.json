@@ -4699,6 +4699,18 @@
               "condition": "This unit's ranged attacks that target a MONSTER/VEHICLE unit can Re-roll one wound roll."
             }
           ]
+        },
+        {
+          "rule": "Advanced Firepower",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "rerollOne",
+              "kind": "ranged",
+              "condition": "This unit's ranged attacks that target a MONSTER/VEHICLE unit can Re-roll one damage roll."
+            }
+          ]
         }
       ]
     },
@@ -14172,6 +14184,11 @@
               "roll": "hit",
               "mod": "rerollOne",
               "condition": "Once per phase, you can re-roll one Hit roll or one Wound roll for an attack made by this model."
+            },
+            {
+              "roll": "wound",
+              "mod": "rerollOne",
+              "condition": "Once per phase, you can re-roll one Hit roll or one Wound roll for an attack made by this model."
             }
           ],
           "onlyModel": true,
@@ -20082,6 +20099,19 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Titan Hunter",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re-roll the Damage roll."
+            }
+          ],
+          "onlyModel": true
+        },
         {
           "rule": "Invulnerable Save (5+*)",
           "stats": [

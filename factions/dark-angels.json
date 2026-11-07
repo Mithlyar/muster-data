@@ -24074,6 +24074,19 @@
             "Eradicator with Multi-melta"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Total Obliteration",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "kind": "ranged"
+            }
+          ]
+        }
       ]
     },
     {
@@ -27036,6 +27049,18 @@
               "mod": "rerollOne",
               "kind": "ranged",
               "condition": "This unit's ranged attacks that target a Monster/Vehicle unit can Re-roll one wound roll."
+            }
+          ]
+        },
+        {
+          "rule": "Aqullon Optics",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "rerollOne",
+              "kind": "ranged",
+              "condition": "This unit's ranged attacks that target a Monster/Vehicle unit can Re-roll one damage roll."
             }
           ]
         }
@@ -36580,6 +36605,19 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Titan Hunter",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re-roll the Damage roll."
+            }
+          ],
+          "onlyModel": true
+        },
         {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
@@ -49288,6 +49326,20 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Annihilator",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "This unit's ranged attacks that target a Monster/Vehicle unit can re-roll damage rolls."
+            }
+          ]
         }
       ]
     },
