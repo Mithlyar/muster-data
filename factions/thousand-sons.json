@@ -945,6 +945,15 @@
       "points": 20,
       "detachmentId": "6acc-9928-2b67-73c3",
       "text": "While the bearer is within 6\" of one or more friendly ^^**Scintillating Legion^^** units, each time the bearer Channels the Warp, add 1 to the Psychic test result.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "psychicTest",
+            "mod": 1,
+            "condition": "While this model is within 6\" of one or more friendly Scintillating Legion units, each time this model Channels the Warp, add 1 to the Psychic test result."
+          }
+        ]
+      },
       "keywords": [
         "Infantry"
       ]
@@ -1062,7 +1071,26 @@
       "text": "While a friendly ^^**Rubricae^^** unit is within 9\" of the bearer, you can re-roll Battle-shock tests taken for that unit.",
       "keywords": [
         "Thousand Sons"
-      ]
+      ],
+      "effects": {
+        "auras": [
+          {
+            "rule": "Arcane Thralls (Aura)",
+            "who": [
+              [
+                "Rubricae"
+              ]
+            ],
+            "stats": [],
+            "rolls": [
+              {
+                "roll": "battleShock",
+                "mod": "reroll"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "df1d-52b9-516f-9d59",
@@ -1501,7 +1529,21 @@
           "1703-3edd-5eb3-fcef",
           "8b9f-917f-37c1-99c3"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Arch-Sorcerer of Tzeentch (Psychic)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "psychicTest",
+              "mod": 1,
+              "condition": "Each time this model attempts a Ritual, add 1 to the Psychic test result."
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "e85b-17c7-1ad9-8375",
@@ -5334,6 +5376,17 @@
           "onlyModel": true
         },
         {
+          "rule": "Macro-extinction Protocols",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If that target is Titanic or Towering, add 1 to the Wound roll as well."
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-10 wounds remaining",
           "stats": [
             {
@@ -8177,7 +8230,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Servile Pawns",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Thousand Sons Infantry units, this model has the Lone Operative ability."
+        }
+      ]
     },
     {
       "id": "66f4-929e-1769-f277",
@@ -16421,6 +16488,18 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Lord of the Planet of the Sorcerers (Psychic)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "psychicTest",
+              "mod": 2,
+              "condition": "This model can attempt up to 2 Rituals per turn instead of one, and each time this model attempts a Ritual, add 2 to the Psychic test result."
+            }
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -16907,6 +16986,17 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Snarling Protector",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": "reroll",
+              "condition": "If you do If you do This unit can re-roll that charge roll."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
@@ -18814,6 +18904,18 @@
               "kind": "ranged"
             }
           ]
+        },
+        {
+          "rule": "Bringers of Change",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "If the attack targets a unit within range of an objective marker you do not control, you can re-roll the Wound roll instead."
+            }
+          ]
         }
       ]
     },
@@ -20109,6 +20211,28 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [],

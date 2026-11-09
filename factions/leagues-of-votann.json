@@ -882,7 +882,17 @@
       "name": "Quake Supervisor",
       "points": 20,
       "detachmentId": "faf5-7477-8cdc-679f",
-      "text": "While the bearer is within 3\" of one or more friendly ^^**Leagues of Votann Artillery^^** units, the bearer has the Lone Operative ability, and each time one of those ^^**Artillery^^** units makes a ranged attack that targets an enemy unit visible to the bearer, add 1 to the Hit roll."
+      "text": "While the bearer is within 3\" of one or more friendly ^^**Leagues of Votann Artillery^^** units, the bearer has the Lone Operative ability, and each time one of those ^^**Artillery^^** units makes a ranged attack that targets an enemy unit visible to the bearer, add 1 to the Hit roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "kind": "ranged",
+            "condition": "While this model is within 3\" of one or more friendly Leagues of Votann Artillery units, this model has the Lone Operative ability, and each time one of those Artillery units makes a ranged attack that targets an enemy unit visible to this model, add 1 to the Hit roll."
+          }
+        ]
+      }
     },
     {
       "id": "71cf-2707-fc5f-5f50",
@@ -1453,7 +1463,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Science Guild Support",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more other friendly Leagues of Votann Infantry units (excluding units with the Lone Operative ability), this model has the Lone Operative ability."
+        }
+      ]
     },
     {
       "id": "5134-5fe9-e489-43c4",
@@ -6672,6 +6696,20 @@
             "Hernkyn Pioneer w/ HYLas rotary cannon",
             "Hernkyn Pioneer w/ ion beamer"
           ]
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Pan-spectral scanner",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1",
+              "kind": "ranged"
+            }
+          ],
+          "contains": "Hernkyn Pioneer w/ pan-spectral scanner"
         }
       ]
     },

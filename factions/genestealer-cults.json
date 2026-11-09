@@ -1182,6 +1182,14 @@
       "points": 5,
       "detachmentId": "536a-b3ea-7597-81bb",
       "text": "**^^Magus, Primus or Acolyte Iconward^^** model only. You can re-roll Battle-shock tests taken for the bearer's unit.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "battleShock",
+            "mod": "reroll"
+          }
+        ]
+      },
       "bearers": [
         [
           "Magus"
@@ -2506,6 +2514,17 @@
             {
               "roll": "wound",
               "mod": "reroll1"
+            }
+          ]
+        },
+        {
+          "rule": "Industrialised Destruction",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the wound roll."
             }
           ]
         }
@@ -7186,7 +7205,21 @@
         "unitIds": [
           "a2aa-7688-dcb1-4132"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Cadia Stands!",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll",
+              "condition": "While this unit contains an OFFICER model and this unit is within range of an objective, this unit can re-roll battle-shock rolls."
+            }
+          ],
+          "condition": "While this unit contains an OFFICER model and this unit is within range of an objective, this unit can re-roll battle-shock rolls."
+        }
+      ]
     },
     {
       "id": "91a9-15e-b5f0-700f",
@@ -9609,7 +9642,35 @@
         "unitIds": [
           "fe5a-764e-37ed-7cef"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Gung-ho Command",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ],
+          "condition": "While this unit contains an Officer, ranged weapons equipped by models in this unit have the [ASSAULT] ability."
+        },
+        {
+          "rule": "Regimental Standard",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "contains": "Veteran Guardsman w/ Regimental standard"
+        }
+      ]
     },
     {
       "id": "dfcb-7854-1d6d-cd02",
@@ -20311,7 +20372,22 @@
           "ade0-fa44-d4cf-4fc8",
           "3e90-9359-2aaa-205e"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Regimental Standard",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "contains": "Veteran Guardsman w/ Regimental standard"
+        }
+      ]
     },
     {
       "id": "1669-d311-eff9-243b",
@@ -21002,6 +21078,28 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
           "stats": [],

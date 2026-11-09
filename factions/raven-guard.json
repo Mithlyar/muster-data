@@ -6586,6 +6586,21 @@
           "fromCopy": 3,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Bladeguard",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee",
+              "condition": "when chosen: This unit's melee attacks have +1 to hit rolls."
+            }
+          ],
+          "condition": "when chosen: This unit's melee attacks have +1 to hit rolls."
+        }
       ]
     },
     {
@@ -7238,7 +7253,46 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Invulnerable Save (5+*)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ],
+          "model": "Canis Rex",
+          "onlyModel": true,
+          "condition": "This model has a 5+ invulnerable save against ranged attacks."
+        },
+        {
+          "rule": "Damaged: 1-9 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -5,
+              "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "model": "Canis Rex",
+          "onlyModel": true,
+          "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "6c10-5b51-5bc0-8d2c",
@@ -9090,7 +9144,23 @@
           "c679-f252-32b1-ebcc",
           "9e9c-bf4d-2d40-be82"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Angel's Wrath",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "advance",
+              "mod": 1
+            },
+            {
+              "roll": "charge",
+              "mod": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "2a8a-522d-51e4-3abc",
@@ -10176,6 +10246,17 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Macro-extinction Protocols",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If that target is TITANIC or TOWERING, add 1 to the Wound roll as well."
+            }
+          ]
         },
         {
           "rule": "Damaged: 1-10 Wounds Remaining",
@@ -13706,6 +13787,19 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Catechism of Fire",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: This unit's ranged attacks that targets that enemy unit have [DEVASTATING WOUNDS]."
+        },
         {
           "rule": "Litany of Hate",
           "stats": [
@@ -17358,6 +17452,17 @@
             {
               "roll": "hit",
               "mod": "reroll1"
+            }
+          ]
+        },
+        {
+          "rule": "Death to the Alien",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If the target of that attack does not have the IMPERIUM or CHAOS keywords, you can re-roll the Hit roll instead."
             }
           ]
         }
@@ -23366,7 +23471,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Soulguilt scanner",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "contains": "Exaction Vigilant w/ soulguilt scanner"
+        }
+      ]
     },
     {
       "id": "625b-29e4-7be7-db5a",
@@ -24695,6 +24815,37 @@
           "weaponIds": [
             "ef0a-b1da-8926-b298"
           ]
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Fortis Doctrines",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "when chosen: This unit's attacks that target a unit Below starting strength, have +1 to hit rolls."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that target a unit Below starting strength, have +1 to hit rolls."
+        },
+        {
+          "rule": "Fortis Doctrines",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "when chosen: This unit's attacks that target a unit at or below half-strength have +1 to hit rolls and wound rolls."
+            },
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "when chosen: This unit's attacks that target a unit at or below half-strength have +1 to hit rolls and wound rolls."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that target a unit at or below half-strength have +1 to hit rolls and wound rolls."
         }
       ]
     },
@@ -26150,6 +26301,19 @@
             }
           ],
           "condition": "Each time this unit makes a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        },
+        {
+          "rule": "Ancient's Banner",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "contains": "Terminator w/ Ancient's Banner"
         }
       ]
     },
@@ -26575,6 +26739,19 @@
             "Heavy Intercessor w/Heavy Bolter"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Unyielding in the Face of the Foe",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "save",
+              "mod": 1,
+              "condition": "While this unit is controlling an objective, this unit has +1 to save rolls."
+            }
+          ]
+        }
       ]
     },
     {
@@ -26814,6 +26991,19 @@
         {
           "fromCopy": 3,
           "points": 15
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Rites of Thermal Appeasement",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hazardous",
+              "mod": 1,
+              "weaponName": "plasma incinerator"
+            }
+          ]
         }
       ]
     },
@@ -27398,6 +27588,17 @@
             {
               "roll": "wound",
               "mod": "reroll1"
+            }
+          ]
+        },
+        {
+          "rule": "Breaching Team",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
         }
@@ -33454,6 +33655,20 @@
           "fromCopy": 3,
           "points": 15
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Forward Assault Warsuit",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "At the start of the first battle round, you can select one enemy unit to be this unit's mark This unit's attacks that target this unit's mark can re-roll wound rolls of 1."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that target this unit's mark can re-roll wound rolls of 1."
+        }
       ]
     },
     {
@@ -34753,6 +34968,16 @@
             }
           ],
           "contains": "Chaplain Cassius"
+        },
+        {
+          "rule": "Unflinching",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
+            }
+          ]
         }
       ]
     },
@@ -37931,7 +38156,6 @@
             {
               "roll": "wound",
               "mod": "reroll",
-              "against": true,
               "condition": "Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
             }
           ],
@@ -51856,7 +52080,35 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Ministorum Sermon",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "melee",
+              "condition": "While this unit contains a Ministorum Priest, each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+            }
+          ],
+          "condition": "While this unit contains a Ministorum Priest, each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "rule": "Simulacrum Imperialis",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "contains": "Sanctifier w/ simulacrum imperialis"
+        }
+      ]
     },
     {
       "id": "699f-a59e-baa6-ba8b",
@@ -53324,6 +53576,28 @@
       ],
       "selfEffects": [
         {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [],
           "rolls": [
@@ -54294,7 +54568,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Simulacrum Imperialis",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "contains": "Battle Sister w/ Simulacrum Imperialis"
+        }
+      ]
     },
     {
       "id": "2544-5189-7806-30f3",
@@ -58232,7 +58521,21 @@
           "edce-f61c-8029-897f",
           "8da0-4570-c3c-819f"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Techmarine",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has Lone Operative."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of a friendly ADEPTUS ASTARTES VEHICLE unit, this model has Lone Operative."
+        }
+      ]
     },
     {
       "id": "ae9a-10e3-8091-20",
@@ -64477,6 +64780,18 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Purgatus Quarry",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "At the start of the first battle round, select up to one enemy unit to be this unit's hunted This unit's attacks that target this unit's hunted unit can re-roll wound rolls of 1."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that target this unit's hunted unit can re-roll wound rolls of 1."
         }
       ]
     },
@@ -64636,6 +64951,18 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Purgatus Quarry",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "At the start of the first battle round, select up to one enemy unit to be this unit's hunted This unit's attacks that target this unit's hunted unit can re-roll wound rolls of 1."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that target this unit's hunted unit can re-roll wound rolls of 1."
         }
       ]
     },

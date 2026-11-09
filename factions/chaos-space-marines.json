@@ -1621,7 +1621,16 @@
       "name": "Eager for Vengeance",
       "points": 20,
       "detachmentId": "a5ea-d708-db75-226c",
-      "text": "The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back. Each time a model in the bearer’s unit makes an attack that targets your focus of hatred, if the bearer’s unit Fell Back this turn, add 1 to the Hit roll, and each time you select your focus of hatred as a target of that unit’s charge, add 1 to the Charge roll."
+      "text": "The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back. Each time a model in the bearer’s unit makes an attack that targets your focus of hatred, if the bearer’s unit Fell Back this turn, add 1 to the Hit roll, and each time you select your focus of hatred as a target of that unit’s charge, add 1 to the Charge roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "hit",
+            "mod": 1,
+            "condition": "Each time a model in this unit makes an attack that targets your focus of hatred, if this unit Fell Back this turn, add 1 to the Hit roll"
+          }
+        ]
+      }
     },
     {
       "id": "b06a-cbc9-6820-6a93",
@@ -2370,6 +2379,15 @@
       "points": 15,
       "detachmentId": "c6ca-bde2-8304-c97c",
       "text": "- When this unit uses its **Dark Pacts** ability, this unit can re‑roll **Leadership rolls**.\n- In your Shooting phase, when this unit has shot, if this unit used its **Dark Pacts** ability and if those attacks **destroyed** an enemy model, this unit **heals** 3 wounds.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "battleShock",
+            "mod": "reroll",
+            "condition": "When this unit uses its Dark Pacts ability, this unit can re-roll Leadership rolls."
+          }
+        ]
+      },
       "keywords": [
         "Warpsmith"
       ]
@@ -2954,6 +2972,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Emissary of the Great Mutator (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
+            }
+          ]
         }
       ]
     },
@@ -3096,6 +3124,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Emissary of the Blood God (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
+            }
+          ]
         }
       ]
     },
@@ -6570,6 +6608,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "battleShock",
+                    "mod": "reroll",
+                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Chaos icon",
@@ -7387,6 +7432,17 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Macro-extinction Protocols",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If that target is Titanic or Towering, add 1 to the Wound roll as well."
+            }
+          ]
         },
         {
           "rule": "Damaged: 1-10 wounds remaining",
@@ -8246,6 +8302,28 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
@@ -15963,6 +16041,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "battleShock",
+                    "mod": "reroll",
+                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Chaos icon",
@@ -16783,6 +16868,14 @@
           "1267-78f1-7774-859",
           "478-9d24-e5c8-c6f7",
           "9238-473a-54ee-6b0e"
+        ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "battleShock",
+            "mod": "reroll"
+          }
         ]
       }
     },
@@ -18337,6 +18430,18 @@
           ],
           "onlyModel": true,
           "condition": "If it does, until the end of the phase, this model has a 3+ invulnerable save."
+        },
+        {
+          "rule": "Daemonic Lord",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Legiones Daemonica Infantry units, this model has the Lone Operative ability."
         },
         {
           "rule": "Prince of Darkness (Aura)",
@@ -21289,6 +21394,16 @@
           "f666-1f5d-0c20-06c1",
           "2078-97ce-8793-3382"
         ]
+      },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": 1,
+            "kind": "melee",
+            "condition": "While this unit is leading a unit and contains a DARK APOSTLE model, each time a model in that unit makes a melee attack, add 1 to the Wound roll."
+          }
+        ]
       }
     },
     {
@@ -21642,6 +21757,22 @@
           "1267-78f1-7774-859",
           "478-9d24-e5c8-c6f7",
           "9238-473a-54ee-6b0e"
+        ]
+      },
+      "leading": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "InvSv",
+                "op": "atMost",
+                "value": 5,
+                "fromText": true
+              }
+            ],
+            "condition": "While this unit is leading a unit and contains a CULT DEMAGOGUE model, models in that unit have a 5+ invulnerable save."
+          }
         ]
       },
       "selfEffects": [
@@ -30935,6 +31066,18 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Lord of Chaos",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has Lone Operative."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of a friendly Heretic Astartes Infantry unit, this model has Lone Operative."
         }
       ]
     },
@@ -32693,7 +32836,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Infernal Attendants",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Daemon Infantry units, this model has the Lone Operative ability."
+        }
+      ]
     },
     {
       "id": "2cc5-ef65-c4b9-28c6",
@@ -38457,6 +38614,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "battleShock",
+                    "mod": "reroll",
+                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Chaos icon",
@@ -39698,6 +39862,12 @@
             "mod": "reroll",
             "kind": "melee",
             "condition": "While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll."
+          },
+          {
+            "roll": "wound",
+            "mod": "reroll",
+            "kind": "melee",
+            "condition": "While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Half-strength, you can re-roll the Wound roll as well."
           }
         ]
       }
@@ -41174,6 +41344,18 @@
         {
           "fromCopy": 3,
           "points": 20
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Crushing Charge",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": "reroll"
+            }
+          ]
         }
       ]
     },
@@ -44872,6 +45054,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "battleShock",
+                    "mod": "reroll",
+                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Chaos icon",
@@ -49808,6 +49997,18 @@
               "kind": "ranged"
             }
           ]
+        },
+        {
+          "rule": "Bringers of Change",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead."
+            }
+          ]
         }
       ]
     },
@@ -49960,6 +50161,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Emissary of the Plague God (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
+            }
+          ]
         }
       ]
     },
@@ -51285,6 +51496,28 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [],
@@ -57073,7 +57306,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Skulking Nightmare",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Heretic Astartes Infantry units, this model has the Lone Operative ability."
+        }
+      ]
     },
     {
       "id": "da05-80d-6229-6e44",
@@ -59505,6 +59752,17 @@
           ]
         },
         {
+          "rule": "Tranceweaver",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If the target of that attack is within range of an objective marker, you can re-roll the Hit roll instead."
+            }
+          ]
+        },
+        {
           "rule": "Seductive Gambit",
           "stats": [],
           "rolls": [
@@ -60365,6 +60623,18 @@
       },
       "selfEffects": [
         {
+          "rule": "Indentured Daemon Engines",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Daemon Vehicle units, this model has the Lone Operative ability."
+        },
+        {
           "rule": "Damaged: 1-4 wounds remaining",
           "stats": [],
           "rolls": [
@@ -60561,6 +60831,29 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Soul Eater",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "A",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "At the end of the Fight phase, if one or more attacks made by this model that phase destroyed one or more enemy units, until the end of the battle, add 1 to the Attacks characteristic of this model's weapons."
         }
       ]
     },
@@ -63702,7 +63995,21 @@
           "f666-1f5d-0c20-06c1",
           "2078-97ce-8793-3382"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Warpsmith",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Heretic Astartes Vehicle units, this model has the Lone Operative ability."
+        }
+      ]
     },
     {
       "id": "268e-459c-c6e8-7754",
@@ -63903,6 +64210,16 @@
               "roll": "wound",
               "mod": "reroll1",
               "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+            }
+          ]
+        },
+        {
+          "rule": "Emissary of the Prince of Excess (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
             }
           ]
         }

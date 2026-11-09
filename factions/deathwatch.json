@@ -4347,6 +4347,21 @@
           "fromCopy": 3,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Bladeguard",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "kind": "melee",
+              "condition": "when chosen: This unit's melee attacks have +1 to hit rolls."
+            }
+          ],
+          "condition": "when chosen: This unit's melee attacks have +1 to hit rolls."
+        }
       ]
     },
     {
@@ -6448,7 +6463,23 @@
           "c679-f252-32b1-ebcc",
           "9e9c-bf4d-2d40-be82"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Angel's Wrath",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "advance",
+              "mod": 1
+            },
+            {
+              "roll": "charge",
+              "mod": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "2a8a-522d-51e4-3abc",
@@ -10266,6 +10297,19 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Catechism of Fire",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: This unit's ranged attacks that targets that enemy unit have [DEVASTATING WOUNDS]."
+        },
         {
           "rule": "Litany of Hate",
           "stats": [
@@ -15871,6 +15915,37 @@
             "ef0a-b1da-8926-b298"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Fortis Doctrines",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "when chosen: This unit's attacks that target a unit Below starting strength, have +1 to hit rolls."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that target a unit Below starting strength, have +1 to hit rolls."
+        },
+        {
+          "rule": "Fortis Doctrines",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "when chosen: This unit's attacks that target a unit at or below half-strength have +1 to hit rolls and wound rolls."
+            },
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "when chosen: This unit's attacks that target a unit at or below half-strength have +1 to hit rolls and wound rolls."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that target a unit at or below half-strength have +1 to hit rolls and wound rolls."
+        }
       ]
     },
     {
@@ -16791,6 +16866,19 @@
             "Heavy Intercessor w/Heavy Bolter"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Unyielding in the Face of the Foe",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "save",
+              "mod": 1,
+              "condition": "While this unit is controlling an objective, this unit has +1 to save rolls."
+            }
+          ]
+        }
       ]
     },
     {
@@ -17030,6 +17118,19 @@
         {
           "fromCopy": 3,
           "points": 15
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Rites of Thermal Appeasement",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hazardous",
+              "mod": 1,
+              "weaponName": "plasma incinerator"
+            }
+          ]
         }
       ]
     },
@@ -19681,6 +19782,20 @@
         {
           "fromCopy": 3,
           "points": 15
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Forward Assault Warsuit",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "At the start of the first battle round, you can select one enemy unit to be this unit's mark This unit's attacks that target this unit's mark can re-roll wound rolls of 1."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that target this unit's mark can re-roll wound rolls of 1."
         }
       ]
     },
@@ -29592,6 +29707,28 @@
       ],
       "selfEffects": [
         {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [],
           "rolls": [
@@ -32779,7 +32916,21 @@
           "a077-e1c9-f8f0-d38",
           "8da0-4570-c3c-819f"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Techmarine",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has Lone Operative."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of a friendly ADEPTUS ASTARTES VEHICLE unit, this model has Lone Operative."
+        }
+      ]
     },
     {
       "id": "3d36-e9d7-54c5-deb7",
@@ -36889,6 +37040,18 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Purgatus Quarry",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "At the start of the first battle round, select up to one enemy unit to be this unit's hunted This unit's attacks that target this unit's hunted unit can re-roll wound rolls of 1."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that target this unit's hunted unit can re-roll wound rolls of 1."
         }
       ]
     },

@@ -8212,6 +8212,18 @@
               "kind": "ranged"
             }
           ]
+        },
+        {
+          "rule": "Fireknife",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "If that attack targets a unit that is at its Starting Strength, you can re-roll the Hit roll instead."
+            }
+          ]
         }
       ]
     },

@@ -3688,7 +3688,21 @@
           "5aa4-107-d7ee-f0f3",
           "b9e9-397e-d83a-f77a"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Bonesinger",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "Unless it is leading a unit, this model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Unless it is leading a unit, this model has the Lone Operative ability."
+        }
+      ]
     },
     {
       "id": "cd29-5c1d-1a53-0537",
@@ -4113,7 +4127,30 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll"
+        }
+      ]
     },
     {
       "id": "790d-9fdf-b359-62ba",
@@ -6678,6 +6715,17 @@
               "mod": "reroll1"
             }
           ]
+        },
+        {
+          "rule": "Reavers of the Void",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
+            }
+          ]
         }
       ]
     },
@@ -8028,6 +8076,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Superlative Strategist",
@@ -8584,6 +8638,17 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Structural Collapse",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damageRoll",
+              "mod": "reroll",
+              "condition": "If that attack targets a Titanic unit, you can re-roll the Damage roll instead."
+            }
+          ]
         }
       ]
     },
@@ -12113,6 +12178,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Superlative Strategist",
@@ -16695,7 +16766,30 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll"
+        }
+      ]
     },
     {
       "id": "9c94-b663-fd31-6001",
@@ -18777,6 +18871,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "advance",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Superlative Strategist",
@@ -19477,7 +19577,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Spiritseer",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Wraith Construct units, this model has the Lone Operative ability."
+        }
+      ]
     },
     {
       "id": "a074-87f8-810d-492a",
@@ -25600,6 +25714,18 @@
               "kind": "ranged"
             }
           ]
+        },
+        {
+          "rule": "Swift Demise",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "If the target of that attack is the closest eligible target, you can re-roll the Hit roll instead."
+            }
+          ]
         }
       ]
     },
@@ -25742,7 +25868,34 @@
         "incursion": 3,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Psychic Guidance",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "set",
+              "value": "6+",
+              "fromText": true
+            }
+          ],
+          "condition": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "rule": "Psychic Guidance",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
+        }
+      ]
     },
     {
       "id": "5aa4-107-d7ee-f0f3",
@@ -25889,7 +26042,34 @@
         "incursion": 3,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Psychic Guidance",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "set",
+              "value": "6+",
+              "fromText": true
+            }
+          ],
+          "condition": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "rule": "Psychic Guidance",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": 1,
+              "condition": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
+            }
+          ],
+          "condition": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
+        }
+      ]
     },
     {
       "id": "bfd-df5a-b358-4cf9",
@@ -26887,6 +27067,34 @@
           ],
           "onlyModel": true,
           "condition": "when chosen: Each time this model makes an attack that targets a unit with the selected keyword, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        },
+        {
+          "rule": "Psychic Guidance",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "skill",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "set",
+              "value": "6+",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 12\" of one or more friendly Aeldari Psyker models, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by this model by 1 and it has a Leadership characteristic of 6+."
         }
       ]
     },

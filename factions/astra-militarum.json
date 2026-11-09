@@ -6988,6 +6988,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "battleShock",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Dauntless Veteran",
@@ -10030,7 +10036,21 @@
         "unitIds": [
           "a2aa-7688-dcb1-4132"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Cadia Stands!",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll",
+              "condition": "While this unit contains an OFFICER model and this unit is within range of an objective, this unit can re-roll battle-shock rolls."
+            }
+          ],
+          "condition": "While this unit contains an OFFICER model and this unit is within range of an objective, this unit can re-roll battle-shock rolls."
+        }
+      ]
     },
     {
       "id": "91a9-15e-b5f0-700f",
@@ -11598,7 +11618,46 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Invulnerable Save (5+*)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "InvSv",
+              "op": "atMost",
+              "value": 5,
+              "fromText": true
+            }
+          ],
+          "model": "Canis Rex",
+          "onlyModel": true,
+          "condition": "This model has a 5+ invulnerable save against ranged attacks."
+        },
+        {
+          "rule": "Damaged: 1-9 Wounds Remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -5,
+              "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "model": "Canis Rex",
+          "onlyModel": true,
+          "condition": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
     },
     {
       "id": "173e-ddd1-354c-583b",
@@ -12801,7 +12860,35 @@
         "unitIds": [
           "fe5a-764e-37ed-7cef"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Gung-ho Command",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Assault",
+              "fromText": true
+            }
+          ],
+          "condition": "While this unit contains an Officer, ranged weapons equipped by models in this unit have the [ASSAULT] ability."
+        },
+        {
+          "rule": "Regimental Standard",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "contains": "Veteran Guardsman w/ Regimental standard"
+        }
+      ]
     },
     {
       "id": "dfcb-7854-1d6d-cd02",
@@ -14072,6 +14159,17 @@
           "onlyModel": true
         },
         {
+          "rule": "Macro-extinction Protocols",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If that target is TITANIC or TOWERING, add 1 to the Wound roll as well."
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-10 Wounds Remaining",
           "stats": [
             {
@@ -14987,6 +15085,16 @@
           ],
           "onlyModel": true,
           "condition": "At the start of a phase, you can use this ability. if you do, this model has 2+ InSv."
+        },
+        {
+          "rule": "Hero of the Imperium (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
+            }
+          ]
         }
       ]
     },
@@ -20913,6 +21021,17 @@
               "mod": "reroll1"
             }
           ]
+        },
+        {
+          "rule": "Death to the Alien",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If the target of that attack does not have the IMPERIUM or CHAOS keywords, you can re-roll the Hit roll instead."
+            }
+          ]
         }
       ]
     },
@@ -24578,7 +24697,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Soulguilt scanner",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "contains": "Exaction Vigilant w/ soulguilt scanner"
+        }
+      ]
     },
     {
       "id": "64a9-4cb2-400e-efd1",
@@ -26433,6 +26567,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "battleShock",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Dauntless Veteran",
@@ -27840,6 +27980,19 @@
             }
           ],
           "condition": "Each time this unit makes a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        },
+        {
+          "rule": "Ancient's Banner",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "contains": "Terminator w/ Ancient's Banner"
         }
       ]
     },
@@ -28669,6 +28822,12 @@
               "op": "add",
               "value": -1,
               "fromText": true
+            }
+          ],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
             }
           ]
         },
@@ -30610,6 +30769,17 @@
             {
               "roll": "wound",
               "mod": "reroll1"
+            }
+          ]
+        },
+        {
+          "rule": "Breaching Team",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
         }
@@ -35524,6 +35694,16 @@
             }
           ],
           "contains": "Chaplain Cassius"
+        },
+        {
+          "rule": "Unflinching",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
+            }
+          ]
         }
       ]
     },
@@ -38702,7 +38882,6 @@
             {
               "roll": "wound",
               "mod": "reroll",
-              "against": true,
               "condition": "Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
             }
           ],
@@ -40715,7 +40894,22 @@
           "ade0-fa44-d4cf-4fc8",
           "3e90-9359-2aaa-205e"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Regimental Standard",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "contains": "Veteran Guardsman w/ Regimental standard"
+        }
+      ]
     },
     {
       "id": "1669-d311-eff9-243b",
@@ -41400,6 +41594,28 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-4 Wounds Remaining",
           "stats": [],
@@ -50649,6 +50865,19 @@
             }
           ],
           "contains": "Tempestor Prime"
+        },
+        {
+          "rule": "Regimental Standard",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "contains": "Tempestus Scion w/ Regimental Standard"
         }
       ]
     },
@@ -55788,7 +56017,28 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "The Ratling Twins",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "While this unit contains 2 models, each time a model in this unit makes a ranged attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            },
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "kind": "ranged",
+              "condition": "While this unit contains 2 models, each time a model in this unit makes a ranged attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            }
+          ],
+          "condition": "While this unit contains 2 models, each time a model in this unit makes a ranged attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        }
+      ]
     },
     {
       "id": "2127-efcc-1f62-7fab",
@@ -58186,7 +58436,35 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Ministorum Sermon",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "melee",
+              "condition": "While this unit contains a Ministorum Priest, each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+            }
+          ],
+          "condition": "While this unit contains a Ministorum Priest, each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "rule": "Simulacrum Imperialis",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "contains": "Sanctifier w/ simulacrum imperialis"
+        }
+      ]
     },
     {
       "id": "4424-a6ec-6d9e-a936",
@@ -59534,6 +59812,12 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "battleShock",
+                    "mod": "reroll"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Dauntless Veteran",
@@ -61396,7 +61680,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Simulacrum Imperialis",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "contains": "Battle Sister w/ Simulacrum Imperialis"
+        }
+      ]
     },
     {
       "id": "4d50-e535-616a-259c",
@@ -64975,7 +65274,21 @@
           "abe4-ca71-d5a7-3883",
           "3e90-9359-2aaa-205e"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Enginseer",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Astra Militarum Vehicle units, this model has the Lone Operative ability."
+        }
+      ]
     },
     {
       "id": "aa9f-f137-1638-0369",
@@ -66231,6 +66544,17 @@
             {
               "roll": "wound",
               "mod": "reroll1"
+            }
+          ]
+        },
+        {
+          "rule": "Storm Troopers",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
         }
@@ -69626,6 +69950,18 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Purgatus Quarry",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll1",
+              "condition": "At the start of the first battle round, select up to one enemy unit to be this unit's hunted This unit's attacks that target this unit's hunted unit can re-roll wound rolls of 1."
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that target this unit's hunted unit can re-roll wound rolls of 1."
         }
       ]
     },

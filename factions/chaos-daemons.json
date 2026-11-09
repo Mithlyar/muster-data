@@ -859,6 +859,20 @@
       "points": 15,
       "detachmentId": "24f0-3c89-41be-0675",
       "text": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the start of each phase, if there are no other friendly units within 6\" of the bearer, you can: re‑roll Advance rolls made for the bearer; re‑roll Charge rolls made for the bearer; ignore any or all modifiers to its Move characteristic and to any Advance and/or Charge rolls made for the bearer.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "advance",
+            "mod": "reroll",
+            "condition": "At the start of each phase, if there are no other friendly units within 6\" of this model, you can: re-roll Advance rolls made for this model; re-roll Charge rolls made for this model; ignore any or all modifiers to its Move characteristic and to any Advance and/or Charge rolls made for this model."
+          },
+          {
+            "roll": "charge",
+            "mod": "reroll",
+            "condition": "At the start of each phase, if there are no other friendly units within 6\" of this model, you can: re-roll Advance rolls made for this model; re-roll Charge rolls made for this model; ignore any or all modifiers to its Move characteristic and to any Advance and/or Charge rolls made for this model."
+          }
+        ]
+      },
       "keywords": [
         "Monster",
         "Slaanesh",
@@ -1766,6 +1780,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Emissary of the Great Mutator (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
+            }
+          ]
         }
       ]
     },
@@ -1917,6 +1941,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Emissary of the Blood God (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
+            }
+          ]
         }
       ]
     },
@@ -4714,6 +4748,17 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Macro-extinction Protocols",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If that target is Titanic or Towering, add 1 to the Wound roll as well."
+            }
+          ]
         },
         {
           "rule": "Damaged: 1-10 wounds remaining",
@@ -8138,6 +8183,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "battleShock",
+                    "mod": "reroll",
+                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Chaos icon",
@@ -8995,6 +9047,14 @@
           "1267-78f1-7774-859"
         ]
       },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "battleShock",
+            "mod": "reroll"
+          }
+        ]
+      },
       "selfEffects": [
         {
           "rule": "Disciples of Be'lakor",
@@ -9758,6 +9818,18 @@
           ],
           "onlyModel": true,
           "condition": "If it does, until the end of the phase, this model has a 3+ invulnerable save."
+        },
+        {
+          "rule": "Daemonic Lord",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Legiones Daemonica Infantry units, this model has the Lone Operative ability."
         },
         {
           "rule": "Prince of Darkness (Aura)",
@@ -12765,6 +12837,16 @@
           "615-e6bf-cfd2-9384"
         ]
       },
+      "leading": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": 1,
+            "kind": "melee",
+            "condition": "While this unit is leading a unit and contains a DARK APOSTLE model, each time a model in that unit makes a melee attack, add 1 to the Wound roll."
+          }
+        ]
+      },
       "selfEffects": [
         {
           "rule": "Disciples of Be'lakor",
@@ -13133,6 +13215,22 @@
         "unitIds": [
           "23aa-b45a-6d5d-e92b",
           "1267-78f1-7774-859"
+        ]
+      },
+      "leading": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "InvSv",
+                "op": "atMost",
+                "value": 5,
+                "fromText": true
+              }
+            ],
+            "condition": "While this unit is leading a unit and contains a CULT DEMAGOGUE model, models in that unit have a 5+ invulnerable save."
+          }
         ]
       },
       "selfEffects": [
@@ -18262,7 +18360,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Infernal Attendants",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Daemon Infantry units, this model has the Lone Operative ability."
+        }
+      ]
     },
     {
       "id": "2cc5-ef65-c4b9-28c6",
@@ -22070,6 +22182,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "battleShock",
+                    "mod": "reroll",
+                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Chaos icon",
@@ -24492,6 +24611,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "battleShock",
+                    "mod": "reroll",
+                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Chaos icon",
@@ -26574,6 +26700,16 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Emissary of the Plague God (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
+            }
+          ]
         }
       ]
     },
@@ -31510,6 +31646,17 @@
           ]
         },
         {
+          "rule": "Tranceweaver",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If the target of that attack is within range of an objective marker, you can re-roll the Hit roll instead."
+            }
+          ]
+        },
+        {
           "rule": "Seductive Gambit",
           "stats": [],
           "rolls": [
@@ -34896,6 +35043,16 @@
               "roll": "wound",
               "mod": "reroll1",
               "condition": "If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+            }
+          ]
+        },
+        {
+          "rule": "Emissary of the Prince of Excess (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "battleShock",
+              "mod": "reroll"
             }
           ]
         }

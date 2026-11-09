@@ -9067,7 +9067,21 @@
           "f81-b23c-e183-39d7",
           "58e9-5212-f5a6-c12d"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Vanguard Protocols",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Scouts 8\"",
+              "text": "This model has the Scouts 8\" ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If this model is attached to a Canoptek Macrocytes unit during the Declare Battle Formations step, this model has the Scouts 8\" ability."
+        }
+      ]
     },
     {
       "id": "9928-da6-4e86-ec9f",
@@ -10548,6 +10562,20 @@
           "id": "9bf4-280f-bbe2-6fbb",
           "name": "Feel No Pain 4+"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Illuminor",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more other friendly NECRONS units, this model has the Lone Operative ability."
+        }
       ]
     },
     {
@@ -10759,6 +10787,17 @@
             {
               "roll": "wound",
               "mod": "reroll1"
+            }
+          ]
+        },
+        {
+          "rule": "Implacable Eradication",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
         }
@@ -13169,6 +13208,20 @@
           "id": "faec-8b1b-5a21-0087",
           "name": "Feel No Pain 5+*",
           "against": "mortal wounds and Psychic Attacks"
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Protective Disciples",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more other friendly Destroyer Cult units, this model has the Lone Operative ability."
         }
       ]
     },
@@ -17623,6 +17676,22 @@
         {
           "fromCopy": 2,
           "points": 40
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Damaged: 1-8 wounds remaining",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic"
         }
       ]
     },

@@ -2958,6 +2958,29 @@
           "fromCopy": 3,
           "points": 15
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Boss of da Hunt",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This unit has Lone Operative."
+            }
+          ],
+          "condition": "While this unit is within 3\" of a friendly BEAST SNAGGA unit (excluding MONSTER CHARACTER units), this unit has Lone Operative."
+        },
+        {
+          "rule": "Thundering Stampede (Aura)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -3859,6 +3882,18 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Support Shokka",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has Lone Operative."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of a friendly ORKS INFANTRY unit (excluding BIG MEK WITH SHOKK ATTACK GUN units), this model has Lone Operative."
+        },
         {
           "rule": "More Dakka",
           "stats": [
@@ -8951,6 +8986,17 @@
       },
       "mustBeWarlord": true,
       "selfEffects": [
+        {
+          "rule": "Da Grand Warlord's Ladz",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This unit has Lone Operative."
+            }
+          ],
+          "condition": "While this unit is within 3\" of another friendly ORKS INFANTRY unit, this unit has Lone Operative."
+        },
         {
           "rule": "Prophet of Da Great Waaagh! (Aura)",
           "stats": [],
@@ -16122,7 +16168,32 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Beast Snagga Following",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This unit has Lone Operative."
+            }
+          ],
+          "condition": "While this unit is within 3\" of a friendly BEAST SNAGGA unit (excluding MONSTER CHARACTER units), this unit has Lone Operative."
+        },
+        {
+          "rule": "Da Bigger Dey Iz…",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "kind": "melee",
+              "condition": "This unit's melee attacks that target a MONSTER/VEHICLE unit can re-roll wounds rolls."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "80c4-14b2-d02d-d289",
@@ -16870,6 +16941,20 @@
         ]
       },
       "selfEffects": [
+        {
+          "rule": "Runnin' wiv da Herd",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "M",
+              "op": "add",
+              "value": 4,
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is attached to a MOUNTED unit, this model Has +4\" M."
+        },
         {
           "rule": "Hardy Bioniks",
           "stats": [],
@@ -19181,6 +19266,48 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Pulsa Rokkit (Once per battle, per unit)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "AP",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that targets that enemy unit have +1 AP."
+        },
+        {
+          "rule": "Pulsa Rokkit (Once per battle, per unit)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: This unit's attacks that targets that enemy unit have [LETHAL HITS]."
         }
       ]
     },
@@ -24512,7 +24639,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Speednob Support",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This unit has Lone Operative."
+            }
+          ],
+          "condition": "While each model in this unit is within 3\" of a friendly SPEED FREEKS unit (excluding WARTRAKK units), this unit has Lone Operative."
+        }
+      ]
     },
     {
       "id": "3832-ad97-2b3b-8775",

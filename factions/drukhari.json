@@ -2286,6 +2286,11 @@
                     "roll": "hit",
                     "mod": "reroll",
                     "condition": "Each time this model makes an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll",
+                    "condition": "If that target is Below Half-strength, you can re-roll the Wound roll as well."
                   }
                 ],
                 "abilities": [
@@ -5342,6 +5347,17 @@
               "mod": "reroll1"
             }
           ]
+        },
+        {
+          "rule": "Reavers of the Void",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
+            }
+          ]
         }
       ]
     },
@@ -6902,6 +6918,17 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Silent Executioner",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "If that target is Below Half-Strength, you can re-roll the Wound roll as well."
+            }
+          ]
         }
       ]
     },
@@ -7485,6 +7512,11 @@
                     "roll": "hit",
                     "mod": "reroll",
                     "condition": "Each time this model makes an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll."
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll",
+                    "condition": "If that target is Below Half-strength, you can re-roll the Wound roll as well."
                   }
                 ],
                 "abilities": [
@@ -10041,6 +10073,17 @@
             }
           ],
           "condition": "when chosen: While Empowered, each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+        },
+        {
+          "rule": "Sadistic Raiders (Pain)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "If the target is within range of an objective marker, you can re-roll the Wound roll instead."
+            }
+          ]
         }
       ]
     },

@@ -795,6 +795,14 @@
       "points": 20,
       "detachmentId": "8635-b1cc-e7bb-e8a1",
       "text": "You can re-roll Battle-shock and Leadership tests taken for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 1 to the Objective Control characteristics of models in that unit.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "battleShock",
+            "mod": "reroll"
+          }
+        ]
+      },
       "keywords": [
         "Emperor's Children"
       ]
@@ -4152,6 +4160,17 @@
           "onlyModel": true
         },
         {
+          "rule": "Macro-extinction Protocols",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If that target is Titanic or Towering, add 1 to the Wound roll as well."
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-10 wounds remaining",
           "stats": [
             {
@@ -6185,6 +6204,20 @@
             "bab4-f1b2-607d-7508"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Lethal Obsession",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": "reroll",
+              "condition": "when chosen: Until the end of the turn, when this unit declares a charge This unit can re-roll that charge roll."
+            }
+          ],
+          "condition": "when chosen: Until the end of the turn, when this unit declares a charge This unit can re-roll that charge roll."
+        }
       ]
     },
     {
@@ -6323,6 +6356,18 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Lord of Excess",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Slaanesh Infantry, this model has the Lone Operative ability."
+        },
         {
           "rule": "Excessive Vigour (Aura)",
           "stats": [
@@ -8075,7 +8120,21 @@
           "5817-0d6c-973c-68f8",
           "4494-dd7d-69f7-306c"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Warped Invigoration (Psychic)",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": 1,
+              "condition": "In your Shooting phase, after this model has shot, if an enemy unit was hit by one or more of those attacks, until the end of the turn, add 1 to Charge rolls made for this unit."
+            }
+          ],
+          "condition": "In your Shooting phase, after this model has shot, if an enemy unit was hit by one or more of those attacks, until the end of the turn, add 1 to Charge rolls made for this unit."
+        }
+      ]
     },
     {
       "id": "c2ca-f754-cc05-0743",
@@ -13228,6 +13287,22 @@
           ],
           "onlyModel": true,
           "condition": "If it does so, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
+        },
+        {
+          "rule": "Lord of the Host",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Infiltrators",
+              "text": "This model has the Infiltrators and Scouts 6\" ability."
+            },
+            {
+              "name": "Scouts 6\"",
+              "text": "This model has the Infiltrators and Scouts 6\" ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If this model is attached to an Emperor's Children Battleline unit during the Declare Battle Formations step, this model has the Infiltrators and Scouts 6\" ability."
         }
       ]
     },

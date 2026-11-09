@@ -4535,6 +4535,17 @@
               "mod": "reroll1"
             }
           ]
+        },
+        {
+          "rule": "Vanguard Predator",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "If the target is within range of one or more objective markers, re-roll a Wound roll 1 as well."
+            }
+          ]
         }
       ]
     },
@@ -9096,6 +9107,11 @@
           {
             "roll": "hit",
             "mod": 1
+          },
+          {
+            "roll": "wound",
+            "mod": 1,
+            "condition": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If the target is Battle-shocked, add 1 to the Wound roll as well."
           }
         ]
       },
@@ -10635,6 +10651,32 @@
         {
           "rule": "Singular Purpose",
           "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "Until the end of the battle, each time this model makes an attack that targets that unit you can re-roll the Hit roll and you can re-roll the Wound roll"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: Each time this model makes an attack that targets that enemy unit you can re-roll the Hit roll"
+        },
+        {
+          "rule": "Singular Purpose",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "Until the end of the battle, each time this model makes an attack that targets that unit you can re-roll the Hit roll and you can re-roll the Wound roll"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: Each time this model makes an attack that targets that enemy unit, you can re-roll the Wound roll"
+        },
+        {
+          "rule": "Singular Purpose",
+          "stats": [],
           "abilities": [
             {
               "name": "Feel No Pain 5+",
@@ -10839,6 +10881,32 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Singular Purpose",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "Until the end of the battle, each time this model makes an attack that targets that unit you can re-roll the Hit roll and you can re-roll the Wound roll"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: Each time this model makes an attack that targets that enemy unit you can re-roll the Hit roll"
+        },
+        {
+          "rule": "Singular Purpose",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": "reroll",
+              "condition": "Until the end of the battle, each time this model makes an attack that targets that unit you can re-roll the Hit roll and you can re-roll the Wound roll"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: Each time this model makes an attack that targets that enemy unit, you can re-roll the Wound roll"
+        },
         {
           "rule": "Singular Purpose",
           "stats": [],
@@ -13213,6 +13281,18 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Feeding Frenzy",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "kind": "melee",
+              "condition": "If that target is also Below Half strength, add 1 to the Wound roll as well."
+            }
+          ]
         },
         {
           "rule": "Bio-stimulus",
@@ -16239,6 +16319,34 @@
           ]
         }
       ],
+      "selfEffects": [
+        {
+          "rule": "Adaptive Instincts (Once per turn, per unit)",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "S",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: This unit's melee attacks have +1 S."
+        },
+        {
+          "rule": "Adaptive Instincts (Once per turn, per unit)",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "T",
+              "op": "add",
+              "value": 1,
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: You can select one of the following <ins>Or</ins>: This unit has +1 T."
+        }
+      ],
       "states": [
         {
           "name": "Synapse Range",
@@ -17427,7 +17535,19 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Foul Spores (Aura)",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Stealth",
+              "text": "This unit have Stealth."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "4501-646d-e705-9dca",

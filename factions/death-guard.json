@@ -770,6 +770,16 @@
       "points": 30,
       "detachmentId": "18b0-2d87-798f-ef1c",
       "text": "While the bearer is within 3\" of one or more friendly ^^**Death Guard Vehicle**^^ units, the bearer has the Lone Operative ability, and each time one of those ^^**Vehicle**^^ units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": "reroll1",
+            "kind": "ranged",
+            "condition": "While this model is within 3\" of one or more friendly Death Guard Vehicle units, this model has the Lone Operative ability, and each time one of those Vehicle units makes a ranged attack that targets an enemy unit visible to this model, re-roll a Wound roll of 1."
+          }
+        ]
+      },
       "keywords": [
         "Lord of Virulence"
       ]
@@ -4168,6 +4178,17 @@
           "onlyModel": true
         },
         {
+          "rule": "Macro-extinction Protocols",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If that target is Titanic or Towering, add 1 to the Wound roll as well."
+            }
+          ]
+        },
+        {
           "rule": "Damaged: 1-10 wounds remaining",
           "stats": [
             {
@@ -6716,6 +6737,18 @@
         "onslaught": 3
       },
       "selfEffects": [
+        {
+          "rule": "Death Guard Defenders",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Death Guard Infantry units, this model has the Lone Operative ability."
+        },
         {
           "rule": "Miasma of Pestilence (Aura)",
           "stats": [],
@@ -15369,7 +15402,21 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Infernal Attendants",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Lone Operative",
+              "text": "This model has the Lone Operative ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "While this model is within 3\" of one or more friendly Daemon Infantry units, this model has the Lone Operative ability."
+        }
+      ]
     },
     {
       "id": "f6f8-8759-3282-2ab",
@@ -25450,6 +25497,28 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll1"
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Armoured Spearhead",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": "reroll",
+              "condition": "If that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+            }
+          ]
+        },
         {
           "rule": "Damaged: 1-5 wounds remaining",
           "stats": [],
