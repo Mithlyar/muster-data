@@ -1,5 +1,72 @@
 [
   {
+    "dataVersion": "e5a5ae6-adf7d6d5",
+    "previousDataVersion": "e5a5ae6-232f5950",
+    "date": "2026-11-13T05:43:30.635Z",
+    "entries": [
+      {
+        "factionId": "black-templars",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "blood-angels",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "dark-angels",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "deathwatch",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "imperial-fists",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "iron-hands",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "raven-guard",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "salamanders",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "space-marines",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "space-wolves",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "ultramarines",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      },
+      {
+        "factionId": "white-scars",
+        "kind": "changed",
+        "text": "Detachment Ironclad Champions: stratagems changed"
+      }
+    ]
+  },
+  {
     "dataVersion": "e5a5ae6-232f5950",
     "previousDataVersion": "e5a5ae6-d91d3501",
     "date": "2026-11-09T17:18:59.817Z",
@@ -14161,43 +14228,6 @@
         "factionId": "world-eaters",
         "kind": "changed",
         "text": "Jakhals: datasheet changed"
-      }
-    ]
-  },
-  {
-    "dataVersion": "4d2f57e-7159c2c9",
-    "previousDataVersion": "4d2f57e-1244010f",
-    "date": "2026-10-29T22:09:44.154Z",
-    "entries": [
-      {
-        "factionId": "adeptus-mechanicus",
-        "kind": "points",
-        "text": "Ironstrider Ballistarii: 1–3: 80 → 1: 80, 2: 160, 3: 250"
-      },
-      {
-        "factionId": "chaos-daemons",
-        "kind": "points",
-        "text": "Beasts of Nurgle: 1–2: 80 → 1: 80, 2: 150"
-      },
-      {
-        "factionId": "chaos-knights",
-        "kind": "points",
-        "text": "Beasts of Nurgle: 1–2: 80 → 1: 80, 2: 150"
-      },
-      {
-        "factionId": "chaos-space-marines",
-        "kind": "points",
-        "text": "Beasts of Nurgle: 1–2: 80 → 1: 80, 2: 150"
-      },
-      {
-        "factionId": "craftworlds",
-        "kind": "points",
-        "text": "Windriders: 3–6: 80 → 3: 80, 4–6: 170"
-      },
-      {
-        "factionId": "necrons",
-        "kind": "points",
-        "text": "Lokhust Heavy Destroyers: 1–3: 50 → 1: 50, 2: 100, 3: 165"
       }
     ]
   }

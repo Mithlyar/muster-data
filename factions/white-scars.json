@@ -785,7 +785,7 @@
           "phase": "Fight phase"
         },
         {
-          "name": "Upstoppable Advance",
+          "name": "Unstoppable Advance",
           "cp": 1,
           "turn": "Your turn",
           "phase": "Movement or Charge phase"
