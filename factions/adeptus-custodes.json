@@ -830,6 +830,32 @@
       "detachmentId": "63e2-12d3-9e87-8d43",
       "text": "- This model has +1 W.\n- (Once per battle, per army) When attacks are allocated to this model, you can use this ability. If you do, this model has 3+ InSv.",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "W",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              }
+            ],
+            "condition": "This model has +1 W."
+          },
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "InvSv",
+                "op": "atMost",
+                "value": 3,
+                "fromText": true
+              }
+            ],
+            "condition": "If you do, this model has 3+ InSv."
+          }
+        ],
         "stats": [
           {
             "on": "unit",
@@ -912,8 +938,7 @@
           {
             "roll": "hit",
             "mod": -1,
-            "against": true,
-            "condition": "Attacks that target this unit have -1 to hit rolls."
+            "against": true
           }
         ]
       },
@@ -989,7 +1014,15 @@
       "name": "Genalchemic Warding",
       "points": 30,
       "detachmentId": "b1d2-7b13-3831-7915",
-      "text": "This model has Feel No Pain 5+."
+      "text": "This model has Feel No Pain 5+.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "This model has Feel No Pain 5+."
+          }
+        ]
+      }
     },
     {
       "id": "58f9-79ac-2fb3-3359",
@@ -1144,7 +1177,15 @@
       "name": "Augury Uplink",
       "points": 30,
       "detachmentId": "1bb5-5aba-6c8f-7afc",
-      "text": "This model has **Feel No Pain 5+**."
+      "text": "This model has **Feel No Pain 5+**.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "This model has Feel No Pain 5+."
+          }
+        ]
+      }
     },
     {
       "id": "763f-e926-2415-c2d4",
@@ -2915,6 +2956,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm shield",
@@ -7033,6 +7083,19 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Auspex Array",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -7353,6 +7416,48 @@
           "fromCopy": 4,
           "points": 30
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Impenetrable Defence",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1: non-Monster/Vehicle",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1: non-Monster/Vehicle",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's attacks have [SUSTAINED HITS 1: non-MONSTER/VEHICLE] if any of the following apply This unit is within range of an objective."
+        },
+        {
+          "rule": "Impenetrable Defence",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1: non-Monster/Vehicle",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1: non-Monster/Vehicle",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's attacks have [SUSTAINED HITS 1: non-MONSTER/VEHICLE] if any of the following apply The target of those attacks is within range of an objective."
+        }
       ]
     },
     {
@@ -7604,6 +7709,13 @@
               "op": "append",
               "value": "Lethal Hits",
               "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
             }
           ],
           "condition": "This unit's ranged attacks have [LETHAL HITS] and [IGNORES COVER]."
@@ -7818,6 +7930,19 @@
         {
           "fromCopy": 2,
           "points": 30
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Living Fortress",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "ap",
+              "mod": -1,
+              "against": true
+            }
+          ]
         }
       ]
     },
@@ -12733,6 +12858,40 @@
       },
       "selfEffects": [
         {
+          "rule": "Imperial Law",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a model in this unit makes an attack that targets that enemy unit, that attack has the [Lethal Hits] and [Precision] abilities."
+        },
+        {
           "rule": "Soulguilt scanner",
           "stats": [
             {
@@ -15115,6 +15274,19 @@
               "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
+        },
+        {
+          "rule": "CAT Unit",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by this unit gain the [Ignores Cover] ability."
         }
       ]
     },
@@ -21335,6 +21507,20 @@
           "condition": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model."
         },
         {
+          "rule": "Saturation Fire",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the [IGNORES COVER] ability."
+        },
+        {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
             {
@@ -23832,6 +24018,20 @@
       ],
       "selfEffects": [
         {
+          "rule": "Thin Their Ranks",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability."
+        },
+        {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
             {
@@ -24108,6 +24308,10 @@
           "rolls": [
             {
               "roll": "advance",
+              "mod": "reroll"
+            },
+            {
+              "roll": "charge",
               "mod": "reroll"
             }
           ]
@@ -29164,6 +29368,46 @@
       ],
       "selfEffects": [
         {
+          "rule": "Stand Vigil",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Monster/Vehicle",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Monster/Vehicle",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's attacks have [LETHAL HITS: non-MONSTER/VEHICLE] if any of the following apply This unit is within range of an objective."
+        },
+        {
+          "rule": "Stand Vigil",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Monster/Vehicle",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Monster/Vehicle",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's attacks have [LETHAL HITS: non-MONSTER/VEHICLE] if any of the following apply The target of those attacks is within range of an objective."
+        },
+        {
           "rule": "Praesidium Shield",
           "stats": [],
           "rolls": [
@@ -29373,6 +29617,13 @@
               ],
               "points": 25,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "damage",
+                    "mod": -1,
+                    "against": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Praesidium Shield",
@@ -29389,6 +29640,13 @@
               ],
               "points": 25,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "damage",
+                    "mod": -1,
+                    "against": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Praesidium Shield",
@@ -31910,6 +32168,20 @@
           "fromCopy": 2,
           "points": 30
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Guardian Eternal",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true,
+              "kind": "ranged"
+            }
+          ]
+        }
       ]
     },
     {
@@ -32369,7 +32641,20 @@
           "9610-b148-8433-93b8",
           "6f9f-e6aa-ba13-aab1"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Golden Laurels",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "ap",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "201e-e502-a8d1-3974",
@@ -34079,8 +34364,7 @@
               "roll": "hit",
               "mod": -1,
               "against": true,
-              "kind": "melee",
-              "condition": "Melee attacks that target this unit have -1 to hit rolls."
+              "kind": "melee"
             }
           ]
         }
@@ -34530,7 +34814,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Masters of Close Confines",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability."
+        }
+      ]
     },
     {
       "id": "f158-1e0b-585b-bf40",
@@ -35000,7 +35299,19 @@
     {
       "id": "a398-0a1d-ef92-162b",
       "name": "Aegis of the Emperor",
-      "text": "Friendly ^^**Adeptus Custodes**^^ units with this ability have Feel No Pain 5+ against **mortal wounds**."
+      "text": "Friendly ^^**Adeptus Custodes**^^ units with this ability have Feel No Pain 5+ against **mortal wounds**.",
+      "effects": [
+        {
+          "rule": "Aegis of the Emperor",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 5+ (against mortal wounds)",
+              "text": "this unit have Feel No Pain 5+ against mortal wounds."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "4111-82e3-9444-e942",
@@ -35070,7 +35381,19 @@
     {
       "id": "20d7-959d-9ddd-0c14",
       "name": "Daughters of the Abyss",
-      "text": "- Friendly ^^**Anathema Psykana**^^ units with this ability have **Feel No Pain 3+** against **psychic attacks**.\n- Friendly ^^**Anathema Psykana**^^ units with this ability have the following ability:\nPsychic Null (Aura): Friendly ^^**Adeptus Custodes**^^ units within 6\" of this unit have Feel No Pain 5+ against **psychic attacks**."
+      "text": "- Friendly ^^**Anathema Psykana**^^ units with this ability have **Feel No Pain 3+** against **psychic attacks**.\n- Friendly ^^**Anathema Psykana**^^ units with this ability have the following ability:\nPsychic Null (Aura): Friendly ^^**Adeptus Custodes**^^ units within 6\" of this unit have Feel No Pain 5+ against **psychic attacks**.",
+      "effects": [
+        {
+          "rule": "Daughters of the Abyss",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 3+ (against psychic attacks)",
+              "text": "this unit have Feel No Pain 3+ against psychic attacks."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "b68a-5ded-65ac-98c",

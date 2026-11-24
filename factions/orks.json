@@ -221,10 +221,13 @@
               "Infantry"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Mob-handed Brutality",
-              "text": "If a friendly ORKS INFANTRY unit made a charge move this turn, that unit's melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE]."
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Monster/Vehicle",
+              "fromText": true
             }
           ],
           "condition": "If a friendly ORKS INFANTRY unit made a charge move this turn, that unit's melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE]."
@@ -843,6 +846,22 @@
       "points": 15,
       "detachmentId": "496c-ddb9-3e71-e0b3",
       "text": "**ORKS** model only. If this unit made a **charge move** this turn, this model's melee attacks have +1 **AP**.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "AP",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              }
+            ],
+            "condition": "If this unit made a charge move this turn, this model's melee attacks have +1 AP."
+          }
+        ]
+      },
       "bearers": [
         [
           "Orks"
@@ -1024,6 +1043,15 @@
       "points": 20,
       "detachmentId": "fdd5-9868-a9ee-e9f1",
       "text": "**BIG MEK/WARBOSS INFANTRY** model only. While this unit is part of an attached unit, this model has:\n- **Infiltrators**.\n- **Stealth**.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Infiltrators",
+            "text": "While this unit is part of an attached unit, this model has Infiltrators.",
+            "condition": "While this unit is part of an attached unit, this model has Infiltrators."
+          }
+        ]
+      },
       "bearers": [
         [
           "Big Mek"
@@ -1355,6 +1383,15 @@
       "points": 10,
       "detachmentId": "7b06-be3a-9754-1bd4",
       "text": "**GRETCHIN** unit only. While this unit is not embarked, this unit has Scouts 6\".",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "While this unit is not embarked, this unit has Scouts 6\".",
+            "condition": "While this unit is not embarked, this unit has Scouts 6\"."
+          }
+        ]
+      },
       "upgrade": {
         "maxCopies": 3
       },
@@ -1423,6 +1460,14 @@
             "weaponIds": [
               "f606-38ce-2ada-4fbd"
             ]
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Rapid Fire 1",
+            "fromText": true,
+            "weaponName": "snazzgun"
           }
         ]
       },
@@ -1456,6 +1501,52 @@
       "points": 20,
       "detachmentId": "9ae4-56d1-1fd8-adcf",
       "text": "**BIG MEK WITH SHOKK ATTACK GUN** model only. In your Shooting phase, when this unit is **selected to shoot**, you can roll one D6:\n- On a 1, this model's Shokk Attack Gun weapon has **[TORRENT]**, and when this unit has shot, this model is **destroyed**.\n- On a 2-5, this model's Shokk Attack Gun weapon has +1 **A**.\n- One a 6, this model's Shokk Attack Gun wepon has **SUSTAINED HITS 2]**.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Torrent",
+                "fromText": true,
+                "weaponName": "shokk attack gun"
+              },
+              {
+                "on": "melee",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Torrent",
+                "fromText": true,
+                "weaponName": "shokk attack gun"
+              }
+            ],
+            "condition": "when chosen: In your Shooting phase, when this unit is selected to shoot, you can roll one D6 On a 1, this model's Shokk Attack Gun weapon has [TORRENT], and when this unit has shot, this model is destroyed."
+          },
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "A",
+                "op": "add",
+                "value": 1,
+                "fromText": true,
+                "weaponName": "shokk attack gun"
+              },
+              {
+                "on": "melee",
+                "stat": "A",
+                "op": "add",
+                "value": 1,
+                "fromText": true,
+                "weaponName": "shokk attack gun"
+              }
+            ],
+            "condition": "when chosen: - On a 2-5, this model's Shokk Attack Gun weapon has +1 A."
+          }
+        ]
+      },
       "upgrade": {
         "maxCopies": 3
       },
@@ -1471,6 +1562,34 @@
       "points": 25,
       "detachmentId": "63cc-721f-b263-9d4a",
       "text": "**WAGON** unit only. While a **BIG MEK** model is embarked within this unit:\n- This unit's ranged attacks have **[IGNORES COVER]**.\n- If this unit is **riled up**, this unit's ranged attacks have **[SUSTAINED HITS 1]**.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Ignores Cover",
+                "fromText": true
+              }
+            ],
+            "condition": "While a BIG MEK model is embarked within this unit This unit's ranged attacks have [IGNORES COVER]."
+          },
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Sustained Hits 1",
+                "fromText": true
+              }
+            ],
+            "condition": "- If this unit is riled up, this unit's ranged attacks have [SUSTAINED HITS 1]."
+          }
+        ]
+      },
       "upgrade": {
         "maxCopies": 3
       },
@@ -2361,6 +2480,20 @@
           "name": "Battlewagon",
           "text": "This model has a **transport capacity** of 22 **ORKS INFANTRY** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models. Each **GHAZGHKULL THRAKA** model takes up the space of 4 models."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Mobile Fortress",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true,
+              "kind": "ranged"
+            }
+          ]
+        }
       ]
     },
     {
@@ -3225,6 +3358,19 @@
               "fromText": true
             }
           ]
+        },
+        {
+          "rule": "More Dakka",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's ranged attacks have If this unit is riled up, [SUSTAINED HITS 1]."
         }
       ]
     },
@@ -3646,6 +3792,21 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "unit",
+                        "stat": "InvSv",
+                        "op": "atMost",
+                        "value": 4,
+                        "fromText": true,
+                        "wholeUnit": true
+                      }
+                    ],
+                    "condition": "This unit has 4+ InSv against ranged attacks."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Kustom Force Field",
@@ -3746,6 +3907,19 @@
               "fromText": true
             }
           ]
+        },
+        {
+          "rule": "More Dakka",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's ranged attacks have If this unit is riled up, [SUSTAINED HITS 1]."
         }
       ]
     },
@@ -3905,6 +4079,19 @@
               "fromText": true
             }
           ]
+        },
+        {
+          "rule": "More Dakka",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's ranged attacks have If this unit is riled up, [SUSTAINED HITS 1]."
         }
       ]
     },
@@ -7540,6 +7727,19 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Dead 'Ard",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        }
       ]
     },
     {
@@ -9665,7 +9865,20 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Bizarrely Resilient",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "ap",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "6cc1-586e-5d7c-9a34",
@@ -11705,6 +11918,21 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "unit",
+                        "stat": "InvSv",
+                        "op": "atMost",
+                        "value": 4,
+                        "fromText": true,
+                        "wholeUnit": true
+                      }
+                    ],
+                    "condition": "While the bearer is leading a unit, models in that unit have a 4+ invulnerable save against ranged attacks."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Kustom Force Field",
@@ -12106,7 +12334,22 @@
           "e3b1-1240-2476-cd86",
           "b16a-7132-3f8a-abe5"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "More Lads, More Swagger",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "Improve this model's Leadership characteristic by 1 for every 5 models in this unit."
+        }
+      ]
     },
     {
       "id": "70de-d621-8465-f7b8",
@@ -15310,6 +15553,17 @@
               "condition": "In the Fight phase, if this unit is riled up, this unit has +1 to hit rolls."
             }
           ]
+        },
+        {
+          "rule": "Arrogant Invulnerability",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "ap",
+              "mod": -1,
+              "against": true
+            }
+          ]
         }
       ]
     },
@@ -16699,6 +16953,18 @@
               "weaponIds": [],
               "points": 5,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "hit",
+                    "mod": "reroll",
+                    "weaponName": "kustom krumpa"
+                  },
+                  {
+                    "roll": "wound",
+                    "mod": "reroll",
+                    "weaponName": "kustom krumpa"
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Paired Krumpas",
@@ -16953,7 +17219,7 @@
             }
           ],
           "onlyModel": true,
-          "condition": "While this model is attached to a MOUNTED unit, this model Has +4\" M."
+          "condition": "If this model is leading a MOUNTED unit, this model Has +4\" M."
         },
         {
           "rule": "Hardy Bioniks",
@@ -20726,6 +20992,21 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "unit",
+                        "stat": "InvSv",
+                        "op": "atMost",
+                        "value": 4,
+                        "fromText": true,
+                        "wholeUnit": true
+                      }
+                    ],
+                    "condition": "While the bearer is leading a unit, models in that unit have a 4+ invulnerable save against ranged attacks."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Kustom Force Field",
@@ -24035,6 +24316,21 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "unit",
+                        "stat": "InvSv",
+                        "op": "atMost",
+                        "value": 4,
+                        "fromText": true,
+                        "wholeUnit": true
+                      }
+                    ],
+                    "condition": "While the bearer is leading a unit, models in that unit have a 4+ invulnerable save against ranged attacks."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Kustom Force Field",
@@ -24506,6 +24802,26 @@
             }
           ],
           "condition": "Each time this model attacks with a Psychic weapon, until the end of the phase, improve the Attacks, Strength and Damage characteristics of that weapon by 1 for every 5 models in this unit."
+        },
+        {
+          "rule": "Channellin' da Waaagh!",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Hazardous",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Hazardous",
+              "fromText": true
+            }
+          ],
+          "condition": "While this unit contains 10 or more models, those weapons have the [HAZARDOUS] ability."
         }
       ]
     },

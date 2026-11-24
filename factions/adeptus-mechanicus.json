@@ -877,6 +877,17 @@
       "points": 20,
       "detachmentId": "7aa5-4c0c-40c3-e2a",
       "text": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits 1",
+            "fromText": true
+          }
+        ]
+      },
       "keywords": [
         "Adeptus Mechanicus"
       ]
@@ -887,6 +898,24 @@
       "points": 15,
       "detachmentId": "7aa5-4c0c-40c3-e2a",
       "text": "Ranged weapons equipped by the bearer have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 4+] abilities.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Infantry 2+",
+            "fromText": true
+          },
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Monster 4+",
+            "fromText": true
+          }
+        ]
+      },
       "keywords": [
         "Adeptus Mechanicus"
       ]
@@ -916,7 +945,7 @@
           {
             "roll": "hit",
             "mod": 1,
-            "condition": "Each time a model in this unit makes an attack that targets a unit within range of your Acquisition objective marker, add 1 to the Hit roll."
+            "condition": "While the bearer is leading a unit, each time a model in that unit makes an attack that targets a unit within range of your Acquisition objective marker, add 1 to the Hit roll."
           }
         ]
       }
@@ -1048,6 +1077,17 @@
       "points": 10,
       "detachmentId": "ce65-6b89-4a0e-4f3b",
       "text": "ADEPTUS MECHANICUS model only. Add 6\" to the range characteristic of ranged weapons equipped by models in the bearer’s unit and, each time a Hazardous test is taken for that unit, you can re‑roll the result.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "range",
+            "op": "add",
+            "value": 6,
+            "fromText": true
+          }
+        ]
+      },
       "keywords": [
         "Adeptus Mechanicus"
       ],
@@ -2416,6 +2456,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm shield",
@@ -6356,7 +6405,22 @@
           "de59-f65c-181a-8509",
           "ba33-c21-bddc-ab0"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Prioritisation Protocol",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "fd5a-f7a3-833c-85b",
@@ -6760,6 +6824,19 @@
               "roll": "hit",
               "mod": -1,
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Auspex Array",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
             }
           ],
           "onlyModel": true
@@ -11988,6 +12065,40 @@
       },
       "selfEffects": [
         {
+          "rule": "Imperial Law",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a model in this unit makes an attack that targets that enemy unit, that attack has the [Lethal Hits] and [Precision] abilities."
+        },
+        {
           "rule": "Soulguilt scanner",
           "stats": [
             {
@@ -13288,7 +13399,29 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Broad‑spectrum Targeting Augurs",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack with an eradication caster that targets a unit (excluding Monster and Vehicle units), that attack has the [SUSTAINED HITS 1] ability."
+        }
+      ]
     },
     {
       "id": "d653-1ac3-d944-224f",
@@ -13477,7 +13610,29 @@
             ]
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Monocular Targeting Helms",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack with a neutron fusil against a Monster or Vehicle unit, that attack has the [IGNORES COVER] ability."
+        }
+      ]
     },
     {
       "id": "24d5-9987-4d2-b42b",
@@ -14073,6 +14228,19 @@
               "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
+        },
+        {
+          "rule": "CAT Unit",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by this unit gain the [Ignores Cover] ability."
         }
       ]
     },
@@ -18582,7 +18750,22 @@
           "3053-c0c1-aedd-b211",
           "d99a-6563-8c08-23c"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Vector of the Omnissiah's Wrath",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "7efb-de37-79c4-cccb",
@@ -21796,6 +21979,20 @@
           "condition": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model."
         },
         {
+          "rule": "Saturation Fire",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the [IGNORES COVER] ability."
+        },
+        {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
             {
@@ -24293,6 +24490,20 @@
       ],
       "selfEffects": [
         {
+          "rule": "Thin Their Ranks",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability."
+        },
+        {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
             {
@@ -25440,7 +25651,22 @@
           "de59-f65c-181a-8509",
           "ba33-c21-bddc-ab0"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Technoarcane Zealotry",
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "Ld",
+              "op": "add",
+              "value": -1,
+              "fromText": true
+            }
+          ],
+          "condition": "While this model's unit is in range of one or more objective markers, improve this model's Leadership characteristic by 1."
+        }
+      ]
     },
     {
       "id": "90e0-c5a9-17c5-fba4",
@@ -38898,7 +39124,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Masters of Close Confines",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability."
+        }
+      ]
     },
     {
       "id": "f158-1e0b-585b-bf40",

@@ -1008,6 +1008,27 @@
       "detachmentId": "d2dc-693e-b491-b16d",
       "text": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1S and AP\n▪ Or: if the assault doctrine is active for this unit, +2S and AP",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "S",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "AP",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              }
+            ],
+            "condition": "when chosen: This model's melee attacks have +1S and AP"
+          }
+        ],
         "stats": [
           {
             "on": "melee",
@@ -1051,6 +1072,46 @@
       "detachmentId": "d2dc-693e-b491-b16d",
       "text": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army). When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase.",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "OC",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              },
+              {
+                "on": "unit",
+                "stat": "Ld",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              }
+            ],
+            "condition": "This model has +1OC and Ld"
+          },
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "A",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              }
+            ],
+            "condition": "If you do, this unit's melee attacks have +1A until the end of the phase."
+          }
+        ],
+        "sometimesAbilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "This model has Feel No Pain 5+",
+            "condition": "This model has Feel No Pain 5+"
+          }
+        ],
         "stats": [
           {
             "on": "unit",
@@ -1130,6 +1191,17 @@
       "points": 15,
       "detachmentId": "aa86-1617-4029-fcd7",
       "text": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit's ranged attacks have [Heavy]",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Heavy",
+            "fromText": true
+          }
+        ]
+      },
       "keywords": [
         "Vehicle"
       ],
@@ -1745,6 +1817,15 @@
       "points": 40,
       "detachmentId": "e5e4-56a3-ca06-fecf",
       "text": "Dreadnought unit only. Attacks that target this unit have -1D",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "damage",
+            "mod": -1,
+            "against": true
+          }
+        ]
+      },
       "keywords": [
         "Dreadnought"
       ],
@@ -1821,6 +1902,15 @@
       "points": 25,
       "detachmentId": "5eb6-4ed2-6aca-c7f1",
       "text": "ADEPTUS ASTARTES model only. If this unit is a Kill Team unit, this unit has:\n\n▪ Deep Strike.\n▪ When you target this unit with the Rapid Ingress Stratagem, that use is -1CP.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Deep Strike",
+            "text": "If this unit is a Kill Team unit, this unit has Deep Strike. ▪ When you target this unit with the Rapid Ingress Stratagem, that use is -1CP.",
+            "condition": "If this unit is a Kill Team unit, this unit has Deep Strike. ▪ When you target this unit with the Rapid Ingress Stratagem, that use is -1CP."
+          }
+        ]
+      },
       "bearers": [
         [
           "Adeptus Astartes"
@@ -2797,7 +2887,28 @@
           "c538-aaf0-5788-5c07",
           "6cb-912c-c43-210b"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Vivispectral Analysis Targeting",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Vehicle",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Vehicle",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "b040-ce24-7e1a-c903",
@@ -3324,6 +3435,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm shield",
@@ -6169,7 +6289,21 @@
           "c538-aaf0-5788-5c07",
           "6cb-912c-c43-210b"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Refuse to Yield",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "a976-7cd5-9657-d91a",
@@ -9529,6 +9663,13 @@
                     "op": "set",
                     "value": "5",
                     "wholeUnit": true
+                  },
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 5,
+                    "fromText": true
                   }
                 ],
                 "keywords": [
@@ -10828,6 +10969,16 @@
       },
       "selfEffects": [
         {
+          "rule": "Zealous Fortitude",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against mortal wounds)",
+              "text": "This unit has Feel No Pain 4+ against mortal wounds"
+            }
+          ]
+        },
+        {
           "rule": "Litany of Hate",
           "stats": [
             {
@@ -11582,8 +11733,7 @@
             {
               "roll": "wound",
               "mod": -1,
-              "against": true,
-              "condition": "Attacks that target this unit have -1 to wound rolls"
+              "against": true
             }
           ]
         }
@@ -11887,6 +12037,19 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Auspex Array",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -12175,6 +12338,21 @@
           "type": "Transport",
           "name": "Corvus Blackstar",
           "text": "This model has a transport capacity of 12 ^^**DEATHWATCH INFANTRY**^^ models. Each ^^**GRAVIS/JUMP PACK/TERMINATOR**^^ model takes up the space of 2 models."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Auspex Array",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -13188,8 +13366,7 @@
             {
               "roll": "hit",
               "mod": -1,
-              "against": true,
-              "condition": "Attacks that target this unit have -1 to hit rolls."
+              "against": true
             }
           ]
         },
@@ -20981,6 +21158,40 @@
       },
       "selfEffects": [
         {
+          "rule": "Imperial Law",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a model in this unit makes an attack that targets that enemy unit, that attack has the [Lethal Hits] and [Precision] abilities."
+        },
+        {
           "rule": "Soulguilt scanner",
           "stats": [
             {
@@ -25108,6 +25319,19 @@
               "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
+        },
+        {
+          "rule": "CAT Unit",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by this unit gain the [Ignores Cover] ability."
         }
       ]
     },
@@ -25493,6 +25717,16 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 5,
+                    "fromText": true,
+                    "wholeUnit": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Shield Dome",
@@ -34081,6 +34315,21 @@
           "fromCopy": 2,
           "points": 20
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Wrath of the Machine Spirit",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds: non-Monster/Vehicle",
+              "fromText": true
+            }
+          ],
+          "condition": "This unit's ranged attacks that target a unit within 12\" of this unit have [Devastating Wounds: non-Monster/vehicle]"
+        }
       ]
     },
     {
@@ -34487,6 +34736,16 @@
             }
           ],
           "condition": "when chosen: If you do This unit has 4+ InSv until the start of your next turn."
+        },
+        {
+          "rule": "Psychic Hood",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against psychic attacks)",
+              "text": "This unit has Feel No Pain 4+ against psychic attacks."
+            }
+          ]
         }
       ]
     },
@@ -34711,6 +34970,16 @@
             }
           ],
           "condition": "when chosen: If you do Attacks that target this unit have -1 to hit rolls until the end of the phase."
+        },
+        {
+          "rule": "Psychic Hood",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against psychic attacks)",
+              "text": "This unit has Feel No Pain 4+ against psychic attacks."
+            }
+          ]
         }
       ]
     },
@@ -34928,6 +35197,16 @@
             }
           ],
           "condition": "when chosen: If you do This unit's ranged attacks have +6\" R."
+        },
+        {
+          "rule": "Psychic Hood",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against psychic attacks)",
+              "text": "This unit has Feel No Pain 4+ against psychic attacks."
+            }
+          ]
         }
       ]
     },
@@ -36237,6 +36516,13 @@
                     "op": "set",
                     "value": "5",
                     "wholeUnit": true
+                  },
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 5,
+                    "fromText": true
                   }
                 ],
                 "keywords": [
@@ -37737,7 +38023,28 @@
           "907f-11-c4d1-ec21",
           "f1b9-b2e8-4ccf-d6cb"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Tactical Precision",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Monster/Vehicle",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Monster/Vehicle",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "fe0e-6070-e7b-d4b8",
@@ -37932,7 +38239,28 @@
           "f527-0a42-15b4-1924",
           "2544-5189-7806-30f3"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Tactical Precision",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Monster/Vehicle",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Monster/Vehicle",
+              "fromText": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "109f-f71d-56-d9eb",
@@ -39460,6 +39788,19 @@
           "name": "Mastodon",
           "text": "This model has a transport capacity of 45 Adeptus Astartes Infantry models. And 2 Dreadnought models. Each Jump Pack, Gravis, Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Dreadnought model take up the space of a number of models equal to their W characteristic."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Inviolable Transport",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        }
       ]
     },
     {
@@ -40275,7 +40616,24 @@
       "selfEffects": [
         {
           "rule": "Full-throttle Assault",
-          "stats": [],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true,
+              "weaponName": "thunder hammer"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true,
+              "weaponName": "thunder hammer"
+            }
+          ],
           "rolls": [
             {
               "roll": "hit",
@@ -40283,7 +40641,8 @@
               "condition": "If this unit made a charge move this turn, this unit's Thunder Hammer weapons have +1 to hit rolls and [SUSTAINED HITS 1].",
               "weaponName": "thunder hammer"
             }
-          ]
+          ],
+          "condition": "If this unit made a charge move this turn, this unit's Thunder Hammer weapons have +1 to hit rolls and [SUSTAINED HITS 1]."
         },
         {
           "rule": "Full-throttle Assault",
@@ -40293,6 +40652,13 @@
               "stat": "D",
               "op": "add",
               "value": 1,
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
               "fromText": true
             }
           ],
@@ -50061,6 +50427,19 @@
           "name": "Stormraven Gunship",
           "text": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. And 1 Dreadnought models. Each Jump Pack, Wulfen, Gravis, Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models."
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Armoured Resilience",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
+        }
       ]
     },
     {
@@ -51657,6 +52036,30 @@
         {
           "fromCopy": 3,
           "points": 40
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Terminatus Assault",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1: Monster/Vehicle",
+              "fromText": true,
+              "weaponName": "thunder hammer"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1: Monster/Vehicle",
+              "fromText": true,
+              "weaponName": "thunder hammer"
+            }
+          ],
+          "condition": "If this unit made a charge move this turn, this unit's Thunder Hammer weapons have [SUSTAINED HITS 1: MONSTER/VEHICLE]."
         }
       ]
     },
@@ -53954,6 +54357,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 5,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Combat Shield",
@@ -55169,6 +55581,13 @@
                     "op": "set",
                     "value": "5",
                     "wholeUnit": true
+                  },
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 5,
+                    "fromText": true
                   }
                 ],
                 "keywords": [
@@ -57323,7 +57742,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Masters of Close Confines",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability."
+        }
+      ]
     },
     {
       "id": "f158-1e0b-585b-bf40",

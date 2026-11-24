@@ -639,10 +639,10 @@
           "kind": "Epic Deed"
         },
         {
-          "name": "Predatory Pursuit",
+          "name": "Glut of Souls",
           "cp": 1,
-          "turn": "Opponent's turn",
-          "phase": "Movement phase",
+          "turn": "Either player's turn",
+          "phase": "Fight phase",
           "kind": "Strategic Ploy"
         },
         {
@@ -653,10 +653,10 @@
           "kind": "Strategic Ploy"
         },
         {
-          "name": "Glut of Souls",
+          "name": "Predatory Pursuit",
           "cp": 1,
-          "turn": "Either player's turn",
-          "phase": "Fight phase",
+          "turn": "Opponent's turn",
+          "phase": "Movement phase",
           "kind": "Strategic Ploy"
         },
         {
@@ -1038,16 +1038,16 @@
       ],
       "stratagems": [
         {
-          "name": "Prey on the Weak",
-          "cp": 1,
-          "turn": "Either player's turn",
-          "phase": "Shooting or Fight phase"
-        },
-        {
           "name": "Sadistic Display",
           "cp": 1,
           "turn": "Either player's turn",
           "phase": "Fight phase"
+        },
+        {
+          "name": "Prey on the Weak",
+          "cp": 1,
+          "turn": "Either player's turn",
+          "phase": "Shooting or Fight phase"
         },
         {
           "name": "Malicious Surge",
@@ -1598,6 +1598,13 @@
       "detachmentId": "53dd-68f7-7c1f-3e5d",
       "text": "The bearer has the Feel No Pain 5+ ability. Each time the bearer shoots or fights, if the bearer’s unit made a Dark Pact this phase and did not fail the resulting Leadership test, after the bearer has resolved those attacks, select one enemy unit that was hit by one or more of those attacks; that enemy unit must take a Battle-shock test.",
       "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "This model has the Feel No Pain 5+ ability.",
+            "condition": "when chosen: This model has the Feel No Pain 5+ ability."
+          }
+        ],
         "abilities": [
           {
             "name": "Feel No Pain 5+",
@@ -1650,12 +1657,12 @@
           {
             "roll": "hit",
             "mod": "rerollOne",
-            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model."
+            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll or one saving throw made for the bearer."
           },
           {
             "roll": "wound",
             "mod": "rerollOne",
-            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model."
+            "condition": "Once per turn, you can re-roll one Hit roll, one Wound roll or one saving throw made for the bearer."
           }
         ]
       }
@@ -1747,13 +1754,13 @@
             "roll": "hit",
             "mod": "reroll",
             "kind": "melee",
-            "condition": "Each time this model makes a melee attack, if this model is wholly within 12\" of your opponent's deployment zone, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            "condition": "Each time the bearer makes a melee attack, if the bearer is wholly within 12\" of your opponent's deployment zone, you can re-roll the Hit roll and you can re-roll the Wound roll."
           },
           {
             "roll": "wound",
             "mod": "reroll",
             "kind": "melee",
-            "condition": "Each time this model makes a melee attack, if this model is wholly within 12\" of your opponent's deployment zone, you can re-roll the Hit roll and you can re-roll the Wound roll."
+            "condition": "Each time the bearer makes a melee attack, if the bearer is wholly within 12\" of your opponent's deployment zone, you can re-roll the Hit roll and you can re-roll the Wound roll."
           }
         ]
       }
@@ -1784,7 +1791,7 @@
           {
             "roll": "advance",
             "mod": "reroll",
-            "condition": "You can re-roll Advance rolls made for this unit, and this unit is eligible to shoot in a turn in which it Fell Back."
+            "condition": "You can re-roll Advance rolls made for the bearer's unit, and the bearer's unit is eligible to shoot in a turn in which it Fell Back."
           }
         ]
       }
@@ -1849,7 +1856,7 @@
           {
             "roll": "wound",
             "mod": 1,
-            "condition": "Each time this model makes an attack while within range of an objective marker, add 1 to the Wound roll."
+            "condition": "Each time the bearer makes an attack while within range of an objective marker, add 1 to the Wound roll."
           }
         ]
       }
@@ -1880,6 +1887,34 @@
             "stat": "keywords",
             "op": "append",
             "value": "Anti-VEHICLE 4+, Anti-FORTIFICATION 4+"
+          },
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Vehicle 4+",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Vehicle 4+",
+            "fromText": true
+          },
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Fortification 4+",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Fortification 4+",
+            "fromText": true
           }
         ]
       },
@@ -1912,12 +1947,12 @@
           {
             "roll": "advance",
             "mod": "reroll",
-            "condition": "If every other model in this unit (excluding Dark Disciples) is DAMNED, you can re-roll Advance and Charge rolls made for this unit."
+            "condition": "If every other model in the bearer's unit (excluding Dark Disciples) is DAMNED, you can re-roll Advance and Charge rolls made for the bearer's unit."
           },
           {
             "roll": "charge",
             "mod": "reroll",
-            "condition": "If every other model in this unit (excluding Dark Disciples) is DAMNED, you can re-roll Advance and Charge rolls made for this unit."
+            "condition": "If every other model in the bearer's unit (excluding Dark Disciples) is DAMNED, you can re-roll Advance and Charge rolls made for the bearer's unit."
           }
         ]
       }
@@ -1927,7 +1962,16 @@
       "name": "Warped Foresight",
       "points": 10,
       "detachmentId": "6cec-4da4-a89d-fb98",
-      "text": "While the bearer is leading a unit with the Scouts 6” ability, every model in the bearer’s unit has the Scouts 6” ability."
+      "text": "While the bearer is leading a unit with the Scouts 6” ability, every model in the bearer’s unit has the Scouts 6” ability.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "Every model in this unit has the Scouts 6\" ability.",
+            "condition": "While this model is leading a unit with the Scouts 6\" ability, every model in this unit has the Scouts 6\" ability."
+          }
+        ]
+      }
     },
     {
       "id": "1b4d-d584-df1c-c158",
@@ -2274,6 +2318,27 @@
       "detachmentId": "d545-85a4-65d6-2f59",
       "text": "Improve the Attacks, Strength and Armour Penetration characteristics of the bearer’s weapons by 1. In addition, each time the bearer’s unit is set up on the battlefield from Reserves, until the end of the turn, improve the Damage characteristic of the bearer’s weapons by 1.",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "D",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "D",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              }
+            ],
+            "condition": "In addition, each time the bearer's unit is set up on the battlefield from Reserves, until the end of the turn, improve the Damage characteristic of the bearer's weapons by 1."
+          }
+        ],
         "stats": [
           {
             "on": "ranged",
@@ -6612,7 +6677,7 @@
                   {
                     "roll": "battleShock",
                     "mod": "reroll",
-                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                    "condition": "Each time the bearer's unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
                   }
                 ],
                 "abilities": [
@@ -6760,6 +6825,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lance",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Massive Fangs",
@@ -6873,6 +6947,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimesAbilities": [
+                  {
+                    "name": "Stealth",
+                    "text": "If it does, until the end of the phase, this model's unit has the Stealth ability.",
+                    "condition": "If it does, until the end of the phase, this model's unit has the Stealth ability."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Dark Blessing",
@@ -14700,6 +14781,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lance",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Massive Fangs",
@@ -14813,6 +14903,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimesAbilities": [
+                  {
+                    "name": "Stealth",
+                    "text": "If it does, until the end of the phase, this model's unit has the Stealth ability.",
+                    "condition": "If it does, until the end of the phase, this model's unit has the Stealth ability."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Dark Blessing",
@@ -16045,7 +16142,7 @@
                   {
                     "roll": "battleShock",
                     "mod": "reroll",
-                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                    "condition": "Each time the bearer's unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
                   }
                 ],
                 "abilities": [
@@ -16247,6 +16344,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lance",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Massive Fangs",
@@ -16360,6 +16466,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimesAbilities": [
+                  {
+                    "name": "Stealth",
+                    "text": "If it does, until the end of the phase, this model's unit has the Stealth ability.",
+                    "condition": "If it does, until the end of the phase, this model's unit has the Stealth ability."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Dark Blessing",
@@ -17229,6 +17342,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "melee",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Lance",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Massive Fangs",
@@ -17342,6 +17464,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimesAbilities": [
+                  {
+                    "name": "Stealth",
+                    "text": "If it does, until the end of the phase, this model's unit has the Stealth ability.",
+                    "condition": "If it does, until the end of the phase, this model's unit has the Stealth ability."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Dark Blessing",
@@ -18672,7 +18801,7 @@
               "op": "add",
               "value": 3,
               "fromText": true,
-              "weaponName": "hellforged weapons"
+              "weaponName": "hellforged"
             },
             {
               "on": "melee",
@@ -18680,11 +18809,80 @@
               "op": "add",
               "value": 3,
               "fromText": true,
-              "weaponName": "hellforged weapons"
+              "weaponName": "hellforged"
             }
           ],
           "onlyModel": true,
           "condition": "If it does, until the end of the phase, add 3 to the Attacks characteristic of this model's hellforged weapons."
+        },
+        {
+          "rule": "Harbinger of Death",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true,
+              "weaponName": "hellforged weapons"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true,
+              "weaponName": "hellforged weapons"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: Until the end of the phase, this model's hellforged weapons have that ability [LETHAL HITS]"
+        },
+        {
+          "rule": "Harbinger of Death",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true,
+              "weaponName": "hellforged weapons"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true,
+              "weaponName": "hellforged weapons"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: Until the end of the phase, this model's hellforged weapons have that ability [PRECISION]"
+        },
+        {
+          "rule": "Harbinger of Death",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true,
+              "weaponName": "hellforged weapons"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true,
+              "weaponName": "hellforged weapons"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: Until the end of the phase, this model's hellforged weapons have that ability [SUSTAINED HITS 1]"
         }
       ]
     },
@@ -26685,8 +26883,7 @@
               "roll": "hit",
               "mod": -1,
               "against": true,
-              "kind": "melee",
-              "condition": "Melee attacks that target this unit have -1 to hit rolls."
+              "kind": "melee"
             }
           ]
         },
@@ -33373,6 +33570,17 @@
             }
           ],
           "condition": "when chosen: Each time a model in this model's unit makes a melee attack that targets its prey, you can re-roll the Wound roll."
+        },
+        {
+          "rule": "Brass Collar of Bloody Vengeance",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 3+ (against Psychic Attacks and mortal wounds)",
+              "text": "this model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+            }
+          ],
+          "onlyModel": true
         }
       ]
     },
@@ -36157,6 +36365,20 @@
       ],
       "selfEffects": [
         {
+          "rule": "Bloodlust",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [Devastating Wounds] ability."
+        },
+        {
           "rule": "Damaged: 1-9 wounds remaining",
           "stats": [
             {
@@ -37857,6 +38079,20 @@
           ],
           "onlyModel": true,
           "condition": "While this model has 1-8 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "rule": "Bloodlust",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability."
         }
       ]
     },
@@ -38618,7 +38854,7 @@
                   {
                     "roll": "battleShock",
                     "mod": "reroll",
-                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                    "condition": "Each time the bearer's unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
                   }
                 ],
                 "abilities": [
@@ -40909,6 +41145,19 @@
           "type": "Transport",
           "name": "Mastodon",
           "text": "This model has a transport capacity of 45 Adeptus Astartes Infantry models. And 2 Dreadnought models. Each Jump Pack, Gravis, Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Dreadnought model take up the space of a number of models equal to their W characteristic."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Inviolable Transport",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
         }
       ]
     },
@@ -45058,7 +45307,7 @@
                   {
                     "roll": "battleShock",
                     "mod": "reroll",
-                    "condition": "Each time this unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+                    "condition": "Each time the bearer's unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
                   }
                 ],
                 "abilities": [
@@ -49928,6 +50177,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "ranged",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Ignores Cover",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Icon of Flame",
@@ -51688,7 +51946,7 @@
               "op": "add",
               "value": 2,
               "fromText": true,
-              "weaponName": "slaughter and carnage"
+              "weaponName": "slaughter"
             },
             {
               "on": "melee",
@@ -51696,7 +51954,7 @@
               "op": "add",
               "value": 2,
               "fromText": true,
-              "weaponName": "slaughter and carnage"
+              "weaponName": "slaughter"
             }
           ],
           "onlyModel": true,
@@ -60623,6 +60881,19 @@
       },
       "selfEffects": [
         {
+          "rule": "Reorder Reality",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "hit",
+              "mod": -1,
+              "against": true,
+              "condition": "Each time an enemy unit within 18\" of this model targets this model, subtract 1 from the Hit roll"
+            }
+          ],
+          "onlyModel": true
+        },
+        {
           "rule": "Indentured Daemon Engines",
           "stats": [],
           "abilities": [
@@ -64290,7 +64561,49 @@
     {
       "id": "fd69-68cc-5d63-c84d",
       "name": "Dark Pacts",
-      "text": "If your Army Faction is ^^**Heretic Astartes**^^, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of the Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n■ [LETHAL HITS]\n■ [SUSTAINED HITS 1]"
+      "text": "If your Army Faction is ^^**Heretic Astartes**^^, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of the Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n■ [LETHAL HITS]\n■ [SUSTAINED HITS 1]",
+      "effects": [
+        {
+          "rule": "Dark Pacts",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Then, select one of the following abilities for this unit's weapons to gain until the end of the phase [LETHAL HITS]"
+        },
+        {
+          "rule": "Dark Pacts",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Then, select one of the following abilities for this unit's weapons to gain until the end of the phase [SUSTAINED HITS 1]"
+        }
+      ]
     },
     {
       "id": "b68a-5ded-65ac-98c",

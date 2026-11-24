@@ -785,10 +785,20 @@
               "Harlequins"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Boons of the Brood",
-              "text": "Each time a Harlequins unit from your army disembarks from a Transport, until the end of the turn, that unit's weapons have the [SUSTAINED HITS 1] ability."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
             }
           ],
           "condition": "Each time a Harlequins unit from your army disembarks from a Transport, until the end of the turn, that unit's weapons have the [SUSTAINED HITS 1] ability."
@@ -1211,6 +1221,17 @@
       "points": 10,
       "detachmentId": "8e89-2c14-6bf5-87bf",
       "text": "Autarch or Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, each time a ranged attack targets that unit, subtract 1 from the Wound roll.",
+      "effects": {
+        "rolls": [
+          {
+            "roll": "wound",
+            "mod": -1,
+            "against": true,
+            "kind": "ranged",
+            "condition": "While the bearer is leading an Aspect Warriors unit, each time a ranged attack targets that unit, subtract 1 from the Wound roll."
+          }
+        ]
+      },
       "bearers": [
         [
           "Autarch"
@@ -1226,6 +1247,23 @@
       "points": 10,
       "detachmentId": "8e89-2c14-6bf5-87bf",
       "text": "Autarch or Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, add 1 to the Objective Control characteristic of models in that unit.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "OC",
+                "op": "add",
+                "value": 1,
+                "fromText": true,
+                "wholeUnit": true
+              }
+            ],
+            "condition": "While the bearer is leading an Aspect Warriors unit, add 1 to the Objective Control characteristic of models in that unit."
+          }
+        ]
+      },
       "bearers": [
         [
           "Autarch"
@@ -1241,6 +1279,26 @@
       "points": 15,
       "detachmentId": "925e-85fb-b477-70be",
       "text": "Farseer model only. The bearer's Eldritch Storm weapon has the [Devastating Wounds] ability.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true,
+            "weaponName": "eldritch storm"
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true,
+            "weaponName": "eldritch storm"
+          }
+        ]
+      },
       "bearers": [
         [
           "Farseer"
@@ -1472,6 +1530,20 @@
       "points": 15,
       "detachmentId": "b525-57b6-8a78-ed75",
       "text": "Asuryani Psyker model only. Add 12\" to the Range characteristic of ranged Psychic weapons equipped by the bearer.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "range",
+            "op": "add",
+            "value": 12,
+            "fromText": true,
+            "weaponTags": [
+              "Psychic"
+            ]
+          }
+        ]
+      },
       "bearers": [
         [
           "Asuryani",
@@ -1663,6 +1735,38 @@
       "points": 15,
       "detachmentId": "c8a3-920b-166b-30d9",
       "text": "Asuryani Mounted Psyker model only. Psychic weapons equipped by the bearer have the [Anti-Monster 2+] and [Anti-Vehicle 2+] abilities.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Monster 2+",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Monster 2+",
+            "fromText": true
+          },
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Vehicle 2+",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Vehicle 2+",
+            "fromText": true
+          }
+        ]
+      },
       "bearers": [
         [
           "Asuryani",
@@ -1740,6 +1844,17 @@
       "points": 20,
       "detachmentId": "5ad5-9b0d-a70e-b9ec",
       "text": "^^**Troupe Master**^^ model only. Add 3 to the Strength and add 1 to the Attacks characteristics of the bearer’s melee weapons.",
+      "effects": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "A",
+            "op": "add",
+            "value": 1,
+            "fromText": true
+          }
+        ]
+      },
       "bearers": [
         [
           "Troupe Master"
@@ -1860,6 +1975,15 @@
       "points": 25,
       "detachmentId": "7224-4f3e-c557-115d",
       "text": "^^**Anhrathe**^^ unit only. Models in this unit have the Deep Strike ability. In addition, once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, it can use this ability. If it does, remove this unit from the battlefield and place it into Strategic Reserves.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Deep Strike",
+            "text": "Models in this unit have the Deep Strike ability.",
+            "condition": "Models in this unit have the Deep Strike ability."
+          }
+        ]
+      },
       "upgrade": {
         "maxCopies": 1
       },
@@ -1998,6 +2122,22 @@
       "points": 15,
       "detachmentId": "8b57-c6f6-c651-65bf",
       "text": "**RANGERS/SHROUD RUNNERS** unit only. This unit’s ranged attacks that target a **CHARACTER** unit have +1 **AP**.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "AP",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              }
+            ],
+            "condition": "This unit's ranged attacks that target a CHARACTER unit have +1 AP."
+          }
+        ]
+      },
       "upgrade": {
         "maxCopies": 3
       },
@@ -2665,7 +2805,41 @@
             "condition": "While this model is leading a unit, you can re-roll Advance rolls made for that unit, and you can re-roll any rolls made for that unit while it is performing an Agile Manoeuvre."
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Aspect Training",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Fights First",
+              "text": "If this model is leading a Howling Banshees unit, this model has the Fights First ability."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If this model is leading a Howling Banshees unit, this model has the Fights First ability."
+        },
+        {
+          "rule": "Aspect Training",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Infiltrators",
+              "text": "If this model is leading a Striking Scorpions unit, this model has the Infiltrators, Scouts 7\" and Stealth abilities."
+            },
+            {
+              "name": "Scouts 7\"",
+              "text": "If this model is leading a Striking Scorpions unit, this model has the Infiltrators, Scouts 7\" and Stealth abilities."
+            },
+            {
+              "name": "Stealth",
+              "text": "If this model is leading a Striking Scorpions unit, this model has the Infiltrators, Scouts 7\" and Stealth abilities."
+            }
+          ],
+          "onlyModel": true,
+          "condition": "If this model is leading a Striking Scorpions unit, this model has the Infiltrators, Scouts 7\" and Stealth abilities."
+        }
+      ]
     },
     {
       "id": "69f4-c990-93b4-20fc",
@@ -7554,6 +7728,42 @@
           "modelNames": [
             "Voidscarred with special weapon"
           ]
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Piratical Raiders",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a model in this unit makes an attack that targets that enemy unit, that attack has the [LETHAL HITS] and [PRECISION] abilities."
         }
       ]
     },
@@ -14049,7 +14259,23 @@
             "mod": 1
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "The Scorpion's Bite",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Melee weapons equipped by this model have the [DEVASTATING WOUNDS] ability when targeting units without the Titanic keyword."
+        }
+      ]
     },
     {
       "id": "4273-173c-e850-4071",
@@ -16027,6 +16253,27 @@
           {
             "roll": "hit",
             "mod": 1
+          }
+        ],
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Sustained Hits 1",
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Sustained Hits 1",
+                "fromText": true
+              }
+            ],
+            "condition": "While this model is leading a unit, each time a model in that unit makes an attack, that attack has the [Sustained Hits 1] ability and add 1 to the Hit roll."
           }
         ]
       }
@@ -19335,8 +19582,7 @@
               "roll": "hit",
               "mod": -1,
               "against": true,
-              "kind": "melee",
-              "condition": "Melee attacks that target this unit have -1 to hit rolls."
+              "kind": "melee"
             }
           ]
         }

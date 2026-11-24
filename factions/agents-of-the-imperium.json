@@ -85,10 +85,20 @@
               "Deathwatch"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Purgatus Tactics",
-              "text": "While this Mission Tactic is active, each time a Deathwatch model from your army makes an attack, on a Critical Wound, that attack has the [PRECISION] ability."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
             }
           ],
           "condition": "when Purgatus Tactics is chosen"
@@ -195,10 +205,20 @@
               "Ordo Hereticus"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Root Out Heresy",
-              "text": "Each time an Adeptus Arbites, Inquisitor, Inquisitorial Agents or Ordo Hereticus model from your army makes an attack that targets a Chaos unit containing 5 or more models, that attack has the [SUSTAINED HITS 1] ability."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
             }
           ],
           "condition": "Each time an Adeptus Arbites, Inquisitor, Inquisitorial Agents or Ordo Hereticus model from your army makes an attack that targets a Chaos unit containing 5 or more models, that attack has the [SUSTAINED HITS 1] ability."
@@ -509,7 +529,25 @@
       "name": "Universal Anathema",
       "points": 10,
       "detachmentId": "aabf-4988-4054-bed2",
-      "text": "Melee weapons equipped by the bearer have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 4+] abilities"
+      "text": "Melee weapons equipped by the bearer have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 4+] abilities",
+      "effects": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Infantry 2+",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Monster 4+",
+            "fromText": true
+          }
+        ]
+      }
     },
     {
       "id": "f8b3-8f83-2256-0216",
@@ -582,7 +620,7 @@
           {
             "roll": "hit",
             "mod": "reroll",
-            "condition": "Each time a model in this unit makes an attack that targets a PSYKER unit, you can re-roll the Hit roll."
+            "condition": "While the bearer is leading a unit, each time a model in that unit makes an attack that targets a PSYKER unit, you can re-roll the Hit roll."
           }
         ]
       }
@@ -592,7 +630,32 @@
       "name": "Ignis Judicium",
       "points": 10,
       "detachmentId": "cfc6-5531-53cb-1964",
-      "text": "The bearer's ranged weapons have the [DEVASTATING WOUNDS], [MELTA 1] and [PRECISION] abilities."
+      "text": "The bearer's ranged weapons have the [DEVASTATING WOUNDS], [MELTA 1] and [PRECISION] abilities.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true
+          },
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Melta 1",
+            "fromText": true
+          },
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Precision",
+            "fromText": true
+          }
+        ]
+      }
     },
     {
       "id": "7175-709a-91a9-9b44",
@@ -601,6 +664,27 @@
       "detachmentId": "bd6f-97c7-6ac4-8320",
       "text": "Improve the bearer's Leadership and Wounds characteristics by 1. Once per battle, at the start of any phase, you can select one friendly Battle-shocked unit within 12\" of the bearer. That unit is no longer Battle-shocked.",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "Ld",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              },
+              {
+                "on": "unit",
+                "stat": "W",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              }
+            ],
+            "condition": "when chosen: Improve this model's Leadership and Wounds characteristics by 1."
+          }
+        ],
         "stats": [
           {
             "on": "unit",
@@ -2109,6 +2193,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm shield",
@@ -5381,6 +5474,19 @@
               "roll": "hit",
               "mod": -1,
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Auspex Array",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
             }
           ],
           "onlyModel": true
@@ -10442,6 +10548,40 @@
       },
       "selfEffects": [
         {
+          "rule": "Imperial Law",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a model in this unit makes an attack that targets that enemy unit, that attack has the [Lethal Hits] and [Precision] abilities."
+        },
+        {
           "rule": "Soulguilt scanner",
           "stats": [
             {
@@ -12813,6 +12953,19 @@
               "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
+        },
+        {
+          "rule": "CAT Unit",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by this unit gain the [Ignores Cover] ability."
         }
       ]
     },
@@ -18370,6 +18523,20 @@
           "condition": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model."
         },
         {
+          "rule": "Saturation Fire",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the [IGNORES COVER] ability."
+        },
+        {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
             {
@@ -20866,6 +21033,20 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Thin Their Ranks",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability."
+        },
         {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
@@ -29238,7 +29419,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Masters of Close Confines",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability."
+        }
+      ]
     },
     {
       "id": "5c81-92c5-e20b-edf1",

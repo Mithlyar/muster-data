@@ -93,13 +93,16 @@
               "Emperor's Children"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Exquisite Swordsmanship",
-              "text": "While resolving those attacks, melee weapons equipped by models in that unit have the ability [Lethal Hits]"
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
             }
           ],
-          "condition": "While resolving those attacks, melee weapons equipped by models in that unit have the ability [Lethal Hits]"
+          "condition": "when chosen: While resolving those attacks, melee weapons equipped by models in that unit have the ability [Lethal Hits]"
         },
         {
           "rule": "Exquisite Swordsmanship",
@@ -108,13 +111,16 @@
               "Emperor's Children"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Exquisite Swordsmanship",
-              "text": "While resolving those attacks, melee weapons equipped by models in that unit have the ability [Sustained Hits 1]"
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
             }
           ],
-          "condition": "While resolving those attacks, melee weapons equipped by models in that unit have the ability [Sustained Hits 1]"
+          "condition": "when chosen: While resolving those attacks, melee weapons equipped by models in that unit have the ability [Sustained Hits 1]"
         }
       ],
       "stratagems": [
@@ -296,10 +302,20 @@
               "Emperor's Children"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Pledges to the Dark Prince",
-              "text": "5+: Melee weapons equipped by models in this unit have the [Lethal Hits] and [Sustained Hits 1]] abilities."
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
             }
           ],
           "condition": "5+: Melee weapons equipped by models in this unit have the [Lethal Hits] and [Sustained Hits 1]] abilities."
@@ -813,6 +829,36 @@
       "points": 15,
       "detachmentId": "8635-b1cc-e7bb-e8a1",
       "text": "The bearer's melee weapons have the [^^Precision^^] ability, and each time the bearer makes a melee attack that targets a ^^**Character**^^ unit, improve the Strength and Armour Penetration characteristics of that attack by 1.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "S",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "AP",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Precision",
+                "fromText": true
+              }
+            ],
+            "condition": "The bearer's melee weapons have the [Precision] ability, and each time the bearer makes a melee attack that targets a Character unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+          }
+        ]
+      },
       "keywords": [
         "Emperor's Children"
       ]
@@ -833,6 +879,15 @@
       "points": 25,
       "detachmentId": "faf3-053d-d290-a3d9",
       "text": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does so, until the end of the phase, models in the bearer's unit have the Fights First ability.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Fights First",
+            "text": "If it does so, until the end of the phase, models in this unit have the Fights First ability.",
+            "condition": "If it does so, until the end of the phase, models in the bearer's unit have the Fights First ability."
+          }
+        ]
+      },
       "keywords": [
         "Emperor's Children"
       ]
@@ -984,7 +1039,7 @@
           {
             "roll": "hit",
             "mod": 1,
-            "condition": "Each time a model in this unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll."
+            "condition": "Each time a model in the bearer's unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll."
           },
           {
             "roll": "wound",
@@ -1040,6 +1095,22 @@
       "points": 10,
       "detachmentId": "3c9e-2156-254e-66e8",
       "text": "Once per battle, just after an enemy unit has selected its targets, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 3+ invulnerable save.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "InvSv",
+                "op": "atMost",
+                "value": 3,
+                "fromText": true
+              }
+            ],
+            "condition": "If it does, until the end of the phase, the bearer has a 3+ invulnerable save."
+          }
+        ]
+      },
       "keywords": [
         "Infantry"
       ]
@@ -1049,7 +1120,23 @@
       "name": "Possessed Blade",
       "points": 35,
       "detachmentId": "3c9e-2156-254e-66e8",
-      "text": "At the start of the battle, select one melee weapon equipped by the bearer; add 1 to the Attacks characteristic of that weapon. In addition, each time the bearer is selected to fight, it can use this Enhancement. If it does, when resolving those attacks add 1 to the Damage characteristic of that weapon and that weapon has the [^^Devastating Wounds^^] and [^^Hazardous^^] abilities."
+      "text": "At the start of the battle, select one melee weapon equipped by the bearer; add 1 to the Attacks characteristic of that weapon. In addition, each time the bearer is selected to fight, it can use this Enhancement. If it does, when resolving those attacks add 1 to the Damage characteristic of that weapon and that weapon has the [^^Devastating Wounds^^] and [^^Hazardous^^] abilities.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "A",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              }
+            ],
+            "condition": "when chosen: At the start of the battle, select one melee weapon equipped by this model; add 1 to the Attacks characteristic of that weapon."
+          }
+        ]
+      }
     },
     {
       "id": "c1af-55bd-1303-dbb7",
@@ -1133,6 +1220,15 @@
       "detachmentId": "8aff-09e5-5ff7-e9f2",
       "text": "- This model has Deep Strike. \n- This unit’s ranged attacks have [IGNORES COVER].",
       "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Ignores Cover",
+            "fromText": true
+          }
+        ],
         "abilities": [
           {
             "name": "Deep Strike",
@@ -12241,6 +12337,20 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Bloodlust",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [Devastating Wounds] ability."
+        },
         {
           "rule": "Damaged: 1-9 wounds remaining",
           "stats": [

@@ -991,6 +991,14 @@
       "points": 20,
       "detachmentId": "9ebf-2bbd-6059-1d40",
       "text": "NECRONS model only. While the bearer is leading a unit, models in that unit have the Stealth ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Stealth",
+            "text": "Models in this unit have the Stealth ability."
+          }
+        ]
+      },
       "bearers": [
         [
           "Necrons"
@@ -1061,6 +1069,29 @@
       "points": 5,
       "detachmentId": "6493-9079-727d-d95f",
       "text": "NECRONS model only. Each time a model in the bearer's unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "AP",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "AP",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              }
+            ],
+            "condition": "Each time a model in the bearer's unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+          }
+        ]
+      },
       "bearers": [
         [
           "Necrons"
@@ -1131,7 +1162,7 @@
           {
             "roll": "wound",
             "mod": "reroll1",
-            "condition": "If this unit is wholly within your army's Power Matrix, each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+            "condition": "While the bearer is leading a unit, if that unit is wholly within your army's Power Matrix, each time a model in that unit makes an attack, re-roll a Wound roll of 1."
           }
         ]
       },
@@ -1202,6 +1233,20 @@
             "stat": "keywords",
             "op": "append",
             "value": "Precision, Anti-INFANTRY 5+"
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Precision",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Infantry 5+",
+            "fromText": true
           }
         ]
       },
@@ -1250,7 +1295,7 @@
           {
             "roll": "hit",
             "mod": "reroll",
-            "condition": "Each time a model in this unit makes an attack that targets an enemy unit within range of an objective marker, you can re-roll the Hit roll."
+            "condition": "Each time a model in the bearer's unit makes an attack that targets an enemy unit within range of an objective marker, you can re-roll the Hit roll."
           }
         ]
       },
@@ -1269,6 +1314,14 @@
       "points": 30,
       "detachmentId": "9ebf-2bbd-6059-1d40",
       "text": "NECRONS model only. The bearer has the Feel No Pain 4+ ability.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+",
+            "text": "The bearer has the Feel No Pain 4+ ability."
+          }
+        ]
+      },
       "bearers": [
         [
           "Necrons"
@@ -1290,7 +1343,7 @@
           {
             "roll": "hit",
             "mod": "reroll",
-            "condition": "If this unit was set up on the battlefield this turn, you can re-roll the Hit roll instead."
+            "condition": "If the bearer's unit was set up on the battlefield this turn, you can re-roll the Hit roll instead."
           }
         ]
       },
@@ -1306,6 +1359,23 @@
       "points": 15,
       "detachmentId": "8861-5385-8fd1-dfee",
       "text": "NECRONS model only. Each time the bearer's unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in the bearer's unit.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "M",
+                "op": "add",
+                "value": 6,
+                "fromText": true,
+                "wholeUnit": true
+              }
+            ],
+            "condition": "Instead, until the end of the phase, add 6\" to the Move characteristic of models in the bearer's unit."
+          }
+        ]
+      },
       "bearers": [
         [
           "Necrons"
@@ -1497,7 +1567,23 @@
       "name": "Prelocational Optimiser",
       "points": 25,
       "detachmentId": "7e16-552d-f3a9-035f",
-      "text": "When this unit is selected to shoot, if this unit was set up using a Monolith’s Eternity Gate ability this turn, this unit’s ranged attacks have: \n- [LETHAL HITS]. \n- Or: [SUSTAINED HITS 1]."
+      "text": "When this unit is selected to shoot, if this unit was set up using a Monolith’s Eternity Gate ability this turn, this unit’s ranged attacks have: \n- [LETHAL HITS]. \n- Or: [SUSTAINED HITS 1].",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Lethal Hits",
+                "fromText": true
+              }
+            ],
+            "condition": "when chosen: When this unit is selected to shoot, if this unit was set up using a Monolith's Eternity Gate ability this turn, this unit's ranged attacks have [LETHAL HITS]."
+          }
+        ]
+      }
     },
     {
       "id": "3f7d-0bb3-4dac-e7f0",
@@ -6489,8 +6575,7 @@
               "roll": "hit",
               "mod": -1,
               "against": true,
-              "kind": "melee",
-              "condition": "Melee attacks that target this unit have -1 to hit rolls."
+              "kind": "melee"
             }
           ]
         }
@@ -17478,6 +17563,20 @@
           "id": "a511-d9ca-17d0-42c5",
           "name": "Reanimation Protocols"
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Gravitational Field",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "charge",
+              "mod": -2,
+              "condition": "Each time an enemy unit selects this model as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other reductions to that Charge roll)."
+            }
+          ],
+          "onlyModel": true
+        }
       ]
     },
     {
@@ -18313,6 +18412,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "ranged",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Ignores Cover",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Nebuloscope",

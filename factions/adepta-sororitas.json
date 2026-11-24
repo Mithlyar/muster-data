@@ -738,6 +738,23 @@
       "points": 10,
       "detachmentId": "575d-76f6-2edb-22c1",
       "text": "CANONESS or PALATINE model only. The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "Sv",
+            "op": "set",
+            "value": "2+",
+            "fromText": true
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability."
+          }
+        ]
+      },
       "bearers": [
         [
           "Canoness"
@@ -765,6 +782,29 @@
       "points": 15,
       "detachmentId": "575d-76f6-2edb-22c1",
       "text": "**^^Adepta Sororitas^^** model only. Each time the bearer is selected to fight, you can first discard up to 3 Miracle dice. For each Miracle dice just discarded, until the end of the phase, add 1 to the Attacks and Strength characteristics of the bearer's melee weapons.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "A",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "S",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              }
+            ],
+            "condition": "For each Miracle dice just discarded, until the end of the phase, add 1 to the Attacks and Strength characteristics of the bearer's melee weapons."
+          }
+        ]
+      },
       "bearers": [
         [
           "Adepta Sororitas"
@@ -777,6 +817,24 @@
       "points": 10,
       "detachmentId": "5c81-a47b-d3a0-31e8",
       "text": "ADEPTA SORORITAS model only. The bearer’s weapons have the [PRECISION] ability. Each time the bearer’s unit destroys an enemy Character model, you gain 1CP.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Precision",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Precision",
+            "fromText": true
+          }
+        ]
+      },
       "bearers": [
         [
           "Adepta Sororitas"
@@ -790,6 +848,27 @@
       "detachmentId": "5c81-a47b-d3a0-31e8",
       "text": "**^^Adepta Sororitas^^** model only. Add 1 to the Attacks characteristic of the bearer’s melee weapons. While the bearer’s unit is Righteous, add 2 to the Attacks characteristic and add 1 to the Damage characteristic of the bearer’s melee weapons instead.",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "A",
+                "op": "add",
+                "value": 2,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "D",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              }
+            ],
+            "condition": "While the bearer's unit is Righteous, add 2 to the Attacks characteristic and add 1 to the Damage characteristic of the bearer's melee weapons instead."
+          }
+        ],
         "stats": [
           {
             "on": "melee",
@@ -885,6 +964,34 @@
       "detachmentId": "8e26-78e2-10bd-6982",
       "text": "**^^Adepta Sororitas^^** model only. Add 1 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons. If the bearer has lost one or more wounds, add 2 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons instead.",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "A",
+                "op": "add",
+                "value": 2,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "S",
+                "op": "add",
+                "value": 2,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "D",
+                "op": "add",
+                "value": 2,
+                "fromText": true
+              }
+            ],
+            "condition": "If the bearer has lost one or more wounds, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+          }
+        ],
         "stats": [
           {
             "on": "melee",
@@ -953,6 +1060,18 @@
       "points": 15,
       "detachmentId": "a2f5-a466-96b6-d389",
       "text": "PENITENT model only. While the bearer is leading a unit, models in that unit have a 5+ invulnerable save.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "InvSv",
+            "op": "atMost",
+            "value": 5,
+            "fromText": true,
+            "wholeUnit": true
+          }
+        ]
+      },
       "keywords": [
         "Penitent"
       ],
@@ -1007,6 +1126,40 @@
             "mod": -1,
             "against": true,
             "condition": "when chosen: - Chorus of Repudiation: Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+          }
+        ],
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "M",
+                "op": "add",
+                "value": 1,
+                "fromText": true,
+                "wholeUnit": true
+              }
+            ],
+            "condition": "when chosen: - Catechism of Raging Fervour: This unit has +1\" M."
+          },
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "S",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "S",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              }
+            ],
+            "condition": "when chosen: - Psalm of Righteous Smiting: This unit's attacks have +1 S."
           }
         ]
       },
@@ -2393,6 +2546,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm shield",
@@ -5931,7 +6093,22 @@
         },
         {
           "rule": "Virtue of Intolerance",
-          "stats": [],
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
           "rolls": [
             {
               "roll": "hit",
@@ -7573,6 +7750,19 @@
               "roll": "hit",
               "mod": -1,
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Auspex Array",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
             }
           ],
           "onlyModel": true
@@ -13883,6 +14073,40 @@
       },
       "selfEffects": [
         {
+          "rule": "Imperial Law",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a model in this unit makes an attack that targets that enemy unit, that attack has the [Lethal Hits] and [Precision] abilities."
+        },
+        {
           "rule": "Soulguilt scanner",
           "stats": [
             {
@@ -16286,6 +16510,19 @@
               "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
+        },
+        {
+          "rule": "CAT Unit",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by this unit gain the [Ignores Cover] ability."
         }
       ]
     },
@@ -20722,7 +20959,29 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Judged for Execution",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Until the start of your next Command phase, each time a model in this unit makes an attack that targets the selected unit, that attack has the [LETHAL HITS] ability."
+        }
+      ]
     },
     {
       "id": "a8a5-f886-c09e-a6f2",
@@ -21158,8 +21417,7 @@
               "roll": "hit",
               "mod": -1,
               "against": true,
-              "kind": "melee",
-              "condition": "Melee attacks that target this unit have -1 to hit rolls."
+              "kind": "melee"
             }
           ]
         }
@@ -23139,6 +23397,20 @@
           ],
           "onlyModel": true,
           "condition": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model."
+        },
+        {
+          "rule": "Saturation Fire",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the [IGNORES COVER] ability."
         },
         {
           "rule": "Invulnerable Save (5+*)",
@@ -25637,6 +25909,20 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Thin Their Ranks",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability."
+        },
         {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
@@ -39080,7 +39366,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Masters of Close Confines",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability."
+        }
+      ]
     },
     {
       "id": "f158-1e0b-585b-bf40",

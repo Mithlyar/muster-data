@@ -516,6 +516,15 @@
               "World Eaters"
             ]
           ],
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lance",
+              "fromText": true
+            }
+          ],
           "rolls": [
             {
               "roll": "charge",
@@ -685,7 +694,7 @@
           {
             "roll": "charge",
             "mod": 1,
-            "condition": "In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for this unit."
+            "condition": "In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer's unit."
           }
         ]
       },
@@ -821,6 +830,13 @@
       "detachmentId": "1558-660f-466b-a087",
       "text": "The bearer has the Deep Strike ability, and it has the BLOOD LEGIONS Faction keyword instead of the WORLD EATERS Faction keyword.",
       "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Deep Strike",
+            "text": "This model has the Deep Strike ability, and it has the BLOOD LEGIONS Faction keyword instead of the WORLD EATERS Faction keyword.",
+            "condition": "The bearer has the Deep Strike ability, and it has the BLOOD LEGIONS Faction keyword instead of the WORLD EATERS Faction keyword."
+          }
+        ],
         "keywords": [
           "Faction: Blood Legions"
         ]
@@ -937,6 +953,15 @@
       "points": 20,
       "detachmentId": "8a29-5bbd-3ee6-b64a",
       "text": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport^^**, that ^^**Dedicated Transport^^** has the Scouts 9\" ability.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Scouts 9\"",
+            "text": "In the Declare Battle Formations step, if this model starts the battle embarked within a Dedicated Transport, that Dedicated Transport has the Scouts 9\" ability.",
+            "condition": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a Dedicated Transport, that Dedicated Transport has the Scouts 9\" ability."
+          }
+        ]
+      },
       "keywords": [
         "World Eaters"
       ]
@@ -957,6 +982,15 @@
       "points": 25,
       "detachmentId": "8a29-5bbd-3ee6-b64a",
       "text": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer's unit has the Fights First ability.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Fights First",
+            "text": "If it does, until the end of the phase, this unit has the Fights First ability.",
+            "condition": "If it does, until the end of the phase, the bearer's unit has the Fights First ability."
+          }
+        ]
+      },
       "keywords": [
         "World Eaters"
       ]
@@ -8996,6 +9030,29 @@
           ],
           "onlyModel": true,
           "condition": "While this model is within 3\" of one or more friendly World Eaters Infantry units, this model has the Lone Operative ability."
+        },
+        {
+          "rule": "Devastating Assault",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true,
+              "weaponName": "hellforged weapons"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true,
+              "weaponName": "hellforged weapons"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a Charge move, until the end of the turn, its hellforged weapons have the [DEVASTATING WOUNDS] ability."
         }
       ]
     },
@@ -16153,6 +16210,20 @@
       ],
       "selfEffects": [
         {
+          "rule": "Bloodlust",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [Devastating Wounds] ability."
+        },
+        {
           "rule": "Damaged: 1-9 wounds remaining",
           "stats": [
             {
@@ -17568,6 +17639,20 @@
           ],
           "onlyModel": true,
           "condition": "While this model has 1-8 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "rule": "Bloodlust",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [SUSTAINED HITS 1] ability."
         }
       ]
     },
@@ -18543,6 +18628,19 @@
           "type": "Transport",
           "name": "Mastodon",
           "text": "This model has a transport capacity of 45 Adeptus Astartes Infantry models. And 2 Dreadnought models. Each Jump Pack, Gravis, Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Dreadnought model take up the space of a number of models equal to their W characteristic."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Inviolable Transport",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
         }
       ]
     },
@@ -20626,7 +20724,7 @@
               "op": "add",
               "value": 2,
               "fromText": true,
-              "weaponName": "slaughter and carnage"
+              "weaponName": "slaughter"
             },
             {
               "on": "melee",
@@ -20634,7 +20732,7 @@
               "op": "add",
               "value": 2,
               "fromText": true,
-              "weaponName": "slaughter and carnage"
+              "weaponName": "slaughter"
             }
           ],
           "onlyModel": true,

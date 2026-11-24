@@ -705,13 +705,13 @@
             "roll": "hit",
             "mod": "reroll1",
             "kind": "melee",
-            "condition": "Each time this model makes a melee attack, if this model is on your defensive line, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            "condition": "Each time the bearer makes a melee attack, if the bearer is on your defensive line, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
           },
           {
             "roll": "wound",
             "mod": "reroll1",
             "kind": "melee",
-            "condition": "Each time this model makes a melee attack, if this model is on your defensive line, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            "condition": "Each time the bearer makes a melee attack, if the bearer is on your defensive line, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
           }
         ]
       },
@@ -730,6 +730,22 @@
       "points": 20,
       "detachmentId": "884c-fbb7-9f22-1297",
       "text": "**^^Imperial Knights^^** model only. Each time the bearer makes a ranged attack, while the bearer is on your defensive line, weapons equipped by the bearer have the **[IGNORES COVER]** ability.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Ignores Cover",
+                "fromText": true
+              }
+            ],
+            "condition": "Each time the bearer makes a ranged attack, while the bearer is on your defensive line, weapons equipped by the bearer have the [IGNORES COVER] ability."
+          }
+        ]
+      },
       "keywords": [
         "Imperial Knights"
       ],
@@ -790,6 +806,22 @@
       "points": 15,
       "detachmentId": "a692-b024-09d9-b79f",
       "text": "**^^Imperial Knights^^** model only. When the bearer is selected to fight, it can use this Enhancement. If it does, this Enhancement is expended, then until the end of the phase, melee equipped by the bearer have the **[SUSTAINED HITS 2]** ability.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Sustained Hits 2",
+                "fromText": true
+              }
+            ],
+            "condition": "If it does, this Enhancement is expended, then until the end of the phase, melee equipped by the bearer have the [SUSTAINED HITS 2] ability."
+          }
+        ]
+      },
       "keywords": [
         "Imperial Knights"
       ],
@@ -825,7 +857,7 @@
           {
             "roll": "hit",
             "mod": "reroll1",
-            "condition": "While two or more Armiger models are under the effects of this model's Bondsman ability, each time each of those Armiger models makes an attack, you can re-roll a Hit roll of 1."
+            "condition": "While two or more Armiger models are under the effects of the bearer's Bondsman ability, each time each of those Armiger models makes an attack, you can re-roll a Hit roll of 1."
           }
         ]
       },
@@ -844,6 +876,22 @@
       "points": 10,
       "detachmentId": "d469-239c-7e4c-4210",
       "text": "**^^Imperial Knights^^** model only. While two or more **^^Armiger^^** models are under the effects of the bearer's Bondsman ability, melee weapons equipped by those **^^Armiger^^** models have the **[PRECISION]** ability.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Precision",
+                "fromText": true
+              }
+            ],
+            "condition": "While two or more Armiger models are under the effects of the bearer's Bondsman ability, melee weapons equipped by those Armiger models have the [PRECISION] ability."
+          }
+        ]
+      },
       "keywords": [
         "Imperial Knights"
       ],
@@ -2182,6 +2230,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm shield",
@@ -4639,6 +4696,19 @@
               "roll": "hit",
               "mod": -1,
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Auspex Array",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
             }
           ],
           "onlyModel": true
@@ -9726,6 +9796,40 @@
       },
       "selfEffects": [
         {
+          "rule": "Imperial Law",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a model in this unit makes an attack that targets that enemy unit, that attack has the [Lethal Hits] and [Precision] abilities."
+        },
+        {
           "rule": "Soulguilt scanner",
           "stats": [
             {
@@ -11306,6 +11410,19 @@
               "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
+        },
+        {
+          "rule": "CAT Unit",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by this unit gain the [Ignores Cover] ability."
         }
       ]
     },
@@ -16951,6 +17068,20 @@
           "condition": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model."
         },
         {
+          "rule": "Saturation Fire",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the [IGNORES COVER] ability."
+        },
+        {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
             {
@@ -19465,6 +19596,20 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Thin Their Ranks",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability."
+        },
         {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
@@ -27993,7 +28138,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Masters of Close Confines",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability."
+        }
+      ]
     },
     {
       "id": "f158-1e0b-585b-bf40",

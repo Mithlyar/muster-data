@@ -349,10 +349,20 @@
               "Blades for Hire"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Ability",
-              "text": "Each time a Kabal or Blades for Hire model in this unit makes an attack that targets the Contract unit, that attack has the [Precision] ability."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
             }
           ],
           "condition": "when Ability is chosen"
@@ -367,10 +377,20 @@
               "Blades for Hire"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Ability",
-              "text": "Each time a Kabal or Blades for Hire model in this unit makes an attack that targets an Infantry or Mounted unit, that attack has the [Sustained Hits 1] ability."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
             }
           ],
           "condition": "when Ability is chosen"
@@ -385,10 +405,20 @@
               "Blades for Hire"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Ability",
-              "text": "Each time a Kabal or Blades for Hire model in this unit makes an attack that targets a Monster or Vehicle unit, that attack has the [Lethal Hits] ability."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
             }
           ],
           "condition": "when Ability is chosen"
@@ -635,13 +665,15 @@
               "Wych Cult"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Exacting Cruelty",
-              "text": "Friendly WYCH CULT units' melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE]."
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits: non-Monster/Vehicle",
+              "fromText": true
             }
-          ],
-          "condition": "Friendly WYCH CULT units' melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE]."
+          ]
         }
       ],
       "stratagems": [
@@ -689,13 +721,15 @@
               "Kabal"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Contracted Harvest",
-              "text": "Friendly BLADES FOR HIRE/KABAL units' ranged attacks have [SUSTAINED HITS 1: non-MONSTER/VEHICLE]."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1: non-Monster/Vehicle",
+              "fromText": true
             }
-          ],
-          "condition": "Friendly BLADES FOR HIRE/KABAL units' ranged attacks have [SUSTAINED HITS 1: non-MONSTER/VEHICLE]."
+          ]
         }
       ],
       "stratagems": [
@@ -798,6 +832,46 @@
       "detachmentId": "e299-e560-ccec-eeb3",
       "text": "**^^Succubus^^** model only. Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. Each time the bearer's unit is selected to fight, you can spend 1 Pain token; if you do, until the end of the phase, improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead.",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "A",
+                "op": "add",
+                "value": 1,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "AP",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              }
+            ],
+            "condition": "when chosen: Improve the Attacks and Armour Penetration characteristics of this model's melee weapons by 1."
+          },
+          {
+            "stats": [
+              {
+                "on": "melee",
+                "stat": "A",
+                "op": "add",
+                "value": 2,
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "AP",
+                "op": "add",
+                "value": -2,
+                "fromText": true
+              }
+            ],
+            "condition": "when chosen: Each time this unit is selected to fight, you can spend 1 Pain token; if you do, until the end of the phase, improve the Attacks and Armour Penetration characteristics of this model's melee weapons by 2 instead."
+          }
+        ],
         "stats": [
           {
             "on": "melee",
@@ -855,6 +929,15 @@
       "points": 15,
       "detachmentId": "e688-8140-bc36-3cee",
       "text": "^^**Harlequins**^^ or ^^**Drukhari**^^ model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport**^^, that ^^**Dedicated Transport**^^ has the Scouts 9\" ability.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Scouts 9\"",
+            "text": "In the Declare Battle Formations step, if this model starts the battle embarked within a Dedicated Transport, that Dedicated Transport has the Scouts 9\" ability.",
+            "condition": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a Dedicated Transport, that Dedicated Transport has the Scouts 9\" ability."
+          }
+        ]
+      },
       "bearers": [
         [
           "Harlequins"
@@ -870,6 +953,14 @@
       "points": 15,
       "detachmentId": "e688-8140-bc36-3cee",
       "text": "^^**Harlequins**^^ or ^^**Drukhari**^^ model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re‑roll Charge rolls made for that unit.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "Models in this unit have the Deep Strike ability."
+          }
+        ]
+      },
       "bearers": [
         [
           "Harlequins"
@@ -990,6 +1081,38 @@
       "points": 5,
       "detachmentId": "47c7-52f9-c23d-1e4e",
       "text": "^^**Haemonculus**^^ model only. The bearer's weapons have the ^^**[Anti-Beast 2+]**^^ and ^^**[Anti-Monster 4+]**^^ abilities.",
+      "effects": {
+        "stats": [
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Beast 2+",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Beast 2+",
+            "fromText": true
+          },
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Monster 4+",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Anti-Monster 4+",
+            "fromText": true
+          }
+        ]
+      },
       "keywords": [
         "Haemonculus"
       ],
@@ -1053,6 +1176,20 @@
       "detachmentId": "b033-0c01-012e-fcca",
       "text": "^^**Archon**^^ model only. The bearer has a Save characteristic of 3+. At the start of either player's Command phase, you can spend 1 Pain token; if you do, the bearer regains all of its lost wounds.",
       "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "Sv",
+                "op": "set",
+                "value": "3+",
+                "fromText": true
+              }
+            ],
+            "condition": "when chosen: This model has a Save characteristic of 3+."
+          }
+        ],
         "stats": [
           {
             "on": "unit",
@@ -1115,6 +1252,26 @@
       "points": 20,
       "detachmentId": "b033-0c01-012e-fcca",
       "text": "^^**Archon**^^ models only. While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "Ld",
+            "op": "add",
+            "value": -1,
+            "fromText": true,
+            "wholeUnit": true
+          },
+          {
+            "on": "unit",
+            "stat": "OC",
+            "op": "add",
+            "value": 1,
+            "fromText": true,
+            "wholeUnit": true
+          }
+        ]
+      },
       "keywords": [
         "Archon"
       ],
@@ -1145,6 +1302,15 @@
       "points": 15,
       "detachmentId": "7008-2116-f479-a791",
       "text": "^^** Succubus**^^ model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer's unit have the Fights First ability.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Fights First",
+            "text": "If it does, until the end of the phase, models in this unit have the Fights First ability.",
+            "condition": "If it does, until the end of the phase, models in the bearer's unit have the Fights First ability."
+          }
+        ]
+      },
       "keywords": [
         "Succubus"
       ],
@@ -1175,6 +1341,24 @@
       "points": 20,
       "detachmentId": "7008-2116-f479-a791",
       "text": "^^**Succubus**^^ model only. Improve the Armour Penetration and Damage characteristics of the bearer's melee weapons by 1.",
+      "effects": {
+        "stats": [
+          {
+            "on": "melee",
+            "stat": "AP",
+            "op": "add",
+            "value": -1,
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "D",
+            "op": "add",
+            "value": 1,
+            "fromText": true
+          }
+        ]
+      },
       "keywords": [
         "Succubus"
       ],
@@ -6184,6 +6368,42 @@
             "Voidscarred with special weapon"
           ]
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Piratical Raiders",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a model in this unit makes an attack that targets that enemy unit, that attack has the [LETHAL HITS] and [PRECISION] abilities."
+        }
       ]
     },
     {
@@ -8703,6 +8923,20 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "unit",
+                        "stat": "OC",
+                        "op": "add",
+                        "value": 1,
+                        "fromText": true
+                      }
+                    ],
+                    "condition": "While the bearer's unit is not Battle-shocked, add 1 to the bearer's Objective Control characteristic."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Kabalite icon",
@@ -9492,6 +9726,19 @@
               "condition": "Each time a model in this unit makes a melee attack that targets a Battle-shocked unit, add 1 to the Hit roll."
             }
           ]
+        },
+        {
+          "rule": "Decapitating Strikes (Pain)",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: While Empowered, each time a model in this unit makes a melee attack that targets an Infantry unit, that attack has the [Devastating Wounds] ability."
         }
       ]
     },
@@ -10029,6 +10276,20 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "unit",
+                        "stat": "OC",
+                        "op": "add",
+                        "value": 1,
+                        "fromText": true
+                      }
+                    ],
+                    "condition": "While the bearer's unit is not Battle-shocked, add 1 to the bearer's Objective Control characteristic."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Kabalite Icon",
@@ -10834,6 +11095,27 @@
           {
             "roll": "hit",
             "mod": 1
+          }
+        ],
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Sustained Hits 1",
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Sustained Hits 1",
+                "fromText": true
+              }
+            ],
+            "condition": "While this model is leading a unit, each time a model in that unit makes an attack, that attack has the [Sustained Hits 1] ability and add 1 to the Hit roll."
           }
         ]
       }
@@ -11848,6 +12130,34 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Electromagnetic Cascade (Pain)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 2",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: While Empowered Each time this model makes a ranged attack that targets a Vehicle unit, that attack has the [SUSTAINED HITS 2] ability."
+        },
+        {
+          "rule": "Electromagnetic Cascade (Pain)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: While Empowered Each time this model makes a ranged attack that targets a non-Vehicle unit, that attack has the [SUSTAINED HITS 1] ability."
         }
       ]
     },
@@ -13907,8 +14217,7 @@
               "roll": "hit",
               "mod": -1,
               "against": true,
-              "kind": "melee",
-              "condition": "Melee attacks that target this unit have -1 to hit rolls."
+              "kind": "melee"
             }
           ]
         }
@@ -14810,6 +15119,28 @@
         {
           "fromCopy": 3,
           "points": 10
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Devoted to Pain",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Twin-Linked",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Twin-Linked",
+              "fromText": true
+            }
+          ],
+          "condition": "If a model in this unit is equipped with 2 macro-scalpels, those weapons have the [Twin-Linked] ability."
         }
       ]
     },

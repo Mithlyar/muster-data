@@ -143,10 +143,13 @@
               "T'au Empire"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Killing Blow",
-              "text": "During the first, second and third battle rounds, while a unit is a Guided unit (see For the Greater Good), its ranged weapons have the [LETHAL HITS] ability."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
             }
           ],
           "condition": "During the first, second and third battle rounds, while a unit is a Guided unit (see For the Greater Good), its ranged weapons have the [LETHAL HITS] ability."
@@ -598,6 +601,22 @@
       "points": 30,
       "detachmentId": "e366-3583-f47a-986e",
       "text": "**T’AU EMPIRE** model only (excluding **KROOT SHAPER** models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[LETHAL HITS]** ability while targeting their Spotted unit.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Lethal Hits",
+                "fromText": true
+              }
+            ],
+            "condition": "While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit."
+          }
+        ]
+      },
       "bearers": [
         [
           "T'au Empire"
@@ -649,6 +668,22 @@
       "points": 30,
       "detachmentId": "6aea-8ba5-978e-8def",
       "text": "**T’AU EMPIRE** model only (excluding **KROOT SHAPER** models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[SUSTAINED HITS 1]** ability while targeting their Spotted unit.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Sustained Hits 1",
+                "fromText": true
+              }
+            ],
+            "condition": "While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [SUSTAINED HITS 1] ability while targeting their Spotted unit."
+          }
+        ]
+      },
       "bearers": [
         [
           "T'au Empire"
@@ -722,6 +757,25 @@
       "points": 20,
       "detachmentId": "452e-5b5b-cdbc-c94a",
       "text": "**^^Kroot Trail Shaper^^** model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by the models in that unit have the **[ASSAULT]** ability.",
+      "effects": {
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "M",
+            "op": "add",
+            "value": 3,
+            "fromText": true,
+            "wholeUnit": true
+          },
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Assault",
+            "fromText": true
+          }
+        ]
+      },
       "bearers": [
         [
           "Kroot",
@@ -755,6 +809,34 @@
             "stat": "keywords",
             "op": "append",
             "value": "Precision, Devastating Wounds"
+          },
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Precision",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Precision",
+            "fromText": true
+          },
+          {
+            "on": "ranged",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true
           }
         ]
       },
@@ -1241,7 +1323,51 @@
             "fromText": true
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Martial Warrior",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks Direct Grace: Fidelity has the [PRECISION] ability."
+        },
+        {
+          "rule": "Martial Warrior",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "when chosen: Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks Forceful Strike: Fidelity has the [DEVASTATING WOUNDS] ability."
+        }
+      ]
     },
     {
       "id": "2582-676d-fc9f-c146",
@@ -3884,7 +4010,7 @@
                     "mod": -1,
                     "against": true,
                     "kind": "ranged",
-                    "condition": "Each time a model makes a ranged attack that targets this unit, subtract 1 from the Wound roll."
+                    "condition": "Each time a model makes a ranged attack that targets the bearer's unit, subtract 1 from the Wound roll."
                   }
                 ],
                 "abilities": [
@@ -7179,6 +7305,19 @@
         "onslaught": 1
       },
       "selfEffects": [
+        {
+          "rule": "Advanced Guardian Drone",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": -1,
+              "against": true,
+              "kind": "ranged"
+            }
+          ],
+          "onlyModel": true
+        },
         {
           "rule": "Hero of the Empire (Aura)",
           "stats": [],
@@ -13886,6 +14025,42 @@
           "fromCopy": 3,
           "points": 10
         }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Bounty Hunters",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a model in this unit makes an attack that targets that enemy unit, that attack has the [LETHAL HITS] and [PRECISION] abilities."
+        }
       ]
     },
     {
@@ -16373,6 +16548,13 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "rolls": [
+                  {
+                    "roll": "charge",
+                    "mod": -2,
+                    "condition": "Each time an enemy unit selects the bearer's unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll)."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Grav-inhibitor Drone",
@@ -16423,6 +16605,13 @@
               ],
               "points": 0,
               "effects": {
+                "sometimesAbilities": [
+                  {
+                    "name": "Infiltrators",
+                    "text": "This model is equipped with 1 drone burst cannon and this unit has the Infiltrators ability.",
+                    "condition": "The bearer is equipped with 1 drone burst cannon and the bearer's unit has the Infiltrators ability."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Recon Drone",
@@ -16565,6 +16754,20 @@
               "stat": "skill",
               "op": "add",
               "value": -1,
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
               "fromText": true
             }
           ],
@@ -21281,15 +21484,24 @@
       "selfEffects": [
         {
           "rule": "Damaged: 1-5 Wounds Remaining",
-          "stats": [],
+          "stats": [
+            {
+              "on": "unit",
+              "stat": "OC",
+              "op": "add",
+              "value": -3,
+              "fromText": true
+            }
+          ],
           "rolls": [
             {
               "roll": "hit",
               "mod": -1,
-              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this models Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
+              "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ],
-          "onlyModel": true
+          "onlyModel": true,
+          "condition": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
         },
         {
           "rule": "Titan-killer",
@@ -21580,7 +21792,7 @@
                     "mod": -1,
                     "against": true,
                     "kind": "ranged",
-                    "condition": "Each time a model makes a ranged attack that targets this unit, subtract 1 from the Wound roll."
+                    "condition": "Each time a model makes a ranged attack that targets the bearer's unit, subtract 1 from the Wound roll."
                   }
                 ],
                 "abilities": [
@@ -22830,7 +23042,29 @@
         "incursion": 1,
         "strike-force": 1,
         "onslaught": 1
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Exemplars of Mont’ka",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
+        }
+      ]
     },
     {
       "id": "af7f-fc61-e9c0-6a7e",
@@ -24209,6 +24443,20 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "ranged",
+                        "stat": "keywords",
+                        "op": "append",
+                        "value": "Ignores Cover",
+                        "fromText": true
+                      }
+                    ],
+                    "condition": "Once per battle, when the bearer's unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Oversight Drone",

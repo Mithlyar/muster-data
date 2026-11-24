@@ -611,16 +611,16 @@
       ],
       "stratagems": [
         {
-          "name": "Multitudinous Limbs",
-          "cp": 1,
-          "turn": "Your turn",
-          "phase": "Shooting phase"
-        },
-        {
           "name": "Relentless Rebirth",
           "cp": 1,
           "turn": "Either player's turn",
           "phase": "Any phase"
+        },
+        {
+          "name": "Multitudinous Limbs",
+          "cp": 1,
+          "turn": "Your turn",
+          "phase": "Shooting phase"
         },
         {
           "name": "Mutagenic Magicks",
@@ -918,6 +918,25 @@
       "points": 25,
       "detachmentId": "7b92-cca6-0617-1b6d",
       "text": "While the bearer’s unit is wholly within your army’s Flow of Magic, add 3 to the Attacks characteristic of ranged Psychic weapons equipped by the bearer.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "A",
+                "op": "add",
+                "value": 3,
+                "fromText": true,
+                "weaponTags": [
+                  "Psychic"
+                ]
+              }
+            ],
+            "condition": "While the bearer's unit is wholly within your army's Flow of Magic, add 3 to the Attacks characteristic of ranged Psychic weapons equipped by the bearer."
+          }
+        ]
+      },
       "keywords": [
         "Thousand Sons"
       ]
@@ -950,7 +969,7 @@
           {
             "roll": "psychicTest",
             "mod": 1,
-            "condition": "While this model is within 6\" of one or more friendly Scintillating Legion units, each time this model Channels the Warp, add 1 to the Psychic test result."
+            "condition": "While the bearer is within 6\" of one or more friendly Scintillating Legion units, each time the bearer Channels the Warp, add 1 to the Psychic test result."
           }
         ]
       },
@@ -971,6 +990,22 @@
       "points": 20,
       "detachmentId": "6acc-9928-2b67-73c3",
       "text": "Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 2+ invulnerable save.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "InvSv",
+                "op": "atMost",
+                "value": 2,
+                "fromText": true
+              }
+            ],
+            "condition": "If it does, until the end of the phase, the bearer has a 2+ invulnerable save."
+          }
+        ]
+      },
       "keywords": [
         "Infantry"
       ]
@@ -1123,6 +1158,20 @@
             "stat": "keywords",
             "op": "append",
             "value": "Sustained Hits D3, Devastating Wounds"
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Sustained Hits D3",
+            "fromText": true
+          },
+          {
+            "on": "melee",
+            "stat": "keywords",
+            "op": "append",
+            "value": "Devastating Wounds",
+            "fromText": true
           }
         ]
       },
@@ -1146,6 +1195,15 @@
       "points": 20,
       "detachmentId": "8839-1789-36e7-b66a",
       "text": "While the bearer is within 3\" of one or more friendly ^^**Thousand Sons Vehicle^^** units, the bearer has the Lone Operative ability.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Lone Operative",
+            "text": "This model has the Lone Operative ability.",
+            "condition": "While the bearer is within 3\" of one or more friendly Thousand Sons Vehicle units, the bearer has the Lone Operative ability."
+          }
+        ]
+      },
       "keywords": [
         "Infantry"
       ]
@@ -3207,6 +3265,41 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "ranged",
+                        "stat": "S",
+                        "op": "add",
+                        "value": 3,
+                        "fromText": true
+                      },
+                      {
+                        "on": "melee",
+                        "stat": "S",
+                        "op": "add",
+                        "value": 3,
+                        "fromText": true
+                      },
+                      {
+                        "on": "ranged",
+                        "stat": "A",
+                        "op": "add",
+                        "value": 3,
+                        "fromText": true
+                      },
+                      {
+                        "on": "melee",
+                        "stat": "A",
+                        "op": "add",
+                        "value": 3,
+                        "fromText": true
+                      }
+                    ],
+                    "condition": "If it does, until the end of the phase, improve the Strength and Attacks characteristic of Psychic weapons equipped by this model by 3."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Twisted Sorceries (Psychic)",
@@ -13643,6 +13736,20 @@
       ],
       "selfEffects": [
         {
+          "rule": "Bloodlust",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [Devastating Wounds] ability."
+        },
+        {
           "rule": "Damaged: 1-9 wounds remaining",
           "stats": [
             {
@@ -16050,6 +16157,41 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "ranged",
+                        "stat": "S",
+                        "op": "add",
+                        "value": 3,
+                        "fromText": true
+                      },
+                      {
+                        "on": "melee",
+                        "stat": "S",
+                        "op": "add",
+                        "value": 3,
+                        "fromText": true
+                      },
+                      {
+                        "on": "ranged",
+                        "stat": "A",
+                        "op": "add",
+                        "value": 3,
+                        "fromText": true
+                      },
+                      {
+                        "on": "melee",
+                        "stat": "A",
+                        "op": "add",
+                        "value": 3,
+                        "fromText": true
+                      }
+                    ],
+                    "condition": "If it does, until the end of the phase, improve the Strength and Attacks characteristic of Psychic weapons equipped by this model by 3."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Twisted Sorceries (Psychic)",
@@ -16813,6 +16955,19 @@
           "type": "Transport",
           "name": "Mastodon",
           "text": "This model has a transport capacity of 45 Adeptus Astartes Infantry models. And 2 Dreadnought models. Each Jump Pack, Gravis, Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Dreadnought model take up the space of a number of models equal to their W characteristic."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Inviolable Transport",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
         }
       ]
     },
@@ -18826,6 +18981,15 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "ranged",
+                    "stat": "keywords",
+                    "op": "append",
+                    "value": "Ignores Cover",
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Icon of Flame",
@@ -22348,6 +22512,21 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "unit",
+                        "stat": "Ld",
+                        "op": "add",
+                        "value": -1,
+                        "fromText": true,
+                        "wholeUnit": true
+                      }
+                    ],
+                    "condition": "While the bearer's unit is within range of one or more objective markers you control, improve the Leadership characteristic of models in the bearer's unit by 1."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Herd banner",

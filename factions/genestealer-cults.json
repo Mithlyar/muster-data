@@ -1017,7 +1017,7 @@
           {
             "roll": "charge",
             "mod": 2,
-            "condition": "If it does, until the end of the phase, add 2 to Charge rolls made for this unit."
+            "condition": "If it does, until the end of the phase, add 2 to Charge rolls made for the bearer's unit."
           }
         ]
       },
@@ -1036,6 +1036,22 @@
       "points": 20,
       "detachmentId": "0a79-5968-68f0-56b5",
       "text": "**^^Genestealer Cults^^** model only. Each time the bearer is set up on the battlefield as Reinforcements, until the end of your next Fight phase, ranged weapons equipped in the bearer's unit have the **[LETHAL HITS]** ability.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Lethal Hits",
+                "fromText": true
+              }
+            ],
+            "condition": "Each time the bearer is set up on the battlefield as Reinforcements, until the end of your next Fight phase, ranged weapons equipped in the bearer's unit have the [LETHAL HITS] ability."
+          }
+        ]
+      },
       "keywords": [
         "Genestealer Cults"
       ],
@@ -1071,7 +1087,7 @@
           {
             "roll": "hit",
             "mod": 1,
-            "condition": "Each time a model in this unit makes an attack that targets a Character unit, add 1 to the Hit roll."
+            "condition": "Each time a model in the bearer's unit makes an attack that targets a Character unit, add 1 to the Hit roll."
           }
         ]
       },
@@ -1107,6 +1123,22 @@
       "points": 10,
       "detachmentId": "59e2-4fec-2b00-b1e8",
       "text": "**^^Genestealer Cults^^** model only. While the bearer is embarked within a **^^Transport^^**, each time that **^^Transport^^** is selected to shoot, until end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that **^^Transport^^** as a result of the Firing Deck ability by 1.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "skill",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              }
+            ],
+            "condition": "While the bearer is embarked within a Transport, each time that Transport is selected to shoot, until end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that Transport as a result of the Firing Deck ability by 1."
+          }
+        ]
+      },
       "keywords": [
         "Genestealer Cults"
       ],
@@ -1145,7 +1177,7 @@
             "roll": "hit",
             "mod": "reroll",
             "kind": "ranged",
-            "condition": "Each time a model in this unit makes a ranged attack, if it disembarked from a Transport this turn, you can re-roll the Hit roll."
+            "condition": "Each time a model in the bearer's unit makes a ranged attack, if it disembarked from a Transport this turn, you can re-roll the Hit roll."
           }
         ]
       },
@@ -1231,12 +1263,12 @@
           {
             "roll": "hit",
             "mod": 1,
-            "condition": "Each time a model in this unit makes an attack that targets a Character unit, add 1 to the Hit Roll and add 1 to the Wound roll."
+            "condition": "Each time a model in the bearer's unit makes an attack that targets a Character unit, add 1 to the Hit Roll and add 1 to the Wound roll."
           },
           {
             "roll": "wound",
             "mod": 1,
-            "condition": "Each time a model in this unit makes an attack that targets a Character unit, add 1 to the Hit Roll and add 1 to the Wound roll."
+            "condition": "Each time a model in the bearer's unit makes an attack that targets a Character unit, add 1 to the Hit Roll and add 1 to the Wound roll."
           }
         ]
       },
@@ -1530,6 +1562,16 @@
       ],
       "selfEffects": [
         {
+          "rule": "Feel No Pain 5+",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 5+",
+              "text": "This unit has a 5+ Feel No Pain"
+            }
+          ]
+        },
+        {
           "rule": "Hulking Bodyguards",
           "stats": [],
           "rolls": [
@@ -1661,7 +1703,20 @@
         "unitIds": [
           "f51d-bc51-f301-9dee"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Feel No Pain 5+",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 5+",
+              "text": "This model has a 5+ Feel No Pain"
+            }
+          ],
+          "onlyModel": true
+        }
+      ]
     },
     {
       "id": "cf71-a12a-2730-c40b",
@@ -6026,7 +6081,21 @@
             "fromText": true
           }
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Alchemicus Familiar",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "wound",
+              "mod": 1,
+              "condition": "If it does, until the end of the phase, each time a model in this unit makes an attack that targets an INFANTRY unit, add 1 to the Wound roll"
+            }
+          ],
+          "condition": "If it does, until the end of the phase, each time a model in this unit makes an attack that targets an INFANTRY unit, add 1 to the Wound roll"
+        }
+      ]
     },
     {
       "id": "a5c2-3951-e727-b64a",
@@ -24127,6 +24196,29 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Mow Down the Enemy",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true,
+              "weaponName": "punisher gatling cannon"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true,
+              "weaponName": "punisher gatling cannon"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes an attack with its punisher gatling cannon that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability."
         }
       ]
     },
@@ -29976,6 +30068,21 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Titan-killer",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true,
+              "weaponName": "volcano cannon"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack with its volcano cannon that targets a Monster or Vehicle unit, that attack has the [DEVASTATING WOUNDS] ability."
+        },
         {
           "rule": "Damaged: 1-8 Wounds Remaining",
           "stats": [

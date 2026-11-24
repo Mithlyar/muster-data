@@ -39,10 +39,13 @@
               "Regiment"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Born Soldiers",
-              "text": "Each time a model in a Regiment unit from your army makes a ranged attack that targets a visible unit (excluding Monsters and Vehicles) that attack has the [LETHAL HITS] ability."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
             }
           ],
           "condition": "Each time a model in a Regiment unit from your army makes a ranged attack that targets a visible unit (excluding Monsters and Vehicles) that attack has the [LETHAL HITS] ability."
@@ -54,10 +57,13 @@
               "Squadron"
             ]
           ],
-          "abilities": [
+          "stats": [
             {
-              "name": "Born Soldiers",
-              "text": "Each time a model in a Squadron unit from your army makes a ranged attack that targets a visible Monster or Vehicle unit, that attack has the [LETHAL HITS] ability."
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
             }
           ],
           "condition": "Each time a model in a Squadron unit from your army makes a ranged attack that targets a visible Monster or Vehicle unit, that attack has the [LETHAL HITS] ability."
@@ -882,6 +888,15 @@
       "points": 20,
       "detachmentId": "87b5-6072-b2c5-0cdc",
       "text": "**^^Infantry Officer^^** model only. While the bearer is leading a **^^Regiment^^** unit, that unit has the Scouts 6\" ability.",
+      "effects": {
+        "sometimesAbilities": [
+          {
+            "name": "Scouts 6\"",
+            "text": "If this unit is a Regiment unit, this unit has the Scouts 6\" ability.",
+            "condition": "While the bearer is leading a Regiment unit, that unit has the Scouts 6\" ability."
+          }
+        ]
+      },
       "keywords": [
         "Infantry",
         "Officer"
@@ -1219,6 +1234,22 @@
       "points": 20,
       "detachmentId": "cc4e-a30b-f987-c984",
       "text": "**^^Astra Militarum Officer^^** model only. Each time you select an Order for the bearer to issue, you can select the Order below:\n\n**Target Weak Spot (Order):** Each time a model in this unit makes a ranged attack that targets an enemy unit within 12\", improve the Armour Penetration characteristic of that attack by 1.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "AP",
+                "op": "add",
+                "value": -1,
+                "fromText": true
+              }
+            ],
+            "condition": "Each time a model in this unit makes a ranged attack that targets an enemy unit within 12\", improve the Armour Penetration characteristic of that attack by 1."
+          }
+        ]
+      },
       "keywords": [
         "Astra Militarum",
         "Officer"
@@ -1344,6 +1375,22 @@
       "points": 15,
       "detachmentId": "419a-c366-aa63-ebb5",
       "text": "**^^Astra Militarum Tech‑Priest Enginseer^^** model only. Each time the bearer uses its Omnissiah’s Blessing ability, until the start of your next Command phase, add 3\" to the Move characteristic of the selected Vehicle model.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "M",
+                "op": "add",
+                "value": 3,
+                "fromText": true
+              }
+            ],
+            "condition": "Each time the bearer uses its Omnissiah's Blessing ability, until the start of your next Command phase, add 3\" to the Move characteristic of the selected Vehicle model."
+          }
+        ]
+      },
       "keywords": [
         "Tech-Priest Enginseer",
         "Astra Militarum"
@@ -1461,6 +1508,14 @@
       "points": 10,
       "detachmentId": "57a9-88a1-84c1-e421",
       "text": "**COMMISSAR** model only. This model has **Feel No Pain 4+**.",
+      "effects": {
+        "abilities": [
+          {
+            "name": "Feel No Pain 4+",
+            "text": "This model has Feel No Pain 4+."
+          }
+        ]
+      },
       "upgrade": {
         "maxCopies": 3
       },
@@ -2923,6 +2978,15 @@
               ],
               "points": 0,
               "effects": {
+                "stats": [
+                  {
+                    "on": "unit",
+                    "stat": "InvSv",
+                    "op": "atMost",
+                    "value": 4,
+                    "fromText": true
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Storm shield",
@@ -15087,6 +15151,17 @@
           "condition": "At the start of a phase, you can use this ability. if you do, this model has 2+ InSv."
         },
         {
+          "rule": "Psychic Blank",
+          "stats": [],
+          "abilities": [
+            {
+              "name": "Feel No Pain 4+ (against psychic attacks and mortal wounds)",
+              "text": "This model has Feel No Pain 4+ against psychic attacks and mortal wounds."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
           "rule": "Hero of the Imperium (Aura)",
           "stats": [],
           "rolls": [
@@ -16412,6 +16487,19 @@
               "roll": "hit",
               "mod": -1,
               "condition": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ],
+          "onlyModel": true
+        },
+        {
+          "rule": "Auspex Array",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
             }
           ],
           "onlyModel": true
@@ -24700,6 +24788,40 @@
       },
       "selfEffects": [
         {
+          "rule": "Imperial Law",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            },
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Precision",
+              "fromText": true
+            }
+          ],
+          "condition": "when chosen: Each time a model in this unit makes an attack that targets that enemy unit, that attack has the [Lethal Hits] and [Precision] abilities."
+        },
+        {
           "rule": "Soulguilt scanner",
           "stats": [
             {
@@ -30782,6 +30904,19 @@
               "condition": "If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
             }
           ]
+        },
+        {
+          "rule": "CAT Unit",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "condition": "Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by this unit gain the [Ignores Cover] ability."
         }
       ]
     },
@@ -37113,6 +37248,20 @@
           "condition": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model."
         },
         {
+          "rule": "Saturation Fire",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Ignores Cover",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the [IGNORES COVER] ability."
+        },
+        {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
             {
@@ -39609,6 +39758,20 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Thin Their Ranks",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability."
+        },
         {
           "rule": "Invulnerable Save (5+*)",
           "stats": [
@@ -44629,6 +44792,29 @@
             }
           ],
           "onlyModel": true
+        },
+        {
+          "rule": "Mow Down the Enemy",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true,
+              "weaponName": "punisher gatling cannon"
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true,
+              "weaponName": "punisher gatling cannon"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes an attack with its punisher gatling cannon that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability."
         }
       ]
     },
@@ -55581,6 +55767,20 @@
               "weaponIds": [],
               "points": 0,
               "effects": {
+                "sometimes": [
+                  {
+                    "stats": [
+                      {
+                        "on": "ranged",
+                        "stat": "keywords",
+                        "op": "append",
+                        "value": "Lethal Hits",
+                        "fromText": true
+                      }
+                    ],
+                    "condition": "If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
+                  }
+                ],
                 "abilities": [
                   {
                     "name": "Ratling Battlemutt",
@@ -60700,6 +60900,21 @@
         }
       ],
       "selfEffects": [
+        {
+          "rule": "Titan-killer",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true,
+              "weaponName": "volcano cannon"
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a ranged attack with its volcano cannon that targets a Monster or Vehicle unit, that attack has the [DEVASTATING WOUNDS] ability."
+        },
         {
           "rule": "Damaged: 1-8 Wounds Remaining",
           "stats": [
@@ -69243,7 +69458,22 @@
         "incursion": 2,
         "strike-force": 3,
         "onslaught": 3
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Masters of Close Confines",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Lethal Hits",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability."
+        }
+      ]
     },
     {
       "id": "ed3d-fa87-4f0d-d10c",

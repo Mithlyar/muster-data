@@ -653,6 +653,23 @@
       "points": 25,
       "detachmentId": "7a84-2212-be14-a713",
       "text": "While the bearer is leading a ^^**Poxwalkers**^^ unit, add 1 to the Toughness characteristic of ^^**Poxwalkers**^^ models in that unit.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "T",
+                "op": "add",
+                "value": 1,
+                "fromText": true,
+                "wholeUnit": true
+              }
+            ],
+            "condition": "While the bearer is leading a Poxwalkers unit, add 1 to the Toughness characteristic of Poxwalkers models in that unit."
+          }
+        ]
+      },
       "keywords": [
         "Death Guard"
       ]
@@ -663,6 +680,23 @@
       "points": 25,
       "detachmentId": "7a84-2212-be14-a713",
       "text": "While the bearer is leading a ^^**Poxwalkers**^^ unit, add 1 to the Objective Control characteristic of models in that unit, and each time that unit takes a Battle-shock or Leadership test, add 1 to that test.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "unit",
+                "stat": "OC",
+                "op": "add",
+                "value": 1,
+                "fromText": true,
+                "wholeUnit": true
+              }
+            ],
+            "condition": "While the bearer is leading a Poxwalkers unit, add 1 to the Objective Control characteristic of models in that unit, and each time that unit takes a Battle-shock or Leadership test, add 1 to that test."
+          }
+        ]
+      },
       "keywords": [
         "Noxious Blightbringer"
       ]
@@ -673,6 +707,31 @@
       "points": 10,
       "detachmentId": "7a84-2212-be14-a713",
       "text": "While the bearer is leading a ^^**Poxwalkers**^^ unit, add 1 to the Damage characteristic of the bearer's Plague Wind weapon. Each time the bearer makes one or more attacks with a Plague Wind weapon, after the bearer's unit has resolved its attacks, D3 Bodyguard models from the bearer's unit are destroyed.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "D",
+                "op": "add",
+                "value": 1,
+                "fromText": true,
+                "weaponName": "plague wind"
+              },
+              {
+                "on": "melee",
+                "stat": "D",
+                "op": "add",
+                "value": 1,
+                "fromText": true,
+                "weaponName": "plague wind"
+              }
+            ],
+            "condition": "While the bearer is leading a Poxwalkers unit, add 1 to the Damage characteristic of the bearer's Plague Wind weapon."
+          }
+        ]
+      },
       "keywords": [
         "Malignant Plaguecaster"
       ]
@@ -698,6 +757,16 @@
           {
             "roll": "advance",
             "mod": "reroll"
+          }
+        ],
+        "stats": [
+          {
+            "on": "unit",
+            "stat": "M",
+            "op": "add",
+            "value": 1,
+            "fromText": true,
+            "wholeUnit": true
           }
         ]
       },
@@ -736,7 +805,7 @@
           {
             "roll": "wound",
             "mod": "reroll",
-            "condition": "While this unit is within range of an objective marker you control, each time a model in this unit makes an attack, you can re-roll the Wound roll."
+            "condition": "While the bearer's unit is within range of an objective marker you control, each time a model in the bearer's unit makes an attack, you can re-roll the Wound roll."
           }
         ]
       },
@@ -750,6 +819,23 @@
       "points": 10,
       "detachmentId": "18b0-2d87-798f-ef1c",
       "text": "At the start of your Shooting phase, until the end of the phase, add 12\" to the Range characteristics of the bearer's Plague Wind weapon.",
+      "effects": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "range",
+                "op": "add",
+                "value": 12,
+                "fromText": true,
+                "weaponName": "plague wind"
+              }
+            ],
+            "condition": "At the start of your Shooting phase, until the end of the phase, add 12\" to the Range characteristics of the bearer's Plague Wind weapon."
+          }
+        ]
+      },
       "keywords": [
         "Malignant Plaguecaster"
       ]
@@ -776,7 +862,14 @@
             "roll": "wound",
             "mod": "reroll1",
             "kind": "ranged",
-            "condition": "While this model is within 3\" of one or more friendly Death Guard Vehicle units, this model has the Lone Operative ability, and each time one of those Vehicle units makes a ranged attack that targets an enemy unit visible to this model, re-roll a Wound roll of 1."
+            "condition": "While the bearer is within 3\" of one or more friendly Death Guard Vehicle units, the bearer has the Lone Operative ability, and each time one of those Vehicle units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1."
+          }
+        ],
+        "sometimesAbilities": [
+          {
+            "name": "Lone Operative",
+            "text": "This model has the Lone Operative ability",
+            "condition": "While the bearer is within 3\" of one or more friendly Death Guard Vehicle units, the bearer has the Lone Operative ability, and each time one of those Vehicle units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1."
           }
         ]
       },
@@ -16904,6 +16997,20 @@
       ],
       "selfEffects": [
         {
+          "rule": "Bloodlust",
+          "stats": [
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Devastating Wounds",
+              "fromText": true
+            }
+          ],
+          "onlyModel": true,
+          "condition": "Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [Devastating Wounds] ability."
+        },
+        {
           "rule": "Damaged: 1-9 wounds remaining",
           "stats": [
             {
@@ -18953,6 +19060,29 @@
           "8467-b3a2-2597-de0d",
           "7c30-1e92-2faa-eb03"
         ]
+      },
+      "leading": {
+        "sometimes": [
+          {
+            "stats": [
+              {
+                "on": "ranged",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Sustained Hits 1",
+                "fromText": true
+              },
+              {
+                "on": "melee",
+                "stat": "keywords",
+                "op": "append",
+                "value": "Sustained Hits 1",
+                "fromText": true
+              }
+            ],
+            "condition": "While this model is leading a unit, each time a model in that unit makes an attack which targets a unit which is Afflicted, that attack has the [Sustained Hits 1] ability."
+          }
+        ]
       }
     },
     {
@@ -19269,6 +19399,19 @@
           "type": "Transport",
           "name": "Mastodon",
           "text": "This model has a transport capacity of 45 Adeptus Astartes Infantry models. And 2 Dreadnought models. Each Jump Pack, Gravis, Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Dreadnought model take up the space of a number of models equal to their W characteristic."
+        }
+      ],
+      "selfEffects": [
+        {
+          "rule": "Inviolable Transport",
+          "stats": [],
+          "rolls": [
+            {
+              "roll": "damage",
+              "mod": -1,
+              "against": true
+            }
+          ]
         }
       ]
     },
@@ -22983,7 +23126,29 @@
           "8467-b3a2-2597-de0d",
           "7c30-1e92-2faa-eb03"
         ]
-      }
+      },
+      "selfEffects": [
+        {
+          "rule": "Gift of Contagion (Psychic)",
+          "stats": [
+            {
+              "on": "ranged",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            },
+            {
+              "on": "melee",
+              "stat": "keywords",
+              "op": "append",
+              "value": "Sustained Hits 1",
+              "fromText": true
+            }
+          ],
+          "condition": "Each time a model in this unit makes an attack that targets a unit that is Afflicted, that attack has the [Sustained Hits 1] ability."
+        }
+      ]
     },
     {
       "id": "9a82-ea13-3511-6c08",
