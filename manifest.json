@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "e5a5ae6-0abd7800",
-  "date": "2026-11-24T11:42:40.538Z",
+  "dataVersion": "e5a5ae6-7d744b2d",
+  "date": "2026-11-25T00:48:33.868Z",
   "source": {
     "repo": "BSData/wh40k-11e",
     "commit": "e5a5ae69b9104f703d4e52833e514e8461d65676"
@@ -11,9 +11,9 @@
       "id": "adepta-sororitas",
       "name": "Adepta Sororitas",
       "file": "factions/adepta-sororitas.json",
-      "sha256": "b9c714aeeaa208d1abcf3529d1e5c41c30e0c83f988043394b31d2c3d47fc556",
+      "sha256": "2f22dbc480432b85e5b5facb67f3d1494da16ffffecba66ab8be9a3a3adfe760",
       "units": 112,
-      "sourceSha256": "813d2cd044b5e1d7fb0e52023a278ad6728ba223b3a6e756265d8abf5f6c0549"
+      "sourceSha256": "6cbb234b1c752638c3fd207ee59b69b1d4630696f2c014d729a7f2984fe8341c"
     },
     {
       "id": "adeptus-custodes",
@@ -43,9 +43,9 @@
       "id": "agents-of-the-imperium",
       "name": "Agents of the Imperium",
       "file": "factions/agents-of-the-imperium.json",
-      "sha256": "c108f34829cf783dbd44948118afb921cbdadcce926ecf262ee31f19643c113e",
+      "sha256": "46d27c4f402f6ce7bf07ac07bebf9b89b538b35a2eaf9c51de0a4b59555421d5",
       "units": 94,
-      "sourceSha256": "fd1aba46dd16efda967bfaefaf413e3c0e8eb69f4115f3e33503dbc6fc3c1fa1"
+      "sourceSha256": "cf883f0d052ab9abb367919f748c50f56cd386ad9a877e609bba7d4da2f7fd7b"
     },
     {
       "id": "astra-militarum",
@@ -91,9 +91,9 @@
       "id": "chaos-space-marines",
       "name": "Chaos Space Marines",
       "file": "factions/chaos-space-marines.json",
-      "sha256": "fb533f306fc90aa350adef70d49d893080728023f67924c56698d8345b0dc2d2",
+      "sha256": "17153f377a358d3544b4d475165ef92f7031b0ac29b1b96c63863f2133510539",
       "units": 194,
-      "sourceSha256": "927092d6b72c7caa60d0aa744a45605def387d07fb27f2229c68296d00a147cc"
+      "sourceSha256": "3f79e3cd8dff0d3511599d9112702f3867b9c56f7df1da4e74a077a52ddafc56"
     },
     {
       "id": "dark-angels",
@@ -107,9 +107,9 @@
       "id": "death-guard",
       "name": "Death Guard",
       "file": "factions/death-guard.json",
-      "sha256": "ffbdef4dff615c0ead396f719e6208f4e193758c6d45fcaa36858794c80d305b",
+      "sha256": "65d507df6eadd24bb5b145c41e1c7271ece97a4758212d64f5fd21972ea0fb76",
       "units": 108,
-      "sourceSha256": "d5381ef9386f894df54a8590b6eb7f3733b3ede87da9408a2ca3cf2612644bdf"
+      "sourceSha256": "5317a71a865e8a278fde22e5b7a4c70417ebf91d1c530efb80a3cb1383abaa45"
     },
     {
       "id": "deathwatch",
@@ -131,25 +131,25 @@
       "id": "emperors-children",
       "name": "Emperor's Children",
       "file": "factions/emperors-children.json",
-      "sha256": "dd2ac2a6b5e96a518a28398b2d202370236fee6bc0daf1fb70c34c0a596bd336",
+      "sha256": "50e85f62bc40b62ee5ebcd7ccb58c162ec41726b51fd734a49a7a4e29e873a0a",
       "units": 69,
-      "sourceSha256": "0cafa8ac5dadab08748aba7c99e8ffa42b92746f7c442047230208c41f585923"
+      "sourceSha256": "05ee4dabc9a62cf981f13ba5e9fda49f1f8bd3283d4d06ba4b81cd4ef74ca205"
     },
     {
       "id": "genestealer-cults",
       "name": "Genestealer Cults",
       "file": "factions/genestealer-cults.json",
-      "sha256": "21c30d2e1374a2c1babdb5e997d4744918b14b608d98bf2ed9d2394c301873e8",
+      "sha256": "ab07a5df17c39bf3a7413217b8cb1fe69aa21fe81be2ffe34035859bb5c4b754",
       "units": 118,
-      "sourceSha256": "ecd57e6e5684514b4d616ac60bb390960e1db595b593e0d2ac12e2e3faeab270"
+      "sourceSha256": "f1a45cc2b94bda67714832954ab4cdd889ded526be7a80357e3cc677c4bf2fb0"
     },
     {
       "id": "grey-knights",
       "name": "Grey Knights",
       "file": "factions/grey-knights.json",
-      "sha256": "5b1e2caf3ecf0fd3c04732761d398d4a2ee591184a749d681d92bf200e17ec77",
+      "sha256": "34eca8f71793b4aaec0a052837ddcbe99ce607ad165cbb2522ddb5ef96d97ef7",
       "units": 128,
-      "sourceSha256": "619687ff2614355c7d0016a68c6c16b8e1a606d63bf97069cd730b583a926d91"
+      "sourceSha256": "0559c5c3f3bada2f41a63c2be3b581ef069be780d7cec1fcad67b3d5d88b8725"
     },
     {
       "id": "imperial-fists",
@@ -179,17 +179,17 @@
       "id": "leagues-of-votann",
       "name": "Leagues of Votann",
       "file": "factions/leagues-of-votann.json",
-      "sha256": "de62eb343273dea0c835d850198770e9ff44ad3b123668df3fa1d7f219bf70c9",
+      "sha256": "4d425cca6a27936c22b0e391d2e74521e0e4baf567b9438fad21bbb5d93daa24",
       "units": 48,
-      "sourceSha256": "c82dd0dd4d2a036c55f24c81b7386b41f39a4f1a822f730419ce1fd4206a1fd2"
+      "sourceSha256": "a2ec3f9296cf50dfff7115ba60bb7ec7a2f0c0f289eb4b684f5e194dc55877e5"
     },
     {
       "id": "necrons",
       "name": "Necrons",
       "file": "factions/necrons.json",
-      "sha256": "d0f1c52f21e346df0ae54b564b93ad4a15aa911900b99a416679386129162cb9",
+      "sha256": "baa689e172f8f8a78fff279da99d595409fa7d4da7d3a48f107055a97c309954",
       "units": 90,
-      "sourceSha256": "3c29b7dfe78c6af45f7d03c9cd1427056eaacfacad38b3ab996e1e68e12b4595"
+      "sourceSha256": "808d7a52e5853de36e4826ff2e46bc6bed158cec3bee141ae426fff4c88af6f9"
     },
     {
       "id": "orks",
@@ -243,9 +243,9 @@
       "id": "thousand-sons",
       "name": "Thousand Sons",
       "file": "factions/thousand-sons.json",
-      "sha256": "f0bbf8cb99d15aa9851e2311758d8bde707487af50532d14bfe706fea3741f78",
+      "sha256": "661dddb49e7563a93de1c291d891f8bc35f86f03e370eb4284b8b9be69cc180f",
       "units": 95,
-      "sourceSha256": "11f711d07e9721a0577dc7dca17e5bf8839e5668106d7b918525b2af1302e022"
+      "sourceSha256": "81facfb713938c0d144bdb06ad057aaefc738d8856930cc3f3e2b0023ebba5bb"
     },
     {
       "id": "tyranids",
@@ -275,9 +275,9 @@
       "id": "world-eaters",
       "name": "World Eaters",
       "file": "factions/world-eaters.json",
-      "sha256": "19e5bde51de52f90e8e6f5fcf188a6566e677edce87bd553aa3306d0ef7fafd1",
+      "sha256": "a770229d6d0ba7186776a1ad01f4b7b7114630a68e48bd18d73fbfa25f433425",
       "units": 94,
-      "sourceSha256": "9d2594cedc6724f16552c6f4566deb8f3305704715ac564f5e67b63ffef15c2e"
+      "sourceSha256": "eebbf907638b1cfc76a06560709ddb59372712f58ab921a60aba6df237ad8171"
     }
   ],
   "missions": {

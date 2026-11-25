@@ -21413,7 +21413,8 @@
     {
       "id": "a511-d9ca-17d0-42c5",
       "name": "Reanimation Protocols",
-      "text": "If your Army Faction is NECRONS, at the end of your Command phase, each friendly unit with this ability that is on the battlefield activates its Reanimation Protocols: \n- When a unit’s Reanimation Protocols activate, that unit heals D3 wounds."
+      "text": "If your Army Faction is NECRONS, at the end of your Command phase, each friendly unit with this ability that is on the battlefield activates its Reanimation Protocols: \n- When a unit’s Reanimation Protocols activate, that unit heals D3 wounds.",
+      "army": true
     },
     {
       "id": "ada6-bac1-ffe0-d6f7",

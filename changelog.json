@@ -1,5 +1,11 @@
 [
   {
+    "dataVersion": "e5a5ae6-7d744b2d",
+    "previousDataVersion": "e5a5ae6-0abd7800",
+    "date": "2026-11-25T00:48:33.868Z",
+    "entries": []
+  },
+  {
     "dataVersion": "e5a5ae6-0abd7800",
     "previousDataVersion": "e5a5ae6-adf7d6d5",
     "date": "2026-11-24T11:42:40.538Z",
@@ -13406,98 +13412,6 @@
         "factionId": "world-eaters",
         "kind": "changed",
         "text": "Jakhals: datasheet changed"
-      }
-    ]
-  },
-  {
-    "dataVersion": "4d2f57e-23e0dbd1",
-    "previousDataVersion": "4d2f57e-57e15514",
-    "date": "2026-10-29T22:21:22.959Z",
-    "entries": [
-      {
-        "factionId": "adepta-sororitas",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "adeptus-custodes",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "adeptus-mechanicus",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "astra-militarum",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "blood-angels",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "dark-angels",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "genestealer-cults",
-        "kind": "points",
-        "text": "Atalan Jackals: 5: 85, 6–9: 160, 10: 150 → 5: 85, 6–10: 150"
-      },
-      {
-        "factionId": "grey-knights",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "imperial-fists",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "imperial-knights",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "iron-hands",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "raven-guard",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "salamanders",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "space-marines",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "space-wolves",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "ultramarines",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
-      },
-      {
-        "factionId": "white-scars",
-        "kind": "points",
-        "text": "Inquisitorial Agents: 6–12: 60 → 6: 60, 7–12: 120"
       }
     ]
   }
